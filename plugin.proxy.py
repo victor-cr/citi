@@ -1,5 +1,6 @@
 import sys
 import json
+import os
 import xml.etree.ElementTree as ET
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from http.client import HTTPSConnection
@@ -150,15 +151,15 @@ class ProxyHandler(BaseHTTPRequestHandler):
             paramMax = int(params.get('max', ['0'])[0])
 
             if (paramSearch == ''):
-                self.send_response(200)
-                self.send_header('Content-Type', f"application/json; charset={charset}")
-                self.end_headers()
-                self.wfile.write(json.dumps(random(paramBuild, paramMax)).encode(charset))
+                content = json.dumps(random(paramBuild, paramMax)).encode(charset)
             else:
-                self.send_response(200)
-                self.send_header('Content-Type', f"application/json; charset={charset}")
-                self.end_headers()
-                self.wfile.write(json.dumps(search(paramBuild, paramSearch)).encode(charset))
+                content = json.dumps(search(paramBuild, paramSearch)).encode(charset)
+
+            self.send_response(200)
+            self.send_header('Content-Type', f"application/json; charset={charset}")
+            self.send_header('Content-Length', len(content))
+            self.end_headers()
+            self.wfile.write(content)
         elif self.path.startswith('/api/search/updates/compatible'):
             url = urlparse(self.path)
             params = parse_qs(url.query)
@@ -168,15 +169,18 @@ class ProxyHandler(BaseHTTPRequestHandler):
 
             item = lookup(paramBuild, paramXmlId)
 
-            self.send_response(301)
-            self.send_header('Content-Type', f"application/json; charset={charset}")
-            self.end_headers()
-            self.wfile.write(json.dumps([{
+            content = json.dumps([{
                 'id': item.updateId,
                 'pluginId': item.pluginId,
                 'version': item.version,
                 'pluginXmlId': item.code
-            }]).encode(charset))
+            }]).encode(charset)
+
+            self.send_response(301)
+            self.send_header('Content-Type', f"application/json; charset={charset}")
+            self.send_header('Content-Length', len(content))
+            self.end_headers()
+            self.wfile.write(content)
         elif self.path.startswith('/api/icon'):
             url = urlparse(self.path)
             params = parse_qs(url.query)
@@ -187,11 +191,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
             self.end_headers()
         elif self.path.startswith('/api/products/intellij/plugins/') and self.path.endswith('/comments'):
             name = self.path.removeprefix('/api/products/intellij/plugins/').removesuffix('/comments')
-
-            self.send_response(200)
-            self.send_header('Content-Type', f"application/json; charset={charset}")
-            self.end_headers()
-            self.wfile.write(json.dumps([{
+            content = json.dumps([{
                 'id': 3158,
                 'cdate': '1233959549000',
                 'comment': 'temporary',
@@ -206,12 +206,20 @@ class ProxyHandler(BaseHTTPRequestHandler):
                     'name':'Stas Davydov',
                     'link':'/author/275364ce-247e-420d-ab88-a4521ff20e8f'
                 }
-            }]).encode(charset))
-        elif self.path == '/feature/getImplementations?featureType=dependencySupport':
+            }]).encode(charset)
+
             self.send_response(200)
             self.send_header('Content-Type', f"application/json; charset={charset}")
+            self.send_header('Content-Length', len(content))
             self.end_headers()
-            with open(f"{targetDir}\\implementations.json", 'rb') as f:
+            self.wfile.write(content)
+        elif self.path == '/feature/getImplementations?featureType=dependencySupport':
+            impl_file = f"{targetDir}\\implementations.json"
+            self.send_response(200)
+            self.send_header('Content-Type', f"application/json; charset={charset}")
+            self.send_header('Content-Type', os.path.getsize(impl_file))
+            self.end_headers()
+            with open(impl_file, 'rb') as f:
                 self.wfile.write(f.read())
         else:
             print('======== UNKNOWN =========')
