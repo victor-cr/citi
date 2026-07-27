@@ -29,6 +29,7 @@ except FileNotFoundError:
     print(f"No file with plugin locations: {locationFile}")
     locations = {}
 
+
 class VendorData(NamedTuple):
     name: str
     email: str
@@ -78,8 +79,12 @@ class PluginData(NamedTuple):
             }
         }
 
+
 class ProxyHandler(BaseHTTPRequestHandler):
     protocol_version = 'HTTP/1.1'
+
+    def log_request(self, code):
+        pass
 
     def load(self, conn):
         headers = {}
@@ -114,11 +119,13 @@ class ProxyHandler(BaseHTTPRequestHandler):
             self.wfile.write('0\r\n\r\n'.encode(charset))
 
     def do_GET(self):
-        print('Incoming', self.path)
         if self.path.startswith('/files'):
+            redirect = f"https://{marketplaceHost}{self.path}"
+
             self.send_response(301)
-            self.send_header('Location', f"https://{marketplaceHost}{self.path}")
+            self.send_header('Location', redirect)
             self.end_headers()
+            print('FILE', redirect)
         elif self.path.startswith('/pluginManager'):
             url = urlparse(self.path)
             inParams = parse_qs(url.query)
@@ -137,7 +144,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
             self.send_header('Location', redirect)
             self.end_headers()
 
-            print(f"Redirected #{id} to {redirect}")
+            print('PLGN', redirect)
         elif self.path.startswith('/.well-known'):
             self.send_error(404)
         elif self.path == '/favicon.ico':
@@ -169,14 +176,17 @@ class ProxyHandler(BaseHTTPRequestHandler):
 
             item = lookup(paramBuild, paramXmlId)
 
-            content = json.dumps([{
-                'id': item.updateId,
-                'pluginId': item.pluginId,
-                'version': item.version,
-                'pluginXmlId': item.code
-            }]).encode(charset)
+            if item is None:
+                content = ('{"id":0,"pluginId":0,"version":0,"pluginXmlId":"' + paramXmlId + '"}').encode(charset)
+            else:
+                content = json.dumps([{
+                    'id': item.updateId,
+                    'pluginId': item.pluginId,
+                    'version': item.version,
+                    'pluginXmlId': item.code
+                }]).encode(charset)
 
-            self.send_response(301)
+            self.send_response(200)
             self.send_header('Content-Type', f"application/json; charset={charset}")
             self.send_header('Content-Length', len(content))
             self.end_headers()
@@ -186,9 +196,13 @@ class ProxyHandler(BaseHTTPRequestHandler):
             params = parse_qs(url.query)
             id = params.get('pluginId', ['..'])[0].replace(' ', '_')
             icon = params.get('theme', ['DEFAULT'])[0].lower()
+            redirect = f"https://{marketplaceHost}/files/icons/intellij/{id}/{icon}.svg"
+
             self.send_response(301)
-            self.send_header('Location', f"https://{marketplaceHost}/files/icons/intellij/{id}/{icon}.svg")
+            self.send_header('Location', redirect)
             self.end_headers()
+
+            print('ICON', redirect)
         elif self.path.startswith('/api/products/intellij/plugins/') and self.path.endswith('/comments'):
             name = self.path.removeprefix('/api/products/intellij/plugins/').removesuffix('/comments')
             content = json.dumps([{
@@ -196,15 +210,15 @@ class ProxyHandler(BaseHTTPRequestHandler):
                 'cdate': '1233959549000',
                 'comment': 'temporary',
                 'rating': 5,
-                'plugin':{
+                'plugin': {
                     'id': 2,
-                    'name':name,
-                    'link':'/plugin/link'
+                    'name': name,
+                    'link': '/plugin/link'
                 },
                 'author': {
                     'id': '275364ce-247e-420d-ab88-a4521ff20e8f',
-                    'name':'Stas Davydov',
-                    'link':'/author/275364ce-247e-420d-ab88-a4521ff20e8f'
+                    'name': 'Stas Davydov',
+                    'link': '/author/275364ce-247e-420d-ab88-a4521ff20e8f'
                 }
             }]).encode(charset)
 
@@ -215,6 +229,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
             self.wfile.write(content)
         elif self.path == '/feature/getImplementations?featureType=dependencySupport':
             impl_file = f"{targetDir}\\implementations.json"
+
             self.send_response(200)
             self.send_header('Content-Type', f"application/json; charset={charset}")
             self.send_header('Content-Type', os.path.getsize(impl_file))
@@ -222,7 +237,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
             with open(impl_file, 'rb') as f:
                 self.wfile.write(f.read())
         else:
-            print('======== UNKNOWN =========')
+            print('UKWN', self.path)
             headers = {}
             for h, v in self.headers.items():
                 if h.lower() == 'host':
@@ -254,6 +269,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
                     else:
                         break
                 self.wfile.write('0\r\n\r\n'.encode(charset))
+
 
 def init(version):
     result = {}
@@ -305,21 +321,21 @@ def init(version):
 
     return result
 
-def safe_plugins(version):
-    try:
-        plugins = versionMap[version]
-    except KeyError:
-        plugins = None
 
-    if plugins is None:
+def safe_plugins(version):
+    if version not in versionMap:
         plugins = init(version)
         versionMap[version] = plugins
+    else:
+        plugins = versionMap[version]
 
     return plugins
 
+
 def lookup(version, pluginXmlId):
     plugins = safe_plugins(version)
-    return plugins[pluginXmlId]
+    return plugins.get(pluginXmlId)
+
 
 def random(version, cnt):
     plugins = safe_plugins(version)
@@ -333,6 +349,7 @@ def random(version, cnt):
             break
 
     return result
+
 
 def search(version, term):
     plugins = safe_plugins(version)
