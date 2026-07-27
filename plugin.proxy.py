@@ -201,7 +201,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
         elif self.path.startswith('/api/icon'):
             url = urlparse(self.path)
             params = parse_qs(url.query)
-            id = params.get('pluginId', ['..'])[0].replace(' ', '_')
+            id = params.get('pluginId', ['..'])[0].replace(' ', '_').lower()
             icon = params.get('theme', ['DEFAULT'])[0].lower()
             redirect = f"https://{marketplaceHost}/files/icons/intellij/{id}/{icon}.svg"
 
