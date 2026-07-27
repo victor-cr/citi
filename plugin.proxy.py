@@ -126,6 +126,13 @@ class ProxyHandler(BaseHTTPRequestHandler):
             self.send_header('Location', redirect)
             self.end_headers()
             print('FILE', redirect)
+        if self.path == '/geo/files/prices':
+            redirect = f"https://{marketplaceHost}/files/prices/pl"
+
+            self.send_response(301)
+            self.send_header('Location', redirect)
+            self.end_headers()
+            print('FILE', redirect)
         elif self.path.startswith('/pluginManager'):
             url = urlparse(self.path)
             inParams = parse_qs(url.query)
