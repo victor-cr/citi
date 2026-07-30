@@ -182,7 +182,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
             item = lookup(paramBuild, paramXmlId)
 
             if item is None:
-                content = ('{"id":0,"pluginId":0,"version":0,"pluginXmlId":"' + paramXmlId + '"}').encode(charset)
+                content = ('[{"id":0,"pluginId":0,"version":0,"pluginXmlId":"' + paramXmlId + '"}]').encode(charset)
             else:
                 content = json.dumps([{
                     'id': item.updateId,
@@ -248,6 +248,8 @@ class ProxyHandler(BaseHTTPRequestHandler):
             self.end_headers()
             with open(impl_file, 'rb') as f:
                 self.wfile.write(f.read())
+
+            print('IMPL', impl_file)
         else:
             print('UKWN', self.path)
             headers = {}
@@ -369,7 +371,7 @@ def search(version, term):
     lt = term.lower()
 
     for key, value in plugins.items():
-        if (key.lower().find(lt) >= 0 or value.name.lower().find(lt) >= 0 or value.description.lower().find(lt) >= 0):
+        if key.lower().find(lt) >= 0 or value.name.lower().find(lt) >= 0 or value.description.lower().find(lt) >= 0:
             result.append(value.to_json())
 
     return result
