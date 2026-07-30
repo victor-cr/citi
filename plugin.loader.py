@@ -24,8 +24,13 @@ with requests.Session() as session:
         response = session.get(f"{baseUrl}/feature/getImplementations?featureType={ft}")
 
         if response.status_code == 200:
-            with open(f"{targetDir}\\impl.{ft}.json", 'wb') as f:
-                f.write(response.content)
+            with open(f"{targetDir}\\impl.{ft}.json", 'w') as f:
+                json.dump(
+                    sorted(response.json(), key=lambda x: x["pluginId"]),
+                    f,
+                    indent='\t',
+                    sort_keys=True
+                )
 
             print(f"Loaded `{ft}` implementations: {len(response.content)} bytes")
         else:
@@ -104,11 +109,16 @@ with requests.Session() as session:
                 delta = datetime.now() - parsedAt
                 print(f"Loaded {iCategories}/{lenCategories} `{categoryName}` [{lenList}] in {delta.total_seconds()} sec: {b} bytes")
 
-            content = bytes(json.dumps(plugins), 'utf8')
-            with open(f"{targetDir}\\plugins.{version}.json", 'wb') as f:
-                f.write(content)
+            pluginFile = f"{targetDir}\\plugins.{version}.json"
+            with open(pluginFile, 'w') as f:
+                json.dump(
+                    sorted(plugins, key=lambda x: x["pluginId"]),
+                    f,
+                    indent='\t',
+                    sort_keys=True
+                )
 
-            print(f"Loaded `{version}` [{len(plugins)}] plugins: {len(content)} bytes")
+            print(f"Loaded `{version}` [{len(plugins)}] plugins: {os.path.getsize(pluginFile)} bytes")
         else:
             print(f"Error `{version}` plugin XML: {response.status_code}")
 
@@ -123,8 +133,17 @@ with requests.Session() as session:
     delta = datetime.now() - locationAt
     print(f"Loaded {len(locations)} locations in {delta.total_seconds()} sec")
 
-    with open(locationFile, 'wb') as f:
-        f.write(bytes(json.dumps(locations), 'utf8'))
+    with open(locationFile, 'w') as f:
+        json.dump(
+            dict(
+                sorted(
+                    locations.items(),
+                    key=lambda item: int(item[0])
+                )
+            ),
+            f,
+            indent='\t'
+        )
 
     completedAt = datetime.now()
     delta = completedAt - startedAt
