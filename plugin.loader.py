@@ -18,15 +18,18 @@ locationFile = f"{targetDir}\\plugins.location.json"
 print("Started at", startedAt)
 
 with requests.Session() as session:
-    response = session.get(f"{baseUrl}/feature/getImplementations?featureType=dependencySupport")
+    featureTypes = ['dependencySupport', 'com.intellij.fileTypeFactory']
 
-    if response.status_code == 200:
-        with open(f"{targetDir}\\implementations.json", 'wb') as f:
-            f.write(response.content)
+    for ft in featureTypes:
+        response = session.get(f"{baseUrl}/feature/getImplementations?featureType={ft}")
 
-        print(f"Loaded implementations: {len(response.content)} bytes")
-    else:
-        print(f"Error getImplementations: {response.status_code}")
+        if response.status_code == 200:
+            with open(f"{targetDir}\\impl.{ft}.json", 'wb') as f:
+                f.write(response.content)
+
+            print(f"Loaded `{ft}` implementations: {len(response.content)} bytes")
+        else:
+            print(f"Error getting `{ft}` implementations: {response.status_code}")
 
     locations = {}
 

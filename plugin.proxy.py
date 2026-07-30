@@ -119,15 +119,19 @@ class ProxyHandler(BaseHTTPRequestHandler):
             self.wfile.write('0\r\n\r\n'.encode(charset))
 
     def do_GET(self):
-        if self.path.startswith('/files'):
-            redirect = f"https://{marketplaceHost}{self.path}"
+        if self.path == '/geo/files/prices':
+            redirect = f"https://{marketplaceHost}/files/prices/pl"
 
             self.send_response(301)
             self.send_header('Location', redirect)
             self.end_headers()
             print('FILE', redirect)
-        elif self.path == '/geo/files/prices':
-            redirect = f"https://{marketplaceHost}/files/prices/pl"
+        elif self.path == '/favicon.ico':
+            self.send_error(404)
+        elif self.path.startswith('/.well-known'):
+            self.send_error(404)
+        elif self.path.startswith('/files'):
+            redirect = f"https://{marketplaceHost}{self.path}"
 
             self.send_response(301)
             self.send_header('Location', redirect)
@@ -143,8 +147,6 @@ class ProxyHandler(BaseHTTPRequestHandler):
             item = lookup(inBuild, inId)
             id = str(item.updateId)
 
-            # GET /pluginManager?os=Windows%2011.0&build=IU-261.24374.151&updatedFrom&id=com.intellij.spring.debugger&arch=X86_64&uuid=2705261b45a89b0-f20a-4825-b7af-f893e5aa55ae
-            # https://plugins.jetbrains.com/files/25302/1013894/spring-debugger-261.23567.28.zip?updateId=1013894&pluginId=25302&family=INTELLIJ&uuid=2705261b45a89b0-f20a-4825-b7af-f893e5aa55ae&updatedFrom=&code=IU&build=261.24374.151
             redirect = f"https://{marketplaceHost}{locations[id]}"
 
             self.send_response(301)
@@ -152,10 +154,6 @@ class ProxyHandler(BaseHTTPRequestHandler):
             self.end_headers()
 
             print('PLGN', redirect)
-        elif self.path.startswith('/.well-known'):
-            self.send_error(404)
-        elif self.path == '/favicon.ico':
-            self.send_error(404)
         elif self.path.startswith('/api/search/plugins'):
             url = urlparse(self.path)
             params = parse_qs(url.query)
@@ -201,8 +199,10 @@ class ProxyHandler(BaseHTTPRequestHandler):
         elif self.path.startswith('/api/icon'):
             url = urlparse(self.path)
             params = parse_qs(url.query)
+
             id = params.get('pluginId', ['..'])[0].replace(' ', '_').lower()
             icon = params.get('theme', ['DEFAULT'])[0].lower()
+
             redirect = f"https://{marketplaceHost}/files/icons/intellij/{id}/{icon}.svg"
 
             self.send_response(301)
@@ -234,8 +234,13 @@ class ProxyHandler(BaseHTTPRequestHandler):
             self.send_header('Content-Length', len(content))
             self.end_headers()
             self.wfile.write(content)
-        elif self.path == '/feature/getImplementations?featureType=dependencySupport':
-            impl_file = f"{targetDir}\\implementations.json"
+        elif self.path.startswith('/feature/getImplementations?featureType='):
+            url = urlparse(self.path)
+            params = parse_qs(url.query)
+
+            featureType = params.get('featureType', [''])[0]
+
+            impl_file = f"{targetDir}\\impl.{featureType}.json"
 
             self.send_response(200)
             self.send_header('Content-Type', f"application/json; charset={charset}")
