@@ -130,13 +130,14 @@ class ProxyHandler(BaseHTTPRequestHandler):
             self.send_error(404)
         elif self.path.startswith('/.well-known'):
             self.send_error(404)
-        elif self.path.startswith('/files'):
+        elif self.path.startswith('/files/'):
+            print('\rFILE', self.path, end='', flush=True)
             redirect = f"https://{marketplaceHost}{self.path}"
 
             self.send_response(301)
             self.send_header('Location', redirect)
             self.end_headers()
-            print('FILE', redirect)
+            print('\rFILE', redirect)
         elif self.path.startswith('/pluginManager'):
             url = urlparse(self.path)
             inParams = parse_qs(url.query)
@@ -173,6 +174,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(content)
         elif self.path.startswith('/api/search/updates/compatible'):
+            print('\rUPDT', 'Searching', end='', flush=True)
             url = urlparse(self.path)
             params = parse_qs(url.query)
 
@@ -196,6 +198,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
             self.send_header('Content-Length', len(content))
             self.end_headers()
             self.wfile.write(content)
+            print('\rUPDT', f"Found {item.code}:{item.version}")
         elif self.path.startswith('/api/icon'):
             url = urlparse(self.path)
             params = parse_qs(url.query)

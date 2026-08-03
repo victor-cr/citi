@@ -2975,6 +2975,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": ".irisconfig.json",
+		"pluginId": "co.iriscode",
+		"pluginName": "Iris Code"
+	},
+	{
+		"bundled": false,
 		"implementationName": "_cq_*.xml",
 		"pluginId": "co.nums.intellij.aem",
 		"pluginName": "AEM IDE"
@@ -3739,7 +3745,7 @@
 		"bundled": false,
 		"implementationName": "*.baml",
 		"pluginId": "com.boundaryml.jetbrains_ext",
-		"pluginName": "BAML"
+		"pluginName": "BAML v0 Playground"
 	},
 	{
 		"bundled": false,
@@ -15517,6 +15523,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.out",
+		"pluginId": "com.prism.logviewer",
+		"pluginName": "PRISM Log Viewer"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.db",
 		"pluginId": "com.protonail.bbolt",
 		"pluginName": "bbolt Database"
@@ -16744,6 +16756,12 @@
 		"implementationName": "*.ngql",
 		"pluginId": "com.tony.nebula-highlight",
 		"pluginName": "Nebula-highlight"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.wgsl",
+		"pluginId": "com.toprakdeviren.wgsl",
+		"pluginName": "wgsl.run"
 	},
 	{
 		"bundled": false,
@@ -27199,6 +27217,12 @@
 		"implementationName": "*.recon",
 		"pluginId": "org.swim.recon",
 		"pluginName": "Recon"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.elpl",
+		"pluginId": "org.syed.elpl.support",
+		"pluginName": "ELPL support"
 	},
 	{
 		"bundled": false,
