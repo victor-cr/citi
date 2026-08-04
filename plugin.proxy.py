@@ -366,12 +366,12 @@ def lookup(version, plugin_ids):
     for id in plugin_ids:
         result = plugins.get(id)
         if result is not None:
-            results += {
+            results.append({
                 'id': result.updateId,
                 'pluginId': result.pluginId,
                 'version': result.version,
                 'pluginXmlId': result.code
-            }
+            })
 
     return results
 
