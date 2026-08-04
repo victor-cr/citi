@@ -8,9 +8,10 @@ from urllib.parse import urlparse, parse_qs
 from datetime import datetime
 from typing import NamedTuple, List
 
+slash = os.path.sep
 hostName = 'localhost'
 serverPort = 8000
-targetDir = sys.argv[1]
+targetDir = sys.argv[1].replace('/', slash)
 chunkSize = 4096
 charset = 'utf-8'
 marketplaceHost = 'downloads.marketplace.jetbrains.com'
@@ -19,7 +20,7 @@ connection = HTTPSConnection(marketplaceHost)
 temp = HTTPSConnection(pluginsHost)
 versionMap = {}
 locations = {}
-locationFile = f"{targetDir}\\plugins.location.json"
+locationFile = f"{targetDir}{slash}plugins.location.json"
 
 try:
     with open(locationFile, 'r') as f:
@@ -254,7 +255,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
 
             featureType = params.get('featureType', [''])[0]
 
-            impl_file = f"{targetDir}\\impl.{featureType}.json"
+            impl_file = f"{targetDir}{slash}impl.{featureType}.json"
 
             self.send_response(200)
             self.send_header('Content-Type', f"application/json; charset={charset}")
@@ -303,11 +304,11 @@ def init(version):
     result = {}
     dict = {}
 
-    with open(f"{targetDir}\\plugins.{version}.json", 'r') as f:
+    with open(f"{targetDir}{slash}plugins.{version}.json", 'r') as f:
         for item in json.load(f):
             dict[item['pluginXmlId']] = item
 
-    tree = ET.parse(f"{targetDir}\\plugins.{version}.xml")
+    tree = ET.parse(f"{targetDir}{slash}plugins.{version}.xml")
     root = tree.getroot()
     categories = root.findall('category')
     for category in categories:

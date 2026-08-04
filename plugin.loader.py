@@ -6,14 +6,15 @@ import xml.etree.ElementTree as ET
 from datetime import datetime
 from urllib.parse import urlencode
 
-targetDir = sys.argv[1]
+slash = os.path.sep
+targetDir = sys.argv[1].replace('/', slash)
 baseUrl = 'https://plugins.jetbrains.com'
 osystem = 'Windows 11.0'
 arch = 'X86_64'
 versions = ['IU-261.22158.277', 'IU-261.24374.151', 'IU-261.26222.65', 'IU-262.8665.337']
 bucketSize = 40
 startedAt = datetime.now()
-locationFile = f"{targetDir}\\plugins.location.json"
+locationFile = f"{targetDir}{slash}plugins.location.json"
 
 print("Started at", startedAt)
 
@@ -24,7 +25,7 @@ with requests.Session() as session:
         response = session.get(f"{baseUrl}/feature/getImplementations?featureType={ft}")
 
         if response.status_code == 200:
-            with open(f"{targetDir}\\impl.{ft}.json", 'w') as f:
+            with open(f"{targetDir}{slash}impl.{ft}.json", 'w') as f:
                 json.dump(
                     sorted(response.json(), key=lambda x: x["pluginId"]),
                     f,
@@ -53,7 +54,7 @@ with requests.Session() as session:
         response = session.get(f"{baseUrl}/plugins/list/?build={version}")
 
         if response.status_code == 200:
-            xmlFile = f"{targetDir}\\plugins.{version}.xml"
+            xmlFile = f"{targetDir}{slash}plugins.{version}.xml"
             with open(xmlFile, 'wb') as f:
                 f.write(response.content)
 
@@ -109,7 +110,7 @@ with requests.Session() as session:
                 delta = datetime.now() - parsedAt
                 print(f"Loaded {iCategories}/{lenCategories} `{categoryName}` [{lenList}] in {delta.total_seconds()} sec: {b} bytes")
 
-            pluginFile = f"{targetDir}\\plugins.{version}.json"
+            pluginFile = f"{targetDir}{slash}plugins.{version}.json"
             with open(pluginFile, 'w') as f:
                 json.dump(
                     sorted(plugins, key=lambda x: x["pluginId"]),
