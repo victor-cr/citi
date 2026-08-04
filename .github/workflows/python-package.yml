@@ -38,7 +38,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Load plugins
       run: |
-        python plugin.loader.py ./data
+        python plugin.loader.py data
     - name: Commit updates
       uses: EndBug/add-and-commit@v10 # You can change this to use a specific version.
         with:
