@@ -126,6 +126,8 @@ class ProxyHandler(BaseHTTPRequestHandler):
             self.send_response(301)
             self.send_header('Location', redirect)
             self.end_headers()
+
+            print('\rFILE', ' ' * len(self.path), end='', flush=True)
             print('\rFILE', redirect)
         elif self.path == '/favicon.ico':
             self.send_error(404)
@@ -138,8 +140,11 @@ class ProxyHandler(BaseHTTPRequestHandler):
             self.send_response(301)
             self.send_header('Location', redirect)
             self.end_headers()
+
+            print('\rFILE', ' ' * len(self.path), end='', flush=True)
             print('\rFILE', redirect)
         elif self.path.startswith('/pluginManager'):
+            print('\rPLGN', self.path, end='', flush=True)
             url = urlparse(self.path)
             inParams = parse_qs(url.query)
 
@@ -155,7 +160,8 @@ class ProxyHandler(BaseHTTPRequestHandler):
             self.send_header('Location', redirect)
             self.end_headers()
 
-            print('PLGN', redirect)
+            print('\rPLGN', ' ' * len(self.path), end='', flush=True)
+            print('\rPLGN', redirect)
         elif self.path.startswith('/api/search/plugins'):
             print('\rSRCH', 'Searching', self.path, end='', flush=True)
             url = urlparse(self.path)
@@ -178,7 +184,8 @@ class ProxyHandler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(content)
 
-            print('\rSRCH', f"Found {len(results)} plugins", ' ' * len(self.path))
+            print('\rSRCH', 'Searching', ' ' * len(self.path), end='', flush=True)
+            print('\rSRCH', f"Found {len(results)} plugins")
         elif self.path.startswith('/api/search/updates/compatible'):
             print('\rUPDT', 'Searching', self.path, end='', flush=True)
             url = urlparse(self.path)
@@ -191,7 +198,8 @@ class ProxyHandler(BaseHTTPRequestHandler):
                 self.send_response(204)
                 self.end_headers()
 
-                print('\rUPDT', 'No content', ' ' * len(self.path))
+                print('\rUPDT', 'Searching', ' ' * len(self.path), end='', flush=True)
+                print('\rUPDT', 'No content')
             else:
                 items = lookup(paramBuild, paramXmlIds)
 
@@ -203,11 +211,15 @@ class ProxyHandler(BaseHTTPRequestHandler):
                 self.end_headers()
                 self.wfile.write(content)
 
+                print('\rUPDT', 'Searching', ' ' * len(self.path), end='', flush=True)
+
                 if len(items) == 0:
-                    print('\rUPDT', 'Not found...', ' ' * len(self.path))
+                    print('\rUPDT', 'Not found...')
                 else:
-                    print('\rUPDT', f"Found {len(items)} plugin updates", ' ' * len(self.path))
+                    print('\rUPDT', f"Found {len(items)} plugin updates")
         elif self.path.startswith('/api/icon'):
+            print('\rICON', self.path, end='', flush=True)
+
             url = urlparse(self.path)
             params = parse_qs(url.query)
 
@@ -220,7 +232,8 @@ class ProxyHandler(BaseHTTPRequestHandler):
             self.send_header('Location', redirect)
             self.end_headers()
 
-            print('ICON', redirect)
+            print('\rICON', ' ' * len(self.path), end='', flush=True)
+            print('\rICON', redirect)
         elif self.path.startswith('/api/products/intellij/plugins/') and self.path.endswith('/comments'):
             name = self.path.removeprefix('/api/products/intellij/plugins/').removesuffix('/comments')
             content = json.dumps([{
@@ -261,6 +274,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
             with open(impl_file, 'rb') as f:
                 self.wfile.write(f.read())
 
+            print('\rIMPL', 'Fetching', ' ' * len(self.path), end='', flush=True)
             print('\rIMPL', 'Fetched', impl_file)
         else:
             print('UKWN', self.path)
