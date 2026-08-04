@@ -19,9 +19,10 @@ connection = HTTPSConnection(marketplaceHost)
 temp = HTTPSConnection(pluginsHost)
 versionMap = {}
 locations = {}
+locationFile = f"{targetDir}\\plugins.location.json"
 
 try:
-    with open(f"{targetDir}\\plugins.location.json", 'r') as f:
+    with open(locationFile, 'r') as f:
         locations = json.load(f)
 
     print(f"Loaded {len(locations)} existing plugin locations")
