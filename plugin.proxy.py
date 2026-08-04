@@ -156,6 +156,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
 
             print('PLGN', redirect)
         elif self.path.startswith('/api/search/plugins'):
+            print('\rSRCH', 'Searching', self.path, end='', flush=True)
             url = urlparse(self.path)
             params = parse_qs(url.query)
 
@@ -163,18 +164,22 @@ class ProxyHandler(BaseHTTPRequestHandler):
             paramSearch = params.get('search', [''])[0]
             paramMax = int(params.get('max', ['0'])[0])
 
-            if (paramSearch == ''):
-                content = json.dumps(random(paramBuild, paramMax)).encode(charset)
+            if paramSearch == '':
+                results = random(paramBuild, paramMax)
             else:
-                content = json.dumps(search(paramBuild, paramSearch)).encode(charset)
+                results = search(paramBuild, paramSearch)
+
+            content = json.dumps(results).encode(charset)
 
             self.send_response(200)
             self.send_header('Content-Type', f"application/json; charset={charset}")
             self.send_header('Content-Length', len(content))
             self.end_headers()
             self.wfile.write(content)
+
+            print('\rSRCH', f"Found {len(results)} plugins")
         elif self.path.startswith('/api/search/updates/compatible'):
-            print('\rUPDT', 'Searching', end='', flush=True)
+            print('\rUPDT', 'Searching', self.path, end='', flush=True)
             url = urlparse(self.path)
             params = parse_qs(url.query)
 
@@ -198,7 +203,11 @@ class ProxyHandler(BaseHTTPRequestHandler):
             self.send_header('Content-Length', len(content))
             self.end_headers()
             self.wfile.write(content)
-            print('\rUPDT', f"Found {item.code}:{item.version}")
+
+            if item is None:
+                print('\rUPDT', f"Not Found {paramXmlId}")
+            else:
+                print('\rUPDT', f"Found {item.code}:{item.version}")
         elif self.path.startswith('/api/icon'):
             url = urlparse(self.path)
             params = parse_qs(url.query)
@@ -238,6 +247,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(content)
         elif self.path.startswith('/feature/getImplementations?featureType='):
+            print('\rIMPL', 'Fetching', self.path, end='', flush=True)
             url = urlparse(self.path)
             params = parse_qs(url.query)
 
@@ -252,7 +262,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
             with open(impl_file, 'rb') as f:
                 self.wfile.write(f.read())
 
-            print('IMPL', impl_file)
+            print('\rIMPL', 'Fetched', impl_file)
         else:
             print('UKWN', self.path)
             headers = {}
