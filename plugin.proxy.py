@@ -120,39 +120,35 @@ class ProxyHandler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         if self.path == '/geo/files/prices':
-            print('\rFILE', self.path, end='', flush=True)
             redirect = f"https://{marketplaceHost}/files/prices/pl"
 
             self.send_response(301)
             self.send_header('Location', redirect)
             self.end_headers()
 
-            print('\rFILE', ' ' * len(self.path), end='', flush=True)
-            print('\rFILE', redirect)
+            print('FILE', redirect)
         elif self.path == '/favicon.ico':
             self.send_error(404)
         elif self.path.startswith('/.well-known'):
             self.send_error(404)
         elif self.path.startswith('/files/'):
-            print('\rFILE', self.path, end='', flush=True)
             redirect = f"https://{marketplaceHost}{self.path}"
 
             self.send_response(301)
             self.send_header('Location', redirect)
             self.end_headers()
 
-            print('\rFILE', ' ' * len(self.path), end='', flush=True)
-            print('\rFILE', redirect)
+            print('FILE', redirect)
         elif self.path.startswith('/pluginManager'):
-            print('\rPLGN', self.path, end='', flush=True)
+            print('PLGN', 'Requesting', self.path)
             url = urlparse(self.path)
             inParams = parse_qs(url.query)
 
-            inId = inParams.get('id', [''])[0]
+            inIds = inParams.get('id', [''])
             inBuild = inParams.get('build', [''])[0]
 
-            item = lookup(inBuild, inId)
-            id = str(item.updateId)
+            items = lookup(inBuild, inIds)
+            id = str(items[0].get('id'))
 
             redirect = f"https://{marketplaceHost}{locations[id]}"
 
@@ -160,10 +156,9 @@ class ProxyHandler(BaseHTTPRequestHandler):
             self.send_header('Location', redirect)
             self.end_headers()
 
-            print('\rPLGN', ' ' * len(self.path), end='', flush=True)
-            print('\rPLGN', redirect)
+            print('PLGN', 'Forward to', redirect)
         elif self.path.startswith('/api/search/plugins'):
-            print('\rSRCH', 'Searching', self.path, end='', flush=True)
+            print('SRCH', 'Searching', self.path)
             url = urlparse(self.path)
             params = parse_qs(url.query)
 
@@ -184,10 +179,9 @@ class ProxyHandler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(content)
 
-            print('\rSRCH', 'Searching', ' ' * len(self.path), end='', flush=True)
-            print('\rSRCH', f"Found {len(results)} plugins")
+            print('SRCH', f"Found {len(results)} plugins")
         elif self.path.startswith('/api/search/updates/compatible'):
-            print('\rUPDT', 'Searching', self.path, end='', flush=True)
+            print('UPDT', 'Searching', self.path)
             url = urlparse(self.path)
             params = parse_qs(url.query)
 
@@ -198,8 +192,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
                 self.send_response(204)
                 self.end_headers()
 
-                print('\rUPDT', 'Searching', ' ' * len(self.path), end='', flush=True)
-                print('\rUPDT', 'No content')
+                print('UPDT', 'No content')
             else:
                 items = lookup(paramBuild, paramXmlIds)
 
@@ -211,15 +204,11 @@ class ProxyHandler(BaseHTTPRequestHandler):
                 self.end_headers()
                 self.wfile.write(content)
 
-                print('\rUPDT', 'Searching', ' ' * len(self.path), end='', flush=True)
-
                 if len(items) == 0:
-                    print('\rUPDT', 'Not found...')
+                    print('UPDT', 'Not found...')
                 else:
-                    print('\rUPDT', f"Found {len(items)} plugin updates")
+                    print('UPDT', f"Found {len(items)} plugin updates")
         elif self.path.startswith('/api/icon'):
-            print('\rICON', self.path, end='', flush=True)
-
             url = urlparse(self.path)
             params = parse_qs(url.query)
 
@@ -232,8 +221,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
             self.send_header('Location', redirect)
             self.end_headers()
 
-            print('\rICON', ' ' * len(self.path), end='', flush=True)
-            print('\rICON', redirect)
+            print('ICON', redirect)
         elif self.path.startswith('/api/products/intellij/plugins/') and self.path.endswith('/comments'):
             name = self.path.removeprefix('/api/products/intellij/plugins/').removesuffix('/comments')
             content = json.dumps([{
@@ -259,7 +247,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(content)
         elif self.path.startswith('/feature/getImplementations?featureType='):
-            print('\rIMPL', 'Fetching', self.path, end='', flush=True)
+            print('IMPL', 'Fetching', self.path)
             url = urlparse(self.path)
             params = parse_qs(url.query)
 
@@ -274,8 +262,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
             with open(impl_file, 'rb') as f:
                 self.wfile.write(f.read())
 
-            print('\rIMPL', 'Fetching', ' ' * len(self.path), end='', flush=True)
-            print('\rIMPL', 'Fetched', impl_file)
+            print('IMPL', 'Fetched', impl_file)
         else:
             print('UKWN', self.path)
             headers = {}
