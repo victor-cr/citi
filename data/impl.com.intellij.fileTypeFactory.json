@@ -20210,18 +20210,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "*.ged",
-		"pluginId": "gedcom.jetbrains",
-		"pluginName": "GEDCOM"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.gedcom",
-		"pluginId": "gedcom.jetbrains",
-		"pluginName": "GEDCOM"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.db",
 		"pluginId": "generatedsoft.mps.dbfp",
 		"pluginName": "MPS file-DB persistence"
