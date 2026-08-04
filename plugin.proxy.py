@@ -120,12 +120,13 @@ class ProxyHandler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         if self.path == '/geo/files/prices':
+            print('\rFILE', self.path, end='', flush=True)
             redirect = f"https://{marketplaceHost}/files/prices/pl"
 
             self.send_response(301)
             self.send_header('Location', redirect)
             self.end_headers()
-            print('FILE', redirect)
+            print('\rFILE', redirect)
         elif self.path == '/favicon.ico':
             self.send_error(404)
         elif self.path.startswith('/.well-known'):
@@ -177,37 +178,35 @@ class ProxyHandler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(content)
 
-            print('\rSRCH', f"Found {len(results)} plugins")
+            print('\rSRCH', f"Found {len(results)} plugins", ' ' * len(self.path))
         elif self.path.startswith('/api/search/updates/compatible'):
             print('\rUPDT', 'Searching', self.path, end='', flush=True)
             url = urlparse(self.path)
             params = parse_qs(url.query)
 
             paramBuild = params.get('build', [''])[0]
-            paramXmlId = params.get('pluginXmlId', [''])[0]
+            paramXmlIds = params.get('pluginXmlId', [''])
 
-            item = lookup(paramBuild, paramXmlId)
+            if paramXmlIds == ['']:
+                self.send_response(204)
+                self.end_headers()
 
-            if item is None:
-                content = ('[{"id":0,"pluginId":0,"version":0,"pluginXmlId":"' + paramXmlId + '"}]').encode(charset)
+                print('\rUPDT', 'No content', ' ' * len(self.path))
             else:
-                content = json.dumps([{
-                    'id': item.updateId,
-                    'pluginId': item.pluginId,
-                    'version': item.version,
-                    'pluginXmlId': item.code
-                }]).encode(charset)
+                items = lookup(paramBuild, paramXmlIds)
 
-            self.send_response(200)
-            self.send_header('Content-Type', f"application/json; charset={charset}")
-            self.send_header('Content-Length', len(content))
-            self.end_headers()
-            self.wfile.write(content)
+                content = json.dumps(items).encode(charset)
 
-            if item is None:
-                print('\rUPDT', f"Not Found {paramXmlId}")
-            else:
-                print('\rUPDT', f"Found {item.code}:{item.version}")
+                self.send_response(200)
+                self.send_header('Content-Type', f"application/json; charset={charset}")
+                self.send_header('Content-Length', len(content))
+                self.end_headers()
+                self.wfile.write(content)
+
+                if len(items) == 0:
+                    print('\rUPDT', 'Not found...', ' ' * len(self.path))
+                else:
+                    print('\rUPDT', f"Found {len(items)} plugin updates", ' ' * len(self.path))
         elif self.path.startswith('/api/icon'):
             url = urlparse(self.path)
             params = parse_qs(url.query)
@@ -359,9 +358,21 @@ def safe_plugins(version):
     return plugins
 
 
-def lookup(version, pluginXmlId):
+def lookup(version, plugin_ids):
     plugins = safe_plugins(version)
-    return plugins.get(pluginXmlId)
+    results = []
+
+    for id in plugin_ids:
+        result = plugins.get(id)
+        if result is not None:
+            results += {
+                'id': result.updateId,
+                'pluginId': result.pluginId,
+                'version': result.version,
+                'pluginXmlId': result.code
+            }
+
+    return results
 
 
 def random(version, cnt):
