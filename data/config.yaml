@@ -1,0 +1,47 @@
+common:
+  encoding: utf-8
+  os: Windows 11.0
+  arch: X86_64
+  http:
+    userAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
+    acceptEncoding: gzip, deflate, br
+  hosts:
+    source: plugins.jetbrains.com
+    target: downloads.marketplace.jetbrains.com
+  plugins:
+    location: plugins.location.json
+    comments: plugins.comments.json
+  featureTypes:
+    'dependencySupport': impl.dependencySupport.json
+    'com.intellij.fileTypeFactory': impl.fileTypeFactory.json
+  mapping:
+    '^/favicon.ico$': null
+    '^/.well-known.*?$': null
+    '^/files/(.*?)$': '/files/\1'
+    '^/geo/files/prices$': '/files/prices/pl'
+  applications:
+    - code: IU
+      family: INTELLIJ
+      name: IntelliJ IDEA
+      builds:
+        - build: 262.8665.337
+          enabled: true
+          version: '2026.2.0.1'
+        - build: 261.26222.65
+          enabled: true
+          version: '2026.1.4'
+        - build: 261.24374.151
+          enabled: false
+          version: '2026.1.2'
+        - build: 261.22158.277
+          enabled: false
+          version: '2026.1'
+loader:
+  bucket: 50
+proxy:
+  host: localhost
+  port: 8000
+  version: 'HTTP/1.1'
+  chunk: 4096
+
+

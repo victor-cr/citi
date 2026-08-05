@@ -2,6 +2,7 @@ import sys
 import json
 import os
 import xml.etree.ElementTree as ET
+from pathlib import Path
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from http.client import HTTPSConnection
 from urllib.parse import urlparse, parse_qs
@@ -37,13 +38,11 @@ class VendorData(NamedTuple):
     email: str
     url: str
 
-
 class IdeaVersionData(NamedTuple):
     min: str
     max: str
     fromBuild: str
     untilBuild: str
-
 
 class PluginData(NamedTuple):
     code: str
@@ -81,6 +80,16 @@ class PluginData(NamedTuple):
             }
         }
 
+def load_json(name, file_path):
+    result = {}
+    try:
+        size = os.path.getsize(file_path)
+        with open(file_path, 'r') as f:
+            result = json.load(f)
+        print(f"JSON loaded: {file_path} [{len(result)} elements] {}")
+    except FileNotFoundError:
+        print(f"No file with plugin locations: {locationFile}")
+    return result
 
 class ProxyHandler(BaseHTTPRequestHandler):
     protocol_version = 'HTTP/1.1'
@@ -99,17 +108,17 @@ class ProxyHandler(BaseHTTPRequestHandler):
         response = conn.getresponse()
         self.send_response(response.status)
         for header, value in response.getheaders():
-            if (header.lower() == 'location'):
-                print('Location', ':', value)
+            if header.lower() == 'location':
+                print('UNKN', 'Location', ':', value)
             self.send_header(header, value)
         self.end_headers()
 
         if not response.chunked:
-            print('Not chunked')
+            print('UNKN', 'Not chunked')
             while chunk := response.read(chunkSize):
                 self.wfile.write(chunk)
         else:
-            print('Chunked')
+            print('UNKN', 'Chunked')
             while not response.isclosed():
                 if chunk := response.read(chunkSize):
                     self.wfile.write('{:x}\r\n'.format(len(chunk)).encode(charset))
@@ -119,6 +128,8 @@ class ProxyHandler(BaseHTTPRequestHandler):
                 else:
                     break
             self.wfile.write('0\r\n\r\n'.encode(charset))
+
+        print('UNKN', 'Done')
 
     def do_GET(self):
         if self.path == '/geo/files/prices':
@@ -267,37 +278,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
             print('IMPL', 'Fetched', impl_file)
         else:
             print('UKWN', self.path)
-            headers = {}
-            for h, v in self.headers.items():
-                if h.lower() == 'host':
-                    headers[h] = pluginsHost
-                else:
-                    headers[h] = v
-            temp.request("GET", self.path, headers=headers, encode_chunked=True)
-            response = temp.getresponse()
-            chunked = response.chunked
-            self.send_response(response.status)
-            for header, value in response.getheaders():
-                if (header.lower() == 'location'):
-                    print('Location', ':', value)
-                self.send_header(header, value)
-            self.end_headers()
-
-            if not chunked:
-                print('Not chunked')
-                while chunk := response.read(chunkSize):
-                    self.wfile.write(chunk)
-            else:
-                print('Chunked')
-                while not response.isclosed():
-                    if chunk := response.read(chunkSize):
-                        self.wfile.write('{:x}\r\n'.format(len(chunk)).encode(charset))
-                        self.wfile.write(chunk)
-                        self.wfile.write('\r\n'.encode(charset))
-                        self.wfile.flush()
-                    else:
-                        break
-                self.wfile.write('0\r\n\r\n'.encode(charset))
+            load(temp)
 
 
 def init(version):
@@ -338,6 +319,9 @@ def init(version):
             jsonPluginId = dict[xmlId]['pluginId']
             jsonUpdateId = dict[xmlId]['id']
             jsonVersion = dict[xmlId]['version']
+
+            if xmlVersion != jsonVersion:
+                print(f"Inconsistent versioning for `{xmlId}`. XML has `{xmlVersion}` and JSON has `jsonVersion`")
 
             result[xmlId] = PluginData(
                 xmlId, int(jsonPluginId), int(jsonUpdateId), xmlName, xmlDescription, jsonVersion, xmlUrl,

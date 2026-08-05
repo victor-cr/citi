@@ -1,150 +1,232 @@
 import requests
+import regex
+import yaml
 import json
 import os
 import sys
-import xml.etree.ElementTree as ET
+import common
 from datetime import datetime
-from urllib.parse import urlencode
+from urllib.parse import quote, urlencode
 
-slash = os.path.sep
-targetDir = sys.argv[1].replace('/', slash)
-baseUrl = 'https://plugins.jetbrains.com'
-osystem = 'Windows 11.0'
-arch = 'X86_64'
-versions = ['IU-261.22158.277', 'IU-261.24374.151', 'IU-261.26222.65', 'IU-262.8665.337']
-bucketSize = 40
+arg1 = sys.argv[1]
+arg2 = None
+
+if len(sys.argv) > 2:
+    arg2 = sys.argv[2]
+
+targetDir = common.to_dir(arg1)
+
+if targetDir is None:
+    sys.exit(f"FATAL! `{arg1}` directory does not exist")
+
+config = common.load_config(targetDir)
+sourceUrl = f"https://{config['common']['hosts']['source']}"
+targetUrl = f"https://{config['common']['hosts']['target']}"
+bucketSize = int(config['loader']['bucket'])
+charset = config['common']['encoding']
+mappings = config['common']['mapping']
+locationFile = targetDir / config['common']['plugins']['location']
 startedAt = datetime.now()
-locationFile = f"{targetDir}{slash}plugins.location.json"
 
 print("Started at", startedAt)
 
-with requests.Session() as session:
-    featureTypes = ['dependencySupport', 'com.intellij.fileTypeFactory']
+replacements = {}
+reSourceUrl = sourceUrl.replace('.', '\\.')
 
-    for ft in featureTypes:
-        response = session.get(f"{baseUrl}/feature/getImplementations?featureType={ft}")
+for mapping in mappings:
+    if mappings[mapping] is not None:
+        pattern = mapping
+
+        if pattern.startswith('^'):
+            pattern = '"' + reSourceUrl + pattern[1:]
+        else:
+            pattern = '"' + reSourceUrl + pattern
+
+        if pattern.endswith('$'):
+            pattern = pattern[:len(pattern)-1] + '"'
+        else:
+            pattern = pattern + '"'
+
+        re = regex.compile(pattern)
+        replacements[re] = '"' + targetUrl + mappings[mapping] + '"'
+
+with requests.Session() as session:
+    session.headers.update({
+        'Accept-Encoding': config['common']['http']['acceptEncoding'],
+        'User-Agent': config['common']['http']['userAgent']
+    })
+
+    for ft in config['common']['featureTypes']:
+        response = session.get(f"{sourceUrl}/feature/getImplementations?featureType={ft}")
 
         if response.status_code == 200:
-            with open(f"{targetDir}{slash}impl.{ft}.json", 'w') as f:
-                json.dump(
-                    sorted(response.json(), key=lambda x: x["pluginId"]),
-                    f,
-                    indent='\t',
-                    sort_keys=True
-                )
-
-            print(f"Loaded `{ft}` implementations: {len(response.content)} bytes")
+            common.write_json(
+                f"Implementation {ft}",
+                targetDir,
+                config['common']['featureTypes'][ft],
+                sorted(response.json(), key=lambda x: x["pluginId"]),
+                encoding=charset
+            )
         else:
             print(f"Error getting `{ft}` implementations: {response.status_code}")
 
-    locations = {}
+    comments = common.load_json(
+        'Comment plugins',
+        targetDir,
+        config['common']['plugins']['comments'],
+        encoding=charset
+    )
+    locations = common.load_json(
+        'Location plugins',
+        targetDir,
+        config['common']['plugins']['location'],
+        encoding=charset
+    )
 
-    try:
-        with open(locationFile, 'r') as f:
-            locations = json.load(f)
+    for appConfig in config['common']['applications']:
+        for info in appConfig['builds']:
+            if info.get('enabled', False):
+                appBuild = appConfig['code'] + '-' + info['build']
+                appName = appConfig['name'] + ' ' + info['version']
+                response = session.get(f"{sourceUrl}/plugins/list/?build={appBuild}")
 
-        size = os.path.getsize(locationFile)
+                if response.status_code == 200:
+                    xmlFile = f"plugins.{appBuild}.xml"
+                    xmlContent = response.text
 
-        print(f"Loaded {len(locations)} existing plugin locations: {size} bytes")
-    except FileNotFoundError:
-        print(f"No file with plugin locations: {locationFile}")
-        locations = {}
+                    for re in replacements:
+                        xmlContent = re.sub(replacements[re], xmlContent)
 
-    for version in versions:
-        response = session.get(f"{baseUrl}/plugins/list/?build={version}")
+                    common.write_file(
+                        f"{appName} plugin XML",
+                        targetDir,
+                        xmlFile,
+                        xmlContent.encode(charset)
+                    )
+                    tree = common.load_xml(
+                        f"{appName} plugin",
+                        targetDir,
+                        xmlFile,
+                        encoding=charset
+                    )
 
-        if response.status_code == 200:
-            xmlFile = f"{targetDir}{slash}plugins.{version}.xml"
-            with open(xmlFile, 'wb') as f:
-                f.write(response.content)
+                    root = tree.getroot()
+                    categories = root.findall('category')
+                    lenCategories = len(categories)
+                    iCategories = 0
+                    plugins = []
 
-            print(f"Loaded `{version}` plugins XML: {len(response.content)} bytes")
+                    for category in categories:
+                        parsedAt = datetime.now()
+                        categoryName = category.get('name')
+                        idList = []
 
-            tree = ET.parse(xmlFile)
-            root = tree.getroot()
-            categories = root.findall('category')
-            lenCategories = len(categories)
-            iCategories = 0
-            plugins = []
+                        for plugin in category.findall('idea-plugin'):
+                            idList.append(plugin.find('id').text)
 
-            for category in categories:
-                parsedAt = datetime.now()
-                categoryName = category.get('name')
-                idList = []
+                        lenList = len(idList)
+                        i = 0
+                        b = 0
+                        buckets = [idList[i:i + bucketSize] for i in range(0, lenList, bucketSize)]
 
-                for plugin in category.findall('idea-plugin'):
-                    idList.append(plugin.find('id').text)
+                        for bucket in buckets:
+                            params = {
+                                'arch': config['common']['arch'],
+                                'build': appBuild,
+                                'os': config['common']['os'],
+                                'pluginXmlId': bucket
+                            }
 
-                lenList = len(idList)
-                i = 0
-                b = 0
-                buckets = [idList[i:i + bucketSize] for i in range(0, lenList, bucketSize)]
+                            request = f"{sourceUrl}/api/search/updates/compatible?{urlencode(params, True)}"
 
-                for bucket in buckets:
-                    params = {
-                        'arch': arch,
-                        'build': version,
-                        'os': osystem,
-                        'pluginXmlId': bucket
-                    }
+                            jsonResponse = session.get(request)
 
-                    request = f"{baseUrl}/api/search/updates/compatible?{urlencode(params, True)}"
+                            if jsonResponse.status_code == 200:
+                                data = jsonResponse.json()
 
-                    jsonResponse = session.get(request)
+                                for v in data:
+                                    id = str(v['id'])
+                                    code = v['pluginXmlId']
+                                    if code not in comments:
+                                        comments[code] = None
+                                    if id not in locations:
+                                        locations[id] = None
 
-                    if jsonResponse.status_code == 200:
-                        data = jsonResponse.json()
+                                plugins += data
+                                i += len(bucket)
+                                b += len(jsonResponse.content)
+                            else:
+                                print(f"Error `{categoryName}` plugin JSON: {jsonResponse.status_code}")
 
-                        for v in data:
-                            id = str(v['id'])
-                            if id not in locations:
-                                locations[id] = None
+                        iCategories += 1
+                        delta = datetime.now() - parsedAt
+                        deltaSec = delta.total_seconds()
+                        print(
+                            f"Loaded {iCategories}/{lenCategories} `{categoryName}` [{lenList}] in {deltaSec} sec: {b} bytes")
 
-                        plugins += data
-                        i += len(bucket)
-                        b += len(jsonResponse.content)
-                    else:
-                        print(f"Error `{categoryName}` plugin JSON: {jsonResponse.status_code}")
+                    common.write_json(
+                        f"{appName} plugin",
+                        targetDir,
+                        f"plugins.{appBuild}.json",
+                        sorted(plugins, key=lambda x: x["pluginId"]),
+                        encoding=charset
+                    )
+                else:
+                    print(f"Error `{appName}` plugin XML: {response.status_code}")
 
-                iCategories += 1
-                delta = datetime.now() - parsedAt
-                print(f"Loaded {iCategories}/{lenCategories} `{categoryName}` [{lenList}] in {delta.total_seconds()} sec: {b} bytes")
+    commentsAt = datetime.now()
+    i = 0
+    commentsLen = len(comments)
 
-            pluginFile = f"{targetDir}{slash}plugins.{version}.json"
-            with open(pluginFile, 'w') as f:
-                json.dump(
-                    sorted(plugins, key=lambda x: x["pluginId"]),
-                    f,
-                    indent='\t',
-                    sort_keys=True
-                )
+    for k in comments:
+        i += 1
+        if arg2 is not None or comments[k] is None:
+            r = session.get(f"{sourceUrl}/api/products/intellij/plugins/{quote(k, safe='')}/comments")
+            if jsonResponse.status_code == 200:
+                try:
+                    comment = r.json()
+                    print(f"Loaded comments [{i}/{commentsLen}]: {k} [{len(comment)}]")
+                    comments[k] = comment
+                except requests.exceptions.JSONDecodeError as e:
+                    print('Error', k, '`', r.content.decode(charset), '`:', e)
+                    comments[k] = []
+                except json.decoder.JSONDecodeError as e:
+                    print('Error', k, '`', r.content.decode(charset), '`:', e)
+                    comments[k] = []
+            else:
+                print(f"Failed loading comments: {k}")
+                comments[k] = []
 
-            print(f"Loaded `{version}` [{len(plugins)}] plugins: {os.path.getsize(pluginFile)} bytes")
-        else:
-            print(f"Error `{version}` plugin XML: {response.status_code}")
+    delta = datetime.now() - commentsAt
+    print(f"Loaded {len(comments)} comments in {delta.total_seconds()} sec")
+
+    common.write_json(
+        f"Comments",
+        targetDir,
+        config['common']['plugins']['comments'],
+        comments,
+        encoding=charset
+    )
 
     locationAt = datetime.now()
 
     for k in locations:
         if locations[k] is None:
-            r = session.head(f"{baseUrl}/plugin/download?rel=true&updateId={k}")
+            r = session.head(f"{sourceUrl}/plugin/download?rel=true&updateId={k}")
             locations[k] = r.headers.get('Location')
             print(f"Loaded new location #{k}: {locations[k]}")
 
     delta = datetime.now() - locationAt
     print(f"Loaded {len(locations)} locations in {delta.total_seconds()} sec")
 
-    with open(locationFile, 'w') as f:
-        json.dump(
-            dict(
-                sorted(
-                    locations.items(),
-                    key=lambda item: int(item[0])
-                )
-            ),
-            f,
-            indent='\t'
-        )
+    common.write_json(
+        f"Locations",
+        targetDir,
+        config['common']['plugins']['location'],
+        dict(sorted(locations.items(), key=lambda item: int(item[0]))),
+        encoding=charset,
+        sort_keys=False
+    )
 
     completedAt = datetime.now()
     delta = completedAt - startedAt
