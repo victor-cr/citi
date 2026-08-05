@@ -278,7 +278,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
             print('IMPL', 'Fetched', impl_file)
         else:
             print('UKWN', self.path)
-            load(temp)
+            self.load(temp)
 
 
 def init(version):
