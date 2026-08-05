@@ -86,7 +86,7 @@ def load_json(name, file_path):
         size = os.path.getsize(file_path)
         with open(file_path, 'r') as f:
             result = json.load(f)
-        print(f"JSON loaded: {file_path} [{len(result)} elements] {}")
+        print(f"JSON loaded: {file_path} [{len(result)} elements]")
     except FileNotFoundError:
         print(f"No file with plugin locations: {locationFile}")
     return result
