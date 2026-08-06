@@ -10,7 +10,9 @@ from urllib.parse import urlparse, parse_qs
 from datetime import datetime
 from typing import NamedTuple, List
 
-targetDir = common.to_dir(sys.argv[1])
+arg1 = sys.argv[1]
+
+targetDir = common.to_dir(arg1)
 if targetDir is None:
     sys.exit(f"FATAL! `{arg1}` directory does not exist")
 config = common.load_config(targetDir)

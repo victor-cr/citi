@@ -8,16 +8,13 @@ import common
 from datetime import datetime
 from urllib.parse import quote, urlencode
 
-##
-##
-##
-
+arg1 = sys.argv[1]
 arg2 = None
 
-targetDir = common.to_dir(sys.argv[1])
+targetDir = common.to_dir(arg1)
 
 if targetDir is None:
-    sys.exit(f"FATAL! `{sys.argv[1]}` directory does not exist")
+    sys.exit(f"FATAL! `{arg1}` directory does not exist")
 
 if len(sys.argv) > 2:
     arg2 = sys.argv[2]
