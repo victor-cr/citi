@@ -240,7 +240,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
             if feature_type in config['common']['featureTypes']:
                 ft = config['common']['featureTypes'][feature_type]
 
-                impl_file = common.to_path(targetDir, f"impl.{ft}.json")
+                impl_file = common.to_path(targetDir, ft)
 
                 self.send_response(200)
                 self.send_header('Content-Type', f"application/json; charset={charset}")
