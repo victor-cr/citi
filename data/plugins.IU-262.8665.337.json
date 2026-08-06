@@ -10032,6 +10032,12 @@
 		"version": "1.0.5"
 	},
 	{
+		"id": 1127894,
+		"pluginId": 13347,
+		"pluginXmlId": "de.beyondco.tinkerwell.tinkerwell",
+		"version": "2.9.1"
+	},
+	{
 		"id": 1031467,
 		"pluginId": 13349,
 		"pluginXmlId": "jebe.liao.JBLHtmlToThymeleaf",
@@ -39864,10 +39870,10 @@
 		"version": "0.3.2"
 	},
 	{
-		"id": 1052080,
+		"id": 1127900,
 		"pluginId": 31281,
 		"pluginXmlId": "com.translatewand.translate-string-xml",
-		"version": "1.5.0"
+		"version": "1.6.0"
 	},
 	{
 		"id": 1023579,
