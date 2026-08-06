@@ -13465,6 +13465,18 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.conf",
+		"pluginId": "com.jetbrains.smarty",
+		"pluginName": "Smarty"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.tpl",
+		"pluginId": "com.jetbrains.smarty",
+		"pluginName": "Smarty"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.dacpac",
 		"pluginId": "com.jetbrains.sqlproj",
 		"pluginName": "Database Projects"
