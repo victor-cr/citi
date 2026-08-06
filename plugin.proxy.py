@@ -1,7 +1,8 @@
+import regex
 import sys
 import json
 import os
-import xml.etree.ElementTree as ET
+import common
 from pathlib import Path
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from http.client import HTTPSConnection
@@ -9,28 +10,26 @@ from urllib.parse import urlparse, parse_qs
 from datetime import datetime
 from typing import NamedTuple, List
 
-slash = os.path.sep
-hostName = 'localhost'
-serverPort = 8000
-targetDir = sys.argv[1].replace('/', slash)
-chunkSize = 4096
-charset = 'utf-8'
-marketplaceHost = 'downloads.marketplace.jetbrains.com'
-pluginsHost = 'plugins.jetbrains.com'
+targetDir = common.to_dir(sys.argv[1])
+if targetDir is None:
+    sys.exit(f"FATAL! `{arg1}` directory does not exist")
+config = common.load_config(targetDir)
+
+chunkSize = config['proxy']['chunk']
+charset = config['common']['encoding']
+marketplaceHost = config['common']['hosts']['target']
+mappings = config['common']['mapping']
 connection = HTTPSConnection(marketplaceHost)
-temp = HTTPSConnection(pluginsHost)
+locations = common.load_json('Location', targetDir, config['common']['plugins']['location'], charset)
+comments = common.load_json('Comments', targetDir, config['common']['plugins']['comments'], charset)
+
 versionMap = {}
-locations = {}
-locationFile = f"{targetDir}{slash}plugins.location.json"
+replacements = {}
 
-try:
-    with open(locationFile, 'r') as f:
-        locations = json.load(f)
-
-    print(f"Loaded {len(locations)} existing plugin locations")
-except FileNotFoundError:
-    print(f"No file with plugin locations: {locationFile}")
-    locations = {}
+for mapping in mappings:
+    if mappings[mapping] is not None:
+        re = regex.compile(mapping)
+        replacements[re] = mappings[mapping]
 
 
 class VendorData(NamedTuple):
@@ -38,11 +37,13 @@ class VendorData(NamedTuple):
     email: str
     url: str
 
+
 class IdeaVersionData(NamedTuple):
     min: str
     max: str
     fromBuild: str
     untilBuild: str
+
 
 class PluginData(NamedTuple):
     code: str
@@ -80,19 +81,9 @@ class PluginData(NamedTuple):
             }
         }
 
-def load_json(name, file_path):
-    result = {}
-    try:
-        size = os.path.getsize(file_path)
-        with open(file_path, 'r') as f:
-            result = json.load(f)
-        print(f"JSON loaded: {file_path} [{len(result)} elements]")
-    except FileNotFoundError:
-        print(f"No file with plugin locations: {locationFile}")
-    return result
 
 class ProxyHandler(BaseHTTPRequestHandler):
-    protocol_version = 'HTTP/1.1'
+    protocol_version = config['proxy']['version']
 
     def log_request(self, code):
         pass
@@ -131,28 +122,27 @@ class ProxyHandler(BaseHTTPRequestHandler):
 
         print('UNKN', 'Done')
 
+    def forward(self, prefix, path):
+        location = f"https://{marketplaceHost}{path}"
+
+        self.send_response(301)
+        self.send_header('Location', location)
+        self.end_headers()
+
+        print(prefix, 'Forward to', location)
+
     def do_GET(self):
-        if self.path == '/geo/files/prices':
-            redirect = f"https://{marketplaceHost}/files/prices/pl"
+        for pattern in replacements:
+            match = pattern.fullmatch(self.path)
+            if match is not None:
+                result = replacements[pattern]
+                if result is None:
+                    self.send_error(404)
+                else:
+                    self.forward('AUTO', pattern.sub(result, self.path))
+                return
 
-            self.send_response(301)
-            self.send_header('Location', redirect)
-            self.end_headers()
-
-            print('FILE', redirect)
-        elif self.path == '/favicon.ico':
-            self.send_error(404)
-        elif self.path.startswith('/.well-known'):
-            self.send_error(404)
-        elif self.path.startswith('/files/'):
-            redirect = f"https://{marketplaceHost}{self.path}"
-
-            self.send_response(301)
-            self.send_header('Location', redirect)
-            self.end_headers()
-
-            print('FILE', redirect)
-        elif self.path.startswith('/pluginManager'):
+        if self.path.startswith('/pluginManager'):
             print('PLGN', 'Requesting', self.path)
             url = urlparse(self.path)
             inParams = parse_qs(url.query)
@@ -163,13 +153,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
             items = lookup(inBuild, inIds)
             id = str(items[0].get('id'))
 
-            redirect = f"https://{marketplaceHost}{locations[id]}"
-
-            self.send_response(301)
-            self.send_header('Location', redirect)
-            self.end_headers()
-
-            print('PLGN', 'Forward to', redirect)
+            self.forward('PLGN', locations[id])
         elif self.path.startswith('/api/search/plugins'):
             print('SRCH', 'Searching', self.path)
             url = urlparse(self.path)
@@ -228,70 +212,61 @@ class ProxyHandler(BaseHTTPRequestHandler):
             id = params.get('pluginId', ['..'])[0].replace(' ', '_').lower()
             icon = params.get('theme', ['DEFAULT'])[0].lower()
 
-            redirect = f"https://{marketplaceHost}/files/icons/intellij/{id}/{icon}.svg"
-
-            self.send_response(301)
-            self.send_header('Location', redirect)
-            self.end_headers()
-
-            print('ICON', redirect)
+            self.forward('ICON', f"/files/icons/intellij/{id}/{icon}.svg")
         elif self.path.startswith('/api/products/intellij/plugins/') and self.path.endswith('/comments'):
             name = self.path.removeprefix('/api/products/intellij/plugins/').removesuffix('/comments')
-            content = json.dumps([{
-                'id': 3158,
-                'cdate': '1233959549000',
-                'comment': 'temporary',
-                'rating': 5,
-                'plugin': {
-                    'id': 2,
-                    'name': name,
-                    'link': '/plugin/link'
-                },
-                'author': {
-                    'id': '275364ce-247e-420d-ab88-a4521ff20e8f',
-                    'name': 'Stas Davydov',
-                    'link': '/author/275364ce-247e-420d-ab88-a4521ff20e8f'
-                }
-            }]).encode(charset)
 
+            if name in comments:
+                result = comments[name]
+            else:
+                result = []
+
+            content = json.dumps(result).encode(charset)
             self.send_response(200)
             self.send_header('Content-Type', f"application/json; charset={charset}")
             self.send_header('Content-Length', len(content))
             self.end_headers()
             self.wfile.write(content)
+            print('CMNT', len(result), 'comments')
         elif self.path.startswith('/feature/getImplementations?featureType='):
             print('IMPL', 'Fetching', self.path)
             url = urlparse(self.path)
             params = parse_qs(url.query)
 
-            featureType = params.get('featureType', [''])[0]
+            feature_type = params.get('featureType', [''])[0]
 
-            impl_file = f"{targetDir}{slash}impl.{featureType}.json"
+            if feature_type in config['common']['featureTypes']:
+                ft = config['common']['featureTypes'][featureType]
 
-            self.send_response(200)
-            self.send_header('Content-Type', f"application/json; charset={charset}")
-            self.send_header('Content-Type', os.path.getsize(impl_file))
-            self.end_headers()
-            with open(impl_file, 'rb') as f:
-                self.wfile.write(f.read())
+                impl_file = common.to_path(targetDir, f"impl.{ft}.json")
 
-            print('IMPL', 'Fetched', impl_file)
+                self.send_response(200)
+                self.send_header('Content-Type', f"application/json; charset={charset}")
+                self.send_header('Content-Type', impl_file.stat().st_size)
+                self.end_headers()
+                with impl_file.open(mode='rb') as f:
+                    self.wfile.write(f.read())
+
+                print('IMPL', 'Fetched', impl_file)
+            else:
+                self.send_error(404)
+                print('IMPL', 'Not found', self.path)
         else:
             print('UKWN', self.path)
-            self.load(temp)
+            self.load(connection)
 
 
 def init(version):
     result = {}
     dict = {}
 
-    with open(f"{targetDir}{slash}plugins.{version}.json", 'r') as f:
-        for item in json.load(f):
-            dict[item['pluginXmlId']] = item
+    for item in common.load_json(f"Plugins {version}", targetDir, f"plugins.{version}.json", charset):
+        dict[item['pluginXmlId']] = item
 
-    tree = ET.parse(f"{targetDir}{slash}plugins.{version}.xml")
+    tree = common.load_xml(f"Plugins {version}", targetDir, f"plugins.{version}.xml", charset)
     root = tree.getroot()
     categories = root.findall('category')
+
     for category in categories:
         for plugin in category.findall('idea-plugin'):
             xmlDownloads = plugin.get('downloads')
@@ -321,7 +296,7 @@ def init(version):
             jsonVersion = dict[xmlId]['version']
 
             if xmlVersion != jsonVersion:
-                print(f"Inconsistent versioning for `{xmlId}`. XML has `{xmlVersion}` and JSON has `jsonVersion`")
+                print(f"Inconsistent versioning for `{xmlId}`. XML has `{xmlVersion}` and JSON has `{jsonVersion}`")
 
             result[xmlId] = PluginData(
                 xmlId, int(jsonPluginId), int(jsonUpdateId), xmlName, xmlDescription, jsonVersion, xmlUrl,
@@ -388,8 +363,10 @@ def search(version, term):
     return result
 
 
-webServer = HTTPServer((hostName, serverPort), ProxyHandler)
-print(f"Server has started at http://{hostName}:{serverPort}")
+host = config['proxy']['host']
+port = config['proxy']['port']
+webServer = HTTPServer((host, port), ProxyHandler)
+print(f"Server has started at http://{host}:{port}")
 
 try:
     webServer.serve_forever()
@@ -399,5 +376,4 @@ except KeyboardInterrupt:
 webServer.server_close()
 print("Server stopped...")
 connection.close()
-temp.close()
 print("Client stopped...")
