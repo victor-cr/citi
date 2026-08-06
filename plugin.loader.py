@@ -11,13 +11,13 @@ from urllib.parse import quote, urlencode
 arg1 = sys.argv[1]
 arg2 = None
 
-if len(sys.argv) > 2:
-    arg2 = sys.argv[2]
-
 targetDir = common.to_dir(arg1)
 
 if targetDir is None:
     sys.exit(f"FATAL! `{arg1}` directory does not exist")
+
+if len(sys.argv) > 2:
+    arg2 = sys.argv[2]
 
 config = common.load_config(targetDir)
 sourceUrl = f"https://{config['common']['hosts']['source']}"

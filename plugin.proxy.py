@@ -236,7 +236,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
             feature_type = params.get('featureType', [''])[0]
 
             if feature_type in config['common']['featureTypes']:
-                ft = config['common']['featureTypes'][featureType]
+                ft = config['common']['featureTypes'][feature_type]
 
                 impl_file = common.to_path(targetDir, f"impl.{ft}.json")
 
