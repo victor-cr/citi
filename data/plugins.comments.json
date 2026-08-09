@@ -12516,6 +12516,7 @@
 			"rating": 0
 		}
 	],
+	"JGivenPlugin": [],
 	"JOL": [
 		{
 			"author": {
@@ -62900,6 +62901,7 @@
 	"com.batyan.QuickLLMCopy": [],
 	"com.bauerbao.srchardcodeutil": [],
 	"com.bawnorton.msp.MixinSquared": [],
+	"com.bchan84.agent-config": [],
 	"com.bchan84.intellij.devdocs": [],
 	"com.bdpqchen.android.plugin.alog": [],
 	"com.bdpqchen.android.plugin.tagalog": [],
@@ -63252,6 +63254,7 @@
 		}
 	],
 	"com.beyond.plugin.mybatis.generator": [],
+	"com.bezyan.glow": [],
 	"com.bhavikm.firebae": [],
 	"com.bhc.plugin.mybatis": [
 		{
@@ -68271,6 +68274,7 @@
 			"rating": 2
 		}
 	],
+	"com.chenke.ai-commit-message": [],
 	"com.chenrl.plugin.todo": [
 		{
 			"author": {
@@ -72752,6 +72756,7 @@
 			"rating": 0
 		}
 	],
+	"com.codemind": [],
 	"com.codeminds.jqExpress": [
 		{
 			"author": {
@@ -83899,6 +83904,7 @@
 			"rating": 5
 		}
 	],
+	"com.elumine.searchdeadcode": [],
 	"com.emacliam.gitwhisper": [],
 	"com.emaginasion.chauffeur": [],
 	"com.embabel.agent.intellij-plugin": [],
@@ -84963,6 +84969,7 @@
 			"rating": 3
 		}
 	],
+	"com.evolvedqube.panic": [],
 	"com.evolveum.midpoint.studio": [
 		{
 			"author": {
@@ -104844,6 +104851,7 @@
 			"rating": 5
 		}
 	],
+	"com.github.izerui.imux": [],
 	"com.github.izhangzhihao.intellijgooglesearch": [
 		{
 			"author": {
@@ -134395,6 +134403,7 @@
 			"rating": 5
 		}
 	],
+	"com.intellij.air": [],
 	"com.intellij.analysis.pwa.java": [
 		{
 			"author": {
@@ -136726,6 +136735,7 @@
 		}
 	],
 	"com.intellij.clion": [],
+	"com.intellij.clion-compdb": [],
 	"com.intellij.clion-gradle": [],
 	"com.intellij.clion.meson": [],
 	"com.intellij.cmake": [],
@@ -148979,6 +148989,7 @@
 			"rating": 0
 		}
 	],
+	"com.j2o.sqltool": [],
 	"com.j8d.karate-debug": [
 		{
 			"author": {
@@ -172718,6 +172729,7 @@
 	"com.mb.mb-plugin": [],
 	"com.mb.training.engine": [],
 	"com.mb.training.karate.pack": [],
+	"com.mcode.MCode": [],
 	"com.mcst.easyfk.generator.idea": [
 		{
 			"author": {
@@ -182552,6 +182564,7 @@
 		}
 	],
 	"com.palmerodev.flutter_widget_wrapper": [],
+	"com.palpista.eml-editor": [],
 	"com.pan.Json2Typescript": [],
 	"com.pan.SVGO": [],
 	"com.pan.SvgEasy": [],
@@ -187371,6 +187384,7 @@
 	],
 	"com.raphaelmoral.commitclaude": [],
 	"com.raplify.assistant": [],
+	"com.raptor21.sap.rfc": [],
 	"com.raptorclient.plugin": [],
 	"com.rawbytes.recentfiles": [
 		{
@@ -205117,6 +205131,7 @@
 	"com.turbinekreuzberg.extendInPyz": [],
 	"com.turknet.devops.lucid-chat": [],
 	"com.tw.plugin.clover": [],
+	"com.twhite.commitspotlight": [],
 	"com.twig5.navigator": [
 		{
 			"author": {
@@ -205151,6 +205166,8 @@
 			"rating": 4
 		}
 	],
+	"com.twilightventures.jsonllens": [],
+	"com.twilightventures.loglens": [],
 	"com.twitter.scala-repl": [],
 	"com.tylerthrailkill.intellij.pastellicious": [
 		{
@@ -209750,6 +209767,104 @@
 				"name": "Graph Buddy"
 			},
 			"rating": 1
+		}
+	],
+	"com.visprogramming.armory": [
+		{
+			"author": {
+				"id": "3f267a43-3195-4f06-ad90-1aec4f825e51",
+				"link": "/author/3f267a43-3195-4f06-ad90-1aec4f825e51",
+				"name": "Mahmud Hasan"
+			},
+			"cdate": "1569444649000",
+			"comment": "<p>The plugin was awesome but with recent updates in Pycharm, it is no more retaining my tree structures after Pycharm restarts. This happens sporadically. Not sure why this is happening There seems to be no replies and updates from the owner of the plugin. The only reason stopping me from renewing license.</p>\n",
+			"id": 35347,
+			"plugin": {
+				"id": 7897,
+				"link": "/plugin/7897-armory",
+				"name": "Armory"
+			},
+			"rating": 3
+		},
+		{
+			"author": {
+				"id": "13b35213-96c3-458e-924c-eb9f66a1cfff",
+				"link": "/author/13b35213-96c3-458e-924c-eb9f66a1cfff",
+				"name": "Thomas Schittli"
+			},
+			"cdate": "1567607981000",
+			"comment": "<p>It's a nice try but is not useful to use it as explained:</p>\n<ul>\n<li>It's not useful to have 10 open views - one View for each Job to be done (e.g. fix an issue, implement a new feature, write test code, etc.). We would expect to be able to switch between views.</li>\n<li>Armory explains that we do no longer need Bookmarks, but it's no possible to add the current line as a reference to a view</li>\n</ul>\n<p>Unfortunately, compared to the default IntelliJ Project view, we were not able to find any useful enhancement. And: the IntelliJ Structure / Outline View, is much more useful and works dynamically with any current open file.</p>\n",
+			"id": 34956,
+			"plugin": {
+				"id": 7897,
+				"link": "/plugin/7897-armory",
+				"name": "Armory"
+			},
+			"rating": 2
+		},
+		{
+			"author": {
+				"id": "c9d5f636-7acf-499b-acc8-5cd47970d3d2",
+				"link": "/author/c9d5f636-7acf-499b-acc8-5cd47970d3d2",
+				"name": "zemaitis"
+			},
+			"cdate": "1539533709000",
+			"comment": "Android Studio: Armory doesn't restore my pre-saved order of packages\n\nThis is how I organized my packages:\n\n<a href=\"http://prntscr.com/l5z0q2\">http://prntscr.com/l5z0q2</a> \n\nThis is how it looks after restarting IDE\n\n<a href=\"http://prntscr.com/l5z187\">http://prntscr.com/l5z187</a>",
+			"id": 29198,
+			"plugin": {
+				"id": 7897,
+				"link": "/plugin/7897-armory",
+				"name": "Armory"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "4101ea8c-d301-4a8e-a5f3-3fc5e36024df",
+				"link": "/author/4101ea8c-d301-4a8e-a5f3-3fc5e36024df",
+				"name": "Mahmud Hasan"
+			},
+			"cdate": "1533450204000",
+			"comment": "any plans to introduce it Goland?",
+			"id": 28256,
+			"plugin": {
+				"id": 7897,
+				"link": "/plugin/7897-armory",
+				"name": "Armory"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "2865ad77-260c-4205-b03d-4210f8962516",
+				"link": "/author/2865ad77-260c-4205-b03d-4210f8962516",
+				"name": "Anmol Sethi"
+			},
+			"cdate": "1482055713000",
+			"comment": "not supported in gogland",
+			"id": 21594,
+			"plugin": {
+				"id": 7897,
+				"link": "/plugin/7897-armory",
+				"name": "Armory"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "hotliver",
+				"link": "/author/hotliver",
+				"name": "hotliver"
+			},
+			"cdate": "1457653013000",
+			"comment": "It had a pretty nasty bug when I tried it first time which I reported and they had an update out the next day which nailed it. This plugin is really professional and polished. I'm hoping they include a feature in at some point which might persuade me to purchase it. If you're curious about this plugin, you may want to consider giving the trial free trial a shot - it's a nice tool.",
+			"id": 19831,
+			"plugin": {
+				"id": 7897,
+				"link": "/plugin/7897-armory",
+				"name": "Armory"
+			},
+			"rating": 4
 		}
 	],
 	"com.visualize-transaction": [
@@ -214924,6 +215039,7 @@
 	],
 	"com.yinhai.ta3.plugin.id": [],
 	"com.yinhu.app.plugin.mvp_create": [],
+	"com.yinxi.edgereader": [],
 	"com.yisiliang.idea.plugins.apusic": [],
 	"com.yisiliang.idea.plugins.converter.file-encoding-converter": [
 		{
@@ -217373,6 +217489,7 @@
 	"com.zto.titans-tk-mybatis-generator": [],
 	"com.zty.plugin": [],
 	"com.zuhaibzahid.logs": [],
+	"com.zuhaibzahid.sheets": [],
 	"com.zukotuutori.bracketcolorizer": [],
 	"com.zukotuutori.mavenassist": [
 		{
@@ -228219,6 +228336,7 @@
 	"dev.cool.task.ssh": [],
 	"dev.csstorfs": [],
 	"dev.dalex.textpolisher": [],
+	"dev.dbmlcanvas": [],
 	"dev.dengchao.idea.plugin.git.copy.ref.name": [],
 	"dev.dengchao.idea.plugin.git.worktrees": [],
 	"dev.denwav.gradle-libs-error-suppressor": [
@@ -229901,6 +230019,7 @@
 	],
 	"dev.gaphunter.ansiblecompanion": [],
 	"dev.gaphunter.apisecuritycompanion": [],
+	"dev.gaphunter.asyncapicompanion": [],
 	"dev.gaphunter.certcompanion": [],
 	"dev.gaphunter.cmakecompanion": [],
 	"dev.gaphunter.firestorecompanion": [],
@@ -229909,9 +230028,11 @@
 	"dev.gaphunter.gitlabcicompanion": [],
 	"dev.gaphunter.graphqlcompanion": [],
 	"dev.gaphunter.highlightcompanion": [],
+	"dev.gaphunter.jenkinsfilecompanion": [],
 	"dev.gaphunter.jsonschemacompanion": [],
 	"dev.gaphunter.jwtcompanion": [],
 	"dev.gaphunter.k6companion": [],
+	"dev.gaphunter.materialcompanion": [],
 	"dev.gaphunter.nginxcompanion": [],
 	"dev.gaphunter.openapicompanion": [],
 	"dev.gaphunter.reactnativecompanion": [],
@@ -229919,6 +230040,7 @@
 	"dev.gaphunter.reviewcompanion": [],
 	"dev.gaphunter.spreadsheetcompanion": [],
 	"dev.gaphunter.themecompanion": [],
+	"dev.gaphunter.xsdcompanion": [],
 	"dev.gdw.Shutdown-Tasks": [],
 	"dev.ghostflyby.agent-skills-editing": [],
 	"dev.ghostflyby.dcevm": [],
@@ -230589,6 +230711,7 @@
 			"rating": 2
 		}
 	],
+	"dev.jetplugins.markdown": [],
 	"dev.jetplugins.markojs": [],
 	"dev.jetplugins.mojo": [],
 	"dev.jetplugins.mythos": [],
@@ -234376,6 +234499,7 @@
 	"dev.rutvik.flutter_developer_tools": [],
 	"dev.ryanbuu.wktmapviewer": [],
 	"dev.ryanduan.gomodulefinder": [],
+	"dev.saferesultexport": [],
 	"dev.sandipchitale.PluginExplorer": [
 		{
 			"author": {
@@ -234593,6 +234717,7 @@
 			"rating": 5
 		}
 	],
+	"dev.smoothbrains.prompttemplates": [],
 	"dev.sort.doris-intellij-plugin": [],
 	"dev.sort.duckdb-intellij-plugin": [],
 	"dev.sort.sql-transpiler-intellij-plugin": [],
@@ -234705,6 +234830,7 @@
 	"dev.stillya.vpet": [],
 	"dev.styledart": [],
 	"dev.sulan.ecproperty": [],
+	"dev.tachilabs.infinitint": [],
 	"dev.tachilabs.mermaidstudio": [
 		{
 			"author": {
@@ -234893,6 +235019,7 @@
 		}
 	],
 	"dev.thymian.client": [],
+	"dev.timecomplexity.time-complexity": [],
 	"dev.timothyw.treegen": [
 		{
 			"author": {
@@ -251029,6 +251156,7 @@
 			"rating": 5
 		}
 	],
+	"io.github.crmapache.amazingclaudecode": [],
 	"io.github.darkryh.katalyst.idea": [],
 	"io.github.dbudyak.yamlviewer": [
 		{
@@ -251301,6 +251429,7 @@
 		}
 	],
 	"io.github.easyagent": [],
+	"io.github.emindeniz99.flatbuffers": [],
 	"io.github.engineermyoa.gitlocalreview": [],
 	"io.github.eskibear.copilot-cli-jetbrains": [],
 	"io.github.facilityapi": [],
@@ -253584,6 +253713,7 @@
 	],
 	"io.github.massimodeiana.exposed-er": [],
 	"io.github.md2conf.idea-markdown-copy-as-plugin": [],
+	"io.github.memory2314.mavendependencyassistant": [],
 	"io.github.meteulken.commithelper": [
 		{
 			"author": {
@@ -255320,6 +255450,7 @@
 	"io.github.umutcansu.TraceFlow": [],
 	"io.github.vacxe.cliactions": [],
 	"io.github.vadimtoptunov.checksum-playground": [],
+	"io.github.vadimtoptunov.iso8583": [],
 	"io.github.vadimtoptunov.kassi-testdata": [],
 	"io.github.vadimtoptunov.mrz-inspector": [],
 	"io.github.vihanmy.ideaplugin.VGitTool": [],
@@ -257333,6 +257464,7 @@
 		}
 	],
 	"io.mateu.eventconductor": [],
+	"io.mateu.modux": [],
 	"io.meiro.ts-typed-functions": [],
 	"io.mend.advisecode": [],
 	"io.mend.mend-security-check": [
@@ -293813,6 +293945,11 @@
 			"rating": 1
 		}
 	],
+	"org.jetbrains.plugins.clion.ctest": [],
+	"org.jetbrains.plugins.clion.test.boost": [],
+	"org.jetbrains.plugins.clion.test.catch": [],
+	"org.jetbrains.plugins.clion.test.doctest": [],
+	"org.jetbrains.plugins.clion.test.google": [],
 	"org.jetbrains.plugins.docker.gateway": [
 		{
 			"author": {
@@ -314120,6 +314257,7 @@
 	"ru.sadv1r.marketplace-repository-headers-idea-plugin": [],
 	"ru.skb.lab.intellij.plugins.skb-lab-tools": [],
 	"ru.softmg.workers": [],
+	"ru.stas-sor.ai-free": [],
 	"ru.stykalin.FastTempFiles": [
 		{
 			"author": {
@@ -314294,6 +314432,56 @@
 				"id": 22710,
 				"link": "/plugin/22710-open-in-vs-code",
 				"name": "Open in VS Code"
+			},
+			"rating": 5
+		}
+	],
+	"sandipchitale.springinitializr": [
+		{
+			"author": {
+				"id": "f95b47cc-4840-42af-9815-133309212495",
+				"link": "/author/f95b47cc-4840-42af-9815-133309212495",
+				"name": "D Kenny"
+			},
+			"cdate": "1784989144000",
+			"comment": "<p>the generate button doesn't do anything. tried clicking with mouse, CTRL+Enter as stated in the button and nothing, just keep getting a message need to generate first. Explore works but download button on following page not working either. Very frustrating, using intellij community edition 2025.2.6.1</p>\n",
+			"id": 142702,
+			"plugin": {
+				"id": 22006,
+				"link": "/plugin/22006-start-spring-boot-project",
+				"name": "Start Spring Boot Project"
+			},
+			"rating": 1
+		},
+		{
+			"author": {
+				"id": "149dcbf4-cb05-43a5-b1bf-17d89e63cd93",
+				"link": "/author/149dcbf4-cb05-43a5-b1bf-17d89e63cd93",
+				"name": "maneesh godbole"
+			},
+			"cdate": "1725422537000",
+			"comment": "<p>Awesome plugin Sandip! Thank you so much.\ud83d\ude4f\nI removed my earlier review where I had suggested a feature request of having the plugin on the New Project screen.\nAfter the latest update I noticed you have already implemented it.</p>\n",
+			"id": 105296,
+			"plugin": {
+				"id": 22006,
+				"link": "/plugin/22006-start-spring-boot-project",
+				"name": "Start Spring Boot Project"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "bf6e374a-5296-4732-b91d-1a447b4f77d4",
+				"link": "/author/bf6e374a-5296-4732-b91d-1a447b4f77d4",
+				"name": "Grigoriy Myasoedov"
+			},
+			"cdate": "1706279636000",
+			"comment": "<p>Great idea and very simple implementation!!!</p>\n",
+			"id": 95976,
+			"plugin": {
+				"id": 22006,
+				"link": "/plugin/22006-start-spring-boot-project",
+				"name": "Start Spring Boot Project"
 			},
 			"rating": 5
 		}

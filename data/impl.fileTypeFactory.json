@@ -4151,6 +4151,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.codemind",
+		"pluginId": "com.codemind",
+		"pluginName": "CodeMind"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.cmr",
 		"pluginId": "com.codemr.analyzer",
 		"pluginName": "CodeMR"
@@ -7873,37 +7879,37 @@
 		"bundled": false,
 		"implementationName": "*.sv",
 		"pluginId": "com.hdl.verilog-vivado-plugin",
-		"pluginName": "HDL and Vivado Support"
+		"pluginName": "HDL and Vivado + MCP Support"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.svh",
 		"pluginId": "com.hdl.verilog-vivado-plugin",
-		"pluginName": "HDL and Vivado Support"
+		"pluginName": "HDL and Vivado + MCP Support"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.tcl",
 		"pluginId": "com.hdl.verilog-vivado-plugin",
-		"pluginName": "HDL and Vivado Support"
+		"pluginName": "HDL and Vivado + MCP Support"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.v",
 		"pluginId": "com.hdl.verilog-vivado-plugin",
-		"pluginName": "HDL and Vivado Support"
+		"pluginName": "HDL and Vivado + MCP Support"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.vh",
 		"pluginId": "com.hdl.verilog-vivado-plugin",
-		"pluginName": "HDL and Vivado Support"
+		"pluginName": "HDL and Vivado + MCP Support"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.xdc",
 		"pluginId": "com.hdl.verilog-vivado-plugin",
-		"pluginName": "HDL and Vivado Support"
+		"pluginName": "HDL and Vivado + MCP Support"
 	},
 	{
 		"bundled": false,
@@ -15217,6 +15223,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.eml",
+		"pluginId": "com.palpista.eml-editor",
+		"pluginName": "EML Editor"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.nlt",
 		"pluginId": "com.paulmanoni.nexus",
 		"pluginName": "Nexus Framework"
@@ -18692,6 +18704,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.mdx",
+		"pluginId": "dev.jetplugins.markdown",
+		"pluginName": "Markdown Pro"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.mojo",
 		"pluginId": "dev.jetplugins.mojo",
 		"pluginName": "Mojo Pro"
@@ -21167,6 +21185,12 @@
 		"implementationName": "*.hocon",
 		"pluginId": "io.github.dsudomoin.hocon",
 		"pluginName": "HOCON Support"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.fbs",
+		"pluginId": "io.github.emindeniz99.flatbuffers",
+		"pluginName": "FlatBuffers Format"
 	},
 	{
 		"bundled": false,
