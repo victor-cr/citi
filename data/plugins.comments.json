@@ -177612,6 +177612,7 @@
 			"rating": 5
 		}
 	],
+	"com.namkunghoon.pixelagents": [],
 	"com.nancheung.plugins.jetbrains.legado-reader": [],
 	"com.nando.plugin.parameter-object-plugin": [
 		{
@@ -234577,6 +234578,7 @@
 	"dev.sebastiano.rebaser": [],
 	"dev.sentinelseed.jetbrains": [],
 	"dev.sergboec.projectTreeMarker": [],
+	"dev.serverpod.idea": [],
 	"dev.seth.valuelens.csharp": [],
 	"dev.silverhorn.fca.maven-consistency-enforcer": [],
 	"dev.simplified.simplified-annotations": [],
@@ -303054,6 +303056,7 @@
 	"org.pastalab.fray.idea": [],
 	"org.pathcheck.intellij.cql": [],
 	"org.pc-software.idea-deu": [],
+	"org.pcsoft.ij.plugin.inno-setup": [],
 	"org.pehrs.freemarker-generator-plugin": [],
 	"org.pehrs.vespa-yql-plugin": [],
 	"org.phellang": [
