@@ -134,68 +134,44 @@ class ProxyHandler(BaseHTTPRequestHandler):
         print(prefix, 'Forward to', location)
 
     def do_GET(self):
-        for pattern in replacements:
-            match = pattern.fullmatch(self.path)
-            if match is not None:
-                result = replacements[pattern]
-                if result is None:
-                    self.send_error(404)
+        try:
+            for pattern in replacements:
+                match = pattern.fullmatch(self.path)
+                if match is not None:
+                    result = replacements[pattern]
+                    if result is None:
+                        self.send_error(404)
+                    else:
+                        self.forward('AUTO', pattern.sub(result, self.path))
+                    return
+
+            if self.path.startswith('/pluginManager'):
+                print('PLGN', 'Requesting', self.path)
+                url = urlparse(self.path)
+                inParams = parse_qs(url.query)
+
+                inIds = inParams.get('id', [''])
+                inBuild = inParams.get('build', [''])[0]
+
+                items = lookup(inBuild, inIds)
+                id = str(items[0].get('id'))
+
+                self.forward('PLGN', locations[id])
+            elif self.path.startswith('/api/search/plugins'):
+                print('SRCH', 'Searching', self.path)
+                url = urlparse(self.path)
+                params = parse_qs(url.query)
+
+                paramBuild = params.get('build', [''])[0]
+                paramSearch = params.get('search', [''])[0]
+                paramMax = int(params.get('max', ['0'])[0])
+
+                if paramSearch == '':
+                    results = random(paramBuild, paramMax)
                 else:
-                    self.forward('AUTO', pattern.sub(result, self.path))
-                return
+                    results = search(paramBuild, paramSearch)
 
-        if self.path.startswith('/pluginManager'):
-            print('PLGN', 'Requesting', self.path)
-            url = urlparse(self.path)
-            inParams = parse_qs(url.query)
-
-            inIds = inParams.get('id', [''])
-            inBuild = inParams.get('build', [''])[0]
-
-            items = lookup(inBuild, inIds)
-            id = str(items[0].get('id'))
-
-            self.forward('PLGN', locations[id])
-        elif self.path.startswith('/api/search/plugins'):
-            print('SRCH', 'Searching', self.path)
-            url = urlparse(self.path)
-            params = parse_qs(url.query)
-
-            paramBuild = params.get('build', [''])[0]
-            paramSearch = params.get('search', [''])[0]
-            paramMax = int(params.get('max', ['0'])[0])
-
-            if paramSearch == '':
-                results = random(paramBuild, paramMax)
-            else:
-                results = search(paramBuild, paramSearch)
-
-            content = json.dumps(results).encode(charset)
-
-            self.send_response(200)
-            self.send_header('Content-Type', f"application/json; charset={charset}")
-            self.send_header('Content-Length', len(content))
-            self.end_headers()
-            self.wfile.write(content)
-
-            print('SRCH', f"Found {len(results)} plugins")
-        elif self.path.startswith('/api/search/updates/compatible'):
-            print('UPDT', 'Searching', self.path)
-            url = urlparse(self.path)
-            params = parse_qs(url.query)
-
-            paramBuild = params.get('build', [''])[0]
-            paramXmlIds = params.get('pluginXmlId', [''])
-
-            if paramXmlIds == ['']:
-                self.send_response(204)
-                self.end_headers()
-
-                print('UPDT', 'No content')
-            else:
-                items = lookup(paramBuild, paramXmlIds)
-
-                content = json.dumps(items).encode(charset)
+                content = json.dumps(results).encode(charset)
 
                 self.send_response(200)
                 self.send_header('Content-Type', f"application/json; charset={charset}")
@@ -203,60 +179,86 @@ class ProxyHandler(BaseHTTPRequestHandler):
                 self.end_headers()
                 self.wfile.write(content)
 
-                if len(items) == 0:
-                    print('UPDT', 'Not found...')
+                print('SRCH', f"Found {len(results)} plugins")
+            elif self.path.startswith('/api/search/updates/compatible'):
+                print('UPDT', 'Searching', self.path)
+                url = urlparse(self.path)
+                params = parse_qs(url.query)
+
+                paramBuild = params.get('build', [''])[0]
+                paramXmlIds = params.get('pluginXmlId', [''])
+
+                if paramXmlIds == ['']:
+                    self.send_response(204)
+                    self.end_headers()
+
+                    print('UPDT', 'No content')
                 else:
-                    print('UPDT', f"Found {len(items)} plugin updates")
-        elif self.path.startswith('/api/icon'):
-            url = urlparse(self.path)
-            params = parse_qs(url.query)
+                    items = lookup(paramBuild, paramXmlIds)
 
-            id = params.get('pluginId', ['..'])[0].replace(' ', '_').lower()
-            icon = params.get('theme', ['DEFAULT'])[0].lower()
+                    content = json.dumps(items).encode(charset)
 
-            self.forward('ICON', f"/files/icons/intellij/{id}/{icon}.svg")
-        elif self.path.startswith('/api/products/intellij/plugins/') and self.path.endswith('/comments'):
-            name = self.path.removeprefix('/api/products/intellij/plugins/').removesuffix('/comments')
+                    self.send_response(200)
+                    self.send_header('Content-Type', f"application/json; charset={charset}")
+                    self.send_header('Content-Length', len(content))
+                    self.end_headers()
+                    self.wfile.write(content)
 
-            if name in comments:
-                result = comments[name]
-            else:
-                result = []
+                    if len(items) == 0:
+                        print('UPDT', 'Not found...')
+                    else:
+                        print('UPDT', f"Found {len(items)} plugin updates")
+            elif self.path.startswith('/api/icon'):
+                url = urlparse(self.path)
+                params = parse_qs(url.query)
 
-            content = json.dumps(result).encode(charset)
-            self.send_response(200)
-            self.send_header('Content-Type', f"application/json; charset={charset}")
-            self.send_header('Content-Length', len(content))
-            self.end_headers()
-            self.wfile.write(content)
-            print('CMNT', len(result), 'comments')
-        elif self.path.startswith('/feature/getImplementations?featureType='):
-            print('IMPL', 'Fetching', self.path)
-            url = urlparse(self.path)
-            params = parse_qs(url.query)
+                id = params.get('pluginId', ['..'])[0].replace(' ', '_').lower()
+                icon = params.get('theme', ['DEFAULT'])[0].lower()
 
-            feature_type = params.get('featureType', [''])[0]
+                self.forward('ICON', f"/files/icons/intellij/{id}/{icon}.svg")
+            elif self.path.startswith('/api/products/intellij/plugins/') and self.path.endswith('/comments'):
+                name = self.path.removeprefix('/api/products/intellij/plugins/').removesuffix('/comments')
 
-            if feature_type in config['common']['featureTypes']:
-                ft = config['common']['featureTypes'][feature_type]
+                if name in comments:
+                    result = comments[name]
+                else:
+                    result = []
 
-                impl_file = common.to_path(targetDir, ft)
-
+                content = json.dumps(result).encode(charset)
                 self.send_response(200)
                 self.send_header('Content-Type', f"application/json; charset={charset}")
-                self.send_header('Content-Type', impl_file.stat().st_size)
+                self.send_header('Content-Length', len(content))
                 self.end_headers()
-                with impl_file.open(mode='rb') as f:
-                    self.wfile.write(f.read())
+                self.wfile.write(content)
+                print('CMNT', len(result), 'comments')
+            elif self.path.startswith('/feature/getImplementations?featureType='):
+                print('IMPL', 'Fetching', self.path)
+                url = urlparse(self.path)
+                params = parse_qs(url.query)
 
-                print('IMPL', 'Fetched', impl_file)
+                feature_type = params.get('featureType', [''])[0]
+
+                if feature_type in config['common']['featureTypes']:
+                    ft = config['common']['featureTypes'][feature_type]
+
+                    impl_file = common.to_path(targetDir, ft)
+
+                    self.send_response(200)
+                    self.send_header('Content-Type', f"application/json; charset={charset}")
+                    self.send_header('Content-Type', impl_file.stat().st_size)
+                    self.end_headers()
+                    with impl_file.open(mode='rb') as f:
+                        self.wfile.write(f.read())
+
+                    print('IMPL', 'Fetched', impl_file)
+                else:
+                    self.send_error(404)
+                    print('IMPL', 'Not found', self.path)
             else:
-                self.send_error(404)
-                print('IMPL', 'Not found', self.path)
-        else:
-            print('UKWN', self.path)
-            self.load(connection)
-
+                print('UKWN', self.path)
+                self.load(connection)
+        except ConnectionAbortedError:
+            print('@ERR', 'Connection aborted', self.path)
 
 def init(version):
     result = {}
