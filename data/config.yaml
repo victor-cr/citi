@@ -24,6 +24,9 @@ common:
       family: INTELLIJ
       name: IntelliJ IDEA
       builds:
+        - build: 262.9437.185
+          enabled: true
+          version: '2026.2.1'
         - build: 262.8665.337
           enabled: true
           version: '2026.2.0.1'
