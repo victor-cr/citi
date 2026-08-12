@@ -2387,6 +2387,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.qd",
+		"pluginId": "cc.carm.plugin.quarkdown",
+		"pluginName": "Quarkdown"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.svga",
 		"pluginId": "cc.moky.intellij.plugin.svga-support",
 		"pluginName": "SVGA Support"
@@ -4610,6 +4616,12 @@
 		"implementationName": "*.rkl",
 		"pluginId": "com.dynatrace.intellij-plugin",
 		"pluginName": "Dynatrace Live Debugger"
+	},
+	{
+		"bundled": false,
+		"implementationName": ".loreignore",
+		"pluginId": "com.dzmitryj.lorelens",
+		"pluginName": "LoreLens"
 	},
 	{
 		"bundled": false,
@@ -7910,6 +7922,12 @@
 		"implementationName": "*.xdc",
 		"pluginId": "com.hdl.verilog-vivado-plugin",
 		"pluginName": "HDL and Vivado + MCP Support"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.helix",
+		"pluginId": "com.helixlang.ide",
+		"pluginName": "HelixLang"
 	},
 	{
 		"bundled": false,
@@ -13993,12 +14011,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "hugo.yaml",
-		"pluginId": "com.kronkcms.plugin",
-		"pluginName": "Kronk CMS"
-	},
-	{
-		"bundled": false,
 		"implementationName": "hugo.yml",
 		"pluginId": "com.kronkcms.plugin",
 		"pluginName": "Kronk CMS"
@@ -14440,6 +14452,66 @@
 		"implementationName": "*.mkd",
 		"pluginId": "com.markdown.editor.plugin",
 		"pluginName": "mini markdown"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.gql",
+		"pluginId": "com.marklogictools.pulse",
+		"pluginName": "MarkLogic Pulse"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.mjs",
+		"pluginId": "com.marklogictools.pulse",
+		"pluginName": "MarkLogic Pulse"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.mlnb",
+		"pluginId": "com.marklogictools.pulse",
+		"pluginName": "MarkLogic Pulse"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.sjs",
+		"pluginId": "com.marklogictools.pulse",
+		"pluginName": "MarkLogic Pulse"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.sql",
+		"pluginId": "com.marklogictools.pulse",
+		"pluginName": "MarkLogic Pulse"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.xq",
+		"pluginId": "com.marklogictools.pulse",
+		"pluginName": "MarkLogic Pulse"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.xql",
+		"pluginId": "com.marklogictools.pulse",
+		"pluginName": "MarkLogic Pulse"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.xqm",
+		"pluginId": "com.marklogictools.pulse",
+		"pluginName": "MarkLogic Pulse"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.xquery",
+		"pluginId": "com.marklogictools.pulse",
+		"pluginName": "MarkLogic Pulse"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.xqy",
+		"pluginId": "com.marklogictools.pulse",
+		"pluginName": "MarkLogic Pulse"
 	},
 	{
 		"bundled": false,
@@ -15217,6 +15289,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.riddl",
+		"pluginId": "com.ossuminc.riddl.plugins.idea",
+		"pluginName": "RIDDL"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.cu",
 		"pluginId": "com.palani.clion.cuda-run-patcher",
 		"pluginName": "CLion CUDA Run Patcher"
@@ -15488,12 +15566,6 @@
 	{
 		"bundled": false,
 		"implementationName": "Jenkinsfile.*",
-		"pluginId": "com.poeticcoder.pipelinelens",
-		"pluginName": "PipelineLens"
-	},
-	{
-		"bundled": false,
-		"implementationName": "nginx.conf",
 		"pluginId": "com.poeticcoder.pipelinelens",
 		"pluginName": "PipelineLens"
 	},
@@ -16732,6 +16804,12 @@
 		"implementationName": "*.nim",
 		"pluginId": "com.tiepy.nimatron",
 		"pluginName": "Nimatron"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.zpl",
+		"pluginId": "com.time-complexity.zpl",
+		"pluginName": "ZPL"
 	},
 	{
 		"bundled": false,
@@ -18272,6 +18350,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.cxaml",
+		"pluginId": "dev.cursorial.designer",
+		"pluginName": "Cursorial Designer"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.dvignore",
 		"pluginId": "dev.diversion.plugin.dvidea",
 		"pluginName": "Diversion"
@@ -18341,6 +18425,18 @@
 		"implementationName": "*.novacss",
 		"pluginId": "dev.engine2d.nova.dsl",
 		"pluginName": "Nova DSL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.mermaid",
+		"pluginId": "dev.gaphunter.mermaidcompanion",
+		"pluginName": "Mermaid Companion"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.mmd",
+		"pluginId": "dev.gaphunter.mermaidcompanion",
+		"pluginName": "Mermaid Companion"
 	},
 	{
 		"bundled": false,
@@ -19391,6 +19487,36 @@
 		"implementationName": "*.exs",
 		"pluginId": "dev.murek.elixirij",
 		"pluginName": "Elixirij"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.haproxy",
+		"pluginId": "dev.ngaio.haproxy",
+		"pluginName": "HAProxy Config Support"
+	},
+	{
+		"bundled": false,
+		"implementationName": "haproxy.cfg",
+		"pluginId": "dev.ngaio.haproxy",
+		"pluginName": "HAProxy Config Support"
+	},
+	{
+		"bundled": false,
+		"implementationName": "haproxy.cfg.j2",
+		"pluginId": "dev.ngaio.haproxy",
+		"pluginName": "HAProxy Config Support"
+	},
+	{
+		"bundled": false,
+		"implementationName": "haproxy.cfg.tmpl",
+		"pluginId": "dev.ngaio.haproxy",
+		"pluginName": "HAProxy Config Support"
+	},
+	{
+		"bundled": false,
+		"implementationName": "haproxy.conf",
+		"pluginId": "dev.ngaio.haproxy",
+		"pluginName": "HAProxy Config Support"
 	},
 	{
 		"bundled": false,
@@ -20702,12 +20828,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "SKILL.md",
-		"pluginId": "io.agnix.jetbrains",
-		"pluginName": "agnix"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.ll",
 		"pluginId": "io.alef.vypa",
 		"pluginName": "LLVM"
@@ -21023,6 +21143,18 @@
 		"implementationName": "*.phtml",
 		"pluginId": "io.genai.php",
 		"pluginName": "GenAI PHP Portable"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*robots.txt",
+		"pluginId": "io.genai.robots",
+		"pluginName": "RobotsReader"
+	},
+	{
+		"bundled": false,
+		"implementationName": "robots.txt",
+		"pluginId": "io.genai.robots",
+		"pluginName": "RobotsReader"
 	},
 	{
 		"bundled": false,
@@ -22967,6 +23099,18 @@
 		"implementationName": "*.dto",
 		"pluginId": "net.fallingangel.jimmer-dto",
 		"pluginName": "JimmerDTO"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.yamlover",
+		"pluginId": "net.inthemoon.yamlover",
+		"pluginName": "yamlover"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.yo",
+		"pluginId": "net.inthemoon.yamlover",
+		"pluginName": "yamlover"
 	},
 	{
 		"bundled": false,
@@ -27067,6 +27211,24 @@
 		"implementationName": "*.blobl",
 		"pluginId": "org.pcha.intellij-bloblang-support",
 		"pluginName": "Bloblang Support"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.isl",
+		"pluginId": "org.pcsoft.ij.plugin.inno-setup",
+		"pluginName": "Inno Setup"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.iss",
+		"pluginId": "org.pcsoft.ij.plugin.inno-setup",
+		"pluginName": "Inno Setup"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.ist",
+		"pluginId": "org.pcsoft.ij.plugin.inno-setup",
+		"pluginName": "Inno Setup"
 	},
 	{
 		"bundled": false,

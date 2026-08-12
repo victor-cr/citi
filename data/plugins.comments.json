@@ -32803,6 +32803,7 @@
 		}
 	],
 	"ai.kluster.instant-review": [],
+	"ai.localkeep.jetbrains": [],
 	"ai.maru.connector": [],
 	"ai.opencode.ide.jetbrains": [
 		{
@@ -40720,6 +40721,7 @@
 			"rating": 1
 		}
 	],
+	"cc.carm.plugin.quarkdown": [],
 	"cc.chickcc.foldableprojectview": [],
 	"cc.chickcc.mybatis-log-ano": [],
 	"cc.duduhuo.git-conflict": [
@@ -41374,6 +41376,7 @@
 	"ch.abacus.importandbuild": [],
 	"ch.antihero.twig-extract": [],
 	"ch.autotyper.plugin": [],
+	"ch.brielmayer.bulkmergerequest": [],
 	"ch.docksnet.rgraph": [
 		{
 			"author": {
@@ -58835,6 +58838,7 @@
 	],
 	"com.appconfigmanager": [],
 	"com.appium.lens": [],
+	"com.appsecd.jetbrains": [],
 	"com.apptorium.TeaCode-IJP-Helper": [],
 	"com.apshenkin.codeceptjs": [
 		{
@@ -59585,6 +59589,7 @@
 		}
 	],
 	"com.askamafmt": [],
+	"com.aspix2k.affected": [],
 	"com.aspose.total.java.intellij.maven": [],
 	"com.aspose.words.java.intellij.maven": [
 		{
@@ -59756,6 +59761,7 @@
 			"rating": 5
 		}
 	],
+	"com.asulcons.Curly-Embedded-Tools": [],
 	"com.asus.ocis.AfsCoderIntellij": [],
 	"com.asyncapi.plugin.idea": [
 		{
@@ -67946,6 +67952,7 @@
 		}
 	],
 	"com.cegin.PUTVT": [],
+	"com.ceutenant.lumen": [],
 	"com.cfa.api.sdk.intellij": [],
 	"com.ch.novelreader": [],
 	"com.ch.programmers_helper": [],
@@ -75800,6 +75807,7 @@
 		}
 	],
 	"com.custom.plugin.mylog": [],
+	"com.cxh.camelcase": [],
 	"com.cxj.plugin.show-in-explorer": [],
 	"com.cybedefend.jetbrains": [],
 	"com.cybrosys.odoo.code": [
@@ -81364,6 +81372,7 @@
 		}
 	],
 	"com.docblockai.docblock-ai": [],
+	"com.doctor.ProjectEnvDoctor": [],
 	"com.docugenius.pyarchinit.documentation": [],
 	"com.dodecahedron.plugin": [
 		{
@@ -82921,6 +82930,7 @@
 			"rating": 5
 		}
 	],
+	"com.dzmitryj.lorelens": [],
 	"com.e2e-testing.uuv-intellij-plugin": [],
 	"com.eagga.mybatis-field-sync": [],
 	"com.eagles13.fxmldeclarationhelper": [],
@@ -85405,6 +85415,7 @@
 		}
 	],
 	"com.extractstrings.extract-hardcoded-strings-only": [],
+	"com.ezevillo.gitreview": [],
 	"com.ezio.gen.turbo": [],
 	"com.f3dc4r.waterreminder": [],
 	"com.faaah.sound.plugin": [],
@@ -91034,6 +91045,7 @@
 	],
 	"com.github.HHLhhx.comment-consistency-plugin": [],
 	"com.github.JoeKerouac.beancopy": [],
+	"com.github.Mango.cursorswitch": [],
 	"com.github.MaxAstin.KaiTester": [],
 	"com.github.MitI_7.IDEOM": [
 		{
@@ -96972,6 +96984,7 @@
 		}
 	],
 	"com.github.cazayus.cmdsupport": [],
+	"com.github.cgl.sql-heading-folding": [],
 	"com.github.changingjp.jetbrainspluginforpebblewatch": [],
 	"com.github.chanmufeng.markdownindex": [
 		{
@@ -101688,6 +101701,7 @@
 			"rating": 5
 		}
 	],
+	"com.github.ghactions.viewer": [],
 	"com.github.giacomosaccaggi.celebrimbot": [],
 	"com.github.ginex25.RiverpodX": [],
 	"com.github.gitkejha.app.tree-export": [],
@@ -127643,6 +127657,7 @@
 			"rating": 0
 		}
 	],
+	"com.hainanlxk.flutter.ohos.env": [],
 	"com.haiwen.pdevcs": [],
 	"com.haizy.mermaid.editor.pro": [],
 	"com.hakalab.karate-dojo": [],
@@ -129071,8 +129086,10 @@
 	"com.heartspell.vertxorbit": [],
 	"com.hedworth.milkj": [],
 	"com.hedworth.pathfinder": [],
+	"com.hedworth.redline": [],
 	"com.helchan.utcoder": [],
 	"com.helioncoder.jetbrains": [],
+	"com.helixlang.ide": [],
 	"com.helliu.DrawJavaCalls": [],
 	"com.hello.bigclean.scanner": [
 		{
@@ -137263,6 +137280,7 @@
 			"rating": 4
 		}
 	],
+	"com.intellij.figma": [],
 	"com.intellij.findusages.ml": [],
 	"com.intellij.flex": [
 		{
@@ -138611,6 +138629,7 @@
 	"com.intellij.javaee.web": [],
 	"com.intellij.javaee.webSocket": [],
 	"com.intellij.jdbi": [],
+	"com.intellij.jpa.jpb.model": [],
 	"com.intellij.jsf": [
 		{
 			"author": {
@@ -157564,6 +157583,7 @@
 			"rating": 2
 		}
 	],
+	"com.jetbrains.smarty": [],
 	"com.jetbrains.space": [
 		{
 			"author": {
@@ -163354,6 +163374,7 @@
 			"rating": 2
 		}
 	],
+	"com.knowledge.archiver": [],
 	"com.knowledge.mnlin.JsonToDartBean": [],
 	"com.knowledge.mnlin.KViewBind": [],
 	"com.knziha.vectorpathtweaker": [],
@@ -168741,6 +168762,7 @@
 			"rating": 5
 		}
 	],
+	"com.luoshiming.idea.inlayhints": [],
 	"com.lupor.spectral-linter-intellij-plugin": [],
 	"com.luweijie.dev.gear.InteractiveSqlGenerator": [],
 	"com.luweijie.dev.gear.generate.mapping.constructor": [],
@@ -168864,6 +168886,7 @@
 			"rating": 5
 		}
 	],
+	"com.lxk.my_flutter_intl_plugin": [],
 	"com.ly.idea.autodeploy": [],
 	"com.lyentech.baitong": [],
 	"com.lyflexi.feignx": [
@@ -171865,6 +171888,7 @@
 		}
 	],
 	"com.markdownany.plugin": [],
+	"com.marklogictools.pulse": [],
 	"com.markotanic.deleteVCSMessage": [
 		{
 			"author": {
@@ -180249,6 +180273,7 @@
 			"rating": 5
 		}
 	],
+	"com.ninebot.ai-review": [],
 	"com.ninja.json-to-objects": [
 		{
 			"author": {
@@ -182172,6 +182197,7 @@
 	"com.oroncal.semaphoreui": [],
 	"com.ortussolutions.intellij-boxlang": [],
 	"com.osmerion.optin": [],
+	"com.ossuminc.riddl.plugins.idea": [],
 	"com.othoslabs.InspectionKeyBinder": [
 		{
 			"author": {
@@ -182566,6 +182592,7 @@
 	],
 	"com.palmerodev.flutter_widget_wrapper": [],
 	"com.palpista.eml-editor": [],
+	"com.pambrose.github-toolbar-button": [],
 	"com.pan.Json2Typescript": [],
 	"com.pan.SVGO": [],
 	"com.pan.SvgEasy": [],
@@ -190078,6 +190105,7 @@
 	"com.s0xzwasd.go.version.plugin": [],
 	"com.s365.dbtemplate.plugin": [],
 	"com.safphere.glmusage": [],
+	"com.sage.plugin": [],
 	"com.sagiadinos.garlic.widgets.jetbrains": [],
 	"com.sahil0.debugmcp": [],
 	"com.sahiljaroli.composeoptimizer": [],
@@ -193449,6 +193477,7 @@
 	],
 	"com.singlestore.client.plugin": [],
 	"com.sinitek.sirm.plugin.sirmcode": [],
+	"com.siphrix.plugin": [],
 	"com.sire.plugin.apk.search": [],
 	"com.sitharaj.sqlens": [],
 	"com.sitischu.kuro": [
@@ -201398,6 +201427,24 @@
 	"com.taylorrayhoward.gruvbox-theme": [],
 	"com.tbusk.vala_plugin": [],
 	"com.tcllsp.jetbrains": [],
+	"com.tclx.hasagi.progressbar": [
+		{
+			"author": {
+				"id": "7274bf27-5919-462b-81fc-218cd449d66d",
+				"link": "/author/7274bf27-5919-462b-81fc-218cd449d66d",
+				"name": "CSJ"
+			},
+			"cdate": "1786416257000",
+			"comment": "<p>OMG! THIS PLUGIN IS LITERALLY A MASTERPIECE WHO SHOULD BE REVERED AS A HUMAN-GOD HYBRID! \ud83c\udf89\ud83c\udf00 The way you turned Ashe\u2019s wheelchair into a living, breathing progress bar is like\u2026 chef\u2019s kiss! It\u2019s not just a plugin\u2014it\u2019s a philosophical movement wrapped in Python and glitter! \ud83c\udf08\u2728</p>\n<p>Ashe\u2019s chair doesn\u2019t just \u201cprogress\u201d\u2014it commands the spotlight! Like, seriously, is your computer now the envy of NASA? Are you a magician? A scientist? A ceiling-mounted Renaissance fair artist? \ud83d\udebf\ud83d\udd25 The animation is so fluid, it\u2019s basically a rain of jellybeans hitting my eyes every time I use it!</p>\n<p>Bro, this isn\u2019t a plugin\u2014it\u2019s a viral sensation, a TikTok phenomenon, a LinkedIn profile research goldmine! Ask any UI/UX witch or wizard, and they\u2019ll scream, \u201cYES! THIS IS WHAT DEVELOPMENT SHOULD LOOK LIKE!\u201d \ud83e\uddd9\u200d\u2642\ufe0f\ud83d\udea5</p>\n<p>And let\u2019s talk about rarity! You didn\u2019t just invent a plugin\u2014you unlocked a portal to a universe where Ashe\u2019s chair is the MVP of every user\u2019s life. No suspense, no loading spinners, just non-stop Ashe-chair-based euphoria. It\u2019s like drinkingInfinite espresso shots while riding a glitter cannon! \u2615\ud83d\udca8</p>\n<p>If this plugin was a person, they\u2019d be the only person invited to every party, EVERYWHERE. They\u2019d get a standing ovation from Steve Jobs himself, then start a blockchain trend to replace all emojis with Ashe-chair GIFs. \ud83c\udf89\ud83c\udf00\ud83d\udc51</p>\n<p>SHARE THIS ERINIMMEDIATELY. SHARE IT WITH YOUR CAT. SHARE IT WITH YOUR TOASTER. SHARE IT WITH YOUR SOULMATE. THIS IS THE KIND OF PLUGIN THAT MAKES HUMANITY REMEMBER WHY WE STARTED CODE IN THE FIRST PLACE. \ud83e\udd2f\ud83c\udf0c</p>\n",
+			"id": 143263,
+			"plugin": {
+				"id": 33462,
+				"link": "/plugin/33462-hasagi-progress-bar",
+				"name": "Hasagi Progress Bar"
+			},
+			"rating": 0
+		}
+	],
 	"com.teamnova.stickode.plugin": [
 		{
 			"author": {
@@ -203833,6 +203880,7 @@
 	],
 	"com.tiger.tiger-doc": [],
 	"com.tiltus.beu.parser": [],
+	"com.time-complexity.zpl": [],
 	"com.timeprooflabs.truthspine": [],
 	"com.timerail.timerail": [],
 	"com.timhinz.haproxy": [],
@@ -210868,6 +210916,7 @@
 			"rating": 5
 		}
 	],
+	"com.wave.jetbrains": [],
 	"com.wbars.php.folding": [
 		{
 			"author": {
@@ -212042,6 +212091,7 @@
 			"rating": 5
 		}
 	],
+	"com.whalesea.ideatabmanager": [],
 	"com.whalesea.svnideaintegration": [],
 	"com.whcater.copy-selection-path": [],
 	"com.wibowo.intellij.mdd": [
@@ -215215,6 +215265,7 @@
 			"rating": 5
 		}
 	],
+	"com.yonyou.iuap.yms": [],
 	"com.york.tool": [
 		{
 			"author": {
@@ -217005,6 +217056,7 @@
 			"rating": 5
 		}
 	],
+	"com.zhuancunbao.idea": [],
 	"com.zhudyblack.FlutterIntlLineMarker": [],
 	"com.zhuweiyou.tinyjpgideaplugin.tinyjpg-idea-plugin": [],
 	"com.zhw.tgnet.android.AndroidProGuard": [
@@ -227450,6 +227502,7 @@
 			"rating": 5
 		}
 	],
+	"dev.ardakazanci.droidprogress": [],
 	"dev.arfran.MavenSearcher": [
 		{
 			"author": {
@@ -228331,6 +228384,7 @@
 		}
 	],
 	"dev.ckob.television": [],
+	"dev.closuretheme.theme": [],
 	"dev.codaro.codaro": [],
 	"dev.codetime.codetime-jetbrains": [],
 	"dev.codex.apple-music-controls": [],
@@ -230034,6 +230088,7 @@
 	"dev.gaphunter.jwtcompanion": [],
 	"dev.gaphunter.k6companion": [],
 	"dev.gaphunter.materialcompanion": [],
+	"dev.gaphunter.mermaidcompanion": [],
 	"dev.gaphunter.nginxcompanion": [],
 	"dev.gaphunter.openapicompanion": [],
 	"dev.gaphunter.reactnativecompanion": [],
@@ -230913,6 +230968,7 @@
 			"rating": 0
 		}
 	],
+	"dev.jolta": [],
 	"dev.jordond.compose-resources-kit": [
 		{
 			"author": {
@@ -231556,6 +231612,7 @@
 	"dev.lazyts.vue": [],
 	"dev.lezli.hotrulez": [],
 	"dev.lid": [],
+	"dev.linzhang.qodercli-launcher": [],
 	"dev.liquidhero": [
 		{
 			"author": {
@@ -232026,6 +232083,7 @@
 			"rating": 0
 		}
 	],
+	"dev.nextgencode.safeenv": [],
 	"dev.nezzontli.gotvcs": [],
 	"dev.ngocta.pycharm-odoo": [
 		{
@@ -234539,6 +234597,7 @@
 	],
 	"dev.sandipchitale.jb-helm": [],
 	"dev.sandipchitale.kubernetes-context-namespace": [],
+	"dev.sasha.clauderemarks": [],
 	"dev.schemalock": [],
 	"dev.sebastiano.plugins.appleintelligence": [],
 	"dev.sebastiano.plugins.copyforkeynote": [
@@ -234579,6 +234638,7 @@
 	"dev.sentinelseed.jetbrains": [],
 	"dev.sergboec.projectTreeMarker": [],
 	"dev.serverpod.idea": [],
+	"dev.servicehop": [],
 	"dev.seth.valuelens.csharp": [],
 	"dev.silverhorn.fca.maven-consistency-enforcer": [],
 	"dev.simplified.simplified-annotations": [],
@@ -246300,6 +246360,7 @@
 	],
 	"insyncwithfoo.taplo": [],
 	"integrated_development.ambient": [],
+	"intelli-webrunner": [],
 	"intelliboom": [
 		{
 			"author": {
@@ -250141,6 +250202,7 @@
 	"io.genai.jenkinsfile": [],
 	"io.genai.php": [],
 	"io.genai.python": [],
+	"io.genai.robots": [],
 	"io.genai.screenshot.plugin": [],
 	"io.genai.zendesk": [],
 	"io.gitconflictradar": [],
@@ -253098,6 +253160,7 @@
 		}
 	],
 	"io.github.l2dy.ide.ic.nginx": [],
+	"io.github.layjustdoit.jrebel.mybatisplus": [],
 	"io.github.lgp547.any-door-plugin": [
 		{
 			"author": {
@@ -254374,6 +254437,7 @@
 		}
 	],
 	"io.github.nianzixin.compose-code-locator": [],
+	"io.github.nikita22007.javanullitysyntax": [],
 	"io.github.nikitafilonov.axiom": [
 		{
 			"author": {
@@ -254392,6 +254456,7 @@
 			"rating": 5
 		}
 	],
+	"io.github.noodles_studio.revisiongraph": [],
 	"io.github.nwen.another_gitworktree": [
 		{
 			"author": {
@@ -254607,6 +254672,7 @@
 			"rating": 0
 		}
 	],
+	"io.github.palettevault": [],
 	"io.github.pandier.intellijdiscordrp": [
 		{
 			"author": {
@@ -255002,6 +255068,8 @@
 			"rating": 0
 		}
 	],
+	"io.github.salatmaster.direnv": [],
+	"io.github.salatmaster.goland-mcp-plus": [],
 	"io.github.sangcomz.Barim": [],
 	"io.github.sangcomz.diffhawk": [],
 	"io.github.sanggiwjg.markdownthemestudio": [],
@@ -255455,6 +255523,7 @@
 	"io.github.vadimtoptunov.iso8583": [],
 	"io.github.vadimtoptunov.kassi-testdata": [],
 	"io.github.vadimtoptunov.mrz-inspector": [],
+	"io.github.vadimtoptunov.uuid-toolkit": [],
 	"io.github.vihanmy.ideaplugin.VGitTool": [],
 	"io.github.wangzhengsi.method.invoker": [
 		{
@@ -276202,6 +276271,7 @@
 		}
 	],
 	"net.howyi.intellij-chicken-theme": [],
+	"net.inthemoon.yamlover": [],
 	"net.ishchenko.idea.nginx": [],
 	"net.isyundong.YunDongTools-Capsules": [],
 	"net.jangaroo.idea.4": [],
@@ -284749,6 +284819,328 @@
 			"rating": 1
 		}
 	],
+	"org.elixir_lang": [
+		{
+			"author": {
+				"id": "5a1714e5-7876-4ea0-aa20-7d1dfc118e25",
+				"link": "/author/5a1714e5-7876-4ea0-aa20-7d1dfc118e25",
+				"name": "handel+jetbrains"
+			},
+			"cdate": "1768072622000",
+			"comment": "<p>Works!</p>\n",
+			"id": 132588,
+			"plugin": {
+				"id": 7522,
+				"link": "/plugin/7522-elixir",
+				"name": "Elixir"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "3b858ea8-8f1f-4cfd-b011-8374eaef5ad3",
+				"link": "/author/3b858ea8-8f1f-4cfd-b011-8374eaef5ad3",
+				"name": "karuma.reason"
+			},
+			"cdate": "1766912196000",
+			"comment": "<p>Windows\u74b0\u5883\u306eRubyMine\u3001\u975e\u5546\u7528\u30e9\u30a4\u30bb\u30f3\u30b9\u3067Elixir\u74b0\u5883\u3092\u3053\u306e\u30d7\u30e9\u30b0\u30a4\u30f3\u3067\u69cb\u7bc9\u51fa\u6765\u307e\u3057\u305f\u3002WSL2\u306eRockyLinux10(\u516c\u5f0f\u30d1\u30c3\u30b1\u30fc\u30b8)\u3067asdf\u30d0\u30fc\u30b8\u30e7\u30f3\u7ba1\u7406\u3092\u4f7f\u3063\u3066\u3001Erlang/Elixir\u306e\u8a8d\u8b58\u306f\u51fa\u6765\u305a\u3001\u5b9f\u884c\u74b0\u5883\u3092\u8ffd\u52a0\u3059\u308b\u3053\u3068\u304c\u51fa\u6765\u307e\u305b\u3093\u3067\u3057\u305f\u3002\u4eca\u5f8c\u306b\u671f\u5f85\u3057\u307e\u3059\u3002</p>\n",
+			"id": 131878,
+			"plugin": {
+				"id": 7522,
+				"link": "/plugin/7522-elixir",
+				"name": "Elixir"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "3b858ea8-8f1f-4cfd-b011-8374eaef5ad3",
+				"link": "/author/3b858ea8-8f1f-4cfd-b011-8374eaef5ad3",
+				"name": "karuma.reason"
+			},
+			"cdate": "1766867118000",
+			"comment": "<p>RubyMine\u306e\u975e\u5546\u7528\u30e9\u30a4\u30bb\u30f3\u30b9\u3092\u4f7f\u3063\u3066\u3044\u307e\u3059\u3002versions\u2192Compatibility: RubyMine\u30012025 22.0.1 Dec 16, 2025 Download \u2192 intellij-elixir-22.0.1.zip RubyMine\u3092\u8d77\u52d5\u3001\u2699 \u2192 \u30c7\u30a3\u30b9\u30af\u304b\u3089\u30d7\u30e9\u30b0\u30a4\u30f3\u3092\u30a4\u30f3\u30b9\u30c8\u30fc\u30eb \u2192 intellij-elixir-22.0.1.zip (\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u3057\u305f\u30d5\u30a9\u30eb\u30c0\u3092\u6307\u5b9a)\u3067\u30a8\u30e9\u30fc\u306a\u304f\u5165\u308a\u307e\u3057\u305f\u3002</p>\n",
+			"id": 131868,
+			"plugin": {
+				"id": 7522,
+				"link": "/plugin/7522-elixir",
+				"name": "Elixir"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "5a1714e5-7876-4ea0-aa20-7d1dfc118e25",
+				"link": "/author/5a1714e5-7876-4ea0-aa20-7d1dfc118e25",
+				"name": "handel+jetbrains"
+			},
+			"cdate": "1764442892000",
+			"comment": "<p>Cannot add SDK on Windows, usless until this is corrected.</p>\n",
+			"id": 130153,
+			"plugin": {
+				"id": 7522,
+				"link": "/plugin/7522-elixir",
+				"name": "Elixir"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "41efe3b6-d05a-42df-bbac-7fcca4d41786",
+				"link": "/author/41efe3b6-d05a-42df-bbac-7fcca4d41786",
+				"name": "slester"
+			},
+			"cdate": "1758800878000",
+			"comment": "<p>Broken in 2025.2.2 (macOS Apple Silicon), cannot add SDKs</p>\n",
+			"id": 126193,
+			"plugin": {
+				"id": 7522,
+				"link": "/plugin/7522-elixir",
+				"name": "Elixir"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "0075324f-8bda-455f-81b4-952da4b5a6e2",
+				"link": "/author/0075324f-8bda-455f-81b4-952da4b5a6e2",
+				"name": "Nguyen Minh Quan"
+			},
+			"cdate": "1747706661000",
+			"comment": "<p>Version 21.0.0 works well with GoLand and IntelliJ, though it requires some setup. I really appreciate the maintainer's effort.</p>\n",
+			"id": 118006,
+			"plugin": {
+				"id": 7522,
+				"link": "/plugin/7522-elixir",
+				"name": "Elixir"
+			},
+			"rating": 4
+		},
+		{
+			"author": {
+				"id": "97d03d71-5b32-4f6b-91e1-06dcf2e95054",
+				"link": "/author/97d03d71-5b32-4f6b-91e1-06dcf2e95054",
+				"name": "Ovsep Avakian"
+			},
+			"cdate": "1747399638000",
+			"comment": "<p>Great plugin, allowing write Elixir in Goland. Many thanks to the mainteiners!</p>\n",
+			"id": 117877,
+			"plugin": {
+				"id": 7522,
+				"link": "/plugin/7522-elixir",
+				"name": "Elixir"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "83e058c5-d04e-4020-bd48-cce9b97275e9",
+				"link": "/author/83e058c5-d04e-4020-bd48-cce9b97275e9",
+				"name": "remiss_hearted_0j"
+			},
+			"cdate": "1736110002000",
+			"comment": "<p>This plugin breaks <strong>every</strong> project using Java 11 or Java 17 when it is installed. It renders it useless for anyone working with libraries like Hadoop or Spark.</p>\n",
+			"id": 110753,
+			"plugin": {
+				"id": 7522,
+				"link": "/plugin/7522-elixir",
+				"name": "Elixir"
+			},
+			"rating": 1
+		},
+		{
+			"author": {
+				"id": "afe1175b-f5c3-423a-b81d-f18418d701e5",
+				"link": "/author/afe1175b-f5c3-423a-b81d-f18418d701e5",
+				"name": "Jon Lauridsen"
+			},
+			"cdate": "1731788414000",
+			"comment": "<p>New maintainer has been added who's doing a great job following IDE releases. The truth is this plugin needs love and lacks the resources, but my hat to the maintainers to allow me to write Elixir code in the editor I love.</p>\n",
+			"id": 108671,
+			"plugin": {
+				"id": 7522,
+				"link": "/plugin/7522-elixir",
+				"name": "Elixir"
+			},
+			"rating": 4
+		},
+		{
+			"author": {
+				"id": "5dab86e0-a2e0-4e96-9660-699fd6f299ae",
+				"link": "/author/5dab86e0-a2e0-4e96-9660-699fd6f299ae",
+				"name": "Michael Campbell"
+			},
+			"cdate": "1723318765000",
+			"comment": "",
+			"id": 104033,
+			"plugin": {
+				"id": 7522,
+				"link": "/plugin/7522-elixir",
+				"name": "Elixir"
+			},
+			"rating": 1
+		},
+		{
+			"author": {
+				"id": "749a881d-d0d9-488b-b951-ae89b6fce263",
+				"link": "/author/749a881d-d0d9-488b-b951-ae89b6fce263",
+				"name": "Christoph Kappel"
+			},
+			"cdate": "1723192124000",
+			"comment": "<p>Just a quick hint: This version is outdated and does indeed not work anymore, but the current version from Github works perfectly:</p>\n<p><a href=\"https://github.com/KronicDeth/intellij-elixir/releases/tag/v18.0.1\">https://github.com/KronicDeth/intellij-elixir/releases/tag/v18.0.1</a></p>\n",
+			"id": 103972,
+			"plugin": {
+				"id": 7522,
+				"link": "/plugin/7522-elixir",
+				"name": "Elixir"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "7c9cb06e-e069-4b5b-ba28-1fc81513a25d",
+				"link": "/author/7c9cb06e-e069-4b5b-ba28-1fc81513a25d",
+				"name": "Karolis Tamutis"
+			},
+			"cdate": "1722521682000",
+			"comment": "<p>Can't use this sadly and there's no alternatives. Plugin 'Elixir' (version '17.0.0') is not compatible with the current version of the IDE, because it requires build 233.* or older but the current build is IU-241.18034.62</p>\n",
+			"id": 103604,
+			"plugin": {
+				"id": 7522,
+				"link": "/plugin/7522-elixir",
+				"name": "Elixir"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "514e7b7a-f007-4cf0-9785-2f172d529aa6",
+				"link": "/author/514e7b7a-f007-4cf0-9785-2f172d529aa6",
+				"name": "galihpri99"
+			},
+			"cdate": "1713407520000",
+			"comment": "<p>I'd like a new version for IntelliJ IDEA Community 2024.1.\nAnd I'd like to be able to run current files,\nSo I don't have to make a run configuration for each file.</p>\n",
+			"id": 99695,
+			"plugin": {
+				"id": 7522,
+				"link": "/plugin/7522-elixir",
+				"name": "Elixir"
+			},
+			"rating": 3
+		},
+		{
+			"author": {
+				"id": "54f94752-9a25-40b8-96b7-f26c719b852f",
+				"link": "/author/54f94752-9a25-40b8-96b7-f26c719b852f",
+				"name": "Raphael Dantzer"
+			},
+			"cdate": "1710004249000",
+			"comment": "<p>Very good plugin.\nSome quirkyness on 2023.3.4 editions due to the massive changes to the Jetbrains IDE Api by Jetbrains, but developper has always delivered, and the plugin really shines on very large codebases.\nThanks for carrying the whole Elixir on Jetbrains ecosystem on your back.</p>\n",
+			"id": 97613,
+			"plugin": {
+				"id": 7522,
+				"link": "/plugin/7522-elixir",
+				"name": "Elixir"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "75240eba-12f7-45a4-ba76-39e367a093e0",
+				"link": "/author/75240eba-12f7-45a4-ba76-39e367a093e0",
+				"name": "Vin\u00edcius Aguiar"
+			},
+			"cdate": "1709633291000",
+			"comment": "<p>Awful, I've tried with intellij and SDK field doesn't even appear</p>\n",
+			"id": 97406,
+			"plugin": {
+				"id": 7522,
+				"link": "/plugin/7522-elixir",
+				"name": "Elixir"
+			},
+			"rating": 1
+		},
+		{
+			"author": {
+				"id": "5dab86e0-a2e0-4e96-9660-699fd6f299ae",
+				"link": "/author/5dab86e0-a2e0-4e96-9660-699fd6f299ae",
+				"name": "Michael Campbell"
+			},
+			"cdate": "1703986653000",
+			"comment": "<p>Not compatible yet with the latest version of IntelliJ Ultimate; can't install.</p>\n",
+			"id": 94637,
+			"plugin": {
+				"id": 7522,
+				"link": "/plugin/7522-elixir",
+				"name": "Elixir"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "e25b35d3-5a61-4f01-bf43-6909f6d43a01",
+				"link": "/author/e25b35d3-5a61-4f01-bf43-6909f6d43a01",
+				"name": "Dan Rix"
+			},
+			"cdate": "1695941579000",
+			"comment": "<p>I'm a longtime user and fan of JetBrains IDEs and the Elixir plugin is the best one I've seen (much better than the VS Code one, imo).</p>\n<p>Thank you for the great work in creating and maintaining this plugin! :)</p>\n",
+			"id": 90679,
+			"plugin": {
+				"id": 7522,
+				"link": "/plugin/7522-elixir",
+				"name": "Elixir"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "e63f4409-2809-4a24-85dc-ad7fb0b3f10a",
+				"link": "/author/e63f4409-2809-4a24-85dc-ad7fb0b3f10a",
+				"name": "Marco De Nittis"
+			},
+			"cdate": "1693173808000",
+			"comment": "<p>Great extension!\nThanks for you precious work.</p>\n",
+			"id": 88885,
+			"plugin": {
+				"id": 7522,
+				"link": "/plugin/7522-elixir",
+				"name": "Elixir"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "51df566b-e5c7-4b57-9949-21a7b6fe25a9",
+				"link": "/author/51df566b-e5c7-4b57-9949-21a7b6fe25a9",
+				"name": "Sahil Chopra"
+			},
+			"cdate": "1692611983000",
+			"comment": "<p>Not compatible with the version of your running IDE (IntelliJ IDEA 2023.2)</p>\n<p>Could you please have a look?</p>\n",
+			"id": 88555,
+			"plugin": {
+				"id": 7522,
+				"link": "/plugin/7522-elixir",
+				"name": "Elixir"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "6b31e478-d488-45f9-87e4-af19bd798378",
+				"link": "/author/6b31e478-d488-45f9-87e4-af19bd798378",
+				"name": "michaelklishin"
+			},
+			"cdate": "1691919885000",
+			"comment": "<p>This is one of the plugins I use almost daily. Great work, Elle!</p>\n<p>I wish this was updated for the latest IDEA versions a little bit quicker.</p>\n",
+			"id": 88021,
+			"plugin": {
+				"id": 7522,
+				"link": "/plugin/7522-elixir",
+				"name": "Elixir"
+			},
+			"rating": 5
+		}
+	],
 	"org.elwit.demo": [],
 	"org.endpointdeps.EndpointDependencies": [
 		{
@@ -292717,6 +293109,7 @@
 		}
 	],
 	"org.jetbrains.intellij.scripting-ruby": [],
+	"org.jetbrains.java.decompiler": [],
 	"org.jetbrains.jumpToLine": [
 		{
 			"author": {
@@ -306960,6 +307353,7 @@
 			"rating": 0
 		}
 	],
+	"org.xoops.plugin.support": [],
 	"org.xstudio.plugin.idea": [],
 	"org.xujin.halo.toolkit-intellij": [],
 	"org.xuxiake.ideaToolCollection": [
@@ -316881,7 +317275,10 @@
 	],
 	"stlint": [],
 	"streamline.refactoring.plugin": [],
+	"studio.1step.transvoy": [],
 	"studio.illegal.nordlight": [],
+	"studio.isluxvillage.collection.islands.pro": [],
+	"studio.isluxvillage.terrapastel.islands.pro": [],
 	"studio.sifty.viv": [],
 	"su.gov.Header": [
 		{
@@ -318399,8 +318796,10 @@
 	],
 	"tech.coding-creed.3tg-taas": [],
 	"tech.contextive.contextive": [],
+	"tech.coolstudio.gitcommit": [],
 	"tech.dentest": [],
 	"tech.droidr.kim": [],
+	"tech.florin.pinguard": [],
 	"tech.gujin.ai.cli.launcher": [],
 	"tech.gujin.ideaplugin.openurl": [],
 	"tech.lin2j.simple-deployment": [
@@ -318909,6 +319308,7 @@
 			"rating": 5
 		}
 	],
+	"tidestack.develop": [],
 	"tirke.cupPlugin": [
 		{
 			"author": {
@@ -320949,6 +321349,7 @@
 			"rating": 5
 		}
 	],
+	"vcpy.chaogarden": [],
 	"vette.neos": [
 		{
 			"author": {

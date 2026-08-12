@@ -1644,6 +1644,12 @@
 		"version": "0.2"
 	},
 	{
+		"id": 1131817,
+		"pluginId": 7522,
+		"pluginXmlId": "org.elixir_lang",
+		"version": "24.0.1"
+	},
+	{
 		"id": 1006013,
 		"pluginId": 7525,
 		"pluginXmlId": "ccom.intellij.idea.plugin.hybris.impex",
@@ -3426,10 +3432,10 @@
 		"version": "1.0.3"
 	},
 	{
-		"id": 1024640,
+		"id": 1135459,
 		"pluginId": 9371,
 		"pluginXmlId": "org.apache.camel",
-		"version": "1.5.0"
+		"version": "1.5.1"
 	},
 	{
 		"id": 110047,
@@ -6078,10 +6084,10 @@
 		"version": "2026.1.14"
 	},
 	{
-		"id": 1126759,
+		"id": 1135616,
 		"pluginId": 11070,
 		"pluginXmlId": "net.sjrx.intellij.plugins.systemdunitfiles",
-		"version": "242.260805.841"
+		"version": "242.260812.848"
 	},
 	{
 		"id": 96377,
@@ -7932,10 +7938,10 @@
 		"version": "0.0.6"
 	},
 	{
-		"id": 1119202,
+		"id": 1133183,
 		"pluginId": 12211,
 		"pluginXmlId": "com.itangcent.idea.plugin.easy-api",
-		"version": "3.1.8.252.0"
+		"version": "3.1.9.252.0"
 	},
 	{
 		"id": 61962,
@@ -8526,10 +8532,10 @@
 		"version": "2.0"
 	},
 	{
-		"id": 1119201,
+		"id": 1133185,
 		"pluginId": 12458,
 		"pluginXmlId": "com.itangcent.idea.plugin.easy-yapi",
-		"version": "3.2.2.252.0"
+		"version": "3.2.3.252.0"
 	},
 	{
 		"id": 63376,
@@ -10422,10 +10428,10 @@
 		"version": "1.0"
 	},
 	{
-		"id": 1113711,
+		"id": 1132915,
 		"pluginId": 13499,
 		"pluginXmlId": "dev.ngocta.pycharm-odoo",
-		"version": "2026.5.1.261"
+		"version": "2026.6.0.261"
 	},
 	{
 		"id": 77067,
@@ -10842,10 +10848,10 @@
 		"version": "1.1"
 	},
 	{
-		"id": 922439,
+		"id": 1132725,
 		"pluginId": 13799,
 		"pluginXmlId": "de.sist.gitlab",
-		"version": "2.18.2"
+		"version": "2.19.0"
 	},
 	{
 		"id": 994493,
@@ -11100,10 +11106,10 @@
 		"version": "1.0.3"
 	},
 	{
-		"id": 635744,
+		"id": 1133530,
 		"pluginId": 13931,
 		"pluginXmlId": "cn.jxzhang.plugin.json-formatter",
-		"version": "1.6"
+		"version": "1.8"
 	},
 	{
 		"id": 80718,
@@ -11376,10 +11382,10 @@
 		"version": "0.2.0"
 	},
 	{
-		"id": 1123317,
+		"id": 1134634,
 		"pluginId": 14080,
 		"pluginXmlId": "kotest-plugin-intellij",
-		"version": "6.1.19-2026.1.1"
+		"version": "6.1.20-2026.1.1"
 	},
 	{
 		"id": 118765,
@@ -12030,10 +12036,10 @@
 		"version": "0.2"
 	},
 	{
-		"id": 1085654,
+		"id": 1132928,
 		"pluginId": 14440,
 		"pluginXmlId": "com.mobidevelop.robovm.intellij",
-		"version": "2.3.25"
+		"version": "2.3.26"
 	},
 	{
 		"id": 557291,
@@ -12120,10 +12126,10 @@
 		"version": "1.0.0"
 	},
 	{
-		"id": 1034617,
+		"id": 887596,
 		"pluginId": 14494,
 		"pluginXmlId": "com.firsttimeinforever.intellij.pdf.viewer.intellij-pdf-viewer",
-		"version": "0.18.0"
+		"version": "0.17.2"
 	},
 	{
 		"id": 237841,
@@ -12738,10 +12744,10 @@
 		"version": "2.0.0"
 	},
 	{
-		"id": 1120013,
+		"id": 1133844,
 		"pluginId": 14837,
 		"pluginXmlId": "com.crunch42.openapi",
-		"version": "5.8"
+		"version": "5.8-261"
 	},
 	{
 		"id": 343095,
@@ -13536,10 +13542,10 @@
 		"version": "2026.5.1"
 	},
 	{
-		"id": 1132392,
+		"id": 1133845,
 		"pluginId": 15442,
 		"pluginXmlId": "com.thief.idea",
-		"version": "0.1.3"
+		"version": "0.1.4"
 	},
 	{
 		"id": 1130758,
@@ -14706,10 +14712,10 @@
 		"version": "1.2.1"
 	},
 	{
-		"id": 1118272,
+		"id": 1133378,
 		"pluginId": 16477,
 		"pluginXmlId": "com.lightrun.idea.plugin.saas.LightrunPlugin",
-		"version": "1.90.0-release.abffdfb689"
+		"version": "1.91.0-release.943266f167"
 	},
 	{
 		"id": 873390,
@@ -15822,10 +15828,10 @@
 		"version": "1.0.0"
 	},
 	{
-		"id": 1082393,
+		"id": 1135926,
 		"pluginId": 17356,
 		"pluginXmlId": "org.jetbrains.toolbox-enterprise-client",
-		"version": "2026.1.1.56-ij261"
+		"version": "2026.1.3.93-ij261"
 	},
 	{
 		"id": 1120228,
@@ -16398,10 +16404,10 @@
 		"version": "1.4.0"
 	},
 	{
-		"id": 1129053,
+		"id": 1132751,
 		"pluginId": 17809,
 		"pluginXmlId": "com.alibabacloud.intellij.cosy",
-		"version": "2026.807.59127930"
+		"version": "2026.810.59729441"
 	},
 	{
 		"id": 317450,
@@ -17040,10 +17046,10 @@
 		"version": "1.0.1"
 	},
 	{
-		"id": 1070795,
+		"id": 1135024,
 		"pluginId": 18289,
 		"pluginXmlId": "co.bito.bito-intellij",
-		"version": "1.6.9"
+		"version": "1.7.0"
 	},
 	{
 		"id": 434669,
@@ -19872,10 +19878,10 @@
 		"version": "2.4.0"
 	},
 	{
-		"id": 1005929,
+		"id": 1134461,
 		"pluginId": 20278,
 		"pluginXmlId": "dev.priporov.idea.notes",
-		"version": "1.5.9"
+		"version": "1.5.10"
 	},
 	{
 		"id": 946403,
@@ -20892,10 +20898,10 @@
 		"version": "1.2.10.1"
 	},
 	{
-		"id": 1125996,
+		"id": 1134695,
 		"pluginId": 21068,
 		"pluginXmlId": "com.huawei.codearts.snap",
-		"version": "26.7.2"
+		"version": "26.8.0"
 	},
 	{
 		"id": 298729,
@@ -21096,10 +21102,10 @@
 		"version": "1.0.0"
 	},
 	{
-		"id": 1111990,
+		"id": 1135618,
 		"pluginId": 21263,
 		"pluginXmlId": "com.zhengfei.aicoding",
-		"version": "2026.2.2"
+		"version": "2026.2.3"
 	},
 	{
 		"id": 634479,
@@ -22068,10 +22074,10 @@
 		"version": "1.0"
 	},
 	{
-		"id": 1012236,
+		"id": 1133353,
 		"pluginId": 22092,
 		"pluginXmlId": "cn.youhaveme.Comma",
-		"version": "1.4.4"
+		"version": "1.4.6"
 	},
 	{
 		"id": 891693,
@@ -22644,10 +22650,10 @@
 		"version": "1.0.1"
 	},
 	{
-		"id": 1130383,
+		"id": 1134295,
 		"pluginId": 22585,
 		"pluginXmlId": "net.postchain.rellide.jetbrains",
-		"version": "0.4.7"
+		"version": "0.4.8"
 	},
 	{
 		"id": 689756,
@@ -23688,10 +23694,10 @@
 		"version": "2026.2.0"
 	},
 	{
-		"id": 1069056,
+		"id": 1133991,
 		"pluginId": 23451,
 		"pluginXmlId": "com.mituuz.fuzzier",
-		"version": "2.4.1"
+		"version": "2.4.2"
 	},
 	{
 		"id": 493263,
@@ -24714,10 +24720,10 @@
 		"version": "1.3.0"
 	},
 	{
-		"id": 1131344,
+		"id": 1134148,
 		"pluginId": 24169,
 		"pluginXmlId": "com.devoxx.genie",
-		"version": "1.12.0"
+		"version": "1.13.0"
 	},
 	{
 		"id": 1010749,
@@ -25620,10 +25626,10 @@
 		"version": "0.10.0"
 	},
 	{
-		"id": 1128893,
+		"id": 1133851,
 		"pluginId": 24782,
 		"pluginXmlId": "ai.zencoder.plugin",
-		"version": "3.34.0"
+		"version": "3.35.0"
 	},
 	{
 		"id": 1118337,
@@ -25696,6 +25702,12 @@
 		"pluginId": 24828,
 		"pluginXmlId": "color.scheme.arc-dark-pastel",
 		"version": "0.1"
+	},
+	{
+		"id": 1133001,
+		"pluginId": 24829,
+		"pluginXmlId": "com.yonyou.iuap.yms",
+		"version": "2.5.3"
 	},
 	{
 		"id": 986853,
@@ -26256,10 +26268,10 @@
 		"version": "2.4.3"
 	},
 	{
-		"id": 1131300,
+		"id": 1135014,
 		"pluginId": 25282,
 		"pluginXmlId": "com.nextcodegen.chatgptintellij",
-		"version": "9.3.0"
+		"version": "9.4.0"
 	},
 	{
 		"id": 876151,
@@ -26424,10 +26436,10 @@
 		"version": "0.1.3"
 	},
 	{
-		"id": 1078386,
+		"id": 1133521,
 		"pluginId": 25401,
 		"pluginXmlId": "com.codescene.vanilla",
-		"version": "0.5.2"
+		"version": "0.5.3"
 	},
 	{
 		"id": 1041187,
@@ -26466,10 +26478,10 @@
 		"version": "1.1.2"
 	},
 	{
-		"id": 1125673,
+		"id": 1133027,
 		"pluginId": 25448,
 		"pluginXmlId": "com.lhstack.tools",
-		"version": "1.1.5.2"
+		"version": "1.1.5.3"
 	},
 	{
 		"id": 620664,
@@ -26700,10 +26712,10 @@
 		"version": "1.2.8"
 	},
 	{
-		"id": 864365,
+		"id": 1134136,
 		"pluginId": 25604,
 		"pluginXmlId": "com.lyflexi.feignx",
-		"version": "5.6.4.3"
+		"version": "5.6.4.7"
 	},
 	{
 		"id": 1019594,
@@ -27828,10 +27840,10 @@
 		"version": "1.0.2"
 	},
 	{
-		"id": 1103362,
+		"id": 1132227,
 		"pluginId": 26237,
 		"pluginXmlId": "ChatCode",
-		"version": "1.1.15"
+		"version": "1.1.17"
 	},
 	{
 		"id": 777450,
@@ -27846,10 +27858,10 @@
 		"version": "0.0.6"
 	},
 	{
-		"id": 1115914,
+		"id": 1131280,
 		"pluginId": 26247,
 		"pluginXmlId": "com.sapient.slingshot",
-		"version": "3.0.0"
+		"version": "3.1.0"
 	},
 	{
 		"id": 681562,
@@ -28662,16 +28674,16 @@
 		"version": "2026.1.2"
 	},
 	{
-		"id": 1128878,
+		"id": 1135612,
 		"pluginId": 26765,
 		"pluginXmlId": "com.markbakos.todo",
-		"version": "1.17.15"
+		"version": "1.17.17"
 	},
 	{
-		"id": 1129074,
+		"id": 1133846,
 		"pluginId": 26766,
 		"pluginXmlId": "com.feisuanyz.feisuan-javaai",
-		"version": "3.9.7"
+		"version": "3.9.8"
 	},
 	{
 		"id": 1091051,
@@ -29526,10 +29538,10 @@
 		"version": "1.1.2"
 	},
 	{
-		"id": 1127562,
+		"id": 1134638,
 		"pluginId": 27289,
 		"pluginXmlId": "com.simiacryptus.cognotik",
-		"version": "2.1.21"
+		"version": "2.1.23"
 	},
 	{
 		"id": 856947,
@@ -31188,10 +31200,10 @@
 		"version": "2025.1.3"
 	},
 	{
-		"id": 1132081,
+		"id": 1134689,
 		"pluginId": 28107,
 		"pluginXmlId": "com.nanyin.nacos.search",
-		"version": "1.3.8"
+		"version": "1.4.0"
 	},
 	{
 		"id": 1085917,
@@ -31752,10 +31764,10 @@
 		"version": "2025.1.1"
 	},
 	{
-		"id": 1086089,
+		"id": 1133692,
 		"pluginId": 28320,
 		"pluginXmlId": "one.pkg.modpublish",
-		"version": "1.11.3"
+		"version": "1.12.0"
 	},
 	{
 		"id": 1030722,
@@ -31830,10 +31842,10 @@
 		"version": "1.0.4-beta"
 	},
 	{
-		"id": 1128491,
+		"id": 1132980,
 		"pluginId": 28350,
 		"pluginXmlId": "ai.kilocode.jetbrains",
-		"version": "7.0.14"
+		"version": "7.0.15"
 	},
 	{
 		"id": 847258,
@@ -33276,10 +33288,10 @@
 		"version": "0.4.2"
 	},
 	{
-		"id": 1128700,
+		"id": 1132709,
 		"pluginId": 28842,
 		"pluginXmlId": "com.github.xepozz.testo",
-		"version": "2026.3.252"
+		"version": "2026.4.252"
 	},
 	{
 		"id": 909313,
@@ -33414,10 +33426,10 @@
 		"version": "1.1.0"
 	},
 	{
-		"id": 1121123,
+		"id": 1135607,
 		"pluginId": 28896,
 		"pluginXmlId": "com.github.infcode.extension",
-		"version": "2.2.0"
+		"version": "2.3.0"
 	},
 	{
 		"id": 1042736,
@@ -33558,10 +33570,10 @@
 		"version": "1.1.4"
 	},
 	{
-		"id": 1044736,
+		"id": 1134147,
 		"pluginId": 28936,
 		"pluginXmlId": "com.toddysoft.mspec",
-		"version": "1.3.0"
+		"version": "1.4.0"
 	},
 	{
 		"id": 1083775,
@@ -33666,10 +33678,10 @@
 		"version": "0.3.1"
 	},
 	{
-		"id": 1120008,
+		"id": 1133684,
 		"pluginId": 28971,
 		"pluginXmlId": "com.andriidev.lookml",
-		"version": "2026.2.1"
+		"version": "2026.3.0"
 	},
 	{
 		"id": 891418,
@@ -33882,10 +33894,10 @@
 		"version": "0.0.1"
 	},
 	{
-		"id": 1114701,
+		"id": 1133350,
 		"pluginId": 29053,
 		"pluginXmlId": "com.gitlab.codelydev.codelyintellijextension",
-		"version": "3.3.0"
+		"version": "3.6.0"
 	},
 	{
 		"id": 898094,
@@ -34542,10 +34554,10 @@
 		"version": "2026.1-2.9.3@0713"
 	},
 	{
-		"id": 907550,
+		"id": 1132926,
 		"pluginId": 29273,
 		"pluginXmlId": "RainSong",
-		"version": "1.0.1"
+		"version": "2.1"
 	},
 	{
 		"id": 919404,
@@ -34614,10 +34626,10 @@
 		"version": "0.3.3"
 	},
 	{
-		"id": 1131299,
+		"id": 1135013,
 		"pluginId": 29297,
 		"pluginXmlId": "com.nextcodegen.claude",
-		"version": "4.3.0"
+		"version": "4.4.0"
 	},
 	{
 		"id": 1116865,
@@ -34728,10 +34740,10 @@
 		"version": "2026.2"
 	},
 	{
-		"id": 1132224,
+		"id": 1134130,
 		"pluginId": 29342,
 		"pluginXmlId": "com.github.idea-claude-code-gui",
-		"version": "0.5-fix1"
+		"version": "0.5.1"
 	},
 	{
 		"id": 1067597,
@@ -34758,10 +34770,10 @@
 		"version": "0.2.2"
 	},
 	{
-		"id": 1128683,
+		"id": 1135619,
 		"pluginId": 29356,
 		"pluginXmlId": "com.flexible.julia",
-		"version": "2026.9.47"
+		"version": "2026.9.48"
 	},
 	{
 		"id": 912346,
@@ -35256,10 +35268,10 @@
 		"version": "0.0.1"
 	},
 	{
-		"id": 1009976,
+		"id": 1133841,
 		"pluginId": 29509,
 		"pluginXmlId": "info.jiayun.intellij-mcp",
-		"version": "1.10.1"
+		"version": "1.10.3"
 	},
 	{
 		"id": 958215,
@@ -35460,10 +35472,10 @@
 		"version": "1.0.3"
 	},
 	{
-		"id": 924945,
+		"id": 1135760,
 		"pluginId": 29570,
 		"pluginXmlId": "pl.radeal.projecttimer",
-		"version": "0.6.5"
+		"version": "1.1.0"
 	},
 	{
 		"id": 928577,
@@ -35556,10 +35568,10 @@
 		"version": "1.0.2"
 	},
 	{
-		"id": 1131301,
+		"id": 1135015,
 		"pluginId": 29595,
 		"pluginXmlId": "com.nextcodegen.codex",
-		"version": "3.3.0"
+		"version": "3.4.0"
 	},
 	{
 		"id": 1053856,
@@ -36090,10 +36102,10 @@
 		"version": "1.0"
 	},
 	{
-		"id": 1101630,
+		"id": 1135611,
 		"pluginId": 29804,
 		"pluginXmlId": "com.jinja2enhanced",
-		"version": "2.3.4"
+		"version": "2026.2.0"
 	},
 	{
 		"id": 984356,
@@ -36270,10 +36282,10 @@
 		"version": "0.0.4"
 	},
 	{
-		"id": 1116918,
+		"id": 1134692,
 		"pluginId": 29870,
 		"pluginXmlId": "dev.tachilabs.mermaidstudio",
-		"version": "2026.3.5"
+		"version": "2026.3.6"
 	},
 	{
 		"id": 938968,
@@ -36372,10 +36384,10 @@
 		"version": "1.3.1"
 	},
 	{
-		"id": 1132082,
+		"id": 1134131,
 		"pluginId": 29896,
 		"pluginXmlId": "com.github.chbndrhnns.betterpy",
-		"version": "2026.08.3"
+		"version": "2026.08.4"
 	},
 	{
 		"id": 941922,
@@ -36564,10 +36576,10 @@
 		"version": "0.3.2"
 	},
 	{
-		"id": 942571,
+		"id": 1132718,
 		"pluginId": 29947,
 		"pluginXmlId": "com.pan.Json2Typescript",
-		"version": "1.1.0"
+		"version": "1.2.6"
 	},
 	{
 		"id": 1046250,
@@ -36696,10 +36708,10 @@
 		"version": "2026.1.20"
 	},
 	{
-		"id": 1128892,
+		"id": 1132717,
 		"pluginId": 29998,
 		"pluginXmlId": "com.pan.vue-i18n-extractor",
-		"version": "1.3.5"
+		"version": "1.3.7"
 	},
 	{
 		"id": 946486,
@@ -37176,10 +37188,10 @@
 		"version": "1.1.0"
 	},
 	{
-		"id": 1131291,
+		"id": 1134663,
 		"pluginId": 30125,
 		"pluginXmlId": "cn.duxinglan.openapispecgenie",
-		"version": "0.9.0"
+		"version": "0.10.0"
 	},
 	{
 		"id": 952971,
@@ -37542,10 +37554,10 @@
 		"version": "2026.06.0"
 	},
 	{
-		"id": 1074651,
+		"id": 1132070,
 		"pluginId": 30255,
 		"pluginXmlId": "io.github.wharflab.tally",
-		"version": "0.44.2"
+		"version": "0.45.0"
 	},
 	{
 		"id": 1014866,
@@ -37566,10 +37578,10 @@
 		"version": "1.2.0"
 	},
 	{
-		"id": 1127932,
+		"id": 1133188,
 		"pluginId": 30261,
 		"pluginXmlId": "com.flutterplaza.fluttercompile",
-		"version": "0.3.7"
+		"version": "0.3.8"
 	},
 	{
 		"id": 960519,
@@ -37656,10 +37668,10 @@
 		"version": "2026.1.3"
 	},
 	{
-		"id": 1006783,
+		"id": 1135929,
 		"pluginId": 30291,
 		"pluginXmlId": "com.someblackmagic.saltstack",
-		"version": "2.0.1"
+		"version": "2026.2.0"
 	},
 	{
 		"id": 963497,
@@ -37740,10 +37752,10 @@
 		"version": "1.0.3"
 	},
 	{
-		"id": 1132533,
+		"id": 1135451,
 		"pluginId": 30313,
 		"pluginXmlId": "com.github.yhk1038.claude-code-gui",
-		"version": "0.26.7"
+		"version": "0.26.9"
 	},
 	{
 		"id": 981425,
@@ -37878,10 +37890,10 @@
 		"version": "1.0.0"
 	},
 	{
-		"id": 1131320,
+		"id": 1132727,
 		"pluginId": 30354,
 		"pluginXmlId": "com.alifnaufal.celadon-theme",
-		"version": "1.2.0"
+		"version": "1.3.1"
 	},
 	{
 		"id": 1093415,
@@ -37956,10 +37968,10 @@
 		"version": "0.2.3"
 	},
 	{
-		"id": 1128899,
+		"id": 1132901,
 		"pluginId": 30373,
 		"pluginXmlId": "com.ayuislands.theme",
-		"version": "2.8.2"
+		"version": "2.8.3"
 	},
 	{
 		"id": 968090,
@@ -38688,10 +38700,10 @@
 		"version": "1.7.1"
 	},
 	{
-		"id": 1128702,
+		"id": 1134626,
 		"pluginId": 30576,
 		"pluginXmlId": "in.kkkev.jj-idea",
-		"version": "0.8.8"
+		"version": "0.8.10"
 	},
 	{
 		"id": 982734,
@@ -38790,10 +38802,10 @@
 		"version": "1.0.1"
 	},
 	{
-		"id": 1132019,
+		"id": 1133689,
 		"pluginId": 30600,
 		"pluginXmlId": "tw.kewang.spek",
-		"version": "1.12.0"
+		"version": "1.13.1"
 	},
 	{
 		"id": 1016994,
@@ -38874,10 +38886,10 @@
 		"version": "1.0.4"
 	},
 	{
-		"id": 1129230,
+		"id": 1132729,
 		"pluginId": 30630,
 		"pluginXmlId": "com.flexible.haskell",
-		"version": "2026.1.33"
+		"version": "2026.1.34"
 	},
 	{
 		"id": 1072867,
@@ -39066,10 +39078,10 @@
 		"version": "1.1.1"
 	},
 	{
-		"id": 1132045,
+		"id": 1134442,
 		"pluginId": 30690,
 		"pluginXmlId": "de.moritzf.openai-usage-quota",
-		"version": "1.7.7"
+		"version": "1.7.8"
 	},
 	{
 		"id": 1005333,
@@ -39090,10 +39102,10 @@
 		"version": "1.4.3"
 	},
 	{
-		"id": 1131094,
+		"id": 1132545,
 		"pluginId": 30697,
 		"pluginXmlId": "com.codeagent.mobile",
-		"version": "2.61.96"
+		"version": "2.61.97"
 	},
 	{
 		"id": 988705,
@@ -39270,10 +39282,10 @@
 		"version": "2026.1.0430"
 	},
 	{
-		"id": 1132390,
+		"id": 1133672,
 		"pluginId": 30743,
 		"pluginXmlId": "com.openshell.idea.toolbar",
-		"version": "1.4.2"
+		"version": "1.5.0"
 	},
 	{
 		"id": 1004960,
@@ -39642,10 +39654,10 @@
 		"version": "1.3.0"
 	},
 	{
-		"id": 1132069,
+		"id": 1134854,
 		"pluginId": 30863,
 		"pluginXmlId": "io.github.jhspetersson.turtlecommander",
-		"version": "0.7.35"
+		"version": "0.7.37"
 	},
 	{
 		"id": 993368,
@@ -39732,10 +39744,10 @@
 		"version": "3.1.16"
 	},
 	{
-		"id": 1116917,
+		"id": 1134693,
 		"pluginId": 30883,
 		"pluginXmlId": "dev.tachilabs.mermaidstudio.core",
-		"version": "2026.3.5"
+		"version": "2026.3.6"
 	},
 	{
 		"id": 993797,
@@ -40494,10 +40506,10 @@
 		"version": "2026-04-30.1"
 	},
 	{
-		"id": 1130240,
+		"id": 1133348,
 		"pluginId": 31082,
 		"pluginXmlId": "com.agentellij",
-		"version": "0.4.6"
+		"version": "0.4.7"
 	},
 	{
 		"id": 1034019,
@@ -40632,10 +40644,10 @@
 		"version": "1.1.0"
 	},
 	{
-		"id": 1117664,
+		"id": 1037647,
 		"pluginId": 31121,
 		"pluginXmlId": "com.algorist.markflow",
-		"version": "26.07.27.215912"
+		"version": "26.05.03.060749"
 	},
 	{
 		"id": 1009927,
@@ -40848,10 +40860,10 @@
 		"version": "1.2.0"
 	},
 	{
-		"id": 1030253,
+		"id": 1132912,
 		"pluginId": 31171,
 		"pluginXmlId": "com.eggshell.ai-agent-plugin",
-		"version": "2.0.0"
+		"version": "2.1.0"
 	},
 	{
 		"id": 1018190,
@@ -40920,10 +40932,10 @@
 		"version": "1.2.9"
 	},
 	{
-		"id": 1123547,
+		"id": 1132720,
 		"pluginId": 31187,
 		"pluginXmlId": "ai.jolli.jollimemory",
-		"version": "0.99.10"
+		"version": "0.99.11"
 	},
 	{
 		"id": 1014736,
@@ -41046,10 +41058,10 @@
 		"version": "1.1.5"
 	},
 	{
-		"id": 1123515,
+		"id": 1133850,
 		"pluginId": 31223,
 		"pluginXmlId": "com.jorgsowa.php-lsp",
-		"version": "0.2.3"
+		"version": "0.2.4"
 	},
 	{
 		"id": 1065149,
@@ -41850,10 +41862,10 @@
 		"version": "1.0.7"
 	},
 	{
-		"id": 1113720,
+		"id": 1133685,
 		"pluginId": 31431,
 		"pluginXmlId": "com.thunderclient.plugin",
-		"version": "1.1.0"
+		"version": "1.1.1"
 	},
 	{
 		"id": 1035149,
@@ -41928,10 +41940,10 @@
 		"version": "0.5.0"
 	},
 	{
-		"id": 1032638,
+		"id": 1134637,
 		"pluginId": 31450,
 		"pluginXmlId": "com.codeteam.bruno",
-		"version": "1.0.2-SNAPSHOT"
+		"version": "1.1.3"
 	},
 	{
 		"id": 1033184,
@@ -42474,10 +42486,10 @@
 		"version": "0.2.0"
 	},
 	{
-		"id": 1117276,
+		"id": 1134843,
 		"pluginId": 31598,
 		"pluginXmlId": "com.github.kenshin579.markora",
-		"version": "0.2.19"
+		"version": "0.3.0"
 	},
 	{
 		"id": 1039989,
@@ -42696,10 +42708,10 @@
 		"version": "1.0.1"
 	},
 	{
-		"id": 1064815,
+		"id": 1135301,
 		"pluginId": 31655,
 		"pluginXmlId": "com.akrikun.saltstack",
-		"version": "1.6.3"
+		"version": "1.6.4"
 	},
 	{
 		"id": 1042731,
@@ -42720,10 +42732,10 @@
 		"version": "0.4.0"
 	},
 	{
-		"id": 1043337,
+		"id": 1132719,
 		"pluginId": 31661,
 		"pluginXmlId": "com.pan.SVGO",
-		"version": "1.2.0"
+		"version": "1.2.1"
 	},
 	{
 		"id": 1056749,
@@ -43098,10 +43110,10 @@
 		"version": "1.0.4"
 	},
 	{
-		"id": 1061399,
+		"id": 1132758,
 		"pluginId": 31755,
 		"pluginXmlId": "com.github.clementherve.intellijjavadependencyupdaterplugin",
-		"version": "0.0.4"
+		"version": "0.0.5"
 	},
 	{
 		"id": 1047901,
@@ -43164,16 +43176,16 @@
 		"version": "1.1.0"
 	},
 	{
-		"id": 1072178,
+		"id": 1135307,
 		"pluginId": 31767,
 		"pluginXmlId": "com.github.dhzhu.amateurpostman",
-		"version": "0.0.7"
+		"version": "0.1.0"
 	},
 	{
-		"id": 1107945,
+		"id": 1135456,
 		"pluginId": 31771,
 		"pluginXmlId": "online.mofish.tool",
-		"version": "1.0.7"
+		"version": "1.0.8"
 	},
 	{
 		"id": 1048499,
@@ -43440,10 +43452,10 @@
 		"version": "1.0.3"
 	},
 	{
-		"id": 1112815,
+		"id": 1134855,
 		"pluginId": 31835,
 		"pluginXmlId": "cn.ibaijia.jsm.helper",
-		"version": "1.0.5"
+		"version": "1.0.6"
 	},
 	{
 		"id": 1053286,
@@ -43626,10 +43638,10 @@
 		"version": "0.1.1"
 	},
 	{
-		"id": 1129046,
+		"id": 1135756,
 		"pluginId": 31889,
 		"pluginXmlId": "com.browserstack.testcompanion",
-		"version": "1.6.6"
+		"version": "1.6.8"
 	},
 	{
 		"id": 1111260,
@@ -43776,10 +43788,10 @@
 		"version": "0.1.14"
 	},
 	{
-		"id": 1123758,
+		"id": 1130573,
 		"pluginId": 31928,
 		"pluginXmlId": "com.bitbucketplugin",
-		"version": "2026.1.1"
+		"version": "2026.2.0"
 	},
 	{
 		"id": 1055891,
@@ -43950,10 +43962,10 @@
 		"version": "0.1.0"
 	},
 	{
-		"id": 1128418,
+		"id": 1132979,
 		"pluginId": 31965,
 		"pluginXmlId": "dev.lain.claude-code-for-jetbrains",
-		"version": "5.0.0"
+		"version": "5.1.1"
 	},
 	{
 		"id": 1057024,
@@ -43992,10 +44004,10 @@
 		"version": "1.0-SNAPSHOT"
 	},
 	{
-		"id": 1117379,
+		"id": 1132998,
 		"pluginId": 31978,
 		"pluginXmlId": "com.openxt.uploadsshfile",
-		"version": "1.0.4"
+		"version": "1.0.5"
 	},
 	{
 		"id": 1058255,
@@ -44016,10 +44028,10 @@
 		"version": "1.2.0"
 	},
 	{
-		"id": 1062505,
+		"id": 1133182,
 		"pluginId": 31986,
 		"pluginXmlId": "io.github.q110.aiterminaltools",
-		"version": "0.1.3"
+		"version": "0.1.7"
 	},
 	{
 		"id": 1113768,
@@ -44394,10 +44406,10 @@
 		"version": "4.1.0"
 	},
 	{
-		"id": 1119012,
+		"id": 1134856,
 		"pluginId": 32078,
 		"pluginXmlId": "cn.xpoet.pathmark",
-		"version": "0.1.2"
+		"version": "0.1.3"
 	},
 	{
 		"id": 1120568,
@@ -44412,10 +44424,10 @@
 		"version": "16.1.15"
 	},
 	{
-		"id": 1119952,
+		"id": 1132546,
 		"pluginId": 32081,
 		"pluginXmlId": "com.ims.code.helper",
-		"version": "1.1.9"
+		"version": "1.2.0"
 	},
 	{
 		"id": 1069050,
@@ -44910,10 +44922,10 @@
 		"version": "0.4.0"
 	},
 	{
-		"id": 1108063,
+		"id": 1134142,
 		"pluginId": 32204,
 		"pluginXmlId": "org.markupcarve.carve",
-		"version": "0.1.3"
+		"version": "0.1.4"
 	},
 	{
 		"id": 1115137,
@@ -44922,10 +44934,10 @@
 		"version": "2.0.1"
 	},
 	{
-		"id": 1131785,
+		"id": 1135902,
 		"pluginId": 32208,
 		"pluginXmlId": "com.chainlesschain.ide",
-		"version": "0.4.84"
+		"version": "0.4.86"
 	},
 	{
 		"id": 1126758,
@@ -44994,10 +45006,10 @@
 		"version": "1.0.1"
 	},
 	{
-		"id": 1107911,
+		"id": 1135306,
 		"pluginId": 32226,
 		"pluginXmlId": "org.clips.intellij-plugin",
-		"version": "2.6"
+		"version": "2.6.1"
 	},
 	{
 		"id": 1082415,
@@ -45078,10 +45090,10 @@
 		"version": "1.0.6"
 	},
 	{
-		"id": 1119818,
+		"id": 1135601,
 		"pluginId": 32243,
 		"pluginXmlId": "com.github.ycyz.starrocks.support",
-		"version": "2.0.3"
+		"version": "2.0.4"
 	},
 	{
 		"id": 1075946,
@@ -45552,10 +45564,10 @@
 		"version": "1.1.5"
 	},
 	{
-		"id": 1125426,
+		"id": 1132976,
 		"pluginId": 32369,
 		"pluginXmlId": "com.ldap-navigator.idea_plugin",
-		"version": "2.2.1"
+		"version": "2.2.2"
 	},
 	{
 		"id": 1119992,
@@ -45684,10 +45696,10 @@
 		"version": "1.1.1"
 	},
 	{
-		"id": 1118621,
+		"id": 1134444,
 		"pluginId": 32397,
 		"pluginXmlId": "art.dyadix.mindvista",
-		"version": "0.5.7"
+		"version": "0.6.10"
 	},
 	{
 		"id": 1087584,
@@ -45858,10 +45870,16 @@
 		"version": "1.1.1"
 	},
 	{
-		"id": 1085936,
+		"id": 1133371,
 		"pluginId": 32444,
 		"pluginXmlId": "dev.tomlarcher.gitarborist",
-		"version": "0.1.1"
+		"version": "0.2.0"
+	},
+	{
+		"id": 1135454,
+		"pluginId": 32445,
+		"pluginXmlId": "com.hainanlxk.flutter.ohos.env",
+		"version": "1.9.44"
 	},
 	{
 		"id": 1085249,
@@ -45900,10 +45918,10 @@
 		"version": "0.1.0"
 	},
 	{
-		"id": 1124341,
+		"id": 1134291,
 		"pluginId": 32455,
 		"pluginXmlId": "com.atomcode.jetbrains",
-		"version": "5.0.4"
+		"version": "5.0.5"
 	},
 	{
 		"id": 1091589,
@@ -45930,10 +45948,10 @@
 		"version": "2026.1.2"
 	},
 	{
-		"id": 1129078,
+		"id": 1135310,
 		"pluginId": 32462,
 		"pluginXmlId": "com.arka.guidewireai",
-		"version": "3.1.109"
+		"version": "4.0.0"
 	},
 	{
 		"id": 1088526,
@@ -46032,10 +46050,10 @@
 		"version": "0.1.0"
 	},
 	{
-		"id": 1129057,
+		"id": 1135761,
 		"pluginId": 32485,
 		"pluginXmlId": "dev.kuml.ide",
-		"version": "0.49.0"
+		"version": "0.50.0"
 	},
 	{
 		"id": 1113765,
@@ -46170,16 +46188,22 @@
 		"version": "1.4.7"
 	},
 	{
-		"id": 1130949,
+		"id": 1131330,
 		"pluginId": 32518,
 		"pluginXmlId": "com.hedworth.milkj",
-		"version": "0.1.10"
+		"version": "0.1.11"
 	},
 	{
 		"id": 1122310,
 		"pluginId": 32519,
 		"pluginXmlId": "com.youmeandmyself.ai",
 		"version": "1.0.2"
+	},
+	{
+		"id": 1134417,
+		"pluginId": 32520,
+		"pluginXmlId": "com.appsecd.jetbrains",
+		"version": "0.3.8"
 	},
 	{
 		"id": 1097210,
@@ -46494,10 +46518,10 @@
 		"version": "1.1.0"
 	},
 	{
-		"id": 1120207,
+		"id": 1133701,
 		"pluginId": 32603,
 		"pluginXmlId": "io.github.archunitlens",
-		"version": "0.2.1"
+		"version": "0.3.0"
 	},
 	{
 		"id": 1107769,
@@ -46560,10 +46584,10 @@
 		"version": "1.2"
 	},
 	{
-		"id": 1098303,
+		"id": 1133381,
 		"pluginId": 32625,
 		"pluginXmlId": "com.jan.monokaisublime3",
-		"version": "3.2.2"
+		"version": "3.4.2"
 	},
 	{
 		"id": 1128450,
@@ -46594,6 +46618,12 @@
 		"pluginId": 32634,
 		"pluginXmlId": "io.miragon.bpmn-modeler",
 		"version": "1.6.1"
+	},
+	{
+		"id": 1135455,
+		"pluginId": 32638,
+		"pluginXmlId": "com.lxk.my_flutter_intl_plugin",
+		"version": "1.9.44"
 	},
 	{
 		"id": 1102640,
@@ -46668,10 +46698,10 @@
 		"version": "2026.1.0"
 	},
 	{
-		"id": 1131319,
+		"id": 1132927,
 		"pluginId": 32654,
 		"pluginXmlId": "dev.techtheist.engram",
-		"version": "0.8.2"
+		"version": "0.8.3"
 	},
 	{
 		"id": 1097673,
@@ -46770,10 +46800,10 @@
 		"version": "0.2.1"
 	},
 	{
-		"id": 1117106,
+		"id": 1133364,
 		"pluginId": 32674,
 		"pluginXmlId": "com.github.naoyukik.intellijplugininlinereviewnotesforai",
-		"version": "0.3.0"
+		"version": "0.4.0"
 	},
 	{
 		"id": 1113480,
@@ -47286,10 +47316,10 @@
 		"version": "0.0.1"
 	},
 	{
-		"id": 1123559,
+		"id": 1131865,
 		"pluginId": 32769,
 		"pluginXmlId": "com.joyous.rivestudio",
-		"version": "0.0.9.5"
+		"version": "0.0.9.6"
 	},
 	{
 		"id": 1119358,
@@ -47304,10 +47334,10 @@
 		"version": "1.2.1"
 	},
 	{
-		"id": 1123727,
+		"id": 1133687,
 		"pluginId": 32772,
 		"pluginXmlId": "com.alianga.idea.deploy",
-		"version": "1.0.6"
+		"version": "1.0.7"
 	},
 	{
 		"id": 1119448,
@@ -47580,10 +47610,10 @@
 		"version": "0.9.6"
 	},
 	{
-		"id": 1105682,
+		"id": 1132745,
 		"pluginId": 32836,
 		"pluginXmlId": "dev.pygloss",
-		"version": "0.1.1"
+		"version": "0.1.2"
 	},
 	{
 		"id": 1108888,
@@ -47676,10 +47706,10 @@
 		"version": "1.0.1"
 	},
 	{
-		"id": 1113187,
+		"id": 1132923,
 		"pluginId": 32865,
 		"pluginXmlId": "com.phillarmonic.drun",
-		"version": "1.3.0"
+		"version": "1.4.0"
 	},
 	{
 		"id": 1105236,
@@ -47730,10 +47760,10 @@
 		"version": "0.1.0"
 	},
 	{
-		"id": 1131853,
+		"id": 1134694,
 		"pluginId": 32880,
 		"pluginXmlId": "com.ylplugin.eastmoney7x24",
-		"version": "1.0.8"
+		"version": "1.0.9"
 	},
 	{
 		"id": 1105706,
@@ -47838,10 +47868,10 @@
 		"version": "1.3.0"
 	},
 	{
-		"id": 1116473,
+		"id": 1135458,
 		"pluginId": 32906,
 		"pluginXmlId": "io.github.localconfigsync.jetbrains",
-		"version": "0.1.7"
+		"version": "0.1.8"
 	},
 	{
 		"id": 1112141,
@@ -47850,10 +47880,10 @@
 		"version": "1.0.2"
 	},
 	{
-		"id": 1131642,
+		"id": 1132913,
 		"pluginId": 32909,
 		"pluginXmlId": "com.yangyongan.mobkit",
-		"version": "0.10.4"
+		"version": "0.10.5"
 	},
 	{
 		"id": 1107018,
@@ -48222,10 +48252,10 @@
 		"version": "0.1.0"
 	},
 	{
-		"id": 1118815,
+		"id": 1134642,
 		"pluginId": 33007,
 		"pluginXmlId": "dev.gitfocus",
-		"version": "0.12.0+6dd0418"
+		"version": "0.14.0+5e9012d"
 	},
 	{
 		"id": 1117085,
@@ -48252,10 +48282,10 @@
 		"version": "1.4.0"
 	},
 	{
-		"id": 1119184,
+		"id": 1135903,
 		"pluginId": 33022,
 		"pluginXmlId": "io.mp.sightline",
-		"version": "0.6.0"
+		"version": "0.7.0"
 	},
 	{
 		"id": 1127212,
@@ -48282,10 +48312,10 @@
 		"version": "1.0.2"
 	},
 	{
-		"id": 1116905,
+		"id": 1134656,
 		"pluginId": 33030,
 		"pluginXmlId": "com.aidimag.plugin",
-		"version": "1.0.3"
+		"version": "1.0.6"
 	},
 	{
 		"id": 1112683,
@@ -48336,10 +48366,10 @@
 		"version": "1.1.3"
 	},
 	{
-		"id": 1116479,
+		"id": 1135615,
 		"pluginId": 33053,
 		"pluginXmlId": "io.github.pengjran.git-rebase-push-assistant",
-		"version": "1.0.4"
+		"version": "1.0.6"
 	},
 	{
 		"id": 1115022,
@@ -48348,10 +48378,10 @@
 		"version": "1.1.2"
 	},
 	{
-		"id": 1126257,
+		"id": 1133023,
 		"pluginId": 33056,
 		"pluginXmlId": "com.timeprooflabs.truthspine",
-		"version": "0.1.2"
+		"version": "0.1.5"
 	},
 	{
 		"id": 1117389,
@@ -48456,10 +48486,10 @@
 		"version": "1.1.0"
 	},
 	{
-		"id": 1125188,
+		"id": 1132760,
 		"pluginId": 33086,
 		"pluginXmlId": "io.github.dornol.mcpwslbridge",
-		"version": "0.1.10"
+		"version": "0.1.11"
 	},
 	{
 		"id": 1114761,
@@ -48594,10 +48624,10 @@
 		"version": "0.2.0"
 	},
 	{
-		"id": 1116282,
+		"id": 1132931,
 		"pluginId": 33125,
 		"pluginXmlId": "dev.block.codeblocks",
-		"version": "0.1.0"
+		"version": "0.2.0"
 	},
 	{
 		"id": 1130951,
@@ -48666,10 +48696,10 @@
 		"version": "2.0.0"
 	},
 	{
-		"id": 1128433,
+		"id": 1132934,
 		"pluginId": 33149,
 		"pluginXmlId": "io.github.vadimtoptunov.kassi-testdata",
-		"version": "1.17.0"
+		"version": "1.19.0"
 	},
 	{
 		"id": 1119814,
@@ -48678,10 +48708,10 @@
 		"version": "0.1.2"
 	},
 	{
-		"id": 1131351,
+		"id": 1133673,
 		"pluginId": 33152,
 		"pluginXmlId": "com.carlocifarelli.claudecodeusagemaniac",
-		"version": "0.3.3"
+		"version": "0.5.1"
 	},
 	{
 		"id": 1119813,
@@ -48744,10 +48774,10 @@
 		"version": "0.0.4"
 	},
 	{
-		"id": 1131111,
+		"id": 1133683,
 		"pluginId": 33168,
 		"pluginXmlId": "co.iriscode",
-		"version": "1.19.0"
+		"version": "1.20.1"
 	},
 	{
 		"id": 1126031,
@@ -48786,16 +48816,16 @@
 		"version": "1.1.0"
 	},
 	{
-		"id": 1131107,
+		"id": 1133186,
 		"pluginId": 33179,
 		"pluginXmlId": "net.themassiveone.agent-up.jetbrains",
-		"version": "3.25.0"
+		"version": "3.26.0"
 	},
 	{
-		"id": 1117909,
+		"id": 1134150,
 		"pluginId": 33180,
 		"pluginXmlId": "ch.qligier.jetbrains.plugin.hurlevent",
-		"version": "0.1.0"
+		"version": "0.2.0"
 	},
 	{
 		"id": 1121958,
@@ -48816,10 +48846,10 @@
 		"version": "0.9.6"
 	},
 	{
-		"id": 1118431,
+		"id": 1133693,
 		"pluginId": 33186,
 		"pluginXmlId": "dev.flashflow.plugin",
-		"version": "1.0.1"
+		"version": "1.0.2"
 	},
 	{
 		"id": 1119443,
@@ -48888,16 +48918,16 @@
 		"version": "1.1.1"
 	},
 	{
-		"id": 1129955,
+		"id": 1132736,
 		"pluginId": 33203,
 		"pluginXmlId": "com.codotchi.pycharm-codotchi",
-		"version": "2.20.8"
+		"version": "2.20.9"
 	},
 	{
-		"id": 1126221,
+		"id": 1134643,
 		"pluginId": 33204,
 		"pluginXmlId": "dev.gaphunter.refactorsimulator",
-		"version": "0.2.0"
+		"version": "2026.1.0"
 	},
 	{
 		"id": 1119965,
@@ -48966,10 +48996,10 @@
 		"version": "0.1.0"
 	},
 	{
-		"id": 1127392,
+		"id": 1134428,
 		"pluginId": 33227,
 		"pluginXmlId": "io.github.vadimtoptunov.checksum-playground",
-		"version": "1.0.2"
+		"version": "1.1.0"
 	},
 	{
 		"id": 1119446,
@@ -49110,10 +49140,10 @@
 		"version": "2.6.1"
 	},
 	{
-		"id": 1131350,
+		"id": 1135613,
 		"pluginId": 33274,
 		"pluginXmlId": "io.github.amitsidhpura.claude-brains",
-		"version": "0.4.0"
+		"version": "0.5.1"
 	},
 	{
 		"id": 1125993,
@@ -49158,6 +49188,12 @@
 		"version": "1.0.1"
 	},
 	{
+		"id": 1131314,
+		"pluginId": 33296,
+		"pluginXmlId": "studio.1step.transvoy",
+		"version": "1.0.0"
+	},
+	{
 		"id": 1123320,
 		"pluginId": 33297,
 		"pluginXmlId": "com.zukotuutori.bracketcolorizer",
@@ -49182,10 +49218,10 @@
 		"version": "3.1.0"
 	},
 	{
-		"id": 1126258,
+		"id": 1134443,
 		"pluginId": 33305,
 		"pluginXmlId": "org.deju.trace",
-		"version": "2.0.3"
+		"version": "2.1.0"
 	},
 	{
 		"id": 1124860,
@@ -49198,6 +49234,12 @@
 		"pluginId": 33310,
 		"pluginXmlId": "ClaudeOceanBlue",
 		"version": "1.0.3"
+	},
+	{
+		"id": 1130942,
+		"pluginId": 33312,
+		"pluginXmlId": "com.ossuminc.riddl.plugins.idea",
+		"version": "0.11.0"
 	},
 	{
 		"id": 1125172,
@@ -49236,22 +49278,22 @@
 		"version": "2026.0.0.3-beta"
 	},
 	{
-		"id": 1131328,
+		"id": 1134135,
 		"pluginId": 33323,
 		"pluginXmlId": "domorium.gedcom",
-		"version": "1.4.0"
+		"version": "1.5.1"
 	},
 	{
-		"id": 1124836,
+		"id": 1135449,
 		"pluginId": 33325,
 		"pluginXmlId": "io.github.vadimtoptunov.mrz-inspector",
-		"version": "1.0.0"
+		"version": "1.1.0"
 	},
 	{
-		"id": 1132381,
+		"id": 1134653,
 		"pluginId": 33326,
 		"pluginXmlId": "com.sudarshan.liquibase-validator",
-		"version": "0.3.0"
+		"version": "0.3.3"
 	},
 	{
 		"id": 1127936,
@@ -49296,6 +49338,12 @@
 		"version": "0.1.0"
 	},
 	{
+		"id": 1131814,
+		"pluginId": 33340,
+		"pluginXmlId": "dev.gaphunter.mermaidcompanion",
+		"version": "0.1.2"
+	},
+	{
 		"id": 1125642,
 		"pluginId": 33341,
 		"pluginXmlId": "dev.gaphunter.jsonschemacompanion",
@@ -49338,10 +49386,10 @@
 		"version": "2026.1.1"
 	},
 	{
-		"id": 1126260,
+		"id": 1135163,
 		"pluginId": 33350,
 		"pluginXmlId": "com.j2o.sqltool",
-		"version": "0.1.1"
+		"version": "0.1.2"
 	},
 	{
 		"id": 1127596,
@@ -49356,16 +49404,22 @@
 		"version": "0.1.1"
 	},
 	{
+		"id": 1130934,
+		"pluginId": 33353,
+		"pluginXmlId": "com.zhuancunbao.idea",
+		"version": "1.1.2"
+	},
+	{
 		"id": 1127031,
 		"pluginId": 33355,
 		"pluginXmlId": "export2LocalPlus",
 		"version": "1.0.1"
 	},
 	{
-		"id": 1131844,
+		"id": 1135021,
 		"pluginId": 33357,
 		"pluginXmlId": "io.github.configdrift",
-		"version": "0.1.1"
+		"version": "0.2.1"
 	},
 	{
 		"id": 1126440,
@@ -49392,10 +49446,10 @@
 		"version": "1.0.1"
 	},
 	{
-		"id": 1127966,
+		"id": 1132973,
 		"pluginId": 33364,
 		"pluginXmlId": "ru.stas-sor.ai-free",
-		"version": "0.4.21"
+		"version": "0.4.22"
 	},
 	{
 		"id": 1127389,
@@ -49410,10 +49464,16 @@
 		"version": "1.0.0"
 	},
 	{
-		"id": 1131841,
+		"id": 1133368,
+		"pluginId": 33370,
+		"pluginXmlId": "dev.linzhang.qodercli-launcher",
+		"version": "1.2.0"
+	},
+	{
+		"id": 1133331,
 		"pluginId": 33371,
 		"pluginXmlId": "com.mcode.MCode",
-		"version": "1.0.2"
+		"version": "1.0.3"
 	},
 	{
 		"id": 1127771,
@@ -49432,6 +49492,12 @@
 		"pluginId": 33380,
 		"pluginXmlId": "com.bchan84.agent-config",
 		"version": "1.0.1"
+	},
+	{
+		"id": 1134297,
+		"pluginId": 33387,
+		"pluginXmlId": "com.marklogictools.pulse",
+		"version": "0.5.0"
 	},
 	{
 		"id": 1128438,
@@ -49464,10 +49530,10 @@
 		"version": "1.0.0"
 	},
 	{
-		"id": 1128651,
+		"id": 1133037,
 		"pluginId": 33396,
 		"pluginXmlId": "dev.timecomplexity.time-complexity",
-		"version": "1.0.0"
+		"version": "1.1.0"
 	},
 	{
 		"id": 1128652,
@@ -49482,10 +49548,16 @@
 		"version": "2026.2.3"
 	},
 	{
-		"id": 1131308,
+		"id": 1131804,
+		"pluginId": 33403,
+		"pluginXmlId": "com.siphrix.plugin",
+		"version": "0.1.2"
+	},
+	{
+		"id": 1134842,
 		"pluginId": 33404,
 		"pluginXmlId": "dev.tachilabs.infinitint",
-		"version": "2026.1.2"
+		"version": "2026.1.3"
 	},
 	{
 		"id": 1129055,
@@ -49494,10 +49566,10 @@
 		"version": "0.1.0"
 	},
 	{
-		"id": 1130787,
+		"id": 1133187,
 		"pluginId": 33410,
 		"pluginXmlId": "dev.dbmlcanvas",
-		"version": "0.1.4"
+		"version": "0.1.5"
 	},
 	{
 		"id": 1129083,
@@ -49528,5 +49600,257 @@
 		"pluginId": 33419,
 		"pluginXmlId": "io.github.vadimtoptunov.iso8583",
 		"version": "1.0.0"
+	},
+	{
+		"id": 1134635,
+		"pluginId": 33423,
+		"pluginXmlId": "com.asulcons.Curly-Embedded-Tools",
+		"version": "1.0.2"
+	},
+	{
+		"id": 1134436,
+		"pluginId": 33425,
+		"pluginXmlId": "com.aspix2k.affected",
+		"version": "1.14.1"
+	},
+	{
+		"id": 1130786,
+		"pluginId": 33428,
+		"pluginXmlId": "dev.sasha.clauderemarks",
+		"version": "0.12.1"
+	},
+	{
+		"id": 1130933,
+		"pluginId": 33430,
+		"pluginXmlId": "intelli-webrunner",
+		"version": "1.0.0"
+	},
+	{
+		"id": 1130948,
+		"pluginId": 33431,
+		"pluginXmlId": "dev.jolta",
+		"version": "1.0.0"
+	},
+	{
+		"id": 1131098,
+		"pluginId": 33432,
+		"pluginXmlId": "net.inthemoon.yamlover",
+		"version": "0.6.0"
+	},
+	{
+		"id": 1131128,
+		"pluginId": 33434,
+		"pluginXmlId": "com.dzmitryj.lorelens",
+		"version": "0.8.6.1"
+	},
+	{
+		"id": 1131129,
+		"pluginId": 33435,
+		"pluginXmlId": "com.github.Mango.cursorswitch",
+		"version": "1.0.3"
+	},
+	{
+		"id": 1132974,
+		"pluginId": 33444,
+		"pluginXmlId": "tech.florin.pinguard",
+		"version": "0.1.1"
+	},
+	{
+		"id": 1131338,
+		"pluginId": 33445,
+		"pluginXmlId": "dev.closuretheme.theme",
+		"version": "1.2.0"
+	},
+	{
+		"id": 1131340,
+		"pluginId": 33446,
+		"pluginXmlId": "dev.ardakazanci.droidprogress",
+		"version": "0.1.0"
+	},
+	{
+		"id": 1131352,
+		"pluginId": 33447,
+		"pluginXmlId": "dev.servicehop",
+		"version": "0.1.0-SNAPSHOT"
+	},
+	{
+		"id": 1134441,
+		"pluginId": 33450,
+		"pluginXmlId": "ch.brielmayer.bulkmergerequest",
+		"version": "1.0.1"
+	},
+	{
+		"id": 1131784,
+		"pluginId": 33452,
+		"pluginXmlId": "io.github.nikita22007.javanullitysyntax",
+		"version": "1.1.0"
+	},
+	{
+		"id": 1134448,
+		"pluginId": 33453,
+		"pluginXmlId": "com.github.cgl.sql-heading-folding",
+		"version": "1.0.0"
+	},
+	{
+		"id": 1131793,
+		"pluginId": 33454,
+		"pluginXmlId": "io.github.palettevault",
+		"version": "1.0.0"
+	},
+	{
+		"id": 1135608,
+		"pluginId": 33457,
+		"pluginXmlId": "io.genai.robots",
+		"version": "0.1.4"
+	},
+	{
+		"id": 1134696,
+		"pluginId": 33459,
+		"pluginXmlId": "cc.carm.plugin.quarkdown",
+		"version": "1.0.1"
+	},
+	{
+		"id": 1133021,
+		"pluginId": 33460,
+		"pluginXmlId": "com.knowledge.archiver",
+		"version": "1.8.0"
+	},
+	{
+		"id": 1132084,
+		"pluginId": 33461,
+		"pluginXmlId": "io.github.huanyv.totalcmd",
+		"version": "1.3"
+	},
+	{
+		"id": 1132085,
+		"pluginId": 33462,
+		"pluginXmlId": "com.tclx.hasagi.progressbar",
+		"version": "1.0.0"
+	},
+	{
+		"id": 1133990,
+		"pluginId": 33463,
+		"pluginXmlId": "tidestack.develop",
+		"version": "0.1.2"
+	},
+	{
+		"id": 1132730,
+		"pluginId": 33466,
+		"pluginXmlId": "com.wave.jetbrains",
+		"version": "1.0.6"
+	},
+	{
+		"id": 1132942,
+		"pluginId": 33470,
+		"pluginXmlId": "ai.localkeep.jetbrains",
+		"version": "1.0.1"
+	},
+	{
+		"id": 1132977,
+		"pluginId": 33473,
+		"pluginXmlId": "dev.nextgencode.safeenv",
+		"version": "0.1.1"
+	},
+	{
+		"id": 1132982,
+		"pluginId": 33474,
+		"pluginXmlId": "com.ceutenant.lumen",
+		"version": "0.0.1"
+	},
+	{
+		"id": 1133043,
+		"pluginId": 33477,
+		"pluginXmlId": "com.time-complexity.zpl",
+		"version": "1.0.0-SNAPSHOT"
+	},
+	{
+		"id": 1133349,
+		"pluginId": 33478,
+		"pluginXmlId": "org.xoops.plugin.support",
+		"version": "1.0.0-alpha.1"
+	},
+	{
+		"id": 1133365,
+		"pluginId": 33479,
+		"pluginXmlId": "com.helixlang.ide",
+		"version": "1.0.0"
+	},
+	{
+		"id": 1135011,
+		"pluginId": 33480,
+		"pluginXmlId": "com.doctor.ProjectEnvDoctor",
+		"version": "1.1.1"
+	},
+	{
+		"id": 1135907,
+		"pluginId": 33481,
+		"pluginXmlId": "com.sage.plugin",
+		"version": "0.1.3"
+	},
+	{
+		"id": 1135911,
+		"pluginId": 33482,
+		"pluginXmlId": "io.github.salatmaster.direnv",
+		"version": "0.1.5"
+	},
+	{
+		"id": 1135606,
+		"pluginId": 33483,
+		"pluginXmlId": "com.ninebot.ai-review",
+		"version": "0.3.0"
+	},
+	{
+		"id": 1134128,
+		"pluginId": 33484,
+		"pluginXmlId": "vcpy.chaogarden",
+		"version": "1.0.0"
+	},
+	{
+		"id": 1134138,
+		"pluginId": 33485,
+		"pluginXmlId": "com.cxh.camelcase",
+		"version": "1.0.0"
+	},
+	{
+		"id": 1135757,
+		"pluginId": 33486,
+		"pluginXmlId": "com.pambrose.github-toolbar-button",
+		"version": "1.2.0"
+	},
+	{
+		"id": 1134427,
+		"pluginId": 33487,
+		"pluginXmlId": "com.hedworth.redline",
+		"version": "0.1.0"
+	},
+	{
+		"id": 1134432,
+		"pluginId": 33488,
+		"pluginXmlId": "io.github.vadimtoptunov.uuid-toolkit",
+		"version": "1.0.0"
+	},
+	{
+		"id": 1134683,
+		"pluginId": 33490,
+		"pluginXmlId": "com.ezevillo.gitreview",
+		"version": "0.1.2"
+	},
+	{
+		"id": 1135164,
+		"pluginId": 33492,
+		"pluginXmlId": "tech.coolstudio.gitcommit",
+		"version": "0.1.12"
+	},
+	{
+		"id": 1134686,
+		"pluginId": 33493,
+		"pluginXmlId": "com.luoshiming.idea.inlayhints",
+		"version": "0.1.5"
+	},
+	{
+		"id": 1135915,
+		"pluginId": 33494,
+		"pluginXmlId": "io.github.noodles_studio.revisiongraph",
+		"version": "2.0.0"
 	}
 ]
