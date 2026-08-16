@@ -4961,6 +4961,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.juliaaichat",
+		"pluginId": "com.flexible.julia",
+		"pluginName": "Flexible Julia"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.scad",
 		"pluginId": "com.flexible.scad",
 		"pluginName": "Flexible For OpenSCAD"
@@ -13861,6 +13867,30 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.avro",
+		"pluginId": "com.kitworks.tablekit",
+		"pluginName": "TableKit: Excel & Parquet Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.parq",
+		"pluginId": "com.kitworks.tablekit",
+		"pluginName": "TableKit: Excel & Parquet Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.parquet",
+		"pluginId": "com.kitworks.tablekit",
+		"pluginName": "TableKit: Excel & Parquet Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.pq",
+		"pluginId": "com.kitworks.tablekit",
+		"pluginName": "TableKit: Excel & Parquet Viewer"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.fa",
 		"pluginId": "com.kivojenko.plugin.fasta",
 		"pluginName": "FASTA File Format"
@@ -16909,6 +16939,54 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.arrow",
+		"pluginId": "com.twilightventures.parquetlens",
+		"pluginName": "Parquet Lens: Parquet, Arrow & Feather Dataset Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.arrows",
+		"pluginId": "com.twilightventures.parquetlens",
+		"pluginName": "Parquet Lens: Parquet, Arrow & Feather Dataset Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.feather",
+		"pluginId": "com.twilightventures.parquetlens",
+		"pluginName": "Parquet Lens: Parquet, Arrow & Feather Dataset Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.ftr",
+		"pluginId": "com.twilightventures.parquetlens",
+		"pluginName": "Parquet Lens: Parquet, Arrow & Feather Dataset Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.ipc",
+		"pluginId": "com.twilightventures.parquetlens",
+		"pluginName": "Parquet Lens: Parquet, Arrow & Feather Dataset Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.parq",
+		"pluginId": "com.twilightventures.parquetlens",
+		"pluginName": "Parquet Lens: Parquet, Arrow & Feather Dataset Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.parquet",
+		"pluginId": "com.twilightventures.parquetlens",
+		"pluginName": "Parquet Lens: Parquet, Arrow & Feather Dataset Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.pq",
+		"pluginId": "com.twilightventures.parquetlens",
+		"pluginName": "Parquet Lens: Parquet, Arrow & Feather Dataset Viewer"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.corgell",
 		"pluginId": "com.unspoken.corgell-highlighter",
 		"pluginName": "Corgell-highlighter"
@@ -17476,6 +17554,18 @@
 		"implementationName": "*.col",
 		"pluginId": "com.zmei-framework.generator.plugin",
 		"pluginName": "Zmei Generator integration"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.avro",
+		"pluginId": "com.zuhaibzahid.columns",
+		"pluginName": "Columns - Parquet and Avro Editor"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.parquet",
+		"pluginId": "com.zuhaibzahid.columns",
+		"pluginName": "Columns - Parquet and Avro Editor"
 	},
 	{
 		"bundled": false,
@@ -21512,6 +21602,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": ".envrc",
+		"pluginId": "io.github.salatmaster.direnv",
+		"pluginName": "direnv Everywhere"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.fbs",
 		"pluginId": "io.github.stefansjs.flatbuffersplugin",
 		"pluginName": "Flatbuffers Support"
@@ -21767,6 +21863,12 @@
 		"implementationName": "*.k",
 		"pluginId": "io.kusionstack.kcl-lsp",
 		"pluginName": "KCL-LSP"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.ecform",
+		"pluginId": "io.mateu.eventconductor",
+		"pluginName": "EventConductor"
 	},
 	{
 		"bundled": false,
@@ -25314,6 +25416,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.cap",
+		"pluginId": "org.jetbrains.hexana",
+		"pluginName": "Hexana \u2014 WebAssembly & Binary Inspector"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.desc",
 		"pluginId": "org.jetbrains.hexana",
 		"pluginName": "Hexana \u2014 WebAssembly & Binary Inspector"
@@ -25356,6 +25464,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.gz",
+		"pluginId": "org.jetbrains.hexana",
+		"pluginName": "Hexana \u2014 WebAssembly & Binary Inspector"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.jit",
 		"pluginId": "org.jetbrains.hexana",
 		"pluginName": "Hexana \u2014 WebAssembly & Binary Inspector"
@@ -25374,6 +25488,18 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.pcap",
+		"pluginId": "org.jetbrains.hexana",
+		"pluginName": "Hexana \u2014 WebAssembly & Binary Inspector"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.pcapng",
+		"pluginId": "org.jetbrains.hexana",
+		"pluginName": "Hexana \u2014 WebAssembly & Binary Inspector"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.protoset",
 		"pluginId": "org.jetbrains.hexana",
 		"pluginName": "Hexana \u2014 WebAssembly & Binary Inspector"
@@ -25387,6 +25513,18 @@
 	{
 		"bundled": false,
 		"implementationName": "*.sys",
+		"pluginId": "org.jetbrains.hexana",
+		"pluginName": "Hexana \u2014 WebAssembly & Binary Inspector"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.tar",
+		"pluginId": "org.jetbrains.hexana",
+		"pluginName": "Hexana \u2014 WebAssembly & Binary Inspector"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.tgz",
 		"pluginId": "org.jetbrains.hexana",
 		"pluginName": "Hexana \u2014 WebAssembly & Binary Inspector"
 	},

@@ -41900,6 +41900,7 @@
 			"rating": 5
 		}
 	],
+	"cloud.schneidoa.maven-dependency-overrides": [],
 	"cloud.yelynn.env-manager": [],
 	"club.doki7.ffm-plus": [],
 	"club.nutsoft.Github3Theme": [
@@ -56567,6 +56568,7 @@
 		}
 	],
 	"com.anatawa12.autoVisitor": [],
+	"com.anchor.commentdoclinks": [],
 	"com.andrewbrookins.wrap_to_column": [
 		{
 			"author": {
@@ -66878,6 +66880,24 @@
 			"rating": 5
 		}
 	],
+	"com.bundlesafe": [
+		{
+			"author": {
+				"id": "012f786e-6161-423a-8115-d42df855b592",
+				"link": "/author/012f786e-6161-423a-8115-d42df855b592",
+				"name": "Anuar Sultanbekov"
+			},
+			"cdate": "1786611587000",
+			"comment": "<p>intresting</p>\n",
+			"id": 143359,
+			"plugin": {
+				"id": 33509,
+				"link": "/plugin/33509-bundlesafe",
+				"name": "BundleSafe"
+			},
+			"rating": 5
+		}
+	],
 	"com.burkett.builderberg": [],
 	"com.bytedance.auto.merge.push.plugin": [],
 	"com.bytedance.jedi.templatemanager": [],
@@ -72102,6 +72122,7 @@
 	"com.code.generation.tool": [],
 	"com.codeagent.idea": [],
 	"com.codeagent.mobile": [],
+	"com.codeai.reviewer": [],
 	"com.codealike.client.intellij.plugin": [
 		{
 			"author": {
@@ -82728,6 +82749,7 @@
 		}
 	],
 	"com.dxy.platform.plugin.chd.api.search": [],
+	"com.dyj.codereview.helper.next": [],
 	"com.dylanoy.bookmarkai": [
 		{
 			"author": {
@@ -84723,6 +84745,7 @@
 			"rating": 0
 		}
 	],
+	"com.esb.i18n.helper": [],
 	"com.escape.plugin": [
 		{
 			"author": {
@@ -101593,6 +101616,7 @@
 	"com.github.formattoday.v2viewer": [],
 	"com.github.frimtec.idea-import-control-plugin": [],
 	"com.github.frimtec.idea-todo-inspection-plugin": [],
+	"com.github.fripig.spectraviewer": [],
 	"com.github.fsancheztemprano.typescriptfolding": [
 		{
 			"author": {
@@ -104091,6 +104115,40 @@
 	"com.github.iml885203.intellijgitopen": [],
 	"com.github.imsuperlative.intellijpesttyped": [],
 	"com.github.imyuyu.sqltoy-idea-plugin": [],
+	"com.github.inf166.pluginphpstormtypo3committemplate": [
+		{
+			"author": {
+				"id": "c3499f89-f07a-4957-9990-1a6973e68f6e",
+				"link": "/author/c3499f89-f07a-4957-9990-1a6973e68f6e",
+				"name": "xiangbo"
+			},
+			"cdate": "1680143146000",
+			"comment": "<p>This plugin is very useful. Do you have any plans to adapt it to the latest version? The current editor version is 2023.1.</p>\n",
+			"id": 81549,
+			"plugin": {
+				"id": 20719,
+				"link": "/plugin/20719-typo3-commit-template",
+				"name": "TYPO3 Commit Template"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "6c6406d5-9cff-4362-9172-9577d00b0ac6",
+				"link": "/author/6c6406d5-9cff-4362-9172-9577d00b0ac6",
+				"name": "Siva S"
+			},
+			"cdate": "1671609770000",
+			"comment": "<p>Not compatible with the version of your running IDE (PhpStorm 2022.2.4)</p>\n",
+			"id": 77049,
+			"plugin": {
+				"id": 20719,
+				"link": "/plugin/20719-typo3-commit-template",
+				"name": "TYPO3 Commit Template"
+			},
+			"rating": 0
+		}
+	],
 	"com.github.infcode.extension": [],
 	"com.github.inikolaev.intellij.maven": [],
 	"com.github.intellij.ginkgo": [
@@ -111682,6 +111740,40 @@
 				"name": "RobotFramework Helper"
 			},
 			"rating": 4
+		}
+	],
+	"com.github.nguyenphuc22.androidpackagerenamer": [
+		{
+			"author": {
+				"id": "30730995-f91a-4caa-a42c-062432faf9c0",
+				"link": "/author/30730995-f91a-4caa-a42c-062432faf9c0",
+				"name": "Valentin Gubsky"
+			},
+			"cdate": "1736788756000",
+			"comment": "<p>It works!!</p>\n",
+			"id": 111108,
+			"plugin": {
+				"id": 20919,
+				"link": "/plugin/20919-android-package-renamer",
+				"name": "Android Package Renamer"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "e21a566b-eba1-48aa-9464-188655bc39e1",
+				"link": "/author/e21a566b-eba1-48aa-9464-188655bc39e1",
+				"name": "BR Game"
+			},
+			"cdate": "1726900562000",
+			"comment": "<p>Please update the plugin,</p>\n",
+			"id": 106108,
+			"plugin": {
+				"id": 20919,
+				"link": "/plugin/20919-android-package-renamer",
+				"name": "Android Package Renamer"
+			},
+			"rating": 3
 		}
 	],
 	"com.github.nicestudent.nodemanager": [],
@@ -149385,6 +149477,7 @@
 	"com.jakubjirak.readmediagrams": [],
 	"com.jakubjirak.robotframework": [],
 	"com.jakubjirak.secretstripwire": [],
+	"com.jakubjirak.structurizr": [],
 	"com.jakubjirak.terminalsafety": [],
 	"com.jakubjirak.vulnspeed": [],
 	"com.jakutenshi.projects.umlplugin": [
@@ -160762,6 +160855,7 @@
 			"rating": 0
 		}
 	],
+	"com.justbruce.ai": [],
 	"com.justcode.employer.custom": [],
 	"com.justint.usd-idea": [],
 	"com.jw.netpresenter.plugin.id": [],
@@ -163008,6 +163102,7 @@
 			"rating": 4
 		}
 	],
+	"com.kitworks.tablekit": [],
 	"com.kiven.json2dart": [],
 	"com.kivi.secretloader": [],
 	"com.kivojenko.plugin.display": [],
@@ -168194,6 +168289,7 @@
 		}
 	],
 	"com.lixiaoniu.adbplugintools": [],
+	"com.lixun.jrebel.mybatisplus": [],
 	"com.lizhi.translation-ios-flutter-plugin": [],
 	"com.lizhuolun.apihelper": [],
 	"com.ljb.mvp.plugin": [
@@ -168479,6 +168575,7 @@
 		}
 	],
 	"com.logmark.mapper-struct.generator.id": [],
+	"com.logmonitor.plugin": [],
 	"com.logtrace.plugin": [],
 	"com.lol1pop.intellij-visual-studio-code-dark-plus": [
 		{
@@ -168762,6 +168859,7 @@
 			"rating": 5
 		}
 	],
+	"com.luoshiming.idea.go.hint": [],
 	"com.luoshiming.idea.inlayhints": [],
 	"com.lupor.spectral-linter-intellij-plugin": [],
 	"com.luweijie.dev.gear.InteractiveSqlGenerator": [],
@@ -172749,6 +172847,7 @@
 			"rating": 5
 		}
 	],
+	"com.mayasender": [],
 	"com.mayreh.tlaplus-intellij-plugin": [],
 	"com.mb.mb-plugin": [],
 	"com.mb.training.engine": [],
@@ -182113,6 +182212,40 @@
 	],
 	"com.one-pauintxi-theme.marcosramos87.intellijonepauintxitheme": [],
 	"com.onekore.quickbox": [],
+	"com.onurkat.reclazz": [
+		{
+			"author": {
+				"id": "a966b596-32de-46d6-8ea1-294c90f7aae8",
+				"link": "/author/a966b596-32de-46d6-8ea1-294c90f7aae8",
+				"name": "lafixo6793"
+			},
+			"cdate": "1786695342000",
+			"comment": "<p>good one, thanks!</p>\n",
+			"id": 143404,
+			"plugin": {
+				"id": 33498,
+				"link": "/plugin/33498-reclazz",
+				"name": "Reclazz"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "0c50d0ce-e13d-4239-91a1-e9a26036192f",
+				"link": "/author/0c50d0ce-e13d-4239-91a1-e9a26036192f",
+				"name": "kubrassavas"
+			},
+			"cdate": "1786622247000",
+			"comment": "<p>It's amazing how they offer even more features than JRebel, and completely for free! It quickly became an essential part of my workflow, and I truly enjoy using it. Kudos to everyone involved!</p>\n",
+			"id": 143373,
+			"plugin": {
+				"id": 33498,
+				"link": "/plugin/33498-reclazz",
+				"name": "Reclazz"
+			},
+			"rating": 5
+		}
+	],
 	"com.openbankproject.createconnector": [],
 	"com.opencode.bridge": [
 		{
@@ -182135,6 +182268,7 @@
 	"com.openhttp.client": [],
 	"com.openlinker": [],
 	"com.openshell.idea.toolbar": [],
+	"com.opentext.fortify": [],
 	"com.openxt.uploadsshfile": [],
 	"com.opticdev.ideplugins.jetbrains": [],
 	"com.optimizely.intellij.sdk.action": [],
@@ -187060,6 +187194,7 @@
 		}
 	],
 	"com.qz.json.util": [],
+	"com.raan.repositoryArchitectureAnalyzer": [],
 	"com.rahulmahadik.asksql": [
 		{
 			"author": {
@@ -191586,6 +191721,7 @@
 		}
 	],
 	"com.seech.ink": [],
+	"com.seekxu.mybatis-log-restorer": [],
 	"com.seeyon.chat": [],
 	"com.seeyon.seeyonplugin.seeyonplugin": [],
 	"com.seijind.stringsmith": [
@@ -192627,6 +192763,7 @@
 		}
 	],
 	"com.sharker.IDEExpansion": [],
+	"com.shayanhashmi.android-device-gps-location-mocker": [],
 	"com.sheldon.idea.plugin.asynctest-caller": [],
 	"com.shen.plugin.element": [
 		{
@@ -193333,6 +193470,7 @@
 	"com.sie.mbm.sdk": [],
 	"com.sigil.plugin": [],
 	"com.sigmap.plugin": [],
+	"com.sijunyang.bracketpairguides": [],
 	"com.silverile.ide": [],
 	"com.simiacryptus.cognotik": [],
 	"com.simon.ma.ai-code-reviewer": [],
@@ -198859,6 +198997,7 @@
 		}
 	],
 	"com.sum.grok.jetbrains": [],
+	"com.summerlex.psrunner": [],
 	"com.suning.dal_support": [],
 	"com.sunl888.mybatis.smart-assistant": [
 		{
@@ -201405,6 +201544,40 @@
 		}
 	],
 	"com.taobao.wuzheng": [],
+	"com.taotao.cloud.idea.plugin": [
+		{
+			"author": {
+				"id": "cf5a8b61-8528-4bf6-af49-c56d8d134c30",
+				"link": "/author/cf5a8b61-8528-4bf6-af49-c56d8d134c30",
+				"name": "ZHOUXING"
+			},
+			"cdate": "1686550296000",
+			"comment": "<p>\u60a8\u597d\uff0c\u6700\u65b0\u7248\u7684idea\u4ec0\u4e48\u65f6\u5019\u652f\u6301\u5462\uff1f</p>\n",
+			"id": 84974,
+			"plugin": {
+				"id": 20538,
+				"link": "/plugin/20538-taotaotoolkit",
+				"name": "TaoTaoToolKit"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "cf5a8b61-8528-4bf6-af49-c56d8d134c30",
+				"link": "/author/cf5a8b61-8528-4bf6-af49-c56d8d134c30",
+				"name": "ZHOUXING"
+			},
+			"cdate": "1674112362000",
+			"comment": "<p>\u5728\u65b0\u7684 UI \u91cc\u9762\u8981\u600e\u4e48\u7528\u5462\uff1f\nHow to use it in the new UI?</p>\n",
+			"id": 78318,
+			"plugin": {
+				"id": 20538,
+				"link": "/plugin/20538-taotaotoolkit",
+				"name": "TaoTaoToolKit"
+			},
+			"rating": 0
+		}
+	],
 	"com.targetprocess.assigned.entities.plugin": [],
 	"com.tavanuka.onemonokai": [
 		{
@@ -205217,6 +205390,7 @@
 	],
 	"com.twilightventures.jsonllens": [],
 	"com.twilightventures.loglens": [],
+	"com.twilightventures.parquetlens": [],
 	"com.twitter.scala-repl": [],
 	"com.tylerthrailkill.intellij.pastellicious": [
 		{
@@ -210300,6 +210474,7 @@
 	"com.vuesplit": [],
 	"com.vv.adbuninstall": [],
 	"com.vv.fold.flutter_l10n_fold": [],
+	"com.waaagh": [],
 	"com.wada811.kotlinizepr.kotlinize-pr-plugin": [],
 	"com.wadday.vinc-theme": [
 		{
@@ -217541,6 +217716,7 @@
 	],
 	"com.zto.titans-tk-mybatis-generator": [],
 	"com.zty.plugin": [],
+	"com.zuhaibzahid.columns": [],
 	"com.zuhaibzahid.logs": [],
 	"com.zuhaibzahid.sheets": [],
 	"com.zukotuutori.bracketcolorizer": [],
@@ -228299,6 +228475,7 @@
 	"dev.branchlens": [],
 	"dev.bsara.oscuro.jetbrains": [],
 	"dev.bytemate.byteorm": [],
+	"dev.cachly.brain": [],
 	"dev.camunda.bpmn-editor": [
 		{
 			"author": {
@@ -228365,6 +228542,7 @@
 			"rating": 5
 		}
 	],
+	"dev.ckb.jetbrains": [],
 	"dev.ckob.lazygit": [
 		{
 			"author": {
@@ -230075,6 +230253,7 @@
 	"dev.gaphunter.ansiblecompanion": [],
 	"dev.gaphunter.apisecuritycompanion": [],
 	"dev.gaphunter.asyncapicompanion": [],
+	"dev.gaphunter.beancopycompanion": [],
 	"dev.gaphunter.certcompanion": [],
 	"dev.gaphunter.cmakecompanion": [],
 	"dev.gaphunter.firestorecompanion": [],
@@ -230095,6 +230274,7 @@
 	"dev.gaphunter.refactorsimulator": [],
 	"dev.gaphunter.reviewcompanion": [],
 	"dev.gaphunter.spreadsheetcompanion": [],
+	"dev.gaphunter.testscaffoldcompanion": [],
 	"dev.gaphunter.themecompanion": [],
 	"dev.gaphunter.xsdcompanion": [],
 	"dev.gdw.Shutdown-Tasks": [],
@@ -231652,6 +231832,7 @@
 	"dev.lp4.HytaleModdingTool": [],
 	"dev.lspsenior": [],
 	"dev.lyoo.beacon.terminal-navigator": [],
+	"dev.marginalis.plugin": [],
 	"dev.marko.safe-paste": [
 		{
 			"author": {
@@ -233024,6 +233205,7 @@
 			"rating": 3
 		}
 	],
+	"dev.oauthlint": [],
 	"dev.omnicode.agent": [],
 	"dev.onlyonce.testonlymethods": [],
 	"dev.openfga.intellijplugin": [
@@ -234364,6 +234546,25 @@
 		}
 	],
 	"dev.pseudoscript.pds": [],
+	"dev.pubgrade": [
+		{
+			"author": {
+				"id": "4f7355d8-d1ef-4230-b590-8835c4e43206",
+				"link": "/author/4f7355d8-d1ef-4230-b590-8835c4e43206",
+				"name": "Kamran Bekirov"
+			},
+			"cdate": "1786734373000",
+			"comment": "<p>#Flutter</p>\n",
+			"id": 143424,
+			"plugin": {
+				"id": 33426,
+				"link": "/plugin/33426-pubgrade",
+				"name": "Pubgrade"
+			},
+			"rating": 0
+		}
+	],
+	"dev.pulsemonitor.plugin": [],
 	"dev.pygloss": [],
 	"dev.qcoding.aichangeradar": [],
 	"dev.resmali": [],
@@ -234559,6 +234760,72 @@
 	"dev.ryanbuu.wktmapviewer": [],
 	"dev.ryanduan.gomodulefinder": [],
 	"dev.saferesultexport": [],
+	"dev.saltt.hytale-project-setup": [
+		{
+			"author": {
+				"id": "023a2564-9e68-4b8e-8789-14195e9e399d",
+				"link": "/author/023a2564-9e68-4b8e-8789-14195e9e399d",
+				"name": "Over Clocked Studios"
+			},
+			"cdate": "1786765778000",
+			"comment": "<p>Awesome plugin, very helpful!</p>\n",
+			"id": 143430,
+			"plugin": {
+				"id": 33516,
+				"link": "/plugin/33516-hytale-project-setup",
+				"name": "Hytale Project Setup"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "b302fffe-b492-4dd1-a20f-96d40eff8575",
+				"link": "/author/b302fffe-b492-4dd1-a20f-96d40eff8575",
+				"name": "szi/uvx"
+			},
+			"cdate": "1786721331000",
+			"comment": "<p>Good plugin for setting up a project. 10/10 it saved my cat's life!1!!!1</p>\n",
+			"id": 143423,
+			"plugin": {
+				"id": 33516,
+				"link": "/plugin/33516-hytale-project-setup",
+				"name": "Hytale Project Setup"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "acf2ff5e-dc09-4fe4-a742-48edf1401e7f",
+				"link": "/author/acf2ff5e-dc09-4fe4-a742-48edf1401e7f",
+				"name": "Sam"
+			},
+			"cdate": "1786618651000",
+			"comment": "<p>Works with the newest versions without messing around with configs :)</p>\n",
+			"id": 143367,
+			"plugin": {
+				"id": 33516,
+				"link": "/plugin/33516-hytale-project-setup",
+				"name": "Hytale Project Setup"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "5dee6951-b987-4ea0-9c43-ff757980f485",
+				"link": "/author/5dee6951-b987-4ea0-9c43-ff757980f485",
+				"name": "Matt"
+			},
+			"cdate": "1786602703000",
+			"comment": "<p>Love this mod, helps with hytale plugins</p>\n",
+			"id": 143354,
+			"plugin": {
+				"id": 33516,
+				"link": "/plugin/33516-hytale-project-setup",
+				"name": "Hytale Project Setup"
+			},
+			"rating": 0
+		}
+	],
 	"dev.sandipchitale.PluginExplorer": [
 		{
 			"author": {
@@ -235649,6 +235916,7 @@
 			"rating": 0
 		}
 	],
+	"dev.vaultlink": [],
 	"dev.veld.jetbrains": [],
 	"dev.vertexworkbench.connector": [],
 	"dev.vibeguard.jetbrains": [],
@@ -250198,6 +250466,7 @@
 	],
 	"io.gatil.codeexporter": [],
 	"io.genai.desktopcapture": [],
+	"io.genai.githooks": [],
 	"io.genai.go": [],
 	"io.genai.jenkinsfile": [],
 	"io.genai.php": [],
@@ -252812,6 +253081,7 @@
 	],
 	"io.github.jingu.idea-qiq-plugin": [],
 	"io.github.joelkanyi.peek": [],
+	"io.github.kafuuneko.asdiff": [],
 	"io.github.kaywgeek.phpstantypetrace": [],
 	"io.github.ketraterm.terminal": [],
 	"io.github.khopland.ide-layout-profiles": [],
@@ -257395,6 +257665,7 @@
 			"rating": 1
 		}
 	],
+	"io.laborinto.crudgenerator": [],
 	"io.lcalmsky.github.ghostty-claude": [],
 	"io.lmscloud.mdlcode": [
 		{
@@ -319517,6 +319788,7 @@
 			"rating": 5
 		}
 	],
+	"top.apolleonce.webpane": [],
 	"top.breezes.javabean2ddl.java-bean-2-ddl-idea-plugin": [
 		{
 			"author": {
@@ -322728,6 +323000,7 @@
 	"xyz.reviewbridge.reviewbridge": [],
 	"xyz.solidspoon.codeecho": [],
 	"xyz.stupidwolf.plugins.idea.start-cost-time": [],
+	"xyz.zes.zokes": [],
 	"xyz.zono.plugin.InputSequenceAction": [],
 	"y.e.ide-window-capture": [],
 	"yaml.visual.preview.plugin.hashizume.online": [],
