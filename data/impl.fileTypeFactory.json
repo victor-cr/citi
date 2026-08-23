@@ -195,17 +195,17 @@
 		"pluginName": "CFML"
 	},
 	{
+		"bundled": false,
+		"implementationName": "*.cfml",
+		"pluginId": "CFML Support",
+		"pluginName": "CFML"
+	},
+	{
 		"bundled": true,
 		"description": "ColdFusion Markup Language (CFML) support.",
 		"implementationName": "*.cfml",
 		"pluginId": "CFML Support",
 		"pluginName": "CFML Support"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.cfml",
-		"pluginId": "CFML Support",
-		"pluginName": "CFML"
 	},
 	{
 		"bundled": false,
@@ -377,12 +377,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "pubspec.lock",
-		"pluginId": "Dart",
-		"pluginName": "Dart"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.fnc",
 		"pluginId": "DataBaseManager",
 		"pluginName": "DataBaseManager"
@@ -546,12 +540,6 @@
 	{
 		"bundled": false,
 		"implementationName": "*.wiki",
-		"pluginId": "FitNesse",
-		"pluginName": "FitNesse"
-	},
-	{
-		"bundled": false,
-		"implementationName": "content.txt",
 		"pluginId": "FitNesse",
 		"pluginName": "FitNesse"
 	},
@@ -879,12 +867,6 @@
 	{
 		"bundled": false,
 		"implementationName": "*.jstd",
-		"pluginId": "JSTestDriver Plugin",
-		"pluginName": "JSTestDriver Plugin"
-	},
-	{
-		"bundled": false,
-		"implementationName": "jsTestDriver.conf",
 		"pluginId": "JSTestDriver Plugin",
 		"pluginName": "JSTestDriver Plugin"
 	},
@@ -1252,12 +1234,6 @@
 	{
 		"bundled": false,
 		"implementationName": "*.config",
-		"pluginId": "Lombook Plugin-uxlog",
-		"pluginName": "Lombok-uxlog"
-	},
-	{
-		"bundled": false,
-		"implementationName": "lombok.config",
 		"pluginId": "Lombook Plugin-uxlog",
 		"pluginName": "Lombok-uxlog"
 	},
@@ -1907,12 +1883,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "config.al",
-		"pluginId": "ai.agentlang",
-		"pluginName": "Agentlang"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.bqrs",
 		"pluginId": "ai.dev.tools.codeQL.codeQL",
 		"pluginName": "CodeQL Pro"
@@ -1950,12 +1920,6 @@
 	{
 		"bundled": false,
 		"implementationName": "*.qls",
-		"pluginId": "ai.dev.tools.codeQL.codeQL",
-		"pluginName": "CodeQL Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "evaluator-log.summary",
 		"pluginId": "ai.dev.tools.codeQL.codeQL",
 		"pluginName": "CodeQL Pro"
 	},
@@ -2213,12 +2177,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "config.inginious",
-		"pluginId": "be.ac.ucl.info.inginous_submit",
-		"pluginName": "Submit to INGInious"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.jsonld",
 		"pluginId": "be.ajuvercr.swls",
 		"pluginName": "SWLS - Turtle, TriG, SPARQL & JSON-LD Language Server"
@@ -2274,18 +2232,6 @@
 	{
 		"bundled": false,
 		"implementationName": "*.concord.yml",
-		"pluginId": "brig.concord.intellij",
-		"pluginName": "Concord"
-	},
-	{
-		"bundled": false,
-		"implementationName": "concord.yaml",
-		"pluginId": "brig.concord.intellij",
-		"pluginName": "Concord"
-	},
-	{
-		"bundled": false,
-		"implementationName": "concord.yml",
 		"pluginId": "brig.concord.intellij",
 		"pluginName": "Concord"
 	},
@@ -2376,12 +2322,6 @@
 	{
 		"bundled": false,
 		"implementationName": "*.nginx",
-		"pluginId": "cc.ayakurayuki.nginx-configuration-formatter",
-		"pluginName": "Nginx Configuration Formatter"
-	},
-	{
-		"bundled": false,
-		"implementationName": "nginx.conf",
 		"pluginId": "cc.ayakurayuki.nginx-configuration-formatter",
 		"pluginName": "Nginx Configuration Formatter"
 	},
@@ -2544,12 +2484,6 @@
 	{
 		"bundled": false,
 		"implementationName": "*.lldb",
-		"pluginId": "cn.cangnova.cangjie",
-		"pluginName": "CangJie"
-	},
-	{
-		"bundled": false,
-		"implementationName": "cjpm.lock",
 		"pluginId": "cn.cangnova.cangjie",
 		"pluginName": "CangJie"
 	},
@@ -2730,30 +2664,6 @@
 	{
 		"bundled": false,
 		"implementationName": "*.rules.json",
-		"pluginId": "co.anbora.labs.firebase-syntax-highlighting",
-		"pluginName": "Firebase Rules"
-	},
-	{
-		"bundled": false,
-		"implementationName": "database.rules.json",
-		"pluginId": "co.anbora.labs.firebase-syntax-highlighting",
-		"pluginName": "Firebase Rules"
-	},
-	{
-		"bundled": false,
-		"implementationName": "firebase.json",
-		"pluginId": "co.anbora.labs.firebase-syntax-highlighting",
-		"pluginName": "Firebase Rules"
-	},
-	{
-		"bundled": false,
-		"implementationName": "firestore.indexes.json",
-		"pluginId": "co.anbora.labs.firebase-syntax-highlighting",
-		"pluginName": "Firebase Rules"
-	},
-	{
-		"bundled": false,
-		"implementationName": "remoteconfig.template.json",
 		"pluginId": "co.anbora.labs.firebase-syntax-highlighting",
 		"pluginName": "Firebase Rules"
 	},
@@ -2963,18 +2873,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "serverless.yaml",
-		"pluginId": "co.anbora.labs.serverless.insight",
-		"pluginName": "Serverless Insight"
-	},
-	{
-		"bundled": false,
-		"implementationName": "serverless.yml",
-		"pluginId": "co.anbora.labs.serverless.insight",
-		"pluginName": "Serverless Insight"
-	},
-	{
-		"bundled": false,
 		"implementationName": ".sqlfluff",
 		"pluginId": "co.anbora.labs.sqlfluff",
 		"pluginName": "SQLFluff Linter (Community Edition)"
@@ -3120,12 +3018,6 @@
 	{
 		"bundled": false,
 		"implementationName": "*.conf",
-		"pluginId": "com.agomuseum.nginxlens",
-		"pluginName": "Nginx Lens"
-	},
-	{
-		"bundled": false,
-		"implementationName": "nginx.conf",
 		"pluginId": "com.agomuseum.nginxlens",
 		"pluginName": "Nginx Lens"
 	},
@@ -3479,18 +3371,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "bitbucket-pipelines.yaml",
-		"pluginId": "com.atlassian.bitbucket.references",
-		"pluginName": "Bitbucket Linky"
-	},
-	{
-		"bundled": false,
-		"implementationName": "bitbucket-pipelines.yml",
-		"pluginId": "com.atlassian.bitbucket.references",
-		"pluginName": "Bitbucket Linky"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.atomdu",
 		"pluginId": "com.atomdu.plugin",
 		"pluginName": "1024 Tools"
@@ -3510,12 +3390,6 @@
 	{
 		"bundled": false,
 		"implementationName": "*.nf.test",
-		"pluginId": "com.austinv11.nextflow",
-		"pluginName": "Nextflow Language"
-	},
-	{
-		"bundled": false,
-		"implementationName": "nextflow.config",
 		"pluginId": "com.austinv11.nextflow",
 		"pluginName": "Nextflow Language"
 	},
@@ -3690,12 +3564,6 @@
 	{
 		"bundled": false,
 		"implementationName": "*.isml",
-		"pluginId": "com.binarysushi.sfcc-studio",
-		"pluginName": "Salesforce Commerce Cloud (SFCC) Studio"
-	},
-	{
-		"bundled": false,
-		"implementationName": "dw.json",
 		"pluginId": "com.binarysushi.sfcc-studio",
 		"pluginName": "Salesforce Commerce Cloud (SFCC) Studio"
 	},
@@ -4001,90 +3869,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "database.shcf.yaml",
-		"pluginId": "com.cfa.api.sdk.intellij",
-		"pluginName": "CFSH Helper"
-	},
-	{
-		"bundled": false,
-		"implementationName": "default.wcf.yaml",
-		"pluginId": "com.cfa.api.sdk.intellij",
-		"pluginName": "CFSH Helper"
-	},
-	{
-		"bundled": false,
-		"implementationName": "default.wcf.yml",
-		"pluginId": "com.cfa.api.sdk.intellij",
-		"pluginName": "CFSH Helper"
-	},
-	{
-		"bundled": false,
-		"implementationName": "dynamo.shcf.yaml",
-		"pluginId": "com.cfa.api.sdk.intellij",
-		"pluginName": "CFSH Helper"
-	},
-	{
-		"bundled": false,
-		"implementationName": "dynamodb.cfsh.yaml",
-		"pluginId": "com.cfa.api.sdk.intellij",
-		"pluginName": "CFSH Helper"
-	},
-	{
-		"bundled": false,
-		"implementationName": "dynamodb.shcf.yaml",
-		"pluginId": "com.cfa.api.sdk.intellij",
-		"pluginName": "CFSH Helper"
-	},
-	{
-		"bundled": false,
-		"implementationName": "eventing.cfsh.yaml",
-		"pluginId": "com.cfa.api.sdk.intellij",
-		"pluginName": "CFSH Helper"
-	},
-	{
-		"bundled": false,
-		"implementationName": "eventing.shcf.yaml",
-		"pluginId": "com.cfa.api.sdk.intellij",
-		"pluginName": "CFSH Helper"
-	},
-	{
-		"bundled": false,
-		"implementationName": "exporter.shcf.yaml",
-		"pluginId": "com.cfa.api.sdk.intellij",
-		"pluginName": "CFSH Helper"
-	},
-	{
-		"bundled": false,
-		"implementationName": "queue.cfsh.yaml",
-		"pluginId": "com.cfa.api.sdk.intellij",
-		"pluginName": "CFSH Helper"
-	},
-	{
-		"bundled": false,
-		"implementationName": "queues.shcf.yaml",
-		"pluginId": "com.cfa.api.sdk.intellij",
-		"pluginName": "CFSH Helper"
-	},
-	{
-		"bundled": false,
-		"implementationName": "secret.cfsh.yaml",
-		"pluginId": "com.cfa.api.sdk.intellij",
-		"pluginName": "CFSH Helper"
-	},
-	{
-		"bundled": false,
-		"implementationName": "secrets.cfsh.yaml",
-		"pluginId": "com.cfa.api.sdk.intellij",
-		"pluginName": "CFSH Helper"
-	},
-	{
-		"bundled": false,
-		"implementationName": "secrets.shcf.yaml",
-		"pluginId": "com.cfa.api.sdk.intellij",
-		"pluginName": "CFSH Helper"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.csv",
 		"pluginId": "com.chesterccw.excelreader",
 		"pluginName": "ExcelReader"
@@ -4148,12 +3932,6 @@
 		"implementationName": "*.lc",
 		"pluginId": "com.coasns.leetcode",
 		"pluginName": "LeetCode Assistant"
-	},
-	{
-		"bundled": false,
-		"implementationName": "nest-cli.json",
-		"pluginId": "com.coconutmkii.nestjssupport",
-		"pluginName": "NestJS Framework"
 	},
 	{
 		"bundled": false,
@@ -4364,42 +4142,6 @@
 		"implementationName": "*.libsonnet",
 		"pluginId": "com.databricks",
 		"pluginName": "Jsonnet"
-	},
-	{
-		"bundled": false,
-		"implementationName": "entity.datadog.yaml",
-		"pluginId": "com.datadog.intellij",
-		"pluginName": "Datadog"
-	},
-	{
-		"bundled": false,
-		"implementationName": "entity.datadog.yml",
-		"pluginId": "com.datadog.intellij",
-		"pluginName": "Datadog"
-	},
-	{
-		"bundled": false,
-		"implementationName": "service.datadog.yaml",
-		"pluginId": "com.datadog.intellij",
-		"pluginName": "Datadog"
-	},
-	{
-		"bundled": false,
-		"implementationName": "service.datadog.yml",
-		"pluginId": "com.datadog.intellij",
-		"pluginName": "Datadog"
-	},
-	{
-		"bundled": false,
-		"implementationName": "static-analysis.datadog.yaml",
-		"pluginId": "com.datadog.intellij",
-		"pluginName": "Datadog"
-	},
-	{
-		"bundled": false,
-		"implementationName": "static-analysis.datadog.yml",
-		"pluginId": "com.datadog.intellij",
-		"pluginName": "Datadog"
 	},
 	{
 		"bundled": false,
@@ -4853,12 +4595,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "sdkconfig.defaults",
-		"pluginId": "com.flexible.arduino",
-		"pluginName": "Flexible For Arduino"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.beam",
 		"pluginId": "com.flexible.elixir",
 		"pluginName": "Flexible Elixir"
@@ -4920,24 +4656,6 @@
 	{
 		"bundled": false,
 		"implementationName": "*.lhs",
-		"pluginId": "com.flexible.haskell",
-		"pluginName": "Flexible Haskell"
-	},
-	{
-		"bundled": false,
-		"implementationName": "cabal.project",
-		"pluginId": "com.flexible.haskell",
-		"pluginName": "Flexible Haskell"
-	},
-	{
-		"bundled": false,
-		"implementationName": "cabal.project.freeze",
-		"pluginId": "com.flexible.haskell",
-		"pluginName": "Flexible Haskell"
-	},
-	{
-		"bundled": false,
-		"implementationName": "cabal.project.local",
 		"pluginId": "com.flexible.haskell",
 		"pluginName": "Flexible Haskell"
 	},
@@ -5057,18 +4775,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "all-projects.txt",
-		"pluginId": "com.fueledbycaffeine.spotlight",
-		"pluginName": "Spotlight"
-	},
-	{
-		"bundled": false,
-		"implementationName": "ide-projects.txt",
-		"pluginId": "com.fueledbycaffeine.spotlight",
-		"pluginName": "Spotlight"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.gspec",
 		"pluginId": "com.galenframework.specs.idea",
 		"pluginName": "Galen Specs Language Support"
@@ -5106,12 +4812,6 @@
 	{
 		"bundled": false,
 		"implementationName": "*.nginx.conf",
-		"pluginId": "com.getpagespeed.gixy",
-		"pluginName": "Gixy"
-	},
-	{
-		"bundled": false,
-		"implementationName": "nginx.conf",
 		"pluginId": "com.getpagespeed.gixy",
 		"pluginName": "Gixy"
 	},
@@ -5945,12 +5645,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "nest-cli.json",
-		"pluginId": "com.github.dinbtechit.jetbrainsnestjs",
-		"pluginName": "nestjs"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.selectors.ts",
 		"pluginId": "com.github.dinbtechit.ngxs",
 		"pluginName": "ngxs"
@@ -6515,12 +6209,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "lets.yaml",
-		"pluginId": "com.github.kindermax.intellijlets",
-		"pluginName": "Lets"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.circom",
 		"pluginId": "com.github.kyrylr.circom",
 		"pluginName": "Circom"
@@ -6552,12 +6240,6 @@
 	{
 		"bundled": false,
 		"implementationName": "mise.*.toml",
-		"pluginId": "com.github.l34130.mise",
-		"pluginName": "Mise"
-	},
-	{
-		"bundled": false,
-		"implementationName": "mise.toml",
 		"pluginId": "com.github.l34130.mise",
 		"pluginName": "Mise"
 	},
@@ -6821,12 +6503,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "debputy.manifest",
-		"pluginId": "com.github.nthykier.debpkg",
-		"pluginName": "Debian Packaging Support"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.csv",
 		"pluginId": "com.github.obiscr.exceleditor",
 		"pluginName": "ExcelEditor"
@@ -6890,12 +6566,6 @@
 		"implementationName": "*.jjtx",
 		"pluginId": "com.github.oowekyala.javacc",
 		"pluginName": "JavaCC"
-	},
-	{
-		"bundled": false,
-		"implementationName": "application.conf",
-		"pluginId": "com.github.pablolec.play1toolkit",
-		"pluginName": "Play v1 Toolkit"
 	},
 	{
 		"bundled": false,
@@ -6971,12 +6641,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "config.cpp",
-		"pluginId": "com.github.puotek.armaconfigplugin",
-		"pluginName": "arma-config-support"
-	},
-	{
-		"bundled": false,
 		"implementationName": ".autocp",
 		"pluginId": "com.github.pushpavel.autocp",
 		"pluginName": "AutoCp"
@@ -6998,12 +6662,6 @@
 		"implementationName": "*.edge",
 		"pluginId": "com.github.quantumweb.edgejsjetbrains",
 		"pluginName": "EdgeJS"
-	},
-	{
-		"bundled": false,
-		"implementationName": "tye.yaml",
-		"pluginId": "com.github.rafaelldi.tyeplugin",
-		"pluginName": "Tye"
 	},
 	{
 		"bundled": false,
@@ -7142,30 +6800,6 @@
 		"implementationName": "*.uix",
 		"pluginId": "com.github.tarcv.testingteam.surveyoridea",
 		"pluginName": "UI Surveyor"
-	},
-	{
-		"bundled": false,
-		"implementationName": "root.hcl",
-		"pluginId": "com.github.terrapaw.terragrunt",
-		"pluginName": "Terragrunt HCL"
-	},
-	{
-		"bundled": false,
-		"implementationName": "terragrunt.hcl",
-		"pluginId": "com.github.terrapaw.terragrunt",
-		"pluginName": "Terragrunt HCL"
-	},
-	{
-		"bundled": false,
-		"implementationName": "terragrunt.stack.hcl",
-		"pluginId": "com.github.terrapaw.terragrunt",
-		"pluginName": "Terragrunt HCL"
-	},
-	{
-		"bundled": false,
-		"implementationName": "terragrunt.values.hcl",
-		"pluginId": "com.github.terrapaw.terragrunt",
-		"pluginName": "Terragrunt HCL"
 	},
 	{
 		"bundled": false,
@@ -7427,12 +7061,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "mago.toml",
-		"pluginId": "com.github.xepozz.mago",
-		"pluginName": "Mago"
-	},
-	{
-		"bundled": false,
 		"implementationName": ".meta-storm.xml",
 		"pluginId": "com.github.xepozz.metastorm",
 		"pluginName": "MetaStorm"
@@ -7463,12 +7091,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "robots.txt",
-		"pluginId": "com.github.xepozz.robots_txt",
-		"pluginName": "Robots.txt"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*sitemap*.txt",
 		"pluginId": "com.github.xepozz.sitemap",
 		"pluginName": "Sitemap"
@@ -7481,31 +7103,7 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "sitemap.txt",
-		"pluginId": "com.github.xepozz.sitemap",
-		"pluginName": "Sitemap"
-	},
-	{
-		"bundled": false,
-		"implementationName": "sitemap.xml",
-		"pluginId": "com.github.xepozz.sitemap",
-		"pluginName": "Sitemap"
-	},
-	{
-		"bundled": false,
 		"implementationName": "testo",
-		"pluginId": "com.github.xepozz.testo",
-		"pluginName": "Testo"
-	},
-	{
-		"bundled": false,
-		"implementationName": "testo.bat",
-		"pluginId": "com.github.xepozz.testo",
-		"pluginName": "Testo"
-	},
-	{
-		"bundled": false,
-		"implementationName": "testo.php",
 		"pluginId": "com.github.xepozz.testo",
 		"pluginName": "Testo"
 	},
@@ -7548,12 +7146,6 @@
 	{
 		"bundled": false,
 		"implementationName": "wippy.*.lock",
-		"pluginId": "com.github.xepozz.wippy",
-		"pluginName": "Wippy"
-	},
-	{
-		"bundled": false,
-		"implementationName": "wippy.lock",
 		"pluginId": "com.github.xepozz.wippy",
 		"pluginName": "Wippy"
 	},
@@ -7825,13 +7417,13 @@
 		"bundled": false,
 		"implementationName": "*.cql",
 		"pluginId": "com.graphdbplugin",
-		"pluginName": "GraphDB for Neo4j"
+		"pluginName": "Neo4j Toolkit"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.cypher",
 		"pluginId": "com.graphdbplugin",
-		"pluginName": "GraphDB for Neo4j"
+		"pluginName": "Neo4j Toolkit"
 	},
 	{
 		"bundled": false,
@@ -10139,12 +9731,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "_cq_dialog.xml",
-		"pluginId": "com.ilscipio.aem.integration",
-		"pluginName": "AEM Integration"
-	},
-	{
-		"bundled": false,
 		"implementationName": ".content.xml",
 		"pluginId": "com.ilscipio.aem.integration",
 		"pluginName": "AEM Integration"
@@ -10340,18 +9926,6 @@
 		"implementationName": "ftl",
 		"pluginId": "com.ilscipio.scipio.ce.scipio-editor",
 		"pluginName": "Scipio ERP Integration"
-	},
-	{
-		"bundled": false,
-		"implementationName": "components.json",
-		"pluginId": "com.ilscipio.shadcnhelper",
-		"pluginName": "shadcn Helper"
-	},
-	{
-		"bundled": false,
-		"implementationName": "ui.config.json",
-		"pluginId": "com.ilscipio.shadcnhelper",
-		"pluginName": "shadcn Helper"
 	},
 	{
 		"bundled": false,
@@ -11696,12 +11270,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "haxelib.json",
-		"pluginId": "com.intellij.plugins.haxe",
-		"pluginName": "Haxe Toolkit Support"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.pex",
 		"pluginId": "com.intellij.plugins.pants",
 		"pluginName": "Pants Support"
@@ -11959,21 +11527,15 @@
 		"pluginName": "SQL support"
 	},
 	{
+		"bundled": false,
+		"implementationName": "openapi.json",
+		"pluginId": "com.intellij.swagger",
+		"pluginName": "OpenAPI Specifications"
+	},
+	{
 		"bundled": true,
 		"description": "Swagger and OpenAPI specification files support.",
 		"implementationName": "openapi.json",
-		"pluginId": "com.intellij.swagger",
-		"pluginName": "OpenAPI Specifications"
-	},
-	{
-		"bundled": false,
-		"implementationName": "openapi.json",
-		"pluginId": "com.intellij.swagger",
-		"pluginName": "OpenAPI Specifications"
-	},
-	{
-		"bundled": false,
-		"implementationName": "openapi.yaml",
 		"pluginId": "com.intellij.swagger",
 		"pluginName": "OpenAPI Specifications"
 	},
@@ -11985,9 +11547,8 @@
 		"pluginName": "OpenAPI Specifications"
 	},
 	{
-		"bundled": true,
-		"description": "Swagger and OpenAPI specification files support.",
-		"implementationName": "openapi.yml",
+		"bundled": false,
+		"implementationName": "openapi.yaml",
 		"pluginId": "com.intellij.swagger",
 		"pluginName": "OpenAPI Specifications"
 	},
@@ -11998,8 +11559,9 @@
 		"pluginName": "OpenAPI Specifications"
 	},
 	{
-		"bundled": false,
-		"implementationName": "swagger.json",
+		"bundled": true,
+		"description": "Swagger and OpenAPI specification files support.",
+		"implementationName": "openapi.yml",
 		"pluginId": "com.intellij.swagger",
 		"pluginName": "OpenAPI Specifications"
 	},
@@ -12007,6 +11569,18 @@
 		"bundled": true,
 		"description": "Swagger and OpenAPI specification files support.",
 		"implementationName": "swagger.json",
+		"pluginId": "com.intellij.swagger",
+		"pluginName": "OpenAPI Specifications"
+	},
+	{
+		"bundled": false,
+		"implementationName": "swagger.json",
+		"pluginId": "com.intellij.swagger",
+		"pluginName": "OpenAPI Specifications"
+	},
+	{
+		"bundled": false,
+		"implementationName": "swagger.yaml",
 		"pluginId": "com.intellij.swagger",
 		"pluginName": "OpenAPI Specifications"
 	},
@@ -12018,20 +11592,14 @@
 		"pluginName": "OpenAPI Specifications"
 	},
 	{
-		"bundled": false,
-		"implementationName": "swagger.yaml",
-		"pluginId": "com.intellij.swagger",
-		"pluginName": "OpenAPI Specifications"
-	},
-	{
-		"bundled": false,
+		"bundled": true,
+		"description": "Swagger and OpenAPI specification files support.",
 		"implementationName": "swagger.yml",
 		"pluginId": "com.intellij.swagger",
 		"pluginName": "OpenAPI Specifications"
 	},
 	{
-		"bundled": true,
-		"description": "Swagger and OpenAPI specification files support.",
+		"bundled": false,
 		"implementationName": "swagger.yml",
 		"pluginId": "com.intellij.swagger",
 		"pluginName": "OpenAPI Specifications"
@@ -12089,17 +11657,23 @@
 		"pluginName": "Swing UI Designer"
 	},
 	{
+		"bundled": true,
+		"description": "Provides syntax and error highlighting, smart editing and inspections for the Velocity template language.",
+		"implementationName": "*.ft",
+		"pluginId": "com.intellij.velocity",
+		"pluginName": "Velocity support"
+	},
+	{
 		"bundled": false,
 		"implementationName": "*.ft",
 		"pluginId": "com.intellij.velocity",
 		"pluginName": "Apache Velocity"
 	},
 	{
-		"bundled": true,
-		"description": "Provides syntax and error highlighting, smart editing and inspections for the Velocity template language.",
-		"implementationName": "*.ft",
+		"bundled": false,
+		"implementationName": "*.vm",
 		"pluginId": "com.intellij.velocity",
-		"pluginName": "Velocity support"
+		"pluginName": "Apache Velocity"
 	},
 	{
 		"bundled": true,
@@ -12109,23 +11683,17 @@
 		"pluginName": "Velocity support"
 	},
 	{
-		"bundled": false,
-		"implementationName": "*.vm",
-		"pluginId": "com.intellij.velocity",
-		"pluginName": "Apache Velocity"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.vsl",
-		"pluginId": "com.intellij.velocity",
-		"pluginName": "Apache Velocity"
-	},
-	{
 		"bundled": true,
 		"description": "Provides syntax and error highlighting, smart editing and inspections for the Velocity template language.",
 		"implementationName": "*.vsl",
 		"pluginId": "com.intellij.velocity",
 		"pluginName": "Velocity support"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.vsl",
+		"pluginId": "com.intellij.velocity",
+		"pluginName": "Apache Velocity"
 	},
 	{
 		"bundled": false,
@@ -13597,48 +13165,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "connector.yaml",
-		"pluginId": "com.jhtech.firebasepro",
-		"pluginName": "Firebase Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "database.rules.json",
-		"pluginId": "com.jhtech.firebasepro",
-		"pluginName": "Firebase Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "dataconnect.yaml",
-		"pluginId": "com.jhtech.firebasepro",
-		"pluginName": "Firebase Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "extension.yaml",
-		"pluginId": "com.jhtech.firebasepro",
-		"pluginName": "Firebase Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "firebase.json",
-		"pluginId": "com.jhtech.firebasepro",
-		"pluginName": "Firebase Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "firestore.indexes.json",
-		"pluginId": "com.jhtech.firebasepro",
-		"pluginName": "Firebase Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "remoteconfig.template.json",
-		"pluginId": "com.jhtech.firebasepro",
-		"pluginName": "Firebase Pro"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.aicp",
 		"pluginId": "com.jiamugengjin.aicontextprompt",
 		"pluginName": "AI Context Prompt"
@@ -13768,12 +13294,6 @@
 		"implementationName": ".openspec.yaml",
 		"pluginId": "com.johnnyblabs.openspec",
 		"pluginName": "OpenSpec"
-	},
-	{
-		"bundled": false,
-		"implementationName": "shopify.extension.toml",
-		"pluginId": "com.johnxy84.shopify.functions-query-cost",
-		"pluginName": "Shopify Functions Query Cost"
 	},
 	{
 		"bundled": false,
@@ -13945,139 +13465,7 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "_config.landscape.yml",
-		"pluginId": "com.kronkcms.plugin",
-		"pluginName": "Kronk CMS"
-	},
-	{
-		"bundled": false,
-		"implementationName": "_config.yaml",
-		"pluginId": "com.kronkcms.plugin",
-		"pluginName": "Kronk CMS"
-	},
-	{
-		"bundled": false,
-		"implementationName": "_config.yml",
-		"pluginId": "com.kronkcms.plugin",
-		"pluginName": "Kronk CMS"
-	},
-	{
-		"bundled": false,
 		"implementationName": ".eleventy.js",
-		"pluginId": "com.kronkcms.plugin",
-		"pluginName": "Kronk CMS"
-	},
-	{
-		"bundled": false,
-		"implementationName": "astro.config.js",
-		"pluginId": "com.kronkcms.plugin",
-		"pluginName": "Kronk CMS"
-	},
-	{
-		"bundled": false,
-		"implementationName": "astro.config.mjs",
-		"pluginId": "com.kronkcms.plugin",
-		"pluginName": "Kronk CMS"
-	},
-	{
-		"bundled": false,
-		"implementationName": "astro.config.ts",
-		"pluginId": "com.kronkcms.plugin",
-		"pluginName": "Kronk CMS"
-	},
-	{
-		"bundled": false,
-		"implementationName": "eleventy.config.cjs",
-		"pluginId": "com.kronkcms.plugin",
-		"pluginName": "Kronk CMS"
-	},
-	{
-		"bundled": false,
-		"implementationName": "eleventy.config.js",
-		"pluginId": "com.kronkcms.plugin",
-		"pluginName": "Kronk CMS"
-	},
-	{
-		"bundled": false,
-		"implementationName": "eleventy.config.mjs",
-		"pluginId": "com.kronkcms.plugin",
-		"pluginName": "Kronk CMS"
-	},
-	{
-		"bundled": false,
-		"implementationName": "eleventy.config.ts",
-		"pluginId": "com.kronkcms.plugin",
-		"pluginName": "Kronk CMS"
-	},
-	{
-		"bundled": false,
-		"implementationName": "gatsby-config.js",
-		"pluginId": "com.kronkcms.plugin",
-		"pluginName": "Kronk CMS"
-	},
-	{
-		"bundled": false,
-		"implementationName": "gatsby-config.mjs",
-		"pluginId": "com.kronkcms.plugin",
-		"pluginName": "Kronk CMS"
-	},
-	{
-		"bundled": false,
-		"implementationName": "gatsby-config.ts",
-		"pluginId": "com.kronkcms.plugin",
-		"pluginName": "Kronk CMS"
-	},
-	{
-		"bundled": false,
-		"implementationName": "hugo.json",
-		"pluginId": "com.kronkcms.plugin",
-		"pluginName": "Kronk CMS"
-	},
-	{
-		"bundled": false,
-		"implementationName": "hugo.toml",
-		"pluginId": "com.kronkcms.plugin",
-		"pluginName": "Kronk CMS"
-	},
-	{
-		"bundled": false,
-		"implementationName": "hugo.yml",
-		"pluginId": "com.kronkcms.plugin",
-		"pluginName": "Kronk CMS"
-	},
-	{
-		"bundled": false,
-		"implementationName": "next.config.js",
-		"pluginId": "com.kronkcms.plugin",
-		"pluginName": "Kronk CMS"
-	},
-	{
-		"bundled": false,
-		"implementationName": "next.config.mjs",
-		"pluginId": "com.kronkcms.plugin",
-		"pluginName": "Kronk CMS"
-	},
-	{
-		"bundled": false,
-		"implementationName": "next.config.ts",
-		"pluginId": "com.kronkcms.plugin",
-		"pluginName": "Kronk CMS"
-	},
-	{
-		"bundled": false,
-		"implementationName": "nuxt.config.js",
-		"pluginId": "com.kronkcms.plugin",
-		"pluginName": "Kronk CMS"
-	},
-	{
-		"bundled": false,
-		"implementationName": "nuxt.config.mjs",
-		"pluginId": "com.kronkcms.plugin",
-		"pluginName": "Kronk CMS"
-	},
-	{
-		"bundled": false,
-		"implementationName": "nuxt.config.ts",
 		"pluginId": "com.kronkcms.plugin",
 		"pluginName": "Kronk CMS"
 	},
@@ -14782,42 +14170,6 @@
 		"implementationName": "*.nc",
 		"pluginId": "com.ncviewer.idea",
 		"pluginName": "NC Viewer"
-	},
-	{
-		"bundled": false,
-		"implementationName": "hardhat.config.js",
-		"pluginId": "com.nekofar.milad.intellij.hardhat",
-		"pluginName": "Hardhat"
-	},
-	{
-		"bundled": false,
-		"implementationName": "hardhat.config.ts",
-		"pluginId": "com.nekofar.milad.intellij.hardhat",
-		"pluginName": "Hardhat"
-	},
-	{
-		"bundled": false,
-		"implementationName": "nest-cli.json",
-		"pluginId": "com.nekofar.milad.intellij.nestjs",
-		"pluginName": "Nest"
-	},
-	{
-		"bundled": false,
-		"implementationName": "next.config.js",
-		"pluginId": "com.nekofar.milad.intellij.nextjs",
-		"pluginName": "Next.js"
-	},
-	{
-		"bundled": false,
-		"implementationName": "remix.config.js",
-		"pluginId": "com.nekofar.milad.intellij.remix",
-		"pluginName": "Remix"
-	},
-	{
-		"bundled": false,
-		"implementationName": "truffle-config.js",
-		"pluginId": "com.nekofar.milad.intellij.truffle",
-		"pluginName": "Truffle"
 	},
 	{
 		"bundled": false,
@@ -16027,18 +15379,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "wire_gen.go",
-		"pluginId": "com.saumyaroy.gowireutil",
-		"pluginName": "Go Wire Util"
-	},
-	{
-		"bundled": false,
-		"implementationName": "wire.go",
-		"pluginId": "com.saumyaroy.gowireutil",
-		"pluginName": "Go Wire Util"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.rythm",
 		"pluginId": "com.scireum.rythmengine.detector",
 		"pluginName": "Rythm Engine Detector - R.E.D"
@@ -16861,18 +16201,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "haproxy.cfg",
-		"pluginId": "com.timhinz.haproxy",
-		"pluginName": "HAProxy Syntax Highlighting"
-	},
-	{
-		"bundled": false,
-		"implementationName": "haproxy.conf",
-		"pluginId": "com.timhinz.haproxy",
-		"pluginName": "HAProxy Syntax Highlighting"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.pgplan",
 		"pluginId": "com.tjhelmuth.postgres-explain-visualizer",
 		"pluginName": "postgres-explain-visualizer"
@@ -17215,12 +16543,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "eslint.json",
-		"pluginId": "com.wix.eslint",
-		"pluginName": "ESLint"
-	},
-	{
-		"bundled": false,
 		"implementationName": ".jscsrc",
 		"pluginId": "com.wix.jscs",
 		"pluginName": "jscs"
@@ -17491,12 +16813,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "FILE_ID.DIZ",
-		"pluginId": "com.yanncebron.m68kplugin",
-		"pluginName": "Motorola 68000 Series Assembler"
-	},
-	{
-		"bundled": false,
 		"implementationName": "startup-sequence",
 		"pluginId": "com.yanncebron.m68kplugin",
 		"pluginName": "Motorola 68000 Series Assembler"
@@ -17649,66 +16965,6 @@
 	{
 		"bundled": false,
 		"implementationName": "*.dal",
-		"pluginId": "dal-mpe",
-		"pluginName": "SQL DAL Maker"
-	},
-	{
-		"bundled": false,
-		"implementationName": "cpp.dal",
-		"pluginId": "dal-mpe",
-		"pluginName": "SQL DAL Maker"
-	},
-	{
-		"bundled": false,
-		"implementationName": "cpp.dalmpe",
-		"pluginId": "dal-mpe",
-		"pluginName": "SQL DAL Maker"
-	},
-	{
-		"bundled": false,
-		"implementationName": "java.dal",
-		"pluginId": "dal-mpe",
-		"pluginName": "SQL DAL Maker"
-	},
-	{
-		"bundled": false,
-		"implementationName": "java.dalmpe",
-		"pluginId": "dal-mpe",
-		"pluginName": "SQL DAL Maker"
-	},
-	{
-		"bundled": false,
-		"implementationName": "objc.dal",
-		"pluginId": "dal-mpe",
-		"pluginName": "SQL DAL Maker"
-	},
-	{
-		"bundled": false,
-		"implementationName": "objc.dalmpe",
-		"pluginId": "dal-mpe",
-		"pluginName": "SQL DAL Maker"
-	},
-	{
-		"bundled": false,
-		"implementationName": "php.dal",
-		"pluginId": "dal-mpe",
-		"pluginName": "SQL DAL Maker"
-	},
-	{
-		"bundled": false,
-		"implementationName": "php.dalmpe",
-		"pluginId": "dal-mpe",
-		"pluginName": "SQL DAL Maker"
-	},
-	{
-		"bundled": false,
-		"implementationName": "python.dal",
-		"pluginId": "dal-mpe",
-		"pluginName": "SQL DAL Maker"
-	},
-	{
-		"bundled": false,
-		"implementationName": "ruby.dal",
 		"pluginId": "dal-mpe",
 		"pluginName": "SQL DAL Maker"
 	},
@@ -17972,12 +17228,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "untranslated_messages.txt",
-		"pluginId": "de.keeyzar.gpt-helper.gpt-helper",
-		"pluginName": "gpt-helper"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.kasm",
 		"pluginId": "de.ljunker.kasm",
 		"pluginName": "KASM Language"
@@ -18165,30 +17415,6 @@
 	{
 		"bundled": false,
 		"implementationName": "*.typoscript",
-		"pluginId": "de.sgalinski.typoscript.plugin.id",
-		"pluginName": "TypoScript - Old Version"
-	},
-	{
-		"bundled": false,
-		"implementationName": "constants.txt",
-		"pluginId": "de.sgalinski.typoscript.plugin.id",
-		"pluginName": "TypoScript - Old Version"
-	},
-	{
-		"bundled": false,
-		"implementationName": "ext_conf_template.txt",
-		"pluginId": "de.sgalinski.typoscript.plugin.id",
-		"pluginName": "TypoScript - Old Version"
-	},
-	{
-		"bundled": false,
-		"implementationName": "ext_typoscript_setup.txt",
-		"pluginId": "de.sgalinski.typoscript.plugin.id",
-		"pluginName": "TypoScript - Old Version"
-	},
-	{
-		"bundled": false,
-		"implementationName": "setup.txt",
 		"pluginId": "de.sgalinski.typoscript.plugin.id",
 		"pluginName": "TypoScript - Old Version"
 	},
@@ -18500,12 +17726,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "encore.app",
-		"pluginId": "dev.encore.intellij",
-		"pluginName": "Encore"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.nova",
 		"pluginId": "dev.engine2d.nova.dsl",
 		"pluginName": "Nova DSL"
@@ -18586,25 +17806,13 @@
 		"bundled": false,
 		"implementationName": "*.jbang",
 		"pluginId": "dev.jbang.intellij.JBangPlugin",
-		"pluginName": "jbang-idea-plugin"
+		"pluginName": "JBang"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.jsh",
 		"pluginId": "dev.jbang.intellij.JBangPlugin",
-		"pluginName": "jbang-idea-plugin"
-	},
-	{
-		"bundled": false,
-		"implementationName": "jbang-catalog.json",
-		"pluginId": "dev.jbang.intellij.JBangPlugin",
-		"pluginName": "jbang-idea-plugin"
-	},
-	{
-		"bundled": false,
-		"implementationName": "jeka.project.deps",
-		"pluginId": "dev.jeka.ide",
-		"pluginName": "JeKa"
+		"pluginName": "JBang"
 	},
 	{
 		"bundled": false,
@@ -18902,31 +18110,7 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "mojoproject.toml",
-		"pluginId": "dev.jetplugins.mojo",
-		"pluginName": "Mojo Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "recipe.yaml",
-		"pluginId": "dev.jetplugins.mojo",
-		"pluginName": "Mojo Pro"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.nix",
-		"pluginId": "dev.jetplugins.nix-pro",
-		"pluginName": "Nix Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "flake.lock",
-		"pluginId": "dev.jetplugins.nix-pro",
-		"pluginName": "Nix Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "statix.toml",
 		"pluginId": "dev.jetplugins.nix-pro",
 		"pluginName": "Nix Pro"
 	},
@@ -18944,49 +18128,7 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "nuxt.config.js",
-		"pluginId": "dev.jetplugins.nuxt",
-		"pluginName": "Nuxt Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "nuxt.config.mjs",
-		"pluginId": "dev.jetplugins.nuxt",
-		"pluginName": "Nuxt Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "nuxt.config.ts",
-		"pluginId": "dev.jetplugins.nuxt",
-		"pluginName": "Nuxt Pro"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.pro",
-		"pluginId": "dev.jetplugins.obfuscation-pro",
-		"pluginName": "Obfuscation Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "allatori.xml",
-		"pluginId": "dev.jetplugins.obfuscation-pro",
-		"pluginName": "Obfuscation Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "consumer-rules.pro",
-		"pluginId": "dev.jetplugins.obfuscation-pro",
-		"pluginName": "Obfuscation Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "r8-rules.pro",
-		"pluginId": "dev.jetplugins.obfuscation-pro",
-		"pluginName": "Obfuscation Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "yguard.xml",
 		"pluginId": "dev.jetplugins.obfuscation-pro",
 		"pluginName": "Obfuscation Pro"
 	},
@@ -19019,18 +18161,6 @@
 		"implementationName": "*.yul",
 		"pluginId": "dev.jetplugins.solidity",
 		"pluginName": "Solidity Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "routeTree.gen.js",
-		"pluginId": "dev.jetplugins.tanstack",
-		"pluginName": "TanStack Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "routeTree.gen.ts",
-		"pluginId": "dev.jetplugins.tanstack",
-		"pluginName": "TanStack Pro"
 	},
 	{
 		"bundled": false,
@@ -19199,12 +18329,6 @@
 		"implementationName": "*.mcptool",
 		"pluginId": "dev.meanmail.plugin.ai.toolbox",
 		"pluginName": "MCP Servers for AI Assistants"
-	},
-	{
-		"bundled": false,
-		"implementationName": "ansible.cfg",
-		"pluginId": "dev.meanmail.plugin.ansible",
-		"pluginName": "Ansible Pro"
 	},
 	{
 		"bundled": false,
@@ -19460,12 +18584,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "nginx.conf",
-		"pluginId": "dev.meanmail.plugin.nginx-intellij-plugin",
-		"pluginName": "Nginx Configuration"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.conf",
 		"pluginId": "dev.meanmail.plugin.nginx-intellij-plugin-pro",
 		"pluginName": "Nginx Configuration Pro"
@@ -19484,12 +18602,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "default.conf",
-		"pluginId": "dev.meanmail.plugin.nginx-intellij-plugin-pro",
-		"pluginName": "Nginx Configuration Pro"
-	},
-	{
-		"bundled": false,
 		"implementationName": "fastcgi_params",
 		"pluginId": "dev.meanmail.plugin.nginx-intellij-plugin-pro",
 		"pluginName": "Nginx Configuration Pro"
@@ -19503,18 +18615,6 @@
 	{
 		"bundled": false,
 		"implementationName": "koi-win",
-		"pluginId": "dev.meanmail.plugin.nginx-intellij-plugin-pro",
-		"pluginName": "Nginx Configuration Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "mime.types",
-		"pluginId": "dev.meanmail.plugin.nginx-intellij-plugin-pro",
-		"pluginName": "Nginx Configuration Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "nginx.conf",
 		"pluginId": "dev.meanmail.plugin.nginx-intellij-plugin-pro",
 		"pluginName": "Nginx Configuration Pro"
 	},
@@ -19586,30 +18686,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "haproxy.cfg",
-		"pluginId": "dev.ngaio.haproxy",
-		"pluginName": "HAProxy Config Support"
-	},
-	{
-		"bundled": false,
-		"implementationName": "haproxy.cfg.j2",
-		"pluginId": "dev.ngaio.haproxy",
-		"pluginName": "HAProxy Config Support"
-	},
-	{
-		"bundled": false,
-		"implementationName": "haproxy.cfg.tmpl",
-		"pluginId": "dev.ngaio.haproxy",
-		"pluginName": "HAProxy Config Support"
-	},
-	{
-		"bundled": false,
-		"implementationName": "haproxy.conf",
-		"pluginId": "dev.ngaio.haproxy",
-		"pluginName": "HAProxy Config Support"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.okp",
 		"pluginId": "dev.oktopios",
 		"pluginName": "Oktopios Language"
@@ -19676,19 +18752,7 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "jamfile.v2",
-		"pluginId": "dev.plugincraft.jam",
-		"pluginName": "Jam Build Integration"
-	},
-	{
-		"bundled": false,
 		"implementationName": "jamroot",
-		"pluginId": "dev.plugincraft.jam",
-		"pluginName": "Jam Build Integration"
-	},
-	{
-		"bundled": false,
-		"implementationName": "jamroot.v2",
 		"pluginId": "dev.plugincraft.jam",
 		"pluginName": "Jam Build Integration"
 	},
@@ -20624,12 +19688,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "descriptor.mod",
-		"pluginId": "icu.windea.pls",
-		"pluginName": "Paradox Chronicle"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.y",
 		"pluginId": "idea.goyacc",
 		"pluginName": "GoYacc Support"
@@ -20763,12 +19821,6 @@
 	{
 		"bundled": false,
 		"implementationName": "*.py.lock",
-		"pluginId": "insyncwithfoo.ryecharm",
-		"pluginName": "RyeCharm"
-	},
-	{
-		"bundled": false,
-		"implementationName": "uv.lock",
 		"pluginId": "insyncwithfoo.ryecharm",
 		"pluginName": "RyeCharm"
 	},
@@ -20924,18 +19976,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "metadata.apimap",
-		"pluginId": "io.apimap.intellij",
-		"pluginName": "Apimap.io"
-	},
-	{
-		"bundled": false,
-		"implementationName": "taxonomy.apimap",
-		"pluginId": "io.apimap.intellij",
-		"pluginName": "Apimap.io"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.ch.hcl",
 		"pluginId": "io.ariga.atlas.hcl",
 		"pluginName": "Atlas"
@@ -21039,12 +20079,6 @@
 	{
 		"bundled": false,
 		"implementationName": "*agent.hcl",
-		"pluginId": "io.ariga.atlas.hcl",
-		"pluginName": "Atlas"
-	},
-	{
-		"bundled": false,
-		"implementationName": "atlas.hcl",
 		"pluginId": "io.ariga.atlas.hcl",
 		"pluginName": "Atlas"
 	},
@@ -21242,12 +20276,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "robots.txt",
-		"pluginId": "io.genai.robots",
-		"pluginName": "RobotsReader"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.bpmn",
 		"pluginId": "io.gitee.nn.actibpm",
 		"pluginName": "ActiBPM-Rebuild"
@@ -21428,18 +20456,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "properties.chamaleon.json",
-		"pluginId": "io.github.gerardorodriguezdev.chamaleon",
-		"pluginName": "Chamaleon"
-	},
-	{
-		"bundled": false,
-		"implementationName": "template.chamaleon.json",
-		"pluginId": "io.github.gerardorodriguezdev.chamaleon",
-		"pluginName": "Chamaleon"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.pine",
 		"pluginId": "io.github.houseofai.pinescript",
 		"pluginName": "PineScript v6 Language Support"
@@ -21489,12 +20505,6 @@
 	{
 		"bundled": false,
 		"implementationName": "*.nginx",
-		"pluginId": "io.github.l2dy.ide.ic.nginx",
-		"pluginName": "NGINX Configuration Language"
-	},
-	{
-		"bundled": false,
-		"implementationName": "nginx.conf",
 		"pluginId": "io.github.l2dy.ide.ic.nginx",
 		"pluginName": "NGINX Configuration Language"
 	},
@@ -21872,12 +20882,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "lombok.config",
-		"pluginId": "io.mateu.lombok-plugin",
-		"pluginName": "Mateu  MDD"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.note",
 		"pluginId": "io.neo.plugin.mf.BetterX_Tools",
 		"pluginName": "BetterX Tools"
@@ -21885,12 +20889,6 @@
 	{
 		"bundled": false,
 		"implementationName": "*.nf",
-		"pluginId": "io.nextflow.jetbrains",
-		"pluginName": "Nextflow"
-	},
-	{
-		"bundled": false,
-		"implementationName": "nextflow.config",
 		"pluginId": "io.nextflow.jetbrains",
 		"pluginName": "Nextflow"
 	},
@@ -22070,18 +21068,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "trantor.yaml",
-		"pluginId": "io.terminus.trantor.plugin",
-		"pluginName": "Trantor"
-	},
-	{
-		"bundled": false,
-		"implementationName": "trantor.yml",
-		"pluginId": "io.terminus.trantor.plugin",
-		"pluginName": "Trantor"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.tm",
 		"pluginId": "io.terramate",
 		"pluginName": "Terramate"
@@ -22133,18 +21119,6 @@
 		"implementationName": "*.vsh",
 		"pluginId": "io.vlang",
 		"pluginName": "Vlang"
-	},
-	{
-		"bundled": false,
-		"implementationName": "v.mod",
-		"pluginId": "io.vlang",
-		"pluginName": "Vlang"
-	},
-	{
-		"bundled": false,
-		"implementationName": "xmake.lua",
-		"pluginId": "io.xmake",
-		"pluginName": "XMake"
 	},
 	{
 		"bundled": false,
@@ -22257,18 +21231,6 @@
 	{
 		"bundled": false,
 		"implementationName": "*.fsh",
-		"pluginId": "jetbrains-plugin-fss",
-		"pluginName": "FHIR and SUSHI Support"
-	},
-	{
-		"bundled": false,
-		"implementationName": "ig.ini",
-		"pluginId": "jetbrains-plugin-fss",
-		"pluginName": "FHIR and SUSHI Support"
-	},
-	{
-		"bundled": false,
-		"implementationName": "sushi-config.yaml",
 		"pluginId": "jetbrains-plugin-fss",
 		"pluginName": "FHIR and SUSHI Support"
 	},
@@ -22424,12 +21386,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "spel-extension.json",
-		"pluginId": "kim.nzxy.spel.kit",
-		"pluginName": "SpEL Assistant"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.mod",
 		"pluginId": "kn.uni.dbis.oberon.lang",
 		"pluginName": "Oberon"
@@ -22556,12 +21512,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "cjpm.lock",
-		"pluginId": "linqingying.cangjie",
-		"pluginName": "CangJie"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.jrxml",
 		"pluginId": "lk.chathurabuddi.jasper-report-supportn",
 		"pluginName": "Jasper Report Support"
@@ -22575,12 +21525,6 @@
 	{
 		"bundled": false,
 		"implementationName": "*.lsf",
-		"pluginId": "lsfusion.idea.plugin",
-		"pluginName": "lsFusion"
-	},
-	{
-		"bundled": false,
-		"implementationName": "migration.script",
 		"pluginId": "lsfusion.idea.plugin",
 		"pluginName": "lsFusion"
 	},
@@ -22754,12 +21698,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "cypress.config.js,cypress.config.ts,cypress.config.cjs",
-		"pluginId": "me.mbolotov.cypress",
-		"pluginName": "Cypresso"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.pony",
 		"pluginId": "me.piotrbuda.intellij.pony",
 		"pluginName": "Pony"
@@ -22767,30 +21705,6 @@
 	{
 		"bundled": false,
 		"implementationName": "*.unocss",
-		"pluginId": "me.rerere.unocss-intellij",
-		"pluginName": "Unocss"
-	},
-	{
-		"bundled": false,
-		"implementationName": "uno.config.js",
-		"pluginId": "me.rerere.unocss-intellij",
-		"pluginName": "Unocss"
-	},
-	{
-		"bundled": false,
-		"implementationName": "uno.config.ts",
-		"pluginId": "me.rerere.unocss-intellij",
-		"pluginName": "Unocss"
-	},
-	{
-		"bundled": false,
-		"implementationName": "unocss.config.js",
-		"pluginId": "me.rerere.unocss-intellij",
-		"pluginName": "Unocss"
-	},
-	{
-		"bundled": false,
-		"implementationName": "unocss.config.ts",
 		"pluginId": "me.rerere.unocss-intellij",
 		"pluginName": "Unocss"
 	},
@@ -23612,18 +22526,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "biblatex-dm.cfg",
-		"pluginId": "nl.rubensten.texifyidea",
-		"pluginName": "TeXiFy-IDEA"
-	},
-	{
-		"bundled": false,
-		"implementationName": "biblatex.cfg",
-		"pluginId": "nl.rubensten.texifyidea",
-		"pluginName": "TeXiFy-IDEA"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.nox",
 		"pluginId": "nox-lang",
 		"pluginName": "Nox Language"
@@ -23774,12 +22676,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "antora.yml",
-		"pluginId": "org.asciidoctor.intellij.asciidoc",
-		"pluginName": "AsciiDoc"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.mapper",
 		"pluginId": "org.aurora.engine",
 		"pluginName": "Aurora Engine"
@@ -23885,12 +22781,6 @@
 		"implementationName": "*.s",
 		"pluginId": "org.ca65",
 		"pluginName": "6502 Assembly"
-	},
-	{
-		"bundled": false,
-		"implementationName": "icarus.cfg",
-		"pluginId": "org.carlogtt.plugins.icarus",
-		"pluginName": "Icarus"
 	},
 	{
 		"bundled": false,
@@ -24972,12 +23862,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "go.mod",
-		"pluginId": "org.jboss.tools.intellij.analytics",
-		"pluginName": "Red Hat Dependency Analytics"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.snow",
 		"pluginId": "org.jcnc.snow-IntelliJ",
 		"pluginName": "Snow"
@@ -25194,19 +24078,7 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "multidex-config.txt",
-		"pluginId": "org.jetbrains.android",
-		"pluginName": "Android"
-	},
-	{
-		"bundled": false,
 		"implementationName": "proguard-*.txt",
-		"pluginId": "org.jetbrains.android",
-		"pluginName": "Android"
-	},
-	{
-		"bundled": false,
-		"implementationName": "proguard.cfg",
 		"pluginId": "org.jetbrains.android",
 		"pluginName": "Android"
 	},
@@ -25567,12 +24439,6 @@
 	{
 		"bundled": false,
 		"implementationName": "*.edn",
-		"pluginId": "org.jetbrains.idea.clojure",
-		"pluginName": "Clojure-Kit"
-	},
-	{
-		"bundled": false,
-		"implementationName": "build.boot",
 		"pluginId": "org.jetbrains.idea.clojure",
 		"pluginName": "Clojure-Kit"
 	},
@@ -27286,12 +26152,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "app.properties",
-		"pluginId": "org.noear.solon.idea.plugin",
-		"pluginName": "Solon"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.palm",
 		"pluginId": "org.openalgebra.OasisPALM",
 		"pluginName": "OasisPALM"
@@ -27497,18 +26357,6 @@
 	{
 		"bundled": false,
 		"implementationName": "*.sonarlint/*.json",
-		"pluginId": "org.sonarlint.idea",
-		"pluginName": "SonarQube for IDE"
-	},
-	{
-		"bundled": false,
-		"implementationName": "connectedMode.json",
-		"pluginId": "org.sonarlint.idea",
-		"pluginName": "SonarQube for IDE"
-	},
-	{
-		"bundled": false,
-		"implementationName": "sonar-project.properties",
 		"pluginId": "org.sonarlint.idea",
 		"pluginName": "SonarQube for IDE"
 	},
@@ -27724,12 +26572,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "v.mod",
-		"pluginId": "org.vlang",
-		"pluginName": "Vlang"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.vy",
 		"pluginId": "org.vyperlang.plugin.vyper-plugin",
 		"pluginName": "Vyper"
@@ -27755,12 +26597,6 @@
 	{
 		"bundled": false,
 		"implementationName": "*.wett",
-		"pluginId": "org.wetator.Wetator-IntelliJ-Plugin",
-		"pluginName": "Wetator"
-	},
-	{
-		"bundled": false,
-		"implementationName": "wetator.config",
 		"pluginId": "org.wetator.Wetator-IntelliJ-Plugin",
 		"pluginName": "Wetator"
 	},
@@ -27851,18 +26687,6 @@
 	{
 		"bundled": false,
 		"implementationName": "*.zul",
-		"pluginId": "org.zkoss.zkidea",
-		"pluginName": "ZK"
-	},
-	{
-		"bundled": false,
-		"implementationName": "lang-addon.xml",
-		"pluginId": "org.zkoss.zkidea",
-		"pluginName": "ZK"
-	},
-	{
-		"bundled": false,
-		"implementationName": "zk.xml",
 		"pluginId": "org.zkoss.zkidea",
 		"pluginName": "ZK"
 	},
@@ -28210,12 +27034,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "bsconfig.json",
-		"pluginId": "reasonml",
-		"pluginName": "ReasonML"
-	},
-	{
-		"bundled": false,
 		"implementationName": "dune",
 		"pluginId": "reasonml",
 		"pluginName": "ReasonML"
@@ -28229,12 +27047,6 @@
 	{
 		"bundled": false,
 		"implementationName": "jbuild",
-		"pluginId": "reasonml",
-		"pluginName": "ReasonML"
-	},
-	{
-		"bundled": false,
-		"implementationName": "rescript.json",
 		"pluginId": "reasonml",
 		"pluginName": "ReasonML"
 	},
@@ -28561,18 +27373,6 @@
 		"implementationName": "*.ss",
 		"pluginId": "servicestack-rider",
 		"pluginName": "ServiceStack"
-	},
-	{
-		"bundled": false,
-		"implementationName": "babfile.yaml",
-		"pluginId": "sh.bab.plugin",
-		"pluginName": "bab"
-	},
-	{
-		"bundled": false,
-		"implementationName": "babfile.yml",
-		"pluginId": "sh.bab.plugin",
-		"pluginName": "bab"
 	},
 	{
 		"bundled": false,
@@ -29033,12 +27833,6 @@
 	{
 		"bundled": false,
 		"implementationName": "ErrorLog_*.txt",
-		"pluginId": "uk.co.reecedunn.intellij.plugin.xquery",
-		"pluginName": "XQuery and XSLT"
-	},
-	{
-		"bundled": false,
-		"implementationName": "ErrorLog.txt",
 		"pluginId": "uk.co.reecedunn.intellij.plugin.xquery",
 		"pluginName": "XQuery and XSLT"
 	},
