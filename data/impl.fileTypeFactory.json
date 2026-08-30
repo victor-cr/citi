@@ -2405,12 +2405,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "PRCHECKLIST",
-		"pluginId": "checklistbuddy-intellij",
-		"pluginName": "Checklist Buddy"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.chester",
 		"pluginId": "chester",
 		"pluginName": "Chester"
@@ -16267,6 +16261,30 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.ddb",
+		"pluginId": "com.twilightventures.duckdblens",
+		"pluginName": "DuckDB Lens: DuckDB Database File Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.duckdb",
+		"pluginId": "com.twilightventures.duckdblens",
+		"pluginName": "DuckDB Lens: DuckDB Database File Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.jsonl.gz",
+		"pluginId": "com.twilightventures.jsonllens",
+		"pluginName": "JSONL Lens: JSON Lines / NDJSON Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.ndjson.gz",
+		"pluginId": "com.twilightventures.jsonllens",
+		"pluginName": "JSONL Lens: JSON Lines / NDJSON Viewer"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.arrow",
 		"pluginId": "com.twilightventures.parquetlens",
 		"pluginName": "Parquet Lens: Parquet, Arrow & Feather Dataset Viewer"
@@ -16312,6 +16330,36 @@
 		"implementationName": "*.pq",
 		"pluginId": "com.twilightventures.parquetlens",
 		"pluginName": "Parquet Lens: Parquet, Arrow & Feather Dataset Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.db3",
+		"pluginId": "com.twilightventures.sqlitelens",
+		"pluginName": "SQLite Lens: SQLite Database File Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.sqlite",
+		"pluginId": "com.twilightventures.sqlitelens",
+		"pluginName": "SQLite Lens: SQLite Database File Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.sqlite3",
+		"pluginId": "com.twilightventures.sqlitelens",
+		"pluginName": "SQLite Lens: SQLite Database File Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.xlsm",
+		"pluginId": "com.twilightventures.xlsxlens",
+		"pluginName": "XLSX Lens: Excel XLSX Spreadsheet Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.xlsx",
+		"pluginId": "com.twilightventures.xlsxlens",
+		"pluginName": "XLSX Lens: Excel XLSX Spreadsheet Viewer"
 	},
 	{
 		"bundled": false,
@@ -17837,6 +17885,12 @@
 		"implementationName": "*.asciidoc",
 		"pluginId": "dev.jetplugins.asciidocpro",
 		"pluginName": "AsciiDoc Pro"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.dbml",
+		"pluginId": "dev.jetplugins.dbml",
+		"pluginName": "DBML Pro"
 	},
 	{
 		"bundled": false,

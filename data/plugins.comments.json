@@ -32391,6 +32391,8 @@
 		}
 	],
 	"ai.codesetu.codesetu": [],
+	"ai.coralos.coralcode": [],
+	"ai.deepdraw.jetbrains": [],
 	"ai.dev.tools.cobol": [],
 	"ai.dev.tools.codeQL.codeQL": [],
 	"ai.dev.tools.recap.recap2": [
@@ -44752,6 +44754,7 @@
 	],
 	"cn.mafengwo.hubo": [],
 	"cn.manchesterlee.plugin.translator": [],
+	"cn.mckafei.grok-build": [],
 	"cn.memoryzy.json": [
 		{
 			"author": {
@@ -54323,6 +54326,7 @@
 	],
 	"com.akeyless.ara": [],
 	"com.akeyless.mcp": [],
+	"com.akio.lumina.theme": [],
 	"com.akovalenko.obsidian-toolbar": [],
 	"com.akrikun.saltstack": [
 		{
@@ -68736,6 +68740,7 @@
 	"com.chinaedu.aedu.plugin": [],
 	"com.chip.c2u": [],
 	"com.chiyou.messy.code.recovery": [],
+	"com.chonmb.xxl.link": [],
 	"com.chrisbinder.servicelinks": [],
 	"com.chriscarini.jetbrains.automatic-github-issue-navigation-configuration-jetbrains-plugin": [
 		{
@@ -69327,6 +69332,24 @@
 				"name": "Material Theme UI"
 			},
 			"rating": 3
+		}
+	],
+	"com.christiangennari.freeaicommitmessage": [
+		{
+			"author": {
+				"id": "72596e78-8013-4e4d-b57b-e7f063dc83ed",
+				"link": "/author/72596e78-8013-4e4d-b57b-e7f063dc83ed",
+				"name": "discovicke"
+			},
+			"cdate": "1787904534000",
+			"comment": "<p>I made changes to the project. I clicked the magic button. I didn't have to do the most boring thing in system development; writing the commit message.</p>\n",
+			"id": 143818,
+			"plugin": {
+				"id": 33870,
+				"link": "/plugin/33870-free-ai-commit-message",
+				"name": "Free AI Commit Message"
+			},
+			"rating": 5
 		}
 	],
 	"com.christianhelle.apiclientcodegen": [],
@@ -76131,6 +76154,7 @@
 			"rating": 0
 		}
 	],
+	"com.dallinjones.jetbrains.desert": [],
 	"com.damoguyansi.all-format": [
 		{
 			"author": {
@@ -78606,6 +78630,7 @@
 	"com.deepseek.dsh.ide": [],
 	"com.deepseek.dshstudio": [],
 	"com.deepseek.fim.plugin": [],
+	"com.deepseek.harness.idea": [],
 	"com.deepseek.plugin": [
 		{
 			"author": {
@@ -82094,6 +82119,7 @@
 	"com.drostwades.errorsound": [],
 	"com.drsiroukane.plugins.multirelativepath": [],
 	"com.dsh.maven-search": [],
+	"com.dshui.idea": [],
 	"com.dslplatform.ideaplugin": [],
 	"com.dsoftware.bruno": [],
 	"com.dsoftware.ghtoolbar": [
@@ -98562,6 +98588,7 @@
 			"rating": 5
 		}
 	],
+	"com.github.danielandersson.go-struct-to-json-intellij-plugin": [],
 	"com.github.danielcode2020.viewfilesize": [],
 	"com.github.danielwegener.cucumber-scala": [
 		{
@@ -107881,6 +107908,7 @@
 		}
 	],
 	"com.github.leiguoqing.database-column-comments": [],
+	"com.github.leiguoqing.database-tools-plus": [],
 	"com.github.lemick.hoverflyui-intellij-plugin": [
 		{
 			"author": {
@@ -129306,6 +129334,7 @@
 	"com.hedworth.milkj": [],
 	"com.hedworth.pathfinder": [],
 	"com.hedworth.redline": [],
+	"com.hedworth.seshlog": [],
 	"com.heifetz.grouped-projects": [],
 	"com.helchan.utcoder": [],
 	"com.helioncoder.jetbrains": [],
@@ -132592,6 +132621,7 @@
 		}
 	],
 	"com.hzm.act": [],
+	"com.i18ndoctor.jetbrains": [],
 	"com.i18ns.intellij.robot": [],
 	"com.iambedant.commentTranslator": [],
 	"com.iambipinpaul.gitworktreemanager": [],
@@ -132735,6 +132765,7 @@
 			"rating": 5
 		}
 	],
+	"com.icecoco.class-finder": [],
 	"com.ichong.pulgin.git": [
 		{
 			"author": {
@@ -134241,6 +134272,7 @@
 			"rating": 5
 		}
 	],
+	"com.inspyresoftworks.ti84evo": [],
 	"com.insyncwithfoo.pyright": [
 		{
 			"author": {
@@ -159024,6 +159056,7 @@
 	],
 	"com.jiec.cls.runner": [],
 	"com.jiec.ghc.github.auth": [],
+	"com.jiec.raise-gh-issue": [],
 	"com.jiec.scm.jumptosource": [],
 	"com.jin.translate": [],
 	"com.jincnashen.sky.plugin.id": [],
@@ -184535,6 +184568,7 @@
 		}
 	],
 	"com.pixellens.pixellens": [],
+	"com.piyushseth.errordebugger": [],
 	"com.pjialin.green-lite-theme": [
 		{
 			"author": {
@@ -191823,6 +191857,7 @@
 		}
 	],
 	"com.sdf.accountstatus": [],
+	"com.sdwvit.s2cfg": [],
 	"com.secret-bridge": [],
 	"com.secretsmasker": [
 		{
@@ -195991,6 +196026,7 @@
 	],
 	"com.souyidai.common.plugin.generators": [],
 	"com.sparkrunner.plugin": [],
+	"com.spavlov.globalnotes": [],
 	"com.speacode.video": [
 		{
 			"author": {
@@ -196386,6 +196422,7 @@
 			"rating": 5
 		}
 	],
+	"com.springnavigator": [],
 	"com.sqide.test": [],
 	"com.sqlandroid": [
 		{
@@ -205554,6 +205591,8 @@
 			"rating": 4
 		}
 	],
+	"com.twilightventures.duckdblens": [],
+	"com.twilightventures.heapdumplens": [],
 	"com.twilightventures.jsonllens": [],
 	"com.twilightventures.loglens": [],
 	"com.twilightventures.notebooklens": [],
@@ -211264,6 +211303,7 @@
 		}
 	],
 	"com.wave.jetbrains": [],
+	"com.wayen.code2prompt": [],
 	"com.wbars.php.folding": [
 		{
 			"author": {
@@ -230490,13 +230530,18 @@
 		}
 	],
 	"dev.gaphunter.ansiblecompanion": [],
+	"dev.gaphunter.apachehttpclientreusecompanion": [],
 	"dev.gaphunter.apideprecationheadercompanion": [],
 	"dev.gaphunter.apisecuritycompanion": [],
 	"dev.gaphunter.asyncapicompanion": [],
+	"dev.gaphunter.asyncselfinvocationcompanion": [],
 	"dev.gaphunter.awssdkclientreusecompanion": [],
 	"dev.gaphunter.beancopycompanion": [],
+	"dev.gaphunter.bindingresultpositioncompanion": [],
+	"dev.gaphunter.cassandracqlsessionreusecompanion": [],
 	"dev.gaphunter.certcompanion": [],
 	"dev.gaphunter.changecasecompanion": [],
+	"dev.gaphunter.changelogfragmentcompanion": [],
 	"dev.gaphunter.circulardependencycompanion": [],
 	"dev.gaphunter.cmakecompanion": [],
 	"dev.gaphunter.commitmessageconventioncompanion": [],
@@ -230506,22 +230551,29 @@
 	"dev.gaphunter.corspolicycompanion": [],
 	"dev.gaphunter.dockerfilelayersizecompanion": [],
 	"dev.gaphunter.dockerfileunusedstagecompanion": [],
+	"dev.gaphunter.elasticsearchclientreusecompanion": [],
 	"dev.gaphunter.envdiffcompanion": [],
 	"dev.gaphunter.envvarmissingcompanion": [],
 	"dev.gaphunter.errorlenscompanion": [],
 	"dev.gaphunter.featureflagreferencecompanion": [],
+	"dev.gaphunter.feignfallbackconfigcompanion": [],
 	"dev.gaphunter.firestorecompanion": [],
 	"dev.gaphunter.flakytestmarkercompanion": [],
 	"dev.gaphunter.formatconvertercompanion": [],
+	"dev.gaphunter.gcpclientreusecompanion": [],
 	"dev.gaphunter.githygienecompanion": [],
 	"dev.gaphunter.gitlabcicompanion": [],
+	"dev.gaphunter.gotimerleakcompanion": [],
+	"dev.gaphunter.gradletaskgraphcompanion": [],
 	"dev.gaphunter.graphqlcompanion": [],
 	"dev.gaphunter.grpcerrorstatuscompanion": [],
+	"dev.gaphunter.grpcstreamobservercontractcompanion": [],
 	"dev.gaphunter.highlightcompanion": [],
 	"dev.gaphunter.httpstatusinlinecompanion": [],
 	"dev.gaphunter.idempotencykeycompanion": [],
 	"dev.gaphunter.importcostcompanion": [],
 	"dev.gaphunter.jenkinsfilecompanion": [],
+	"dev.gaphunter.jsonpathbuildercompanion": [],
 	"dev.gaphunter.jsonschemacompanion": [],
 	"dev.gaphunter.jsontocodecompanion": [],
 	"dev.gaphunter.jwtcompanion": [],
@@ -230529,27 +230581,46 @@
 	"dev.gaphunter.k6companion": [],
 	"dev.gaphunter.k8sresourcelimitcompanion": [],
 	"dev.gaphunter.kafkaproducerreusecompanion": [],
+	"dev.gaphunter.kafkatopicschemacompanion": [],
+	"dev.gaphunter.ktorhttpclientreusecompanion": [],
 	"dev.gaphunter.logformatstringcompanion": [],
 	"dev.gaphunter.materialcompanion": [],
 	"dev.gaphunter.mergeconflictleftovercompanion": [],
 	"dev.gaphunter.mermaidcompanion": [],
+	"dev.gaphunter.micrometertimersamplecompanion": [],
+	"dev.gaphunter.micronauthttpclientcreatecompanion": [],
+	"dev.gaphunter.mongoclientreusecompanion": [],
 	"dev.gaphunter.nginxcompanion": [],
+	"dev.gaphunter.nplusonequerycompanion": [],
 	"dev.gaphunter.npmpeerdependencycompanion": [],
 	"dev.gaphunter.objectmapperreusecompanion": [],
 	"dev.gaphunter.okhttpclientreusecompanion": [],
 	"dev.gaphunter.openapicompanion": [],
 	"dev.gaphunter.otelspannamingcompanion": [],
 	"dev.gaphunter.phpcomposerscriptcompanion": [],
+	"dev.gaphunter.phpfileinclusioncompanion": [],
+	"dev.gaphunter.phpfunctioninjectioncompanion": [],
+	"dev.gaphunter.phpopenredirectcompanion": [],
+	"dev.gaphunter.phpshellinjectioncompanion": [],
+	"dev.gaphunter.phpsqlinjectioncompanion": [],
 	"dev.gaphunter.piifieldannotationcompanion": [],
 	"dev.gaphunter.postmanopenapidriftcompanion": [],
 	"dev.gaphunter.prometheusmetricnamingcompanion": [],
+	"dev.gaphunter.prometheusmetricregistrationcompanion": [],
+	"dev.gaphunter.rabbitmqchannelreusecompanion": [],
+	"dev.gaphunter.railsmassassignmentcompanion": [],
 	"dev.gaphunter.ratelimiterfallbackcompanion": [],
 	"dev.gaphunter.reactnativecompanion": [],
+	"dev.gaphunter.redissonclientreusecompanion": [],
 	"dev.gaphunter.refactorsimulator": [],
 	"dev.gaphunter.regexnamedgroupcompanion": [],
 	"dev.gaphunter.regexpreviewcompanion": [],
+	"dev.gaphunter.resilienceselfinvocationcompanion": [],
 	"dev.gaphunter.reviewcompanion": [],
 	"dev.gaphunter.rubygemfilegroupcompanion": [],
+	"dev.gaphunter.rubynethttpreusecompanion": [],
+	"dev.gaphunter.rubyshellinjectioncompanion": [],
+	"dev.gaphunter.rxjavadisposableleakcompanion": [],
 	"dev.gaphunter.semverbumpmismatchcompanion": [],
 	"dev.gaphunter.spreadsheetcompanion": [],
 	"dev.gaphunter.sqlconcatenationcompanion": [],
@@ -232096,6 +232167,7 @@
 			"rating": 0
 		}
 	],
+	"dev.localebreeze.jetbrains": [],
 	"dev.lonami.uniffi-dl": [
 		{
 			"author": {
@@ -232116,6 +232188,7 @@
 	],
 	"dev.lp4.HytaleModdingTool": [],
 	"dev.lspsenior": [],
+	"dev.lumenfx.lumen": [],
 	"dev.lyoo.beacon.terminal-navigator": [],
 	"dev.marginalis.plugin": [],
 	"dev.marko.safe-paste": [
@@ -238032,6 +238105,7 @@
 	],
 	"etp.gpb.marketplace.uxg.plugin.id": [],
 	"eu.andret.plugin.achievementsforintellij": [],
+	"eu.bcosp.vrl-intellij": [],
 	"eu.bolt.boltservertools": [
 		{
 			"author": {
@@ -243632,6 +243706,7 @@
 	],
 	"hu.meruem.meruem-generator-intellij": [],
 	"hu.rb.commentparser-intellij": [],
+	"hu.weboldalnet.project-switcher": [],
 	"hunspell": [
 		{
 			"author": {
@@ -254569,6 +254644,9 @@
 	"io.github.myangprint.motionflow": [],
 	"io.github.nahuel92.pit4u": [],
 	"io.github.nchaugen.tabletest": [],
+	"io.github.nerzhulart.markdown": [],
+	"io.github.nerzhulart.webview": [],
+	"io.github.nerzhulart.webview.markdown.preview": [],
 	"io.github.newhoo.bean-invoker": [
 		{
 			"author": {
@@ -259889,6 +259967,7 @@
 			"rating": 2
 		}
 	],
+	"io.temprhq.jetbrains": [],
 	"io.terminus.trantor.plugin": [
 		{
 			"author": {
@@ -279378,6 +279457,7 @@
 		}
 	],
 	"network.strong.remotessh": [],
+	"nickwong.markdown-browser-preview": [],
 	"night-blossom": [
 		{
 			"author": {
@@ -306928,6 +307008,7 @@
 		}
 	],
 	"org.tosini.label-manager-pro-idea": [],
+	"org.treasureboat.tools": [],
 	"org.turbanov.commits.message.checker": [
 		{
 			"author": {
@@ -316045,6 +316126,7 @@
 	"sexualreptilians.dragonprogress": [],
 	"sg.bigo.mobile.android.srouter": [],
 	"sh.bab.plugin": [],
+	"sh.ecko.lang": [],
 	"sh.qonqrete": [],
 	"sh.spinlock.idea.hackernews": [],
 	"sh.suiyun.chooseLicense": [],
@@ -320359,6 +320441,7 @@
 			"rating": 5
 		}
 	],
+	"top.harcochen.dsh": [],
 	"top.jinjin.css-module-goto": [
 		{
 			"author": {
