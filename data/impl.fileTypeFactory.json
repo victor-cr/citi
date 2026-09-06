@@ -3359,12 +3359,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "*.astro",
-		"pluginId": "com.astroproPlugin",
-		"pluginName": "Astro Pro"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.atomdu",
 		"pluginId": "com.atomdu.plugin",
 		"pluginName": "1024 Tools"
@@ -11622,7 +11616,7 @@
 		"bundled": false,
 		"implementationName": "*.jql",
 		"pluginId": "com.intellij.tasks",
-		"pluginName": "Task Management"
+		"pluginName": "Issue Trackers"
 	},
 	{
 		"bundled": true,
@@ -11635,7 +11629,7 @@
 		"bundled": false,
 		"implementationName": "*.youtrack",
 		"pluginId": "com.intellij.tasks",
-		"pluginName": "Task Management"
+		"pluginName": "Issue Trackers"
 	},
 	{
 		"bundled": true,
@@ -16273,6 +16267,24 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.hprof",
+		"pluginId": "com.twilightventures.heapdumplens",
+		"pluginName": "Heap Dump Lens: JVM Heap Dump, Thread Dump & GC Log Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.hprof.gz",
+		"pluginId": "com.twilightventures.heapdumplens",
+		"pluginName": "Heap Dump Lens: JVM Heap Dump, Thread Dump & GC Log Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.tdump",
+		"pluginId": "com.twilightventures.heapdumplens",
+		"pluginName": "Heap Dump Lens: JVM Heap Dump, Thread Dump & GC Log Viewer"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.jsonl.gz",
 		"pluginId": "com.twilightventures.jsonllens",
 		"pluginName": "JSONL Lens: JSON Lines / NDJSON Viewer"
@@ -16285,51 +16297,63 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.log.gz",
+		"pluginId": "com.twilightventures.loglens",
+		"pluginName": "Log Lens: Large & Structured Log Viewer (JSONL, logfmt, ANSI)"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.ipynb",
+		"pluginId": "com.twilightventures.notebooklens",
+		"pluginName": "Notebook Lens: Jupyter ipynb Viewer"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.arrow",
 		"pluginId": "com.twilightventures.parquetlens",
-		"pluginName": "Parquet Lens: Parquet, Arrow & Feather Dataset Viewer"
+		"pluginName": "Parquet Lens: Parquet, Avro, TFRecord, Arrow & Feather Viewer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.arrows",
 		"pluginId": "com.twilightventures.parquetlens",
-		"pluginName": "Parquet Lens: Parquet, Arrow & Feather Dataset Viewer"
+		"pluginName": "Parquet Lens: Parquet, Avro, TFRecord, Arrow & Feather Viewer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.feather",
 		"pluginId": "com.twilightventures.parquetlens",
-		"pluginName": "Parquet Lens: Parquet, Arrow & Feather Dataset Viewer"
+		"pluginName": "Parquet Lens: Parquet, Avro, TFRecord, Arrow & Feather Viewer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.ftr",
 		"pluginId": "com.twilightventures.parquetlens",
-		"pluginName": "Parquet Lens: Parquet, Arrow & Feather Dataset Viewer"
+		"pluginName": "Parquet Lens: Parquet, Avro, TFRecord, Arrow & Feather Viewer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.ipc",
 		"pluginId": "com.twilightventures.parquetlens",
-		"pluginName": "Parquet Lens: Parquet, Arrow & Feather Dataset Viewer"
+		"pluginName": "Parquet Lens: Parquet, Avro, TFRecord, Arrow & Feather Viewer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.parq",
 		"pluginId": "com.twilightventures.parquetlens",
-		"pluginName": "Parquet Lens: Parquet, Arrow & Feather Dataset Viewer"
+		"pluginName": "Parquet Lens: Parquet, Avro, TFRecord, Arrow & Feather Viewer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.parquet",
 		"pluginId": "com.twilightventures.parquetlens",
-		"pluginName": "Parquet Lens: Parquet, Arrow & Feather Dataset Viewer"
+		"pluginName": "Parquet Lens: Parquet, Avro, TFRecord, Arrow & Feather Viewer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.pq",
 		"pluginId": "com.twilightventures.parquetlens",
-		"pluginName": "Parquet Lens: Parquet, Arrow & Feather Dataset Viewer"
+		"pluginName": "Parquet Lens: Parquet, Avro, TFRecord, Arrow & Feather Viewer"
 	},
 	{
 		"bundled": false,
@@ -16635,139 +16659,139 @@
 		"bundled": false,
 		"implementationName": "*.bks",
 		"pluginId": "com.xkrypt.keyexplorer.basic",
-		"pluginName": "Key Explorer Lite"
+		"pluginName": "Key Explorer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.cer",
 		"pluginId": "com.xkrypt.keyexplorer.basic",
-		"pluginName": "Key Explorer Lite"
+		"pluginName": "Key Explorer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.cert",
 		"pluginId": "com.xkrypt.keyexplorer.basic",
-		"pluginName": "Key Explorer Lite"
+		"pluginName": "Key Explorer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.crl",
 		"pluginId": "com.xkrypt.keyexplorer.basic",
-		"pluginName": "Key Explorer Lite"
+		"pluginName": "Key Explorer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.crt",
 		"pluginId": "com.xkrypt.keyexplorer.basic",
-		"pluginName": "Key Explorer Lite"
+		"pluginName": "Key Explorer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.csr",
 		"pluginId": "com.xkrypt.keyexplorer.basic",
-		"pluginName": "Key Explorer Lite"
+		"pluginName": "Key Explorer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.der",
 		"pluginId": "com.xkrypt.keyexplorer.basic",
-		"pluginName": "Key Explorer Lite"
+		"pluginName": "Key Explorer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.jceks",
 		"pluginId": "com.xkrypt.keyexplorer.basic",
-		"pluginName": "Key Explorer Lite"
+		"pluginName": "Key Explorer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.jks",
 		"pluginId": "com.xkrypt.keyexplorer.basic",
-		"pluginName": "Key Explorer Lite"
+		"pluginName": "Key Explorer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.key",
 		"pluginId": "com.xkrypt.keyexplorer.basic",
-		"pluginName": "Key Explorer Lite"
+		"pluginName": "Key Explorer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.keystore",
 		"pluginId": "com.xkrypt.keyexplorer.basic",
-		"pluginName": "Key Explorer Lite"
+		"pluginName": "Key Explorer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.p12",
 		"pluginId": "com.xkrypt.keyexplorer.basic",
-		"pluginName": "Key Explorer Lite"
+		"pluginName": "Key Explorer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.p7b",
 		"pluginId": "com.xkrypt.keyexplorer.basic",
-		"pluginName": "Key Explorer Lite"
+		"pluginName": "Key Explorer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.p7c",
 		"pluginId": "com.xkrypt.keyexplorer.basic",
-		"pluginName": "Key Explorer Lite"
+		"pluginName": "Key Explorer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.pem",
 		"pluginId": "com.xkrypt.keyexplorer.basic",
-		"pluginName": "Key Explorer Lite"
+		"pluginName": "Key Explorer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.pfx",
 		"pluginId": "com.xkrypt.keyexplorer.basic",
-		"pluginName": "Key Explorer Lite"
+		"pluginName": "Key Explorer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.pk8",
 		"pluginId": "com.xkrypt.keyexplorer.basic",
-		"pluginName": "Key Explorer Lite"
+		"pluginName": "Key Explorer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.pkipath",
 		"pluginId": "com.xkrypt.keyexplorer.basic",
-		"pluginName": "Key Explorer Lite"
+		"pluginName": "Key Explorer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.pub",
 		"pluginId": "com.xkrypt.keyexplorer.basic",
-		"pluginName": "Key Explorer Lite"
+		"pluginName": "Key Explorer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.pvk",
 		"pluginId": "com.xkrypt.keyexplorer.basic",
-		"pluginName": "Key Explorer Lite"
+		"pluginName": "Key Explorer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.req",
 		"pluginId": "com.xkrypt.keyexplorer.basic",
-		"pluginName": "Key Explorer Lite"
+		"pluginName": "Key Explorer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.spc",
 		"pluginId": "com.xkrypt.keyexplorer.basic",
-		"pluginName": "Key Explorer Lite"
+		"pluginName": "Key Explorer"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.uber",
 		"pluginId": "com.xkrypt.keyexplorer.basic",
-		"pluginName": "Key Explorer Lite"
+		"pluginName": "Key Explorer"
 	},
 	{
 		"bundled": false,
@@ -17861,372 +17885,6 @@
 		"implementationName": "*.jsh",
 		"pluginId": "dev.jbang.intellij.JBangPlugin",
 		"pluginName": "JBang"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.ad",
-		"pluginId": "dev.jetplugins.asciidocpro",
-		"pluginName": "AsciiDoc Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.adoc",
-		"pluginId": "dev.jetplugins.asciidocpro",
-		"pluginName": "AsciiDoc Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.asc",
-		"pluginId": "dev.jetplugins.asciidocpro",
-		"pluginName": "AsciiDoc Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.asciidoc",
-		"pluginId": "dev.jetplugins.asciidocpro",
-		"pluginName": "AsciiDoc Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.dbml",
-		"pluginId": "dev.jetplugins.dbml",
-		"pluginName": "DBML Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.beam",
-		"pluginId": "dev.jetplugins.elixir",
-		"pluginName": "Elixir Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.beam.asm",
-		"pluginId": "dev.jetplugins.elixir",
-		"pluginName": "Elixir Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.eex",
-		"pluginId": "dev.jetplugins.elixir",
-		"pluginName": "Elixir Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.ex",
-		"pluginId": "dev.jetplugins.elixir",
-		"pluginName": "Elixir Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.exs",
-		"pluginId": "dev.jetplugins.elixir",
-		"pluginName": "Elixir Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.heex",
-		"pluginId": "dev.jetplugins.elixir",
-		"pluginName": "Elixir Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.leex",
-		"pluginId": "dev.jetplugins.elixir",
-		"pluginName": "Elixir Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.avif",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.bw",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.cur",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.dcx",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.dds",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.hdr",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.heic",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.heif",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.icns",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.ico",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.iff",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.jfif",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.jxl",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.lbm",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.pam",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.pbm",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.pcx",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.pfm",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.pgm",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.pict",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.pntg",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.ppm",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.psb",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.psd",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.rgb",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.rgba",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.rgbe",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.sgi",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.tga",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.tpic",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.xwd",
-		"pluginId": "dev.jetplugins.imageeditpro",
-		"pluginName": "ImageEdit Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.bib",
-		"pluginId": "dev.jetplugins.latex",
-		"pluginName": "LaTeX Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.cls",
-		"pluginId": "dev.jetplugins.latex",
-		"pluginName": "LaTeX Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.ltx",
-		"pluginId": "dev.jetplugins.latex",
-		"pluginName": "LaTeX Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.sty",
-		"pluginId": "dev.jetplugins.latex",
-		"pluginName": "LaTeX Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.tex",
-		"pluginId": "dev.jetplugins.latex",
-		"pluginName": "LaTeX Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.mdx",
-		"pluginId": "dev.jetplugins.markdown",
-		"pluginName": "Markdown Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.mojo",
-		"pluginId": "dev.jetplugins.mojo",
-		"pluginName": "Mojo Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.nix",
-		"pluginId": "dev.jetplugins.nix-pro",
-		"pluginName": "Nix Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": ".nuxtignore",
-		"pluginId": "dev.jetplugins.nuxt",
-		"pluginName": "Nuxt Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": ".nuxtrc",
-		"pluginId": "dev.jetplugins.nuxt",
-		"pluginName": "Nuxt Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.pro",
-		"pluginId": "dev.jetplugins.obfuscation-pro",
-		"pluginName": "Obfuscation Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.rest",
-		"pluginId": "dev.jetplugins.rstpro",
-		"pluginName": "reStructuredText Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.rst",
-		"pluginId": "dev.jetplugins.rstpro",
-		"pluginName": "reStructuredText Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.slint",
-		"pluginId": "dev.jetplugins.slint",
-		"pluginName": "Slint Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.sol",
-		"pluginId": "dev.jetplugins.solidity",
-		"pluginName": "Solidity Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.yul",
-		"pluginId": "dev.jetplugins.solidity",
-		"pluginName": "Solidity Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.typ",
-		"pluginId": "dev.jetplugins.typst",
-		"pluginName": "Scribe Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.vue",
-		"pluginId": "dev.jetplugins.vuejs",
-		"pluginName": "Vue.js Pro"
 	},
 	{
 		"bundled": false,
@@ -20249,6 +19907,12 @@
 		"implementationName": "*.xwf",
 		"pluginId": "io.entropy.idea.plugin",
 		"pluginName": "Nop Entropy"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.go",
+		"pluginId": "io.genai.go",
+		"pluginName": "Go Portable"
 	},
 	{
 		"bundled": false,

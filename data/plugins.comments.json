@@ -32393,6 +32393,7 @@
 	"ai.codesetu.codesetu": [],
 	"ai.coralos.coralcode": [],
 	"ai.deepdraw.jetbrains": [],
+	"ai.deepseek.harness.ide-plugin": [],
 	"ai.dev.tools.cobol": [],
 	"ai.dev.tools.codeQL.codeQL": [],
 	"ai.dev.tools.recap.recap2": [
@@ -32811,6 +32812,7 @@
 	"ai.kluster.instant-review": [],
 	"ai.localkeep.jetbrains": [],
 	"ai.maru.connector": [],
+	"ai.mozark.optics-framework-lsp": [],
 	"ai.opencode.ide.jetbrains": [
 		{
 			"author": {
@@ -37869,6 +37871,24 @@
 				"name": "Recent Projects Organizer"
 			},
 			"rating": 0
+		}
+	],
+	"be.dalfarra.avifviewer": [
+		{
+			"author": {
+				"id": "3a5cdd1f-5738-41a4-8b0f-78099ba38684",
+				"link": "/author/3a5cdd1f-5738-41a4-8b0f-78099ba38684",
+				"name": "Ouisti Dalkinbou"
+			},
+			"cdate": "1788502387000",
+			"comment": "<p>Working fine on My IntelliJ 2026 and my Android Studio Quail</p>\n",
+			"id": 144029,
+			"plugin": {
+				"id": 33976,
+				"link": "/plugin/33976-avif-viewer",
+				"name": "AVIF Viewer"
+			},
+			"rating": 5
 		}
 	],
 	"be.jbeckers.compare_tab_with_editor2": [
@@ -52139,6 +52159,7 @@
 			"rating": 0
 		}
 	],
+	"com.aboat365.monitor": [],
 	"com.abodx.stringer.Stringer_X": [
 		{
 			"author": {
@@ -56060,6 +56081,8 @@
 		}
 	],
 	"com.alicankorkmaz.stringresfinder": [],
+	"com.alicejump.oklanghints": [],
+	"com.alicejump.okscripttoolkit": [],
 	"com.alifnaufal.celadon-theme": [],
 	"com.alipay.sofa.koupleless.kouplelessIDE": [],
 	"com.alisacorporation.filecopy": [
@@ -67200,6 +67223,7 @@
 			"rating": 0
 		}
 	],
+	"com.callerview.plugin": [],
 	"com.callscape.plugin": [],
 	"com.calo.open-iterated-files": [],
 	"com.calpano.ddot": [
@@ -72234,6 +72258,7 @@
 	"com.codebasenotes.jetbrains": [],
 	"com.codebay.intellij-plugin": [],
 	"com.codebecause.jetbrains": [],
+	"com.codebinddocs.plugin": [],
 	"com.codebodhi.api-explorer": [],
 	"com.codebodhi.mockgen": [],
 	"com.codecleaner": [],
@@ -72845,6 +72870,7 @@
 			"rating": 0
 		}
 	],
+	"com.codemagic.accessibility-inspector": [],
 	"com.codemind": [],
 	"com.codeminds.jqExpress": [
 		{
@@ -80259,6 +80285,7 @@
 			"rating": 5
 		}
 	],
+	"com.devtoolkit.scratchpad": [],
 	"com.devwook.copy_path_helper": [
 		{
 			"author": {
@@ -81463,6 +81490,7 @@
 	"com.docblockai.docblock-ai": [],
 	"com.doctor.ProjectEnvDoctor": [],
 	"com.docugenius.pyarchinit.documentation": [],
+	"com.docviewkit.omni": [],
 	"com.dodecahedron.plugin": [
 		{
 			"author": {
@@ -84998,6 +85026,7 @@
 			"rating": 4
 		}
 	],
+	"com.esviza.getOffReaderMode": [],
 	"com.etrx.codereviewer": [],
 	"com.eugenePetrenko.idea.dependencies": [
 		{
@@ -86529,6 +86558,7 @@
 			"rating": 5
 		}
 	],
+	"com.farranfox.pax.theme": [],
 	"com.fastclean.generator": [],
 	"com.fatboy.ai.agent.fatbot": [],
 	"com.fc.plugin.fc-commit-validator": [],
@@ -88759,6 +88789,7 @@
 	],
 	"com.frappeinspector.jetbrains": [],
 	"com.fred.shen.allbymyself": [],
+	"com.freemarkerplus": [],
 	"com.freer.naysayer88": [
 		{
 			"author": {
@@ -90099,6 +90130,7 @@
 	"com.garage.works.xpathValidator": [],
 	"com.gdme.plugins.webpulseforecast": [],
 	"com.gear2w.claude-config": [],
+	"com.geckodynamics.mcp-file-sync": [],
 	"com.gem.gdis.disl-run": [],
 	"com.gendtest.ai": [],
 	"com.generiscorp.cara-script-plugin": [],
@@ -90579,6 +90611,7 @@
 	"com.gerry.keymap": [],
 	"com.getarchlens": [],
 	"com.getpagespeed.gixy": [],
+	"com.getrollupapps.trinoathena": [],
 	"com.gfh.apimate": [],
 	"com.gg.plugins.clipboardtoselectiondiff": [],
 	"com.gg.plugins.smartignoregenerator": [],
@@ -91740,6 +91773,7 @@
 			"rating": 4
 		}
 	],
+	"com.github.aireference.copier": [],
 	"com.github.airsaid.androidlocalize": [
 		{
 			"author": {
@@ -92576,6 +92610,7 @@
 		}
 	],
 	"com.github.artem.pageobjectplugin": [],
+	"com.github.artemkacreate.optimusplugin": [],
 	"com.github.artsiomch.JReader": [],
 	"com.github.arturkovalchuk.intellijplatformpluginopenincursor": [],
 	"com.github.arturkovalchuk.intellijplatformpluginopeninzed": [],
@@ -98426,6 +98461,7 @@
 			"rating": 5
 		}
 	],
+	"com.github.cpardi.markdowncodereview": [],
 	"com.github.cplexopl.opl-support": [
 		{
 			"author": {
@@ -100843,6 +100879,7 @@
 	"com.github.ekinof.blockchaintools": [],
 	"com.github.ekvedaras.classfactoryphpstorm": [],
 	"com.github.eladrimonos.jasprintellij": [],
+	"com.github.eldritch-theme.jetbrains": [],
 	"com.github.elyspio.swaggercodegen": [
 		{
 			"author": {
@@ -112219,7 +112256,90 @@
 			"rating": 5
 		}
 	],
+	"com.github.nizienko.notes": [
+		{
+			"author": {
+				"id": "019aca88-2285-4a09-bf2b-e2440d2bbab1",
+				"link": "/author/019aca88-2285-4a09-bf2b-e2440d2bbab1",
+				"name": "Maty\u00e1\u0161 Moudr\u00fd"
+			},
+			"cdate": "1767035828000",
+			"comment": "<p>At first its fine, but after you create your note, and reopen the project you cannot update the note, I can see the note, but cannot delete the text or write anything new. Due to this bug i had to replace the plugin.</p>\n",
+			"id": 131939,
+			"plugin": {
+				"id": 25734,
+				"link": "/plugin/25734-noteninja",
+				"name": "NoteNinja"
+			},
+			"rating": 2
+		},
+		{
+			"author": {
+				"id": "11c7045e-cfa4-4103-a7a0-886fbacf76f2",
+				"link": "/author/11c7045e-cfa4-4103-a7a0-886fbacf76f2",
+				"name": "dobrotnayaaa"
+			},
+			"cdate": "1748035222000",
+			"comment": "<p>Excellent! It's just a pity that you can't insert images and links to third-party sites</p>\n",
+			"id": 118266,
+			"plugin": {
+				"id": 25734,
+				"link": "/plugin/25734-noteninja",
+				"name": "NoteNinja"
+			},
+			"rating": 4
+		},
+		{
+			"author": {
+				"id": "f21addc9-c77e-4e60-84f4-d9eadc84549f",
+				"link": "/author/f21addc9-c77e-4e60-84f4-d9eadc84549f",
+				"name": "Hugo Villanueva Jim\u00e9nez"
+			},
+			"cdate": "1747951376000",
+			"comment": "<p>This is exactly what I\u2019ve been looking for. Thank you so much! I truly appreciate it.</p>\n",
+			"id": 118193,
+			"plugin": {
+				"id": 25734,
+				"link": "/plugin/25734-noteninja",
+				"name": "NoteNinja"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "035940d2-81e2-437b-a714-4f058941a91f",
+				"link": "/author/035940d2-81e2-437b-a714-4f058941a91f",
+				"name": "Ahmad Abdulmajid"
+			},
+			"cdate": "1744038835000",
+			"comment": "<p>Thanks A lot, it useful plugin.</p>\n",
+			"id": 115288,
+			"plugin": {
+				"id": 25734,
+				"link": "/plugin/25734-noteninja",
+				"name": "NoteNinja"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "d0f89dd7-bf4a-4d28-87a4-ef8ac9aa588e",
+				"link": "/author/d0f89dd7-bf4a-4d28-87a4-ef8ac9aa588e",
+				"name": "Aleksandr L"
+			},
+			"cdate": "1740751853000",
+			"comment": "<p>\u0421\u0443\u043f\u0435\u0440!</p>\n<p>\u041e\u0442\u043b\u0438\u0447\u043d\u044b\u0435 \u043b\u0435\u0433\u043a\u0438\u0435 \u0437\u0430\u043c\u0435\u0442\u043a\u0438, \u0432\u044b\u0433\u043b\u044f\u0434\u0438\u0442 \u0432\u0435\u0441\u044c\u043c\u0430 \u043d\u0430\u0442\u0438\u0432\u043d\u043e.</p>\n<p>\u041f\u0440\u0438 \u043f\u0435\u0440\u0432\u043e\u043c \u0437\u0430\u043f\u0443\u0441\u043a\u0435 - \u043f\u043b\u0430\u0433\u0438\u043d \u0443\u043f\u0430\u043b, \u043e\u0448\u0438\u0431\u043a\u0443 \u043e\u0442\u043f\u0440\u0430\u0432\u0438\u0442\u044c \u043d\u0435 \u0441\u043c\u043e\u0433, \u0442\u0430\u043a \u043a\u0430\u043a \u043d\u0435 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e \u0431\u044b\u043b\u043e \u0447\u0442\u043e-\u0442\u043e \u043d\u0430\u043f\u0438\u0441\u0430\u0442\u044c.</p>\n",
+			"id": 113210,
+			"plugin": {
+				"id": 25734,
+				"link": "/plugin/25734-noteninja",
+				"name": "NoteNinja"
+			},
+			"rating": 5
+		}
+	],
 	"com.github.nizienko.weather-widget": [],
+	"com.github.nndwn.todoso": [],
 	"com.github.nonoxys.kmpmodulegenerator": [],
 	"com.github.novotnyr.consul-intellij-plugin": [
 		{
@@ -115455,6 +115575,72 @@
 			"rating": 4
 		}
 	],
+	"com.github.rishabjaiswal.dartassetmanager": [
+		{
+			"author": {
+				"id": "683bae83-195a-44e8-999a-7d6b049f6160",
+				"link": "/author/683bae83-195a-44e8-999a-7d6b049f6160",
+				"name": "Eeb lu"
+			},
+			"cdate": "1774599671000",
+			"comment": "<p>The Android Studio Panda 2 | 2025.3.2 is not supported\uff0cIncompatible: requires IDE build 251.* or earlier</p>\n",
+			"id": 136927,
+			"plugin": {
+				"id": 25678,
+				"link": "/plugin/25678-flutter-asset-studio",
+				"name": "Flutter Asset Studio"
+			},
+			"rating": 4
+		},
+		{
+			"author": {
+				"id": "bfe45ec1-1995-4c98-b002-2d0fe8ffd423",
+				"link": "/author/bfe45ec1-1995-4c98-b002-2d0fe8ffd423",
+				"name": "ayman atef"
+			},
+			"cdate": "1750176352000",
+			"comment": "<p>nice plugin but svg not display keep writing loading</p>\n",
+			"id": 119493,
+			"plugin": {
+				"id": 25678,
+				"link": "/plugin/25678-flutter-asset-studio",
+				"name": "Flutter Asset Studio"
+			},
+			"rating": 4
+		},
+		{
+			"author": {
+				"id": "df6f2e43-7f52-42f7-aed5-431de6626ce8",
+				"link": "/author/df6f2e43-7f52-42f7-aed5-431de6626ce8",
+				"name": "Ayman Atef"
+			},
+			"cdate": "1736075986000",
+			"comment": "<p>nice plugin but can you add the copy button to get the path from</p>\n",
+			"id": 110744,
+			"plugin": {
+				"id": 25678,
+				"link": "/plugin/25678-flutter-asset-studio",
+				"name": "Flutter Asset Studio"
+			},
+			"rating": 4
+		},
+		{
+			"author": {
+				"id": "e520ea6e-1df4-4c78-a1d2-974b85b82f87",
+				"link": "/author/e520ea6e-1df4-4c78-a1d2-974b85b82f87",
+				"name": "Anirudh Singh"
+			},
+			"cdate": "1731647389000",
+			"comment": "<p>Nice plugin</p>\n",
+			"id": 108588,
+			"plugin": {
+				"id": 25678,
+				"link": "/plugin/25678-flutter-asset-studio",
+				"name": "Flutter Asset Studio"
+			},
+			"rating": 5
+		}
+	],
 	"com.github.rmatafonov.cucumber-scenarios-indexer": [],
 	"com.github.rmehri01.onenord": [
 		{
@@ -118493,6 +118679,7 @@
 		}
 	],
 	"com.github.tgm.tab-group-manager": [],
+	"com.github.thanhmila.plugin.springlens": [],
 	"com.github.theapache64.rebuggerplugin": [
 		{
 			"author": {
@@ -119244,6 +119431,7 @@
 		}
 	],
 	"com.github.trannghia.seqdiag": [],
+	"com.github.trethore.copyproblems": [],
 	"com.github.trex.raven.iceblue": [
 		{
 			"author": {
@@ -122999,6 +123187,7 @@
 		}
 	],
 	"com.github.yayolande.go-template-lsp": [],
+	"com.github.yc556.treeinfotip": [],
 	"com.github.ycyz.starrocks.support": [
 		{
 			"author": {
@@ -123511,6 +123700,7 @@
 			"rating": 4
 		}
 	],
+	"com.github.yufuchang.go-project-starter": [],
 	"com.github.yunabraska.githubworkflowplugin": [
 		{
 			"author": {
@@ -123972,6 +124162,7 @@
 	"com.github.yxtay2324.fah": [],
 	"com.github.zacharygurion.customhighlights.CustomHighlights": [],
 	"com.github.zacharygurion.loamstone": [],
+	"com.github.zarechenskiy.widthseparator": [],
 	"com.github.zarkob.code2prompt": [
 		{
 			"author": {
@@ -127907,6 +128098,7 @@
 	"com.haiwen.pdevcs": [],
 	"com.haizy.mermaid.editor.pro": [],
 	"com.hakalab.karate-dojo": [],
+	"com.halotukozak.alpaca.plugin": [],
 	"com.hamalawy.Ayah": [
 		{
 			"author": {
@@ -128578,6 +128770,7 @@
 	],
 	"com.happyu.happyu": [],
 	"com.hardy.JsonTool": [],
+	"com.harmonybot.ide.deveco": [],
 	"com.hasintech.intellij.angularTemplates": [
 		{
 			"author": {
@@ -133377,6 +133570,7 @@
 	"com.ihomecoder.win": [],
 	"com.ihorkozar.fvmfluttertoolkit": [],
 	"com.iiyeung.plugin.zentao": [],
+	"com.ilkimgul.vpsgraph": [],
 	"com.illuminatedcloud2.intellij": [
 		{
 			"author": {
@@ -149416,6 +149610,7 @@
 		}
 	],
 	"com.jadi": [],
+	"com.jadtraboulsi.copyforllm": [],
 	"com.jaeger.findviewbyme": [
 		{
 			"author": {
@@ -159700,6 +159895,7 @@
 		}
 	],
 	"com.jiyuren.adb": [],
+	"com.jlanzarotta.gruvbox.islands": [],
 	"com.jlh.enumgenerator": [],
 	"com.jlh.plugin.idea.mybatis.generator": [
 		{
@@ -160813,6 +161009,7 @@
 			"rating": 3
 		}
 	],
+	"com.judgee.markdownposter": [],
 	"com.julienphalip.ideavim.functiontextobj": [
 		{
 			"author": {
@@ -162533,6 +162730,7 @@
 		}
 	],
 	"com.kensington.plugin": [],
+	"com.kentonlabs.pairpilot": [],
 	"com.kevin.JsonConvert": [],
 	"com.kevinlinxp.sublimeSnippetsSupport": [],
 	"com.kevinshu.retrofit2.plugins": [],
@@ -166155,6 +166353,7 @@
 			"rating": 4
 		}
 	],
+	"com.layxy.easyaicommit.jetbrains": [],
 	"com.lazvaal.gradleglimpse": [],
 	"com.lcl100.": [
 		{
@@ -167783,6 +167982,7 @@
 			"rating": 5
 		}
 	],
+	"com.lihanghang.whatisthis": [],
 	"com.lihtdev.lingxicode": [],
 	"com.lijiahaosummer.nccdev": [],
 	"com.likco.scopeview": [],
@@ -168696,6 +168896,7 @@
 	"com.localyze.plugin": [],
 	"com.lofcz.intellij-visual-studio-code-dark-minus": [],
 	"com.logi.logi-actions": [],
+	"com.logicalfolders": [],
 	"com.logify.Logify": [
 		{
 			"author": {
@@ -170961,6 +171162,7 @@
 			"rating": 1
 		}
 	],
+	"com.makeidegrayagain": [],
 	"com.maker.dto-maker": [],
 	"com.makinda.icons": [],
 	"com.makindajack.makinda-themes": [],
@@ -181203,6 +181405,7 @@
 		}
 	],
 	"com.nodesagency.plugin.nstack_translation_folding": [],
+	"com.nodespark.node-spark": [],
 	"com.noisebomb.cloudflared-runner": [],
 	"com.noisebomb.sqlalchemy.tools": [
 		{
@@ -182400,6 +182603,7 @@
 	],
 	"com.one-pauintxi-theme.marcosramos87.intellijonepauintxitheme": [],
 	"com.onekore.quickbox": [],
+	"com.onlinealarmkur.idea": [],
 	"com.onurkat.reclazz": [
 		{
 			"author": {
@@ -183145,6 +183349,7 @@
 	],
 	"com.patrickhanna.warrant": [],
 	"com.patrickserrano.pyrokai": [],
+	"com.patrikmeixner.canopy": [],
 	"com.paulbaker.localize-plugin": [],
 	"com.pavel.cpideaplugin": [],
 	"com.pawrequest.redscript": [],
@@ -183314,6 +183519,24 @@
 	],
 	"com.peco2282.browserx.BrowserX": [],
 	"com.pedrohrferreira.rodsThemes": [],
+	"com.pedrollanca.loveframeworksupport": [
+		{
+			"author": {
+				"id": "7eddc0b8-7640-4cd5-8eea-e77ad95e7155",
+				"link": "/author/7eddc0b8-7640-4cd5-8eea-e77ad95e7155",
+				"name": "Matthew Johnston"
+			},
+			"cdate": "1755262320000",
+			"comment": "<p>Great plugin for developing games in Lua/Love!</p>\n",
+			"id": 123179,
+			"plugin": {
+				"id": 26200,
+				"link": "/plugin/26200-love-framework-support",
+				"name": "Love Framework Support"
+			},
+			"rating": 5
+		}
+	],
 	"com.pengfei.li.gitredminejump": [
 		{
 			"author": {
@@ -186958,6 +187181,8 @@
 	"com.qiansitu": [],
 	"com.qianxunc.hzero-ui": [],
 	"com.qingci.lazy": [],
+	"com.qinghao.exportfile": [],
+	"com.qinghao.hunt": [],
 	"com.qiyu.dbdoc.generator.id": [],
 	"com.qiyun.eagleaudit": [],
 	"com.qiyun.plugin.MavenHelperPro": [
@@ -191310,6 +191535,7 @@
 			"rating": 1
 		}
 	],
+	"com.sangeeth.tasklens": [],
 	"com.sankuai.idekit.starter": [],
 	"com.sankuai.meituan": [],
 	"com.sannniou.multiitem.plugin.templates": [],
@@ -195527,6 +195753,7 @@
 	"com.sohocn.kebabCase": [],
 	"com.sohocn.serialVersionUid": [],
 	"com.sohocn.thisifier": [],
+	"com.solar.plugin.pycharmsolar": [],
 	"com.solmano.datagen": [],
 	"com.solvesall.ledgerplugin": [
 		{
@@ -195578,6 +195805,7 @@
 			"rating": 4
 		}
 	],
+	"com.someblackmagic.kitchenci": [],
 	"com.someblackmagic.saltstack": [
 		{
 			"author": {
@@ -196400,6 +196628,7 @@
 			"rating": 5
 		}
 	],
+	"com.sphior.code": [],
 	"com.spmisha134.skillops": [],
 	"com.spotify.scio-idea": [],
 	"com.sprigbyte.canopy": [],
@@ -207966,6 +208195,72 @@
 		}
 	],
 	"com.vector.cfg.dvcfg-intellij": [],
+	"com.vednovak.devops": [
+		{
+			"author": {
+				"id": "38b9fa5c-8a8a-46c9-b6d9-4af1a61d3ec8",
+				"link": "/author/38b9fa5c-8a8a-46c9-b6d9-4af1a61d3ec8",
+				"name": "An\u0111ela Tunji\u0107"
+			},
+			"cdate": "1788528410000",
+			"comment": "<p>Works great! Easy to use, reliable, and does exactly what I need. Overall, a great plugin.</p>\n",
+			"id": 144047,
+			"plugin": {
+				"id": 33734,
+				"link": "/plugin/33734-devops-lens",
+				"name": "DevOps Lens"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "3d0d44c3-696c-4ee5-a3f2-32e1e661b9d6",
+				"link": "/author/3d0d44c3-696c-4ee5-a3f2-32e1e661b9d6",
+				"name": "Lovro Klobucaric"
+			},
+			"cdate": "1788510037000",
+			"comment": "<p>Great plugin! The memory blueprint is especially well designed and works much better than some other solutions I've tried, especially since it is free currently. Very useful and well thought out overall.</p>\n",
+			"id": 144037,
+			"plugin": {
+				"id": 33734,
+				"link": "/plugin/33734-devops-lens",
+				"name": "DevOps Lens"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "e23730dc-e011-4838-ba7d-4f4988b7125a",
+				"link": "/author/e23730dc-e011-4838-ba7d-4f4988b7125a",
+				"name": "Megi Markovinovic"
+			},
+			"cdate": "1788508544000",
+			"comment": "<p>Plugin works great!</p>\n",
+			"id": 144034,
+			"plugin": {
+				"id": 33734,
+				"link": "/plugin/33734-devops-lens",
+				"name": "DevOps Lens"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "a36da647-97e1-4634-91b8-141797a92148",
+				"link": "/author/a36da647-97e1-4634-91b8-141797a92148",
+				"name": "jonathan gafner"
+			},
+			"cdate": "1788445388000",
+			"comment": "<p>Vedran Novak - wow were did you get all those nice ideas from? the dashboards for pr and pipelines are a great idea, the AI review and the settings order are unique, and you did everything without looking into AZD code at all!! bravo you know how to copy other works properly.</p>\n<p>Even the chapters in the docs and in the privacy policy were copied.</p>\n<p>P.S. \u2013 Don't try to change now, I have already taken screenshots and sent them to the marketplace team.</p>\n<p>P.S.2 \u2013 Strongly suggest that next time to come with your own ideas, it is a bit harder, but in the end it is much more satisfying</p>\n",
+			"id": 144014,
+			"plugin": {
+				"id": 33734,
+				"link": "/plugin/33734-devops-lens",
+				"name": "DevOps Lens"
+			},
+			"rating": 1
+		}
+	],
 	"com.veeva.vault.toolbox": [],
 	"com.veezean.idea.plugin.codereviewer": [
 		{
@@ -208081,6 +208376,7 @@
 			"rating": 5
 		}
 	],
+	"com.ver.branch.tool": [],
 	"com.veracode.greenlight.intellij.plugin.id": [
 		{
 			"author": {
@@ -210500,6 +210796,24 @@
 	"com.vnsapp.kodesorter": [],
 	"com.voidmuse.idea.plugin.VoidMuse": [],
 	"com.volitic.plugin.ngdartfolding": [],
+	"com.vorih.jinja2plugin": [
+		{
+			"author": {
+				"id": "fd340c85-e85c-4010-8ea7-59ee153a6081",
+				"link": "/author/fd340c85-e85c-4010-8ea7-59ee153a6081",
+				"name": "Domagoj Pernar"
+			},
+			"cdate": "1788339058000",
+			"comment": "<p>Very pleasant experience, working really nice, finally an excellent jinja2 plugin!</p>\n",
+			"id": 143972,
+			"plugin": {
+				"id": 33916,
+				"link": "/plugin/33916-jinja2",
+				"name": "Jinja2"
+			},
+			"rating": 5
+		}
+	],
 	"com.voxelbuster.DiffRename": [],
 	"com.vqlai.nexchat": [
 		{
@@ -211215,6 +211529,7 @@
 	"com.wangchongyang.favoriteclasses": [],
 	"com.wangfugui.TimeTransfe": [],
 	"com.wangjin.Generate.EolinkerDoc": [],
+	"com.wangningtao.editorjumper": [],
 	"com.wangxiaoguang.sageminttheme": [],
 	"com.wangxilhy.WxBackImage": [
 		{
@@ -217956,6 +218271,7 @@
 	"com.zuhaibzahid.columns": [],
 	"com.zuhaibzahid.logs": [],
 	"com.zuhaibzahid.sheets": [],
+	"com.zuhaibzahid.tables": [],
 	"com.zukotuutori.bracketcolorizer": [],
 	"com.zukotuutori.mavenassist": [
 		{
@@ -217991,6 +218307,7 @@
 			"rating": 5
 		}
 	],
+	"com.zuozhi.ideaannotation": [],
 	"com.zusby.zkplugin.binding": [],
 	"com.zw.beanConverter": [],
 	"com.zx.unique.plugin.id": [],
@@ -224306,6 +224623,7 @@
 	],
 	"de.martin3398.ideapsalmbaseline": [],
 	"de.mehtrick.bjoern-intellij-plugin": [],
+	"de.mirkohaaser.claude-chappe": [],
 	"de.ml.argocd.gitops-cockpit": [
 		{
 			"author": {
@@ -226658,6 +226976,7 @@
 	],
 	"de.soptim.opencgmes.cimnotebook": [],
 	"de.sparkteams.kasama": [],
+	"de.splatgames.aether.weaver": [],
 	"de.suprexdev.subwaycoders": [],
 	"de.tfr.idea.plugins.i18n-formatter": [
 		{
@@ -228404,6 +228723,7 @@
 	"dev.bachelder.opencensus_php_extension_support": [],
 	"dev.balakumar.quickterminal": [],
 	"dev.balakumar.worktreemanager": [],
+	"dev.batchsupport.batch-support": [],
 	"dev.benjaminor.fluentquery": [],
 	"dev.birju.pierre-themes": [],
 	"dev.blachut.svelte.lang": [
@@ -229907,6 +230227,8 @@
 		}
 	],
 	"dev.engine2d.nova.dsl": [],
+	"dev.envpilot": [],
+	"dev.erbsland.elcl": [],
 	"dev.fatihdogmus.agenticreview": [],
 	"dev.faultline": [],
 	"dev.feedforward.tldrintellij": [
@@ -230206,6 +230528,7 @@
 			"rating": 5
 		}
 	],
+	"dev.friday5pm.jb.bun.pro.test": [],
 	"dev.fromnowon.fenix-buddy": [],
 	"dev.gabrielchl.intellij-pets": [
 		{
@@ -230535,9 +230858,12 @@
 	"dev.gaphunter.apisecuritycompanion": [],
 	"dev.gaphunter.asyncapicompanion": [],
 	"dev.gaphunter.asyncselfinvocationcompanion": [],
+	"dev.gaphunter.awss3publicaclsdkcompanion": [],
 	"dev.gaphunter.awssdkclientreusecompanion": [],
+	"dev.gaphunter.backgroundreadactionfreezecompanion": [],
 	"dev.gaphunter.beancopycompanion": [],
 	"dev.gaphunter.bindingresultpositioncompanion": [],
+	"dev.gaphunter.cacheinvalidationcompanion": [],
 	"dev.gaphunter.cassandracqlsessionreusecompanion": [],
 	"dev.gaphunter.certcompanion": [],
 	"dev.gaphunter.changecasecompanion": [],
@@ -230545,51 +230871,77 @@
 	"dev.gaphunter.circulardependencycompanion": [],
 	"dev.gaphunter.cmakecompanion": [],
 	"dev.gaphunter.commitmessageconventioncompanion": [],
+	"dev.gaphunter.completablefuturecancellationcompanion": [],
 	"dev.gaphunter.configsecretsfilecompanion": [],
 	"dev.gaphunter.connectionpoolconfigcompanion": [],
 	"dev.gaphunter.correlationidpropagationcompanion": [],
 	"dev.gaphunter.corspolicycompanion": [],
+	"dev.gaphunter.deadlocklockordercompanion": [],
 	"dev.gaphunter.dockerfilelayersizecompanion": [],
+	"dev.gaphunter.dockerfilemissingusercompanion": [],
 	"dev.gaphunter.dockerfileunusedstagecompanion": [],
 	"dev.gaphunter.elasticsearchclientreusecompanion": [],
+	"dev.gaphunter.enumordinalpersistencecompanion": [],
 	"dev.gaphunter.envdiffcompanion": [],
+	"dev.gaphunter.environmentspecificconstantcompanion": [],
 	"dev.gaphunter.envvarmissingcompanion": [],
 	"dev.gaphunter.errorlenscompanion": [],
+	"dev.gaphunter.exceptionescapechaincompanion": [],
 	"dev.gaphunter.featureflagreferencecompanion": [],
 	"dev.gaphunter.feignfallbackconfigcompanion": [],
 	"dev.gaphunter.firestorecompanion": [],
 	"dev.gaphunter.flakytestmarkercompanion": [],
 	"dev.gaphunter.formatconvertercompanion": [],
 	"dev.gaphunter.gcpclientreusecompanion": [],
+	"dev.gaphunter.githubactionspwnrequestcompanion": [],
 	"dev.gaphunter.githygienecompanion": [],
 	"dev.gaphunter.gitlabcicompanion": [],
 	"dev.gaphunter.gotimerleakcompanion": [],
 	"dev.gaphunter.gradletaskgraphcompanion": [],
 	"dev.gaphunter.graphqlcompanion": [],
 	"dev.gaphunter.grpcerrorstatuscompanion": [],
+	"dev.gaphunter.grpcmissingdeadlinecompanion": [],
 	"dev.gaphunter.grpcstreamobservercontractcompanion": [],
 	"dev.gaphunter.highlightcompanion": [],
 	"dev.gaphunter.httpstatusinlinecompanion": [],
 	"dev.gaphunter.idempotencykeycompanion": [],
 	"dev.gaphunter.importcostcompanion": [],
+	"dev.gaphunter.integeroverflowwideningcompanion": [],
+	"dev.gaphunter.interfaceexceptiondivergencecompanion": [],
+	"dev.gaphunter.interfaceresourceclosedivergencecompanion": [],
+	"dev.gaphunter.interfacesinkdivergencecompanion": [],
+	"dev.gaphunter.interproceduralresourceleakcompanion": [],
+	"dev.gaphunter.jdbcdoubleclosecompanion": [],
 	"dev.gaphunter.jenkinsfilecompanion": [],
 	"dev.gaphunter.jsonpathbuildercompanion": [],
 	"dev.gaphunter.jsonschemacompanion": [],
 	"dev.gaphunter.jsontocodecompanion": [],
 	"dev.gaphunter.jwtcompanion": [],
 	"dev.gaphunter.jwtsignatureverificationcompanion": [],
+	"dev.gaphunter.jwtwebhooktimingsafecompanion": [],
 	"dev.gaphunter.k6companion": [],
+	"dev.gaphunter.k8slabelselectorexposurecompanion": [],
+	"dev.gaphunter.k8sreadinesslivenessprobecompanion": [],
 	"dev.gaphunter.k8sresourcelimitcompanion": [],
+	"dev.gaphunter.kafkaprematureoffsetcommitcompanion": [],
 	"dev.gaphunter.kafkaproducerreusecompanion": [],
+	"dev.gaphunter.kafkatopicfeedbackloopcompanion": [],
 	"dev.gaphunter.kafkatopicschemacompanion": [],
 	"dev.gaphunter.ktorhttpclientreusecompanion": [],
+	"dev.gaphunter.kubernetesrbacwildcardcompanion": [],
+	"dev.gaphunter.ldapinjectionsinkcompanion": [],
 	"dev.gaphunter.logformatstringcompanion": [],
+	"dev.gaphunter.loginjectioncompanion": [],
+	"dev.gaphunter.lucenequeryinjectioncompanion": [],
 	"dev.gaphunter.materialcompanion": [],
 	"dev.gaphunter.mergeconflictleftovercompanion": [],
 	"dev.gaphunter.mermaidcompanion": [],
 	"dev.gaphunter.micrometertimersamplecompanion": [],
 	"dev.gaphunter.micronauthttpclientcreatecompanion": [],
+	"dev.gaphunter.mismatchedlockobjectcompanion": [],
+	"dev.gaphunter.moduleboundaryleakcompanion": [],
 	"dev.gaphunter.mongoclientreusecompanion": [],
+	"dev.gaphunter.mutablestateleakcompanion": [],
 	"dev.gaphunter.nginxcompanion": [],
 	"dev.gaphunter.nplusonequerycompanion": [],
 	"dev.gaphunter.npmpeerdependencycompanion": [],
@@ -230604,6 +230956,7 @@
 	"dev.gaphunter.phpshellinjectioncompanion": [],
 	"dev.gaphunter.phpsqlinjectioncompanion": [],
 	"dev.gaphunter.piifieldannotationcompanion": [],
+	"dev.gaphunter.piitostringleakcompanion": [],
 	"dev.gaphunter.postmanopenapidriftcompanion": [],
 	"dev.gaphunter.prometheusmetricnamingcompanion": [],
 	"dev.gaphunter.prometheusmetricregistrationcompanion": [],
@@ -230611,24 +230964,38 @@
 	"dev.gaphunter.railsmassassignmentcompanion": [],
 	"dev.gaphunter.ratelimiterfallbackcompanion": [],
 	"dev.gaphunter.reactnativecompanion": [],
+	"dev.gaphunter.redislockmissingttlcompanion": [],
 	"dev.gaphunter.redissonclientreusecompanion": [],
+	"dev.gaphunter.redoscatastrophicbacktrackingcompanion": [],
 	"dev.gaphunter.refactorsimulator": [],
 	"dev.gaphunter.regexnamedgroupcompanion": [],
 	"dev.gaphunter.regexpreviewcompanion": [],
 	"dev.gaphunter.resilienceselfinvocationcompanion": [],
+	"dev.gaphunter.retrybackoffjittercompanion": [],
 	"dev.gaphunter.reviewcompanion": [],
 	"dev.gaphunter.rubygemfilegroupcompanion": [],
 	"dev.gaphunter.rubynethttpreusecompanion": [],
 	"dev.gaphunter.rubyshellinjectioncompanion": [],
 	"dev.gaphunter.rxjavadisposableleakcompanion": [],
+	"dev.gaphunter.secondordersqlifieldcompanion": [],
 	"dev.gaphunter.semverbumpmismatchcompanion": [],
+	"dev.gaphunter.sessionattributetypeconfusioncompanion": [],
+	"dev.gaphunter.spelinjectionsinkcompanion": [],
 	"dev.gaphunter.spreadsheetcompanion": [],
 	"dev.gaphunter.sqlconcatenationcompanion": [],
+	"dev.gaphunter.ssrfallowlistbypasscompanion": [],
+	"dev.gaphunter.ssrfunsanitizedurlcompanion": [],
+	"dev.gaphunter.terraformiamprivesccompanion": [],
+	"dev.gaphunter.terraformiamwildcardcompanion": [],
 	"dev.gaphunter.testscaffoldcompanion": [],
 	"dev.gaphunter.themecompanion": [],
+	"dev.gaphunter.threadconfinementescapecompanion": [],
+	"dev.gaphunter.trycatchconsistencycompanion": [],
 	"dev.gaphunter.turbologcompanion": [],
+	"dev.gaphunter.unsafedeserializationsinkcompanion": [],
 	"dev.gaphunter.unusednpmscriptcompanion": [],
 	"dev.gaphunter.webhooksignaturecompanion": [],
+	"dev.gaphunter.xpathinjectionsinkcompanion": [],
 	"dev.gaphunter.xsdcompanion": [],
 	"dev.gdw.Shutdown-Tasks": [],
 	"dev.ghostflyby.agent-skills-editing": [],
@@ -230640,6 +231007,7 @@
 	"dev.ghostflyby.selectionlivetemplate": [],
 	"dev.ghostflyby.spotless": [],
 	"dev.ghostflyby.vitepress": [],
+	"dev.gipo.nitpick": [],
 	"dev.gitfocus": [],
 	"dev.glasberg.marcelosdartplugin": [],
 	"dev.gopherglide.gg-plugin": [],
@@ -231248,6 +231616,7 @@
 	"dev.jetplugins.dbml": [],
 	"dev.jetplugins.elixir": [],
 	"dev.jetplugins.epaper.theme": [],
+	"dev.jetplugins.gleam": [],
 	"dev.jetplugins.gruvbox": [],
 	"dev.jetplugins.imageeditpro": [
 		{
@@ -231541,6 +231910,7 @@
 		}
 	],
 	"dev.jstanger.corn-intellij": [],
+	"dev.kaenguruudev.localcord": [],
 	"dev.kaioken.patchtalk": [],
 	"dev.kambei.gitviz": [],
 	"dev.karpfen.mcl": [],
@@ -232143,6 +232513,7 @@
 		}
 	],
 	"dev.lassen.herdr": [],
+	"dev.lattency": [],
 	"dev.launchincursor.plugin": [],
 	"dev.lazydeveloper.claude": [],
 	"dev.lazyts.vue": [],
@@ -232210,6 +232581,24 @@
 		}
 	],
 	"dev.matasar.antigravity-companion": [],
+	"dev.mciosek.workspacedesk": [
+		{
+			"author": {
+				"id": "f17449ff-2916-4db5-8a00-1b227cdb4562",
+				"link": "/author/f17449ff-2916-4db5-8a00-1b227cdb4562",
+				"name": "Krzysztof Stasiak"
+			},
+			"cdate": "1788450730000",
+			"comment": "<p>Great product, would recommend.</p>\n",
+			"id": 144017,
+			"plugin": {
+				"id": 33994,
+				"link": "/plugin/33994-workspace-desk",
+				"name": "Workspace Desk"
+			},
+			"rating": 5
+		}
+	],
 	"dev.me.splitHeadersSources": [],
 	"dev.meanmail.pascal": [],
 	"dev.meanmail.plugin.ai.toolbox": [],
@@ -233675,6 +234064,7 @@
 	"dev.otelery.otelcol": [],
 	"dev.ott.sops-editor-plugin": [],
 	"dev.oxp.jetbrains": [],
+	"dev.pannonico.jetbrains": [],
 	"dev.panuszewski.gradle-jumper": [
 		{
 			"author": {
@@ -234932,6 +235322,7 @@
 	"dev.qcoding.aichangeradar": [],
 	"dev.red.apiscope": [],
 	"dev.red.yaml2props": [],
+	"dev.reikem.rk": [],
 	"dev.resmali": [],
 	"dev.riege.buildmycommand.dsl": [],
 	"dev.riverpod.gen.shortcuts": [],
@@ -235271,6 +235662,8 @@
 	"dev.sellerkit.awslogs": [],
 	"dev.sellerkit.azblob": [],
 	"dev.sellerkit.cfnwatch": [],
+	"dev.sellerkit.cosmos": [],
+	"dev.sellerkit.markdownpreviewplus": [],
 	"dev.sellerkit.s3browser": [],
 	"dev.sellerkit.sfnwatch": [],
 	"dev.sentinelseed.jetbrains": [],
@@ -235509,6 +235902,7 @@
 		}
 	],
 	"dev.springfoundry.plugin": [],
+	"dev.squeeze.imagesqueeze": [],
 	"dev.stianl.pxpeek": [
 		{
 			"author": {
@@ -235629,6 +236023,24 @@
 				"name": "Mermaid Studio Core"
 			},
 			"rating": 5
+		}
+	],
+	"dev.tailwindrainbow": [
+		{
+			"author": {
+				"id": "3a2ec3db-95e4-41b7-9a8e-c183955689f0",
+				"link": "/author/3a2ec3db-95e4-41b7-9a8e-c183955689f0",
+				"name": "janusfnielsen"
+			},
+			"cdate": "1788243821000",
+			"comment": "<p>Loving it! \ud83c\udf08</p>\n",
+			"id": 143911,
+			"plugin": {
+				"id": 33934,
+				"link": "/plugin/33934-tailwind-rainbow",
+				"name": "Tailwind Rainbow"
+			},
+			"rating": 0
 		}
 	],
 	"dev.techtheist.engram": [],
@@ -236289,7 +236701,9 @@
 	],
 	"dev.vaultlink": [],
 	"dev.veld.jetbrains": [],
+	"dev.verloren.midnight": [],
 	"dev.vertexworkbench.connector": [],
+	"dev.vetro.dataview": [],
 	"dev.vibeguard.jetbrains": [],
 	"dev.vinayshetty.stateart": [
 		{
@@ -253365,6 +253779,7 @@
 		}
 	],
 	"io.github.huacnlee.autocorrect": [],
+	"io.github.huahill.mason.idea": [],
 	"io.github.huanyv.totalcmd": [],
 	"io.github.iceholic.noctis": [],
 	"io.github.ingrowthly.icons": [],
@@ -253894,6 +254309,7 @@
 			"rating": 5
 		}
 	],
+	"io.github.lihuu.airefactoring": [],
 	"io.github.linfers.autoinput": [],
 	"io.github.linwancen.plugin.fix": [
 		{
@@ -255862,6 +256278,7 @@
 		}
 	],
 	"io.github.sufarook.gh-account-switcher": [],
+	"io.github.suhli.elasticsearch.rest": [],
 	"io.github.sushkovpv.extended-intellij-mcp": [],
 	"io.github.sushkovpv.junie-undo-fix": [
 		{
@@ -256182,9 +256599,11 @@
 	"io.github.vadimtoptunov.checksum-playground": [],
 	"io.github.vadimtoptunov.dbt-navigator": [],
 	"io.github.vadimtoptunov.flaky-lint": [],
+	"io.github.vadimtoptunov.http-data-injector": [],
 	"io.github.vadimtoptunov.iso8583": [],
 	"io.github.vadimtoptunov.kassi-testdata": [],
 	"io.github.vadimtoptunov.mrz-inspector": [],
+	"io.github.vadimtoptunov.robot-framework": [],
 	"io.github.vadimtoptunov.swift-mt": [],
 	"io.github.vadimtoptunov.uuid-toolkit": [],
 	"io.github.vihanmy.ideaplugin.VGitTool": [],
@@ -273598,6 +274017,7 @@
 			"rating": 5
 		}
 	],
+	"moe.syndev.synx": [],
 	"moe.xing.databindingformatter": [
 		{
 			"author": {
@@ -276685,6 +277105,7 @@
 	"net.edditech.esdm": [],
 	"net.elidon.jsonkeypath": [],
 	"net.exoego.digdag": [],
+	"net.fallingangel.jimmer-craft": [],
 	"net.fallingangel.jimmer-dto": [
 		{
 			"author": {
@@ -281226,6 +281647,7 @@
 	"one.pkg.modpublish": [],
 	"one.tain.jbp.code-screenshoter": [],
 	"onedev-tasks": [],
+	"online.devcodex.colorpeek": [],
 	"online.mofish.tool": [],
 	"online.xprei.ide": [],
 	"open-liberty.intellij": [
@@ -286772,6 +287194,7 @@
 		}
 	],
 	"org.github.pojo2proto": [],
+	"org.giuantomcat": [],
 	"org.hai.work.deepseek-ai-test": [
 		{
 			"author": {
@@ -307007,6 +307430,7 @@
 			"rating": 0
 		}
 	],
+	"org.torfs.pinguard": [],
 	"org.tosini.label-manager-pro-idea": [],
 	"org.treasureboat.tools": [],
 	"org.turbanov.commits.message.checker": [
@@ -311902,6 +312326,7 @@
 			"rating": 5
 		}
 	],
+	"pro.buryakov.workforest": [],
 	"pro.caddyfile": [],
 	"pro.kondratev.wicketlambdafold": [
 		{
@@ -312052,6 +312477,7 @@
 		}
 	],
 	"pro.respawn.flowmvi.ideplugin": [],
+	"pro.zhimu.cangjie": [],
 	"pronskiy.elephpant": [
 		{
 			"author": {
@@ -313565,6 +313991,7 @@
 	],
 	"ro.gs1.idea.maven-resource-overlay": [],
 	"ro.gs1.idea.wildfly-extended": [],
+	"ro.pieceofcode.jetbrains.plugin.wsl-macros": [],
 	"ro.raicabogdan.route": [],
 	"ro.raicabogdan.translationi18n": [
 		{
@@ -316126,6 +316553,7 @@
 	"sexualreptilians.dragonprogress": [],
 	"sg.bigo.mobile.android.srouter": [],
 	"sh.bab.plugin": [],
+	"sh.datatra.mos": [],
 	"sh.ecko.lang": [],
 	"sh.qonqrete": [],
 	"sh.spinlock.idea.hackernews": [],
@@ -316553,6 +316981,7 @@
 		}
 	],
 	"slak44.angularinjectintoaction": [],
+	"slang.plugin": [],
 	"slanglsp": [
 		{
 			"author": {
@@ -320653,6 +321082,7 @@
 	],
 	"trantruong.oceanic-dark-theme": [],
 	"tslint": [],
+	"tsrx.intellij-plugin": [],
 	"tui": [],
 	"tv.codely.codelytv-theme": [
 		{
@@ -323494,6 +323924,7 @@
 	"www.cy27.cn.mybatis-plus-code-generation": [],
 	"wzq.jcstress.plugin": [],
 	"xgimi-commit-template-idea-plugin": [],
+	"xiao-xu-tong-xue-zai-chong-dian": [],
 	"xndlnk.monokai": [
 		{
 			"author": {
