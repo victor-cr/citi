@@ -1381,6 +1381,36 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "java:com.google.protobuf:protobuf-java-util",
+		"pluginId": "idea.plugin.protoeditor",
+		"pluginName": "Protocol Buffers"
+	},
+	{
+		"bundled": false,
+		"implementationName": "java:com.google.protobuf:protobuf-javalite",
+		"pluginId": "idea.plugin.protoeditor",
+		"pluginName": "Protocol Buffers"
+	},
+	{
+		"bundled": false,
+		"implementationName": "java:com.google.protobuf:protobuf-kotlin",
+		"pluginId": "idea.plugin.protoeditor",
+		"pluginName": "Protocol Buffers"
+	},
+	{
+		"bundled": false,
+		"implementationName": "java:io.grpc:grpc-protobuf",
+		"pluginId": "idea.plugin.protoeditor",
+		"pluginName": "Protocol Buffers"
+	},
+	{
+		"bundled": false,
+		"implementationName": "java:io.grpc:grpc-protobuf-lite",
+		"pluginId": "idea.plugin.protoeditor",
+		"pluginName": "Protocol Buffers"
+	},
+	{
+		"bundled": false,
 		"implementationName": "java:io.ktor:ktor-server-jvm",
 		"pluginId": "intellij.ktor",
 		"pluginName": "Ktor"

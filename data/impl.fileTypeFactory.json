@@ -3797,66 +3797,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "*.cfpatch.yaml",
-		"pluginId": "com.cfa.api.sdk.intellij",
-		"pluginName": "CFSH Helper"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.cfpatch.yml",
-		"pluginId": "com.cfa.api.sdk.intellij",
-		"pluginName": "CFSH Helper"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.cfsh.yaml",
-		"pluginId": "com.cfa.api.sdk.intellij",
-		"pluginName": "CFSH Helper"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.cfsh.yml",
-		"pluginId": "com.cfa.api.sdk.intellij",
-		"pluginName": "CFSH Helper"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.match.json",
-		"pluginId": "com.cfa.api.sdk.intellij",
-		"pluginName": "CFSH Helper"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.patch.yaml",
-		"pluginId": "com.cfa.api.sdk.intellij",
-		"pluginName": "CFSH Helper"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.patch.yml",
-		"pluginId": "com.cfa.api.sdk.intellij",
-		"pluginName": "CFSH Helper"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.shcf.yaml",
-		"pluginId": "com.cfa.api.sdk.intellij",
-		"pluginName": "CFSH Helper"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.shcf.yml",
-		"pluginId": "com.cfa.api.sdk.intellij",
-		"pluginName": "CFSH Helper"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.wcf.yml,*.wcf.yaml",
-		"pluginId": "com.cfa.api.sdk.intellij",
-		"pluginName": "CFSH Helper"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.csv",
 		"pluginId": "com.chesterccw.excelreader",
 		"pluginName": "ExcelReader"
@@ -4571,6 +4511,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.arduinoaichat",
+		"pluginId": "com.flexible.arduino",
+		"pluginName": "Flexible For Arduino"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.ino",
 		"pluginId": "com.flexible.arduino",
 		"pluginName": "Flexible For Arduino"
@@ -4580,6 +4526,60 @@
 		"implementationName": "sdkconfig",
 		"pluginId": "com.flexible.arduino",
 		"pluginName": "Flexible For Arduino"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.cbl",
+		"pluginId": "com.flexible.cobol",
+		"pluginName": "Flexible COBOL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.cblle",
+		"pluginId": "com.flexible.cobol",
+		"pluginName": "Flexible COBOL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.cob",
+		"pluginId": "com.flexible.cobol",
+		"pluginName": "Flexible COBOL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.cobol",
+		"pluginId": "com.flexible.cobol",
+		"pluginName": "Flexible COBOL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.cobolaichat",
+		"pluginId": "com.flexible.cobol",
+		"pluginName": "Flexible COBOL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.copy",
+		"pluginId": "com.flexible.cobol",
+		"pluginName": "Flexible COBOL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.cpy",
+		"pluginId": "com.flexible.cobol",
+		"pluginName": "Flexible COBOL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.pco",
+		"pluginId": "com.flexible.cobol",
+		"pluginName": "Flexible COBOL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.sqb",
+		"pluginId": "com.flexible.cobol",
+		"pluginName": "Flexible COBOL"
 	},
 	{
 		"bundled": false,
@@ -4682,6 +4682,90 @@
 		"implementationName": "*.stl",
 		"pluginId": "com.flexible.scad",
 		"pluginName": "Flexible For OpenSCAD"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.gbl",
+		"pluginId": "com.flexible.schematics",
+		"pluginName": "Flexible For Schematics"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.gbo",
+		"pluginId": "com.flexible.schematics",
+		"pluginName": "Flexible For Schematics"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.gbr",
+		"pluginId": "com.flexible.schematics",
+		"pluginName": "Flexible For Schematics"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.gbs",
+		"pluginId": "com.flexible.schematics",
+		"pluginName": "Flexible For Schematics"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.gko",
+		"pluginId": "com.flexible.schematics",
+		"pluginName": "Flexible For Schematics"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.gtl",
+		"pluginId": "com.flexible.schematics",
+		"pluginName": "Flexible For Schematics"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.gto",
+		"pluginId": "com.flexible.schematics",
+		"pluginName": "Flexible For Schematics"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.gts",
+		"pluginId": "com.flexible.schematics",
+		"pluginName": "Flexible For Schematics"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.kicad_dru",
+		"pluginId": "com.flexible.schematics",
+		"pluginName": "Flexible For Schematics"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.kicad_mod",
+		"pluginId": "com.flexible.schematics",
+		"pluginName": "Flexible For Schematics"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.kicad_pcb",
+		"pluginId": "com.flexible.schematics",
+		"pluginName": "Flexible For Schematics"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.kicad_sch",
+		"pluginId": "com.flexible.schematics",
+		"pluginName": "Flexible For Schematics"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.kicad_sym",
+		"pluginId": "com.flexible.schematics",
+		"pluginName": "Flexible For Schematics"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.kicad_wks",
+		"pluginId": "com.flexible.schematics",
+		"pluginName": "Flexible For Schematics"
 	},
 	{
 		"bundled": false,
@@ -4802,6 +4886,12 @@
 		"implementationName": "*.nginx.conf",
 		"pluginId": "com.getpagespeed.gixy",
 		"pluginName": "Gixy"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.cpt",
+		"pluginId": "com.github.Glider2355.gauge",
+		"pluginName": "GaugeTS"
 	},
 	{
 		"bundled": false,
@@ -5299,13 +5389,13 @@
 		"bundled": false,
 		"implementationName": "*.note",
 		"pluginId": "com.github.beansoft.iscratch",
-		"pluginName": "Code Notes, Symbol Notes, Markdown Symbol Preview"
+		"pluginName": "Agent Code Notes"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.stacktrace",
 		"pluginId": "com.github.beansoft.iscratch",
-		"pluginName": "Code Notes, Symbol Notes, Markdown Symbol Preview"
+		"pluginName": "Agent Code Notes"
 	},
 	{
 		"bundled": false,
@@ -10358,6 +10448,42 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.bazel",
+		"pluginId": "com.intellij.experimental.bazel-lsp",
+		"pluginName": "Bazel LSP"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.bzl",
+		"pluginId": "com.intellij.experimental.bazel-lsp",
+		"pluginName": "Bazel LSP"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.sky",
+		"pluginId": "com.intellij.experimental.bazel-lsp",
+		"pluginName": "Bazel LSP"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.star",
+		"pluginId": "com.intellij.experimental.bazel-lsp",
+		"pluginName": "Bazel LSP"
+	},
+	{
+		"bundled": false,
+		"implementationName": "BUILD",
+		"pluginId": "com.intellij.experimental.bazel-lsp",
+		"pluginName": "Bazel LSP"
+	},
+	{
+		"bundled": false,
+		"implementationName": "WORKSPACE",
+		"pluginId": "com.intellij.experimental.bazel-lsp",
+		"pluginName": "Bazel LSP"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.as",
 		"pluginId": "com.intellij.flex",
 		"pluginName": "Flash/Flex"
@@ -12401,13 +12527,13 @@
 		"bundled": false,
 		"implementationName": "*.cvperf",
 		"pluginId": "com.jetbrains.performancePlugin",
-		"pluginName": "Performance Testing"
+		"pluginName": "Performance Diagnostics"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.ijperf",
 		"pluginId": "com.jetbrains.performancePlugin",
-		"pluginName": "Performance Testing"
+		"pluginName": "Performance Diagnostics"
 	},
 	{
 		"bundled": false,
@@ -15037,12 +15163,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "*.txt",
-		"pluginId": "com.rahulrav.baseline-profiles",
-		"pluginName": "Android Baseline Profiles"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.ss",
 		"pluginId": "com.raket.silverstripe",
 		"pluginName": "SilverStripe Template Language Support"
@@ -15057,7 +15177,7 @@
 		"bundled": false,
 		"implementationName": "*.featurejs",
 		"pluginId": "com.rankweis",
-		"pluginName": "uppercut"
+		"pluginName": "Uppercut for Karate"
 	},
 	{
 		"bundled": false,
@@ -16321,6 +16441,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.avro",
+		"pluginId": "com.twilightventures.parquetlens",
+		"pluginName": "Parquet Lens: Parquet, Avro, TFRecord, Arrow & Feather Viewer"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.feather",
 		"pluginId": "com.twilightventures.parquetlens",
 		"pluginName": "Parquet Lens: Parquet, Avro, TFRecord, Arrow & Feather Viewer"
@@ -16357,7 +16483,55 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.tfrec",
+		"pluginId": "com.twilightventures.parquetlens",
+		"pluginName": "Parquet Lens: Parquet, Avro, TFRecord, Arrow & Feather Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.tfrec.gz",
+		"pluginId": "com.twilightventures.parquetlens",
+		"pluginName": "Parquet Lens: Parquet, Avro, TFRecord, Arrow & Feather Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.tfrecord",
+		"pluginId": "com.twilightventures.parquetlens",
+		"pluginName": "Parquet Lens: Parquet, Avro, TFRecord, Arrow & Feather Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.tfrecord.gz",
+		"pluginId": "com.twilightventures.parquetlens",
+		"pluginName": "Parquet Lens: Parquet, Avro, TFRecord, Arrow & Feather Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.tfrecords",
+		"pluginId": "com.twilightventures.parquetlens",
+		"pluginName": "Parquet Lens: Parquet, Avro, TFRecord, Arrow & Feather Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.tfrecords.gz",
+		"pluginId": "com.twilightventures.parquetlens",
+		"pluginName": "Parquet Lens: Parquet, Avro, TFRecord, Arrow & Feather Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.db",
+		"pluginId": "com.twilightventures.sqlitelens",
+		"pluginName": "SQLite Lens: SQLite Database File Viewer"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.db3",
+		"pluginId": "com.twilightventures.sqlitelens",
+		"pluginName": "SQLite Lens: SQLite Database File Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.gpkg",
 		"pluginId": "com.twilightventures.sqlitelens",
 		"pluginName": "SQLite Lens: SQLite Database File Viewer"
 	},
@@ -17300,6 +17474,132 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.3ds",
+		"pluginId": "de.kleinicke.plyvisualizer",
+		"pluginName": "3D Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.dae",
+		"pluginId": "de.kleinicke.plyvisualizer",
+		"pluginName": "3D Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.e57",
+		"pluginId": "de.kleinicke.plyvisualizer",
+		"pluginName": "3D Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.fbx",
+		"pluginId": "de.kleinicke.plyvisualizer",
+		"pluginName": "3D Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.glb",
+		"pluginId": "de.kleinicke.plyvisualizer",
+		"pluginName": "3D Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.gltf",
+		"pluginId": "de.kleinicke.plyvisualizer",
+		"pluginName": "3D Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.ksplat",
+		"pluginId": "de.kleinicke.plyvisualizer",
+		"pluginName": "3D Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.las",
+		"pluginId": "de.kleinicke.plyvisualizer",
+		"pluginName": "3D Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.laz",
+		"pluginId": "de.kleinicke.plyvisualizer",
+		"pluginName": "3D Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.obj",
+		"pluginId": "de.kleinicke.plyvisualizer",
+		"pluginName": "3D Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.off",
+		"pluginId": "de.kleinicke.plyvisualizer",
+		"pluginName": "3D Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.pcd",
+		"pluginId": "de.kleinicke.plyvisualizer",
+		"pluginName": "3D Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.ply",
+		"pluginId": "de.kleinicke.plyvisualizer",
+		"pluginName": "3D Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.pts",
+		"pluginId": "de.kleinicke.plyvisualizer",
+		"pluginName": "3D Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.sog",
+		"pluginId": "de.kleinicke.plyvisualizer",
+		"pluginName": "3D Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.splat",
+		"pluginId": "de.kleinicke.plyvisualizer",
+		"pluginName": "3D Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.spz",
+		"pluginId": "de.kleinicke.plyvisualizer",
+		"pluginName": "3D Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.stl",
+		"pluginId": "de.kleinicke.plyvisualizer",
+		"pluginName": "3D Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.xyz",
+		"pluginId": "de.kleinicke.plyvisualizer",
+		"pluginName": "3D Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.xyzn",
+		"pluginId": "de.kleinicke.plyvisualizer",
+		"pluginName": "3D Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.xyzrgb",
+		"pluginId": "de.kleinicke.plyvisualizer",
+		"pluginName": "3D Visualizer"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.kasm",
 		"pluginId": "de.ljunker.kasm",
 		"pluginName": "KASM Language"
@@ -17728,13 +18028,13 @@
 		"bundled": false,
 		"implementationName": "*.bpmn",
 		"pluginId": "dev.camunda.bpmn-editor",
-		"pluginName": "Camunda BPMN Editor"
+		"pluginName": "Penstock"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.bpmn.xml",
 		"pluginId": "dev.camunda.bpmn-editor",
-		"pluginName": "Camunda BPMN Editor"
+		"pluginName": "Penstock"
 	},
 	{
 		"bundled": false,
@@ -17819,6 +18119,12 @@
 		"implementationName": "*.mmd",
 		"pluginId": "dev.gaphunter.mermaidcompanion",
 		"pluginName": "Mermaid Companion"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.script",
+		"pluginId": "dev.greeny.kmr",
+		"pluginName": "KMR Scripting"
 	},
 	{
 		"bundled": false,
@@ -19988,6 +20294,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.py",
+		"pluginId": "io.genai.python",
+		"pluginName": "Python Portable"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*robots.txt",
 		"pluginId": "io.genai.robots",
 		"pluginName": "RobotsReader"
@@ -20463,12 +20775,6 @@
 	{
 		"bundled": false,
 		"implementationName": "*.JetClientPreview",
-		"pluginId": "io.jetclient",
-		"pluginName": "JetClient - The Ultimate REST Client"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.txt",
 		"pluginId": "io.jetclient",
 		"pluginName": "JetClient - The Ultimate REST Client"
 	},
@@ -21833,6 +22139,12 @@
 		"implementationName": "*.dto",
 		"pluginId": "net.fallingangel.jimmer-dto",
 		"pluginName": "JimmerDTO"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.marklower",
+		"pluginId": "net.inthemoon.yamlover",
+		"pluginName": "yamlover"
 	},
 	{
 		"bundled": false,

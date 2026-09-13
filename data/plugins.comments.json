@@ -15585,6 +15585,7 @@
 		}
 	],
 	"Krafftachrome": [],
+	"Kudos": [],
 	"Kunpeng Library": [],
 	"Kunpeng Porting Advisor": [],
 	"LJYXP.ColorBrackets": [
@@ -33259,6 +33260,7 @@
 		}
 	],
 	"ai.vespa": [],
+	"ai.yorun.skel": [],
 	"ai.zencoder.plugin": [
 		{
 			"author": {
@@ -35215,6 +35217,7 @@
 		}
 	],
 	"app.factoryline": [],
+	"app.firebridge": [],
 	"app.meot.boj-helper": [],
 	"app.netlify.joaovanzuita/": [],
 	"app.oreshkov.kmp.wizard": [],
@@ -45297,6 +45300,7 @@
 		}
 	],
 	"cn.season.plugin.curl2py": [],
+	"cn.shoukaiseki.molokai.theme": [],
 	"cn.song.mybatisplus.visualizer.mybatis-plus-sql-visualizer": [],
 	"cn.sp.CodeFaster": [],
 	"cn.sp.EnumHelper": [],
@@ -52227,8 +52231,11 @@
 		}
 	],
 	"com.abouten.svnpackager": [],
+	"com.abstractivemachines.graft": [],
+	"com.abuscom.infisicalplugin.InfisicalPlugin": [],
 	"com.acme.ticketrepoanalyzer": [],
 	"com.acooly.plugin": [],
+	"com.acorn.codex.tabs": [],
 	"com.action.update.check": [],
 	"com.actionlens": [],
 	"com.acutecoder.kmp.projectview": [
@@ -53923,6 +53930,7 @@
 			"rating": 0
 		}
 	],
+	"com.aicn.web": [],
 	"com.aicodequalityrisk.plugin": [],
 	"com.aicoder.jetbrains": [],
 	"com.aicoding.ai-coding-plugin": [
@@ -56482,6 +56490,7 @@
 			"rating": 1
 		}
 	],
+	"com.alps-asd.idea-alps-plugin": [],
 	"com.amfaro.jarify": [],
 	"com.aminnez.plugin.clean.CleanArchitecture": [
 		{
@@ -60131,6 +60140,7 @@
 		}
 	],
 	"com.atalgaba.jbwebosstudio": [],
+	"com.atatusoft.ppphp": [],
 	"com.atlaskaisar.atlas-ragnarok": [],
 	"com.atlassian.bitbucket.references": [
 		{
@@ -64908,6 +64918,7 @@
 	],
 	"com.botjs": [],
 	"com.boundaryml.jetbrains_ext": [],
+	"com.boundfoxstudios.flutter-sdk-sync-companion": [],
 	"com.bowmanb.ctttr": [],
 	"com.bracketbow": [],
 	"com.brain.intelligent.SerializationCoder": [],
@@ -66943,6 +66954,7 @@
 		}
 	],
 	"com.burkett.builderberg": [],
+	"com.bygo.aipath": [],
 	"com.bytedance.auto.merge.push.plugin": [],
 	"com.bytedance.jedi.templatemanager": [],
 	"com.bytegatherer.jsonplusyaml": [
@@ -67305,6 +67317,7 @@
 			"rating": 0
 		}
 	],
+	"com.careerforge.jetbrains": [],
 	"com.caretfill.sequential-fill": [],
 	"com.carlocifarelli.claudecodeusagemaniac": [],
 	"com.carlocifarelli.json2swagger": [],
@@ -72261,6 +72274,7 @@
 	"com.codebinddocs.plugin": [],
 	"com.codebodhi.api-explorer": [],
 	"com.codebodhi.mockgen": [],
+	"com.codecharlan.vestige": [],
 	"com.codecleaner": [],
 	"com.codeclocker": [
 		{
@@ -73562,6 +73576,7 @@
 	],
 	"com.codetrail.plugin": [],
 	"com.codevisualizer": [],
+	"com.codex.aitestreview": [],
 	"com.codex.assistant": [
 		{
 			"author": {
@@ -74062,6 +74077,7 @@
 	],
 	"com.cody.terracottapaper": [],
 	"com.codyi96.android.get.emoji": [],
+	"com.coharyn.impact": [],
 	"com.com.print.sreenmoveeditor": [
 		{
 			"author": {
@@ -80321,6 +80337,7 @@
 		}
 	],
 	"com.devworkspace.launcher.idea.bridge": [],
+	"com.devxhub.cron-explainer": [],
 	"com.dfeer.plugin.Generate-Code": [],
 	"com.dfsek.terra.codetool": [
 		{
@@ -82147,6 +82164,40 @@
 	"com.drostwades.errorsound": [],
 	"com.drsiroukane.plugins.multirelativepath": [],
 	"com.dsh.maven-search": [],
+	"com.dsh.petwhale": [
+		{
+			"author": {
+				"id": "4e740453-5487-4384-a778-486282f3683d",
+				"link": "/author/4e740453-5487-4384-a778-486282f3683d",
+				"name": "\u674e\u7f57\u5f3a"
+			},
+			"cdate": "1788971560000",
+			"comment": "<p>\u53ef\u7231\u7684\u9cb8\u9c7c\u5a18idea\u5ba0\u7269\uff0c\u840c\u840c\u54d2\uff0c\u517b\u4e00\u53ea\u5c0f\u9cb8\u9c7c\u5a18\uff0c\u8fd8\u6709\u5173\u6000\u63d0\u9192\uff0c\u5feb\u6765\u4f7f\u7528\u529f\u80fd\u5427~</p>\n",
+			"id": 144233,
+			"plugin": {
+				"id": 34125,
+				"link": "/plugin/34125-pet-whale",
+				"name": "Pet Whale"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "4e740453-5487-4384-a778-486282f3683d",
+				"link": "/author/4e740453-5487-4384-a778-486282f3683d",
+				"name": "\u674e\u7f57\u5f3a"
+			},
+			"cdate": "1788971449000",
+			"comment": "<p>Keyboard Stats\nIntelliJ IDEA \u63d2\u4ef6 \u00b7 \u5f53\u524d\u7248\u672c v0.0.15 \u00b7 \u517c\u5bb9 IntelliJ IDEA 2023.1+\n\u6bcf\u65e5\u6572\u952e\u7edf\u8ba1 / \u5b9e\u65f6 KPM / \u6d3b\u8dc3\u7f16\u7801\u65f6\u957f / 30 \u5929\u5c0f\u65f6\u70ed\u529b\u56fe / \u5386\u53f2\u67f1\u72b6 / \u5468\u6708\u76ee\u6807 / \u5b9a\u65f6\u5bfc\u51fa\u4e0e\u5907\u4efd / \u6210\u5c31\u89e3\u9501 / \u6bcf\u65e5\u6458\u8981\u3002</p>\n",
+			"id": 144231,
+			"plugin": {
+				"id": 34125,
+				"link": "/plugin/34125-pet-whale",
+				"name": "Pet Whale"
+			},
+			"rating": 0
+		}
+	],
 	"com.dshui.idea": [],
 	"com.dslplatform.ideaplugin": [],
 	"com.dsoftware.bruno": [],
@@ -83210,6 +83261,7 @@
 	"com.easyprompt.plugin": [],
 	"com.easytodo.EasyTodo": [],
 	"com.easywsdl.tools.plugins.intellij": [],
+	"com.eazycmp.plugin": [],
 	"com.ecarx.plugin.findview": [],
 	"com.ecds.deploy.helper": [],
 	"com.echoapi.EchoAPI-Helper": [
@@ -84323,6 +84375,7 @@
 	"com.enhe.enhe-endpoint": [],
 	"com.enokdev.spring-api-generator": [],
 	"com.entet.aiagentguard": [],
+	"com.entitygenerator": [],
 	"com.envcli.plugin": [],
 	"com.envforge.ide": [],
 	"com.envilopeio.envilope": [],
@@ -85026,7 +85079,9 @@
 			"rating": 4
 		}
 	],
+	"com.esviza.getOffColorSchemeFont": [],
 	"com.esviza.getOffReaderMode": [],
+	"com.ethan.wdt": [],
 	"com.etrx.codereviewer": [],
 	"com.eugenePetrenko.idea.dependencies": [
 		{
@@ -86561,6 +86616,24 @@
 	"com.farranfox.pax.theme": [],
 	"com.fastclean.generator": [],
 	"com.fatboy.ai.agent.fatbot": [],
+	"com.fazlizekiqi.enVar": [
+		{
+			"author": {
+				"id": "d2ee6e9d-fe45-4499-a9dd-eab8957a1253",
+				"link": "/author/d2ee6e9d-fe45-4499-a9dd-eab8957a1253",
+				"name": "bsayatovic"
+			},
+			"cdate": "1788268048000",
+			"comment": "<p>This is a great plugin, allowing me to change Environment Variable values that I can substitute into static Run Configurations (e.g. toggling my integration tests between full and ICT mode with <code>-Dict={ICT}</code> and editing the <code>ICT</code> environment variable).</p>\n",
+			"id": 143935,
+			"plugin": {
+				"id": 26912,
+				"link": "/plugin/26912-envar",
+				"name": "EnVar"
+			},
+			"rating": 5
+		}
+	],
 	"com.fc.plugin.fc-commit-validator": [],
 	"com.fcbox.test.lotus-swagger": [],
 	"com.feakin.intellij": [
@@ -86828,6 +86901,7 @@
 	],
 	"com.felixastner.aitools.ai-tools": [],
 	"com.felixastner.magefx": [],
+	"com.felixastner.nestkit.NestKit": [],
 	"com.felixz.codewhisper": [],
 	"com.felixzz.maven-dependency-properties-plugin": [
 		{
@@ -87871,6 +87945,7 @@
 			"rating": 5
 		}
 	],
+	"com.flexible.cobol": [],
 	"com.flexible.elixir": [
 		{
 			"author": {
@@ -88119,6 +88194,7 @@
 		}
 	],
 	"com.flexible.scad": [],
+	"com.flexible.schematics": [],
 	"com.flexible.solidity": [
 		{
 			"author": {
@@ -91190,6 +91266,24 @@
 			"rating": 1
 		}
 	],
+	"com.github.Glider2355.gauge": [
+		{
+			"author": {
+				"id": "68382bcb-d933-4404-ab04-0959df061fd2",
+				"link": "/author/68382bcb-d933-4404-ab04-0959df061fd2",
+				"name": "Pavel Kup\u010d\u00edk"
+			},
+			"cdate": "1729756298000",
+			"comment": "<p>At this stage the plugin works but not as good as I would expect. On the other it is version 0.0.4 so OK.</p>\n<p>The main problem is that it doesn't find implementations of all Steps. It does for some, for another it doesn't.</p>\n<p>All Steps are highlighted as unimplemented but they can be clicked through to their implementation.</p>\n",
+			"id": 107454,
+			"plugin": {
+				"id": 24971,
+				"link": "/plugin/24971-gaugets",
+				"name": "GaugeTS"
+			},
+			"rating": 2
+		}
+	],
 	"com.github.HHLhhx.comment-consistency-plugin": [],
 	"com.github.JoeKerouac.beancopy": [],
 	"com.github.Mango.cursorswitch": [],
@@ -91664,6 +91758,7 @@
 			"rating": 5
 		}
 	],
+	"com.github.aemtoolkit": [],
 	"com.github.affishaikh.kotlinbuildergenerator": [
 		{
 			"author": {
@@ -92827,6 +92922,7 @@
 	"com.github.avoro.artemisiiprogressbar": [],
 	"com.github.avoro.fishprogressbar": [],
 	"com.github.avrilfanomar.picatplugin": [],
+	"com.github.awhicks.webcat-mutation-testing": [],
 	"com.github.axondragonscale.adbdeck": [],
 	"com.github.axondragonscale.variantx": [],
 	"com.github.azbh111.dm.DebugMate": [],
@@ -98604,6 +98700,7 @@
 	],
 	"com.github.czy211.licensetemplate": [],
 	"com.github.czy211.wowtoc": [],
+	"com.github.dalikai321debug.ideares": [],
 	"com.github.damiano1996.jetbrains.grove": [],
 	"com.github.danbai225.pwlchat": [],
 	"com.github.danielalejandroamaro.gitlabpipeline": [
@@ -101746,6 +101843,7 @@
 			"rating": 0
 		}
 	],
+	"com.github.flounder4130.duplicatefinderidea": [],
 	"com.github.fmueller.jarvis": [],
 	"com.github.followlemmi.kanagawa": [],
 	"com.github.formattoday.v2viewer": [],
@@ -101805,6 +101903,7 @@
 			"rating": 5
 		}
 	],
+	"com.github.gbassi.timetracker": [],
 	"com.github.getcurrentthread.recursivemarkdowngenerator": [],
 	"com.github.gguf.editor": [
 		{
@@ -102356,6 +102455,7 @@
 			"rating": 5
 		}
 	],
+	"com.github.golmschenk.intellijdisablepythondebugconsolebydefault": [],
 	"com.github.griffithh.sql1line": [],
 	"com.github.gupeng.ainaming": [],
 	"com.github.gurjot1142.codecricket": [],
@@ -103621,6 +103721,7 @@
 			"rating": 5
 		}
 	],
+	"com.github.hotic.acpira": [],
 	"com.github.houkunlin.database.generator": [],
 	"com.github.hsz.ctrlscroll": [
 		{
@@ -109467,6 +109568,7 @@
 			"rating": 5
 		}
 	],
+	"com.github.lonre.gruvbox-islands-theme": [],
 	"com.github.loosheng.intellijvitessetheme": [
 		{
 			"author": {
@@ -111861,6 +111963,7 @@
 	],
 	"com.github.nadiatarashkevich.displayideversion": [],
 	"com.github.nadiatarashkevich.explandfindusagesnodes": [],
+	"com.github.nadiatarashkevich.gotoinoppositegroup": [],
 	"com.github.nadiatarashkevich.mvcexplandcollapse": [],
 	"com.github.nadiatarashkevich.settingpageaction": [],
 	"com.github.naoyukik.copyprettygitlog": [],
@@ -113863,6 +113966,7 @@
 			"rating": 5
 		}
 	],
+	"com.github.paohaijiao.jquickjavaplugin": [],
 	"com.github.paol0b.abyss-blue": [],
 	"com.github.paol0b.abyss-dark": [],
 	"com.github.parfoismeng.plugin.butterknife": [
@@ -113899,6 +114003,7 @@
 			"rating": 0
 		}
 	],
+	"com.github.parkcg123.flowtags": [],
 	"com.github.passerr.idea.plugins": [],
 	"com.github.pastewithhtmlformatting": [],
 	"com.github.patou.gitmoji": [
@@ -115945,6 +116050,7 @@
 			"rating": 0
 		}
 	],
+	"com.github.ryantateamp.codexsessiontabs": [],
 	"com.github.ryanxie0827.versiondraft": [
 		{
 			"author": {
@@ -124350,6 +124456,7 @@
 	"com.github.zhazhazsy.jsontodartplus": [],
 	"com.github.zhenyuan.gitpullreminder": [],
 	"com.github.zimablue1995.everything": [],
+	"com.github.zipper.latteplus": [],
 	"com.github.zoarch.mindarktheme": [],
 	"com.github.zouyq.cmdTools": [
 		{
@@ -128094,6 +128201,24 @@
 			"rating": 0
 		}
 	],
+	"com.haifasoft.haifassh": [
+		{
+			"author": {
+				"id": "5760f9d0-e959-45e0-a25e-78a3be22c51a",
+				"link": "/author/5760f9d0-e959-45e0-a25e-78a3be22c51a",
+				"name": "fredskor"
+			},
+			"cdate": "1788972100000",
+			"comment": "<p>Amazing plugin. Just what I needed!</p>\n",
+			"id": 144234,
+			"plugin": {
+				"id": 34102,
+				"link": "/plugin/34102-haifassh--ssh-session-manager",
+				"name": "HaifaSSH - SSH Session Manager"
+			},
+			"rating": 5
+		}
+	],
 	"com.hainanlxk.flutter.ohos.env": [],
 	"com.haiwen.pdevcs": [],
 	"com.haizy.mermaid.editor.pro": [],
@@ -128606,6 +128731,7 @@
 	"com.hand.tarzan.iface-scaffold": [],
 	"com.hangox.myandroidtools": [],
 	"com.hannesdorfmann.parcelableplease.plugin": [],
+	"com.hans.git-merge-into-plus": [],
 	"com.haojiyou.CharAutoReplace": [
 		{
 			"author": {
@@ -150367,6 +150493,8 @@
 	"com.jbl.sshtterminal": [],
 	"com.jbliao.jblexplorejsonandyaml": [],
 	"com.jc.plugin.gitlab": [],
+	"com.jc.starrocks": [],
+	"com.jcms.errorpurifier.plugin": [],
 	"com.jd.aicr": [],
 	"com.jd.com.ins.qsm.EasyCamelQSM": [],
 	"com.jd.com.ins.qsm.StopCoding Lite": [],
@@ -159139,6 +159267,7 @@
 	"com.jf.jf": [],
 	"com.jfboily.darkjeff": [],
 	"com.jfigueiras.theme.paledevdark": [],
+	"com.jfrog.jetbrains": [],
 	"com.jgentil.theme.darcula_blacker": [
 		{
 			"author": {
@@ -164847,6 +164976,7 @@
 			"rating": 0
 		}
 	],
+	"com.kutay.sshexplorer": [],
 	"com.kuyou.CollisionChallenge": [],
 	"com.kuyou.InvestHabits": [],
 	"com.kuyou.MinimalistSudoku": [],
@@ -169091,6 +169221,7 @@
 		}
 	],
 	"com.longlong.bookmark": [],
+	"com.loongc.plugin": [],
 	"com.looper.plugin.id": [
 		{
 			"author": {
@@ -169160,6 +169291,40 @@
 	"com.ltp.timestamp.plugin.Timestamp-Plugin": [],
 	"com.ltu.progress.bar.LTUProgressBar": [],
 	"com.luban.plugin": [],
+	"com.lucasli.idea.keyboardstats": [
+		{
+			"author": {
+				"id": "4e740453-5487-4384-a778-486282f3683d",
+				"link": "/author/4e740453-5487-4384-a778-486282f3683d",
+				"name": "\u674e\u7f57\u5f3a"
+			},
+			"cdate": "1788969474000",
+			"comment": "<p>\u5b89\u88c5\u63d2\u4ef6\u540e\uff0c\u5728 IDE \u53f3\u4fa7\u8fb9\u680f\u627e\u5230\u300c\u952e\u76d8\u300d\u56fe\u6807\uff0c\u70b9\u51fb\u5373\u53ef\u6253\u5f00 Keyboard Stats \u5de5\u5177\u7a97\u53e3\u3002\u8fd9\u662f\u4e00\u4e2a\u5f88\u6709\u8da3\u3001\u5f88\u597d\u7528\u7684\u5b9e\u65f6\u7edf\u8ba1\u5de5\u5177\uff0c\u53ef\u4ee5\u5bf9\u4e00\u5929\u7684\u5de5\u4f5c\u6709\u91cf\u5316\u7684\u8ba4\u8bc6\uff0c\u56fe\u6807\u4e5f\u5f88\u4e30\u5bcc\u3002\u5927\u5bb6\u5feb\u4e0a\u624b\u8bd5\u4e00\u8bd5\u5427~</p>\n",
+			"id": 144230,
+			"plugin": {
+				"id": 34106,
+				"link": "/plugin/34106-keyboard-stats",
+				"name": "Keyboard Stats"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "4e740453-5487-4384-a778-486282f3683d",
+				"link": "/author/4e740453-5487-4384-a778-486282f3683d",
+				"name": "\u674e\u7f57\u5f3a"
+			},
+			"cdate": "1788969401000",
+			"comment": "<p>\u8fd9\u662f\u4e00\u4e2a\u5f88\u6709\u8da3\u3001\u5f88\u597d\u7528\u7684\u5b9e\u65f6\u7edf\u8ba1\u5de5\u5177\uff0c\u53ef\u4ee5\u5bf9\u4e00\u5929\u7684\u5de5\u4f5c\u6709\u91cf\u5316\u7684\u8ba4\u8bc6\uff0c\u56fe\u6807\u4e5f\u5f88\u4e30\u5bcc</p>\n",
+			"id": 144228,
+			"plugin": {
+				"id": 34106,
+				"link": "/plugin/34106-keyboard-stats",
+				"name": "Keyboard Stats"
+			},
+			"rating": 0
+		}
+	],
 	"com.lucideicons.dilika": [],
 	"com.lucky.caige.ibatis": [
 		{
@@ -172278,6 +172443,7 @@
 			"rating": 5
 		}
 	],
+	"com.marcinorlowski.glowstick": [],
 	"com.margush.ConstructionPaper": [
 		{
 			"author": {
@@ -173132,6 +173298,7 @@
 	],
 	"com.martinagabrielli.themes.kyoto": [],
 	"com.martinagabrielli.themes.machupicchu": [],
+	"com.masaibar.datastore-inspector": [],
 	"com.master.studio.plugin.adb_input": [
 		{
 			"author": {
@@ -173347,6 +173514,7 @@
 	"com.mengzz.FluentFormatter": [],
 	"com.mercari.psi.mcp": [],
 	"com.meredith.intellij.plugins.openinclude": [],
+	"com.mergesense.testcasegenerator": [],
 	"com.meshgraph.jetbrains": [],
 	"com.meshinfra.jetbrains": [],
 	"com.mesmers.dimentools": [],
@@ -174528,6 +174696,7 @@
 			"rating": 0
 		}
 	],
+	"com.midget.runmarimo": [],
 	"com.midnightgamer.reactnative.snippts": [
 		{
 			"author": {
@@ -174661,6 +174830,7 @@
 			"rating": 0
 		}
 	],
+	"com.migrationguard": [],
 	"com.migu.sapi2md": [],
 	"com.mikedg.StickID": [
 		{
@@ -176145,6 +176315,7 @@
 	"com.moiseskerschner.mkformat": [],
 	"com.moka.gitcommit": [],
 	"com.moling.HjsonHighlighter": [],
+	"com.mondoo.security": [],
 	"com.mongodb.jbplugin": [
 		{
 			"author": {
@@ -179937,6 +180108,7 @@
 		}
 	],
 	"com.newsenselab.todogfilter": [],
+	"com.nexonest.nexorhino": [],
 	"com.nextchaptersoftware.unblocked-jetbrains": [
 		{
 			"author": {
@@ -182322,6 +182494,7 @@
 		}
 	],
 	"com.odbpo.flutter.plugin": [],
+	"com.odoo.devkit": [],
 	"com.odoo.odools": [
 		{
 			"author": {
@@ -186224,8 +186397,10 @@
 	],
 	"com.project.yamlcrossfilenavigator": [],
 	"com.projectfilenotes.plugin": [],
+	"com.projectxray": [],
 	"com.projspec": [],
 	"com.promyze.promyze_plugin": [],
+	"com.pronskiy.agenstorm": [],
 	"com.propertykey.support": [],
 	"com.proteo.intellij.burnt": [
 		{
@@ -188023,6 +188198,7 @@
 	"com.rbower.codex-cli-editor-context": [],
 	"com.rcleandro.proxyadb": [],
 	"com.reader.jetbrains": [],
+	"com.readystack.theme.readystack-warm-dark": [],
 	"com.reasonix.gui": [],
 	"com.recursionai.pseudo": [],
 	"com.redhat.devtools.gateway": [],
@@ -191071,6 +191247,7 @@
 		}
 	],
 	"com.samkortekaas.codam.header": [],
+	"com.samsad.adbcontroller": [],
 	"com.samurai.testrunner": [],
 	"com.samuraism.plugins.backlog": [],
 	"com.samuraism.plugins.kasumi": [
@@ -195925,6 +196102,7 @@
 			"rating": 4
 		}
 	],
+	"com.songwh.bos-project-init": [],
 	"com.soproniuk.speedbump": [],
 	"com.sopsie.jetbrains": [],
 	"com.sothis-baka.IDontHaveAPersonalPage.plugin.1": [],
@@ -204511,6 +204689,24 @@
 	"com.tinyai.observability.idea": [],
 	"com.tinypng.plugin": [],
 	"com.tiobe.plugins.intellij": [],
+	"com.tips.androidtip": [
+		{
+			"author": {
+				"id": "6369a1f3-2705-4f94-8d77-0b2054e77e6d",
+				"link": "/author/6369a1f3-2705-4f94-8d77-0b2054e77e6d",
+				"name": "Ayush Joshi"
+			},
+			"cdate": "1788935819000",
+			"comment": "<p>This is the exact plugin I was looking for!! Great work by the developer!! cheers to him</p>\n",
+			"id": 144202,
+			"plugin": {
+				"id": 34177,
+				"link": "/plugin/34177-android-build-tips",
+				"name": "Android Build Tips"
+			},
+			"rating": 5
+		}
+	],
 	"com.tjhelmuth.postgres-explain-visualizer": [
 		{
 			"author": {
@@ -211104,6 +211300,7 @@
 	"com.waheni.protocolinspector.protocol-inspector": [],
 	"com.waheni.webhookinspector": [],
 	"com.wajahatkarim3.sidemirror": [],
+	"com.wajnc.codex-app": [],
 	"com.wakatime.intellij.plugin": [
 		{
 			"author": {
@@ -215704,6 +215901,7 @@
 			"rating": 5
 		}
 	],
+	"com.yeskiy.yreview": [],
 	"com.yichangyiwai.devtoolbox": [],
 	"com.yidroid.buganalyzer.plugin": [],
 	"com.yii2helper.Yii2Helper": [],
@@ -216916,6 +217114,7 @@
 		}
 	],
 	"com.zapshark.applydiff": [],
+	"com.zaycev.libshelper": [],
 	"com.zaydamri.confignavigator": [
 		{
 			"author": {
@@ -228221,6 +228420,7 @@
 			"rating": 5
 		}
 	],
+	"dev.ancaria.idea": [],
 	"dev.andrybak.intellij.copy_commit_reference": [],
 	"dev.angularsignals.inspection": [],
 	"dev.anvas.orbitrack.idea": [],
@@ -229139,6 +229339,7 @@
 			"rating": 5
 		}
 	],
+	"dev.cempw.cem": [],
 	"dev.ckb.jetbrains": [],
 	"dev.ckob.lazygit": [
 		{
@@ -230530,6 +230731,7 @@
 	],
 	"dev.friday5pm.jb.bun.pro.test": [],
 	"dev.fromnowon.fenix-buddy": [],
+	"dev.fvojta.claude-usage-monitor": [],
 	"dev.gabrielchl.intellij-pets": [
 		{
 			"author": {
@@ -230877,6 +231079,7 @@
 	"dev.gaphunter.correlationidpropagationcompanion": [],
 	"dev.gaphunter.corspolicycompanion": [],
 	"dev.gaphunter.deadlocklockordercompanion": [],
+	"dev.gaphunter.dependencyvulnerabilitycompanion": [],
 	"dev.gaphunter.dockerfilelayersizecompanion": [],
 	"dev.gaphunter.dockerfilemissingusercompanion": [],
 	"dev.gaphunter.dockerfileunusedstagecompanion": [],
@@ -231011,6 +231214,7 @@
 	"dev.gitfocus": [],
 	"dev.glasberg.marcelosdartplugin": [],
 	"dev.gopherglide.gg-plugin": [],
+	"dev.greeny.kmr": [],
 	"dev.grid.flowchart": [],
 	"dev.guicons.idea-plugin": [],
 	"dev.hashnode.bas.insomniac": [
@@ -231973,6 +232177,24 @@
 			"rating": 4
 		}
 	],
+	"dev.koltyakov.varro-openjet": [
+		{
+			"author": {
+				"id": "41d50b9a-01ac-4872-8be6-1dce8ce9aec4",
+				"link": "/author/41d50b9a-01ac-4872-8be6-1dce8ce9aec4",
+				"name": "Vishnu Das"
+			},
+			"cdate": "1789159846000",
+			"comment": "<p>I\u2019ve been using Varro, and it is hands down the best open-source community agentic harness I\u2019ve integrated with IntelliJ. It handles the workflow flawlessly and just gets the job done. Fantastic work\u2014keep it up!</p>\n",
+			"id": 144284,
+			"plugin": {
+				"id": 34204,
+				"link": "/plugin/34204-varro-openjet",
+				"name": "Varro: OpenJet"
+			},
+			"rating": 5
+		}
+	],
 	"dev.kolychev.jetbrains-cyberpunk-neon-theme": [
 		{
 			"author": {
@@ -232893,6 +233115,7 @@
 			"rating": 2
 		}
 	],
+	"dev.meanmail.plugin.python-environments": [],
 	"dev.meanmail.plugin.rag": [],
 	"dev.meanmail.plugin.save": [
 		{
@@ -234262,6 +234485,7 @@
 		}
 	],
 	"dev.pell": [],
+	"dev.pinboard.agent": [],
 	"dev.pnbarx.idea.treecolor": [
 		{
 			"author": {
@@ -235264,6 +235488,7 @@
 	],
 	"dev.privatech.plugin.minimessage": [],
 	"dev.promptbundler": [],
+	"dev.proofjava.plugin": [],
 	"dev.protsenko.security-linter": [
 		{
 			"author": {
@@ -235666,6 +235891,7 @@
 	"dev.sellerkit.markdownpreviewplus": [],
 	"dev.sellerkit.s3browser": [],
 	"dev.sellerkit.sfnwatch": [],
+	"dev.senjucao.reactnativeworkbench": [],
 	"dev.sentinelseed.jetbrains": [],
 	"dev.sergboec.projectTreeMarker": [],
 	"dev.serverpod.idea": [],
@@ -235811,6 +236037,7 @@
 		}
 	],
 	"dev.smoothbrains.prompttemplates": [],
+	"dev.sondre.dual-terminal-tool-windows": [],
 	"dev.sort.doris-intellij-plugin": [],
 	"dev.sort.duckdb-intellij-plugin": [],
 	"dev.sort.sql-transpiler-intellij-plugin": [],
@@ -236131,6 +236358,7 @@
 		}
 	],
 	"dev.thymian.client": [],
+	"dev.tideglass.dark": [],
 	"dev.timecomplexity.time-complexity": [],
 	"dev.timothyw.treegen": [
 		{
@@ -236703,6 +236931,7 @@
 	"dev.veld.jetbrains": [],
 	"dev.verloren.midnight": [],
 	"dev.vertexworkbench.connector": [],
+	"dev.vetro.ansible": [],
 	"dev.vetro.dataview": [],
 	"dev.vibeguard.jetbrains": [],
 	"dev.vinayshetty.stateart": [
@@ -237648,6 +237877,7 @@
 			"rating": 5
 		}
 	],
+	"e.y.sound-url-player": [],
 	"easy-code": [],
 	"easy.char": [
 		{
@@ -240915,6 +241145,7 @@
 		}
 	],
 	"fr.ftnl.JsonPathEditor": [],
+	"fr.gryphou.glfm": [],
 	"fr.gwallet.intellij.windowsizer": [],
 	"fr.jukien.intellij.plugins.pojo-generator": [
 		{
@@ -250810,6 +251041,7 @@
 			"rating": 1
 		}
 	],
+	"io.edgely.console": [],
 	"io.eightpigs.intellij.darktheme": [
 		{
 			"author": {
@@ -251963,6 +252195,7 @@
 	"io.github.braams.kamailio": [],
 	"io.github.bric3.rectangle": [],
 	"io.github.canjiemo.mydict": [],
+	"io.github.cdgeass.disable-default-maven-http-interceptor": [],
 	"io.github.cdgeass.disable-maven-default-http-blocker": [
 		{
 			"author": {
@@ -252264,6 +252497,7 @@
 		}
 	],
 	"io.github.configdrift": [],
+	"io.github.cookpiu.nextkey": [],
 	"io.github.crazycoder.copysettingpath": [
 		{
 			"author": {
@@ -253781,6 +254015,7 @@
 	"io.github.huacnlee.autocorrect": [],
 	"io.github.huahill.mason.idea": [],
 	"io.github.huanyv.totalcmd": [],
+	"io.github.hughedward.springinitsupport": [],
 	"io.github.iceholic.noctis": [],
 	"io.github.ingrowthly.icons": [],
 	"io.github.intellijnews": [],
@@ -253876,6 +254111,7 @@
 	],
 	"io.github.jingu.idea-qiq-plugin": [],
 	"io.github.joelkanyi.peek": [],
+	"io.github.jog16.queryguard": [],
 	"io.github.kafuuneko.asdiff": [],
 	"io.github.kaywgeek.phpstantypetrace": [],
 	"io.github.ketraterm.terminal": [],
@@ -254224,6 +254460,7 @@
 			"rating": 5
 		}
 	],
+	"io.github.kuan1113.mdlinkkeeper": [],
 	"io.github.l2dy.ide.ic.nginx": [],
 	"io.github.lawlielt.codex.jetbrains": [],
 	"io.github.layjustdoit.jrebel.mybatisplus": [],
@@ -254758,6 +254995,7 @@
 	"io.github.localconfigsync.jetbrains": [],
 	"io.github.lomy79.branchinprojectview": [],
 	"io.github.luca992.cargo-auto-features": [],
+	"io.github.lucasorvillo.shortdbtabs": [],
 	"io.github.lukmccall.better-exclude": [
 		{
 			"author": {
@@ -254845,6 +255083,7 @@
 		}
 	],
 	"io.github.massimodeiana.exposed-er": [],
+	"io.github.maximgromov.commentcloak": [],
 	"io.github.md2conf.idea-markdown-copy-as-plugin": [],
 	"io.github.memory2314.mavendependencyassistant": [],
 	"io.github.meteulken.commithelper": [
@@ -256277,6 +256516,7 @@
 			"rating": 0
 		}
 	],
+	"io.github.stpavliuk.codex.idecontext": [],
 	"io.github.sufarook.gh-account-switcher": [],
 	"io.github.suhli.elasticsearch.rest": [],
 	"io.github.sushkovpv.extended-intellij-mcp": [],
@@ -256298,6 +256538,7 @@
 			"rating": 5
 		}
 	],
+	"io.github.sweetpark.mybatis-sql-tuner-ai": [],
 	"io.github.takahirom.roborazzi": [],
 	"io.github.takc923.better-sticky-selection": [
 		{
@@ -256590,6 +256831,7 @@
 	],
 	"io.github.tmakerchima.springvibebench": [],
 	"io.github.tonygnk.cataloglens": [],
+	"io.github.traivslin.codexusage": [],
 	"io.github.tt432.k9tools": [],
 	"io.github.umutcansu.Completor": [],
 	"io.github.umutcansu.FlavorAutocompletePlugin": [],
@@ -256602,6 +256844,7 @@
 	"io.github.vadimtoptunov.http-data-injector": [],
 	"io.github.vadimtoptunov.iso8583": [],
 	"io.github.vadimtoptunov.kassi-testdata": [],
+	"io.github.vadimtoptunov.leak-guard": [],
 	"io.github.vadimtoptunov.mrz-inspector": [],
 	"io.github.vadimtoptunov.robot-framework": [],
 	"io.github.vadimtoptunov.swift-mt": [],
@@ -257109,6 +257352,7 @@
 		}
 	],
 	"io.gitlab.jfronny.s-dom": [],
+	"io.gitlab.misteriosojo.rundoctor": [],
 	"io.gitlab.zlamalp.arc-theme-idea": [
 		{
 			"author": {
@@ -257920,6 +258164,328 @@
 				"id": 16141,
 				"link": "/plugin/16141-k6",
 				"name": "k6"
+			},
+			"rating": 5
+		}
+	],
+	"io.kanro.idea.plugin.protobuf": [
+		{
+			"author": {
+				"id": "84ac700c-28a1-44b2-8026-03477228d1fb",
+				"link": "/author/84ac700c-28a1-44b2-8026-03477228d1fb",
+				"name": "thor"
+			},
+			"cdate": "1754883621000",
+			"comment": "<p>\u8ddf\u4e0a\u65b0\u7248\u672c\u554a GoLand 2025.2</p>\n",
+			"id": 122800,
+			"plugin": {
+				"id": 16422,
+				"link": "/plugin/16422-protobuf",
+				"name": "Protobuf"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "9bc18798-16db-46b8-b605-ce4b27b129e4",
+				"link": "/author/9bc18798-16db-46b8-b605-ce4b27b129e4",
+				"name": "\u5f20\u5609\u535a"
+			},
+			"cdate": "1753794737000",
+			"comment": "<p>Protobuf Editions not support</p>\n",
+			"id": 121998,
+			"plugin": {
+				"id": 16422,
+				"link": "/plugin/16422-protobuf",
+				"name": "Protobuf"
+			},
+			"rating": 1
+		},
+		{
+			"author": {
+				"id": "bd39794d-5a86-48de-9890-42c13d8eada3",
+				"link": "/author/bd39794d-5a86-48de-9890-42c13d8eada3",
+				"name": "Dan  Sherwin"
+			},
+			"cdate": "1752725718000",
+			"comment": "<p>Shows that it cant find imports when the import is even in the same directory and it works with protoc just fine.  Just shows to many errors when there are none.</p>\n",
+			"id": 121247,
+			"plugin": {
+				"id": 16422,
+				"link": "/plugin/16422-protobuf",
+				"name": "Protobuf"
+			},
+			"rating": 2
+		},
+		{
+			"author": {
+				"id": "d3f445f5-2c28-4ba1-b48c-6507059c9c0e",
+				"link": "/author/d3f445f5-2c28-4ba1-b48c-6507059c9c0e",
+				"name": "ursstotz"
+			},
+			"cdate": "1751658960000",
+			"comment": "<p>IDEA blocked on startup with the following selection window.\nThe plugins below cannot function at the same time.\nSelect which to enable:\n[ ] Use Protobuf by HIGAN\n[ ] Use Protocol Buffers by JetBrains\nI could not select any of these plugins and IDEA remained blocked.\nExited IDEA and edited the following file:\n%APPDATA%\\JetBrains\\IntelliJIdea\\disabled_plugins.txt\nEither: enter protobuf\nor enter protobuf-higan and deactivate one of these plugins.\nIDEA can be started again.</p>\n",
+			"id": 120616,
+			"plugin": {
+				"id": 16422,
+				"link": "/plugin/16422-protobuf",
+				"name": "Protobuf"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "60e9410a-fb7b-4a57-9dd0-b9ae09ebc242",
+				"link": "/author/60e9410a-fb7b-4a57-9dd0-b9ae09ebc242",
+				"name": "Cv"
+			},
+			"cdate": "1748384530000",
+			"comment": "<p>import other .proto file seems not work well</p>\n",
+			"id": 118475,
+			"plugin": {
+				"id": 16422,
+				"link": "/plugin/16422-protobuf",
+				"name": "Protobuf"
+			},
+			"rating": 4
+		},
+		{
+			"author": {
+				"id": "4d1197a3-7e26-433b-9541-1d77039aad5c",
+				"link": "/author/4d1197a3-7e26-433b-9541-1d77039aad5c",
+				"name": "blake"
+			},
+			"cdate": "1727062381000",
+			"comment": "<p>\u8fd9\u4e2a\u63d2\u4ef6\u592a\u5f3a\u4e86\uff0c\u540a\u6253\u5b98\u65b9pb\u63d2\u4ef6</p>\n",
+			"id": 106183,
+			"plugin": {
+				"id": 16422,
+				"link": "/plugin/16422-protobuf",
+				"name": "Protobuf"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "cf5a8b61-8528-4bf6-af49-c56d8d134c30",
+				"link": "/author/cf5a8b61-8528-4bf6-af49-c56d8d134c30",
+				"name": "ZHOUXING"
+			},
+			"cdate": "1703831487000",
+			"comment": "",
+			"id": 94594,
+			"plugin": {
+				"id": 16422,
+				"link": "/plugin/16422-protobuf",
+				"name": "Protobuf"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "c7d27a74-c5b1-4a15-ba4b-d5d67c3dc20b",
+				"link": "/author/c7d27a74-c5b1-4a15-ba4b-d5d67c3dc20b",
+				"name": "Danny Su"
+			},
+			"cdate": "1670395707000",
+			"comment": "<p>Unhandled exception in [ModalityState.NON_MODAL, StandaloneCoroutine{Cancelling}@43bf89f3, EDT]</p>\n<p>java.lang.ClassCastException: class org.jetbrains.kotlin.psi.KtNamedFunction cannot be cast to class io.kanro.idea.plugin.protobuf.lang.psi.primitive.ProtobufElement (org.jetbrains.kotlin.psi.KtNamedFunction is in unnamed module of loader com.intellij.ide.plugins.cl.PluginClassLoader @2e104589; io.kanro.idea.plugin.protobuf.lang.psi.primitive.ProtobufElement is in unnamed module of loader com.intellij.ide.plugins.cl.PluginClassLoader @503ac690)\nat io.kanro.idea.plugin.protobuf.lang.ui.ProtobufDocumentationProvider.getDocumentationElementForLink(ProtobufDocumentationProvider.kt:43)\nat com.intellij.lang.documentation.CompositeDocumentationProvider.getDocumentationElementForLink(CompositeDocumentationProvider.java:202)\nat com.intellij.codeInsight.documentation.DocumentationManager.targetFromLanguageProviders(DocumentationManager.java:1362)\nat com.intellij.codeInsight.documentation.DocumentationManager.targetElement(DocumentationManager.java:1351)\nat com.intellij.codeInsight.documentation.DocumentationManager.targetAndRef(DocumentationManager.java:1316)\nat com.intellij.lang.documentation.psi.PsiDocumentationLinkHandler.resolveLink(PsiDocumentationLinkHandler.kt:20)\nat com.intellij.lang.documentation.impl.ImplKt.resolveLink(impl.kt:178)\nat com.intellij.lang.documentation.impl.ImplKt.resolveLinkInReadAction(impl.kt:167)\nat com.intellij.lang.documentation.impl.ImplKt.access$resolveLinkInReadAction(impl.kt:1)\nat com.intellij.lang.documentation.impl.ImplKt$resolveLink$readActionResult$1.invoke(impl.kt:121)\nat com.intellij.lang.documentation.impl.ImplKt$resolveLink$readActionResult$1.invoke(impl.kt:120)\nat com.intellij.openapi.application.rw.InternalReadAction.insideReadAction(InternalReadAction.kt:90)\nat com.intellij.openapi.application.rw.InternalReadAction.access$insideReadAction(InternalReadAction.kt:15)\nat com.intellij.openapi.application.rw.InternalReadAction$tryReadCancellable$1.invoke(InternalReadAction.kt:74)\nat com.intellij.openapi.application.rw.InternalReadAction$tryReadCancellable$1.invoke(InternalReadAction.kt:73)\nat com.intellij.openapi.progress.CancellationKt.withCurrentJob$lambda-0(cancellation.kt:17)\nat com.intellij.openapi.progress.Cancellation.withCurrentJob(Cancellation.java:60)\nat com.intellij.openapi.progress.CancellationKt.withCurrentJob(cancellation.kt:17)\nat com.intellij.openapi.progress.CancellationKt.executeWithJobAndCompleteIt(cancellation.kt:125)\nat com.intellij.openapi.application.rw.CancellableReadActionKt.cancellableReadActionInternal$lambda-1$lambda-0(cancellableReadAction.kt:49)\nat com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1086)\nat com.intellij.openapi.application.rw.CancellableReadActionKt.cancellableReadActionInternal$lambda-1(cancellableReadAction.kt:47)\nat com.intellij.openapi.progress.util.ProgressIndicatorUtilService.runActionAndCancelBeforeWrite(ProgressIndicatorUtilService.java:63)\nat com.intellij.openapi.progress.util.ProgressIndicatorUtils.runActionAndCancelBeforeWrite(ProgressIndicatorUtils.java:128)\nat com.intellij.openapi.application.rw.CancellableReadActionKt.cancellableReadActionInternal(cancellableReadAction.kt:45)\nat com.intellij.openapi.application.rw.InternalReadAction.tryReadCancellable(InternalReadAction.kt:73)\nat com.intellij.openapi.application.rw.InternalReadAction.access$tryReadCancellable(InternalReadAction.kt:15)\nat com.intellij.openapi.application.rw.InternalReadAction$tryReadAction$2.invoke(InternalReadAction.kt:59)\nat com.intellij.openapi.application.rw.InternalReadAction$tryReadAction$2.invoke(InternalReadAction.kt:54)\nat com.intellij.openapi.progress.CancellationKt.withCurrentJob$lambda-0(cancellation.kt:17)\nat com.intellij.openapi.progress.Cancellation.withCurrentJob(Cancellation.java:60)\nat com.intellij.openapi.progress.CancellationKt.withCurrentJob(cancellation.kt:17)\nat com.intellij.openapi.progress.CoroutinesKt.blockingContext(coroutines.kt:142)\nat com.intellij.openapi.application.rw.InternalReadAction.tryReadAction(InternalReadAction.kt:54)\nat com.intellij.openapi.application.rw.InternalReadAction.readLoop(InternalReadAction.kt:46)\nat com.intellij.openapi.application.rw.InternalReadAction.access$readLoop(InternalReadAction.kt:15)\nat com.intellij.openapi.application.rw.InternalReadAction$runReadAction$2.invokeSuspend(InternalReadAction.kt:27)\nat com.intellij.openapi.application.rw.InternalReadAction$runReadAction$2.invoke(InternalReadAction.kt)\nat com.intellij.openapi.application.rw.InternalReadAction$runReadAction$2.invoke(InternalReadAction.kt)\nat kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:89)\nat kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:169)\nat kotlinx.coroutines.BuildersKt.withContext(Unknown Source)\nat com.intellij.openapi.application.rw.InternalReadAction.runReadAction(InternalReadAction.kt:23)\nat com.intellij.openapi.application.rw.PlatformReadActionSupport.executeReadAction(PlatformReadActionSupport.kt:24)\nat com.intellij.openapi.application.CoroutinesKt.constrainedReadAction(coroutines.kt:51)\nat com.intellij.openapi.application.CoroutinesKt.readAction(coroutines.kt:19)\nat com.intellij.lang.documentation.impl.ImplKt.resolveLink(impl.kt:120)\nat com.intellij.lang.documentation.impl.ImplKt.resolveLink(impl.kt:109)\nat com.intellij.lang.documentation.ide.impl.DocumentationManager$activateInlineLinkS$2$result$1.invokeSuspend(DocumentationManager.kt:250)\nat kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)\nat kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)\nat kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)\nat kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)\nat kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)\nat kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)\nSuppressed: kotlinx.coroutines.DiagnosticCoroutineContextException: [ModalityState.NON_MODAL, StandaloneCoroutine{Cancelled}@43bf89f3, EDT]</p>\n",
+			"id": 76268,
+			"plugin": {
+				"id": 16422,
+				"link": "/plugin/16422-protobuf",
+				"name": "Protobuf"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "9c668eee-3c48-4813-ad04-85bb1c30b5b9",
+				"link": "/author/9c668eee-3c48-4813-ad04-85bb1c30b5b9",
+				"name": "Sirius Chen"
+			},
+			"cdate": "1667448636000",
+			"comment": "<p>Excellent plugin!</p>\n",
+			"id": 74349,
+			"plugin": {
+				"id": 16422,
+				"link": "/plugin/16422-protobuf",
+				"name": "Protobuf"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "cfc100d2-9d82-48b3-8339-0f1e046bce31",
+				"link": "/author/cfc100d2-9d82-48b3-8339-0f1e046bce31",
+				"name": "Mikhail Zyatin"
+			},
+			"cdate": "1666437505000",
+			"comment": "<p>Better than the packaged Protobuf plugin but have several issues.</p>\n<p>Most importantly, it does not integrates with custom linter settings in <code>buf.yaml</code>. Shows a lot of irrelevant errors in pre-commit code checks. Makes these checks useless if you have a lot of proto files.</p>\n",
+			"id": 73893,
+			"plugin": {
+				"id": 16422,
+				"link": "/plugin/16422-protobuf",
+				"name": "Protobuf"
+			},
+			"rating": 3
+		},
+		{
+			"author": {
+				"id": "9690bcd2-24bc-4e3a-994c-0cc6a794efe1",
+				"link": "/author/9690bcd2-24bc-4e3a-994c-0cc6a794efe1",
+				"name": "Rich Burdon"
+			},
+			"cdate": "1663393314000",
+			"comment": "<p>Caused IDE to hang on restart.</p>\n",
+			"id": 71942,
+			"plugin": {
+				"id": 16422,
+				"link": "/plugin/16422-protobuf",
+				"name": "Protobuf"
+			},
+			"rating": 1
+		},
+		{
+			"author": {
+				"id": "63a2feec-4ef1-4f8b-ba75-e3f35d957df9",
+				"link": "/author/63a2feec-4ef1-4f8b-ba75-e3f35d957df9",
+				"name": "Mauricio Leyzaola"
+			},
+			"cdate": "1641463809000",
+			"comment": "<p>This is a great plugin, imo better than included with IntellliJ products. I put a 4/5 because it is sometimes painfully slow.</p>\n",
+			"id": 63362,
+			"plugin": {
+				"id": 16422,
+				"link": "/plugin/16422-protobuf",
+				"name": "Protobuf"
+			},
+			"rating": 4
+		},
+		{
+			"author": {
+				"id": "074c1dd5-c640-4c0f-82af-5859c4469a36",
+				"link": "/author/074c1dd5-c640-4c0f-82af-5859c4469a36",
+				"name": "Daniel Selans"
+			},
+			"cdate": "1636083079000",
+			"comment": "<p>This plugin provides <em>complete</em> protobuf support. It does not feel like just syntax highlighting with bells and whistles. Once you update the include path - imports work as you'd expect.</p>\n<p>Would like to be able to configure the linter so it's less loud about some things, but that's about it.</p>\n",
+			"id": 61226,
+			"plugin": {
+				"id": 16422,
+				"link": "/plugin/16422-protobuf",
+				"name": "Protobuf"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "a684a5e5-5709-4b46-929b-b82d60e187c0",
+				"link": "/author/a684a5e5-5709-4b46-929b-b82d60e187c0",
+				"name": "\u51c9\u6c7d\u6c34"
+			},
+			"cdate": "1631778123000",
+			"comment": "<p>There is a problem: import cannot recognize files in the same directory. For example, when importing \"test.proto\", it will be marked with a red syntax error, but if it is changed to import \"../test.proto\", it is correct.</p>\n",
+			"id": 59508,
+			"plugin": {
+				"id": 16422,
+				"link": "/plugin/16422-protobuf",
+				"name": "Protobuf"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "4cda4ea6-80d3-4fe1-a106-98b785ce7322",
+				"link": "/author/4cda4ea6-80d3-4fe1-a106-98b785ce7322",
+				"name": "Asaduzzaman Pavel"
+			},
+			"cdate": "1629704648000",
+			"comment": "<p>works great.</p>\n",
+			"id": 58562,
+			"plugin": {
+				"id": 16422,
+				"link": "/plugin/16422-protobuf",
+				"name": "Protobuf"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "4cda4ea6-80d3-4fe1-a106-98b785ce7322",
+				"link": "/author/4cda4ea6-80d3-4fe1-a106-98b785ce7322",
+				"name": "Asaduzzaman Pavel"
+			},
+			"cdate": "1628885624000",
+			"comment": "",
+			"id": 58139,
+			"plugin": {
+				"id": 16422,
+				"link": "/plugin/16422-protobuf",
+				"name": "Protobuf"
+			},
+			"rating": 2
+		},
+		{
+			"author": {
+				"id": "b144ec9f-c62a-46bb-a629-e311b4b4ce6c",
+				"link": "/author/b144ec9f-c62a-46bb-a629-e311b4b4ce6c",
+				"name": "Scott Lindner"
+			},
+			"cdate": "1628020241000",
+			"comment": "<p>Best Protobuffer plugin for Intellij. It treats your *.proto files just like Java. If you are having troubles after updating to 2012.2, be sure to disable the embedded protocol buffer and gRPC plugins, then enable this plugin. You may need to restart again after making those changes.</p>\n",
+			"id": 57509,
+			"plugin": {
+				"id": 16422,
+				"link": "/plugin/16422-protobuf",
+				"name": "Protobuf"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "b144ec9f-c62a-46bb-a629-e311b4b4ce6c",
+				"link": "/author/b144ec9f-c62a-46bb-a629-e311b4b4ce6c",
+				"name": "Scott Lindner"
+			},
+			"cdate": "1628011591000",
+			"comment": "",
+			"id": 57491,
+			"plugin": {
+				"id": 16422,
+				"link": "/plugin/16422-protobuf",
+				"name": "Protobuf"
+			},
+			"rating": 1
+		},
+		{
+			"author": {
+				"id": "cad9d8d7-71c1-4c94-9bd6-0c8894b5da68",
+				"link": "/author/cad9d8d7-71c1-4c94-9bd6-0c8894b5da68",
+				"name": "susu susu"
+			},
+			"cdate": "1625640362000",
+			"comment": "<p><code>option go_package = \"/proto\";</code> :: Built-in option 'go_package' not found</p>\n<pre><code>syntax = \"proto3\";\n\npackage ecommerce;\n\noption go_package = \"/proto\";\n\nservice ProductInfo {\n    rpc AddProject(Product) returns  (ProductId);\n    rpc GetProduct(ProductId) returns (Product);\n}\n\nmessage ProductId {\n    string id = 1;\n    string name = 2;\n    string description = 3;\n    float price = 4;\n}\n\nmessage Product {\n    string value = 1;\n}\n</code></pre>\n",
+			"id": 56293,
+			"plugin": {
+				"id": 16422,
+				"link": "/plugin/16422-protobuf",
+				"name": "Protobuf"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "36c01791-28bf-4696-a6d8-e63a135494ca",
+				"link": "/author/36c01791-28bf-4696-a6d8-e63a135494ca",
+				"name": "Denis"
+			},
+			"cdate": "1625051776000",
+			"comment": "<p>This thing feels like a real IDE plugin: auto imports, best look auto formatting, good inspection to prevent common quirks (like enum's names), etc.</p>\n<p>By far the best protobuf extension right now, highly recommended.</p>\n",
+			"id": 56084,
+			"plugin": {
+				"id": 16422,
+				"link": "/plugin/16422-protobuf",
+				"name": "Protobuf"
 			},
 			"rating": 5
 		}
@@ -282110,6 +282676,7 @@
 	"org.adroitlogic.idea.plugin": [],
 	"org.ai.dev.tools.AIcons": [],
 	"org.aibrain.ai_constructor_plugin": [],
+	"org.aicommitmessage": [],
 	"org.aione.termgrid": [],
 	"org.aixsoft.stream-navigator": [],
 	"org.akazukin.editorBackgroundImage": [
@@ -306114,6 +306681,7 @@
 		}
 	],
 	"org.structureddataarchive.sda": [],
+	"org.stvnadore.plugin": [],
 	"org.sui.lang": [
 		{
 			"author": {
@@ -316734,6 +317302,7 @@
 	],
 	"simple-flexoki": [],
 	"simpli.fyi.plugins.forge.manifest.validator": [],
+	"simpli.fyi.plugins.typespec": [],
 	"siosio.DomaSupport": [],
 	"siosio.EmojiCommitLogViewer": [
 		{
