@@ -29849,6 +29849,7 @@
 			"rating": 0
 		}
 	],
+	"TokyoNightCodex": [],
 	"Tokyo_Night_YuKi": [],
 	"Tomcat": [
 		{
@@ -33205,6 +33206,7 @@
 	"ai.poolside.assistant": [],
 	"ai.qaeverest.jetbrains": [],
 	"ai.qwiet.jetbrains": [],
+	"ai.saffron.jetbrains": [],
 	"ai.sanakan.fugu.idea": [],
 	"ai.specdd.idea": [],
 	"ai.unifiedprocess.tools.ij": [],
@@ -36696,6 +36698,7 @@
 		}
 	],
 	"at.datenwort.idea-plugins.ZoonesIdeAssistant": [],
+	"at.destion.object-workbench": [],
 	"at.dotti.intellij.plugins.team.mattermost": [
 		{
 			"author": {
@@ -40582,6 +40585,7 @@
 			"rating": 5
 		}
 	],
+	"cat.martori.petrichor": [],
 	"cat.wavy.catactivity": [
 		{
 			"author": {
@@ -42260,6 +42264,7 @@
 			"rating": 4
 		}
 	],
+	"cn.3shy.gitlabplus": [],
 	"cn.acyou.MyTools": [],
 	"cn.alanhe.plugin.bookmarkx4idea": [
 		{
@@ -43346,6 +43351,7 @@
 			"rating": 0
 		}
 	],
+	"cn.duqimeng.geo-viewer-plus": [],
 	"cn.duxinglan.openapispecgenie": [],
 	"cn.dxy.app.DxyJsonToDart": [
 		{
@@ -45541,6 +45547,7 @@
 		}
 	],
 	"cn.therouter": [],
+	"cn.tinyue.commentnavigation": [],
 	"cn.torna.torna": [],
 	"cn.varsa.idea.eclipse.pde.partial": [
 		{
@@ -49236,6 +49243,7 @@
 			"rating": 5
 		}
 	],
+	"co.uk.androidalliance.plugin.dpad": [],
 	"co.uk.owenrumney.boltdb-explorer-intellij": [],
 	"code-light-theme": [],
 	"code-review-plus": [],
@@ -56168,6 +56176,7 @@
 		}
 	],
 	"com.allsimon.devenv": [],
+	"com.almasix.ide": [],
 	"com.almightyalpaca.intellij.plugins.discord": [
 		{
 			"author": {
@@ -61806,6 +61815,7 @@
 	"com.bamboo": [],
 	"com.bamuel.spllang": [],
 	"com.ban.acai": [],
+	"com.bangbang93.onesideatask": [],
 	"com.banqc.restautolab": [],
 	"com.baomidou.plugin.idea.mybatisPlus": [
 		{
@@ -67361,6 +67371,7 @@
 			"rating": 5
 		}
 	],
+	"com.caye.commithelper": [],
 	"com.cccstudio.effect_finder": [],
 	"com.cchabanois.mesfavoris": [],
 	"com.ccidea.plugin": [],
@@ -68009,6 +68020,24 @@
 		}
 	],
 	"com.ccnode.codegenerator.mybatis.generator": [],
+	"com.ccoder.claudecode": [
+		{
+			"author": {
+				"id": "31df99e2-9ef7-4951-8535-6f4fd290b6e2",
+				"link": "/author/31df99e2-9ef7-4951-8535-6f4fd290b6e2",
+				"name": "chenyuanjiayou"
+			},
+			"cdate": "1789558120000",
+			"comment": "<p>\u4e0d\u9519\u5f88\u597d\u7528\uff0c\u529f\u80fd\u9f50\u5168\uff0c\u901f\u5ea6\u975e\u5e38\u5feb\uff0c\u518d\u4e5f\u4e0d\u4f1a\u5361\u6b7b\u4e86</p>\n",
+			"id": 144374,
+			"plugin": {
+				"id": 34281,
+				"link": "/plugin/34281-ccoder-claude-code-assistant-",
+				"name": "CCoder (Claude Code Assistant)"
+			},
+			"rating": 0
+		}
+	],
 	"com.ccopy.CCopy": [],
 	"com.ccsoftware.copycodereference": [],
 	"com.ccterminal": [],
@@ -68258,6 +68287,7 @@
 			"rating": 0
 		}
 	],
+	"com.chelayel.airelay": [],
 	"com.chelayel.geminirelay": [],
 	"com.chelayel.relay.claude": [],
 	"com.chenenyu.intellij.widgetgenerator": [
@@ -73749,6 +73779,7 @@
 			"rating": 5
 		}
 	],
+	"com.codigrate.etna.theme": [],
 	"com.codigrate.everest.theme": [
 		{
 			"author": {
@@ -73895,6 +73926,7 @@
 			"rating": 5
 		}
 	],
+	"com.codigrate.fuji.theme": [],
 	"com.codigrate.istanbul.theme": [
 		{
 			"author": {
@@ -73913,8 +73945,13 @@
 			"rating": 5
 		}
 	],
+	"com.codigrate.london.theme": [],
+	"com.codigrate.madrid.theme": [],
 	"com.codigrate.miami.theme": [],
+	"com.codigrate.ocean.theme": [],
 	"com.codigrate.paris.theme": [],
+	"com.codigrate.prague.theme": [],
+	"com.codigrate.reynisfjara.theme": [],
 	"com.codigrate.rio-de-janeiro.theme": [],
 	"com.codigrate.roraima.theme": [
 		{
@@ -73968,6 +74005,7 @@
 			"rating": 0
 		}
 	],
+	"com.codigrate.salda.theme": [],
 	"com.codigrate.sequoia.theme": [
 		{
 			"author": {
@@ -74002,8 +74040,11 @@
 			"rating": 1
 		}
 	],
+	"com.codigrate.spring.theme": [],
+	"com.codigrate.sydney.theme": [],
 	"com.codigrate.tallinn.theme": [],
 	"com.codigrate.tokyo.theme": [],
+	"com.codigrate.vienna.theme": [],
 	"com.coding9.claude-code-sessions": [
 		{
 			"author": {
@@ -74165,6 +74206,7 @@
 		}
 	],
 	"com.complianceagent.skills": [],
+	"com.composeatlas.plugin": [],
 	"com.composeinspector.compose-inspector": [
 		{
 			"author": {
@@ -78068,6 +78110,7 @@
 		}
 	],
 	"com.dbblueprint": [],
+	"com.dbocharov.tolgee": [],
 	"com.dbthelper": [
 		{
 			"author": {
@@ -78668,6 +78711,7 @@
 			"rating": 0
 		}
 	],
+	"com.decompiler": [],
 	"com.deepseek.copilot": [],
 	"com.deepseek.dsh.ide": [],
 	"com.deepseek.dshstudio": [],
@@ -79312,6 +79356,7 @@
 			"rating": 5
 		}
 	],
+	"com.delight4.SixExit": [],
 	"com.demandware.studio": [],
 	"com.demisto.demisto-plugin": [
 		{
@@ -84743,6 +84788,7 @@
 			"rating": 5
 		}
 	],
+	"com.erahtin.fieldColorizer.FieldColorizer": [],
 	"com.eric-li.layout-inspector-v2": [
 		{
 			"author": {
@@ -85081,6 +85127,7 @@
 	],
 	"com.esviza.getOffColorSchemeFont": [],
 	"com.esviza.getOffReaderMode": [],
+	"com.etemad.jsonviewer": [],
 	"com.ethan.wdt": [],
 	"com.etrx.codereviewer": [],
 	"com.eugenePetrenko.idea.dependencies": [
@@ -85192,6 +85239,7 @@
 		}
 	],
 	"com.evorsio.maven-package-manager": [],
+	"com.evren.polar-night-theme": [],
 	"com.example.Base64": [],
 	"com.example.BongoCat": [
 		{
@@ -85592,6 +85640,7 @@
 		}
 	],
 	"com.extractstrings.extract-hardcoded-strings-only": [],
+	"com.ezevia.cydecient.free": [],
 	"com.ezevillo.gitreview": [],
 	"com.ezio.gen.turbo": [],
 	"com.f3dc4r.waterreminder": [],
@@ -88669,8 +88718,11 @@
 	"com.focusguard.plugin": [],
 	"com.focustech.mic": [],
 	"com.fomin.plugin": [],
+	"com.forcepushdev.preflight": [],
+	"com.foreglow.theme.jetbrains": [],
 	"com.foreglow.theme.jetbrains.unofficial": [],
 	"com.forever.stockwatcher": [],
+	"com.forge.bpmn": [],
 	"com.forketyfork.walkthrough": [
 		{
 			"author": {
@@ -90687,6 +90739,7 @@
 	"com.gerry.keymap": [],
 	"com.getarchlens": [],
 	"com.getpagespeed.gixy": [],
+	"com.getreadystack.k8s-removed-api-lint": [],
 	"com.getrollupapps.trinoathena": [],
 	"com.gfh.apimate": [],
 	"com.gg.plugins.clipboardtoselectiondiff": [],
@@ -94300,6 +94353,7 @@
 			"rating": 1
 		}
 	],
+	"com.github.believepxw.yigo": [],
 	"com.github.bellini666.pytest-language-server": [],
 	"com.github.benjamin_thomas.intellij_rescript": [],
 	"com.github.besok.foresterintellijplugin": [],
@@ -96310,6 +96364,7 @@
 		}
 	],
 	"com.github.bridgecrewio.prismacloud": [],
+	"com.github.brunns.xcintellij": [],
 	"com.github.brunobastosg.gerador-cpf-cnpj-intellij-idea": [],
 	"com.github.bsafwen.sbtcodeartifactcreds": [],
 	"com.github.btbrq.simpleeditorplugin": [
@@ -97232,6 +97287,7 @@
 			"rating": 4
 		}
 	],
+	"com.github.catthode.jetbrains": [],
 	"com.github.cazayus.cmdsupport": [],
 	"com.github.cgl.sql-heading-folding": [],
 	"com.github.changingjp.jetbrainspluginforpebblewatch": [],
@@ -98557,6 +98613,7 @@
 			"rating": 5
 		}
 	],
+	"com.github.copypathhelper": [],
 	"com.github.cpardi.markdowncodereview": [],
 	"com.github.cplexopl.opl-support": [
 		{
@@ -101396,6 +101453,24 @@
 			"rating": 5
 		}
 	],
+	"com.github.fabiopelliccia.copilotsessionsimportexport": [
+		{
+			"author": {
+				"id": "36033f5f-3a7f-4ca9-ab1e-7288c1276037",
+				"link": "/author/36033f5f-3a7f-4ca9-ab1e-7288c1276037",
+				"name": "Antonio Petricca"
+			},
+			"cdate": "1789654745000",
+			"comment": "<p>Apparently simply, but very useful plugin for team mates which need to share sessions in order to continue AI tasks when other's token have exhausted.</p>\n<p>Thank you Fabio!</p>\n",
+			"id": 144411,
+			"plugin": {
+				"id": 34330,
+				"link": "/plugin/34330-github-copilot-sessions",
+				"name": "Github Copilot sessions"
+			},
+			"rating": 5
+		}
+	],
 	"com.github.fangzc.ai-commit-message": [],
 	"com.github.faradey.madockideaplugin": [],
 	"com.github.fawaz.flutter-freezed-snippets": [
@@ -101885,6 +101960,7 @@
 		}
 	],
 	"com.github.g4l4.plugins.cep": [],
+	"com.github.gappylul.genitfx": [],
 	"com.github.gasu-dev.php-array-converter": [
 		{
 			"author": {
@@ -103907,6 +103983,7 @@
 	"com.github.hunterxxn.opencodugin": [],
 	"com.github.iamjuaness.blackholetheme": [],
 	"com.github.iamr8.dotnetoutdated": [],
+	"com.github.iamr8.libman": [],
 	"com.github.ichaly.codex-ui": [],
 	"com.github.idea-claude-code-gui": [
 		{
@@ -112359,6 +112436,56 @@
 			"rating": 5
 		}
 	],
+	"com.github.nizienko.SpaceInvaders": [
+		{
+			"author": {
+				"id": "c2aef163-8172-40cc-a7f1-f20714f27017",
+				"link": "/author/c2aef163-8172-40cc-a7f1-f20714f27017",
+				"name": "Norbertas Gaulia"
+			},
+			"cdate": "1735382056000",
+			"comment": "<p>It has a potential to be a greatest Intellij plugin of all time, but there is something completley wrong with ship movement, until it's fixed game is unplayeable.</p>\n",
+			"id": 110522,
+			"plugin": {
+				"id": 19383,
+				"link": "/plugin/19383-space-invaders",
+				"name": "Space Invaders"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "6c85084d-01b3-414b-bb92-73380f295a38",
+				"link": "/author/6c85084d-01b3-414b-bb92-73380f295a38",
+				"name": "PowerOfFriendship"
+			},
+			"cdate": "1723992073000",
+			"comment": "<p>This is an absolutely amazing plugin! I love it.</p>\n",
+			"id": 104498,
+			"plugin": {
+				"id": 19383,
+				"link": "/plugin/19383-space-invaders",
+				"name": "Space Invaders"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "e9b12836-8ae5-44b6-9766-864670ceec34",
+				"link": "/author/e9b12836-8ae5-44b6-9766-864670ceec34",
+				"name": "Igor Kulakov"
+			},
+			"cdate": "1722887352000",
+			"comment": "<p>Cool!</p>\n",
+			"id": 103710,
+			"plugin": {
+				"id": 19383,
+				"link": "/plugin/19383-space-invaders",
+				"name": "Space Invaders"
+			},
+			"rating": 5
+		}
+	],
 	"com.github.nizienko.notes": [
 		{
 			"author": {
@@ -116173,6 +116300,7 @@
 		}
 	],
 	"com.github.sendtoai": [],
+	"com.github.senocak.autocommit": [],
 	"com.github.senocak.etcd": [],
 	"com.github.serzhby.tools.plugins.doorman": [
 		{
@@ -118270,6 +118398,7 @@
 			"rating": 0
 		}
 	],
+	"com.github.sqlalchemylog.SQLAlchemy-Log-Plugin-Free": [],
 	"com.github.sshnoodles.jisonideaplugin": [],
 	"com.github.ssooya90.linear-manager": [],
 	"com.github.stackus.gohtjetbrains": [],
@@ -124641,6 +124770,7 @@
 	],
 	"com.gitlab.lae.intellij.jump": [],
 	"com.gitlab.msciachero.sciak-flow-gitlab-plugin": [],
+	"com.gitlab.pipeline.viewer": [],
 	"com.gitlab.plugin": [
 		{
 			"author": {
@@ -132837,6 +132967,7 @@
 			"rating": 5
 		}
 	],
+	"com.hxl.tools.larkenv": [],
 	"com.hyphoon.IDEA-Swagger-Knife4j-Plugin": [
 		{
 			"author": {
@@ -134506,6 +134637,24 @@
 	],
 	"com.inet-dev.graphql-php-bridge": [],
 	"com.inflectra.SpiraTeam": [],
+	"com.infomaniak.MoreUsageFilters": [
+		{
+			"author": {
+				"id": "485fa549-f7ac-4b33-b7b5-ec4ef359b953",
+				"link": "/author/485fa549-f7ac-4b33-b7b5-ec4ef359b953",
+				"name": "Nicolas Bourdin"
+			},
+			"cdate": "1789635011000",
+			"comment": "<p>My life hasn't been the same since this plugin.</p>\n",
+			"id": 144400,
+			"plugin": {
+				"id": 34308,
+				"link": "/plugin/34308-more-usage-filters",
+				"name": "More Usage Filters"
+			},
+			"rating": 5
+		}
+	],
 	"com.ininids.aam-helper": [],
 	"com.innavoto.utem": [],
 	"com.inputspark": [
@@ -150823,6 +150972,7 @@
 			"rating": 4
 		}
 	],
+	"com.jeelchandegra.jsontodart": [],
 	"com.jeffersongoncalves.externalterminal": [],
 	"com.jeffersongoncalves.herdmanager": [
 		{
@@ -159382,6 +159532,7 @@
 	"com.jiec.ghc.github.auth": [],
 	"com.jiec.raise-gh-issue": [],
 	"com.jiec.scm.jumptosource": [],
+	"com.jiezantech.linearpilot": [],
 	"com.jin.translate": [],
 	"com.jincnashen.sky.plugin.id": [],
 	"com.jinja2enhanced": [],
@@ -162463,6 +162614,7 @@
 		}
 	],
 	"com.kalvan.gen": [],
+	"com.kalvan.tool": [],
 	"com.kame.prismlines": [],
 	"com.kamel.rafiq_al_iman": [
 		{
@@ -169082,6 +169234,7 @@
 	],
 	"com.logmark.mapper-struct.generator.id": [],
 	"com.logmonitor.plugin": [],
+	"com.logquarry": [],
 	"com.logtrace.plugin": [],
 	"com.lol1pop.intellij-visual-studio-code-dark-plus": [
 		{
@@ -169345,6 +169498,7 @@
 		}
 	],
 	"com.luggage.plugindev": [],
+	"com.luisppb16.collectionsync": [],
 	"com.luisppb16.dbseed": [],
 	"com.luisppb16.openapi-generator": [],
 	"com.luisppb16.vulnspotter": [],
@@ -174348,6 +174502,7 @@
 			"rating": 3
 		}
 	],
+	"com.mhkarami.rider-demystified-links": [],
 	"com.mhr.ai.cr": [],
 	"com.mibexx.mbx-mocoapp": [],
 	"com.michael.bergens.java.playground2": [
@@ -174902,6 +175057,7 @@
 			"rating": 0
 		}
 	],
+	"com.mikotokuroko.angelinaprogress": [],
 	"com.miksuki.HighlightCursor": [],
 	"com.miksuki.TabSplitter": [
 		{
@@ -176274,6 +176430,7 @@
 	"com.modernicons.icon-theme": [],
 	"com.modestswan64.CopyCodebaseDetails": [],
 	"com.modhe.modbushelper": [],
+	"com.modxkit.airlock": [],
 	"com.mohamedbamoh.markmap": [],
 	"com.mohammedalaamorsi.safegradle": [],
 	"com.mohanqing.FreqFiles": [
@@ -183525,6 +183682,7 @@
 	"com.patrikmeixner.canopy": [],
 	"com.paulbaker.localize-plugin": [],
 	"com.pavel.cpideaplugin": [],
+	"com.pavelputrenkov.archflow.guard": [],
 	"com.pawrequest.redscript": [],
 	"com.pawsql.PawAdvisor": [
 		{
@@ -184798,6 +184956,7 @@
 	],
 	"com.pino.intellij-code-marker": [],
 	"com.pino.intellij-code-trace": [],
+	"com.pino.intellij-dynamic-query": [],
 	"com.pino.intellij-jdbi-sql-jump": [
 		{
 			"author": {
@@ -186369,6 +186528,7 @@
 			"rating": 0
 		}
 	],
+	"com.prepeep.harmness-browser": [],
 	"com.pricefx.studio": [],
 	"com.primeholding.rxbloc_generator_plugin": [],
 	"com.prinsights": [],
@@ -189195,6 +189355,10 @@
 			"rating": 0
 		}
 	],
+	"com.renhongtao.certinspector": [],
+	"com.renhongtao.embernight": [],
+	"com.renhongtao.fastexcelviewer": [],
+	"com.renhongtao.redisinspector": [],
 	"com.renpe.magma": [],
 	"com.renpe.parigp": [],
 	"com.renpe.sagemath": [],
@@ -192425,6 +192589,7 @@
 	],
 	"com.sema": [],
 	"com.sema.language": [],
+	"com.semanticprogramminglanguage.jetbrains.syntax": [],
 	"com.semgrep.idea": [
 		{
 			"author": {
@@ -192713,6 +192878,24 @@
 		}
 	],
 	"com.sendwavehub.npmsafetyguard": [],
+	"com.senjuobito.opencode-buddy": [
+		{
+			"author": {
+				"id": "b818d358-8eee-475e-a813-db004dbe7e7d",
+				"link": "/author/b818d358-8eee-475e-a813-db004dbe7e7d",
+				"name": "Senju\u4e36Obito"
+			},
+			"cdate": "1789697015000",
+			"comment": "<p>It may be the most user-friendly OpenCode GUI plugin currently on the market.</p>\n",
+			"id": 144420,
+			"plugin": {
+				"id": 34304,
+				"link": "/plugin/34304-opencode-buddy",
+				"name": "OpenCode Buddy"
+			},
+			"rating": 0
+		}
+	],
 	"com.sensetime.commit.template.generator": [],
 	"com.sensetime.sensecode.jetbrains.raccoon": [
 		{
@@ -194058,6 +194241,24 @@
 				"id": 17254,
 				"link": "/plugin/17254-markdown-editor",
 				"name": "markdown-editor"
+			},
+			"rating": 5
+		}
+	],
+	"com.sickworm.jugg": [
+		{
+			"author": {
+				"id": "357e8572-6d56-4859-8e81-f79c61657382",
+				"link": "/author/357e8572-6d56-4859-8e81-f79c61657382",
+				"name": "Pomelo Small"
+			},
+			"cdate": "1788933250000",
+			"comment": "<p>good!\nIt greatly improved my work efficiency. There's no time for fishing.</p>\n",
+			"id": 144200,
+			"plugin": {
+				"id": 34099,
+				"link": "/plugin/34099-jugg",
+				"name": "Jugg"
 			},
 			"rating": 5
 		}
@@ -197714,6 +197915,7 @@
 	"com.sshplus.remote": [],
 	"com.sshtunnel.manager": [],
 	"com.sskorupski.intellij.plugin.builder.mock.fluent": [],
+	"com.stackblender.openapiguard": [],
 	"com.stackframehider": [
 		{
 			"author": {
@@ -201605,6 +201807,7 @@
 			"rating": 5
 		}
 	],
+	"com.tahacheji.cssubmitclient": [],
 	"com.takatime.jetbrains": [],
 	"com.takima.shortcut-learner": [
 		{
@@ -202188,6 +202391,7 @@
 		}
 	],
 	"com.targetprocess.assigned.entities.plugin": [],
+	"com.tasklane": [],
 	"com.tavanuka.onemonokai": [
 		{
 			"author": {
@@ -205422,6 +205626,8 @@
 			"rating": 0
 		}
 	],
+	"com.tool4j.codegen": [],
+	"com.tool4j.mcp.debug": [],
 	"com.tools.ToolsPackage": [
 		{
 			"author": {
@@ -207707,6 +207913,7 @@
 		}
 	],
 	"com.valord577.mybatis-navigator": [],
+	"com.vanceview.release-management": [],
 	"com.vankode.vanrot": [],
 	"com.vaquarkhan.dataengineeringskills": [],
 	"com.varabyte.kobweb": [],
@@ -210793,6 +211000,7 @@
 			"rating": 4
 		}
 	],
+	"com.visual.plugin": [],
 	"com.visualize-transaction": [
 		{
 			"author": {
@@ -210989,6 +211197,7 @@
 			"rating": 5
 		}
 	],
+	"com.vna.angularfilesnavigator": [],
 	"com.vnsapp.kodesorter": [],
 	"com.voidmuse.idea.plugin.VoidMuse": [],
 	"com.volitic.plugin.ngdartfolding": [],
@@ -213454,6 +213663,7 @@
 	"com.wongel.MVPGenerator": [],
 	"com.woosal.vesper": [],
 	"com.work.plugin.work-tools": [],
+	"com.workbuddy.codeflowchart": [],
 	"com.worklog": [],
 	"com.worktools.alogtools": [],
 	"com.worktracker": [],
@@ -216069,6 +216279,7 @@
 	"com.ykoellmann.ctexecutor.ctexecutor": [],
 	"com.ykoellmann.shortplate": [],
 	"com.ylplugin.eastmoney7x24": [],
+	"com.ymkang.gitcryptexplorer": [],
 	"com.ynet.android.plugin.id": [],
 	"com.yoheimuta.intellij.plugin.protolint": [
 		{
@@ -220697,6 +220908,7 @@
 			"rating": 5
 		}
 	],
+	"cz.eidam.dependency-inspector": [],
 	"cz.juzna.intellij.kdyby.events": [
 		{
 			"author": {
@@ -220716,6 +220928,8 @@
 		}
 	],
 	"cz.loplex.bsh": [],
+	"cz.loplex.ij-git-reflog": [],
+	"cz.loplex.intellijmavenlens": [],
 	"cz.sigler.remotelogconsole": [],
 	"cz.talich.arp": [],
 	"cz.tix.jsonata": [],
@@ -221107,6 +221321,7 @@
 		}
 	],
 	"de.achimonline.tempconfigcleaner": [],
+	"de.amekudzi.microgulp": [],
 	"de.andrena.tools.altn8-th": [
 		{
 			"author": {
@@ -223570,6 +223785,8 @@
 			"rating": 5
 		}
 	],
+	"de.fluxparticle.overview": [],
+	"de.gabimolia.islandscream": [],
 	"de.gebit.plugins.autoconfig": [],
 	"de.halirutan.mathematica": [
 		{
@@ -228923,6 +229140,24 @@
 	"dev.bachelder.opencensus_php_extension_support": [],
 	"dev.balakumar.quickterminal": [],
 	"dev.balakumar.worktreemanager": [],
+	"dev.basedpython.ide": [
+		{
+			"author": {
+				"id": "b1557cd2-d4e0-4f6a-9c13-67e3966d0e9e",
+				"link": "/author/b1557cd2-d4e0-4f6a-9c13-67e3966d0e9e",
+				"name": "scott-au"
+			},
+			"cdate": "1789439734000",
+			"comment": "<p>\ud83e\udd29\ud83e\udd29</p>\n",
+			"id": 144334,
+			"plugin": {
+				"id": 33922,
+				"link": "/plugin/33922-basedpython",
+				"name": "basedpython"
+			},
+			"rating": 5
+		}
+	],
 	"dev.batchsupport.batch-support": [],
 	"dev.benjaminor.fluentquery": [],
 	"dev.birju.pierre-themes": [],
@@ -229340,6 +229575,7 @@
 		}
 	],
 	"dev.cempw.cem": [],
+	"dev.changelogpilot.local": [],
 	"dev.ckb.jetbrains": [],
 	"dev.ckob.lazygit": [
 		{
@@ -229370,6 +229606,7 @@
 	"dev.csstorfs": [],
 	"dev.dalex.textpolisher": [],
 	"dev.dbmlcanvas": [],
+	"dev.dcviz.compose-visualizer": [],
 	"dev.dengchao.idea.plugin.git.copy.ref.name": [],
 	"dev.dengchao.idea.plugin.git.worktrees": [],
 	"dev.denwav.gradle-libs-error-suppressor": [
@@ -230450,6 +230687,7 @@
 			"rating": 5
 		}
 	],
+	"dev.flagscope.navigator": [],
 	"dev.flashflow.plugin": [],
 	"dev.flaticols.applecontainer": [],
 	"dev.flaticols.deliverypipeline": [],
@@ -231203,6 +231441,7 @@
 	"dev.gdw.Shutdown-Tasks": [],
 	"dev.ghostflyby.agent-skills-editing": [],
 	"dev.ghostflyby.dcevm": [],
+	"dev.ghostflyby.gradle-typesafe-conventions": [],
 	"dev.ghostflyby.ideavim.toggleIME": [],
 	"dev.ghostflyby.mac.recents": [],
 	"dev.ghostflyby.mcp.gradle": [],
@@ -231309,6 +231548,7 @@
 	],
 	"dev.honkanen.htmxpro-lifetime": [],
 	"dev.hotreload.ide": [],
+	"dev.husainmukadam.flutteradb": [],
 	"dev.hyunelab.mdlens": [
 		{
 			"author": {
@@ -231327,6 +231567,7 @@
 			"rating": 5
 		}
 	],
+	"dev.ideaagent.local": [],
 	"dev.idzb.TranslitUA": [],
 	"dev.ilyaglebov.somafm": [
 		{
@@ -232783,6 +233024,56 @@
 	"dev.lspsenior": [],
 	"dev.lumenfx.lumen": [],
 	"dev.lyoo.beacon.terminal-navigator": [],
+	"dev.maheshbabu11.http-client-plus": [
+		{
+			"author": {
+				"id": "89adb064-07c6-4b20-ba8f-b014757045cb",
+				"link": "/author/89adb064-07c6-4b20-ba8f-b014757045cb",
+				"name": "akopchinskiy"
+			},
+			"cdate": "1758724319000",
+			"comment": "",
+			"id": 126123,
+			"plugin": {
+				"id": 28340,
+				"link": "/plugin/28340-http-client-plus",
+				"name": "HTTP Client Plus"
+			},
+			"rating": 1
+		},
+		{
+			"author": {
+				"id": "d5d55249-806c-4e18-a69c-b2a79db879e0",
+				"link": "/author/d5d55249-806c-4e18-a69c-b2a79db879e0",
+				"name": "Wahyu Hidayat"
+			},
+			"cdate": "1758169926000",
+			"comment": "<p>Can i import only environment from postman?</p>\n",
+			"id": 125755,
+			"plugin": {
+				"id": 28340,
+				"link": "/plugin/28340-http-client-plus",
+				"name": "HTTP Client Plus"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "cf5a8b61-8528-4bf6-af49-c56d8d134c30",
+				"link": "/author/cf5a8b61-8528-4bf6-af49-c56d8d134c30",
+				"name": "ZHOUXING"
+			},
+			"cdate": "1757573061000",
+			"comment": "<p>Can you add an import in cURL format?</p>\n<p>Change the storage directory to a dot file? Just a suggestion.</p>\n",
+			"id": 124876,
+			"plugin": {
+				"id": 28340,
+				"link": "/plugin/28340-http-client-plus",
+				"name": "HTTP Client Plus"
+			},
+			"rating": 5
+		}
+	],
 	"dev.marginalis.plugin": [],
 	"dev.marko.safe-paste": [
 		{
@@ -234287,6 +234578,7 @@
 	"dev.otelery.otelcol": [],
 	"dev.ott.sops-editor-plugin": [],
 	"dev.oxp.jetbrains": [],
+	"dev.pacmon.jetbrains": [],
 	"dev.pannonico.jetbrains": [],
 	"dev.panuszewski.gradle-jumper": [
 		{
@@ -236151,6 +236443,7 @@
 	"dev.stillya.vpet": [],
 	"dev.styledart": [],
 	"dev.sulan.ecproperty": [],
+	"dev.supatoolkit": [],
 	"dev.tachilabs.infinitint": [],
 	"dev.tachilabs.mermaidstudio": [
 		{
@@ -236428,6 +236721,7 @@
 			"rating": 5
 		}
 	],
+	"dev.tokitoki.jetbrains": [],
 	"dev.tomlarcher.gitarborist": [],
 	"dev.troller2705.jetbrains.plugins.renpy": [],
 	"dev.tsukuri.batch-support": [],
@@ -236972,6 +237266,7 @@
 	],
 	"dev.wavelang.wave": [],
 	"dev.webbies.dotenvify": [],
+	"dev.weissenba.aerovista": [],
 	"dev.willebrands.intellij.sloppyfocus": [
 		{
 			"author": {
@@ -237133,6 +237428,7 @@
 			"rating": 0
 		}
 	],
+	"dev.yml2pro.idea": [],
 	"dev.zbinski.html-attribute-folder": [
 		{
 			"author": {
@@ -240783,6 +241079,7 @@
 			"rating": 0
 		}
 	],
+	"fr.alexisnoblet.webpack-entry-navigator": [],
 	"fr.baretto.OllamAssist": [
 		{
 			"author": {
@@ -252194,6 +252491,7 @@
 	"io.github.boge-mvp.commit.ai": [],
 	"io.github.braams.kamailio": [],
 	"io.github.bric3.rectangle": [],
+	"io.github.cag11.go-language-helper": [],
 	"io.github.canjiemo.mydict": [],
 	"io.github.cdgeass.disable-default-maven-http-interceptor": [],
 	"io.github.cdgeass.disable-maven-default-http-blocker": [
@@ -252518,6 +252816,7 @@
 	],
 	"io.github.crmapache.amazingclaudecode": [],
 	"io.github.darkryh.katalyst.idea": [],
+	"io.github.darleywey.hono-endpoints": [],
 	"io.github.dbudyak.yamlviewer": [
 		{
 			"author": {
@@ -254017,6 +254316,7 @@
 	"io.github.huanyv.totalcmd": [],
 	"io.github.hughedward.springinitsupport": [],
 	"io.github.iceholic.noctis": [],
+	"io.github.ideaenvswitcher": [],
 	"io.github.ingrowthly.icons": [],
 	"io.github.intellijnews": [],
 	"io.github.isarg.editordeck": [],
@@ -254112,6 +254412,7 @@
 	"io.github.jingu.idea-qiq-plugin": [],
 	"io.github.joelkanyi.peek": [],
 	"io.github.jog16.queryguard": [],
+	"io.github.juyterman1000.entroly": [],
 	"io.github.kafuuneko.asdiff": [],
 	"io.github.kaywgeek.phpstantypetrace": [],
 	"io.github.ketraterm.terminal": [],
@@ -254460,6 +254761,7 @@
 			"rating": 5
 		}
 	],
+	"io.github.koollsl.intellij-lsl": [],
 	"io.github.kuan1113.mdlinkkeeper": [],
 	"io.github.l2dy.ide.ic.nginx": [],
 	"io.github.lawlielt.codex.jetbrains": [],
@@ -255063,6 +255365,7 @@
 		}
 	],
 	"io.github.mani-sh-reddy.mariana-light": [],
+	"io.github.marioaimrl.aidebugassistant": [],
 	"io.github.marksosman.dddcontextmapper": [],
 	"io.github.markusmo3.BetterMnemonics": [
 		{
@@ -255238,6 +255541,7 @@
 	],
 	"io.github.mishkun.unsafe-wilhelm-scream": [],
 	"io.github.mmhelloworld.idrisintellij": [],
+	"io.github.mnaami.environmentswitcher": [],
 	"io.github.movebrickschi.Restful-all": [
 		{
 			"author": {
@@ -255788,6 +256092,7 @@
 	"io.github.nyub.selfieintellijplugin": [],
 	"io.github.nzlong.generator.generate-builder": [],
 	"io.github.ohsoou.trans-md": [],
+	"io.github.olcayhan.petteringaround": [],
 	"io.github.oluckyo.safe-project-close": [],
 	"io.github.orangain.prettyjsonlog": [
 		{
@@ -256358,8 +256663,10 @@
 			"rating": 5
 		}
 	],
+	"io.github.qaz4042.camelcasefix": [],
 	"io.github.rabobank.monorepoplugin": [],
 	"io.github.raghavsatyadev.adbidea": [],
+	"io.github.ramanda.tapestry": [],
 	"io.github.raxakk.ticketstamp": [],
 	"io.github.rejeb.gcp-dataform-plugin": [],
 	"io.github.riej.lsl": [],
@@ -256848,6 +257155,7 @@
 	"io.github.vadimtoptunov.mrz-inspector": [],
 	"io.github.vadimtoptunov.robot-framework": [],
 	"io.github.vadimtoptunov.swift-mt": [],
+	"io.github.vadimtoptunov.testability-linter": [],
 	"io.github.vadimtoptunov.uuid-toolkit": [],
 	"io.github.vihanmy.ideaplugin.VGitTool": [],
 	"io.github.wangzhengsi.method.invoker": [
@@ -261444,6 +261752,7 @@
 			"rating": 5
 		}
 	],
+	"io.zheng.inputbridge": [],
 	"ion": [],
 	"ipoteka_bank_otp_group": [],
 	"ir.ali.plugin.comparisonChainGenerator": [],
@@ -277231,6 +277540,7 @@
 			"rating": 5
 		}
 	],
+	"net.blendbyte.openvox-intellij": [],
 	"net.bluehill.commentRemover": [
 		{
 			"author": {
@@ -282211,6 +282521,7 @@
 		}
 	],
 	"one.pkg.modpublish": [],
+	"one.skowron.tiltfile": [],
 	"one.tain.jbp.code-screenshoter": [],
 	"onedev-tasks": [],
 	"online.devcodex.colorpeek": [],
@@ -308001,6 +308312,7 @@
 	"org.torfs.pinguard": [],
 	"org.tosini.label-manager-pro-idea": [],
 	"org.treasureboat.tools": [],
+	"org.tubalabs.ideaplugins.writerstools": [],
 	"org.turbanov.commits.message.checker": [
 		{
 			"author": {
@@ -317389,6 +317701,7 @@
 			"rating": 5
 		}
 	],
+	"sishbi.sqld-lite-syntax": [],
 	"site.addzero.cargo-buddy": [],
 	"site.addzero.gitee-vcs": [],
 	"site.addzero.gradle-buddy": [
@@ -324622,6 +324935,7 @@
 			"rating": 4
 		}
 	],
+	"yc39.ycHighlightSetting": [],
 	"yeamy.restlite.i18n": [],
 	"yeamy.restlite.i18n.ets": [],
 	"yeamy.restlite.i18n.go": [],
@@ -325741,6 +326055,7 @@
 			"rating": 0
 		}
 	],
+	"zone.ien.cmp_translation_plugin": [],
 	"zookeeper": [
 		{
 			"author": {

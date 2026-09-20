@@ -4093,13 +4093,13 @@
 		"bundled": false,
 		"implementationName": "*.ora",
 		"pluginId": "com.db.database.tool",
-		"pluginName": "Database Tool"
+		"pluginName": "Databee: Database Client & SQL"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.sql",
 		"pluginId": "com.db.database.tool",
-		"pluginName": "Database Tool"
+		"pluginName": "Databee: Database Client & SQL"
 	},
 	{
 		"bundled": false,
@@ -4787,6 +4787,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.pbxproj",
+		"pluginId": "com.flexible.swift",
+		"pluginName": "Flexible Swift"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.plist",
 		"pluginId": "com.flexible.swift",
 		"pluginName": "Flexible Swift"
@@ -4826,6 +4832,12 @@
 		"implementationName": "*.xsd",
 		"pluginId": "com.fluxparticle.xsdvisualizer",
 		"pluginName": "XSD / WSDL Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.bpmn",
+		"pluginId": "com.forge.bpmn",
+		"pluginName": "Forge BPMN"
 	},
 	{
 		"bundled": false,
@@ -15277,6 +15289,30 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.jks",
+		"pluginId": "com.renhongtao.certinspector",
+		"pluginName": "Keystore Inspector"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.p12",
+		"pluginId": "com.renhongtao.certinspector",
+		"pluginName": "Keystore Inspector"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.pfx",
+		"pluginId": "com.renhongtao.certinspector",
+		"pluginName": "Keystore Inspector"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.pkcs12",
+		"pluginId": "com.renhongtao.certinspector",
+		"pluginName": "Keystore Inspector"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.m",
 		"pluginId": "com.renpe.magma",
 		"pluginName": "Magma"
@@ -15508,6 +15544,18 @@
 		"implementationName": "*.semac",
 		"pluginId": "com.sema.language",
 		"pluginName": "Sema"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.se",
+		"pluginId": "com.semanticprogramminglanguage.jetbrains.syntax",
+		"pluginName": "Semantic Syntax"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.sp",
+		"pluginId": "com.semanticprogramminglanguage.jetbrains.syntax",
+		"pluginName": "Semantic Syntax"
 	},
 	{
 		"bundled": false,
@@ -20528,6 +20576,18 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.lsl",
+		"pluginId": "io.github.koollsl.intellij-lsl",
+		"pluginName": "Linden Scripting Language (LSL)"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.lslp",
+		"pluginId": "io.github.koollsl.intellij-lsl",
+		"pluginName": "Linden Scripting Language (LSL)"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.conf",
 		"pluginId": "io.github.l2dy.ide.ic.nginx",
 		"pluginName": "NGINX Configuration Language"
@@ -20627,6 +20687,12 @@
 		"implementationName": "*.ss",
 		"pluginId": "io.github.nyub.selfieintellijplugin",
 		"pluginName": "Selfie"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.tml",
+		"pluginId": "io.github.ramanda.tapestry",
+		"pluginName": "Tapestry 5 Support (Community Fork)"
 	},
 	{
 		"bundled": false,
@@ -22109,6 +22175,18 @@
 		"implementationName": "*.str",
 		"pluginId": "net.auoeke.structured-properties",
 		"pluginName": "Structured Properties"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.epp",
+		"pluginId": "net.blendbyte.openvox-intellij",
+		"pluginName": "OpenVox Language"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.pp",
+		"pluginId": "net.blendbyte.openvox-intellij",
+		"pluginName": "OpenVox Language"
 	},
 	{
 		"bundled": false,
@@ -27409,6 +27487,18 @@
 		"implementationName": "*.itr",
 		"pluginId": "siani.dev.itrules",
 		"pluginName": "Itrules"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.sq",
+		"pluginId": "sishbi.sqld-lite-syntax",
+		"pluginName": "SqlD-Lite Syntax"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.sqm",
+		"pluginId": "sishbi.sqld-lite-syntax",
+		"pluginName": "SqlD-Lite Syntax"
 	},
 	{
 		"bundled": false,

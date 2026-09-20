@@ -1003,6 +1003,24 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "dotnet:NLog",
+		"pluginId": "com.intellij.resharper.StructuredLogging",
+		"pluginName": "Structured Logging"
+	},
+	{
+		"bundled": false,
+		"implementationName": "dotnet:Serilog",
+		"pluginId": "com.intellij.resharper.StructuredLogging",
+		"pluginName": "Structured Logging"
+	},
+	{
+		"bundled": false,
+		"implementationName": "dotnet:ZLogger",
+		"pluginId": "com.intellij.resharper.StructuredLogging",
+		"pluginName": "Structured Logging"
+	},
+	{
+		"bundled": false,
 		"implementationName": "dotnet:Microsoft.Azure.Common",
 		"pluginId": "com.intellij.resharper.azure",
 		"pluginName": "Azure Toolkit for Rider"
