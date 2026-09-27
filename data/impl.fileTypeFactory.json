@@ -195,17 +195,17 @@
 		"pluginName": "CFML"
 	},
 	{
-		"bundled": false,
-		"implementationName": "*.cfml",
-		"pluginId": "CFML Support",
-		"pluginName": "CFML"
-	},
-	{
 		"bundled": true,
 		"description": "ColdFusion Markup Language (CFML) support.",
 		"implementationName": "*.cfml",
 		"pluginId": "CFML Support",
 		"pluginName": "CFML Support"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.cfml",
+		"pluginId": "CFML Support",
+		"pluginName": "CFML"
 	},
 	{
 		"bundled": false,
@@ -2063,6 +2063,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.ghi",
+		"pluginId": "am.ghi.language",
+		"pluginName": "Ghi"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.robot",
 		"pluginId": "amailp.intellij.robot",
 		"pluginName": "Robot Framework Support"
@@ -2594,6 +2600,30 @@
 		"implementationName": "*.api",
 		"pluginId": "cn.xiaoheiban.go-zero",
 		"pluginName": "Goctl"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.heic",
+		"pluginId": "cn.yooss.heic-viewer",
+		"pluginName": "HEIC Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.heics",
+		"pluginId": "cn.yooss.heic-viewer",
+		"pluginName": "HEIC Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.heif",
+		"pluginId": "cn.yooss.heic-viewer",
+		"pluginName": "HEIC Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.hif",
+		"pluginId": "cn.yooss.heic-viewer",
+		"pluginName": "HEIC Viewer"
 	},
 	{
 		"bundled": false,
@@ -3516,6 +3546,18 @@
 	{
 		"bundled": false,
 		"implementationName": "*.src",
+		"pluginId": "com.basis.bbj",
+		"pluginName": "BBj Language Support"
+	},
+	{
+		"bundled": false,
+		"implementationName": "config.bbx",
+		"pluginId": "com.basis.bbj",
+		"pluginName": "BBj Language Support"
+	},
+	{
+		"bundled": false,
+		"implementationName": "config.min",
 		"pluginId": "com.basis.bbj",
 		"pluginName": "BBj Language Support"
 	},
@@ -4766,6 +4808,30 @@
 		"implementationName": "*.kicad_wks",
 		"pluginId": "com.flexible.schematics",
 		"pluginName": "Flexible For Schematics"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.fmu",
+		"pluginId": "com.flexible.sim",
+		"pluginName": "Flexible Sim"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.mo",
+		"pluginId": "com.flexible.sim",
+		"pluginName": "Flexible Sim"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.slx",
+		"pluginId": "com.flexible.sim",
+		"pluginName": "Flexible Sim"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.urdf",
+		"pluginId": "com.flexible.sim",
+		"pluginName": "Flexible Sim"
 	},
 	{
 		"bundled": false,
@@ -11951,7 +12017,7 @@
 		"bundled": false,
 		"implementationName": "*.latte",
 		"pluginId": "com.jantvrdik.intellij.latte",
-		"pluginName": "Latte"
+		"pluginName": "Latte [Deprecated]"
 	},
 	{
 		"bundled": false,
@@ -13165,6 +13231,36 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.code-workspace",
+		"pluginId": "com.jetbrains.rider.plugins.verse",
+		"pluginName": "Verse Language"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.uefnproject",
+		"pluginId": "com.jetbrains.rider.plugins.verse",
+		"pluginName": "Verse Language"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.verse",
+		"pluginId": "com.jetbrains.rider.plugins.verse",
+		"pluginName": "Verse Language"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.versetest",
+		"pluginId": "com.jetbrains.rider.plugins.verse",
+		"pluginName": "Verse Language"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.vproject",
+		"pluginId": "com.jetbrains.rider.plugins.verse",
+		"pluginName": "Verse Language"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.rs",
 		"pluginId": "com.jetbrains.rust",
 		"pluginName": "Rust"
@@ -13702,6 +13798,12 @@
 		"implementationName": "*.svelte",
 		"pluginId": "com.langheroes.svelte",
 		"pluginName": "Svelte Hero"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.templ",
+		"pluginId": "com.langheroes.templ",
+		"pluginName": "Templ Hero"
 	},
 	{
 		"bundled": false,
@@ -15517,6 +15619,18 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.as",
+		"pluginId": "com.sarahshandcraftedentertainment.angelintellij",
+		"pluginName": "AngelScript"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.predefined",
+		"pluginId": "com.sarahshandcraftedentertainment.angelintellij",
+		"pluginName": "AngelScript"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.atomic",
 		"pluginId": "com.sarchuk.atomic",
 		"pluginName": "Atomic"
@@ -16567,19 +16681,49 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "*.db",
-		"pluginId": "com.twilightventures.sqlitelens",
-		"pluginName": "SQLite Lens: SQLite Database File Viewer"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.db3",
 		"pluginId": "com.twilightventures.sqlitelens",
 		"pluginName": "SQLite Lens: SQLite Database File Viewer"
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.fossil",
+		"pluginId": "com.twilightventures.sqlitelens",
+		"pluginName": "SQLite Lens: SQLite Database File Viewer"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.gpkg",
+		"pluginId": "com.twilightventures.sqlitelens",
+		"pluginName": "SQLite Lens: SQLite Database File Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.mbtiles",
+		"pluginId": "com.twilightventures.sqlitelens",
+		"pluginName": "SQLite Lens: SQLite Database File Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.s3db",
+		"pluginId": "com.twilightventures.sqlitelens",
+		"pluginName": "SQLite Lens: SQLite Database File Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.sl3",
+		"pluginId": "com.twilightventures.sqlitelens",
+		"pluginName": "SQLite Lens: SQLite Database File Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.spatialite",
+		"pluginId": "com.twilightventures.sqlitelens",
+		"pluginName": "SQLite Lens: SQLite Database File Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.sqlar",
 		"pluginId": "com.twilightventures.sqlitelens",
 		"pluginName": "SQLite Lens: SQLite Database File Viewer"
 	},
@@ -16597,6 +16741,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.sqlitedb",
+		"pluginId": "com.twilightventures.sqlitelens",
+		"pluginName": "SQLite Lens: SQLite Database File Viewer"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.xlsm",
 		"pluginId": "com.twilightventures.xlsxlens",
 		"pluginName": "XLSX Lens: Excel XLSX Spreadsheet Viewer"
@@ -16604,6 +16754,18 @@
 	{
 		"bundled": false,
 		"implementationName": "*.xlsx",
+		"pluginId": "com.twilightventures.xlsxlens",
+		"pluginName": "XLSX Lens: Excel XLSX Spreadsheet Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.xltm",
+		"pluginId": "com.twilightventures.xlsxlens",
+		"pluginName": "XLSX Lens: Excel XLSX Spreadsheet Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.xltx",
 		"pluginId": "com.twilightventures.xlsxlens",
 		"pluginName": "XLSX Lens: Excel XLSX Spreadsheet Viewer"
 	},
@@ -17167,6 +17329,66 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.der",
+		"pluginId": "com.zuhaibzahid.certlens",
+		"pluginName": "CertLens - Certificates and Keystores"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.jceks",
+		"pluginId": "com.zuhaibzahid.certlens",
+		"pluginName": "CertLens - Certificates and Keystores"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.jks",
+		"pluginId": "com.zuhaibzahid.certlens",
+		"pluginName": "CertLens - Certificates and Keystores"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.keystore",
+		"pluginId": "com.zuhaibzahid.certlens",
+		"pluginName": "CertLens - Certificates and Keystores"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.p12",
+		"pluginId": "com.zuhaibzahid.certlens",
+		"pluginName": "CertLens - Certificates and Keystores"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.p12b",
+		"pluginId": "com.zuhaibzahid.certlens",
+		"pluginName": "CertLens - Certificates and Keystores"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.p7b",
+		"pluginId": "com.zuhaibzahid.certlens",
+		"pluginName": "CertLens - Certificates and Keystores"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.p7c",
+		"pluginId": "com.zuhaibzahid.certlens",
+		"pluginName": "CertLens - Certificates and Keystores"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.pfx",
+		"pluginId": "com.zuhaibzahid.certlens",
+		"pluginName": "CertLens - Certificates and Keystores"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.spc",
+		"pluginId": "com.zuhaibzahid.certlens",
+		"pluginName": "CertLens - Certificates and Keystores"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.avro",
 		"pluginId": "com.zuhaibzahid.columns",
 		"pluginName": "Columns - Parquet and Avro Editor"
@@ -17519,18 +17741,6 @@
 		"implementationName": "*.arb",
 		"pluginId": "de.keeyzar.gpt-helper.gpt-helper",
 		"pluginName": "gpt-helper"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.3ds",
-		"pluginId": "de.kleinicke.plyvisualizer",
-		"pluginName": "3D Visualizer"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.dae",
-		"pluginId": "de.kleinicke.plyvisualizer",
-		"pluginName": "3D Visualizer"
 	},
 	{
 		"bundled": false,
@@ -19310,6 +19520,18 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.asp",
+		"pluginId": "dvamuch.asp-classic-language-support",
+		"pluginName": "ASP Classic Language Support"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.vbs",
+		"pluginId": "dvamuch.asp-classic-language-support",
+		"pluginName": "ASP Classic Language Support"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.ijava",
 		"pluginId": "edu.rit.cs.plcc.jetbrainsPlugin",
 		"pluginName": "PLCC"
@@ -19850,6 +20072,270 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.af",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.afphoto",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.btf",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.bw",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.cdf",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.czi",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.dcm",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.dicom",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.exr",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.fit",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.fits",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.fts",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.hdp",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.hdr",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.j2c",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.j2k",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.jp2",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.jpc",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.jpf",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.jpx",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.jxl",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.jxr",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.kra",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.lif",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.nc",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.nd2",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.npy",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.npz",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.ora",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.pbm",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.pfm",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.pgm",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.ppm",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.psb",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.psd",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.rgb",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.rgba",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.sdt",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.sgi",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.tf2",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.tf8",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.tga",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.wdp",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.xcf",
+		"pluginId": "imagevisualizer",
+		"pluginName": "Scientific Image Visualizer"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.feature",
 		"pluginId": "in.srikanthk.devlabs.karate-chop-debugger",
 		"pluginName": "Karate Chop Debugger"
@@ -20261,6 +20747,66 @@
 		"implementationName": "*.xwf",
 		"pluginId": "io.entropy.idea.plugin",
 		"pluginName": "Nop Entropy"
+	},
+	{
+		"bundled": false,
+		"implementationName": "commit-msg",
+		"pluginId": "io.genai.githooks",
+		"pluginName": "Git Hooks"
+	},
+	{
+		"bundled": false,
+		"implementationName": "post-checkout",
+		"pluginId": "io.genai.githooks",
+		"pluginName": "Git Hooks"
+	},
+	{
+		"bundled": false,
+		"implementationName": "post-commit",
+		"pluginId": "io.genai.githooks",
+		"pluginName": "Git Hooks"
+	},
+	{
+		"bundled": false,
+		"implementationName": "post-merge",
+		"pluginId": "io.genai.githooks",
+		"pluginName": "Git Hooks"
+	},
+	{
+		"bundled": false,
+		"implementationName": "post-rewrite",
+		"pluginId": "io.genai.githooks",
+		"pluginName": "Git Hooks"
+	},
+	{
+		"bundled": false,
+		"implementationName": "pre-commit",
+		"pluginId": "io.genai.githooks",
+		"pluginName": "Git Hooks"
+	},
+	{
+		"bundled": false,
+		"implementationName": "pre-merge-commit",
+		"pluginId": "io.genai.githooks",
+		"pluginName": "Git Hooks"
+	},
+	{
+		"bundled": false,
+		"implementationName": "pre-push",
+		"pluginId": "io.genai.githooks",
+		"pluginName": "Git Hooks"
+	},
+	{
+		"bundled": false,
+		"implementationName": "pre-rebase",
+		"pluginId": "io.genai.githooks",
+		"pluginName": "Git Hooks"
+	},
+	{
+		"bundled": false,
+		"implementationName": "prepare-commit-msg",
+		"pluginId": "io.genai.githooks",
+		"pluginName": "Git Hooks"
 	},
 	{
 		"bundled": false,
@@ -22277,6 +22823,12 @@
 		"implementationName": "*.purs",
 		"pluginId": "net.kenro.ji.jin.intellij.purescript",
 		"pluginName": "Purescript"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.bbmodel",
+		"pluginId": "net.kernelpanicsoft.blockbenchidea",
+		"pluginName": "Blockbench"
 	},
 	{
 		"bundled": false,
@@ -26244,7 +26796,7 @@
 		"bundled": false,
 		"implementationName": "*.latte",
 		"pluginId": "org.nette.latte",
-		"pluginName": "Latte Support"
+		"pluginName": "Latte "
 	},
 	{
 		"bundled": false,
@@ -27538,6 +28090,18 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.slang",
+		"pluginId": "slanglsp_r",
+		"pluginName": "Slang [Unofficial] Refined"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.slangh",
+		"pluginId": "slanglsp_r",
+		"pluginName": "Slang [Unofficial] Refined"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.ess",
 		"pluginId": "snake-eater",
 		"pluginName": "Snakeskin"
@@ -27955,6 +28519,12 @@
 		"implementationName": "ErrorLog_*.txt",
 		"pluginId": "uk.co.reecedunn.intellij.plugin.xquery",
 		"pluginName": "XQuery and XSLT"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.duke",
+		"pluginId": "uz.dukeengine.plugin",
+		"pluginName": "Duke Engine"
 	},
 	{
 		"bundled": false,
