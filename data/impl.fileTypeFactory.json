@@ -2045,6 +2045,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.bpmn",
+		"pluginId": "ai.unifiedprocess.tools.ij",
+		"pluginName": "AI Unified Process Navigator"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.profile",
 		"pluginId": "ai.vespa",
 		"pluginName": "Vespa Schema Language Support"
@@ -3161,6 +3167,18 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.okcharacters",
+		"pluginId": "com.alicejump.okscripttoolkit",
+		"pluginName": "ok-script Toolkit"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.oktemplates",
+		"pluginId": "com.alicejump.okscripttoolkit",
+		"pluginName": "ok-script Toolkit"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.csv",
 		"pluginId": "com.andrey4623.rainbowcsv",
 		"pluginName": "Rainbow CSV"
@@ -4148,6 +4166,12 @@
 		"implementationName": ".analysis_options",
 		"pluginId": "com.dcm",
 		"pluginName": "DCM"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.bend",
+		"pluginId": "com.dearlordylord.bend.idea",
+		"pluginName": "Bend2"
 	},
 	{
 		"bundled": false,
@@ -5426,6 +5450,12 @@
 		"implementationName": "*.zip",
 		"pluginId": "com.github.b3er.idea.plugins.arc.browser",
 		"pluginName": "Archive Browser"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.golr",
+		"pluginId": "com.github.backbone81.golr",
+		"pluginName": "GoLR"
 	},
 	{
 		"bundled": false,
@@ -7121,6 +7151,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.vos",
+		"pluginId": "com.github.voml.jss_intellij",
+		"pluginName": "JSS Support"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.pax",
 		"pluginId": "com.github.warfaj.paxintellijplugin",
 		"pluginName": "Pax"
@@ -7568,6 +7604,12 @@
 		"implementationName": "*.md",
 		"pluginId": "com.google.tools.ij.aiplugin",
 		"pluginName": "Gemini Code Assist"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.xlsx",
+		"pluginId": "com.gramshift.xlsxeditor",
+		"pluginName": "XLSX Editor + Agent Reader"
 	},
 	{
 		"bundled": false,
@@ -11875,17 +11917,17 @@
 		"pluginName": "Velocity support"
 	},
 	{
+		"bundled": false,
+		"implementationName": "*.vsl",
+		"pluginId": "com.intellij.velocity",
+		"pluginName": "Apache Velocity"
+	},
+	{
 		"bundled": true,
 		"description": "Provides syntax and error highlighting, smart editing and inspections for the Velocity template language.",
 		"implementationName": "*.vsl",
 		"pluginId": "com.intellij.velocity",
 		"pluginName": "Velocity support"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.vsl",
-		"pluginId": "com.intellij.velocity",
-		"pluginName": "Apache Velocity"
 	},
 	{
 		"bundled": false,
@@ -14326,6 +14368,12 @@
 		"implementationName": "*.monkey",
 		"pluginId": "com.monkeyscriptplugin",
 		"pluginName": "MonkeyScript Syntax Highlighter"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.jrxml",
+		"pluginId": "com.mouadelmrabate.jasper",
+		"pluginName": "JRXML Preview"
 	},
 	{
 		"bundled": false,
@@ -16927,6 +16975,18 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": ".datachart",
+		"pluginId": "com.wd.DataChart",
+		"pluginName": "DataChart"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.datachart",
+		"pluginId": "com.wd.DataChart",
+		"pluginName": "DataChart"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.we",
 		"pluginId": "com.weex.darin",
 		"pluginName": "Weex"
@@ -17047,6 +17107,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.cbor",
+		"pluginId": "com.xkrypt.keyexplorer.basic",
+		"pluginName": "Key Explorer"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.cer",
 		"pluginId": "com.xkrypt.keyexplorer.basic",
 		"pluginName": "Key Explorer"
@@ -17054,6 +17120,12 @@
 	{
 		"bundled": false,
 		"implementationName": "*.cert",
+		"pluginId": "com.xkrypt.keyexplorer.basic",
+		"pluginName": "Key Explorer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.cose",
 		"pluginId": "com.xkrypt.keyexplorer.basic",
 		"pluginName": "Key Explorer"
 	},
@@ -17072,6 +17144,12 @@
 	{
 		"bundled": false,
 		"implementationName": "*.csr",
+		"pluginId": "com.xkrypt.keyexplorer.basic",
+		"pluginName": "Key Explorer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.cwt",
 		"pluginId": "com.xkrypt.keyexplorer.basic",
 		"pluginName": "Key Explorer"
 	},
@@ -17138,6 +17216,12 @@
 	{
 		"bundled": false,
 		"implementationName": "*.pk8",
+		"pluginId": "com.xkrypt.keyexplorer.basic",
+		"pluginName": "Key Explorer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.pkcs12",
 		"pluginId": "com.xkrypt.keyexplorer.basic",
 		"pluginName": "Key Explorer"
 	},
@@ -18302,6 +18386,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "client-extension.yaml",
+		"pluginId": "dev.cxcomposer.liferay",
+		"pluginName": "CX Composer for Liferay"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.dvignore",
 		"pluginId": "dev.diversion.plugin.dvidea",
 		"pluginName": "Diversion"
@@ -18515,6 +18605,12 @@
 		"implementationName": "*.webidl",
 		"pluginId": "dev.lukewarlow.intellijwebidlplugin",
 		"pluginName": "WebIDL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.parquet",
+		"pluginId": "dev.madrasco.intarsia",
+		"pluginName": "Intarsia"
 	},
 	{
 		"bundled": false,
@@ -18938,6 +19034,30 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.ckpt",
+		"pluginId": "dev.modelinspector",
+		"pluginName": "Model File Inspector"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.gguf",
+		"pluginId": "dev.modelinspector",
+		"pluginName": "Model File Inspector"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.pth",
+		"pluginId": "dev.modelinspector",
+		"pluginName": "Model File Inspector"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.safetensors",
+		"pluginId": "dev.modelinspector",
+		"pluginName": "Model File Inspector"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.cue",
 		"pluginId": "dev.monogon.cuelang",
 		"pluginName": "CUE"
@@ -19040,6 +19160,36 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.collapsed",
+		"pluginId": "dev.profileviewer",
+		"pluginName": "Profile Viewer: CPU & Heap Profiles, Flame Graphs"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.folded",
+		"pluginId": "dev.profileviewer",
+		"pluginName": "Profile Viewer: CPU & Heap Profiles, Flame Graphs"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.heapprofile",
+		"pluginId": "dev.profileviewer",
+		"pluginName": "Profile Viewer: CPU & Heap Profiles, Flame Graphs"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.prof",
+		"pluginId": "dev.profileviewer",
+		"pluginName": "Profile Viewer: CPU & Heap Profiles, Flame Graphs"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.pstats",
+		"pluginId": "dev.profileviewer",
+		"pluginName": "Profile Viewer: CPU & Heap Profiles, Flame Graphs"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.pds",
 		"pluginId": "dev.pseudoscript.pds",
 		"pluginName": "PseudoScript"
@@ -19121,6 +19271,30 @@
 		"implementationName": "*.mmd",
 		"pluginId": "dev.tachilabs.mermaidstudio.core",
 		"pluginName": "Mermaid Studio Core"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.tfstate",
+		"pluginId": "dev.tfstateviewer",
+		"pluginName": "TFState Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.tfstate.*.backup",
+		"pluginId": "dev.tfstateviewer",
+		"pluginName": "TFState Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.tfstate.backup",
+		"pluginId": "dev.tfstateviewer",
+		"pluginName": "TFState Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "terraform.tfstate.backup",
+		"pluginId": "dev.tfstateviewer",
+		"pluginName": "TFState Viewer"
 	},
 	{
 		"bundled": false,
@@ -19397,6 +19571,12 @@
 		"implementationName": "*.veld",
 		"pluginId": "dev.veld.jetbrains",
 		"pluginName": "Veld"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.compact",
+		"pluginId": "dev.verloren.midnight",
+		"pluginName": "Midnight Compact Language"
 	},
 	{
 		"bundled": false,
@@ -21050,6 +21230,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.dbml",
+		"pluginId": "io.github.dbmldiagram",
+		"pluginName": "DBML Diagram"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.conf",
 		"pluginId": "io.github.dsudomoin.hocon",
 		"pluginName": "HOCON Support"
@@ -21263,6 +21449,24 @@
 		"implementationName": "*.fbs",
 		"pluginId": "io.github.stefansjs.flatbuffersplugin",
 		"pluginName": "Flatbuffers Support"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.cedar",
+		"pluginId": "io.github.thefellow.cedar",
+		"pluginName": "Cedar"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.cedarschema",
+		"pluginId": "io.github.thefellow.cedar",
+		"pluginName": "Cedar"
+	},
+	{
+		"bundled": false,
+		"implementationName": "cedarschema",
+		"pluginId": "io.github.thefellow.cedar",
+		"pluginName": "Cedar"
 	},
 	{
 		"bundled": false,
@@ -21599,12 +21803,6 @@
 		"implementationName": "*.libsonnet",
 		"pluginId": "io.portx.datasonnet",
 		"pluginName": "DataSonnet Mapper"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.psm",
-		"pluginId": "io.prismio",
-		"pluginName": "Prismio Language Support"
 	},
 	{
 		"bundled": false,
