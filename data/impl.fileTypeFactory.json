@@ -1241,37 +1241,37 @@
 		"bundled": false,
 		"implementationName": "*.doclua",
 		"pluginId": "Lua",
-		"pluginName": "Lua"
+		"pluginName": "Lua [Deprecated]"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.lua",
 		"pluginId": "Lua",
-		"pluginName": "Lua"
+		"pluginName": "Lua [Deprecated]"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.wlua",
 		"pluginId": "Lua",
-		"pluginName": "Lua"
+		"pluginName": "Lua [Deprecated]"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.doclua",
 		"pluginId": "LuaLegacy",
-		"pluginName": "Lua"
+		"pluginName": "IDLua"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.lua",
 		"pluginId": "LuaLegacy",
-		"pluginName": "Lua"
+		"pluginName": "IDLua"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.wlua",
 		"pluginId": "LuaLegacy",
-		"pluginName": "Lua"
+		"pluginName": "IDLua"
 	},
 	{
 		"bundled": false,
@@ -1721,31 +1721,31 @@
 		"bundled": false,
 		"implementationName": "*.rule",
 		"pluginId": "SnakeCharm",
-		"pluginName": "snakecharm"
+		"pluginName": "SnakeCharm"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.rules",
 		"pluginId": "SnakeCharm",
-		"pluginName": "snakecharm"
+		"pluginName": "SnakeCharm"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.smk",
 		"pluginId": "SnakeCharm",
-		"pluginName": "snakecharm"
+		"pluginName": "SnakeCharm"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.smkStringLanguage",
 		"pluginId": "SnakeCharm",
-		"pluginName": "snakecharm"
+		"pluginName": "SnakeCharm"
 	},
 	{
 		"bundled": false,
 		"implementationName": "Snakefile",
 		"pluginId": "SnakeCharm",
-		"pluginName": "snakecharm"
+		"pluginName": "SnakeCharm"
 	},
 	{
 		"bundled": false,
@@ -3167,7 +3167,19 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.okannotations",
+		"pluginId": "com.alicejump.okscripttoolkit",
+		"pluginName": "ok-script Toolkit"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.okcharacters",
+		"pluginId": "com.alicejump.okscripttoolkit",
+		"pluginName": "ok-script Toolkit"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.okgettingstarted",
 		"pluginId": "com.alicejump.okscripttoolkit",
 		"pluginName": "ok-script Toolkit"
 	},
@@ -3404,6 +3416,12 @@
 		"implementationName": "*.vizitest-test-manager",
 		"pluginId": "com.ast.vizitest",
 		"pluginName": "Vizitest"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.astro",
+		"pluginId": "com.astroproPlugin",
+		"pluginName": "Astro Pro"
 	},
 	{
 		"bundled": false,
@@ -6098,6 +6116,48 @@
 		"implementationName": "*.z",
 		"pluginId": "com.github.dixtdf.archive.manager",
 		"pluginName": "ArchiveManager"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.barrel",
+		"pluginId": "com.github.dtretyakov.monkeyc",
+		"pluginName": "Monkey C"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.jungle",
+		"pluginId": "com.github.dtretyakov.monkeyc",
+		"pluginName": "Monkey C"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.mb",
+		"pluginId": "com.github.dtretyakov.monkeyc",
+		"pluginName": "Monkey C"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.mc",
+		"pluginId": "com.github.dtretyakov.monkeyc",
+		"pluginName": "Monkey C"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.mcgen",
+		"pluginId": "com.github.dtretyakov.monkeyc",
+		"pluginName": "Monkey C"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.mir",
+		"pluginId": "com.github.dtretyakov.monkeyc",
+		"pluginName": "Monkey C"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.mss",
+		"pluginId": "com.github.dtretyakov.monkeyc",
+		"pluginName": "Monkey C"
 	},
 	{
 		"bundled": false,
@@ -9935,6 +9995,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.aemaichat",
+		"pluginId": "com.ilscipio.aem.integration",
+		"pluginName": "AEM Integration"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.any",
 		"pluginId": "com.ilscipio.aem.integration",
 		"pluginName": "AEM Integration"
@@ -12059,7 +12125,7 @@
 		"bundled": false,
 		"implementationName": "*.latte",
 		"pluginId": "com.jantvrdik.intellij.latte",
-		"pluginName": "Latte [Deprecated]"
+		"pluginName": "Latte Deprecated"
 	},
 	{
 		"bundled": false,
@@ -13651,6 +13717,48 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.bat",
+		"pluginId": "com.kitsstech.batchcraft",
+		"pluginName": "BatchCraft: Batch & CMD"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.cmd",
+		"pluginId": "com.kitsstech.batchcraft",
+		"pluginName": "BatchCraft: Batch & CMD"
+	},
+	{
+		"bundled": false,
+		"implementationName": ".ansible.cfg",
+		"pluginId": "com.kitsstech.rolewise",
+		"pluginName": "Rolewise for Ansible"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.j2",
+		"pluginId": "com.kitsstech.rolewise",
+		"pluginName": "Rolewise for Ansible"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.jinja2",
+		"pluginId": "com.kitsstech.rolewise",
+		"pluginName": "Rolewise for Ansible"
+	},
+	{
+		"bundled": false,
+		"implementationName": "ansible.cfg",
+		"pluginId": "com.kitsstech.rolewise",
+		"pluginName": "Rolewise for Ansible"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.cwlq",
+		"pluginId": "com.kitsstech.stratolog",
+		"pluginName": "Stratolog for CloudWatch"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.avro",
 		"pluginId": "com.kitworks.tablekit",
 		"pluginName": "TableKit: Excel & Parquet Viewer"
@@ -13786,6 +13894,12 @@
 		"implementationName": "*.nimscript",
 		"pluginId": "com.laamella.nim",
 		"pluginName": "Nim using nimlangserver"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.zpl",
+		"pluginId": "com.labelixa.zpl",
+		"pluginName": "Labelixa ZPL"
 	},
 	{
 		"bundled": false,
@@ -16621,6 +16735,18 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.jsonlines.gz",
+		"pluginId": "com.twilightventures.jsonllens",
+		"pluginName": "JSONL Lens: JSON Lines / NDJSON Viewer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.ldjson.gz",
+		"pluginId": "com.twilightventures.jsonllens",
+		"pluginName": "JSONL Lens: JSON Lines / NDJSON Viewer"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.ndjson.gz",
 		"pluginId": "com.twilightventures.jsonllens",
 		"pluginName": "JSONL Lens: JSON Lines / NDJSON Viewer"
@@ -18260,6 +18386,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.adm",
+		"pluginId": "dev.adm-lang.adm",
+		"pluginName": "ADM Language"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.m",
 		"pluginId": "dev.adnathanail.mirandaintellijplugin",
 		"pluginName": "Miranda Language Support"
@@ -18375,6 +18507,18 @@
 	{
 		"bundled": false,
 		"implementationName": "*.bpmn.xml",
+		"pluginId": "dev.camunda.bpmn-editor",
+		"pluginName": "Penstock"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.bpmn20.xml",
+		"pluginId": "dev.camunda.bpmn-editor",
+		"pluginName": "Penstock"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.dmn",
 		"pluginId": "dev.camunda.bpmn-editor",
 		"pluginName": "Penstock"
 	},
@@ -18539,6 +18683,60 @@
 		"implementationName": "*.jsh",
 		"pluginId": "dev.jbang.intellij.JBangPlugin",
 		"pluginName": "JBang"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.bib",
+		"pluginId": "dev.jetplugins.latex",
+		"pluginName": "LaTeX Pro"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.ltx",
+		"pluginId": "dev.jetplugins.latex",
+		"pluginName": "LaTeX Pro"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.tex",
+		"pluginId": "dev.jetplugins.latex",
+		"pluginName": "LaTeX Pro"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.marko",
+		"pluginId": "dev.jetplugins.markojs",
+		"pluginName": "Marko Pro"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.mojo",
+		"pluginId": "dev.jetplugins.mojo",
+		"pluginName": "Mojo Pro"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.nix",
+		"pluginId": "dev.jetplugins.nix-pro",
+		"pluginName": "Nix Pro"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.pro",
+		"pluginId": "dev.jetplugins.obfuscation-pro",
+		"pluginName": "Obfuscation Pro"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.rst",
+		"pluginId": "dev.jetplugins.rstpro",
+		"pluginName": "reStructuredText Pro"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.typ",
+		"pluginId": "dev.jetplugins.typst",
+		"pluginName": "Scribe Pro"
 	},
 	{
 		"bundled": false,
@@ -20996,6 +21194,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.java",
+		"pluginId": "io.genai.java",
+		"pluginName": "Java Portable"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.jenkinsfile",
 		"pluginId": "io.genai.jenkins",
 		"pluginName": "GenAI Jenkinsfile"
@@ -21310,13 +21514,13 @@
 		"bundled": false,
 		"implementationName": "*.lsl",
 		"pluginId": "io.github.koollsl.intellij-lsl",
-		"pluginName": "Linden Scripting Language (LSL)"
+		"pluginName": "LSL & SLua for Second Life"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.lslp",
 		"pluginId": "io.github.koollsl.intellij-lsl",
-		"pluginName": "Linden Scripting Language (LSL)"
+		"pluginName": "LSL & SLua for Second Life"
 	},
 	{
 		"bundled": false,
@@ -24774,17 +24978,17 @@
 		"pluginName": "Android"
 	},
 	{
+		"bundled": false,
+		"implementationName": "*.aidl",
+		"pluginId": "org.jetbrains.android",
+		"pluginName": "Android"
+	},
+	{
 		"bundled": true,
 		"description": "Supports development of Open Handset Alliance Android applications with IntelliJ IDEA.",
 		"implementationName": "*.aidl",
 		"pluginId": "org.jetbrains.android",
 		"pluginName": "Android Support"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.aidl",
-		"pluginId": "org.jetbrains.android",
-		"pluginName": "Android"
 	},
 	{
 		"bundled": false,
@@ -25428,6 +25632,12 @@
 		"implementationName": "*.amper",
 		"pluginId": "org.jetbrains.kotlin-toolchain",
 		"pluginName": "Kotlin Toolchain"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.ir.txt",
+		"pluginId": "org.jetbrains.kotlin.compiler.devkit",
+		"pluginName": "Kotlin Compiler DevKit"
 	},
 	{
 		"bundled": false,
@@ -26994,7 +27204,7 @@
 		"bundled": false,
 		"implementationName": "*.latte",
 		"pluginId": "org.nette.latte",
-		"pluginName": "Latte "
+		"pluginName": "Latte"
 	},
 	{
 		"bundled": false,
@@ -27415,6 +27625,12 @@
 		"implementationName": ".beancombiner",
 		"pluginId": "org.tzraeq.BeanCombiner",
 		"pluginName": "Bean Combiner"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.vernac",
+		"pluginId": "org.vernac",
+		"pluginName": "Vernac"
 	},
 	{
 		"bundled": false,
