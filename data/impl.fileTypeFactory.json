@@ -195,17 +195,17 @@
 		"pluginName": "CFML"
 	},
 	{
+		"bundled": false,
+		"implementationName": "*.cfml",
+		"pluginId": "CFML Support",
+		"pluginName": "CFML"
+	},
+	{
 		"bundled": true,
 		"description": "ColdFusion Markup Language (CFML) support.",
 		"implementationName": "*.cfml",
 		"pluginId": "CFML Support",
 		"pluginName": "CFML Support"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.cfml",
-		"pluginId": "CFML Support",
-		"pluginName": "CFML"
 	},
 	{
 		"bundled": false,
@@ -2111,6 +2111,18 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.eml",
+		"pluginId": "app.heckit.ide.mailview",
+		"pluginName": "Mail View"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.msg",
+		"pluginId": "app.heckit.ide.mailview",
+		"pluginName": "Mail View"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.fj",
 		"pluginId": "app.tomhe.flipjump",
 		"pluginName": "FlipJump"
@@ -3689,6 +3701,84 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.cer",
+		"pluginId": "com.braingrain.keystoreview",
+		"pluginName": "Keystore View"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.der",
+		"pluginId": "com.braingrain.keystoreview",
+		"pluginName": "Keystore View"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.jceks",
+		"pluginId": "com.braingrain.keystoreview",
+		"pluginName": "Keystore View"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.jks",
+		"pluginId": "com.braingrain.keystoreview",
+		"pluginName": "Keystore View"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.keystore",
+		"pluginId": "com.braingrain.keystoreview",
+		"pluginName": "Keystore View"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.p12",
+		"pluginId": "com.braingrain.keystoreview",
+		"pluginName": "Keystore View"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.pfx",
+		"pluginId": "com.braingrain.keystoreview",
+		"pluginName": "Keystore View"
+	},
+	{
+		"bundled": false,
+		"implementationName": ".qmake.cache",
+		"pluginId": "com.brisaworks.scons-workbench",
+		"pluginName": "SCons Workbench"
+	},
+	{
+		"bundled": false,
+		"implementationName": ".qmake.conf",
+		"pluginId": "com.brisaworks.scons-workbench",
+		"pluginName": "SCons Workbench"
+	},
+	{
+		"bundled": false,
+		"implementationName": ".qmake.stash",
+		"pluginId": "com.brisaworks.scons-workbench",
+		"pluginName": "SCons Workbench"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.prf",
+		"pluginId": "com.brisaworks.scons-workbench",
+		"pluginName": "SCons Workbench"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.pri",
+		"pluginId": "com.brisaworks.scons-workbench",
+		"pluginName": "SCons Workbench"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.pro",
+		"pluginId": "com.brisaworks.scons-workbench",
+		"pluginName": "SCons Workbench"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.tsol",
 		"pluginId": "com.broxus.t-sol",
 		"pluginName": "T-Sol"
@@ -4664,6 +4754,66 @@
 		"implementationName": "*.sqb",
 		"pluginId": "com.flexible.cobol",
 		"pluginName": "Flexible COBOL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.delphiaichat",
+		"pluginId": "com.flexible.delphi",
+		"pluginName": "Flexible Delphi"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.dfm",
+		"pluginId": "com.flexible.delphi",
+		"pluginName": "Flexible Delphi"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.dpk",
+		"pluginId": "com.flexible.delphi",
+		"pluginName": "Flexible Delphi"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.dpr",
+		"pluginId": "com.flexible.delphi",
+		"pluginName": "Flexible Delphi"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.fmx",
+		"pluginId": "com.flexible.delphi",
+		"pluginName": "Flexible Delphi"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.inc",
+		"pluginId": "com.flexible.delphi",
+		"pluginName": "Flexible Delphi"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.lfm",
+		"pluginId": "com.flexible.delphi",
+		"pluginName": "Flexible Delphi"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.lpr",
+		"pluginId": "com.flexible.delphi",
+		"pluginName": "Flexible Delphi"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.pas",
+		"pluginId": "com.flexible.delphi",
+		"pluginName": "Flexible Delphi"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.pp",
+		"pluginId": "com.flexible.delphi",
+		"pluginName": "Flexible Delphi"
 	},
 	{
 		"bundled": false,
@@ -6158,6 +6308,12 @@
 		"implementationName": "*.mss",
 		"pluginId": "com.github.dtretyakov.monkeyc",
 		"pluginName": "Monkey C"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.pbtest",
+		"pluginId": "com.github.dtretyakov.pebble",
+		"pluginName": "Develop for Pebble"
 	},
 	{
 		"bundled": false,
@@ -7669,7 +7825,7 @@
 		"bundled": false,
 		"implementationName": "*.xlsx",
 		"pluginId": "com.gramshift.xlsxeditor",
-		"pluginName": "XLSX Editor + Agent Reader"
+		"pluginName": "Spreadsheet Editor for Excel"
 	},
 	{
 		"bundled": false,
@@ -11315,6 +11471,18 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.lua",
+		"pluginId": "com.intellij.lua",
+		"pluginName": "Lua"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.luau",
+		"pluginId": "com.intellij.lua",
+		"pluginName": "Lua"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.mermaid",
 		"pluginId": "com.intellij.mermaid",
 		"pluginName": "Mermaid"
@@ -11559,6 +11727,18 @@
 	{
 		"bundled": false,
 		"implementationName": "*.hxml",
+		"pluginId": "com.intellij.plugins.haxe",
+		"pluginName": "Haxe Toolkit Support"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.hxp",
+		"pluginId": "com.intellij.plugins.haxe",
+		"pluginName": "Haxe Toolkit Support"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.lime",
 		"pluginId": "com.intellij.plugins.haxe",
 		"pluginName": "Haxe Toolkit Support"
 	},
@@ -14665,6 +14845,24 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.kv",
+		"pluginId": "com.npcoding.kvlanguage",
+		"pluginName": "Oskuvi KV Language"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.promql",
+		"pluginId": "com.npcoding.metricqueries",
+		"pluginName": "Oskuvi Metric Queries"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.mako",
+		"pluginId": "com.npcoding.mkotemplates",
+		"pluginName": "Oskuvi MKO Templates"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.liquid",
 		"pluginId": "com.obra.liquid",
 		"pluginName": "Liquid for Shopify & Jekyll"
@@ -15847,6 +16045,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.als",
+		"pluginId": "com.serranofp.alloy-ide",
+		"pluginName": "Alloy Analyzer"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.iedis",
 		"pluginId": "com.seventh7.widget.iedis",
 		"pluginName": "Iedis"
@@ -15910,6 +16114,18 @@
 		"implementationName": "*.ttl",
 		"pluginId": "com.sharedvocabs.plugins.rdfandsparql",
 		"pluginName": "RDF and SPARQL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.as",
+		"pluginId": "com.shiningpluto.rider-unreal-angelscript",
+		"pluginName": "AngelScript UE"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.ash",
+		"pluginId": "com.shiningpluto.rider-unreal-angelscript",
+		"pluginName": "AngelScript UE"
 	},
 	{
 		"bundled": false,
@@ -16953,13 +17169,13 @@
 		"bundled": false,
 		"implementationName": "*.gdj",
 		"pluginId": "com.utopia-rise.godotjvmideaplugin",
-		"pluginName": "Godot Kotlin/Jvm"
+		"pluginName": "Godot-JVM"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.tscn",
 		"pluginId": "com.utopia-rise.godotjvmideaplugin",
-		"pluginName": "Godot Kotlin/Jvm"
+		"pluginName": "Godot-JVM"
 	},
 	{
 		"bundled": false,
@@ -18620,6 +18836,18 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "helmfile.yaml",
+		"pluginId": "dev.helmfile.editor",
+		"pluginName": "Helmfile"
+	},
+	{
+		"bundled": false,
+		"implementationName": "helmfile.yml",
+		"pluginId": "dev.helmfile.editor",
+		"pluginName": "Helmfile"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.htmx",
 		"pluginId": "dev.honkanen.htmxpro",
 		"pluginName": "HTMX Pro"
@@ -18683,6 +18911,18 @@
 		"implementationName": "*.jsh",
 		"pluginId": "dev.jbang.intellij.JBangPlugin",
 		"pluginName": "JBang"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.dbml",
+		"pluginId": "dev.jetplugins.dbml",
+		"pluginName": "DBML Pro"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.gleam",
+		"pluginId": "dev.jetplugins.gleam",
+		"pluginName": "Gleam Pro"
 	},
 	{
 		"bundled": false,
@@ -21188,12 +21428,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "*.go",
-		"pluginId": "io.genai.go",
-		"pluginName": "Go Portable"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.java",
 		"pluginId": "io.genai.java",
 		"pluginName": "Java Portable"
@@ -21242,39 +21476,9 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "*.php",
-		"pluginId": "io.genai.php",
-		"pluginName": "GenAI PHP Portable"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.php5",
-		"pluginId": "io.genai.php",
-		"pluginName": "GenAI PHP Portable"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.php7",
-		"pluginId": "io.genai.php",
-		"pluginName": "GenAI PHP Portable"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.php8",
-		"pluginId": "io.genai.php",
-		"pluginName": "GenAI PHP Portable"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.phtml",
 		"pluginId": "io.genai.php",
 		"pluginName": "GenAI PHP Portable"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.py",
-		"pluginId": "io.genai.python",
-		"pluginName": "Python Portable"
 	},
 	{
 		"bundled": false,
@@ -21503,6 +21707,12 @@
 		"implementationName": "*.qiq.php",
 		"pluginId": "io.github.jingu.idea-qiq-plugin",
 		"pluginName": "Qiq Templates Support"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.xcstrings",
+		"pluginId": "io.github.khubaibkhan4.kmptranslationshub",
+		"pluginName": "KMP Translations Hub"
 	},
 	{
 		"bundled": false,
@@ -23330,6 +23540,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.feature",
+		"pluginId": "net.reqnroll.idesupport",
+		"pluginName": "Reqnroll Extension (Preview)"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.csv",
 		"pluginId": "net.seesharpsoft.intellij.plugins.csv",
 		"pluginName": "CSV Editor"
@@ -23603,6 +23819,12 @@
 		"implementationName": "*..pui",
 		"pluginId": "online.generalpashon.jpize-ui-idea-plugin",
 		"pluginName": "Jpize UI"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.cddl",
+		"pluginId": "online.larsen.cddl",
+		"pluginName": "CDDL"
 	},
 	{
 		"bundled": false,
@@ -27199,6 +27421,12 @@
 		"implementationName": "justfile",
 		"pluginId": "org.mvnsearch.plugins.justPlugin",
 		"pluginName": "Just"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.nrx",
+		"pluginId": "org.netrexx.lsp4nrx",
+		"pluginName": "NetRexx"
 	},
 	{
 		"bundled": false,
