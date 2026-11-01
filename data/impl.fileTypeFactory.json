@@ -2117,7 +2117,55 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.emlx",
+		"pluginId": "app.heckit.ide.mailview",
+		"pluginName": "Mail View"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.mbox",
+		"pluginId": "app.heckit.ide.mailview",
+		"pluginName": "Mail View"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.mbx",
+		"pluginId": "app.heckit.ide.mailview",
+		"pluginName": "Mail View"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.mht",
+		"pluginId": "app.heckit.ide.mailview",
+		"pluginName": "Mail View"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.mhtml",
+		"pluginId": "app.heckit.ide.mailview",
+		"pluginName": "Mail View"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.msg",
+		"pluginId": "app.heckit.ide.mailview",
+		"pluginName": "Mail View"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.oft",
+		"pluginId": "app.heckit.ide.mailview",
+		"pluginName": "Mail View"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.tnef",
+		"pluginId": "app.heckit.ide.mailview",
+		"pluginName": "Mail View"
+	},
+	{
+		"bundled": false,
+		"implementationName": "winmail.dat",
 		"pluginId": "app.heckit.ide.mailview",
 		"pluginName": "Mail View"
 	},
@@ -2450,6 +2498,12 @@
 		"implementationName": "*.kite",
 		"pluginId": "cloud.kitelang.intellij-plugin",
 		"pluginName": "Kite"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.fxml",
+		"pluginId": "club.xiaojiawei.javafx.plus",
+		"pluginName": "JavaFX Plus"
 	},
 	{
 		"bundled": false,
@@ -4148,6 +4202,12 @@
 		"implementationName": "*.webbrowser",
 		"pluginId": "com.cpw.browser.WebBrowser",
 		"pluginName": "Web Browser - Free & Chrome-Like"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.tera",
+		"pluginId": "com.creamgod45.tera.studio",
+		"pluginName": "Tera Template Studio"
 	},
 	{
 		"bundled": false,
@@ -12007,15 +12067,21 @@
 		"pluginName": "SQL support"
 	},
 	{
+		"bundled": true,
+		"description": "Swagger and OpenAPI specification files support.",
+		"implementationName": "openapi.json",
+		"pluginId": "com.intellij.swagger",
+		"pluginName": "OpenAPI Specifications"
+	},
+	{
 		"bundled": false,
 		"implementationName": "openapi.json",
 		"pluginId": "com.intellij.swagger",
 		"pluginName": "OpenAPI Specifications"
 	},
 	{
-		"bundled": true,
-		"description": "Swagger and OpenAPI specification files support.",
-		"implementationName": "openapi.json",
+		"bundled": false,
+		"implementationName": "openapi.yaml",
 		"pluginId": "com.intellij.swagger",
 		"pluginName": "OpenAPI Specifications"
 	},
@@ -12027,20 +12093,14 @@
 		"pluginName": "OpenAPI Specifications"
 	},
 	{
-		"bundled": false,
-		"implementationName": "openapi.yaml",
-		"pluginId": "com.intellij.swagger",
-		"pluginName": "OpenAPI Specifications"
-	},
-	{
-		"bundled": false,
+		"bundled": true,
+		"description": "Swagger and OpenAPI specification files support.",
 		"implementationName": "openapi.yml",
 		"pluginId": "com.intellij.swagger",
 		"pluginName": "OpenAPI Specifications"
 	},
 	{
-		"bundled": true,
-		"description": "Swagger and OpenAPI specification files support.",
+		"bundled": false,
 		"implementationName": "openapi.yml",
 		"pluginId": "com.intellij.swagger",
 		"pluginName": "OpenAPI Specifications"
@@ -13136,14 +13196,14 @@
 		"pluginName": "ASP"
 	},
 	{
-		"bundled": true,
-		"description": "Active Server Pages editing support",
+		"bundled": false,
 		"implementationName": "*.asp",
 		"pluginId": "com.jetbrains.plugins.asp",
 		"pluginName": "ASP"
 	},
 	{
-		"bundled": false,
+		"bundled": true,
+		"description": "Active Server Pages editing support",
 		"implementationName": "*.asp",
 		"pluginId": "com.jetbrains.plugins.asp",
 		"pluginName": "ASP"
@@ -14401,6 +14461,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.perm",
+		"pluginId": "com.mallowigi.permify",
+		"pluginName": "Permify"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.esdsl",
 		"pluginId": "com.manymobi.intellij.esdsl",
 		"pluginName": "Esdsl"
@@ -14845,9 +14911,111 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.asn",
+		"pluginId": "com.npcoding.asn1support",
+		"pluginName": "NPCoding Support for ASN.1"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.asn1",
+		"pluginId": "com.npcoding.asn1support",
+		"pluginName": "NPCoding Support for ASN.1"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.dbc",
+		"pluginId": "com.npcoding.candatabases",
+		"pluginName": "NPCoding CAN Database Files"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.textfsm",
+		"pluginId": "com.npcoding.cliparsetemplates",
+		"pluginName": "NPCoding CLI Parse Templates"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.ll",
+		"pluginId": "com.npcoding.compilerirfiles",
+		"pluginName": "NPCoding Compiler IR Files"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.mcfunction",
+		"pluginId": "com.npcoding.datapackfunctions",
+		"pluginName": "NPCoding Datapack Functions"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.mcmeta",
+		"pluginId": "com.npcoding.datapackfunctions",
+		"pluginName": "NPCoding Datapack Functions"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.snbt",
+		"pluginId": "com.npcoding.datapackfunctions",
+		"pluginName": "NPCoding Datapack Functions"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.hl7",
+		"pluginId": "com.npcoding.healthmessages",
+		"pluginName": "NPCoding Health Messages"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.hl7v2",
+		"pluginId": "com.npcoding.healthmessages",
+		"pluginName": "NPCoding Health Messages"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.nsh",
+		"pluginId": "com.npcoding.installerscripts",
+		"pluginName": "NPCoding Installer Scripts"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.nsi",
+		"pluginId": "com.npcoding.installerscripts",
+		"pluginName": "NPCoding Installer Scripts"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.kv",
 		"pluginId": "com.npcoding.kvlanguage",
 		"pluginName": "Oskuvi KV Language"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.ldif",
+		"pluginId": "com.npcoding.ldifsupport",
+		"pluginName": "NPCoding Support for LDIF"
+	},
+	{
+		"bundled": false,
+		"implementationName": ".clinerules",
+		"pluginId": "com.npcoding.mdcrules",
+		"pluginName": "NPCoding MDC Rule Files"
+	},
+	{
+		"bundled": false,
+		"implementationName": ".cursorrules",
+		"pluginId": "com.npcoding.mdcrules",
+		"pluginName": "NPCoding MDC Rule Files"
+	},
+	{
+		"bundled": false,
+		"implementationName": ".windsurfrules",
+		"pluginId": "com.npcoding.mdcrules",
+		"pluginName": "NPCoding MDC Rule Files"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.mdc",
+		"pluginId": "com.npcoding.mdcrules",
+		"pluginName": "NPCoding MDC Rule Files"
 	},
 	{
 		"bundled": false,
@@ -14860,6 +15028,108 @@
 		"implementationName": "*.mako",
 		"pluginId": "com.npcoding.mkotemplates",
 		"pluginName": "Oskuvi MKO Templates"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.jade",
+		"pluginId": "com.npcoding.pugsupport",
+		"pluginName": "NPCoding Support for Pug"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.pug",
+		"pluginId": "com.npcoding.pugsupport",
+		"pluginName": "NPCoding Support for Pug"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.reg",
+		"pluginId": "com.npcoding.registryfiles",
+		"pluginName": "NPCoding Registry Files"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.action",
+		"pluginId": "com.npcoding.robotinterfaces",
+		"pluginName": "NPCoding Robot Interfaces"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.launch",
+		"pluginId": "com.npcoding.robotinterfaces",
+		"pluginName": "NPCoding Robot Interfaces"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.msg",
+		"pluginId": "com.npcoding.robotinterfaces",
+		"pluginName": "NPCoding Robot Interfaces"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.srv",
+		"pluginId": "com.npcoding.robotinterfaces",
+		"pluginName": "NPCoding Robot Interfaces"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.xacro",
+		"pluginId": "com.npcoding.robotinterfaces",
+		"pluginName": "NPCoding Robot Interfaces"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.cil",
+		"pluginId": "com.npcoding.securitypolicy",
+		"pluginName": "NPCoding Security Policy Files"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.te",
+		"pluginId": "com.npcoding.securitypolicy",
+		"pluginName": "NPCoding Security Policy Files"
+	},
+	{
+		"bundled": false,
+		"implementationName": "file_contexts",
+		"pluginId": "com.npcoding.securitypolicy",
+		"pluginName": "NPCoding Security Policy Files"
+	},
+	{
+		"bundled": false,
+		"implementationName": "global_macros",
+		"pluginId": "com.npcoding.securitypolicy",
+		"pluginName": "NPCoding Security Policy Files"
+	},
+	{
+		"bundled": false,
+		"implementationName": "ioctl_defines",
+		"pluginId": "com.npcoding.securitypolicy",
+		"pluginName": "NPCoding Security Policy Files"
+	},
+	{
+		"bundled": false,
+		"implementationName": "ioctl_macros",
+		"pluginId": "com.npcoding.securitypolicy",
+		"pluginName": "NPCoding Security Policy Files"
+	},
+	{
+		"bundled": false,
+		"implementationName": "neverallow_macros",
+		"pluginId": "com.npcoding.securitypolicy",
+		"pluginName": "NPCoding Security Policy Files"
+	},
+	{
+		"bundled": false,
+		"implementationName": "te_macros",
+		"pluginId": "com.npcoding.securitypolicy",
+		"pluginName": "NPCoding Security Policy Files"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.vtl",
+		"pluginId": "com.npcoding.vtltemplates",
+		"pluginName": "Oskuvi VTL Templates"
 	},
 	{
 		"bundled": false,
@@ -15634,6 +15904,30 @@
 		"implementationName": "*.qasm",
 		"pluginId": "com.quantumvm.qasm",
 		"pluginName": "QuantumVM"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.cfc",
+		"pluginId": "com.quetwo.IntelliLucee",
+		"pluginName": "Lucee CFML"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.cfm",
+		"pluginId": "com.quetwo.IntelliLucee",
+		"pluginName": "Lucee CFML"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.cfml",
+		"pluginId": "com.quetwo.IntelliLucee",
+		"pluginName": "Lucee CFML"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.cfs",
+		"pluginId": "com.quetwo.IntelliLucee",
+		"pluginName": "Lucee CFML"
 	},
 	{
 		"bundled": false,
@@ -18740,6 +19034,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.feel",
+		"pluginId": "dev.camunda.bpmn-editor",
+		"pluginName": "Penstock"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.cxaml",
 		"pluginId": "dev.cursorial.designer",
 		"pluginName": "Cursorial Designer"
@@ -18866,6 +19166,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.isc",
+		"pluginId": "dev.ispa.grammar",
+		"pluginName": "ISPA Grammar"
+	},
+	{
+		"bundled": false,
 		"implementationName": ".swift-format",
 		"pluginId": "dev.j-a.swift",
 		"pluginName": "Noctule, the Swift IDE"
@@ -18920,6 +19226,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.duckdb",
+		"pluginId": "dev.jetplugins.duckdb",
+		"pluginName": "Toolkit for DuckDB"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.gleam",
 		"pluginId": "dev.jetplugins.gleam",
 		"pluginName": "Gleam Pro"
@@ -18953,6 +19265,42 @@
 		"implementationName": "*.mojo",
 		"pluginId": "dev.jetplugins.mojo",
 		"pluginName": "Mojo Pro"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.nim",
+		"pluginId": "dev.jetplugins.nim",
+		"pluginName": "Nim Pro"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.nim.cfg",
+		"pluginId": "dev.jetplugins.nim",
+		"pluginName": "Nim Pro"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.nimble",
+		"pluginId": "dev.jetplugins.nim",
+		"pluginName": "Nim Pro"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.nimcfg",
+		"pluginId": "dev.jetplugins.nim",
+		"pluginName": "Nim Pro"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.nims",
+		"pluginId": "dev.jetplugins.nim",
+		"pluginName": "Nim Pro"
+	},
+	{
+		"bundled": false,
+		"implementationName": "nim.cfg",
+		"pluginId": "dev.jetplugins.nim",
+		"pluginName": "Nim Pro"
 	},
 	{
 		"bundled": false,
@@ -19655,6 +20003,120 @@
 		"implementationName": "*.sbp",
 		"pluginId": "dev.sbp",
 		"pluginName": "Sbp"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.comp",
+		"pluginId": "dev.shanflyer.glsl",
+		"pluginName": "Shan GLSL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.frag",
+		"pluginId": "dev.shanflyer.glsl",
+		"pluginName": "Shan GLSL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.geom",
+		"pluginId": "dev.shanflyer.glsl",
+		"pluginName": "Shan GLSL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.glsl",
+		"pluginId": "dev.shanflyer.glsl",
+		"pluginName": "Shan GLSL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.mesh",
+		"pluginId": "dev.shanflyer.glsl",
+		"pluginName": "Shan GLSL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.rahit",
+		"pluginId": "dev.shanflyer.glsl",
+		"pluginName": "Shan GLSL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.rcall",
+		"pluginId": "dev.shanflyer.glsl",
+		"pluginName": "Shan GLSL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.rchit",
+		"pluginId": "dev.shanflyer.glsl",
+		"pluginName": "Shan GLSL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.rgen",
+		"pluginId": "dev.shanflyer.glsl",
+		"pluginName": "Shan GLSL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.rint",
+		"pluginId": "dev.shanflyer.glsl",
+		"pluginName": "Shan GLSL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.rmiss",
+		"pluginId": "dev.shanflyer.glsl",
+		"pluginName": "Shan GLSL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.task",
+		"pluginId": "dev.shanflyer.glsl",
+		"pluginName": "Shan GLSL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.tesc",
+		"pluginId": "dev.shanflyer.glsl",
+		"pluginName": "Shan GLSL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.tese",
+		"pluginId": "dev.shanflyer.glsl",
+		"pluginName": "Shan GLSL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.vert",
+		"pluginId": "dev.shanflyer.glsl",
+		"pluginName": "Shan GLSL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.fx",
+		"pluginId": "dev.shanflyer.hlsl",
+		"pluginName": "Shan HLSL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.fxh",
+		"pluginId": "dev.shanflyer.hlsl",
+		"pluginName": "Shan HLSL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.hlsl",
+		"pluginId": "dev.shanflyer.hlsl",
+		"pluginName": "Shan HLSL"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.hlsli",
+		"pluginId": "dev.shanflyer.hlsl",
+		"pluginName": "Shan HLSL"
 	},
 	{
 		"bundled": false,
@@ -21254,6 +21716,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.ds",
+		"pluginId": "io.artage.sfcc.salesforce-commerce-cloud",
+		"pluginName": "Salesforce B2C Commerce (SFCC)"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.isml",
 		"pluginId": "io.artage.sfcc.salesforce-commerce-cloud",
 		"pluginName": "Salesforce B2C Commerce (SFCC)"
@@ -21287,6 +21755,12 @@
 		"implementationName": "*.xliff",
 		"pluginId": "io.doloc.auto-localizer",
 		"pluginName": "Auto Localizer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.qasm",
+		"pluginId": "io.eigenon.jetbrains",
+		"pluginName": "Eigenon Quantum Toolkit"
 	},
 	{
 		"bundled": false,
@@ -22652,6 +23126,30 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.kv",
+		"pluginId": "kotco.kvasar",
+		"pluginName": "Kvasar: KV Language Tools"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.wxi",
+		"pluginId": "kotco.setupwright",
+		"pluginName": "Setupwright: MSI Installers"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.wxl",
+		"pluginId": "kotco.setupwright",
+		"pluginName": "Setupwright: MSI Installers"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.wxs",
+		"pluginId": "kotco.setupwright",
+		"pluginName": "Setupwright: MSI Installers"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.gdshader",
 		"pluginId": "kr.jaehoyi.gdshader",
 		"pluginName": "GDShader"
@@ -23378,6 +23876,24 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "haproxy.cfg",
+		"pluginId": "net.gmmhub.haproxy",
+		"pluginName": "HAProxy Language Support"
+	},
+	{
+		"bundled": false,
+		"implementationName": "haproxy.conf",
+		"pluginId": "net.gmmhub.haproxy",
+		"pluginName": "HAProxy Language Support"
+	},
+	{
+		"bundled": false,
+		"implementationName": "haproxy*.cfg",
+		"pluginId": "net.gmmhub.haproxy",
+		"pluginName": "HAProxy Language Support"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.marklower",
 		"pluginId": "net.inthemoon.yamlover",
 		"pluginName": "yamlover"
@@ -23813,6 +24329,12 @@
 		"implementationName": "*.dbml",
 		"pluginId": "nz.co.steelsky.dbmlplugin",
 		"pluginName": "DBML"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.ocean",
+		"pluginId": "ocean.plugin",
+		"pluginName": "Ocean"
 	},
 	{
 		"bundled": false,
@@ -25727,6 +26249,18 @@
 		"pluginName": "Clojure-Kit"
 	},
 	{
+		"bundled": false,
+		"implementationName": ".classpath",
+		"pluginId": "org.jetbrains.idea.eclipse",
+		"pluginName": "Eclipse Interoperability"
+	},
+	{
+		"bundled": false,
+		"implementationName": ".project",
+		"pluginId": "org.jetbrains.idea.eclipse",
+		"pluginName": "Eclipse Interoperability"
+	},
+	{
 		"bundled": true,
 		"description": "Provides possibility to import, export and synchronize Eclipse project files",
 		"implementationName": "*.classpath",
@@ -27580,6 +28114,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.rg",
+		"pluginId": "org.rgc.jetbrains",
+		"pluginName": "RGC Language Support"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.rhai",
 		"pluginId": "org.rhai.rhai-highlight-plugin",
 		"pluginName": "Rhai Language Support"
@@ -27655,6 +28195,24 @@
 		"implementationName": "*.sonarlint/*.json",
 		"pluginId": "org.sonarlint.idea",
 		"pluginName": "SonarQube for IDE"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.inc",
+		"pluginId": "org.source2mod.sourcepawn",
+		"pluginName": "SourcePawn"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.sp",
+		"pluginId": "org.source2mod.sourcepawn",
+		"pluginName": "SourcePawn"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.ms",
+		"pluginId": "org.ssssssss.magicapi.idea",
+		"pluginName": "Magic API"
 	},
 	{
 		"bundled": false,
@@ -28020,7 +28578,7 @@
 		"bundled": false,
 		"implementationName": "*.tir",
 		"pluginId": "pascal.taie.intellij",
-		"pluginName": "Tai-e"
+		"pluginName": "tai-e"
 	},
 	{
 		"bundled": false,
