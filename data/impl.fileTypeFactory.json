@@ -2171,6 +2171,42 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.3mf",
+		"pluginId": "app.heckit.ide.scadsphere",
+		"pluginName": "SCAD Sphere"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.amf",
+		"pluginId": "app.heckit.ide.scadsphere",
+		"pluginName": "SCAD Sphere"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.obj",
+		"pluginId": "app.heckit.ide.scadsphere",
+		"pluginName": "SCAD Sphere"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.off",
+		"pluginId": "app.heckit.ide.scadsphere",
+		"pluginName": "SCAD Sphere"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.scad",
+		"pluginId": "app.heckit.ide.scadsphere",
+		"pluginName": "SCAD Sphere"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.stl",
+		"pluginId": "app.heckit.ide.scadsphere",
+		"pluginName": "SCAD Sphere"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.fj",
 		"pluginId": "app.tomhe.flipjump",
 		"pluginName": "FlipJump"
@@ -3260,6 +3296,18 @@
 		"implementationName": "*.csv",
 		"pluginId": "com.andrey4623.rainbowcsv",
 		"pluginName": "Rainbow CSV"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.edi",
+		"pluginId": "com.andreygaranin.edifact-inspector",
+		"pluginName": "EDIFACT Inspector"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.edifact",
+		"pluginId": "com.andreygaranin.edifact-inspector",
+		"pluginName": "EDIFACT Inspector"
 	},
 	{
 		"bundled": false,
@@ -5324,6 +5372,12 @@
 		"implementationName": "*.cml",
 		"pluginId": "com.github.andrewi.cmlplugin",
 		"pluginName": "Cml"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.ant",
+		"pluginId": "com.github.antsrc.ant",
+		"pluginName": "Ant Language"
 	},
 	{
 		"bundled": false,
@@ -7885,7 +7939,7 @@
 		"bundled": false,
 		"implementationName": "*.xlsx",
 		"pluginId": "com.gramshift.xlsxeditor",
-		"pluginName": "Spreadsheet Editor for Excel"
+		"pluginName": "XLSX Viewer & Editor for Excel"
 	},
 	{
 		"bundled": false,
@@ -12067,21 +12121,15 @@
 		"pluginName": "SQL support"
 	},
 	{
+		"bundled": false,
+		"implementationName": "openapi.json",
+		"pluginId": "com.intellij.swagger",
+		"pluginName": "OpenAPI Specifications"
+	},
+	{
 		"bundled": true,
 		"description": "Swagger and OpenAPI specification files support.",
 		"implementationName": "openapi.json",
-		"pluginId": "com.intellij.swagger",
-		"pluginName": "OpenAPI Specifications"
-	},
-	{
-		"bundled": false,
-		"implementationName": "openapi.json",
-		"pluginId": "com.intellij.swagger",
-		"pluginName": "OpenAPI Specifications"
-	},
-	{
-		"bundled": false,
-		"implementationName": "openapi.yaml",
 		"pluginId": "com.intellij.swagger",
 		"pluginName": "OpenAPI Specifications"
 	},
@@ -12093,14 +12141,20 @@
 		"pluginName": "OpenAPI Specifications"
 	},
 	{
-		"bundled": true,
-		"description": "Swagger and OpenAPI specification files support.",
+		"bundled": false,
+		"implementationName": "openapi.yaml",
+		"pluginId": "com.intellij.swagger",
+		"pluginName": "OpenAPI Specifications"
+	},
+	{
+		"bundled": false,
 		"implementationName": "openapi.yml",
 		"pluginId": "com.intellij.swagger",
 		"pluginName": "OpenAPI Specifications"
 	},
 	{
-		"bundled": false,
+		"bundled": true,
+		"description": "Swagger and OpenAPI specification files support.",
 		"implementationName": "openapi.yml",
 		"pluginId": "com.intellij.swagger",
 		"pluginName": "OpenAPI Specifications"
@@ -18001,6 +18055,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.zfml",
+		"pluginId": "com.yd359team.zeppelinforms",
+		"pluginName": "ZeppelinForms"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.war",
 		"pluginId": "com.yingxingguihai.idea.plugins.polaris.tomcat",
 		"pluginName": "Polaris Tomcat Server"
@@ -19256,6 +19316,18 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.lua",
+		"pluginId": "dev.jetplugins.lua",
+		"pluginName": "Lua Pro"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.luau",
+		"pluginId": "dev.jetplugins.lua",
+		"pluginName": "Lua Pro"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.marko",
 		"pluginId": "dev.jetplugins.markojs",
 		"pluginName": "Marko Pro"
@@ -19322,9 +19394,27 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.rs",
+		"pluginId": "dev.jetplugins.rust",
+		"pluginName": "Rust Pro"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.typ",
 		"pluginId": "dev.jetplugins.typst",
 		"pluginName": "Scribe Pro"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.zig",
+		"pluginId": "dev.jetplugins.zig",
+		"pluginName": "Zig Pro"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.zon",
+		"pluginId": "dev.jetplugins.zig",
+		"pluginName": "Zig Pro"
 	},
 	{
 		"bundled": false,
@@ -19397,6 +19487,24 @@
 		"implementationName": "*.parquet",
 		"pluginId": "dev.madrasco.intarsia",
 		"pluginName": "Intarsia"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.asm",
+		"pluginId": "dev.masmld.core",
+		"pluginName": "MASMLD Core"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.s",
+		"pluginId": "dev.masmld.core",
+		"pluginName": "MASMLD Core"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.ld",
+		"pluginId": "dev.masmld.linker",
+		"pluginName": "MASMLD GNU Linker Script"
 	},
 	{
 		"bundled": false,
@@ -22142,6 +22250,18 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.zig",
+		"pluginId": "io.github.fncontroloption.zj",
+		"pluginName": "ZJ"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.zon",
+		"pluginId": "io.github.fncontroloption.zj",
+		"pluginName": "ZJ"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.environment.chamaleon.json",
 		"pluginId": "io.github.gerardorodriguezdev.chamaleon",
 		"pluginName": "Chamaleon"
@@ -22184,6 +22304,30 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": ".node-version",
+		"pluginId": "io.github.khopland.version-checker",
+		"pluginName": "Version Checker"
+	},
+	{
+		"bundled": false,
+		"implementationName": ".nvmrc",
+		"pluginId": "io.github.khopland.version-checker",
+		"pluginName": "Version Checker"
+	},
+	{
+		"bundled": false,
+		"implementationName": ".sdkmanrc",
+		"pluginId": "io.github.khopland.version-checker",
+		"pluginName": "Version Checker"
+	},
+	{
+		"bundled": false,
+		"implementationName": ".tool-versions",
+		"pluginId": "io.github.khopland.version-checker",
+		"pluginName": "Version Checker"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.xcstrings",
 		"pluginId": "io.github.khubaibkhan4.kmptranslationshub",
 		"pluginName": "KMP Translations Hub"
@@ -22217,6 +22361,42 @@
 		"implementationName": "*.nginx",
 		"pluginId": "io.github.l2dy.ide.ic.nginx",
 		"pluginName": "NGINX Configuration Language"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.es",
+		"pluginId": "io.github.lemyst.enfusionscript",
+		"pluginName": "Enforce Script"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.imageset",
+		"pluginId": "io.github.lemyst.enfusionscript",
+		"pluginName": "Enforce Script"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.layout",
+		"pluginId": "io.github.lemyst.enfusionscript",
+		"pluginName": "Enforce Script"
+	},
+	{
+		"bundled": false,
+		"implementationName": "config.cpp",
+		"pluginId": "io.github.lemyst.enfusionscript",
+		"pluginName": "Enforce Script"
+	},
+	{
+		"bundled": false,
+		"implementationName": "config.cpp.disabled",
+		"pluginId": "io.github.lemyst.enfusionscript",
+		"pluginName": "Enforce Script"
+	},
+	{
+		"bundled": false,
+		"implementationName": "mod.cpp",
+		"pluginId": "io.github.lemyst.enfusionscript",
+		"pluginName": "Enforce Script"
 	},
 	{
 		"bundled": false,
@@ -22331,6 +22511,18 @@
 		"implementationName": ".envrc",
 		"pluginId": "io.github.salatmaster.direnv",
 		"pluginName": "direnv Everywhere"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.bpmn",
+		"pluginId": "io.github.srozen.flawd",
+		"pluginName": "Flawd BPMN Editor"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.bpmn2",
+		"pluginId": "io.github.srozen.flawd",
+		"pluginName": "Flawd BPMN Editor"
 	},
 	{
 		"bundled": false,
@@ -23126,9 +23318,27 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.edmx",
+		"pluginId": "kotco.edmira",
+		"pluginName": "Edmira: EDMX Models"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.kv",
 		"pluginId": "kotco.kvasar",
 		"pluginName": "Kvasar: KV Language Tools"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.rdl",
+		"pluginId": "kotco.reportly",
+		"pluginName": "Reportly: RDL Reports"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.rdlc",
+		"pluginId": "kotco.reportly",
+		"pluginName": "Reportly: RDL Reports"
 	},
 	{
 		"bundled": false,
@@ -24059,6 +24269,12 @@
 		"implementationName": "*.feature",
 		"pluginId": "net.reqnroll.idesupport",
 		"pluginName": "Reqnroll Extension (Preview)"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.gscript",
+		"pluginId": "net.rusrusme.glaze",
+		"pluginName": "GlazeScript"
 	},
 	{
 		"bundled": false,
@@ -28698,85 +28914,85 @@
 		"bundled": false,
 		"implementationName": ".bash_aliases",
 		"pluginId": "pro.bashsupport",
-		"pluginName": "BashSupport Pro"
+		"pluginName": "BashSupport Pro Shell & Zsh"
 	},
 	{
 		"bundled": false,
 		"implementationName": ".bash_logout",
 		"pluginId": "pro.bashsupport",
-		"pluginName": "BashSupport Pro"
+		"pluginName": "BashSupport Pro Shell & Zsh"
 	},
 	{
 		"bundled": false,
 		"implementationName": ".bash_profile",
 		"pluginId": "pro.bashsupport",
-		"pluginName": "BashSupport Pro"
+		"pluginName": "BashSupport Pro Shell & Zsh"
 	},
 	{
 		"bundled": false,
 		"implementationName": ".bashrc",
 		"pluginId": "pro.bashsupport",
-		"pluginName": "BashSupport Pro"
+		"pluginName": "BashSupport Pro Shell & Zsh"
 	},
 	{
 		"bundled": false,
 		"implementationName": ".profile",
 		"pluginId": "pro.bashsupport",
-		"pluginName": "BashSupport Pro"
+		"pluginName": "BashSupport Pro Shell & Zsh"
 	},
 	{
 		"bundled": false,
 		"implementationName": ".zprofile",
 		"pluginId": "pro.bashsupport",
-		"pluginName": "BashSupport Pro"
+		"pluginName": "BashSupport Pro Shell & Zsh"
 	},
 	{
 		"bundled": false,
 		"implementationName": ".zshrc",
 		"pluginId": "pro.bashsupport",
-		"pluginName": "BashSupport Pro"
+		"pluginName": "BashSupport Pro Shell & Zsh"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.bash",
 		"pluginId": "pro.bashsupport",
-		"pluginName": "BashSupport Pro"
+		"pluginName": "BashSupport Pro Shell & Zsh"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.bats",
 		"pluginId": "pro.bashsupport",
-		"pluginName": "BashSupport Pro"
+		"pluginName": "BashSupport Pro Shell & Zsh"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.dash",
 		"pluginId": "pro.bashsupport",
-		"pluginName": "BashSupport Pro"
+		"pluginName": "BashSupport Pro Shell & Zsh"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.ksh",
 		"pluginId": "pro.bashsupport",
-		"pluginName": "BashSupport Pro"
+		"pluginName": "BashSupport Pro Shell & Zsh"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.mksh",
 		"pluginId": "pro.bashsupport",
-		"pluginName": "BashSupport Pro"
+		"pluginName": "BashSupport Pro Shell & Zsh"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.sh",
 		"pluginId": "pro.bashsupport",
-		"pluginName": "BashSupport Pro"
+		"pluginName": "BashSupport Pro Shell & Zsh"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.zsh",
 		"pluginId": "pro.bashsupport",
-		"pluginName": "BashSupport Pro"
+		"pluginName": "BashSupport Pro Shell & Zsh"
 	},
 	{
 		"bundled": false,
@@ -29134,6 +29350,18 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.ejpql",
+		"pluginId": "ru.rzn.gmyasoedov",
+		"pluginName": "Easy Spring"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.esql",
+		"pluginId": "ru.rzn.gmyasoedov",
+		"pluginName": "Easy Spring"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.pom",
 		"pluginId": "ru.rzn.gmyasoedov.gmaven",
 		"pluginName": "Easy Maven"
@@ -29419,6 +29647,12 @@
 		"implementationName": "*.vh",
 		"pluginId": "studio.edaphic.sv",
 		"pluginName": "SystemVerilog"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.milda",
+		"pluginId": "studio.milda.jetbrains",
+		"pluginName": "Milda"
 	},
 	{
 		"bundled": false,
