@@ -2183,6 +2183,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.mtl",
+		"pluginId": "app.heckit.ide.scadsphere",
+		"pluginName": "SCAD Sphere"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.obj",
 		"pluginId": "app.heckit.ide.scadsphere",
 		"pluginName": "SCAD Sphere"
@@ -2552,48 +2558,6 @@
 		"implementationName": "*.spd",
 		"pluginId": "cn.boz.jb.plugin.spd-editor",
 		"pluginName": "Erayt Spd Editor"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.cj",
-		"pluginId": "cn.cangnova.cangjie",
-		"pluginName": "CangJie"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.cj-disasm",
-		"pluginId": "cn.cangnova.cangjie",
-		"pluginName": "CangJie"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.cj-hex",
-		"pluginId": "cn.cangnova.cangjie",
-		"pluginName": "CangJie"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.cj.macrocall",
-		"pluginId": "cn.cangnova.cangjie",
-		"pluginName": "CangJie"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.cjd",
-		"pluginId": "cn.cangnova.cangjie",
-		"pluginName": "CangJie"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.cjo",
-		"pluginId": "cn.cangnova.cangjie",
-		"pluginName": "CangJie"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.lldb",
-		"pluginId": "cn.cangnova.cangjie",
-		"pluginName": "CangJie"
 	},
 	{
 		"bundled": false,
@@ -4205,12 +4169,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "*.nrql",
-		"pluginId": "com.codestream.jetbrains-codestream",
-		"pluginName": "New Relic CodeStream"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.xidl",
 		"pluginId": "com.congroof.xidl",
 		"pluginName": "Xidl Language"
@@ -4571,6 +4529,18 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.dynotable.sql",
+		"pluginId": "com.dynotable.jetbrains",
+		"pluginName": "DynoTable"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.opensearch",
+		"pluginId": "com.dynotable.jetbrains",
+		"pluginName": "DynoTable"
+	},
+	{
+		"bundled": false,
 		"implementationName": ".loreignore",
 		"pluginId": "com.dzmitryj.lorelens",
 		"pluginName": "LoreLens"
@@ -4871,6 +4841,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.deployproj",
+		"pluginId": "com.flexible.delphi",
+		"pluginName": "Flexible Delphi"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.dfm",
 		"pluginId": "com.flexible.delphi",
 		"pluginName": "Flexible Delphi"
@@ -4889,7 +4865,19 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.dproj",
+		"pluginId": "com.flexible.delphi",
+		"pluginName": "Flexible Delphi"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.fmx",
+		"pluginId": "com.flexible.delphi",
+		"pluginName": "Flexible Delphi"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.groupproj",
 		"pluginId": "com.flexible.delphi",
 		"pluginName": "Flexible Delphi"
 	},
@@ -4902,6 +4890,18 @@
 	{
 		"bundled": false,
 		"implementationName": "*.lfm",
+		"pluginId": "com.flexible.delphi",
+		"pluginName": "Flexible Delphi"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.lpi",
+		"pluginId": "com.flexible.delphi",
+		"pluginName": "Flexible Delphi"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.lpk",
 		"pluginId": "com.flexible.delphi",
 		"pluginName": "Flexible Delphi"
 	},
@@ -6623,6 +6623,18 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.er7",
+		"pluginId": "com.github.hl7tools",
+		"pluginName": "Alligator"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.hl7",
+		"pluginId": "com.github.hl7tools",
+		"pluginName": "Alligator"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.infcode",
 		"pluginId": "com.github.infcode.extension",
 		"pluginName": "InfCode"
@@ -7937,12 +7949,6 @@
 	},
 	{
 		"bundled": false,
-		"implementationName": "*.xlsx",
-		"pluginId": "com.gramshift.xlsxeditor",
-		"pluginName": "XLSX Viewer & Editor for Excel"
-	},
-	{
-		"bundled": false,
 		"implementationName": "*.cql",
 		"pluginId": "com.graphdbplugin",
 		"pluginName": "Neo4j Toolkit"
@@ -8072,6 +8078,24 @@
 		"implementationName": "*.redis",
 		"pluginId": "com.hjf.redis.manager.redis-manager",
 		"pluginName": "Redis Manager"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.hlsl",
+		"pluginId": "com.hlsl.dx12.support",
+		"pluginName": "HLSL Language Support (DX12)"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.hlsli",
+		"pluginId": "com.hlsl.dx12.support",
+		"pluginName": "HLSL Language Support (DX12)"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.urtshader",
+		"pluginId": "com.hlsl.dx12.support",
+		"pluginName": "HLSL Language Support (DX12)"
 	},
 	{
 		"bundled": false,
@@ -12121,15 +12145,21 @@
 		"pluginName": "SQL support"
 	},
 	{
+		"bundled": true,
+		"description": "Swagger and OpenAPI specification files support.",
+		"implementationName": "openapi.json",
+		"pluginId": "com.intellij.swagger",
+		"pluginName": "OpenAPI Specifications"
+	},
+	{
 		"bundled": false,
 		"implementationName": "openapi.json",
 		"pluginId": "com.intellij.swagger",
 		"pluginName": "OpenAPI Specifications"
 	},
 	{
-		"bundled": true,
-		"description": "Swagger and OpenAPI specification files support.",
-		"implementationName": "openapi.json",
+		"bundled": false,
+		"implementationName": "openapi.yaml",
 		"pluginId": "com.intellij.swagger",
 		"pluginName": "OpenAPI Specifications"
 	},
@@ -12141,20 +12171,14 @@
 		"pluginName": "OpenAPI Specifications"
 	},
 	{
-		"bundled": false,
-		"implementationName": "openapi.yaml",
-		"pluginId": "com.intellij.swagger",
-		"pluginName": "OpenAPI Specifications"
-	},
-	{
-		"bundled": false,
+		"bundled": true,
+		"description": "Swagger and OpenAPI specification files support.",
 		"implementationName": "openapi.yml",
 		"pluginId": "com.intellij.swagger",
 		"pluginName": "OpenAPI Specifications"
 	},
 	{
-		"bundled": true,
-		"description": "Swagger and OpenAPI specification files support.",
+		"bundled": false,
 		"implementationName": "openapi.yml",
 		"pluginId": "com.intellij.swagger",
 		"pluginName": "OpenAPI Specifications"
@@ -14791,6 +14815,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.ldif",
+		"pluginId": "com.mouradzouabi.ldapclient",
+		"pluginName": "LDAP Client"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.svg",
 		"pluginId": "com.moxun.plugin.s2v",
 		"pluginName": "SVG2VectorDrawable"
@@ -15010,6 +15040,12 @@
 		"implementationName": "*.snbt",
 		"pluginId": "com.npcoding.datapackfunctions",
 		"pluginName": "NPCoding Datapack Functions"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.geojson",
+		"pluginId": "com.npcoding.geojsonfiles",
+		"pluginName": "NPCoding GeoJSON Files"
 	},
 	{
 		"bundled": false,
@@ -16342,6 +16378,12 @@
 		"implementationName": "*.atomic",
 		"pluginId": "com.sarchuk.atomic",
 		"pluginName": "Atomic"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.sau",
+		"pluginId": "com.saule.lang",
+		"pluginName": "Saule"
 	},
 	{
 		"bundled": false,
@@ -18260,6 +18302,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.mdc",
+		"pluginId": "cz.xprees.comark",
+		"pluginName": "Comark"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.dal",
 		"pluginId": "dal-mpe",
 		"pluginName": "SQL DAL Maker"
@@ -19130,6 +19178,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.rsc",
+		"pluginId": "dev.dybug.routeros",
+		"pluginName": "RouterOS Script"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.earth",
 		"pluginId": "dev.earthly.earthly-intellij-plugin",
 		"pluginName": "Earthly"
@@ -19151,6 +19205,96 @@
 		"implementationName": "Earthfile",
 		"pluginId": "dev.earthly.earthly-intellij-plugin",
 		"pluginName": "Earthly"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.270",
+		"pluginId": "dev.ediprism.jetbrains",
+		"pluginName": "EdiPrism X12 EDIFACT"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.271",
+		"pluginId": "dev.ediprism.jetbrains",
+		"pluginName": "EdiPrism X12 EDIFACT"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.276",
+		"pluginId": "dev.ediprism.jetbrains",
+		"pluginName": "EdiPrism X12 EDIFACT"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.277",
+		"pluginId": "dev.ediprism.jetbrains",
+		"pluginName": "EdiPrism X12 EDIFACT"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.810",
+		"pluginId": "dev.ediprism.jetbrains",
+		"pluginName": "EdiPrism X12 EDIFACT"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.834",
+		"pluginId": "dev.ediprism.jetbrains",
+		"pluginName": "EdiPrism X12 EDIFACT"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.835",
+		"pluginId": "dev.ediprism.jetbrains",
+		"pluginName": "EdiPrism X12 EDIFACT"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.837",
+		"pluginId": "dev.ediprism.jetbrains",
+		"pluginName": "EdiPrism X12 EDIFACT"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.850",
+		"pluginId": "dev.ediprism.jetbrains",
+		"pluginName": "EdiPrism X12 EDIFACT"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.856",
+		"pluginId": "dev.ediprism.jetbrains",
+		"pluginName": "EdiPrism X12 EDIFACT"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.997",
+		"pluginId": "dev.ediprism.jetbrains",
+		"pluginName": "EdiPrism X12 EDIFACT"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.999",
+		"pluginId": "dev.ediprism.jetbrains",
+		"pluginName": "EdiPrism X12 EDIFACT"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.edi",
+		"pluginId": "dev.ediprism.jetbrains",
+		"pluginName": "EdiPrism X12 EDIFACT"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.edifact",
+		"pluginId": "dev.ediprism.jetbrains",
+		"pluginName": "EdiPrism X12 EDIFACT"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.x12",
+		"pluginId": "dev.ediprism.jetbrains",
+		"pluginName": "EdiPrism X12 EDIFACT"
 	},
 	{
 		"bundled": false,
@@ -19391,12 +19535,6 @@
 		"implementationName": "*.rst",
 		"pluginId": "dev.jetplugins.rstpro",
 		"pluginName": "reStructuredText Pro"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.rs",
-		"pluginId": "dev.jetplugins.rust",
-		"pluginName": "Rust Pro"
 	},
 	{
 		"bundled": false,
@@ -22202,6 +22340,18 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "moon.yaml",
+		"pluginId": "io.github.artptr.moonexplorer",
+		"pluginName": "Moon Explorer"
+	},
+	{
+		"bundled": false,
+		"implementationName": "moon.yml",
+		"pluginId": "io.github.artptr.moonexplorer",
+		"pluginName": "Moon Explorer"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.qss",
 		"pluginId": "io.github.avaxerrr.qsstoolkit",
 		"pluginName": "QSS Toolkit"
@@ -22211,6 +22361,12 @@
 		"implementationName": "*.qsspalette",
 		"pluginId": "io.github.avaxerrr.qsstoolkit",
 		"pluginName": "QSS Toolkit"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.jxml",
+		"pluginId": "io.github.bacuriim.jxforge",
+		"pluginName": "JXForge (JXML)"
 	},
 	{
 		"bundled": false,
@@ -22247,6 +22403,12 @@
 		"implementationName": "*.fsd",
 		"pluginId": "io.github.facilityapi",
 		"pluginName": "Facility API"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.feature",
+		"pluginId": "io.github.fangzhengjie.cucumber",
+		"pluginName": "Cucumber"
 	},
 	{
 		"bundled": false,
@@ -22400,6 +22562,12 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.httpie",
+		"pluginId": "io.github.leodias.httpie",
+		"pluginName": "HTTPie"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.mc",
 		"pluginId": "io.github.liias.monkey",
 		"pluginName": "Monkey C (Garmin Connect IQ)"
@@ -22490,6 +22658,24 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.st",
+		"pluginId": "io.github.ondeoma.scalactive-st",
+		"pluginName": "Scalactive Single File Component (.st)"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.kttp.env.json",
+		"pluginId": "io.github.photowey.kttp",
+		"pluginName": "Kttp"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.kttp.kts",
+		"pluginId": "io.github.photowey.kttp",
+		"pluginName": "Kttp"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.tml",
 		"pluginId": "io.github.ramanda.tapestry",
 		"pluginName": "Tapestry 5 Support (Community Fork)"
@@ -22553,6 +22739,12 @@
 		"implementationName": "*.promql",
 		"pluginId": "io.github.tyv1.idea.promql",
 		"pluginName": "PromQL Support"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.estorm",
+		"pluginId": "io.github.ville6000.estorm",
+		"pluginName": "estorm"
 	},
 	{
 		"bundled": false,
@@ -23300,6 +23492,48 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.zone",
+		"pluginId": "klardaten.dnszone",
+		"pluginName": "DNS Zone File Tools"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.haproxy",
+		"pluginId": "klardaten.haproxy",
+		"pluginName": "HAProxy Config"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*haproxy*.cfg",
+		"pluginId": "klardaten.haproxy",
+		"pluginName": "HAProxy Config"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*haproxy*.conf",
+		"pluginId": "klardaten.haproxy",
+		"pluginName": "HAProxy Config"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.promql",
+		"pluginId": "klardaten.promql",
+		"pluginName": "PromQL and Prometheus Rules"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.pp",
+		"pluginId": "klardaten.puppet",
+		"pluginName": "Puppet Manifest Tools"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.vcl",
+		"pluginId": "klardaten.vcl",
+		"pluginName": "VCL Language Tools"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.mod",
 		"pluginId": "kn.uni.dbis.oberon.lang",
 		"pluginName": "Oberon"
@@ -23327,6 +23561,12 @@
 		"implementationName": "*.kv",
 		"pluginId": "kotco.kvasar",
 		"pluginName": "Kvasar: KV Language Tools"
+	},
+	{
+		"bundled": false,
+		"implementationName": "*.dtsx",
+		"pluginId": "kotco.packlens",
+		"pluginName": "Packlens: DTSX Packages"
 	},
 	{
 		"bundled": false,
@@ -29350,21 +29590,21 @@
 	},
 	{
 		"bundled": false,
+		"implementationName": "*.pom",
+		"pluginId": "ru.rzn.gmyasoedov.gmaven",
+		"pluginName": "Easy Maven"
+	},
+	{
+		"bundled": false,
 		"implementationName": "*.ejpql",
-		"pluginId": "ru.rzn.gmyasoedov",
+		"pluginId": "ru.rzn.gmyasoedov.spring",
 		"pluginName": "Easy Spring"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.esql",
-		"pluginId": "ru.rzn.gmyasoedov",
+		"pluginId": "ru.rzn.gmyasoedov.spring",
 		"pluginName": "Easy Spring"
-	},
-	{
-		"bundled": false,
-		"implementationName": "*.pom",
-		"pluginId": "ru.rzn.gmyasoedov.gmaven",
-		"pluginName": "Easy Maven"
 	},
 	{
 		"bundled": false,
