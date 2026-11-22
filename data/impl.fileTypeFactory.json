@@ -4837,91 +4837,91 @@
 		"bundled": false,
 		"implementationName": "*.delphiaichat",
 		"pluginId": "com.flexible.delphi",
-		"pluginName": "Flexible Delphi"
+		"pluginName": "Flexible for Pascal & Delphi"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.deployproj",
 		"pluginId": "com.flexible.delphi",
-		"pluginName": "Flexible Delphi"
+		"pluginName": "Flexible for Pascal & Delphi"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.dfm",
 		"pluginId": "com.flexible.delphi",
-		"pluginName": "Flexible Delphi"
+		"pluginName": "Flexible for Pascal & Delphi"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.dpk",
 		"pluginId": "com.flexible.delphi",
-		"pluginName": "Flexible Delphi"
+		"pluginName": "Flexible for Pascal & Delphi"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.dpr",
 		"pluginId": "com.flexible.delphi",
-		"pluginName": "Flexible Delphi"
+		"pluginName": "Flexible for Pascal & Delphi"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.dproj",
 		"pluginId": "com.flexible.delphi",
-		"pluginName": "Flexible Delphi"
+		"pluginName": "Flexible for Pascal & Delphi"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.fmx",
 		"pluginId": "com.flexible.delphi",
-		"pluginName": "Flexible Delphi"
+		"pluginName": "Flexible for Pascal & Delphi"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.groupproj",
 		"pluginId": "com.flexible.delphi",
-		"pluginName": "Flexible Delphi"
+		"pluginName": "Flexible for Pascal & Delphi"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.inc",
 		"pluginId": "com.flexible.delphi",
-		"pluginName": "Flexible Delphi"
+		"pluginName": "Flexible for Pascal & Delphi"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.lfm",
 		"pluginId": "com.flexible.delphi",
-		"pluginName": "Flexible Delphi"
+		"pluginName": "Flexible for Pascal & Delphi"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.lpi",
 		"pluginId": "com.flexible.delphi",
-		"pluginName": "Flexible Delphi"
+		"pluginName": "Flexible for Pascal & Delphi"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.lpk",
 		"pluginId": "com.flexible.delphi",
-		"pluginName": "Flexible Delphi"
+		"pluginName": "Flexible for Pascal & Delphi"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.lpr",
 		"pluginId": "com.flexible.delphi",
-		"pluginName": "Flexible Delphi"
+		"pluginName": "Flexible for Pascal & Delphi"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.pas",
 		"pluginId": "com.flexible.delphi",
-		"pluginName": "Flexible Delphi"
+		"pluginName": "Flexible for Pascal & Delphi"
 	},
 	{
 		"bundled": false,
 		"implementationName": "*.pp",
 		"pluginId": "com.flexible.delphi",
-		"pluginName": "Flexible Delphi"
+		"pluginName": "Flexible for Pascal & Delphi"
 	},
 	{
 		"bundled": false,
@@ -6080,18 +6080,6 @@
 		"implementationName": "*.json",
 		"pluginId": "com.github.dankinsoid.appcodeassets",
 		"pluginName": "AppCodeAssets"
-	},
-	{
-		"bundled": false,
-		"implementationName": ".gitlab-ci.yaml",
-		"pluginId": "com.github.deeepamin.gitlabciaid",
-		"pluginName": "CI Aid for GitLab"
-	},
-	{
-		"bundled": false,
-		"implementationName": ".gitlab-ci.yml",
-		"pluginId": "com.github.deeepamin.gitlabciaid",
-		"pluginName": "CI Aid for GitLab"
 	},
 	{
 		"bundled": false,

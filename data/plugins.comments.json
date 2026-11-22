@@ -35118,6 +35118,7 @@
 			"rating": 5
 		}
 	],
+	"app.anicanon.kumikae.as3": [],
 	"app.arteh.StartupBuilder": [],
 	"app.clotr.jetbrains": [],
 	"app.codepreview.plugin": [
@@ -35414,8 +35415,10 @@
 	"app.factoryline": [],
 	"app.firebridge": [],
 	"app.gotempest.remote": [],
+	"app.heckit.ide.aihandoff": [],
 	"app.heckit.ide.latherit": [],
 	"app.heckit.ide.mailview": [],
+	"app.heckit.ide.missionpassed": [],
 	"app.heckit.ide.runnersbar": [],
 	"app.heckit.ide.scadsphere": [],
 	"app.heckit.ide.t3toolkit": [],
@@ -42054,6 +42057,7 @@
 			"rating": 4
 		}
 	],
+	"ch.nmeylan.markdone": [],
 	"ch.nmeylan.plugin.jpa-sql-generator": [],
 	"ch.qligier.jetbrains.plugin.hurlevent": [],
 	"ch.raffael.idea.plugins.runpopup": [],
@@ -42179,6 +42183,7 @@
 			"rating": 5
 		}
 	],
+	"chatbot-helper": [],
 	"chester": [],
 	"chester.language.plugin": [],
 	"cl.glign.tracelens": [],
@@ -44627,6 +44632,7 @@
 	],
 	"cn.ilovejj.BitmapTool": [],
 	"cn.ilovejj.dukpt-tools": [],
+	"cn.inovance.sqlfmt": [],
 	"cn.itcast": [],
 	"cn.itgrocery.plugin.markdownip": [],
 	"cn.itscloudy.fontviewer": [],
@@ -45422,6 +45428,7 @@
 			"rating": 4
 		}
 	],
+	"cn.olange.rest.link": [],
 	"cn.olange.rule": [
 		{
 			"author": {
@@ -48454,6 +48461,7 @@
 			"rating": 1
 		}
 	],
+	"co.boldtype.neatsql": [],
 	"co.cben.dev.aiinlinereview": [],
 	"co.com.devlinx9.git-user-stbar": [],
 	"co.com.devlinx9.k8s-cxts-selector-stbar": [
@@ -52413,6 +52421,7 @@
 	"com.aaryanmehta.provenance.recorder": [],
 	"com.aayam.ToastJet": [],
 	"com.abbas": [],
+	"com.abdelfattah.ahmed.designimporter": [],
 	"com.abeade.plugin.figma.import": [
 		{
 			"author": {
@@ -53507,6 +53516,7 @@
 	"com.afkmesh.openapiauditor": [],
 	"com.afkmesh.pipelinedoctor": [],
 	"com.afkmesh.playwrightfailurediff": [],
+	"com.afkmesh.promptregressionstudio": [],
 	"com.afkmesh.spring-boot-production-guard": [],
 	"com.afkmesh.sqlmigrationguard": [],
 	"com.afkmesh.terracostinline": [],
@@ -55847,6 +55857,7 @@
 		}
 	],
 	"com.algorist.zMyBatis": [],
+	"com.algotricz.fixlock": [],
 	"com.ali.dependencyresolver": [],
 	"com.alianga.idea.deploy": [],
 	"com.alibaba.autonavi.qa.testng": [
@@ -63457,6 +63468,7 @@
 	"com.bennyhuo.kotlin.deepcopy": [],
 	"com.bennyhuo.kotlin.kliblens": [],
 	"com.bennywu.glass-dracula": [],
+	"com.bennywu.panda-vivid-black": [],
 	"com.berkay.nodegraphy": [],
 	"com.berserk-112.nowcoder-editor": [],
 	"com.berzanmikaili.intellij.monokai_pro": [
@@ -65390,6 +65402,7 @@
 	"com.boohee.plugin.translation2": [],
 	"com.bordercloud.sparql-plugin-intellij": [],
 	"com.borggren.autowidescreen": [],
+	"com.borisovcode.gitflow.navigator": [],
 	"com.boss.android.lite.plugin": [
 		{
 			"author": {
@@ -65415,6 +65428,7 @@
 	"com.bracketbow": [],
 	"com.brain.intelligent.SerializationCoder": [],
 	"com.braingrain.keystoreview": [],
+	"com.branchfuse": [],
 	"com.branchmapping.plugin": [],
 	"com.branchpeek": [],
 	"com.brandiico.jetbrains-nightfall-theme": [
@@ -66986,6 +67000,7 @@
 		}
 	],
 	"com.brucege.DatabaseHelper": [],
+	"com.brunox.plugin": [],
 	"com.brushrage.AndroidTranslate": [],
 	"com.bryantjames.ridiculouscoding": [
 		{
@@ -67453,6 +67468,8 @@
 		}
 	],
 	"com.burkett.builderberg": [],
+	"com.butterfly.GoToAnyFile": [],
+	"com.butterfly.copyright": [],
 	"com.bygo.aipath": [],
 	"com.bytedance.auto.merge.push.plugin": [],
 	"com.bytedance.jedi.templatemanager": [],
@@ -67738,6 +67755,50 @@
 	"com.callerview.plugin": [],
 	"com.callscape.plugin": [],
 	"com.callsiq.playbooknavigator": [],
+	"com.callsiq.technofystore.actions-job-dependency-order": [],
+	"com.callsiq.technofystore.actions-permission-review": [],
+	"com.callsiq.technofystore.codeowners-coverage-check": [],
+	"com.callsiq.technofystore.commit-trailer-check": [],
+	"com.callsiq.technofystore.compose-port-collision-check": [],
+	"com.callsiq.technofystore.conventional-changelog-draft": [],
+	"com.callsiq.technofystore.cookie-attribute-review": [],
+	"com.callsiq.technofystore.coverage-gap-table": [],
+	"com.callsiq.technofystore.cron-calendar-preview": [],
+	"com.callsiq.technofystore.csp-policy-review": [],
+	"com.callsiq.technofystore.csv-column-profile": [],
+	"com.callsiq.technofystore.csv-duplicate-report": [],
+	"com.callsiq.technofystore.csv-key-join": [],
+	"com.callsiq.technofystore.cyclonedx-component-diff": [],
+	"com.callsiq.technofystore.diff-path-risk-review": [],
+	"com.callsiq.technofystore.dockerfile-build-review": [],
+	"com.callsiq.technofystore.env-key-audit": [],
+	"com.callsiq.technofystore.env-template-builder": [],
+	"com.callsiq.technofystore.git-churn-by-folder": [],
+	"com.callsiq.technofystore.gitlab-ci-stage-audit": [],
+	"com.callsiq.technofystore.graphql-fragment-map": [],
+	"com.callsiq.technofystore.http-cache-lens": [],
+	"com.callsiq.technofystore.http-retry-planner": [],
+	"com.callsiq.technofystore.java-stack-trace-fingerprint": [],
+	"com.callsiq.technofystore.json-patch-preview": [],
+	"com.callsiq.technofystore.json-pointer-map": [],
+	"com.callsiq.technofystore.json-redaction-studio": [],
+	"com.callsiq.technofystore.json-shape-compare": [],
+	"com.callsiq.technofystore.junit-failure-triage": [],
+	"com.callsiq.technofystore.kube-resource-budget": [],
+	"com.callsiq.technofystore.kube-service-selector-check": [],
+	"com.callsiq.technofystore.npm-lockfile-drift": [],
+	"com.callsiq.technofystore.openapi-breaking-change-preview": [],
+	"com.callsiq.technofystore.openapi-operation-inventory": [],
+	"com.callsiq.technofystore.package-entry-point-audit": [],
+	"com.callsiq.technofystore.package-script-dependency-map": [],
+	"com.callsiq.technofystore.pem-certificate-summary": [],
+	"com.callsiq.technofystore.prometheus-label-budget": [],
+	"com.callsiq.technofystore.robots-decision-lab": [],
+	"com.callsiq.technofystore.semver-impact-preview": [],
+	"com.callsiq.technofystore.spdx-expression-review": [],
+	"com.callsiq.technofystore.terraform-plan-inventory": [],
+	"com.callsiq.technofystore.tsv-markdown-table": [],
+	"com.callsiq.technofystore.url-endpoint-inventory": [],
 	"com.calo.open-iterated-files": [],
 	"com.calpano.ddot": [
 		{
@@ -74841,6 +74902,7 @@
 			"rating": 5
 		}
 	],
+	"com.composelintai.pro.plugin": [],
 	"com.composepreviewpro": [],
 	"com.conceptualgames.cheburnexus": [],
 	"com.configiq.airflowkconnect": [],
@@ -80394,6 +80456,15 @@
 		}
 	],
 	"com.denghb.eorm.plugin": [],
+	"com.dengler.codetours": [],
+	"com.dengler.configdiff": [],
+	"com.dengler.deploymate": [],
+	"com.dengler.devdock": [],
+	"com.dengler.djangolite": [],
+	"com.dengler.gitrecap": [],
+	"com.dengler.portpilot": [],
+	"com.dengler.schemalens": [],
+	"com.dengler.springbox": [],
 	"com.dengzii.json2entity": [],
 	"com.dengzii.plugin.converter": [],
 	"com.dengzii.plugin.findview": [],
@@ -80634,6 +80705,7 @@
 		}
 	],
 	"com.devkraken.setuphub": [],
+	"com.devlens": [],
 	"com.devlomi.sharedprefsmanager": [],
 	"com.devnagri.androidstudio": [],
 	"com.devnamrits.gruvboxarchipelago": [],
@@ -80999,6 +81071,7 @@
 		}
 	],
 	"com.devworkspace.launcher.idea.bridge": [],
+	"com.devwrapped.jetbrains": [],
 	"com.devxhub.cron-explainer": [],
 	"com.dfeer.plugin.Generate-Code": [],
 	"com.dfsek.terra.codetool": [
@@ -82439,6 +82512,7 @@
 	"com.donotdisturb.do_not_disturb": [],
 	"com.donovanmontoya.jetbrains-plasticscm-integration": [],
 	"com.donseba.godoc": [],
+	"com.dortus.bisonflex": [],
 	"com.dotinc.datagrip-libsql": [
 		{
 			"author": {
@@ -88984,6 +89058,75 @@
 		}
 	],
 	"com.flexible.swift": [],
+	"com.flightcoders.veyra.devicelab": [],
+	"com.flightcoders.veyra.hotspots": [],
+	"com.flightcoders.veyra.portmanager": [],
+	"com.flightcoders.veyra.theme": [
+		{
+			"author": {
+				"id": "577665c6-a831-4dc1-a6a4-d23884752feb",
+				"link": "/author/577665c6-a831-4dc1-a6a4-d23884752feb",
+				"name": "Jatin"
+			},
+			"cdate": "1795116715000",
+			"comment": "<p>Amazing editor theme i love it thanks flightcoders.</p>\n",
+			"id": 146026,
+			"plugin": {
+				"id": 36164,
+				"link": "/plugin/36164-veyra-theme",
+				"name": "Veyra Theme"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "4c3b1bd8-e64b-45ae-a7c1-37fd25ffcba4",
+				"link": "/author/4c3b1bd8-e64b-45ae-a7c1-37fd25ffcba4",
+				"name": "vikram"
+			},
+			"cdate": "1795116492000",
+			"comment": "<p>Wow amazing theme love it. Thanks flightcoders.</p>\n",
+			"id": 146025,
+			"plugin": {
+				"id": 36164,
+				"link": "/plugin/36164-veyra-theme",
+				"name": "Veyra Theme"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "0447e07e-067c-455a-bace-2880eb3ec237",
+				"link": "/author/0447e07e-067c-455a-bace-2880eb3ec237",
+				"name": "intellithesis"
+			},
+			"cdate": "1795116258000",
+			"comment": "<p>Amazing theme and compatible with JetBrains IDEs. Love it</p>\n",
+			"id": 146024,
+			"plugin": {
+				"id": 36164,
+				"link": "/plugin/36164-veyra-theme",
+				"name": "Veyra Theme"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "cbdcbf59-e877-4253-9ff1-c0305e3acb3c",
+				"link": "/author/cbdcbf59-e877-4253-9ff1-c0305e3acb3c",
+				"name": "flightcoders"
+			},
+			"cdate": "1795116147000",
+			"comment": "<p>Amazing theme looks amazing and feels amazing on the jetbrains ide's</p>\n",
+			"id": 146023,
+			"plugin": {
+				"id": 36164,
+				"link": "/plugin/36164-veyra-theme",
+				"name": "Veyra Theme"
+			},
+			"rating": 5
+		}
+	],
 	"com.flinkreactor.plugin": [],
 	"com.floobits.unique.plugin.id": [
 		{
@@ -98854,6 +98997,7 @@
 	"com.github.cnovaezdev.androidstoragequickeditor": [],
 	"com.github.cnrture.rune": [],
 	"com.github.codecov": [],
+	"com.github.codersanket24.mycpassistant": [],
 	"com.github.codescape": [],
 	"com.github.codexjb": [
 		{
@@ -102546,6 +102690,7 @@
 			"rating": 5
 		}
 	],
+	"com.github.fakkio.gitflow4idea-next": [],
 	"com.github.fangzc.ai-commit-message": [],
 	"com.github.faradey.madockideaplugin": [],
 	"com.github.fawaz.flutter-freezed-snippets": [
@@ -102943,6 +103088,7 @@
 		}
 	],
 	"com.github.flagshipio.jetbrain": [],
+	"com.github.flobo3.projectTaskbarBadge": [],
 	"com.github.florent37.plugin.jsonserializable": [
 		{
 			"author": {
@@ -109147,6 +109293,7 @@
 			"rating": 5
 		}
 	],
+	"com.github.lazerg.darkpurpletheme": [],
 	"com.github.lazygyu.eta": [],
 	"com.github.leafhighlighting": [],
 	"com.github.leecho.idea.plugin.mybatis.generator": [
@@ -110447,6 +110594,7 @@
 	"com.github.livewirecomponentfolder": [],
 	"com.github.lizhiwei88.feign.mock.agent.feign.mock.plugin": [],
 	"com.github.lkjian.ideaopenincodex": [],
+	"com.github.log2sql": [],
 	"com.github.lohni.gruvboxnr": [
 		{
 			"author": {
@@ -117268,6 +117416,7 @@
 		}
 	],
 	"com.github.ruaconytl.plugins": [],
+	"com.github.rudgal.gitredate": [],
 	"com.github.runit": [],
 	"com.github.runtimeexcpetion.copyaireference": [],
 	"com.github.rxyor.plugin.pom.assistant": [
@@ -119271,6 +119420,7 @@
 			"rating": 5
 		}
 	],
+	"com.github.skr0ls.slaterose": [],
 	"com.github.skrcode.javaautounittests": [
 		{
 			"author": {
@@ -125263,6 +125413,72 @@
 		}
 	],
 	"com.github.yungyu16.intellij.sqllogjoiner": [],
+	"com.github.yunusekim.spacegray": [
+		{
+			"author": {
+				"id": "a47af334-fa01-4db0-b401-f4c3fda917e5",
+				"link": "/author/a47af334-fa01-4db0-b401-f4c3fda917e5",
+				"name": "yemreekim"
+			},
+			"cdate": "1794918074000",
+			"comment": "<p>The repository I've been following for 11 years is finally here.</p>\n",
+			"id": 145923,
+			"plugin": {
+				"id": 36144,
+				"link": "/plugin/36144-spacegray-dark-light-theme",
+				"name": "Spacegray Dark/Light Theme"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "8712f06f-f18f-490b-832f-91e726d4cf95",
+				"link": "/author/8712f06f-f18f-490b-832f-91e726d4cf95",
+				"name": "Yunus Ekim"
+			},
+			"cdate": "1794918006000",
+			"comment": "<p>I\u2019ve been using this guy\u2019s theme since the days of the Sublime Text editor.</p>\n",
+			"id": 145922,
+			"plugin": {
+				"id": 36144,
+				"link": "/plugin/36144-spacegray-dark-light-theme",
+				"name": "Spacegray Dark/Light Theme"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "ec418333-0837-457e-aa7c-2c3382675a59",
+				"link": "/author/ec418333-0837-457e-aa7c-2c3382675a59",
+				"name": "aysetas464"
+			},
+			"cdate": "1794917323000",
+			"comment": "<p>This is an excellent theme.</p>\n",
+			"id": 145921,
+			"plugin": {
+				"id": 36144,
+				"link": "/plugin/36144-spacegray-dark-light-theme",
+				"name": "Spacegray Dark/Light Theme"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "3bb26779-4905-4f37-9fa4-760adb00521b",
+				"link": "/author/3bb26779-4905-4f37-9fa4-760adb00521b",
+				"name": "aliarslan13"
+			},
+			"cdate": "1794917017000",
+			"comment": "<p>Its amazing colors</p>\n",
+			"id": 145920,
+			"plugin": {
+				"id": 36144,
+				"link": "/plugin/36144-spacegray-dark-light-theme",
+				"name": "Spacegray Dark/Light Theme"
+			},
+			"rating": 5
+		}
+	],
 	"com.github.yusufugurozbek.testcontainers.port.updater": [
 		{
 			"author": {
@@ -128999,6 +129215,7 @@
 		}
 	],
 	"com.gradum.idea": [],
+	"com.gramshift.accessviewer": [],
 	"com.gramshift.agenteyes": [],
 	"com.gramshift.bundleeditor": [],
 	"com.gramshift.copyforai": [],
@@ -129009,10 +129226,14 @@
 	"com.gramshift.mojibake": [],
 	"com.gramshift.mutcheck": [],
 	"com.gramshift.pathleak": [],
+	"com.gramshift.pickleviewer": [],
+	"com.gramshift.runtraffic": [],
 	"com.gramshift.secretscan": [],
 	"com.gramshift.silencedchecks": [],
+	"com.gramshift.statviewer": [],
 	"com.gramshift.testverdict": [],
 	"com.gramshift.xlsxeditor": [],
+	"com.grandtheorem.nylon-intellij": [],
 	"com.graphdbplugin": [],
 	"com.graphnodesoftware.sast": [],
 	"com.greatwork.loadkiln": [],
@@ -129639,6 +129860,7 @@
 	"com.haiwen.pdevcs": [],
 	"com.haizy.mermaid.editor.pro": [],
 	"com.hakalab.karate-dojo": [],
+	"com.hakil.gitlabplus": [],
 	"com.halotukozak.alpaca.plugin": [],
 	"com.hamalawy.Ayah": [
 		{
@@ -130314,6 +130536,7 @@
 	"com.hardy.JsonTool": [],
 	"com.harmony.componentgen": [],
 	"com.harmonybot.ide.deveco": [],
+	"com.harshalkudale.knobdeck.companion": [],
 	"com.hasintech.intellij.angularTemplates": [
 		{
 			"author": {
@@ -132827,6 +133050,7 @@
 		}
 	],
 	"com.hoss.delveswap": [],
+	"com.hot.tools.hotupdate": [],
 	"com.hotels.intellij.plugins.network": [
 		{
 			"author": {
@@ -133882,6 +134106,7 @@
 	],
 	"com.huawei.kunpeng.devkit": [],
 	"com.huawei.kunpeng.hyper.tuner": [],
+	"com.huaxin.shiroha-quiz": [],
 	"com.huayi.intellijplatform.gitstats": [
 		{
 			"author": {
@@ -135931,6 +136156,7 @@
 	],
 	"com.ilumer.textpastry.Jetbrains-Text-Pastry": [],
 	"com.impactgraph": [],
+	"com.impactrunner": [],
 	"com.implemica.drypush": [
 		{
 			"author": {
@@ -151309,6 +151535,7 @@
 			"rating": 0
 		}
 	],
+	"com.jaehoseol.canontyping": [],
 	"com.jakecoffman.theme": [
 		{
 			"author": {
@@ -151555,6 +151782,7 @@
 	"com.jamesmosquera.bootstraptoolkit": [],
 	"com.jamesmosquera.moderncsstoolkit": [],
 	"com.jamesmosquera.photoplaceholders": [],
+	"com.jamilxt.k8s-configmap-navigator": [],
 	"com.jan.monokaisublime3": [],
 	"com.janative.tools": [],
 	"com.janchabik.doodler": [
@@ -162090,6 +162318,7 @@
 		}
 	],
 	"com.jotapem.dlms-translator": [],
+	"com.jotrorox.verilogtoolbox": [],
 	"com.jou.maven-search": [
 		{
 			"author": {
@@ -166748,6 +166977,44 @@
 			"rating": 5
 		}
 	],
+	"com.lakesidedigital.ansible": [
+		{
+			"author": {
+				"id": "8471d934-fc3c-4530-b053-243faa211bbb",
+				"link": "/author/8471d934-fc3c-4530-b053-243faa211bbb",
+				"name": "Krakataua 420"
+			},
+			"cdate": "1795076381000",
+			"comment": "<p>Works great!</p>\n",
+			"id": 145996,
+			"plugin": {
+				"id": 36207,
+				"link": "/plugin/36207-ansible-vault--lint",
+				"name": "Ansible Vault & Lint"
+			},
+			"rating": 5
+		}
+	],
+	"com.lakesidedigital.batch": [],
+	"com.lakesidedigital.logviewerpro": [
+		{
+			"author": {
+				"id": "8471d934-fc3c-4530-b053-243faa211bbb",
+				"link": "/author/8471d934-fc3c-4530-b053-243faa211bbb",
+				"name": "Krakataua 420"
+			},
+			"cdate": "1795009692000",
+			"comment": "<p>The automatic format detection works really well. Exactly what I was looking for.</p>\n",
+			"id": 145958,
+			"plugin": {
+				"id": 36161,
+				"link": "/plugin/36161-log-viewer-pro",
+				"name": "Log Viewer Pro"
+			},
+			"rating": 5
+		}
+	],
+	"com.lakesidedigital.terraform": [],
 	"com.landenlabs.focus-highlighter": [],
 	"com.landy.logSqlConvert": [
 		{
@@ -166930,6 +167197,10 @@
 			"rating": 0
 		}
 	],
+	"com.lanternwork.loopfile": [],
+	"com.lanternwork.ruleglass": [],
+	"com.lanternwork.tabularpipes": [],
+	"com.lanternwork.taintline": [],
 	"com.laomao.space.id": [],
 	"com.laravel_idea.plugin": [
 		{
@@ -170200,6 +170471,7 @@
 			"rating": 5
 		}
 	],
+	"com.linmengmeng.worktreemonitor": [],
 	"com.linmilin.plugin.PreviewImage": [],
 	"com.linsage": [
 		{
@@ -170906,6 +171178,7 @@
 	"com.loremigliore.bonsai": [],
 	"com.lostintimedev.java.idea.ThinCaret": [],
 	"com.lottiepreview.plugin": [],
+	"com.loudyo.wherewasi": [],
 	"com.lovoio.investment.pervasive": [],
 	"com.lovro.comprehension": [],
 	"com.lowdragmc.ldlibdevplugin": [],
@@ -176067,6 +176340,7 @@
 			"rating": 5
 		}
 	],
+	"com.michael.contextconverter": [],
 	"com.michaelandreuzza.sequoia.jetbrains": [],
 	"com.michaelandreuzza.serendipity.jetbrains": [],
 	"com.michaljarnot.contextbasket": [],
@@ -177049,6 +177323,7 @@
 			"rating": 0
 		}
 	],
+	"com.mineengine.sparkle": [],
 	"com.ming.ccg": [],
 	"com.ming.envswitch.EnvSwitch": [],
 	"com.ming.i18nformat": [
@@ -178021,6 +178296,7 @@
 	],
 	"com.mohesu.combine-with-context": [],
 	"com.mohil_bansal.repo_quest.RepoQuest": [],
+	"com.moilioncircle.intellij.any2dto": [],
 	"com.moiseskerschner.mkformat": [],
 	"com.moka.gitcommit": [],
 	"com.moling.HjsonHighlighter": [],
@@ -180592,6 +180868,7 @@
 			"rating": 5
 		}
 	],
+	"com.nathan.rancherview": [],
 	"com.navercorp.dongsik.copy-claude-reference": [
 		{
 			"author": {
@@ -181395,6 +181672,7 @@
 	"com.nemesis.platform.nemesis-idea-plugin": [],
 	"com.neo.difflink": [],
 	"com.neocatcher": [],
+	"com.neoncoast.theme": [],
 	"com.neoxlabs.neox": [],
 	"com.nerdscorner.android.plugin.github": [
 		{
@@ -181832,6 +182110,7 @@
 			"rating": 5
 		}
 	],
+	"com.neuecode.jetbrains": [],
 	"com.newsenselab.todogfilter": [],
 	"com.nexonest.nexorhino": [],
 	"com.nexora.nexoraintellijextension": [],
@@ -184346,6 +184625,7 @@
 			"rating": 5
 		}
 	],
+	"com.oguzhanaslann.roomer": [],
 	"com.ogzkesk.exceptionguard": [],
 	"com.ohmytoken": [],
 	"com.okaymisba.commit-craft": [],
@@ -184737,6 +185017,7 @@
 			"rating": 5
 		}
 	],
+	"com.owen.LocalReader": [],
 	"com.ownicn.action-script-plugin": [],
 	"com.owoez.dewildcard": [],
 	"com.oxygenxml.json.converter": [
@@ -189657,6 +189938,7 @@
 	],
 	"com.rain.ReDoSChecker": [],
 	"com.raindrop": [],
+	"com.rajasekhar.devtools": [],
 	"com.ramusthastudio.plugin.unixtimestamp": [
 		{
 			"author": {
@@ -190014,6 +190296,7 @@
 	],
 	"com.razatech.diffsense": [],
 	"com.rbower.codex-cli-editor-context": [],
+	"com.rbower.intellij-get-shell-script-plugin": [],
 	"com.rcleandro.proxyadb": [],
 	"com.reader.jetbrains": [],
 	"com.readystack.theme.hanji-free": [],
@@ -192677,6 +192960,7 @@
 	"com.ryanbern.protonavigation": [],
 	"com.s0xzwasd.go.version.plugin": [],
 	"com.s365.dbtemplate.plugin": [],
+	"com.saffetoge.sotheme": [],
 	"com.safphere.glmusage": [],
 	"com.sage.plugin": [],
 	"com.sagiadinos.garlic.widgets.jetbrains": [],
@@ -194108,6 +194392,13 @@
 		}
 	],
 	"com.sdf.accountstatus": [],
+	"com.sdsoftware.agentboard": [],
+	"com.sdsoftware.infrapilot": [],
+	"com.sdsoftware.keydock": [],
+	"com.sdsoftware.logpilot": [],
+	"com.sdsoftware.querydock": [],
+	"com.sdsoftware.regexlab": [],
+	"com.sdsoftware.restmate": [],
 	"com.sdwvit.s2cfg": [],
 	"com.seas.plugin.SeasTools": [],
 	"com.secret-bridge": [],
@@ -199613,6 +199904,24 @@
 	"com.ssetglow.restful-checker": [],
 	"com.ssh.tool": [],
 	"com.sshdeploy.SshDeploy": [],
+	"com.sshhhdev.dbcommentsearch": [
+		{
+			"author": {
+				"id": "d470f954-130c-4f1d-a1da-79eeeb7ad424",
+				"link": "/author/d470f954-130c-4f1d-a1da-79eeeb7ad424",
+				"name": "jsy03039"
+			},
+			"cdate": "1795072275000",
+			"comment": "<p>\uad49\uc7a5\ud55c \uc5c5\ubb34 \ud6a8\uc728 \uadf9\ub300\ud654 \ud50c\ub7ec\uadf8\uc778. \ud0c1\uc6d4\ud55c \uc120\ud0dd.</p>\n",
+			"id": 145992,
+			"plugin": {
+				"id": 36228,
+				"link": "/plugin/36228-db-comment-search",
+				"name": "DB Comment Search"
+			},
+			"rating": 5
+		}
+	],
 	"com.sshplus.remote": [],
 	"com.sshtunnel.manager": [],
 	"com.sskorupski.intellij.plugin.builder.mock.fluent": [],
@@ -204247,6 +204556,7 @@
 		}
 	],
 	"com.tecknobit.envui.EnvUi": [],
+	"com.tedhoryczun.ghostnotes": [],
 	"com.teixing.codeGeneration": [],
 	"com.tejas.omnipilot": [],
 	"com.telesoftas.ijplugin.gitconfigcommittemplate": [
@@ -206624,6 +206934,7 @@
 	"com.tinyai.observability.idea": [],
 	"com.tinypng.plugin": [],
 	"com.tiobe.plugins.intellij": [],
+	"com.tipandtale.bloodsweatandcode": [],
 	"com.tips.androidtip": [
 		{
 			"author": {
@@ -207919,6 +208230,7 @@
 	"com.tss.lark": [],
 	"com.ttb.freemarker": [],
 	"com.ttb.git-untracked": [],
+	"com.tttsaurus.ksml": [],
 	"com.turbinekreuzberg.extendInPyz": [],
 	"com.turknet.devops.lucid-chat": [],
 	"com.tuusuario.vico-brackets-color": [],
@@ -208607,6 +208919,7 @@
 			"rating": 5
 		}
 	],
+	"com.undici77.aitoolset": [],
 	"com.undo_software.clion.reverse": [],
 	"com.unger1984.npmdependencychecker": [
 		{
@@ -213739,6 +214052,7 @@
 			"rating": 0
 		}
 	],
+	"com.wangxz.yaml-config-navigator": [],
 	"com.wankai.gitcr": [
 		{
 			"author": {
@@ -214055,6 +214369,7 @@
 			"rating": 5
 		}
 	],
+	"com.webobscure.filebridge": [],
 	"com.wedgwoodwebworks.jinja2customdelimiters": [],
 	"com.weebly.opus1269.smoothscroller": [
 		{
@@ -215474,6 +215789,7 @@
 	"com.work.plugin.work-tools": [],
 	"com.workbuddy.codeflowchart": [],
 	"com.worklog": [],
+	"com.workreport.ai-assistant": [],
 	"com.worktools.alogtools": [],
 	"com.worktracker": [],
 	"com.wow4jetbrains.expansions": [
@@ -218980,6 +219296,7 @@
 	"com.yunke.middleman": [],
 	"com.yunyoucloud.tool": [],
 	"com.yurani.arbeditor": [],
+	"com.yuraw.claudecode": [],
 	"com.yuri.android.stringmover": [],
 	"com.yuxuan66.fastTransform": [],
 	"com.yuyuanweb.codecopy": [],
@@ -220522,6 +220839,7 @@
 	"com.zuhaibzahid.sheets": [],
 	"com.zuhaibzahid.sqlloglens": [],
 	"com.zuhaibzahid.tables": [],
+	"com.zuhaibzahid.tracedeck": [],
 	"com.zukotuutori.bracketcolorizer": [],
 	"com.zukotuutori.mavenassist": [
 		{
@@ -221647,6 +221965,7 @@
 		}
 	],
 	"coop.rchain.lang": [],
+	"copy-log-summary-workflow-tool": [],
 	"core-ng-generator-plugin": [],
 	"core.MacroCheck": [],
 	"cosmoteer-language-server": [],
@@ -222798,6 +223117,7 @@
 	"cz.vse.moodle": [],
 	"cz.xprees.comark": [],
 	"cz.xprees.imagetools": [],
+	"cz.xprees.lottie": [],
 	"daddyfrosty.intellij.vfx.support": [],
 	"daehyun.kim.camelBar": [
 		{
@@ -226105,6 +226425,7 @@
 	],
 	"de.kontext_e.idea.plugins.jqa": [],
 	"de.kq42.plugins.keymapmanager": [],
+	"de.kumpewo.intellij-autohotkey": [],
 	"de.liebki.MyOllamaEnhancer": [
 		{
 			"author": {
@@ -229783,6 +230104,7 @@
 			"rating": 1
 		}
 	],
+	"de.vonrauchhaupt.mongodeclaration.MongoDeclaration": [],
 	"de.welcz.datev.scc.ui.theme": [
 		{
 			"author": {
@@ -230495,6 +230817,7 @@
 			"rating": 5
 		}
 	],
+	"dev.akamitori.glsl": [],
 	"dev.akurupela.figmadownloader": [],
 	"dev.akurupela.oneinsight": [],
 	"dev.alexjs.dark-matter": [
@@ -230734,6 +231057,7 @@
 	"dev.aubourg.htaccesslint": [],
 	"dev.auralislab.companion": [],
 	"dev.auralislab.jetbrains": [],
+	"dev.autotests.runtoggles": [],
 	"dev.avenrail.changerail": [],
 	"dev.avenrail.claudesessionautotitle": [],
 	"dev.avh.logconsole": [],
@@ -231059,6 +231383,7 @@
 			"rating": 5
 		}
 	],
+	"dev.b2apps.envguard": [],
 	"dev.bachelder.opencensus_php_extension_support": [],
 	"dev.baguettestudio": [],
 	"dev.balakumar.quickterminal": [],
@@ -231541,10 +231866,12 @@
 	"dev.cranpose.idea": [],
 	"dev.creatorishere.autoCollapseOnOpen": [],
 	"dev.csstorfs": [],
+	"dev.csvnav.csv-test-navigator": [],
 	"dev.cxcomposer.liferay": [],
 	"dev.daarkolabs.tandem": [],
 	"dev.dalex.textpolisher": [],
 	"dev.danvega.kiln-theme": [],
+	"dev.darshit.island-progress-bar": [],
 	"dev.darshit.progress-touch-bar": [],
 	"dev.dbmlcanvas": [],
 	"dev.dcviz.compose-visualizer": [],
@@ -231620,6 +231947,7 @@
 	"dev.diffnotes.private": [],
 	"dev.diffzu": [],
 	"dev.digamma.shard": [],
+	"dev.dirjava.settings": [],
 	"dev.dirmaven.settings": [],
 	"dev.diversion.plugin.dvidea": [],
 	"dev.dohpaz.php-extras": [],
@@ -231756,8 +232084,10 @@
 	"dev.eastgate.theme.neumorphism": [],
 	"dev.eastgate.wallet.metamaskclone": [],
 	"dev.eca.eca-intellij": [],
+	"dev.ediprism.can": [],
 	"dev.ediprism.ebcdic": [],
 	"dev.ediprism.jetbrains": [],
+	"dev.ediprism.sbe": [],
 	"dev.edminecraft.plugins": [],
 	"dev.ekvedaras.hyperfquery": [],
 	"dev.ekvedaras.laravelquery": [
@@ -232920,9 +233250,11 @@
 		}
 	],
 	"dev.flutterintercept": [],
+	"dev.francescopacifico.envcontract": [],
 	"dev.friday5pm.jb.bun.pro.test": [],
 	"dev.fromnowon.fenix-buddy": [],
 	"dev.frus": [],
+	"dev.fumulabo.har": [],
 	"dev.fvojta.claude-usage-monitor": [],
 	"dev.gabrielchl.intellij-pets": [
 		{
@@ -233272,6 +233604,7 @@
 	"dev.gaphunter.corspolicycompanion": [],
 	"dev.gaphunter.deadlocklockordercompanion": [],
 	"dev.gaphunter.dependencyvulnerabilitycompanion": [],
+	"dev.gaphunter.disposedprojectcallbackcompanion": [],
 	"dev.gaphunter.dockerfilelayersizecompanion": [],
 	"dev.gaphunter.dockerfilemissingusercompanion": [],
 	"dev.gaphunter.dockerfileunusedstagecompanion": [],
@@ -233408,6 +233741,7 @@
 	"dev.gipo.nitpick": [],
 	"dev.gitfocus": [],
 	"dev.gitmsg.ai.commithelper": [],
+	"dev.gitpowertools": [],
 	"dev.glasberg.marcelosdartplugin": [],
 	"dev.gomoku.inlay": [],
 	"dev.gopherglide.gg-plugin": [],
@@ -233417,6 +233751,7 @@
 	"dev.guicons.idea-plugin": [],
 	"dev.gurwi.LintVision": [],
 	"dev.hafez.nestswitch": [],
+	"dev.hasanlisbon.jiraflow": [],
 	"dev.hashnode.bas.insomniac": [
 		{
 			"author": {
@@ -233492,6 +233827,7 @@
 	"dev.hikari.ai-session-opener": [],
 	"dev.hitools.plugin.android.template": [],
 	"dev.hmd.whippy": [],
+	"dev.hollyviolet.ebnf": [],
 	"dev.honkanen.htmxpro": [
 		{
 			"author": {
@@ -233531,6 +233867,7 @@
 			"rating": 1
 		}
 	],
+	"dev.humalis": [],
 	"dev.husainmukadam.flutteradb": [],
 	"dev.hyunelab.mdlens": [
 		{
@@ -235011,6 +235348,7 @@
 	"dev.livingcode.theme": [],
 	"dev.localebreeze.jetbrains": [],
 	"dev.logwren": [],
+	"dev.loji.notes": [],
 	"dev.lonami.uniffi-dl": [
 		{
 			"author": {
@@ -236037,6 +236375,7 @@
 			"rating": 5
 		}
 	],
+	"dev.nikrokss.codex-commit-message": [],
 	"dev.niteesh.cliagentbridge": [],
 	"dev.nocalhost.nocalhost-intellij-plugin": [
 		{
@@ -236498,6 +236837,7 @@
 		}
 	],
 	"dev.nyxdevs.kuk": [],
+	"dev.nz3x.deplens": [],
 	"dev.oauthlint": [],
 	"dev.omnicode.agent": [],
 	"dev.onewindow": [],
@@ -236602,6 +236942,7 @@
 	],
 	"dev.oraisz.chicken": [],
 	"dev.oraisz.plugins.graphql-unused": [],
+	"dev.oreo.ow": [],
 	"dev.oszoou.aura-theme": [],
 	"dev.otelery.otelcol": [],
 	"dev.ott.sops-editor-plugin": [],
@@ -236809,6 +237150,24 @@
 	],
 	"dev.pegg.ide": [],
 	"dev.pell": [],
+	"dev.phaenon.jetbrains": [
+		{
+			"author": {
+				"id": "3736cc16-4231-4844-96b6-2e1930f265c6",
+				"link": "/author/3736cc16-4231-4844-96b6-2e1930f265c6",
+				"name": "Vladyslav Buchyn"
+			},
+			"cdate": "1794899214000",
+			"comment": "<p>Awesome! Every .phn compiles to one .php with the same namespace, classes, functions and behaviour. The compiler adds a header, strict_types and docblocks, and nothing you did not write: no hidden parameters, no synthesised members, no renamed locals, no calls into a package.</p>\n",
+			"id": 145913,
+			"plugin": {
+				"id": 35870,
+				"link": "/plugin/35870-phaenon",
+				"name": "Phaenon"
+			},
+			"rating": 5
+		}
+	],
 	"dev.pi.agent": [],
 	"dev.pi.jetbrains": [],
 	"dev.pi.pigui": [],
@@ -237885,6 +238244,7 @@
 	"dev.reikem.rk": [],
 	"dev.repotory.jetbrains": [],
 	"dev.resmali": [],
+	"dev.ribod.storestudio.idea": [],
 	"dev.riege.buildmycommand.dsl": [],
 	"dev.riverpod.gen.shortcuts": [],
 	"dev.robdoes.kmpresources": [],
@@ -238481,6 +238841,8 @@
 	"dev.springfoundry.plugin": [],
 	"dev.sproto.language": [],
 	"dev.squeeze.imagesqueeze": [],
+	"dev.steelesh.sotto": [],
+	"dev.steelesh.sotto.icons": [],
 	"dev.stianl.pxpeek": [
 		{
 			"author": {
@@ -239266,6 +239628,7 @@
 	"dev.uzi.playwright": [],
 	"dev.valtools.postman.migration": [],
 	"dev.vanssa.claudeacp": [],
+	"dev.vatnar.sectionnav": [],
 	"dev.vatnar.vatnar-theme": [
 		{
 			"author": {
@@ -239409,6 +239772,7 @@
 		}
 	],
 	"dev.xframe.protoc4j": [],
+	"dev.xstreamka.ccsessions": [],
 	"dev.yact.io": [
 		{
 			"author": {
@@ -239497,6 +239861,7 @@
 		}
 	],
 	"dev.yml2pro.idea": [],
+	"dev.zacsweers.metro.idea": [],
 	"dev.zbinski.html-attribute-folder": [
 		{
 			"author": {
@@ -239613,6 +239978,7 @@
 	],
 	"dev.zeeshan.jetbrains.clean-project-sidebar": [],
 	"dev.zefir.rider-background-plugin": [],
+	"dev.zefixed.expandcursor": [],
 	"dev.zenstack.zenstack": [
 		{
 			"author": {
@@ -241081,6 +241447,7 @@
 	],
 	"er.prateek.SoundOnAction": [],
 	"es.asiersanchez.alembic-navigator": [],
+	"es.asiersanchez.bigquery-cost-guard": [],
 	"es.spockdatatable.idea": [
 		{
 			"author": {
@@ -243639,6 +244006,7 @@
 		}
 	],
 	"fr.korol.xsdViewer": [],
+	"fr.ledcom.tj3.task-juggler-plugin": [],
 	"fr.mary.olivier.aw-watcher": [],
 	"fr.mathbou": [
 		{
@@ -243893,6 +244261,7 @@
 		}
 	],
 	"fr.ythollet.header": [],
+	"fr.zoomonit.bpmn-diff": [],
 	"freeriders.mag.Modular-Architecture-Generator": [],
 	"ftblag.height-saver": [],
 	"fuGen": [
@@ -245993,6 +246362,7 @@
 		}
 	],
 	"gruvbox-themes": [],
+	"gta-vi-miami-theme": [],
 	"gudqs7.github.io.doc-savior": [
 		{
 			"author": {
@@ -248830,6 +249200,7 @@
 			"rating": 5
 		}
 	],
+	"in.bleuphoenix.flutterpreview": [],
 	"in.bulma.snippet.intellij": [],
 	"in.creet.resourcelens": [],
 	"in.decorom.mcp": [],
@@ -248903,8 +249274,10 @@
 	"in.oneton.contrib.plugin.angular.material": [],
 	"in.puzaricloud.agentdiff": [],
 	"in.puzaricloud.ansiblestudio": [],
+	"in.puzaricloud.cleanthemes": [],
 	"in.puzaricloud.copypulse": [],
 	"in.puzaricloud.datapulse": [],
+	"in.puzaricloud.dockerremote": [],
 	"in.puzaricloud.gitflowpro": [],
 	"in.puzaricloud.httppulse": [],
 	"in.puzaricloud.i18nstudio": [
@@ -248927,10 +249300,19 @@
 	],
 	"in.puzaricloud.inlineconsole": [],
 	"in.puzaricloud.issuepulse": [],
+	"in.puzaricloud.keystoreviewer": [],
 	"in.puzaricloud.kubepulse": [],
 	"in.puzaricloud.logpulse": [],
+	"in.puzaricloud.mongoexplorer": [],
+	"in.puzaricloud.redisexplorer": [],
+	"in.puzaricloud.sequencediagram": [],
+	"in.puzaricloud.settingssync": [],
+	"in.puzaricloud.sftpupload": [],
 	"in.puzaricloud.shortcutpulse": [],
 	"in.puzaricloud.specpulse": [],
+	"in.puzaricloud.sqlclient": [],
+	"in.puzaricloud.sqliteviewer": [],
+	"in.puzaricloud.tableeditor": [],
 	"in.puzaricloud.teambookmarks": [],
 	"in.puzaricloud.watchers": [],
 	"in.puzaricloud.workspaceproblems": [],
@@ -249713,6 +250095,7 @@
 		}
 	],
 	"info.rayden.voldeskine.dependencies": [],
+	"info.suryasoni.copy_pasta": [],
 	"info.webglossary.plugin": [],
 	"inga.intellij-inga": [],
 	"inigo.objectmothercreator": [],
@@ -253519,6 +253902,24 @@
 		}
 	],
 	"io.dontsayboj.mako": [],
+	"io.dooboostore.simple-web-component": [
+		{
+			"author": {
+				"id": "e4a20a57-e679-48ab-bb3a-38b5fcbe2d68",
+				"link": "/author/e4a20a57-e679-48ab-bb3a-38b5fcbe2d68",
+				"name": "\uae40\ud604\ud558"
+			},
+			"cdate": "1794752127000",
+			"comment": "<p>nice plguin</p>\n",
+			"id": 145862,
+			"plugin": {
+				"id": 36155,
+				"link": "/plugin/36155-simple-web-component",
+				"name": "Simple Web Component"
+			},
+			"rating": 5
+		}
+	],
 	"io.duhanmo.quicknote": [
 		{
 			"author": {
@@ -253615,6 +254016,7 @@
 	"io.epher.jetbrains": [],
 	"io.esphome.plugin": [],
 	"io.exam.intellij.plugin": [],
+	"io.firebite.tako": [],
 	"io.flutter": [
 		{
 			"author": {
@@ -254138,6 +254540,8 @@
 	],
 	"io.github.acalebratliff.dotstudio": [],
 	"io.github.afa_simoes.changelistsorter": [],
+	"io.github.agadek.smartdiff": [],
+	"io.github.agenteca": [],
 	"io.github.ahin042.dinowalker": [],
 	"io.github.aiia.as-remote-ssh": [],
 	"io.github.akifkaya0.tracetail": [],
@@ -254725,6 +255129,7 @@
 		}
 	],
 	"io.github.biezhi.plugins.gitmoji-unicode": [],
+	"io.github.bitshiftdev.mavendetective": [],
 	"io.github.blenminer.purrlang": [],
 	"io.github.blenminer.tide": [],
 	"io.github.boge-mvp.commit.ai": [],
@@ -256276,6 +256681,7 @@
 			"rating": 0
 		}
 	],
+	"io.github.goomeui.goome": [],
 	"io.github.gt-yan.resin": [],
 	"io.github.haradakunihiko.intellij-plugin-php-serialized-object-viewer": [],
 	"io.github.harrylepap.leonidas-neon-light": [],
@@ -256480,6 +256886,7 @@
 			"rating": 5
 		}
 	],
+	"io.github.hhenson.hgl": [],
 	"io.github.hhy.bookmark": [
 		{
 			"author": {
@@ -256750,6 +257157,7 @@
 	"io.github.ketraterm.terminal": [],
 	"io.github.khopland.ide-layout-profiles": [],
 	"io.github.khopland.version-checker": [],
+	"io.github.khorkovenko.keymapviewer": [],
 	"io.github.khubaibkhan4.kmpdevicehub": [],
 	"io.github.khubaibkhan4.kmptranslationshub": [
 		{
@@ -258913,6 +259321,7 @@
 			"rating": 5
 		}
 	],
+	"io.github.parkcg123.gitlane": [],
 	"io.github.pavelannin.keemun.plugin.template": [],
 	"io.github.pdkst.auto-complete-log": [],
 	"io.github.pelletier197.fixkture": [],
@@ -258944,6 +259353,24 @@
 	"io.github.praise2112.wallpapercarousel": [],
 	"io.github.prashanthsams.pytesthtmlreporter": [],
 	"io.github.pravinkale.ExportJars": [],
+	"io.github.programmiererefz.codegschpaenli": [
+		{
+			"author": {
+				"id": "d3a866ca-b217-462a-9098-56cab68498d5",
+				"link": "/author/d3a866ca-b217-462a-9098-56cab68498d5",
+				"name": "mikedewiz"
+			},
+			"cdate": "1794911490000",
+			"comment": "<p>Really fun plugin. Having a little pet in PyCharm makes long coding sessions a lot more enjoyable. Runs smoothly, and the dev is quick to respond if something comes up. Love it!</p>\n",
+			"id": 145916,
+			"plugin": {
+				"id": 36139,
+				"link": "/plugin/36139-code-gschpaenli",
+				"name": "Code Gschpaenli"
+			},
+			"rating": 5
+		}
+	],
 	"io.github.projecthsf.devutils": [],
 	"io.github.projecthsf.property.highlight": [],
 	"io.github.pshevche.spockk.spockk-intellij-plugin": [],
@@ -259096,6 +259523,7 @@
 	"io.github.rohanpatnaik.codebloom": [],
 	"io.github.roystondwork-dev.portcheck": [],
 	"io.github.rpiu.copilot.creditusage": [],
+	"io.github.ruizhangcn.anyreader": [],
 	"io.github.salatmaster.direnv": [],
 	"io.github.salatmaster.errorprone": [],
 	"io.github.salatmaster.goland-mcp-plus": [],
@@ -259104,6 +259532,7 @@
 	"io.github.sanggiwjg.markdownthemestudio": [],
 	"io.github.santimattius.structured-coroutines": [],
 	"io.github.saschaweiss.cssglyphpreview": [],
+	"io.github.satttoshi.claudegrid": [],
 	"io.github.seiko.ktorfit.plugin": [],
 	"io.github.seleniumboot.idea": [],
 	"io.github.seleniumboot.mcp": [],
@@ -259119,9 +259548,11 @@
 	"io.github.shizzhang0.mavensettingstemplates": [],
 	"io.github.siddharthjaswal.logpose": [],
 	"io.github.simon-cek.voiceprompt": [],
+	"io.github.sisyphusseeker.readingnotes": [],
 	"io.github.soberw.vcsswitch": [],
 	"io.github.softreigns.consolelogprettify": [],
 	"io.github.somed1.kanagawa.nvim": [],
+	"io.github.sorins.goose": [],
 	"io.github.spacewaiker.helix-jet": [],
 	"io.github.springconfigguard": [],
 	"io.github.srizzo.codebuddy.code-buddy-plugin": [
@@ -259247,6 +259678,7 @@
 	"io.github.stpavliuk.codex.idecontext": [],
 	"io.github.sufarook.gh-account-switcher": [],
 	"io.github.suhli.elasticsearch.rest": [],
+	"io.github.sunpm.copylinereference": [],
 	"io.github.sunrisepeak.mcppls": [
 		{
 			"author": {
@@ -259426,6 +259858,7 @@
 			"rating": 0
 		}
 	],
+	"io.github.temi1k.vitesse-islands": [],
 	"io.github.tessG.processing-generator": [],
 	"io.github.tgeng.latexsymbol.LatexSymbol": [
 		{
@@ -259597,6 +260030,7 @@
 	"io.github.umutcansu.FlavorAutocompletePlugin": [],
 	"io.github.umutcansu.GradleArtisan": [],
 	"io.github.umutcansu.TraceFlow": [],
+	"io.github.unurgunite.crystal": [],
 	"io.github.urtaav.nightbrew": [],
 	"io.github.v1rus-dev.stringmanager": [],
 	"io.github.vacxe.cliactions": [],
@@ -259607,6 +260041,7 @@
 	"io.github.vadimtoptunov.dbt-navigator": [],
 	"io.github.vadimtoptunov.flaky-lint": [],
 	"io.github.vadimtoptunov.go-testdata": [],
+	"io.github.vadimtoptunov.haproxy-security-linter": [],
 	"io.github.vadimtoptunov.hl7-v2": [],
 	"io.github.vadimtoptunov.http-data-injector": [],
 	"io.github.vadimtoptunov.iso8583": [],
@@ -263909,6 +264344,7 @@
 	],
 	"io.wdsj.FQNFolder": [],
 	"io.whitespots.appsecplugin": [],
+	"io.whizi.modelname": [],
 	"io.wiregoblin.plugin": [],
 	"io.wisetime.plugins.window.branch": [
 		{
@@ -267976,6 +268412,7 @@
 		}
 	],
 	"kos-ksp.idea-plugin": [],
+	"kotco.binlens": [],
 	"kotco.breakdeck": [],
 	"kotco.coverlay": [],
 	"kotco.edmira": [],
@@ -271461,6 +271898,7 @@
 			"rating": 4
 		}
 	],
+	"lt.kokybiskasvetaine.steadfast-themes": [],
 	"ltd.clearsolutions.ai-commit-by-mavka": [
 		{
 			"author": {
@@ -273894,6 +274332,7 @@
 			"rating": 5
 		}
 	],
+	"me.hellesponty.aspire": [],
 	"me.heloworld.yet-another-worktrees-panel": [],
 	"me.hiten.completion": [],
 	"me.ihxq.acejump.lite": [
@@ -275929,6 +276368,7 @@
 		}
 	],
 	"me.seungjun.colorfuldelimiter": [],
+	"me.sfclog.opencode": [],
 	"me.shedaniel.architectury": [],
 	"me.small.dbClicker": [],
 	"me.solohic.gemini-cli-companion": [
@@ -280961,6 +281401,7 @@
 		}
 	],
 	"net.kernelpanicsoft.blockbenchidea": [],
+	"net.khoango.mavencentralmcp": [],
 	"net.king2500.plugins.PhpAdvancedAutoComplete": [],
 	"net.klindstrom.gutterbreakpointsrustplugin": [],
 	"net.labymod.intellij.singlehotswap": [
@@ -285037,6 +285478,88 @@
 		}
 	],
 	"nox-lang": [],
+	"np.com.manjultamrakar.peephole": [
+		{
+			"author": {
+				"id": "7443ea70-6eab-4a19-bd4d-2d2e051ad6cd",
+				"link": "/author/7443ea70-6eab-4a19-bd4d-2d2e051ad6cd",
+				"name": "Aju Maharjan"
+			},
+			"cdate": "1795076072000",
+			"comment": "<p>Really nice plugin.</p>\n",
+			"id": 145995,
+			"plugin": {
+				"id": 36219,
+				"link": "/plugin/36219-peephole",
+				"name": "Peephole"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "28f1409c-5c60-418e-9036-aa4fc1872d33",
+				"link": "/author/28f1409c-5c60-418e-9036-aa4fc1872d33",
+				"name": "Kabindra Shrestha"
+			},
+			"cdate": "1795016775000",
+			"comment": "<p>Really useful plugin for Android developers.\nMakes network debugging much easier with a clean and intuitive interface. Highly recommended.</p>\n",
+			"id": 145961,
+			"plugin": {
+				"id": 36219,
+				"link": "/plugin/36219-peephole",
+				"name": "Peephole"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "78fad92b-1bb3-4128-8cbf-94f858dc63a0",
+				"link": "/author/78fad92b-1bb3-4128-8cbf-94f858dc63a0",
+				"name": "sworup kc"
+			},
+			"cdate": "1794977259000",
+			"comment": "<p>Really useful plugin. We can see all the request, response even the web socket data can be seen.</p>\n",
+			"id": 145943,
+			"plugin": {
+				"id": 36219,
+				"link": "/plugin/36219-peephole",
+				"name": "Peephole"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "b12c1e9f-b270-4c01-b02d-aa5b979e76dc",
+				"link": "/author/b12c1e9f-b270-4c01-b02d-aa5b979e76dc",
+				"name": "Aashrutya Pradhananga"
+			},
+			"cdate": "1794975827000",
+			"comment": "<p>goated plugin exactly what i needed</p>\n",
+			"id": 145942,
+			"plugin": {
+				"id": 36219,
+				"link": "/plugin/36219-peephole",
+				"name": "Peephole"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "6405c682-d81f-4ce5-a3ae-2e4378ee8514",
+				"link": "/author/6405c682-d81f-4ce5-a3ae-2e4378ee8514",
+				"name": "Nabin Khatiwada"
+			},
+			"cdate": "1794970638000",
+			"comment": "<p>Excellent plugin for Android developers! It has a clean, intuitive, and well-designed interface that makes debugging and monitoring network requests much easier. A great addition to Android Studio. Highly recommended!</p>\n",
+			"id": 145941,
+			"plugin": {
+				"id": 36219,
+				"link": "/plugin/36219-peephole",
+				"name": "Peephole"
+			},
+			"rating": 5
+		}
+	],
 	"nu.entropy.smiv": [],
 	"nz.arklabs.melos": [],
 	"nz.co.steelsky.dbmlplugin": [
@@ -286318,6 +286841,7 @@
 		}
 	],
 	"org.approvej": [],
+	"org.archvow": [],
 	"org.arend.lang": [],
 	"org.arkivanov.mvikotlin.plugin.idea.timetravel": [],
 	"org.armadillo.core": [],
@@ -288316,6 +288840,7 @@
 	],
 	"org.consolelogpro": [],
 	"org.covscript": [],
+	"org.cprime.xlsviewer": [],
 	"org.cursing_less": [],
 	"org.custompush": [
 		{
@@ -307464,6 +307989,7 @@
 	],
 	"org.nextras.orm.intellij": [],
 	"org.nik.distribution-cleaner": [],
+	"org.nio.ButterKnifeToViewBind": [],
 	"org.nishant.pushreview": [],
 	"org.noear.solon.idea.plugin": [
 		{
@@ -313190,6 +313716,7 @@
 		}
 	],
 	"panda.bar": [],
+	"pandacub.games.pandacub-dracula": [],
 	"paol0b.AzureDevOps": [
 		{
 			"author": {
@@ -314033,6 +314560,7 @@
 			"rating": 5
 		}
 	],
+	"phem": [],
 	"pholanda.github.io": [
 		{
 			"author": {
@@ -315100,6 +315628,7 @@
 			"rating": 3
 		}
 	],
+	"plugin.lean": [],
 	"plugin.mx.http.server": [],
 	"plugin.mx.restful": [],
 	"plugin.mx.tools": [],
@@ -315304,6 +315833,7 @@
 	"plus.wcj.jetbrains.plugins.xugudb-driver-integration": [],
 	"plus.wcj.jetbrains.plugins.yashandb-driver-integration": [],
 	"plus.wcj.jetbrains.plugins.ymatrix-driver-integration": [],
+	"poeditor": [],
 	"poimandres": [
 		{
 			"author": {
@@ -318021,6 +318551,7 @@
 			"rating": 5
 		}
 	],
+	"rs.co.bora5.plugins.BABjInteliJ": [],
 	"rs.devlabs.gradle-project-info": [],
 	"rs.devlabs.maven-project-info": [],
 	"rs.moma.ocd-formatter": [],
@@ -324728,6 +325259,7 @@
 	"tokyo.peya.plugin.Javasm": [],
 	"tombi": [],
 	"tools.datawharf.jsonrecord": [],
+	"tools.datawharf.keystore": [],
 	"tools.devhub.querydesk": [],
 	"tools.dynamia.tasks": [
 		{
@@ -327549,6 +328081,7 @@
 			"rating": 1
 		}
 	],
+	"world.diligiteiustitiam.nunclabora": [],
 	"world.gregs.intellij.plugins.deobfuscation": [],
 	"ws.logv.Fernsprecher": [
 		{
