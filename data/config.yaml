@@ -24,16 +24,22 @@ common:
       family: INTELLIJ
       name: IntelliJ IDEA
       builds:
-        - build: 262.9437.185
+        - build: 263.7307.200 # Cutting edge
+          enabled: true
+          version: '2026.3'
+        - build: 262.12573.28 # Latest 2026.2
+          enabled: true
+          version: '2026.2.5'
+        - build: 262.9437.185 # Supported fallback
           enabled: true
           version: '2026.2.1'
         - build: 262.8665.337
-          enabled: true
+          enabled: false
           version: '2026.2.0.1'
-        - build: 262.8665.258
+        - build: 262.8665.258 # Current mainstream
           enabled: true
           version: '2026.2'
-        - build: 261.26222.65
+        - build: 261.26222.65 # Latest 2026.1
           enabled: true
           version: '2026.1.4'
         - build: 261.24374.151

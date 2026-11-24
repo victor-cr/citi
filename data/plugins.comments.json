@@ -31141,6 +31141,7 @@
 			"rating": 5
 		}
 	],
+	"WGSL_WESL": [],
 	"WebSphere": [
 		{
 			"author": {
@@ -32398,6 +32399,7 @@
 		}
 	],
 	"agents.multitool.javaadk": [],
+	"ai-chat-selection": [],
 	"ai-dl.enlighter": [
 		{
 			"author": {
@@ -32605,6 +32607,7 @@
 	"ai.documentationfirst.ddd": [],
 	"ai.everyapi.jetbrains": [],
 	"ai.exida.stig.idea": [],
+	"ai.falcons.modelsurgeon": [],
 	"ai.hevolve.trueflow": [],
 	"ai.i18nagent.plugin": [],
 	"ai.insom.sast": [],
@@ -34102,7 +34105,24 @@
 			"rating": 0
 		}
 	],
-	"alphixy.MarkdownMax": [],
+	"alphixy.MarkdownMax": [
+		{
+			"author": {
+				"id": "aafc9723-3549-4114-b0d9-5a5511f54122",
+				"link": "/author/aafc9723-3549-4114-b0d9-5a5511f54122",
+				"name": "Mihai Cazac"
+			},
+			"cdate": "1794891579000",
+			"comment": "<p>Great plugin so far. I appreciate the preview panel and simple configuration.</p>\n",
+			"id": 145907,
+			"plugin": {
+				"id": 35889,
+				"link": "/plugin/35889-markdownmax",
+				"name": "MarkdownMax"
+			},
+			"rating": 5
+		}
+	],
 	"alxmag.dcp": [],
 	"am.ghi.language": [],
 	"amazon.q": [
@@ -35411,7 +35431,24 @@
 			"rating": 1
 		}
 	],
-	"app.droidle.plugin": [],
+	"app.droidle.plugin": [
+		{
+			"author": {
+				"id": "16ce7b99-5c3d-47df-b33b-3dbee92adc9a",
+				"link": "/author/16ce7b99-5c3d-47df-b33b-3dbee92adc9a",
+				"name": "Yunus KESK\u0130N"
+			},
+			"cdate": "1793607519000",
+			"comment": "<p>Really useful plugin! Doing a quick challenge every day is a great way to keep my brain sharp, especially now that AI does so much of the heavy lifting. Definitely recommend giving it a try!</p>\n",
+			"id": 145477,
+			"plugin": {
+				"id": 35657,
+				"link": "/plugin/35657-droidle--daily-android-quiz",
+				"name": "Droidle - Daily Android Quiz"
+			},
+			"rating": 5
+		}
+	],
 	"app.factoryline": [],
 	"app.firebridge": [],
 	"app.gotempest.remote": [],
@@ -35419,7 +35456,24 @@
 	"app.heckit.ide.latherit": [],
 	"app.heckit.ide.mailview": [],
 	"app.heckit.ide.missionpassed": [],
-	"app.heckit.ide.runnersbar": [],
+	"app.heckit.ide.runnersbar": [
+		{
+			"author": {
+				"id": "cc7a3915-bd68-4722-a5ba-07100916f4ef",
+				"link": "/author/cc7a3915-bd68-4722-a5ba-07100916f4ef",
+				"name": "andreas"
+			},
+			"cdate": "1792570977000",
+			"comment": "<p>Useful, looks good</p>\n",
+			"id": 145179,
+			"plugin": {
+				"id": 34701,
+				"link": "/plugin/34701-runners-bar",
+				"name": "Runners Bar"
+			},
+			"rating": 5
+		}
+	],
 	"app.heckit.ide.scadsphere": [],
 	"app.heckit.ide.t3toolkit": [],
 	"app.loremaster.jetbrains": [],
@@ -38013,6 +38067,7 @@
 			"rating": 5
 		}
 	],
+	"balaraking.MarkNote": [],
 	"band.effective.progressbar": [],
 	"bao.li.jun": [],
 	"be.ajuvercr.swls": [],
@@ -39705,24 +39760,7 @@
 			"rating": 0
 		}
 	],
-	"bys7.flutterassetsgen": [
-		{
-			"author": {
-				"id": "2576d7db-ae8a-46f1-a442-2c798e7f82f2",
-				"link": "/author/2576d7db-ae8a-46f1-a442-2c798e7f82f2",
-				"name": "Sujal Rabadiya"
-			},
-			"cdate": "1790013864000",
-			"comment": "<p>Best alternative of FlutterAssetsGenerator 2.4.2</p>\n",
-			"id": 144479,
-			"plugin": {
-				"id": 34354,
-				"link": "/plugin/34354-flutter-assets-generator",
-				"name": "Flutter Assets Generator"
-			},
-			"rating": 5
-		}
-	],
+	"bys7.flutterassetsgen": [],
 	"ca.aerb.codeptr-plugin": [],
 	"ca.alexgirard.HarpoonIJ": [
 		{
@@ -40643,8 +40681,8 @@
 			"id": 145616,
 			"plugin": {
 				"id": 35821,
-				"link": "/plugin/35821-godot-analyze",
-				"name": "Godot Analyze"
+				"link": "/plugin/35821-godot-analyzer",
+				"name": "Godot Analyzer"
 			},
 			"rating": 0
 		}
@@ -40869,7 +40907,24 @@
 			"rating": 5
 		}
 	],
-	"cat.martori.petrichor": [],
+	"cat.martori.petrichor": [
+		{
+			"author": {
+				"id": "d21e413b-a5bd-4d07-9534-b643544e1289",
+				"link": "/author/d21e413b-a5bd-4d07-9534-b643544e1289",
+				"name": "Laia"
+			},
+			"cdate": "1790027411000",
+			"comment": "<p>Soft and aesthetic colors, really easy to write/read code with it.</p>\n",
+			"id": 144480,
+			"plugin": {
+				"id": 34351,
+				"link": "/plugin/34351-petrichor",
+				"name": "Petrichor"
+			},
+			"rating": 5
+		}
+	],
 	"cat.wavy.catactivity": [
 		{
 			"author": {
@@ -42554,7 +42609,24 @@
 			"rating": 4
 		}
 	],
-	"cn.3shy.gitlabplus": [],
+	"cn.3shy.gitlabplus": [
+		{
+			"author": {
+				"id": "23d4b2b1-5df7-4a0f-94b5-bc53ae54a4d9",
+				"link": "/author/23d4b2b1-5df7-4a0f-94b5-bc53ae54a4d9",
+				"name": "\u5e05 \u5f90"
+			},
+			"cdate": "1790051529000",
+			"comment": "<p>\u53ef\u7231\u634f</p>\n",
+			"id": 144484,
+			"plugin": {
+				"id": 34316,
+				"link": "/plugin/34316-gitlabplus",
+				"name": "GitLabPlus"
+			},
+			"rating": 5
+		}
+	],
 	"cn.acyou.MyTools": [],
 	"cn.alanhe.plugin.bookmarkx4idea": [
 		{
@@ -43713,6 +43785,7 @@
 	"cn.edu.hnu.CronPlugin": [],
 	"cn.elasticj.optionalchaining": [],
 	"cn.eli.dimens": [],
+	"cn.elytra.no_infer": [],
 	"cn.enaium.jimmer.buddy": [
 		{
 			"author": {
@@ -52420,7 +52493,6 @@
 	"com.a2zdsatracker": [],
 	"com.aaryanmehta.provenance.recorder": [],
 	"com.aayam.ToastJet": [],
-	"com.abbas": [],
 	"com.abdelfattah.ahmed.designimporter": [],
 	"com.abeade.plugin.figma.import": [
 		{
@@ -53503,12 +53575,14 @@
 		}
 	],
 	"com.afkmesh.bundleimpactlens": [],
+	"com.afkmesh.cishardplanner": [],
 	"com.afkmesh.designtokenguard": [],
 	"com.afkmesh.eventpulse": [],
 	"com.afkmesh.githubactions.guard": [],
 	"com.afkmesh.i18nmatrix": [],
 	"com.afkmesh.javaarchitectureguard": [],
 	"com.afkmesh.kubernetes.releaseguard": [],
+	"com.afkmesh.labelfixturelab": [],
 	"com.afkmesh.localizationqa": [],
 	"com.afkmesh.log-guard-compliance": [],
 	"com.afkmesh.mcp.security.auditor": [],
@@ -53521,6 +53595,7 @@
 	"com.afkmesh.sqlmigrationguard": [],
 	"com.afkmesh.terracostinline": [],
 	"com.afkmesh.timezoneteststudio": [],
+	"com.afkmesh.workbookcontractguard": [],
 	"com.afzaln.changelogcreator": [],
 	"com.againfly.plugin.timestamp.MainAction": [],
 	"com.agentdock": [],
@@ -56514,7 +56589,6 @@
 		}
 	],
 	"com.alicankorkmaz.stringresfinder": [],
-	"com.alicejump.oklanghints": [],
 	"com.alicejump.okscripttoolkit": [],
 	"com.alifnaufal.celadon-theme": [],
 	"com.alipay.sofa.koupleless.kouplelessIDE": [],
@@ -57047,6 +57121,7 @@
 	],
 	"com.anatawa12.autoVisitor": [],
 	"com.anchor.commentdoclinks": [],
+	"com.andreidurlea.deuterium": [],
 	"com.andrewbrookins.wrap_to_column": [
 		{
 			"author": {
@@ -60078,6 +60153,7 @@
 		}
 	],
 	"com.askamafmt": [],
+	"com.aspid.previewscroll": [],
 	"com.aspix2k.affected": [],
 	"com.aspose.total.java.intellij.maven": [],
 	"com.aspose.words.java.intellij.maven": [
@@ -60200,6 +60276,7 @@
 			"rating": 0
 		}
 	],
+	"com.astra.apiclient": [],
 	"com.astroproPlugin": [
 		{
 			"author": {
@@ -61005,6 +61082,7 @@
 			"rating": 5
 		}
 	],
+	"com.att.localbackenddocker": [],
 	"com.attachme": [],
 	"com.atu.tools.android-string-sync-plugin": [],
 	"com.atwix.magento": [
@@ -61283,6 +61361,7 @@
 			"rating": 0
 		}
 	],
+	"com.audioexplainer": [],
 	"com.augmentcode": [
 		{
 			"author": {
@@ -63881,7 +63960,24 @@
 			"rating": 0
 		}
 	],
-	"com.bidaide": [],
+	"com.bidaide": [
+		{
+			"author": {
+				"id": "009f3ff5-f341-4913-b660-8366c1f6ed73",
+				"link": "/author/009f3ff5-f341-4913-b660-8366c1f6ed73",
+				"name": "David Arribas"
+			},
+			"cdate": "1793004211000",
+			"comment": "<p>all good :D</p>\n",
+			"id": 145279,
+			"plugin": {
+				"id": 35038,
+				"link": "/plugin/35038-bidaide",
+				"name": "Bidaide"
+			},
+			"rating": 0
+		}
+	],
 	"com.biedin.markdown.commenter": [],
 	"com.bigmy": [
 		{
@@ -65397,7 +65493,40 @@
 			"rating": 5
 		}
 	],
-	"com.boki.baseball-progressbar": [],
+	"com.boki.baseball-progressbar": [
+		{
+			"author": {
+				"id": "d03547ac-9cd9-4802-b6d6-035127147ff6",
+				"link": "/author/d03547ac-9cd9-4802-b6d6-035127147ff6",
+				"name": "angelican"
+			},
+			"cdate": "1793792119000",
+			"comment": "<p>This is fun! i love baseball</p>\n",
+			"id": 145540,
+			"plugin": {
+				"id": 34215,
+				"link": "/plugin/34215-baseball-progressbar",
+				"name": "Baseball-progressbar"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "057b6f9d-6a28-45b5-9bbe-4fb0ce7de581",
+				"link": "/author/057b6f9d-6a28-45b5-9bbe-4fb0ce7de581",
+				"name": "3212_\uc784\uc9c0\uc720"
+			},
+			"cdate": "1793700576000",
+			"comment": "<p>This plugin fucking good!</p>\n",
+			"id": 145510,
+			"plugin": {
+				"id": 34215,
+				"link": "/plugin/34215-baseball-progressbar",
+				"name": "Baseball-progressbar"
+			},
+			"rating": 5
+		}
+	],
 	"com.boksh.add-python-sdk": [],
 	"com.boohee.plugin.translation2": [],
 	"com.bordercloud.sparql-plugin-intellij": [],
@@ -67470,7 +67599,24 @@
 	"com.burkett.builderberg": [],
 	"com.butterfly.GoToAnyFile": [],
 	"com.butterfly.copyright": [],
-	"com.bygo.aipath": [],
+	"com.bygo.aipath": [
+		{
+			"author": {
+				"id": "ecce698f-fa57-499e-a302-7388927eecaa",
+				"link": "/author/ecce698f-fa57-499e-a302-7388927eecaa",
+				"name": "jass"
+			},
+			"cdate": "1790587593000",
+			"comment": "<p>Very useful plugin.</p>\n",
+			"id": 144653,
+			"plugin": {
+				"id": 34168,
+				"link": "/plugin/34168-copy-path-for-ai",
+				"name": "Copy Path for AI"
+			},
+			"rating": 5
+		}
+	],
 	"com.bytedance.auto.merge.push.plugin": [],
 	"com.bytedance.jedi.templatemanager": [],
 	"com.bytegatherer.jsonplusyaml": [
@@ -68673,6 +68819,7 @@
 	"com.chalice.yald.weather.plugin.id": [],
 	"com.chalk.plugin": [],
 	"com.chaoxing.showdoc.runapi": [],
+	"com.chase.flakylens.flaky-lens": [],
 	"com.chatdan.flowvisualizer": [],
 	"com.chatopens.ideaplugin": [],
 	"com.chattcp.plugin": [
@@ -69309,6 +69456,8 @@
 			"rating": 5
 		}
 	],
+	"com.childeshu.githelper": [],
+	"com.childeshu.restart": [],
 	"com.chillflex.chillcode.companion": [],
 	"com.chimerapps.proguard-retrace": [
 		{
@@ -71266,6 +71415,24 @@
 			"rating": 1
 		}
 	],
+	"com.ciuculescu.terminal-tab-switch": [
+		{
+			"author": {
+				"id": "8174a1a2-5358-4829-9206-6892f7237203",
+				"link": "/author/8174a1a2-5358-4829-9206-6892f7237203",
+				"name": "Bo Tisdale"
+			},
+			"cdate": "1795484179000",
+			"comment": "<p>Simple and effective - does just what I wanted it to do and no more.</p>\n<p>Thanks!</p>\n",
+			"id": 146143,
+			"plugin": {
+				"id": 36314,
+				"link": "/plugin/36314-terminal-tab-switch-shortcuts",
+				"name": "Terminal Tab Switch Shortcuts"
+			},
+			"rating": 5
+		}
+	],
 	"com.ciyin.cmpkit": [],
 	"com.cjian.timestamp": [],
 	"com.ck.karma-lens": [],
@@ -72907,6 +73074,38 @@
 	],
 	"com.codedif.inheritancelens": [],
 	"com.codegpt.CodeGPT": [
+		{
+			"author": {
+				"id": "96bfe116-97b1-435b-8191-b24602d43a79",
+				"link": "/author/96bfe116-97b1-435b-8191-b24602d43a79",
+				"name": "Max"
+			},
+			"cdate": "1794587498000",
+			"comment": "<p>After the update, there is no connection.</p>\n",
+			"id": 145841,
+			"plugin": {
+				"id": 35652,
+				"link": "/plugin/35652-codegpt-chat--ai-agents",
+				"name": "CodeGPT: Chat & AI Agents"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "ad2d69cb-6ee1-4bf5-b5cf-c574d09abf41",
+				"link": "/author/ad2d69cb-6ee1-4bf5-b5cf-c574d09abf41",
+				"name": "lunoreac"
+			},
+			"cdate": "1793771858000",
+			"comment": "<p>Performance optimization is recommended</p>\n",
+			"id": 145532,
+			"plugin": {
+				"id": 35652,
+				"link": "/plugin/35652-codegpt-chat--ai-agents",
+				"name": "CodeGPT: Chat & AI Agents"
+			},
+			"rating": 1
+		},
 		{
 			"author": {
 				"id": "66a40d36-61a9-43ee-9806-891bd9748a2f",
@@ -74645,7 +74844,24 @@
 			"rating": 0
 		}
 	],
-	"com.codigrate.salda.theme": [],
+	"com.codigrate.salda.theme": [
+		{
+			"author": {
+				"id": "adf17e6b-b3fa-44eb-87cf-31aef922289d",
+				"link": "/author/adf17e6b-b3fa-44eb-87cf-31aef922289d",
+				"name": "Janos Ponusz"
+			},
+			"cdate": "1791362320000",
+			"comment": "<p>A really lovely, light-coloured theme. The colours have been chosen with great care. In my view, it\u2019s currently the best light-coloured theme.</p>\n",
+			"id": 144815,
+			"plugin": {
+				"id": 34265,
+				"link": "/plugin/34265-salda-theme",
+				"name": "Salda Theme"
+			},
+			"rating": 5
+		}
+	],
 	"com.codigrate.sequoia.theme": [
 		{
 			"author": {
@@ -74862,8 +75078,8 @@
 			"id": 145254,
 			"plugin": {
 				"id": 35226,
-				"link": "/plugin/35226-composebridge",
-				"name": "ComposeBridge"
+				"link": "/plugin/35226-composelintai",
+				"name": "ComposeLintAI"
 			},
 			"rating": 5
 		}
@@ -74908,6 +75124,7 @@
 	"com.configiq.airflowkconnect": [],
 	"com.cong.datagrip-column-sidebar": [],
 	"com.congroof.xidl": [],
+	"com.consoleemulationtoggle.pycharm-console-emulation-toggle": [],
 	"com.contenta.ai.analysis": [],
 	"com.converter.be-water-converter": [
 		{
@@ -75664,6 +75881,7 @@
 		}
 	],
 	"com.creamgod45.tera.studio": [],
+	"com.creativeit.merkzeug": [],
 	"com.crhistianm.netrwoon": [],
 	"com.crickcoder.ide": [],
 	"com.criticalrange.hytaledev": [],
@@ -76646,6 +76864,7 @@
 	"com.cxh.camelcase": [],
 	"com.cxj.plugin.show-in-explorer": [],
 	"com.cybedefend.jetbrains": [],
+	"com.cyber0xfe.muya.markdown": [],
 	"com.cybrosys.odoo.code": [
 		{
 			"author": {
@@ -77368,6 +77587,7 @@
 	"com.daniilgrachev.CWI": [],
 	"com.danilian.speakide": [],
 	"com.danlee.css2js": [],
+	"com.dapa1.MyActionsMenu": [],
 	"com.dapa1.MyChat": [],
 	"com.dark.intellij.logconsole": [
 		{
@@ -79389,7 +79609,40 @@
 	"com.deepseek.dsh.ide": [],
 	"com.deepseek.dshstudio": [],
 	"com.deepseek.fim.plugin": [],
-	"com.deepseek.harness.idea": [],
+	"com.deepseek.harness.idea": [
+		{
+			"author": {
+				"id": "9aebb845-4f5e-4795-a6fc-635a778ed444",
+				"link": "/author/9aebb845-4f5e-4795-a6fc-635a778ed444",
+				"name": "\u76f8\u9022\u4e0d\u82e5\u521d\u9047"
+			},
+			"cdate": "1791531453000",
+			"comment": "<p>\u5f88\u597d\u7528\uff0c\u76f4\u63a5\u628adsh\u4f5c\u4e3a\u4e00\u4e2a\u63d2\u4ef6\u653e\u8fdb\u6765\u4e86\u3002\n\u5c31\u662f\u6709\u4e9b\u751f\u4e0d\u9022\u65f6\uff0cdsh\u7684\u684c\u9762\u7aef\u524d\u51e0\u5929\u521a\u597d\u51fa\u6765\u4e86\u3002\n\u4e0d\u8fc7\u5bf9\u4e8e\u6211\u8fd9\u79cd\u5c0f\u767d\u6765\u8bf4\u8fd8\u662f\u5f88\u597d\u7528\u7684\u3002\n\u8c8c\u4f3c\u53ef\u4ee5\u88c5\u63d2\u4ef6\uff0c\u4e0d\u8fc7\u6211\u53ea\u9700\u8981\u7528\u6765\u6539\u4e00\u4e0b\u4f5c\u4e1a\u7684\u4ee3\u7801\u5c31\u884c\u4e86\uff0c\u6240\u4ee5\u5c31\u4e0d\u88c5\u63d2\u4ef6\u4e86\u3002\n\u597d\u8bc4\uff0c\u6b22\u8fce\u5927\u5bb6\u4f7f\u7528\uff01</p>\n",
+			"id": 144868,
+			"plugin": {
+				"id": 33820,
+				"link": "/plugin/33820-deepseek-harness",
+				"name": "DeepSeek Harness"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "c2450bcb-cac4-42ed-a3bb-474e20391a8a",
+				"link": "/author/c2450bcb-cac4-42ed-a3bb-474e20391a8a",
+				"name": "2773348732"
+			},
+			"cdate": "1789724190000",
+			"comment": "<p>\u5f88\u597d\u7528</p>\n",
+			"id": 144426,
+			"plugin": {
+				"id": 33820,
+				"link": "/plugin/33820-deepseek-harness",
+				"name": "DeepSeek Harness"
+			},
+			"rating": 5
+		}
+	],
 	"com.deepseek.harness.jetbrains": [],
 	"com.deepseek.plugin": [
 		{
@@ -81684,6 +81937,7 @@
 	],
 	"com.diffdb.schema-compare": [],
 	"com.digitalsubstrate.dsm": [],
+	"com.digoso.jbwindowmanager": [],
 	"com.dilongdann.quickrun": [
 		{
 			"author": {
@@ -82531,7 +82785,6 @@
 			"rating": 0
 		}
 	],
-	"com.dp.chat.use.web": [],
 	"com.dpaulenk.idea.contexthelp": [
 		{
 			"author": {
@@ -83785,6 +84038,24 @@
 			"rating": 5
 		}
 	],
+	"com.dynotable.jetbrains": [
+		{
+			"author": {
+				"id": "34ad01ef-25d9-40d2-b537-a8cb35897f4b",
+				"link": "/author/34ad01ef-25d9-40d2-b537-a8cb35897f4b",
+				"name": "Dmitriy Nevzorov"
+			},
+			"cdate": "1794482189000",
+			"comment": "<p>The only plugin that actually works with both DynamoDB and OpenSearch and supports joins.</p>\n",
+			"id": 145781,
+			"plugin": {
+				"id": 35945,
+				"link": "/plugin/35945-dynotable",
+				"name": "DynoTable"
+			},
+			"rating": 5
+		}
+	],
 	"com.dysh.unreal-simple": [
 		{
 			"author": {
@@ -84013,6 +84284,38 @@
 	"com.easyrest": [
 		{
 			"author": {
+				"id": "beacad28-9dfe-4cdd-ad23-9a14816b6b43",
+				"link": "/author/beacad28-9dfe-4cdd-ad23-9a14816b6b43",
+				"name": "Pablo Garc\u00eda"
+			},
+			"cdate": "1795431692000",
+			"comment": "<p>Mucho mejor que el Postman, que se les ha ido la pinza.</p>\n",
+			"id": 146122,
+			"plugin": {
+				"id": 35607,
+				"link": "/plugin/35607-easyrest",
+				"name": "EasyRest"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "f2364cd9-c838-4a8c-923d-5332810e9bdb",
+				"link": "/author/f2364cd9-c838-4a8c-923d-5332810e9bdb",
+				"name": "Alvaro Llorente"
+			},
+			"cdate": "1793730958000",
+			"comment": "<p>Wow!! Thanks, you save my life!!</p>\n",
+			"id": 145519,
+			"plugin": {
+				"id": 35607,
+				"link": "/plugin/35607-easyrest",
+				"name": "EasyRest"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
 				"id": "34ecfc5f-2af5-4ef2-b0f6-1753036e16d3",
 				"link": "/author/34ecfc5f-2af5-4ef2-b0f6-1753036e16d3",
 				"name": "Pablo del Barrio"
@@ -84030,7 +84333,24 @@
 	],
 	"com.easytodo.EasyTodo": [],
 	"com.easywsdl.tools.plugins.intellij": [],
-	"com.eazycmp.plugin": [],
+	"com.eazycmp.plugin": [
+		{
+			"author": {
+				"id": "e8d5e7f6-6a89-458a-a7c8-0b69be9455bc",
+				"link": "/author/e8d5e7f6-6a89-458a-a7c8-0b69be9455bc",
+				"name": "Ajay Swami"
+			},
+			"cdate": "1791865475000",
+			"comment": "<p>nice plugin i found most of my requiring tooles in this plugin</p>\n",
+			"id": 144956,
+			"plugin": {
+				"id": 34119,
+				"link": "/plugin/34119-eazycmp-project-wizard",
+				"name": "EazyCMP Project Wizard"
+			},
+			"rating": 0
+		}
+	],
 	"com.ecarx.plugin.findview": [],
 	"com.ecds.deploy.helper": [],
 	"com.echoapi.EchoAPI-Helper": [
@@ -84323,7 +84643,24 @@
 			"rating": 5
 		}
 	],
-	"com.eitey.hitlens": [],
+	"com.eitey.hitlens": [
+		{
+			"author": {
+				"id": "8055695e-fafa-4cf8-af7e-b6033c81bd5d",
+				"link": "/author/8055695e-fafa-4cf8-af7e-b6033c81bd5d",
+				"name": "guy123172"
+			},
+			"cdate": "1794858955000",
+			"comment": "<p>Cool plugin, pretty useful and helps save lots of debugging time by visualizing debugging data in my source code!</p>\n",
+			"id": 145896,
+			"plugin": {
+				"id": 35406,
+				"link": "/plugin/35406-hitlens",
+				"name": "HitLens"
+			},
+			"rating": 0
+		}
+	],
 	"com.ekino.oss.jcv-idea-plugin": [
 		{
 			"author": {
@@ -86596,7 +86933,24 @@
 			"rating": 0
 		}
 	],
-	"com.factodus.logline": [],
+	"com.factodus.logline": [
+		{
+			"author": {
+				"id": "23d4b2b1-5df7-4a0f-94b5-bc53ae54a4d9",
+				"link": "/author/23d4b2b1-5df7-4a0f-94b5-bc53ae54a4d9",
+				"name": "\u5e05 \u5f90"
+			},
+			"cdate": "1793022636000",
+			"comment": "<p>(node:46632) [DEP0205] DeprecationWarning: <code>module.register()</code> is deprecated. Use <code>module.registerHooks()</code> instead.</p>\n<p>please update</p>\n",
+			"id": 145292,
+			"plugin": {
+				"id": 34721,
+				"link": "/plugin/34721-logline-inline",
+				"name": "Logline Inline"
+			},
+			"rating": 3
+		}
+	],
 	"com.factodus.queuestudio": [],
 	"com.factodus.queuestudio.sqs": [],
 	"com.faebeee.reactcomponentcreator": [
@@ -88254,6 +88608,8 @@
 	"com.fighting.study.daily_newspaper_generator": [],
 	"com.filippochinni.settings-ides--color-theme": [],
 	"com.filippochinni.settings-ides--keymap": [],
+	"com.fin.openmodel.preview": [],
+	"com.fin.taskbeacon": [],
 	"com.finanteq.plugins.idea.cucumber-kotlin-idea-plugin": [
 		{
 			"author": {
@@ -88788,7 +89144,24 @@
 		}
 	],
 	"com.flexible.cobol": [],
-	"com.flexible.delphi": [],
+	"com.flexible.delphi": [
+		{
+			"author": {
+				"id": "8d85a8ab-b945-4afd-bfbf-a67bea565fbd",
+				"link": "/author/8d85a8ab-b945-4afd-bfbf-a67bea565fbd",
+				"name": "m.tscherney"
+			},
+			"cdate": "1793030081000",
+			"comment": "",
+			"id": 145300,
+			"plugin": {
+				"id": 34930,
+				"link": "/plugin/34930-flexible-for-pascal--delphi",
+				"name": "Flexible for Pascal & Delphi"
+			},
+			"rating": 4
+		}
+	],
 	"com.flexible.elixir": [
 		{
 			"author": {
@@ -89058,8 +89431,11 @@
 		}
 	],
 	"com.flexible.swift": [],
+	"com.flightcoders.veyra.aura": [],
+	"com.flightcoders.veyra.aurora": [],
 	"com.flightcoders.veyra.devicelab": [],
 	"com.flightcoders.veyra.hotspots": [],
+	"com.flightcoders.veyra.neonvice": [],
 	"com.flightcoders.veyra.portmanager": [],
 	"com.flightcoders.veyra.theme": [
 		{
@@ -89584,7 +89960,24 @@
 	"com.focusguard.plugin": [],
 	"com.focustech.mic": [],
 	"com.fomin.plugin": [],
-	"com.forcepushdev.preflight": [],
+	"com.forcepushdev.preflight": [
+		{
+			"author": {
+				"id": "2879e11c-7a8d-40b5-8176-ee125fbea139",
+				"link": "/author/2879e11c-7a8d-40b5-8176-ee125fbea139",
+				"name": "sem.peters"
+			},
+			"cdate": "1793721070000",
+			"comment": "<p>Pretty good plugin, I've used it for a day now and I'm quite happy with how it does the inline comments. It's really useful to be able to just paste your comments into Claude Code and let it do the rest. Way better than trying to do it inside of Claude itself, or any other agentic tool I've tried for that matter.</p>\n<p>Some points that could be improved:</p>\n<ul>\n<li>The base branch selector is less than ideal, it'd be better if we could search for branch. The default selected branch was some old branch that happened to still be around and by change happened to end with 'main'. Our actual default branch is called 'develop', so that was a bit odd.</li>\n<li>I'd love it if we could have this idea but with a markdown transformer, so that I could read and verify the output a bit better before I sent the output to the agent. I think the LLM will have an easier time reading the review comments as well if they're in markdown as opposed to JSON.</li>\n</ul>\n",
+			"id": 145518,
+			"plugin": {
+				"id": 34322,
+				"link": "/plugin/34322-preflight",
+				"name": "Preflight"
+			},
+			"rating": 4
+		}
+	],
 	"com.foreglow.theme.jetbrains": [],
 	"com.foreglow.theme.jetbrains.unofficial": [],
 	"com.forever.stockwatcher": [],
@@ -89781,7 +90174,24 @@
 			"rating": 5
 		}
 	],
-	"com.frankgiordano.zowe.explorer.java": [],
+	"com.frankgiordano.zowe.explorer.java": [
+		{
+			"author": {
+				"id": "d800a737-fdfa-42d7-a001-acda54b8d72d",
+				"link": "/author/d800a737-fdfa-42d7-a001-acda54b8d72d",
+				"name": "Srikanth Kotagiri"
+			},
+			"cdate": "1791825698000",
+			"comment": "<p>Unexpected Mashup  needed.</p>\n",
+			"id": 144949,
+			"plugin": {
+				"id": 34774,
+				"link": "/plugin/34774-z-os-workbench-for-zowe",
+				"name": "z/OS Workbench for Zowe"
+			},
+			"rating": 5
+		}
+	],
 	"com.frappeinspector.jetbrains": [],
 	"com.fred.shen.allbymyself": [],
 	"com.freemarkerplus": [],
@@ -91035,6 +91445,7 @@
 			"rating": 3
 		}
 	],
+	"com.gafner.jirai": [],
 	"com.gagmuradyan.design-tokens": [],
 	"com.gali.AndroidDrawableHelper": [
 		{
@@ -101913,7 +102324,24 @@
 		}
 	],
 	"com.github.dk98126.branchit": [],
-	"com.github.dkwasniak.adbtoolbox": [],
+	"com.github.dkwasniak.adbtoolbox": [
+		{
+			"author": {
+				"id": "0d820cbb-8a80-4050-9b9f-e58639a6a51c",
+				"link": "/author/0d820cbb-8a80-4050-9b9f-e58639a6a51c",
+				"name": "Raghav Satyadev"
+			},
+			"cdate": "1792017810000",
+			"comment": "<p>My god this is a treasure trove of the functionality a plugin can provide. Good one mate. see if you can support the Artemis MCP for controlling device as an option. <a href=\"https://github.com/google/artemis\">https://github.com/google/artemis</a></p>\n",
+			"id": 145008,
+			"plugin": {
+				"id": 34857,
+				"link": "/plugin/34857-device-cockpit-for-android",
+				"name": "Device Cockpit for Android"
+			},
+			"rating": 5
+		}
+	],
 	"com.github.dkwasniak.goldendiff": [
 		{
 			"author": {
@@ -101973,7 +102401,24 @@
 	"com.github.drjacky.avocado": [],
 	"com.github.drjacky.basiccomposeactivityplugin": [],
 	"com.github.drjacky.docgenie": [],
-	"com.github.dtretyakov.monkeyc": [],
+	"com.github.dtretyakov.monkeyc": [
+		{
+			"author": {
+				"id": "5d202552-8988-452f-9f81-23bbab889152",
+				"link": "/author/5d202552-8988-452f-9f81-23bbab889152",
+				"name": "Vladislav Bondarchuk"
+			},
+			"cdate": "1795199483000",
+			"comment": "<p>Good work</p>\n",
+			"id": 146068,
+			"plugin": {
+				"id": 34203,
+				"link": "/plugin/34203-monkey-c",
+				"name": "Monkey C"
+			},
+			"rating": 0
+		}
+	],
 	"com.github.dtretyakov.pebble": [],
 	"com.github.dukesoft.gmplugin": [],
 	"com.github.dungngminh.composableselection": [
@@ -103141,6 +103586,25 @@
 	],
 	"com.github.flounder4130.duplicatefinderidea": [],
 	"com.github.fmueller.jarvis": [],
+	"com.github.fnunezkanut.bbcloud": [
+		{
+			"author": {
+				"id": "c1706c3d-1702-44aa-8bf1-17e213aeb4bf",
+				"link": "/author/c1706c3d-1702-44aa-8bf1-17e213aeb4bf",
+				"name": "Leon Volovyk"
+			},
+			"cdate": "1795476064000",
+			"comment": "<p>Promising concept but almost useless atm - list of PRs is shown and a worktree is created on opening a PR in it but that's it: the PR tab doesn't appear, there's no Create PR button and settings not saved. Also, every switch between the tabs takes a couple of seconds.</p>\n",
+			"id": 146139,
+			"plugin": {
+				"id": 35502,
+				"link": "/plugin/35502-diffy--bitbucket-pr-review",
+				"name": "Diffy - Bitbucket PR Review"
+			},
+			"rating": 2
+		}
+	],
+	"com.github.fnunezkanut.sendtoai": [],
 	"com.github.followlemmi.kanagawa": [],
 	"com.github.formattoday.v2viewer": [],
 	"com.github.frimtec.idea-import-control-plugin": [],
@@ -105213,6 +105677,7 @@
 	"com.github.iamr8.dotnetoutdated": [],
 	"com.github.iamr8.libman": [],
 	"com.github.iappapp.panda.common.generator": [],
+	"com.github.icalhighlighter": [],
 	"com.github.ichaly.codex-ui": [],
 	"com.github.idea-claude-code-gui": [
 		{
@@ -112227,6 +112692,7 @@
 		}
 	],
 	"com.github.mikrop.intellijccmodelswitch": [],
+	"com.github.mikrop.intellijkanbn": [],
 	"com.github.mikrzo.cucumbergo": [],
 	"com.github.milankinen.ideaicebergtheme": [
 		{
@@ -113833,7 +114299,24 @@
 		}
 	],
 	"com.github.nizienko.weather-widget": [],
-	"com.github.nndwn.todoso": [],
+	"com.github.nndwn.todoso": [
+		{
+			"author": {
+				"id": "72130ee9-8f4a-4e95-8859-b26c3d2d81bb",
+				"link": "/author/72130ee9-8f4a-4e95-8859-b26c3d2d81bb",
+				"name": "nndwn"
+			},
+			"cdate": "1789474292000",
+			"comment": "<p>Can I review my own plugin? Meoww</p>\n",
+			"id": 144350,
+			"plugin": {
+				"id": 34048,
+				"link": "/plugin/34048-todoso-markdown-todo-list",
+				"name": "Todoso: Markdown Todo List"
+			},
+			"rating": 0
+		}
+	],
 	"com.github.nonoxys.kmpmodulegenerator": [],
 	"com.github.novotnyr.consul-intellij-plugin": [
 		{
@@ -117595,7 +118078,24 @@
 		}
 	],
 	"com.github.sendtoai": [],
-	"com.github.senocak.autocommit": [],
+	"com.github.senocak.autocommit": [
+		{
+			"author": {
+				"id": "89f861e4-caa6-4686-8c7f-a6baf9edeec3",
+				"link": "/author/89f861e4-caa6-4686-8c7f-a6baf9edeec3",
+				"name": "Mustafa Ayberk Kale"
+			},
+			"cdate": "1790235283000",
+			"comment": "<p>Highly effective for code completion, commit message generation, and chatting about selected code snippets. I use it seamlessly with my company's LiteLLM-integrated backend, leveraging Claude and Codex models.</p>\n",
+			"id": 144572,
+			"plugin": {
+				"id": 34294,
+				"link": "/plugin/34294-litellm-integration",
+				"name": "LiteLLM Integration"
+			},
+			"rating": 5
+		}
+	],
 	"com.github.senocak.etcd": [],
 	"com.github.senocak.propertiestoyaml": [
 		{
@@ -117948,6 +118448,7 @@
 		}
 	],
 	"com.github.shenweijie.vim-leap": [],
+	"com.github.shifeng0110.dwallpaper": [],
 	"com.github.shiningpluto.claudeusage": [],
 	"com.github.shiraji.breakpointsmanager": [
 		{
@@ -119202,6 +119703,7 @@
 			"rating": 5
 		}
 	],
+	"com.github.sinlordep.mcpcompanion": [],
 	"com.github.siropkin.budijetbrains": [],
 	"com.github.siropkin.kursor": [
 		{
@@ -120926,9 +121428,11 @@
 			"rating": 5
 		}
 	],
+	"com.github.todd.hammerlaravel": [],
 	"com.github.tokyonight.theme": [],
 	"com.github.tolgacanunal.intellijgltfviewerplugin": [],
 	"com.github.tom-power.gradle-plugin-settings-actions": [],
+	"com.github.tomascostak.parquetviewereditor": [],
 	"com.github.tomasmilata.intelliroutes": [
 		{
 			"author": {
@@ -121512,6 +122016,7 @@
 			"rating": 5
 		}
 	],
+	"com.github.valtm.worktree.lifecycle": [],
 	"com.github.vasanthvasanthm.plugin": [],
 	"com.github.vbmacher.intellij-dbt": [],
 	"com.github.vgirotto.prism": [
@@ -124832,7 +125337,24 @@
 		}
 	],
 	"com.github.yayolande.go-template-lsp": [],
-	"com.github.yc556.treeinfotip": [],
+	"com.github.yc556.treeinfotip": [
+		{
+			"author": {
+				"id": "8a0e73df-8bce-4473-94a8-3968e621aa74",
+				"link": "/author/8a0e73df-8bce-4473-94a8-3968e621aa74",
+				"name": "3412261450"
+			},
+			"cdate": "1789454079000",
+			"comment": "<p>3\u5e74\u8001\u4ee3\u7801\u7ec8\u4e8e\u66f4\u65b0\u4e86\uff0c\u5f88\u4e0d\u9519\uff0c\u66f4\u52a0\u5b9e\u7528\u4e86\uff0c\u5e0c\u671b\u80fd\u505a\u7684\u66f4\u5b8c\u5584\u4e00\u4e9b</p>\n",
+			"id": 144341,
+			"plugin": {
+				"id": 34046,
+				"link": "/plugin/34046-treeinfotip-notes----",
+				"name": "TreeInfoTip Notes / \u76ee\u5f55\u6811\u5907\u6ce8"
+			},
+			"rating": 5
+		}
+	],
 	"com.github.ycyz.starrocks.support": [
 		{
 			"author": {
@@ -126063,7 +126585,24 @@
 	"com.github.zhazhazsy.jsontodartplus": [],
 	"com.github.zhenyuan.gitpullreminder": [],
 	"com.github.zimablue1995.everything": [],
-	"com.github.zipper.latteplus": [],
+	"com.github.zipper.latteplus": [
+		{
+			"author": {
+				"id": "06a493fe-10b9-479a-8f88-a113781defaf",
+				"link": "/author/06a493fe-10b9-479a-8f88-a113781defaf",
+				"name": "Michal Nov\u00e1k"
+			},
+			"cdate": "1790536131000",
+			"comment": "<p>Latte Pro has been a useful plugin for Latte support in PhpStorm, but Latte+ feels like a real fresh wind for the Latte community. It catches more things, gives you better navigation and completion, and generally makes working on a Nette project feel smoother. It is still a very new plugin, so there will naturally be some rough edges, but the direction looks very promising and I\u2019m really happy to see new energy and competition around Latte tooling.</p>\n",
+			"id": 144631,
+			"plugin": {
+				"id": 34056,
+				"link": "/plugin/34056-latte-",
+				"name": "Latte+"
+			},
+			"rating": 0
+		}
+	],
 	"com.github.zoarch.mindarktheme": [],
 	"com.github.zouyq.cmdTools": [
 		{
@@ -126247,6 +126786,7 @@
 		}
 	],
 	"com.gitlab.lae.intellij.jump": [],
+	"com.gitlab.mkisd.revue": [],
 	"com.gitlab.msciachero.sciak-flow-gitlab-plugin": [],
 	"com.gitlab.pipeline.viewer": [],
 	"com.gitlab.plugin": [
@@ -129303,6 +129843,7 @@
 	"com.guiwang.plugin.AssemblyPlugin": [],
 	"com.gujiangfei.invalidprojectscleaner": [],
 	"com.gul.goodboy": [],
+	"com.gunbladegames.sectionary": [],
 	"com.gunsnprices.gun-title-parser": [],
 	"com.guo95.maximo-devtools": [],
 	"com.guofan.overcode": [
@@ -133027,6 +133568,7 @@
 			"rating": 5
 		}
 	],
+	"com.holdings.rdl": [],
 	"com.homebattles.AICommitMessages": [],
 	"com.homebattles.SwitchIDE": [],
 	"com.honghao.mermaidcanvas": [],
@@ -134182,6 +134724,24 @@
 	"com.hunkontech.privacyguardrail": [],
 	"com.hunkontech.revgraph": [],
 	"com.huq.idea.flow": [],
+	"com.husbylabs.vecna": [
+		{
+			"author": {
+				"id": "b2e233d0-5a4f-4682-aa8b-799ebc9ef1c2",
+				"link": "/author/b2e233d0-5a4f-4682-aa8b-799ebc9ef1c2",
+				"name": "Jacob Ramah"
+			},
+			"cdate": "1795490415000",
+			"comment": "<p>Best CAN DBC syntax parser I've seen so far. Can't believe this was made literally the day I needed it.</p>\n",
+			"id": 146144,
+			"plugin": {
+				"id": 36389,
+				"link": "/plugin/36389-vecna",
+				"name": "Vecna"
+			},
+			"rating": 5
+		}
+	],
 	"com.huskerdev.native-kt": [],
 	"com.husttwj.TinyPngCompressor": [
 		{
@@ -134910,6 +135470,7 @@
 	],
 	"com.idcpj.change_export": [],
 	"com.idea-aedi.plugin.fast-coding": [],
+	"com.idea.webviewer": [],
 	"com.ideavault.sqlhelper": [],
 	"com.idegram": [],
 	"com.ifengxue.plugin.jpa-support": [
@@ -136250,6 +136811,22 @@
 	"com.inet-dev.graphql-php-bridge": [],
 	"com.inflectra.SpiraTeam": [],
 	"com.infomaniak.MoreUsageFilters": [
+		{
+			"author": {
+				"id": "cf5a8b61-8528-4bf6-af49-c56d8d134c30",
+				"link": "/author/cf5a8b61-8528-4bf6-af49-c56d8d134c30",
+				"name": "ZHOUXING"
+			},
+			"cdate": "1789971158000",
+			"comment": "<p>Can it be used for Golang?</p>\n",
+			"id": 144459,
+			"plugin": {
+				"id": 34308,
+				"link": "/plugin/34308-more-usage-filters",
+				"name": "More Usage Filters"
+			},
+			"rating": 0
+		},
 		{
 			"author": {
 				"id": "485fa549-f7ac-4b33-b7b5-ec4ef359b953",
@@ -138766,6 +139343,24 @@
 		}
 	],
 	"com.intellij.cdi": [],
+	"com.intellij.chromeConnect": [
+		{
+			"author": {
+				"id": "dedae63c-6875-49cc-b385-087f19c04fb7",
+				"link": "/author/dedae63c-6875-49cc-b385-087f19c04fb7",
+				"name": "bartlomiej.obecny"
+			},
+			"cdate": "1793966025000",
+			"comment": "<p>Just installed on latest today 2026.3, and cannot debug anymore with webpack build as it stucked in the last step for whatever reason. Removed, the issue is gone.</p>\n",
+			"id": 145604,
+			"plugin": {
+				"id": 35419,
+				"link": "/plugin/35419-chrome-devtools-connect",
+				"name": "Chrome DevTools Connect"
+			},
+			"rating": 0
+		}
+	],
 	"com.intellij.classic.ui": [
 		{
 			"author": {
@@ -139092,6 +139687,7 @@
 	"com.intellij.clion-compdb": [],
 	"com.intellij.clion-gradle": [],
 	"com.intellij.clion.meson": [],
+	"com.intellij.clouds.telepresence": [],
 	"com.intellij.cmake": [],
 	"com.intellij.code.provenance": [
 		{
@@ -139127,6 +139723,7 @@
 			"rating": 1
 		}
 	],
+	"com.intellij.codeFindings": [],
 	"com.intellij.commander": [
 		{
 			"author": {
@@ -139599,6 +140196,8 @@
 		}
 	],
 	"com.intellij.editSuggestion": [],
+	"com.intellij.embark": [],
+	"com.intellij.experimental.swift-lsp": [],
 	"com.intellij.exposed": [
 		{
 			"author": {
@@ -139615,6 +140214,104 @@
 				"name": "Exposed"
 			},
 			"rating": 4
+		}
+	],
+	"com.intellij.extendedToolWindowsUi": [
+		{
+			"author": {
+				"id": "981c4475-d5f2-4797-99fc-2047ddbe2b56",
+				"link": "/author/981c4475-d5f2-4797-99fc-2047ddbe2b56",
+				"name": "Simplifier"
+			},
+			"cdate": "1794783521000",
+			"comment": "<p>I like this plugin. It makes Rider usable again</p>\n",
+			"id": 145865,
+			"plugin": {
+				"id": 34198,
+				"link": "/plugin/34198-extended-tool-windows-ui",
+				"name": "Extended Tool Windows UI"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "abf2b916-dffb-4e9c-836c-0b44b66ff5a1",
+				"link": "/author/abf2b916-dffb-4e9c-836c-0b44b66ff5a1",
+				"name": "christian.marciniak"
+			},
+			"cdate": "1793946910000",
+			"comment": "<p>I waited for this for a long time. It feels so great and saves so much space. Well done!\nCore features, that I like:</p>\n<ul>\n<li>much more narrow sidebars</li>\n<li>icons stay horizontal while the text is vertical</li>\n<li>bottom tool bar is back again</li>\n</ul>\n<p>IMHO this should be integrated in the IDE rather than be provided as a plugin, because it makes the IDE feel fresh but restores some key features of the old UI. I'm satisfied.</p>\n",
+			"id": 145589,
+			"plugin": {
+				"id": 34198,
+				"link": "/plugin/34198-extended-tool-windows-ui",
+				"name": "Extended Tool Windows UI"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "981c4475-d5f2-4797-99fc-2047ddbe2b56",
+				"link": "/author/981c4475-d5f2-4797-99fc-2047ddbe2b56",
+				"name": "Simplifier"
+			},
+			"cdate": "1792265450000",
+			"comment": "<p>Why is it not compatible with Rider?</p>\n",
+			"id": 145094,
+			"plugin": {
+				"id": 34198,
+				"link": "/plugin/34198-extended-tool-windows-ui",
+				"name": "Extended Tool Windows UI"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "580e9796-86cd-4d45-bd40-a4e1e40c4c93",
+				"link": "/author/580e9796-86cd-4d45-bd40-a4e1e40c4c93",
+				"name": "Dumindu"
+			},
+			"cdate": "1790396891000",
+			"comment": "<p>By the way, I wish this can be a little bit more compact to map with old classic UI. Icons and tabs styles are quite off with Dracula themes. Wish I could use classic icons in Classic UI plugin with this.</p>\n",
+			"id": 144611,
+			"plugin": {
+				"id": 34198,
+				"link": "/plugin/34198-extended-tool-windows-ui",
+				"name": "Extended Tool Windows UI"
+			},
+			"rating": 4
+		},
+		{
+			"author": {
+				"id": "07fbdc1a-45af-4d56-a181-366b45428581",
+				"link": "/author/07fbdc1a-45af-4d56-a181-366b45428581",
+				"name": "Josef Sedlacik"
+			},
+			"cdate": "1789975630000",
+			"comment": "<p>It\u2019s good to see some of the classic tool window layout options returning. Unfortunately, this plugin only addresses the layout, while the overall New UI visual style remains unchanged. I still find its spacing, shapes, contrast, and general appearance very uncomfortable for my eyes, and I cannot imagine working with it all day. For now, I will continue using the Classic UI plugin.</p>\n",
+			"id": 144464,
+			"plugin": {
+				"id": 34198,
+				"link": "/plugin/34198-extended-tool-windows-ui",
+				"name": "Extended Tool Windows UI"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "ed9cc7eb-74f5-46c1-b0df-67162fe1a1c5",
+				"link": "/author/ed9cc7eb-74f5-46c1-b0df-67162fe1a1c5",
+				"name": "jonathan lermitage"
+			},
+			"cdate": "1789589716000",
+			"comment": "<p>Is there any chance to make it compatible with public IDE releases? Even the latest EAP of IntelliJ is not supported (263.4732.28).</p>\n",
+			"id": 144383,
+			"plugin": {
+				"id": 34198,
+				"link": "/plugin/34198-extended-tool-windows-ui",
+				"name": "Extended Tool Windows UI"
+			},
+			"rating": 0
 		}
 	],
 	"com.intellij.figma": [],
@@ -140014,6 +140711,24 @@
 		}
 	],
 	"com.intellij.hibernate": [],
+	"com.intellij.hibernate.debugger": [
+		{
+			"author": {
+				"id": "3d19f31c-e26c-4687-8f7c-4e18377435aa",
+				"link": "/author/3d19f31c-e26c-4687-8f7c-4e18377435aa",
+				"name": "Jordi Stevens"
+			},
+			"cdate": "1794923088000",
+			"comment": "<p>I really like the plugin, it works great!</p>\n<p>I would like to request some colour settings for the console where I can configure the highlight colour based on how slow the query was.</p>\n",
+			"id": 145924,
+			"plugin": {
+				"id": 34028,
+				"link": "/plugin/34028-hibernate-debugger",
+				"name": "Hibernate Debugger"
+			},
+			"rating": 4
+		}
+	],
 	"com.intellij.idea.plugin.sap.commerce": [
 		{
 			"author": {
@@ -140774,6 +141489,7 @@
 		}
 	],
 	"com.intellij.java-i18n": [],
+	"com.intellij.java.ide": [],
 	"com.intellij.java.rareRefactorings": [],
 	"com.intellij.java30": [
 		{
@@ -142267,6 +142983,73 @@
 			"rating": 0
 		}
 	],
+	"com.intellij.lsp.ui": [],
+	"com.intellij.lua": [
+		{
+			"author": {
+				"id": "49495e4f-1ba1-4406-b9c7-486112072552",
+				"link": "/author/49495e4f-1ba1-4406-b9c7-486112072552",
+				"name": "erik.broes"
+			},
+			"cdate": "1795026961000",
+			"comment": "<p>Same area, wider impact: a <code>---@class</code> declared on a global in one file is not usable as a type from another file. That makes API stub files (the usual way to describe a host application\u2019s classes to Lua) give no completion.</p>\n<p><code>a.lua</code>:</p>\n<pre><code>---@class Player\nPlayer = {}\n\n---@return number\nfunction Player:hit() end\n\n---@return Player\nfunction getPlayer() end\n</code></pre>\n<p><code>b.lua</code>:</p>\n<pre><code>getPlayer():      -- No suggestions\n\n---@type Player\nlocal p\np:                -- No suggestions\n</code></pre>\n<p>Go to Declaration on getPlayer and Player works from b.lua, and Player. completes, so the symbols are indexed; only the type is lost. With both parts in one file it works.</p>\n",
+			"id": 145973,
+			"plugin": {
+				"id": 34924,
+				"link": "/plugin/34924-lua",
+				"name": "Lua"
+			},
+			"rating": 4
+		},
+		{
+			"author": {
+				"id": "38c96c86-4c67-4113-a36a-668caa577e48",
+				"link": "/author/38c96c86-4c67-4113-a36a-668caa577e48",
+				"name": "yaetoti___"
+			},
+			"cdate": "1794564673000",
+			"comment": "<p>Finally, official support!</p>\n<p>Would be nice to see @class or @type annotations work not only on local, but on global variables, because now they don't. And that is a problem in Teardown lua modding, since they provide custom #include macro instead of require, and it strips locals</p>\n<pre><code>---@class Model\n---@field scale number\n\n-- Using @class + @field directly also does not work\n---@type MissileModel\nModel = {}\nModel.__index = Model\n\nfunction Model.new()\n  obj = { scale = 1.0 }\n  return setmetatable(obj, Model)\nend\n\nfunction Model:load()\n  self.sca -- No suggestions. But they do appear if you add local, which is not desirable in that case\nend\n</code></pre>\n",
+			"id": 145822,
+			"plugin": {
+				"id": 34924,
+				"link": "/plugin/34924-lua",
+				"name": "Lua"
+			},
+			"rating": 4
+		},
+		{
+			"author": {
+				"id": "8f2b3ee6-ce29-4767-b698-45e2960d3071",
+				"link": "/author/8f2b3ee6-ce29-4767-b698-45e2960d3071",
+				"name": "Stu George"
+			},
+			"cdate": "1794494352000",
+			"comment": "<p>no clion support? why???</p>\n",
+			"id": 145789,
+			"plugin": {
+				"id": 34924,
+				"link": "/plugin/34924-lua",
+				"name": "Lua"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "1ff38f71-39ff-4017-8afb-9e2deef7f35c",
+				"link": "/author/1ff38f71-39ff-4017-8afb-9e2deef7f35c",
+				"name": "arvin tan"
+			},
+			"cdate": "1794399875000",
+			"comment": "<p>please bring this plugin to clion</p>\n",
+			"id": 145740,
+			"plugin": {
+				"id": 34924,
+				"link": "/plugin/34924-lua",
+				"name": "Lua"
+			},
+			"rating": 4
+		}
+	],
 	"com.intellij.marketplace.ml": [],
 	"com.intellij.mcpServer": [
 		{
@@ -143042,6 +143825,40 @@
 				"name": "Endpoints"
 			},
 			"rating": 1
+		}
+	],
+	"com.intellij.minimap": [
+		{
+			"author": {
+				"id": "81ce6ea9-0f6e-4774-8808-20c57b8c3bd3",
+				"link": "/author/81ce6ea9-0f6e-4774-8808-20c57b8c3bd3",
+				"name": "Joshua Taylor"
+			},
+			"cdate": "1795159244000",
+			"comment": "<p>Great that it's finally being thought of, but who thought it was a good idea to bunch the text up into the top corner, so even with files of 200+ lines, you don't see all your file? WTF. Just look at how CodeGlancePro does theirs, it renders in a way where an actual human would use it.</p>\n",
+			"id": 146039,
+			"plugin": {
+				"id": 34024,
+				"link": "/plugin/34024-minimap",
+				"name": "Minimap"
+			},
+			"rating": 3
+		},
+		{
+			"author": {
+				"id": "b95fa0a8-fc18-42d4-addb-f39e4030342a",
+				"link": "/author/b95fa0a8-fc18-42d4-addb-f39e4030342a",
+				"name": "penn0r"
+			},
+			"cdate": "1794132518000",
+			"comment": "<p>Finally - a radar/map scrollbar and from Jetbrains themselves.</p>\n<p>It's works great!</p>\n<p>Ability to resize (make thinner/wider) would be welcome.</p>\n",
+			"id": 145636,
+			"plugin": {
+				"id": 34024,
+				"link": "/plugin/34024-minimap",
+				"name": "Minimap"
+			},
+			"rating": 5
 		}
 	],
 	"com.intellij.ml.llm": [
@@ -143924,6 +144741,7 @@
 			"rating": 0
 		}
 	],
+	"com.intellij.platform.charts": [],
 	"com.intellij.plugin.adernov.powershell": [
 		{
 			"author": {
@@ -147766,6 +148584,7 @@
 		}
 	],
 	"com.intellij.smartUpdate": [],
+	"com.intellij.splitchooser.plugin": [],
 	"com.intellij.spring": [
 		{
 			"author": {
@@ -148430,6 +149249,72 @@
 				"name": "Stimulus"
 			},
 			"rating": 1
+		}
+	],
+	"com.intellij.storybook": [
+		{
+			"author": {
+				"id": "1d64a48b-85db-4d95-94cb-eadb7107ec93",
+				"link": "/author/1d64a48b-85db-4d95-94cb-eadb7107ec93",
+				"name": "warriotox"
+			},
+			"cdate": "1795504019000",
+			"comment": "<p>Doesn't work in a monorepo that uses PNPM to manage all dependencies in the root of the repo, while SB only existing in of the projects within the monorepo. The IDE tool window says: \"Could not index stories. Storybook dependencies are not installed in project_folder_XYZ (node_modules/storybook is missing)\" and that is because project_folder_XYZ/node_modules/storybook is indeed missing due to PNPM having the dependency in the root so I have /node_modules/storybook but the .storybook folder is inside the project_folder_XYZ.\nHere is a link to a repo that uses the same structure as I do.\nroot of monorepo: <a href=\"https://github.com/Endava/BEEQ/blob/main/package.json\">https://github.com/Endava/BEEQ/blob/main/package.json</a>\nstorybook project: <a href=\"https://github.com/Endava/BEEQ/tree/main/packages/beeq/.storybook\">https://github.com/Endava/BEEQ/tree/main/packages/beeq/.storybook</a></p>\n",
+			"id": 146167,
+			"plugin": {
+				"id": 33386,
+				"link": "/plugin/33386-storybook-connect",
+				"name": "Storybook Connect"
+			},
+			"rating": 1
+		},
+		{
+			"author": {
+				"id": "7cccb47e-8e6e-46a9-b6f1-ee72fe6ebb1f",
+				"link": "/author/7cccb47e-8e6e-46a9-b6f1-ee72fe6ebb1f",
+				"name": "Oleksandr Danylchenko"
+			},
+			"cdate": "1793879353000",
+			"comment": "<p>Unfortunately, I can't reliably use it with the <code>Multi-Project Workspace</code> plugin (<a href=\"https://plugins.jetbrains.com/plugin/24765-multi-project-workspace\">https://plugins.jetbrains.com/plugin/24765-multi-project-workspace</a>).\nI have a few projects with the <code>.storybook</code> folder. So I'd like to pick the one I'd like to work with at the moment. However, I'm always getting the <code>Could not set up Storybook. No package.json found in this project. Create a Node project first, then try again.</code></p>\n<p>That workspaces have been essential for my cross-repo work, making the change-review process much easier.</p>\n",
+			"id": 145560,
+			"plugin": {
+				"id": 33386,
+				"link": "/plugin/33386-storybook-connect",
+				"name": "Storybook Connect"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "65906d3b-47c9-48ef-affc-be193e74cfb5",
+				"link": "/author/65906d3b-47c9-48ef-affc-be193e74cfb5",
+				"name": "Josef Debn\u00e1r"
+			},
+			"cdate": "1788552633000",
+			"comment": "<p>Every time opening project with storybook 10 it automatically and unconditionaly installs <code>addon-storybook-sync</code> and adds it into <code>.storybook/main.(js,ts)</code></p>\n<p>Even thought I technically have addon enabled and installed this plugin still tries to register addon although</p>\n<pre><code>const config: StorybookConfig = {\n  addons: [\"addon-storybook-sync\"], // do not add\n    ...createConfig(options),\n} as const;\n</code></pre>\n<p>I would prefer this automatic install as opt-in setting on first lunch in project via notification card.</p>\n",
+			"id": 144109,
+			"plugin": {
+				"id": 33386,
+				"link": "/plugin/33386-storybook-connect",
+				"name": "Storybook Connect"
+			},
+			"rating": 2
+		},
+		{
+			"author": {
+				"id": "6434a9c8-1972-47d8-9db3-0c6abe776e26",
+				"link": "/author/6434a9c8-1972-47d8-9db3-0c6abe776e26",
+				"name": "zijl1614"
+			},
+			"cdate": "1788444921000",
+			"comment": "<p>Keeps whining on every single project that is openend.\nWhen you need to manage hundreds of features and this keeps giving popups every single time a feature is not on Storybook 10 it becomes a horrible user experience.</p>\n",
+			"id": 144013,
+			"plugin": {
+				"id": 33386,
+				"link": "/plugin/33386-storybook-connect",
+				"name": "Storybook Connect"
+			},
+			"rating": 0
 		}
 	],
 	"com.intellij.struts2": [
@@ -149663,6 +150548,7 @@
 			"rating": 0
 		}
 	],
+	"com.intellij.tipsOfTheDay": [],
 	"com.intellij.turboComplete": [
 		{
 			"author": {
@@ -160307,6 +161193,7 @@
 			"rating": 1
 		}
 	],
+	"com.jetbrains.speqa": [],
 	"com.jetbrains.support.KeyCodesTest": [],
 	"com.jetbrains.support.OpenKeymapSettings": [
 		{
@@ -162390,6 +163277,7 @@
 			"rating": 5
 		}
 	],
+	"com.jpage4500.hubitat": [],
 	"com.jpospisil.gototabs": [
 		{
 			"author": {
@@ -163182,7 +164070,24 @@
 	"com.jxcc.trxx.idea.plugin.code.generator": [],
 	"com.jxudp.code": [],
 	"com.jzbrooks.vgo": [],
-	"com.jzt.international.cncomment": [],
+	"com.jzt.international.cncomment": [
+		{
+			"author": {
+				"id": "09a032f0-7d23-4486-b643-658dc0ae69d3",
+				"link": "/author/09a032f0-7d23-4486-b643-658dc0ae69d3",
+				"name": "214"
+			},
+			"cdate": "1794709754000",
+			"comment": "<p>\u67e5\u770b\u6ce8\u91ca\u8fd9\u4e2a\u529f\u80fd\u6ca1\u4ec0\u4e48\u95ee\u9898\n\u4f46\u662f\u770b\u4e0d\u5230\u65b9\u6cd5\u7684\u53c2\u6570\u540d\u548c\u53c2\u6570\u7c7b\u578b\u4e86</p>\n",
+			"id": 145854,
+			"plugin": {
+				"id": 34435,
+				"link": "/plugin/34435-cn-comment-lens",
+				"name": "CN Comment Lens"
+			},
+			"rating": 4
+		}
+	],
 	"com.k.pmpstudy.BranchFocus": [],
 	"com.k.pmpstudy.CopyShortRevisionNumber": [],
 	"com.k.pmpstudy.GitLogStatsColumns": [],
@@ -164488,6 +165393,7 @@
 	"com.karelialabs.fanout": [],
 	"com.karelialabs.queryscope": [],
 	"com.karelialabs.referenceflow": [],
+	"com.karelialabs.retro": [],
 	"com.karlpu.trackingcode": [],
 	"com.karo.smartduck": [],
 	"com.karsta26.VBScript": [
@@ -164738,7 +165644,24 @@
 		}
 	],
 	"com.keyflare.anygen": [],
-	"com.keystrokequest": [],
+	"com.keystrokequest": [
+		{
+			"author": {
+				"id": "97e7a812-446f-4bb9-aa9a-1ab62e1986dc",
+				"link": "/author/97e7a812-446f-4bb9-aa9a-1ab62e1986dc",
+				"name": "Emil Kono\u0144czuk"
+			},
+			"cdate": "1794496682000",
+			"comment": "<p>Awesome!\nWould be cool to pick sound theme separate to visual theme cuz 8 bit visuals makes IDE to stutter a little</p>\n",
+			"id": 145791,
+			"plugin": {
+				"id": 35728,
+				"link": "/plugin/35728-keystroke-quest",
+				"name": "Keystroke Quest"
+			},
+			"rating": 5
+		}
+	],
 	"com.khande.idea.plugin.SmartFindViewById": [],
 	"com.khande.idea.plugin.TabNumberIndicator": [
 		{
@@ -165435,7 +166358,24 @@
 			"rating": 4
 		}
 	],
-	"com.kirogui.jetbrains": [],
+	"com.kirogui.jetbrains": [
+		{
+			"author": {
+				"id": "d0eae39a-225b-4076-b57c-03f719878508",
+				"link": "/author/d0eae39a-225b-4076-b57c-03f719878508",
+				"name": "Daniel Sentker"
+			},
+			"cdate": "1794946642000",
+			"comment": "<p>Unfortunately it does not work. Opening \"Kiro\" in the Sidebar, the only output i got is \"Nothing to show\". kiro-cli is installed and works perfectly in native Terminal.</p>\n",
+			"id": 145934,
+			"plugin": {
+				"id": 35751,
+				"link": "/plugin/35751-kiro-gui-acp-",
+				"name": "Kiro GUI (ACP)"
+			},
+			"rating": 0
+		}
+	],
 	"com.kitebench.keystoreviewer": [],
 	"com.kitsstech.batchcraft": [],
 	"com.kitsstech.celldeck": [],
@@ -165836,6 +166776,7 @@
 	"com.knowledge.mnlin.JsonToDartBean": [],
 	"com.knowledge.mnlin.KViewBind": [],
 	"com.knziha.vectorpathtweaker": [],
+	"com.kobima.gitpickaxe": [],
 	"com.kobiton.plugin": [
 		{
 			"author": {
@@ -166791,7 +167732,24 @@
 			"rating": 5
 		}
 	],
-	"com.ktlwap.workingset": [],
+	"com.ktlwap.workingset": [
+		{
+			"author": {
+				"id": "1a0dfbb9-58f7-4d39-8a99-04b06b1a2644",
+				"link": "/author/1a0dfbb9-58f7-4d39-8a99-04b06b1a2644",
+				"name": "Johannes Buder"
+			},
+			"cdate": "1792392874000",
+			"comment": "<p>Works just like Workingsets/Projectsets in Eclipse.\nPerfect in combination with the Multiproject Plugin</p>\n",
+			"id": 145114,
+			"plugin": {
+				"id": 34967,
+				"link": "/plugin/34967-working-sets",
+				"name": "Working Sets"
+			},
+			"rating": 0
+		}
+	],
 	"com.kturker.rulekit": [],
 	"com.ktyhub.idea.plugin.stag": [
 		{
@@ -166996,6 +167954,7 @@
 		}
 	],
 	"com.lakesidedigital.batch": [],
+	"com.lakesidedigital.k6": [],
 	"com.lakesidedigital.logviewerpro": [
 		{
 			"author": {
@@ -170607,6 +171566,24 @@
 	],
 	"com.linuxgods.kreiger.intellij.idea.inspections.utility.singleton": [],
 	"com.linuxgods.kreiger.swedish-personal-identity-numbers": [],
+	"com.lioncph.plugin": [
+		{
+			"author": {
+				"id": "74b57111-57cb-491a-a2db-a08aeca6c4f8",
+				"link": "/author/74b57111-57cb-491a-a2db-a08aeca6c4f8",
+				"name": "oo mm aa rr"
+			},
+			"cdate": "1795369365000",
+			"comment": "<p>Fiiiiiiiiiiiiiiiiiiiiiiiiiiiiiire</p>\n",
+			"id": 146099,
+			"plugin": {
+				"id": 36278,
+				"link": "/plugin/36278-lioncph",
+				"name": "LionCPH"
+			},
+			"rating": 0
+		}
+	],
 	"com.litarvan.tiger-idea": [
 		{
 			"author": {
@@ -174496,6 +175473,7 @@
 		}
 	],
 	"com.markdownany.plugin": [],
+	"com.markdowneditplus": [],
 	"com.marklogictools.pulse": [],
 	"com.markotanic.deleteVCSMessage": [
 		{
@@ -175427,7 +176405,24 @@
 	"com.medcompany.ai-code-review-gate": [],
 	"com.medmunds.advancedfiletypes": [],
 	"com.medusalabs.aiken": [],
-	"com.melihaksoy.betterlogcat": [],
+	"com.melihaksoy.betterlogcat": [
+		{
+			"author": {
+				"id": "62ce452d-873c-4a44-b61d-79759f516773",
+				"link": "/author/62ce452d-873c-4a44-b61d-79759f516773",
+				"name": "Filip Larsson"
+			},
+			"cdate": "1793633386000",
+			"comment": "<p>Nice work!</p>\n",
+			"id": 145493,
+			"plugin": {
+				"id": 35015,
+				"link": "/plugin/35015-better-logcat",
+				"name": "Better Logcat"
+			},
+			"rating": 5
+		}
+	],
 	"com.melrose1994.avif-preview": [
 		{
 			"author": {
@@ -176343,7 +177338,9 @@
 	"com.michael.contextconverter": [],
 	"com.michaelandreuzza.sequoia.jetbrains": [],
 	"com.michaelandreuzza.serendipity.jetbrains": [],
+	"com.michaelrocksoncoffie.sagenight": [],
 	"com.michaljarnot.contextbasket": [],
+	"com.micompress": [],
 	"com.microaether.riveter": [],
 	"com.microej.tools.intellij-idea-plugin": [],
 	"com.microfocus.mobilecenter.intellj-plugin": [],
@@ -178256,7 +179253,24 @@
 	"com.modestswan64.CopyCodebaseDetails": [],
 	"com.modhe.modbushelper": [],
 	"com.moduleloom": [],
-	"com.modxkit.airlock": [],
+	"com.modxkit.airlock": [
+		{
+			"author": {
+				"id": "c02806b5-0ef5-4396-9e48-585eb7d3e963",
+				"link": "/author/c02806b5-0ef5-4396-9e48-585eb7d3e963",
+				"name": "dimasites"
+			},
+			"cdate": "1793908791000",
+			"comment": "<p>Awesome usefull tool to keep control for your agent in case of deployment on remote server. Nice tool out of the box. Thanks and respect to author!</p>\n",
+			"id": 145576,
+			"plugin": {
+				"id": 34261,
+				"link": "/plugin/34261-deployment-airlock",
+				"name": "Deployment Airlock"
+			},
+			"rating": 5
+		}
+	],
 	"com.mogudian.projecttabsrestored": [],
 	"com.mohamedbamoh.markmap": [],
 	"com.mohammedalaamorsi.safegradle": [],
@@ -178300,7 +179314,24 @@
 	"com.moiseskerschner.mkformat": [],
 	"com.moka.gitcommit": [],
 	"com.moling.HjsonHighlighter": [],
-	"com.moling.tModLoaderHelper": [],
+	"com.moling.tModLoaderHelper": [
+		{
+			"author": {
+				"id": "b40e1063-d68e-4856-ad8b-fc3863a5a5e1",
+				"link": "/author/b40e1063-d68e-4856-ad8b-fc3863a5a5e1",
+				"name": "Azherest"
+			},
+			"cdate": "1794020393000",
+			"comment": "<p>Great new tool! But a few suggestions:</p>\n<p>For us English people, I think it would be nice to have an option to disable the Chinese names and replace them with the English IDs. It'll just make it a bit easier to parse when its all something we can quickly comprehend. It's not impossible right now, but I do wish I didn't have to hover over the entries to see the English IDs.</p>\n<p>Also, would it be possible to add a Sound ID tab? Basically like the Terraria Wiki's Sound IDs page, but in this menu. It would display the ID, its uses in vanilla Terraria, and then have a play button that would play the audio for reference. I think that would just be sick to have ngl, and it wouldn't require opening a new page every time you want to play a sound effect like the wiki does</p>\n<p>Also, the first time I tried to use the code completion, it had a very large lag spike when loading them all. Not sure if that is something that can be fixed easily, but if so I figure that might be something to consider. It's not too big of a deal though, as it just seems to be a one time thing.</p>\n<p>Nonetheless, this is a very cool plugin! I'm just getting started in TML and this seems like an amazing tool!</p>\n",
+			"id": 145615,
+			"plugin": {
+				"id": 34962,
+				"link": "/plugin/34962-tmodloaderhelper",
+				"name": "tModLoaderHelper"
+			},
+			"rating": 4
+		}
+	],
 	"com.mondoo.security": [],
 	"com.mongodb.jbplugin": [
 		{
@@ -178378,6 +179409,7 @@
 	"com.moseoh.programmers_helper": [],
 	"com.mothdoctor.zendark": [],
 	"com.mouadelmrabate.jasper": [],
+	"com.mouradzouabi.ldapclient": [],
 	"com.mousegesture": [],
 	"com.moxun.generetor": [],
 	"com.moxun.plugin.s2v": [
@@ -181671,7 +182703,24 @@
 	"com.nemanjapluzarev.NotesPlugin": [],
 	"com.nemesis.platform.nemesis-idea-plugin": [],
 	"com.neo.difflink": [],
-	"com.neocatcher": [],
+	"com.neocatcher": [
+		{
+			"author": {
+				"id": "51e3df89-c24d-4975-b471-1c27c5630a2a",
+				"link": "/author/51e3df89-c24d-4975-b471-1c27c5630a2a",
+				"name": "fyz495"
+			},
+			"cdate": "1793711091000",
+			"comment": "<p>Works perfectly and looks much better than other proxies</p>\n",
+			"id": 145515,
+			"plugin": {
+				"id": 35220,
+				"link": "/plugin/35220-neocatcher",
+				"name": "NeoCatcher"
+			},
+			"rating": 5
+		}
+	],
 	"com.neoncoast.theme": [],
 	"com.neoxlabs.neox": [],
 	"com.nerdscorner.android.plugin.github": [
@@ -183830,6 +184879,7 @@
 	"com.npcoding.securitypolicy": [],
 	"com.npcoding.serverlauncher": [],
 	"com.npcoding.smaliviewer": [],
+	"com.npcoding.statisticalprograms": [],
 	"com.npcoding.templatetags": [],
 	"com.npcoding.thexpressions": [],
 	"com.npcoding.vtltemplates": [],
@@ -184537,7 +185587,6 @@
 		}
 	],
 	"com.odbpo.flutter.plugin": [],
-	"com.odoo.devkit": [],
 	"com.odoo.odools": [
 		{
 			"author": {
@@ -184886,11 +185935,29 @@
 	"com.openxt.uploadsshfile": [],
 	"com.opticdev.ideplugins.jetbrains": [],
 	"com.optimizely.intellij.sdk.action": [],
+	"com.optona.mydebug": [],
 	"com.oracle.ocidbtest": [],
 	"com.orbitmines.Ether": [],
 	"com.oreoft.githubactionscontroller": [],
 	"com.oreoft.restfulcontroller": [],
-	"com.org.dp.toolkit": [],
+	"com.org.dp.toolkit": [
+		{
+			"author": {
+				"id": "7632a63e-050d-470c-8903-6800aac483df",
+				"link": "/author/7632a63e-050d-470c-8903-6800aac483df",
+				"name": "sun_shenjun"
+			},
+			"cdate": "1792840397000",
+			"comment": "<p>\u0425\u043e\u0440\u043e\u0448\u0438\u0439 \u0438\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442. \u0420\u0435\u0430\u043b\u044c\u043d\u043e \u043f\u043e\u043c\u043e\u0433\u0430\u0435\u0442 \u043f\u043e\u043d\u0438\u043c\u0430\u0442\u044c \u0441\u043b\u043e\u0436\u043d\u044b\u0435 \u043c\u0435\u0442\u043e\u0434\u044b \u0438 \u0437\u0430\u043c\u0435\u0447\u0430\u0442\u044c \u043e\u0448\u0438\u0431\u043a\u0438. \u0420\u0430\u0431\u043e\u0442\u0430\u0435\u0442 \u0441\u043f\u043e\u043a\u043e\u0439\u043d\u043e, \u043d\u0435 \u043c\u0435\u0448\u0430\u0435\u0442 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0435.</p>\n",
+			"id": 145250,
+			"plugin": {
+				"id": 35105,
+				"link": "/plugin/35105-deepseek-tool",
+				"name": "DeepSeek Tool"
+			},
+			"rating": 5
+		}
+	],
 	"com.origin.idea.deepProjectSearch": [],
 	"com.origin.idea.projectQuickNotes": [],
 	"com.orleviad.python-import": [
@@ -186147,7 +187214,40 @@
 			"rating": 5
 		}
 	],
-	"com.persian.markdown": [],
+	"com.persian.markdown": [
+		{
+			"author": {
+				"id": "93f45bfd-d145-4760-9442-9f1a7c06ad64",
+				"link": "/author/93f45bfd-d145-4760-9442-9f1a7c06ad64",
+				"name": "Abolfazl Rezvan"
+			},
+			"cdate": "1792225315000",
+			"comment": "<p>you deserve at least 10k stars :)</p>\n",
+			"id": 145078,
+			"plugin": {
+				"id": 34457,
+				"link": "/plugin/34457-markdown-rtl",
+				"name": "Markdown RTL"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "b865b830-dd1e-48e5-899e-e0d87e3310b6",
+				"link": "/author/b865b830-dd1e-48e5-899e-e0d87e3310b6",
+				"name": "Mohammad Saleh Sedighi"
+			},
+			"cdate": "1790698196000",
+			"comment": "<p>worked.</p>\n",
+			"id": 144698,
+			"plugin": {
+				"id": 34457,
+				"link": "/plugin/34457-markdown-rtl",
+				"name": "Markdown RTL"
+			},
+			"rating": 5
+		}
+	],
 	"com.person.zb.develop.plugin": [],
 	"com.pestphp.pest-intellij": [
 		{
@@ -187589,6 +188689,7 @@
 		}
 	],
 	"com.pluto.pagent": [],
+	"com.plyg.kompoz": [],
 	"com.poeticcoder.pipelinelens": [
 		{
 			"author": {
@@ -188060,6 +189161,7 @@
 		}
 	],
 	"com.postman.mcp-server": [],
+	"com.pow.spring.jpa.linter": [],
 	"com.ppismerov.ksvu": [
 		{
 			"author": {
@@ -188488,7 +189590,24 @@
 	"com.projectxray": [],
 	"com.projspec": [],
 	"com.promyze.promyze_plugin": [],
-	"com.pronskiy.agenstorm": [],
+	"com.pronskiy.agenstorm": [
+		{
+			"author": {
+				"id": "37a7edda-54f3-410e-a099-8258af8d6bfa",
+				"link": "/author/37a7edda-54f3-410e-a099-8258af8d6bfa",
+				"name": "Evgeniy Skubeev"
+			},
+			"cdate": "1793172633000",
+			"comment": "<p>I\u2019ve tried this app and really enjoyed using it; it\u2019s much more user-friendly than similar plugins. It has sorted out the interface issues that always used to annoy me. So far, I haven\u2019t encountered a single bug. It\u2019s particularly handy for working on several projects and in several chats at the same time. (I\u2019ve only used Codex and Claude)</p>\n",
+			"id": 145331,
+			"plugin": {
+				"id": 34147,
+				"link": "/plugin/34147-agenstorm",
+				"name": "Agenstorm"
+			},
+			"rating": 5
+		}
+	],
 	"com.propertykey.support": [],
 	"com.proteo.intellij.burnt": [
 		{
@@ -189843,6 +190962,7 @@
 			"rating": 5
 		}
 	],
+	"com.qrlifetime.qrcode": [],
 	"com.qrow.pomodorobreaker": [],
 	"com.qrowsolutions.stack-doctor": [],
 	"com.qualimetry.ansible": [],
@@ -189879,7 +190999,56 @@
 			"rating": 5
 		}
 	],
-	"com.qwenmate": [],
+	"com.qwenmate": [
+		{
+			"author": {
+				"id": "a3b58d11-9f4d-4f07-a592-1ad3e8688661",
+				"link": "/author/a3b58d11-9f4d-4f07-a592-1ad3e8688661",
+				"name": "hanhun7"
+			},
+			"cdate": "1792062794000",
+			"comment": "<p>\u751c\u83dc\uff01\u611f\u8c22\u5927\u4f6c\u6211\u8fd9\u79cdGUI\u91cd\u5ea6\u4f9d\u8d56\u8005\u63d0\u4f9b\u4fbf\u5229\uff01\u53ef\u914d\u7f6e\u3001\u53ef\u7ba1\u7406\u3001\u53ef\u7edf\u8ba1\uff0c\u5e94\u6709\u5c3d\u6709\uff01</p>\n",
+			"id": 145039,
+			"plugin": {
+				"id": 34842,
+				"link": "/plugin/34842-qwenmate",
+				"name": "QwenMate"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "406d0b9d-395a-4cff-a0a9-6035b058a3f3",
+				"link": "/author/406d0b9d-395a-4cff-a0a9-6035b058a3f3",
+				"name": "xh tang"
+			},
+			"cdate": "1792056023000",
+			"comment": "<p>The UI experience is comfortable, and the features are more comprehensive than the ACP integrated one.</p>\n",
+			"id": 145037,
+			"plugin": {
+				"id": 34842,
+				"link": "/plugin/34842-qwenmate",
+				"name": "QwenMate"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "d57179b3-86ae-447d-ae2d-55cb06ee27d6",
+				"link": "/author/d57179b3-86ae-447d-ae2d-55cb06ee27d6",
+				"name": "QH Shen"
+			},
+			"cdate": "1792054826000",
+			"comment": "<p>Fantastic work! Looking forward to more new features.</p>\n",
+			"id": 145033,
+			"plugin": {
+				"id": 34842,
+				"link": "/plugin/34842-qwenmate",
+				"name": "QwenMate"
+			},
+			"rating": 5
+		}
+	],
 	"com.qz.json.util": [],
 	"com.raan.repositoryArchitectureAnalyzer": [],
 	"com.radut.plugin.bfw": [],
@@ -189939,6 +191108,7 @@
 	"com.rain.ReDoSChecker": [],
 	"com.raindrop": [],
 	"com.rajasekhar.devtools": [],
+	"com.rajatmalik.commitgenerator": [],
 	"com.ramusthastudio.plugin.unixtimestamp": [
 		{
 			"author": {
@@ -191142,6 +192312,40 @@
 		}
 	],
 	"com.redisnavigator": [],
+	"com.refactorings.ruby.RubyRefactorings": [
+		{
+			"author": {
+				"id": "aeb5a813-b0bc-424f-a3c9-e1054b3d887d",
+				"link": "/author/aeb5a813-b0bc-424f-a3c9-e1054b3d887d",
+				"name": "Nahuel Garbezza"
+			},
+			"cdate": "1605718095000",
+			"comment": "<p>I love the refactorings implemented so far. And new refactorings are being added often. The refactorings are useful, work in 100% of the cases and give the developer a lot of confidence. Great plugin!</p>\n",
+			"id": 46872,
+			"plugin": {
+				"id": 15312,
+				"link": "/plugin/15312-rubyrefactorings",
+				"name": "RubyRefactorings"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "6253c770-df09-4ec7-b01a-b88583705e65",
+				"link": "/author/6253c770-df09-4ec7-b01a-b88583705e65",
+				"name": "Hernan Wilkinson"
+			},
+			"cdate": "1605634105000",
+			"comment": "<p>Really help full! Simple but powerful refactorings to any ruby programmer. A must have.</p>\n",
+			"id": 46840,
+			"plugin": {
+				"id": 15312,
+				"link": "/plugin/15312-rubyrefactorings",
+				"name": "RubyRefactorings"
+			},
+			"rating": 0
+		}
+	],
 	"com.refinex.markdownstudio": [],
 	"com.remcodex.jetbrains": [],
 	"com.remoterapp.adbremote.jsonviewer.id": [
@@ -191385,6 +192589,7 @@
 			"rating": 4
 		}
 	],
+	"com.requestarium.jetbrains": [],
 	"com.rescript.plugin": [
 		{
 			"author": {
@@ -194855,8 +196060,25 @@
 			"rating": 0
 		}
 	],
+	"com.sendtralstation.remoteRunner": [],
 	"com.sendwavehub.npmsafetyguard": [],
 	"com.senjuobito.opencode-buddy": [
+		{
+			"author": {
+				"id": "e0c83af7-788b-4734-9b6e-ec31de89ce14",
+				"link": "/author/e0c83af7-788b-4734-9b6e-ec31de89ce14",
+				"name": "xq zeng"
+			},
+			"cdate": "1790062516000",
+			"comment": "<p>Seamless setup, smart suggestions, and zero clutter. OpenCode Buddy feels like a native part of IDEA rather than just another plugin. It's fast, accurate, and never gets in the way of my workflow. Easily one of the best plugins I've added this year.</p>\n<p>Highly recommended! \ud83d\udc4f</p>\n",
+			"id": 144490,
+			"plugin": {
+				"id": 34304,
+				"link": "/plugin/34304-opencode-buddy",
+				"name": "OpenCode Buddy"
+			},
+			"rating": 5
+		},
 		{
 			"author": {
 				"id": "b818d358-8eee-475e-a813-db004dbe7e7d",
@@ -195822,7 +197044,6 @@
 			"rating": 1
 		}
 	],
-	"com.shenyuanlaolarou.copyasprompt": [],
 	"com.shenyuanlaolarou.ideamcpenhance": [],
 	"com.shenyuanlaolarou.opencodewebui": [],
 	"com.shetline.ligatures-limited": [
@@ -198625,7 +199846,6 @@
 	"com.spacylab.teal": [],
 	"com.sparkrunner.plugin": [],
 	"com.spavlov.globalnotes": [],
-	"com.spc.commit-message": [],
 	"com.speacode.video": [
 		{
 			"author": {
@@ -199926,7 +201146,6 @@
 	"com.sshtunnel.manager": [],
 	"com.sskorupski.intellij.plugin.builder.mock.fluent": [],
 	"com.sstimap.highlighter": [],
-	"com.stackblender.openapiguard": [],
 	"com.stackframehider": [
 		{
 			"author": {
@@ -201488,6 +202707,7 @@
 	"com.steve.plugins.recentprojects": [],
 	"com.steven.yesCode-Stats": [],
 	"com.stfalcon.ktmvvmgenerator": [],
+	"com.stigway.idea": [],
 	"com.stillat.toolbox": [
 		{
 			"author": {
@@ -201529,6 +202749,7 @@
 	"com.stoic.ActionScriptPlugin": [],
 	"com.stoprefactoring.Christmas": [],
 	"com.storedobject.idea.SOIdea": [],
+	"com.stormizn.javacupicons": [],
 	"com.strangertheme.theme": [],
 	"com.streamify.shotify": [],
 	"com.structuregram.simple.id": [
@@ -204444,6 +205665,7 @@
 			"rating": 4
 		}
 	],
+	"com.tayari24.lottieview": [],
 	"com.taylorrayhoward.gruvbox-theme": [],
 	"com.tbusk.vala_plugin": [],
 	"com.tcllsp.jetbrains": [],
@@ -206938,6 +208160,22 @@
 	"com.tips.androidtip": [
 		{
 			"author": {
+				"id": "d15ad556-2086-41d2-96ea-718397e8e9ae",
+				"link": "/author/d15ad556-2086-41d2-96ea-718397e8e9ae",
+				"name": "hirdesh.sharma"
+			},
+			"cdate": "1790591856000",
+			"comment": "<p>Helpful extension</p>\n",
+			"id": 144656,
+			"plugin": {
+				"id": 34177,
+				"link": "/plugin/34177-android-build-tips",
+				"name": "Android Build Tips"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
 				"id": "6369a1f3-2705-4f94-8d77-0b2054e77e6d",
 				"link": "/author/6369a1f3-2705-4f94-8d77-0b2054e77e6d",
 				"name": "Ayush Joshi"
@@ -207801,6 +209039,7 @@
 	],
 	"com.tr.easyyapi": [],
 	"com.traackr.painless": [],
+	"com.tracenest": [],
 	"com.tracy.a8translateplus": [],
 	"com.tradeskillmaster.wowlua-ls": [
 		{
@@ -210669,72 +211908,6 @@
 		}
 	],
 	"com.vector.cfg.dvcfg-intellij": [],
-	"com.vednovak.devops": [
-		{
-			"author": {
-				"id": "38b9fa5c-8a8a-46c9-b6d9-4af1a61d3ec8",
-				"link": "/author/38b9fa5c-8a8a-46c9-b6d9-4af1a61d3ec8",
-				"name": "An\u0111ela Tunji\u0107"
-			},
-			"cdate": "1788528410000",
-			"comment": "<p>Works great! Easy to use, reliable, and does exactly what I need. Overall, a great plugin.</p>\n",
-			"id": 144047,
-			"plugin": {
-				"id": 33734,
-				"link": "/plugin/33734-devops-lens",
-				"name": "DevOps Lens"
-			},
-			"rating": 5
-		},
-		{
-			"author": {
-				"id": "3d0d44c3-696c-4ee5-a3f2-32e1e661b9d6",
-				"link": "/author/3d0d44c3-696c-4ee5-a3f2-32e1e661b9d6",
-				"name": "Lovro Klobucaric"
-			},
-			"cdate": "1788510037000",
-			"comment": "<p>Great plugin! The memory blueprint is especially well designed and works much better than some other solutions I've tried, especially since it is free currently. Very useful and well thought out overall.</p>\n",
-			"id": 144037,
-			"plugin": {
-				"id": 33734,
-				"link": "/plugin/33734-devops-lens",
-				"name": "DevOps Lens"
-			},
-			"rating": 0
-		},
-		{
-			"author": {
-				"id": "e23730dc-e011-4838-ba7d-4f4988b7125a",
-				"link": "/author/e23730dc-e011-4838-ba7d-4f4988b7125a",
-				"name": "Megi Markovinovic"
-			},
-			"cdate": "1788508544000",
-			"comment": "<p>Plugin works great!</p>\n",
-			"id": 144034,
-			"plugin": {
-				"id": 33734,
-				"link": "/plugin/33734-devops-lens",
-				"name": "DevOps Lens"
-			},
-			"rating": 0
-		},
-		{
-			"author": {
-				"id": "a36da647-97e1-4634-91b8-141797a92148",
-				"link": "/author/a36da647-97e1-4634-91b8-141797a92148",
-				"name": "jonathan gafner"
-			},
-			"cdate": "1788445388000",
-			"comment": "<p>Vedran Novak - wow were did you get all those nice ideas from? the dashboards for pr and pipelines are a great idea, the AI review and the settings order are unique, and you did everything without looking into AZD code at all!! bravo you know how to copy other works properly.</p>\n<p>Even the chapters in the docs and in the privacy policy were copied.</p>\n<p>P.S. \u2013 Don't try to change now, I have already taken screenshots and sent them to the marketplace team.</p>\n<p>P.S.2 \u2013 Strongly suggest that next time to come with your own ideas, it is a bit harder, but in the end it is much more satisfying</p>\n",
-			"id": 144014,
-			"plugin": {
-				"id": 33734,
-				"link": "/plugin/33734-devops-lens",
-				"name": "DevOps Lens"
-			},
-			"rating": 1
-		}
-	],
 	"com.veeva.vault.toolbox": [],
 	"com.veezean.idea.plugin.codereviewer": [
 		{
@@ -210852,7 +212025,6 @@
 	],
 	"com.velantix.insaidy": [],
 	"com.ventus.apisearch": [],
-	"com.ver.branch.tool": [],
 	"com.veracode.greenlight.intellij.plugin.id": [
 		{
 			"author": {
@@ -213276,6 +214448,56 @@
 			"rating": 5
 		}
 	],
+	"com.vlnabatov.alabaster": [
+		{
+			"author": {
+				"id": "e98a5f19-9c3d-47fd-9653-fb1c3a18a21b",
+				"link": "/author/e98a5f19-9c3d-47fd-9653-fb1c3a18a21b",
+				"name": "Andrei Kleshchanka"
+			},
+			"cdate": "1746634666000",
+			"comment": "<p>Nice one! Thank you!</p>\n",
+			"id": 117348,
+			"plugin": {
+				"id": 20748,
+				"link": "/plugin/20748-alabaster-themes",
+				"name": "Alabaster Themes"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "d6164569-b7bc-4807-826f-3df90e5ba34f",
+				"link": "/author/d6164569-b7bc-4807-826f-3df90e5ba34f",
+				"name": "\u738b\u5bb6\u6052"
+			},
+			"cdate": "1701231721000",
+			"comment": "<p>This is great \uff01 with this, function calls and function definitions in JavaScript finally display in different colors. However, I've found that I can no longer set the color for function definitions in JavaScript separately. It currently only matches the color specified in Color Scheme/General/Text under Default Text. Is there any way for me to set a distinct color for function definitions in Javascript?</p>\n",
+			"id": 92984,
+			"plugin": {
+				"id": 20748,
+				"link": "/plugin/20748-alabaster-themes",
+				"name": "Alabaster Themes"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "4b66e0ca-7870-449a-88cc-99d34c60a72f",
+				"link": "/author/4b66e0ca-7870-449a-88cc-99d34c60a72f",
+				"name": "Igor Gomes Lemes"
+			},
+			"cdate": "1673830941000",
+			"comment": "<p>Great Theme! The only thing missing in order to be a 5/5 is the option for having the light version with the text color instead of only having the background highlight.</p>\n",
+			"id": 78160,
+			"plugin": {
+				"id": 20748,
+				"link": "/plugin/20748-alabaster-themes",
+				"name": "Alabaster Themes"
+			},
+			"rating": 4
+		}
+	],
 	"com.vna.angularfilesnavigator": [],
 	"com.vnsapp.kodesorter": [],
 	"com.voidmuse.idea.plugin.VoidMuse": [],
@@ -214354,6 +215576,22 @@
 	"com.webixty.tasks": [
 		{
 			"author": {
+				"id": "5a50ba5a-2262-4bbd-939d-12f57d69ce91",
+				"link": "/author/5a50ba5a-2262-4bbd-939d-12f57d69ce91",
+				"name": "ivaylo0629"
+			},
+			"cdate": "1794222338000",
+			"comment": "<p>Nice task manager</p>\n",
+			"id": 145659,
+			"plugin": {
+				"id": 35289,
+				"link": "/plugin/35289-webixty-tasks",
+				"name": "Webixty Tasks"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
 				"id": "d63eb644-f824-463a-b0a3-d05d27d406d8",
 				"link": "/author/d63eb644-f824-463a-b0a3-d05d27d406d8",
 				"name": "fivanov821"
@@ -215402,6 +216640,7 @@
 		}
 	],
 	"com.wingcheongyip.angular-console-plugin": [],
+	"com.winscript.support": [],
 	"com.wiser.plugin.format": [],
 	"com.wispbit.jetbrains": [],
 	"com.wither.easymybatislog": [],
@@ -215787,7 +217026,6 @@
 	"com.woosal.vesper": [],
 	"com.wordpeek": [],
 	"com.work.plugin.work-tools": [],
-	"com.workbuddy.codeflowchart": [],
 	"com.worklog": [],
 	"com.workreport.ai-assistant": [],
 	"com.worktools.alogtools": [],
@@ -220346,7 +221584,24 @@
 		}
 	],
 	"com.zhuancunbao.idea": [],
-	"com.zhucanle.opencodev2.ide": [],
+	"com.zhucanle.opencodev2.ide": [
+		{
+			"author": {
+				"id": "0991826e-2a21-4b0e-83e8-3cb9b7966bf3",
+				"link": "/author/0991826e-2a21-4b0e-83e8-3cb9b7966bf3",
+				"name": "ZhuCanle (Clyde)"
+			},
+			"cdate": "1793579715000",
+			"comment": "<p>This is an unofficial plugin developed to adapt and support OpenCode V2.</p>\n<p>If you encounter any bugs, or run into issues during use, feel free to submit an issue. Feedback and contributions are always welcome!</p>\n",
+			"id": 145466,
+			"plugin": {
+				"id": 35185,
+				"link": "/plugin/35185-opencode-v2-ui-unofficial-",
+				"name": "OpenCode V2 UI (unofficial)"
+			},
+			"rating": 0
+		}
+	],
 	"com.zhudyblack.FlutterIntlLineMarker": [],
 	"com.zhuweiyou.tinyjpgideaplugin.tinyjpg-idea-plugin": [],
 	"com.zhw.tgnet.android.AndroidProGuard": [
@@ -220616,6 +221871,7 @@
 			"rating": 0
 		}
 	],
+	"com.zplflow": [],
 	"com.zplugins.plugins.mayihelpu": [],
 	"com.zsc.mvpHelper": [
 		{
@@ -223090,7 +224346,24 @@
 	"cz.loplex.bsh": [],
 	"cz.loplex.ij-git-reflog": [],
 	"cz.loplex.intellijmavenlens": [],
-	"cz.p3kj.marp": [],
+	"cz.p3kj.marp": [
+		{
+			"author": {
+				"id": "35ab359a-0f98-42d2-b9b1-93101f830616",
+				"link": "/author/35ab359a-0f98-42d2-b9b1-93101f830616",
+				"name": "Ales.R"
+			},
+			"cdate": "1792512720000",
+			"comment": "<p>Nice and handy!</p>\n",
+			"id": 145156,
+			"plugin": {
+				"id": 35113,
+				"link": "/plugin/35113-marp-preview",
+				"name": "Marp Preview"
+			},
+			"rating": 5
+		}
+	],
 	"cz.sigler.remotelogconsole": [],
 	"cz.talich.arp": [],
 	"cz.tix.jsonata": [],
@@ -223226,7 +224499,40 @@
 	"darcula-forest": [],
 	"darcula-night": [],
 	"dark-plus-theme": [],
-	"dark-ubuntu-island": [],
+	"dark-ubuntu-island": [
+		{
+			"author": {
+				"id": "adf3269e-522a-460a-82f4-3385fc69a964",
+				"link": "/author/adf3269e-522a-460a-82f4-3385fc69a964",
+				"name": "anton kiselev"
+			},
+			"cdate": "1790586089000",
+			"comment": "<p>very good thema! like, subscription.</p>\n",
+			"id": 144651,
+			"plugin": {
+				"id": 34468,
+				"link": "/plugin/34468-dark-ubuntu-island",
+				"name": "Dark Ubuntu Island"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "4f82fb28-6f3d-4cf2-8864-8a67e70b9b0c",
+				"link": "/author/4f82fb28-6f3d-4cf2-8864-8a67e70b9b0c",
+				"name": "\u041a\u0438\u0440\u0438\u043b\u043b \u041a\u043e\u0448\u0430\u0435\u0432"
+			},
+			"cdate": "1790586074000",
+			"comment": "<p>awesome theme!</p>\n",
+			"id": 144650,
+			"plugin": {
+				"id": 34468,
+				"link": "/plugin/34468-dark-ubuntu-island",
+				"name": "Dark Ubuntu Island"
+			},
+			"rating": 5
+		}
+	],
 	"dark.flat.theme": [],
 	"dark_candy": [
 		{
@@ -223489,7 +224795,40 @@
 		}
 	],
 	"de.achimonline.tempconfigcleaner": [],
-	"de.amekudzi.microgulp": [],
+	"de.amekudzi.microgulp": [
+		{
+			"author": {
+				"id": "2d4c3cb3-6786-43bf-ab90-29973f447ec0",
+				"link": "/author/2d4c3cb3-6786-43bf-ab90-29973f447ec0",
+				"name": "Nicolai Ehrhardt"
+			},
+			"cdate": "1794595405000",
+			"comment": "<p>Really well-made dashboard for Gulp tasks: clear groups, progress bars, forms and parallel runs. Your existing gulpfile keeps working as before. A real pleasure to use!</p>\n",
+			"id": 145842,
+			"plugin": {
+				"id": 34255,
+				"link": "/plugin/34255-microgulp",
+				"name": "MicroGulp"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "ad0d48a6-d2be-4ec7-b8cd-ea3bf4aafe51",
+				"link": "/author/ad0d48a6-d2be-4ec7-b8cd-ea3bf4aafe51",
+				"name": "stefan.natto"
+			},
+			"cdate": "1793617980000",
+			"comment": "<p>Great tool, very easy to use!</p>\n",
+			"id": 145487,
+			"plugin": {
+				"id": 34255,
+				"link": "/plugin/34255-microgulp",
+				"name": "MicroGulp"
+			},
+			"rating": 5
+		}
+	],
 	"de.andrena.tools.altn8-th": [
 		{
 			"author": {
@@ -223751,6 +225090,7 @@
 			"rating": 5
 		}
 	],
+	"de.bahmut.vic3-script-debugger": [],
 	"de.beyondco.tinkerwell.tinkerwell": [
 		{
 			"author": {
@@ -224431,6 +225771,7 @@
 	],
 	"de.cusp.cu.curNotesMDs": [],
 	"de.cyan.fca.fdm-plugin": [],
+	"de.darkatra.bfme2.bfme2-idea-plugin": [],
 	"de.dieploegers.develop.idea.shellfilter": [
 		{
 			"author": {
@@ -228024,6 +229365,22 @@
 	"de.pdenis.repoleap": [
 		{
 			"author": {
+				"id": "eacdf409-d084-4296-b6ba-bf098d671af1",
+				"link": "/author/eacdf409-d084-4296-b6ba-bf098d671af1",
+				"name": "sebastian.borchers"
+			},
+			"cdate": "1791794305000",
+			"comment": "<p>Me ahorra tiempo pr\u00e1cticamente todos los d\u00edas. Se actualiza con frecuencia y simplemente funciona. Lo recomiendo.</p>\n",
+			"id": 144937,
+			"plugin": {
+				"id": 34545,
+				"link": "/plugin/34545-repoleap",
+				"name": "RepoLeap"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
 				"id": "35e81c86-f53d-4d61-8d6d-bb105cf81dc2",
 				"link": "/author/35e81c86-f53d-4d61-8d6d-bb105cf81dc2",
 				"name": "marvin.laske"
@@ -230159,7 +231516,24 @@
 			"rating": 5
 		}
 	],
-	"de.yusufmolla.catclapping": [],
+	"de.yusufmolla.catclapping": [
+		{
+			"author": {
+				"id": "a1dd420a-1fc1-4136-b80b-4c304d60d3ce",
+				"link": "/author/a1dd420a-1fc1-4136-b80b-4c304d60d3ce",
+				"name": "Yusuf Molla"
+			},
+			"cdate": "1794837110000",
+			"comment": "<p>Top</p>\n",
+			"id": 145886,
+			"plugin": {
+				"id": 36093,
+				"link": "/plugin/36093-cat-clapping",
+				"name": "Cat Clapping"
+			},
+			"rating": 0
+		}
+	],
 	"debugToCursor": [],
 	"deno": [
 		{
@@ -230878,6 +232252,7 @@
 	"dev.andy.pi-ide-context": [],
 	"dev.angularsignals.inspection": [],
 	"dev.antcruz.localpushmock": [],
+	"dev.anton.pulsing": [],
 	"dev.anvas.orbitrack.idea": [],
 	"dev.anyprogressbar": [],
 	"dev.appboypov.herdr-idea": [],
@@ -231758,6 +233133,7 @@
 	"dev.branchlens": [],
 	"dev.bsara.oscuro.jetbrains": [],
 	"dev.bumpwise": [],
+	"dev.bun.bun-actions-on-save": [],
 	"dev.bunconsole": [],
 	"dev.bytemate.byteorm": [],
 	"dev.c9tech.intellij-plugin.entity-utils": [],
@@ -231852,12 +233228,53 @@
 		}
 	],
 	"dev.ckob.television": [],
+	"dev.cleangame.gdtoolkit": [],
+	"dev.cleangame.plainfonts": [],
+	"dev.cleangame.revue.companion": [],
+	"dev.cleangame.sharedlayout": [
+		{
+			"author": {
+				"id": "cf5a8b61-8528-4bf6-af49-c56d8d134c30",
+				"link": "/author/cf5a8b61-8528-4bf6-af49-c56d8d134c30",
+				"name": "ZHOUXING"
+			},
+			"cdate": "1795181695000",
+			"comment": "<p>Hi\uff0cthere is an issue: when using this plugin with multiple projects opened in tabs, the cursor focus is constantly being seized by the editor area.</p>\n<p><a href=\"https://youtrack.jetbrains.com/issue/IJPL-262429/GoLand-unexpectedly-steals-keyboard-focus-from-other-windows-when-using-project-tabs\">https://youtrack.jetbrains.com/issue/IJPL-262429/GoLand-unexpectedly-steals-keyboard-focus-from-other-windows-when-using-project-tabs</a></p>\n",
+			"id": 146056,
+			"plugin": {
+				"id": 35943,
+				"link": "/plugin/35943-shared-layout",
+				"name": "Shared Layout"
+			},
+			"rating": 0
+		}
+	],
+	"dev.cleangame.terminaltabs": [],
 	"dev.closureautumn.theme": [],
 	"dev.closuretheme.theme": [],
 	"dev.codaro.codaro": [],
 	"dev.codebuddy.account.manager": [],
+	"dev.codeduel.plugin": [
+		{
+			"author": {
+				"id": "9d63710f-e0dc-40b6-938e-82aed30b0fbb",
+				"link": "/author/9d63710f-e0dc-40b6-938e-82aed30b0fbb",
+				"name": "Diego"
+			},
+			"cdate": "1795481945000",
+			"comment": "<p>10/10\ndumi.jr proximo Bill Gates</p>\n",
+			"id": 146141,
+			"plugin": {
+				"id": 36385,
+				"link": "/plugin/36385-codeduel",
+				"name": "CodeDuel"
+			},
+			"rating": 5
+		}
+	],
 	"dev.codelanes": [],
 	"dev.codepeek": [],
+	"dev.codepet.prototype": [],
 	"dev.codetime.codetime-jetbrains": [],
 	"dev.codex.apple-music-controls": [],
 	"dev.commitloom.idea": [],
@@ -231865,6 +233282,7 @@
 	"dev.cool.task.ssh": [],
 	"dev.cranpose.idea": [],
 	"dev.creatorishere.autoCollapseOnOpen": [],
+	"dev.crossemmet.jetbrains": [],
 	"dev.csstorfs": [],
 	"dev.csvnav.csv-test-navigator": [],
 	"dev.cxcomposer.liferay": [],
@@ -232060,7 +233478,24 @@
 	"dev.dong4j.zeka.stack.idea.plugin.workflow": [],
 	"dev.dontblameme.selvage": [],
 	"dev.driversseat": [],
-	"dev.dybug.routeros": [],
+	"dev.dybug.routeros": [
+		{
+			"author": {
+				"id": "497bf673-46f6-444e-8e90-f6a742fca520",
+				"link": "/author/497bf673-46f6-444e-8e90-f6a742fca520",
+				"name": "M.A Heshmatkhah"
+			},
+			"cdate": "1795210542000",
+			"comment": "<p>Finally a rsc plugin for JetBrains</p>\n",
+			"id": 146076,
+			"plugin": {
+				"id": 35883,
+				"link": "/plugin/35883-routeros-script",
+				"name": "RouterOS Script"
+			},
+			"rating": 5
+		}
+	],
 	"dev.eastgate.i18n-translate-jvm": [],
 	"dev.eastgate.i18n-translate-web": [
 		{
@@ -233249,7 +234684,40 @@
 			"rating": 5
 		}
 	],
-	"dev.flutterintercept": [],
+	"dev.flutterintercept": [
+		{
+			"author": {
+				"id": "13e42a55-0d94-4c03-b255-f0f7a66b6897",
+				"link": "/author/13e42a55-0d94-4c03-b255-f0f7a66b6897",
+				"name": "abdelrahman mohammed"
+			},
+			"cdate": "1795117010000",
+			"comment": "<p>plugin is better than flutter dev tools</p>\n",
+			"id": 146027,
+			"plugin": {
+				"id": 34990,
+				"link": "/plugin/34990-flutter-intercept",
+				"name": "Flutter Intercept"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "13e42a55-0d94-4c03-b255-f0f7a66b6897",
+				"link": "/author/13e42a55-0d94-4c03-b255-f0f7a66b6897",
+				"name": "abdelrahman mohammed"
+			},
+			"cdate": "1793698577000",
+			"comment": "<p>plugin is better than flutter dev tools</p>\n",
+			"id": 145508,
+			"plugin": {
+				"id": 34990,
+				"link": "/plugin/34990-flutter-intercept",
+				"name": "Flutter Intercept"
+			},
+			"rating": 0
+		}
+	],
 	"dev.francescopacifico.envcontract": [],
 	"dev.friday5pm.jb.bun.pro.test": [],
 	"dev.fromnowon.fenix-buddy": [],
@@ -233727,7 +235195,24 @@
 	"dev.gaphunter.xpathinjectionsinkcompanion": [],
 	"dev.gaphunter.xsdcompanion": [],
 	"dev.gdw.Shutdown-Tasks": [],
-	"dev.getjrs.jrs": [],
+	"dev.getjrs.jrs": [
+		{
+			"author": {
+				"id": "adc8bc63-478f-4d89-8138-c86529ad71e2",
+				"link": "/author/adc8bc63-478f-4d89-8138-c86529ad71e2",
+				"name": "piotr.wittchen"
+			},
+			"cdate": "1793276768000",
+			"comment": "<p>Everything works great!</p>\n",
+			"id": 145377,
+			"plugin": {
+				"id": 35092,
+				"link": "/plugin/35092-jrs",
+				"name": "jrs"
+			},
+			"rating": 0
+		}
+	],
 	"dev.ghostflyby.agent-skills-editing": [],
 	"dev.ghostflyby.dcevm": [],
 	"dev.ghostflyby.gradle-typesafe-conventions": [],
@@ -233738,6 +235223,7 @@
 	"dev.ghostflyby.selectionlivetemplate": [],
 	"dev.ghostflyby.spotless": [],
 	"dev.ghostflyby.vitepress": [],
+	"dev.gilbertrdz.git-line-insight": [],
 	"dev.gipo.nitpick": [],
 	"dev.gitfocus": [],
 	"dev.gitmsg.ai.commithelper": [],
@@ -233976,6 +235462,7 @@
 	"dev.imanity.godot.uidnesting": [],
 	"dev.isira.jaspring": [],
 	"dev.ispa.grammar": [],
+	"dev.issuetoolwindow.github": [],
 	"dev.j-a.swift": [
 		{
 			"author": {
@@ -234423,6 +235910,7 @@
 		}
 	],
 	"dev.jetplugins.latex": [],
+	"dev.jetplugins.lean": [],
 	"dev.jetplugins.lua": [],
 	"dev.jetplugins.lucide.lucide-theme": [
 		{
@@ -234761,6 +236249,22 @@
 	"dev.koltyakov.varro-openjet": [
 		{
 			"author": {
+				"id": "8f38433f-19f3-4aef-9deb-710ce35720d1",
+				"link": "/author/8f38433f-19f3-4aef-9deb-710ce35720d1",
+				"name": "Alan Gracious"
+			},
+			"cdate": "1790448013000",
+			"comment": "<p>This is undoubtedly the best OpenCode workbench available on the entire marketplace. I have tried almost every plugin available\u2014including Zoo Code and others\u2014but Varro beats them all with its incredible functionality. The chat interface is remarkably smooth and a joy to work with, and I haven't run into any annoying restrictions or broken features so far. Please keep updating this fantastic plugin, and a huge thank you to the developer for bringing it to JetBrains products!</p>\n",
+			"id": 144617,
+			"plugin": {
+				"id": 34204,
+				"link": "/plugin/34204-varro-openjet",
+				"name": "Varro: OpenJet"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
 				"id": "41d50b9a-01ac-4872-8be6-1dce8ce9aec4",
 				"link": "/author/41d50b9a-01ac-4872-8be6-1dce8ce9aec4",
 				"name": "Vishnu Das"
@@ -234843,7 +236347,24 @@
 		}
 	],
 	"dev.kshana.ide": [],
-	"dev.ksurdy.claudeautocomplete": [],
+	"dev.ksurdy.claudeautocomplete": [
+		{
+			"author": {
+				"id": "0a1bdbb1-955e-4a36-86f2-616aac3599bc",
+				"link": "/author/0a1bdbb1-955e-4a36-86f2-616aac3599bc",
+				"name": "costanata00"
+			},
+			"cdate": "1793285943000",
+			"comment": "<p>Loving to use it with Android Studio, it would be nice if you could have a key to get a suggestion instead of after detecting typing.</p>\n",
+			"id": 145384,
+			"plugin": {
+				"id": 34817,
+				"link": "/plugin/34817-claudex-autocomplete",
+				"name": "Claudex Autocomplete"
+			},
+			"rating": 5
+		}
+	],
 	"dev.kuml.ide": [],
 	"dev.kurtisklay.envswitch": [],
 	"dev.lain.claude-code-for-jetbrains": [],
@@ -235344,6 +236865,7 @@
 			"rating": 0
 		}
 	],
+	"dev.liveftl.preview": [],
 	"dev.livewatcher": [],
 	"dev.livingcode.theme": [],
 	"dev.localebreeze.jetbrains": [],
@@ -235446,6 +236968,7 @@
 			"rating": 5
 		}
 	],
+	"dev.markusmayer.proberover": [],
 	"dev.masmld.core": [],
 	"dev.masmld.linker": [],
 	"dev.masmld.riscv": [],
@@ -236496,6 +238019,8 @@
 	"dev.northbound.langchainlint": [],
 	"dev.northbound.secretguard": [],
 	"dev.novelinlay.reader": [],
+	"dev.nowtech.aichat.claudecli.native": [],
+	"dev.nowtech.php.protocol": [],
 	"dev.nx.console": [
 		{
 			"author": {
@@ -236837,11 +238362,13 @@
 		}
 	],
 	"dev.nyxdevs.kuk": [],
+	"dev.nyxdevs.themes": [],
 	"dev.nz3x.deplens": [],
 	"dev.oauthlint": [],
 	"dev.omnicode.agent": [],
 	"dev.onewindow": [],
 	"dev.onlyonce.testonlymethods": [],
+	"dev.opencollab": [],
 	"dev.openfga.intellijplugin": [
 		{
 			"author": {
@@ -236946,6 +238473,7 @@
 	"dev.oszoou.aura-theme": [],
 	"dev.otelery.otelcol": [],
 	"dev.ott.sops-editor-plugin": [],
+	"dev.oxbreeze": [],
 	"dev.oxp.jetbrains": [],
 	"dev.pacenote": [],
 	"dev.pacmon.jetbrains": [],
@@ -236985,7 +238513,24 @@
 			"rating": 5
 		}
 	],
-	"dev.past.jetbrains": [],
+	"dev.past.jetbrains": [
+		{
+			"author": {
+				"id": "564e1780-0d76-4691-84d2-3158d4dae6a5",
+				"link": "/author/564e1780-0d76-4691-84d2-3158d4dae6a5",
+				"name": "Louis Tissot"
+			},
+			"cdate": "1791988018000",
+			"comment": "<p>Absolutely love it, integrates seamlessly and saves a lot of tokens + everything feels a lot more accurate!</p>\n",
+			"id": 144995,
+			"plugin": {
+				"id": 34827,
+				"link": "/plugin/34827-past-dev",
+				"name": "past.dev"
+			},
+			"rating": 5
+		}
+	],
 	"dev.patrickpichler.darculaPitchBlackTheme": [
 		{
 			"author": {
@@ -237168,9 +238713,43 @@
 			"rating": 5
 		}
 	],
+	"dev.phonepool.studio": [],
 	"dev.pi.agent": [],
 	"dev.pi.jetbrains": [],
-	"dev.pi.pigui": [],
+	"dev.pi.pigui": [
+		{
+			"author": {
+				"id": "6e44798a-a30d-4582-a7f8-b195ff11ee1d",
+				"link": "/author/6e44798a-a30d-4582-a7f8-b195ff11ee1d",
+				"name": "jie zhang"
+			},
+			"cdate": "1791688698000",
+			"comment": "<p>From sharing code context to inspecting file changes, the workflow stays close to the tools developers already know. Collapsible tool details and clear usage statistics add transparency without overwhelming the conversation. It\u2019s a compelling example of how careful integration can make a powerful coding agent more approachable and practical.</p>\n",
+			"id": 144908,
+			"plugin": {
+				"id": 34238,
+				"link": "/plugin/34238-pi-gui",
+				"name": "Pi GUI"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "2675698f-1cc9-4719-8cfa-1c16f2e59d78",
+				"link": "/author/2675698f-1cc9-4719-8cfa-1c16f2e59d78",
+				"name": "si li"
+			},
+			"cdate": "1791688578000",
+			"comment": "<p>Features like sending selected code directly to the agent, streaming tool activity, and reviewing changes in the IDE\u2019s native diff viewer make it feel like a practical development companion. The attention to session history, model controls, and usage visibility shows a strong understanding of what developers need when working with AI. It\u2019s an impressive project with a clear purpose and real attention to detail.</p>\n",
+			"id": 144907,
+			"plugin": {
+				"id": 34238,
+				"link": "/plugin/34238-pi-gui",
+				"name": "Pi GUI"
+			},
+			"rating": 5
+		}
+	],
 	"dev.pinboard.agent": [],
 	"dev.piwitests.piwi": [],
 	"dev.pkgguard": [],
@@ -238238,8 +239817,10 @@
 	"dev.pyprotocolgutter": [],
 	"dev.qcoding.aichangeradar": [],
 	"dev.qlang.jetbrains": [],
+	"dev.rajkavadia.flutter-debug-run": [],
 	"dev.red.apiscope": [],
 	"dev.red.yaml2props": [],
+	"dev.reelbreak.jetbrains": [],
 	"dev.refdex": [],
 	"dev.reikem.rk": [],
 	"dev.repotory.jetbrains": [],
@@ -238438,7 +240019,24 @@
 	"dev.rutvik.flutter_developer_tools": [],
 	"dev.ryanbuu.wktmapviewer": [],
 	"dev.ryanduan.gomodulefinder": [],
-	"dev.sadonsergey.dumpie": [],
+	"dev.sadonsergey.dumpie": [
+		{
+			"author": {
+				"id": "443092b2-6bf0-4e6c-a2e1-f61bcf26c14b",
+				"link": "/author/443092b2-6bf0-4e6c-a2e1-f61bcf26c14b",
+				"name": "Bonge"
+			},
+			"cdate": "1793889163000",
+			"comment": "<p>This is really good.</p>\n<p>Damn! Great work.</p>\n<p>I get to see the logs easily.</p>\n",
+			"id": 145567,
+			"plugin": {
+				"id": 35423,
+				"link": "/plugin/35423-dumpie",
+				"name": "Dumpie"
+			},
+			"rating": 0
+		}
+	],
 	"dev.saferesultexport": [],
 	"dev.saltt.hytale-project-setup": [
 		{
@@ -238599,6 +240197,7 @@
 	"dev.serverpod.idea": [],
 	"dev.servicehop": [],
 	"dev.seth.valuelens.csharp": [],
+	"dev.shanflyer.glsl": [],
 	"dev.shpe": [],
 	"dev.silverhorn.fca.maven-consistency-enforcer": [],
 	"dev.simplified.simplified-annotations": [],
@@ -238837,6 +240436,7 @@
 			"rating": 0
 		}
 	],
+	"dev.spotidea": [],
 	"dev.springapi.workbench": [],
 	"dev.springfoundry.plugin": [],
 	"dev.sproto.language": [],
@@ -238862,8 +240462,10 @@
 		}
 	],
 	"dev.stillya.vpet": [],
+	"dev.strata": [],
 	"dev.styledart": [],
 	"dev.sulan.ecproperty": [],
+	"dev.sulfurframe": [],
 	"dev.supatoolkit": [],
 	"dev.tachilabs.infinitint": [],
 	"dev.tachilabs.mermaidstudio": [
@@ -238986,6 +240588,7 @@
 	],
 	"dev.tandem": [],
 	"dev.techtheist.engram": [],
+	"dev.testifly.ide": [],
 	"dev.testnimbus.apex": [],
 	"dev.tfstateviewer": [],
 	"dev.tggamesyt.mcdev-premlogin": [
@@ -239126,6 +240729,7 @@
 			"rating": 5
 		}
 	],
+	"dev.titan.local": [],
 	"dev.togglepaused.paused-changelists": [
 		{
 			"author": {
@@ -239625,6 +241229,7 @@
 		}
 	],
 	"dev.unfold.ide": [],
+	"dev.utility.kit": [],
 	"dev.uzi.playwright": [],
 	"dev.valtools.postman.migration": [],
 	"dev.vanssa.claudeacp": [],
@@ -239656,7 +241261,40 @@
 	"dev.vetro.dataview": [],
 	"dev.vibeguard.jetbrains": [],
 	"dev.vibessh.ide": [],
-	"dev.victor.rust": [],
+	"dev.victor.rust": [
+		{
+			"author": {
+				"id": "72f3850a-342b-4d4c-9f78-c25fd7aa286b",
+				"link": "/author/72f3850a-342b-4d4c-9f78-c25fd7aa286b",
+				"name": "3162035387"
+			},
+			"cdate": "1792120951000",
+			"comment": "<p>Updated review \u2014 Rust Native v1.0.2</p>\n<p>Updating my earlier review: all the 1.0.1 problems I reported on Windows are fixed in 1.0.2, with an impressively fast turnaround after the bug report. Specifically:</p>\n<p>Program output now appears in the debug console, along with adapter messages, and console input is forwarded to the debuggee.\nCodeLLDB now runs over a loopback socket, so program stdout no longer corrupts the DAP protocol stream (the previous \"missing header Content-Length\" session deaths are gone).\nSessions end properly when the adapter exits, and adapter child processes are cleaned up on shutdown.\nBroken lldb-dap binaries are skipped and it falls back to CodeLLDB instead of killing the session.\nBreakpoints, stepping, variables and Rust pretty-printers all work smoothly now. Thanks for the quick fix \u2014 happy to recommend, and I've updated my rating to 5 stars.</p>\n",
+			"id": 145054,
+			"plugin": {
+				"id": 34829,
+				"link": "/plugin/34829-rust-native",
+				"name": "Rust Native"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "72f3850a-342b-4d4c-9f78-c25fd7aa286b",
+				"link": "/author/72f3850a-342b-4d4c-9f78-c25fd7aa286b",
+				"name": "3162035387"
+			},
+			"cdate": "1792031341000",
+			"comment": "<p>Does not work out of the box on Windows (PyCharm 2026.2, MSVC toolchain)</p>\n<p>Tested Rust Native 1.0.1 on PyCharm 2026.2.0.1 / Windows 11 with the standard rustup stable-x86_64-pc-windows-msvc toolchain, debugging a minimal Cargo example that prints to stdout.</p>\n<p>With the plugin's auto-downloaded CodeLLDB (the fallback used when no lldb-dap is found), any program that writes to stdout breaks the DAP stream. codelldb is launched over stdio, but codelldb also writes the debuggee's console into its own stdout \u2014 the same pipe that carries the protocol. The session dies in about 1 ms and idea.log fills with JSON-RPC \"Missing header Content-Length\" errors. Raw byte captures of the adapter's stdout show 36 well-formed messages with ~750 bytes of unframed program output interleaved. (codelldb is designed for VS Code, where the protocol runs over --port and stdout stays free for the debuggee's console; over stdio the two roles collide.)\nThe debug console renders nothing at all \u2014 not the program's output events (category stdout or console), not the adapter's own messages (\"Loading Rust formatters...\", \"Process exited with code 0.\"), not the adapter's stderr. This is reproducible even with a byte-clean protocol stream and a fully working adapter. Every session also logs an IDE internal error: \"[Split debugger] RunContentDescriptor should not be used in split mode from XDebugSession ... RsDebugRunner.kt:68\". Without in-IDE program output the debugger is not usable for day-to-day work.\nOn Windows there is no usable lldb-dap by default: the Visual Studio \"C++ Clang Compiler for Windows\" component installs lldb-dap.exe / lldb.exe without liblldb.dll, so those binaries exit immediately with 0xC0000135. To get a working debugger at all I had to install the official LLVM release, wire a Python runtime into it (otherwise the Rust pretty printers cannot load), and put a small stdio relay in front of the adapter to recover program output. None of that should be required of a user.\nTo be fair: once configured with the official LLVM lldb-dap, the integration itself works well \u2014 breakpoints, stepping, stack traces, variables with Rust formatters and continue-to-exit all behave correctly, and program output arrives as proper DAP output events. The problems are the default setup path on Windows and the debug console.</p>\n<p>(Minor: adapter processes are also left running after a session ends.)</p>\n<p>I have sent a detailed report with raw logs to the vendor's email address and I am happy to provide it to anyone else. I will gladly update this review once the default setup works on Windows.</p>\n",
+			"id": 145015,
+			"plugin": {
+				"id": 34829,
+				"link": "/plugin/34829-rust-native",
+				"name": "Rust Native"
+			},
+			"rating": 1
+		}
+	],
 	"dev.vinayshetty.stateart": [
 		{
 			"author": {
@@ -239732,6 +241370,7 @@
 		}
 	],
 	"dev.winportkill.jetbrains": [],
+	"dev.winui.svelte": [],
 	"dev.wiremark": [],
 	"dev.workbenchz.db": [],
 	"dev.wvr.mixinvisualizer": [],
@@ -239861,7 +241500,24 @@
 		}
 	],
 	"dev.yml2pro.idea": [],
-	"dev.zacsweers.metro.idea": [],
+	"dev.zacsweers.metro.idea": [
+		{
+			"author": {
+				"id": "6aa536a9-02b8-4858-9292-e4e80822858b",
+				"link": "/author/6aa536a9-02b8-4858-9292-e4e80822858b",
+				"name": "Jan \u0160kr\u00e1\u0161ek"
+			},
+			"cdate": "1795452075000",
+			"comment": "<p>Absolutely fantastic!</p>\n",
+			"id": 146130,
+			"plugin": {
+				"id": 35005,
+				"link": "/plugin/35005-metro",
+				"name": "Metro"
+			},
+			"rating": 5
+		}
+	],
 	"dev.zbinski.html-attribute-folder": [
 		{
 			"author": {
@@ -240364,7 +242020,24 @@
 		}
 	],
 	"dsh.web.toolwindow": [],
-	"duma.cbbasic": [],
+	"duma.cbbasic": [
+		{
+			"author": {
+				"id": "64a094f5-ea59-413d-8484-e600e593a154",
+				"link": "/author/64a094f5-ea59-413d-8484-e600e593a154",
+				"name": "Jora Cardan"
+			},
+			"cdate": "1794231119000",
+			"comment": "<p>Very cool plugin!</p>\n",
+			"id": 145662,
+			"plugin": {
+				"id": 35850,
+				"link": "/plugin/35850-core-banking-basic-tools",
+				"name": "Core Banking BASIC Tools"
+			},
+			"rating": 5
+		}
+	],
 	"dvamuch.asp-classic-language-support": [],
 	"e.v.cats-progress-bar": [
 		{
@@ -240809,6 +242482,7 @@
 			"rating": 0
 		}
 	],
+	"eclipse.habits.kit": [],
 	"edu.berkeley.cs61b.plugin": [
 		{
 			"author": {
@@ -241448,6 +243122,7 @@
 	"er.prateek.SoundOnAction": [],
 	"es.asiersanchez.alembic-navigator": [],
 	"es.asiersanchez.bigquery-cost-guard": [],
+	"es.asiersanchez.dbt-cost-guard": [],
 	"es.spockdatatable.idea": [
 		{
 			"author": {
@@ -242489,6 +244164,22 @@
 	],
 	"felix.plugins.pojo.builder.generator": [],
 	"fengwuxin.opencode-gui-only": [
+		{
+			"author": {
+				"id": "005363e8-9109-4319-86bf-e87fc8b73b43",
+				"link": "/author/005363e8-9109-4319-86bf-e87fc8b73b43",
+				"name": "Yusuf G\u00fcnd\u00fcz"
+			},
+			"cdate": "1793135564000",
+			"comment": "<p>Best alternative for me since i don't want to use the official AI Assistant. Small request though. Even if i change the language to EN, after restart it still defaults to CN. I've manually modified the js file (opencode-plugin-26.10.1204.jar\\webgui-app\\assets\\index-9KLCCmi2.js) to make it default to EN. I think this does not work... <a href=\"https://github.com/fengwuxin/opencode2-phpstorm-plugin/blob/ide-plugin/packages/opencode/webgui/src/lib/i18n.ts#L342\">https://github.com/fengwuxin/opencode2-phpstorm-plugin/blob/ide-plugin/packages/opencode/webgui/src/lib/i18n.ts#L342</a></p>\n<p>Other than this, I'm very happy with this plugin. Thank you.</p>\n",
+			"id": 145321,
+			"plugin": {
+				"id": 34539,
+				"link": "/plugin/34539-opencode-gui-only",
+				"name": "OpenCode GUI Only"
+			},
+			"rating": 5
+		},
 		{
 			"author": {
 				"id": "6427abfb-32fb-4524-ba0c-a5130d68b544",
@@ -244260,6 +245951,7 @@
 			"rating": 5
 		}
 	],
+	"fr.thanhhungdoan.tomcatdevrunner": [],
 	"fr.ythollet.header": [],
 	"fr.zoomonit.bpmn-diff": [],
 	"freeriders.mag.Modular-Architecture-Generator": [],
@@ -249200,6 +250892,7 @@
 			"rating": 5
 		}
 	],
+	"in.bleuphoenix.claudechat": [],
 	"in.bleuphoenix.flutterpreview": [],
 	"in.bulma.snippet.intellij": [],
 	"in.creet.resourcelens": [],
@@ -249904,6 +251597,38 @@
 		}
 	],
 	"info.chrzanowski.customsplashscreen": [
+		{
+			"author": {
+				"id": "3ab008af-bcd7-4dcd-be6c-6ff5d5460da2",
+				"link": "/author/3ab008af-bcd7-4dcd-be6c-6ff5d5460da2",
+				"name": "Winter"
+			},
+			"cdate": "1795019368000",
+			"comment": "<p>Awesome! Although I'd expect the general image to change, not the text itself. For example in Rider it still says \"IntelliJ IDEA\" because the bundled image is targeting IntelliJ IDEA.</p>\n",
+			"id": 145964,
+			"plugin": {
+				"id": 36042,
+				"link": "/plugin/36042-custom-splash-screen",
+				"name": "Custom Splash Screen"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "1daa4050-17f5-4606-9b8d-11a91f52340c",
+				"link": "/author/1daa4050-17f5-4606-9b8d-11a91f52340c",
+				"name": "bytecoot"
+			},
+			"cdate": "1794823839000",
+			"comment": "<p>I don't know what JetBrains did with the latest release in November of 2026, but having this plugin just makes the splash screen so much friendlier! Thank you for this &lt;3</p>\n",
+			"id": 145876,
+			"plugin": {
+				"id": 36042,
+				"link": "/plugin/36042-custom-splash-screen",
+				"name": "Custom Splash Screen"
+			},
+			"rating": 0
+		},
 		{
 			"author": {
 				"id": "391e4967-4b31-47bf-884a-e683456f0b7e",
@@ -251261,6 +252986,7 @@
 			"rating": 0
 		}
 	],
+	"intellij.execution.multilaunch": [],
 	"intellij.git.commit.modal": [
 		{
 			"author": {
@@ -251703,6 +253429,7 @@
 		}
 	],
 	"intellij.indexing.shared.core": [],
+	"intellij.java.aetherDependencyResolver.plugin": [],
 	"intellij.java.jshell": [
 		{
 			"author": {
@@ -254418,7 +256145,6 @@
 	"io.genai.rust": [],
 	"io.genai.screenshot.plugin": [],
 	"io.genai.zendesk": [],
-	"io.ghaylan.validata": [],
 	"io.ghaylansaada.validata": [],
 	"io.gitcommitdatetime": [],
 	"io.gitconflictradar": [],
@@ -255499,6 +257225,7 @@
 	],
 	"io.github.deblockt.cucumber-datatable-to-bean-mapping-intelij-plugin": [],
 	"io.github.denglei1024.log-explorer": [],
+	"io.github.derpdead.tscosts": [],
 	"io.github.devweiqi.animated-webp-viewer": [],
 	"io.github.devweiqi.cmp-resource-manager": [],
 	"io.github.devweiqi.duplicate-image-finder": [],
@@ -255784,6 +257511,7 @@
 	"io.github.fdietze.sabuni": [],
 	"io.github.feelhappy.cc-ai-toolkit": [],
 	"io.github.fer0m.foldertextcolor": [],
+	"io.github.fncontroloption.zj": [],
 	"io.github.forstjiri.aiterminaltool": [],
 	"io.github.found404.grepapi": [
 		{
@@ -257014,6 +258742,7 @@
 	"io.github.huongstienstra.modulefocus": [],
 	"io.github.iceholic.noctis": [],
 	"io.github.ideaenvswitcher": [],
+	"io.github.ilyaslabs.evl": [],
 	"io.github.ingrowthly.icons": [],
 	"io.github.intellijnews": [],
 	"io.github.invariantnode.quickquestion": [],
@@ -257145,18 +258874,69 @@
 			"rating": 4
 		}
 	],
-	"io.github.jieyuexing.cvs": [],
+	"io.github.jieyuexing.cvs": [
+		{
+			"author": {
+				"id": "8d68ac6d-bed0-45ab-b547-f4edeb2349c1",
+				"link": "/author/8d68ac6d-bed0-45ab-b547-f4edeb2349c1",
+				"name": "Alfredo Vega Weiss"
+			},
+			"cdate": "1794962566000",
+			"comment": "<p>Hi! After some use on large repositories: performance for sync is a bit slow\nAlso after some update, files keep marks a 'merge needed' but no merge option available.\nAnyway....keep up!</p>\n",
+			"id": 145938,
+			"plugin": {
+				"id": 34911,
+				"link": "/plugin/34911-opencvs",
+				"name": "OpenCVS"
+			},
+			"rating": 0
+		},
+		{
+			"author": {
+				"id": "8d68ac6d-bed0-45ab-b547-f4edeb2349c1",
+				"link": "/author/8d68ac6d-bed0-45ab-b547-f4edeb2349c1",
+				"name": "Alfredo Vega Weiss"
+			},
+			"cdate": "1794162752000",
+			"comment": "<p>working ok so far.\nMuch needed plugin, I'm still using old proyect with large CVS history.\nFYI, just updagrad compatibility to 2026.3 and I'v not detected a problem.\nPerhaps a bit slow on large repositories.\nHelp is in chinese...perhaps english will be better.</p>\n",
+			"id": 145644,
+			"plugin": {
+				"id": 34911,
+				"link": "/plugin/34911-opencvs",
+				"name": "OpenCVS"
+			},
+			"rating": 0
+		}
+	],
 	"io.github.jingu.idea-qiq-plugin": [],
 	"io.github.joelkanyi.peek": [],
 	"io.github.joesimo.sqlreplay": [],
 	"io.github.jog16.queryguard": [],
 	"io.github.juyterman1000.entroly": [],
 	"io.github.kafuuneko.asdiff": [],
+	"io.github.kasimtmc.pas": [],
 	"io.github.kaywgeek.phpstantypetrace": [],
 	"io.github.kergosdyr.tibero.database.tools": [],
 	"io.github.ketraterm.terminal": [],
 	"io.github.khopland.ide-layout-profiles": [],
-	"io.github.khopland.version-checker": [],
+	"io.github.khopland.version-checker": [
+		{
+			"author": {
+				"id": "a8579dd7-7641-4744-ae0e-8f6a633f3d57",
+				"link": "/author/a8579dd7-7641-4744-ae0e-8f6a633f3d57",
+				"name": "Randy Burgess"
+			},
+			"cdate": "1794508542000",
+			"comment": "<p>I've only used this with WebStorm just a little today, going through a package.json file. Your plugin tells you what is out of date, etc. but it is very limited other than that. I didn't really try and dig into what is doing what, but when I follow the suggestions, which should trigger a refactor in certain cases or warn you that dependency changes will break your build, I didn't get any of that. I make the change, the IDE asks me to run 'npm install' with the updated dependencies, then I have to look at the Problems view to see what if anything got broken. I haven't tried it with IDEA or any other IDE's so maybe it works better with other languages. As far as WebStorm and ts/js it's extremely limited in usefulness.</p>\n",
+			"id": 145794,
+			"plugin": {
+				"id": 34831,
+				"link": "/plugin/34831-version-checker",
+				"name": "Version Checker"
+			},
+			"rating": 2
+		}
+	],
 	"io.github.khorkovenko.keymapviewer": [],
 	"io.github.khubaibkhan4.kmpdevicehub": [],
 	"io.github.khubaibkhan4.kmptranslationshub": [
@@ -257523,7 +259303,24 @@
 		}
 	],
 	"io.github.konove.notmytodo": [],
-	"io.github.koollsl.intellij-lsl": [],
+	"io.github.koollsl.intellij-lsl": [
+		{
+			"author": {
+				"id": "9ece0611-eb51-4aff-96ac-e27715771878",
+				"link": "/author/9ece0611-eb51-4aff-96ac-e27715771878",
+				"name": "BeauvallonCreations"
+			},
+			"cdate": "1795272228000",
+			"comment": "<p>A must have for anybody invloved into scripting for Secondlife or OpenSim. Thank you very much Kool for this contriubution which for me is an absolute game changer - Emilie</p>\n",
+			"id": 146088,
+			"plugin": {
+				"id": 34339,
+				"link": "/plugin/34339-lsl--slua-for-second-life",
+				"name": "LSL & SLua for Second Life"
+			},
+			"rating": 5
+		}
+	],
 	"io.github.kuan1113.mdlinkkeeper": [],
 	"io.github.l2dy.ide.ic.nginx": [],
 	"io.github.lagudafuadtosin.callsketch": [],
@@ -257534,6 +259331,24 @@
 	"io.github.layjustdoit.jrebel.mybatisplus": [],
 	"io.github.lechaosx.difftastic": [],
 	"io.github.lemyst.enfusionscript": [],
+	"io.github.leodias.httpie": [
+		{
+			"author": {
+				"id": "495f9428-2e80-4978-a859-995abc9be53a",
+				"link": "/author/495f9428-2e80-4978-a859-995abc9be53a",
+				"name": "fabricio.taguatinga"
+			},
+			"cdate": "1794461873000",
+			"comment": "<p>Great work on this plugin!\nWhat stands out to me is bringing HTTPie into IntelliJ without requiring an Ultimate license, making API testing within the IDE accessible to more developers.\nKeeping requests alongside the code and running them without switching tools is a practical addition to any backend workflow.\nCongratulations on the release!</p>\n",
+			"id": 145761,
+			"plugin": {
+				"id": 35897,
+				"link": "/plugin/35897-httpie",
+				"name": "HTTPie"
+			},
+			"rating": 0
+		}
+	],
 	"io.github.leolaurindo.tunnelvision": [],
 	"io.github.leonardoaliaga.argbcolorlens": [],
 	"io.github.lgp547.any-door-plugin": [
@@ -258135,7 +259950,24 @@
 		}
 	],
 	"io.github.mani-sh-reddy.mariana-light": [],
-	"io.github.marcomaes.mobiletestbench": [],
+	"io.github.marcomaes.mobiletestbench": [
+		{
+			"author": {
+				"id": "bf8e8fc1-bb74-4af4-b195-356124ae76c1",
+				"link": "/author/bf8e8fc1-bb74-4af4-b195-356124ae76c1",
+				"name": "Gil Megidish"
+			},
+			"cdate": "1793716423000",
+			"comment": "<p>Superb! Finding locators has never been simpler. No need to leave IDE for anything, copy-paste and we're done! Kudos!</p>\n",
+			"id": 145517,
+			"plugin": {
+				"id": 35022,
+				"link": "/plugin/35022-mobile-test-bench",
+				"name": "Mobile Test Bench"
+			},
+			"rating": 5
+		}
+	],
 	"io.github.marioaimrl.aidebugassistant": [],
 	"io.github.marksosman.dddcontextmapper": [],
 	"io.github.markusaugust.streamlord": [],
@@ -258160,7 +259992,40 @@
 	"io.github.massimodeiana.exposed-er": [],
 	"io.github.masterprogrammer999.terminalmousepaste": [],
 	"io.github.matrixidot.jsharp": [],
-	"io.github.maximgromov.commentcloak": [],
+	"io.github.maximgromov.commentcloak": [
+		{
+			"author": {
+				"id": "19725672-ce24-4d09-8758-ebc21ed11ddb",
+				"link": "/author/19725672-ce24-4d09-8758-ebc21ed11ddb",
+				"name": "Brady Husong"
+			},
+			"cdate": "1795281204000",
+			"comment": "<p>This extension is the best one i've ever used for android studio. I have a lot of trouble reading code when there are a lot of comments cluttering everything up so this helps SO MUCH. THANK YOU</p>\n",
+			"id": 146090,
+			"plugin": {
+				"id": 34096,
+				"link": "/plugin/34096-commentcloak",
+				"name": "CommentCloak"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "05d8c558-4f6b-4963-8a48-a116703e76f1",
+				"link": "/author/05d8c558-4f6b-4963-8a48-a116703e76f1",
+				"name": "Kir"
+			},
+			"cdate": "1789814992000",
+			"comment": "<p>I came here looking for a way to hide all comments in the code, and found exactly this plugin! Dude, whoever you are, thank you!</p>\n",
+			"id": 144445,
+			"plugin": {
+				"id": 34096,
+				"link": "/plugin/34096-commentcloak",
+				"name": "CommentCloak"
+			},
+			"rating": 5
+		}
+	],
 	"io.github.md2conf.idea-markdown-copy-as-plugin": [],
 	"io.github.memory2314.mavendependencyassistant": [],
 	"io.github.meteulken.commithelper": [
@@ -258215,6 +260080,7 @@
 			"rating": 0
 		}
 	],
+	"io.github.michaelalexeevweb.octopusmerge": [],
 	"io.github.mingovvv.endpoint-lens": [
 		{
 			"author": {
@@ -258333,7 +260199,40 @@
 	],
 	"io.github.mishkun.unsafe-wilhelm-scream": [],
 	"io.github.mmhelloworld.idrisintellij": [],
-	"io.github.mnaami.environmentswitcher": [],
+	"io.github.mnaami.environmentswitcher": [
+		{
+			"author": {
+				"id": "d9e1d230-d4f8-4da9-ba62-0f4c9972955e",
+				"link": "/author/d9e1d230-d4f8-4da9-ba62-0f4c9972955e",
+				"name": "RLATALLI"
+			},
+			"cdate": "1790096983000",
+			"comment": "<p>very nice , thanks man</p>\n",
+			"id": 144513,
+			"plugin": {
+				"id": 34244,
+				"link": "/plugin/34244-environment-switcher",
+				"name": "Environment Switcher"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "57bec7e9-b2c8-4a9c-b9ed-9fd1e864070b",
+				"link": "/author/57bec7e9-b2c8-4a9c-b9ed-9fd1e864070b",
+				"name": "Mohammed Nami"
+			},
+			"cdate": "1790094088000",
+			"comment": "<p>Very useful</p>\n",
+			"id": 144511,
+			"plugin": {
+				"id": 34244,
+				"link": "/plugin/34244-environment-switcher",
+				"name": "Environment Switcher"
+			},
+			"rating": 5
+		}
+	],
 	"io.github.mouadai.cardmsg": [],
 	"io.github.movebrickschi.Restful-all": [
 		{
@@ -258392,6 +260291,7 @@
 		}
 	],
 	"io.github.mudongjing.InjectClass.plugin.id": [],
+	"io.github.murphy-955.rustreader": [],
 	"io.github.mute1008.editorsessions": [],
 	"io.github.mwassong.mapper-guard": [],
 	"io.github.myangprint.motionflow": [],
@@ -258399,9 +260299,25 @@
 	"io.github.nahuel92.pit4u": [],
 	"io.github.naveen171.smartdocs": [],
 	"io.github.nchaugen.tabletest": [],
-	"io.github.nerzhulart.markdown": [],
+	"io.github.nerzhulart.markdown": [
+		{
+			"author": {
+				"id": "2f8df8b7-db3c-49c3-b465-500f2af1423c",
+				"link": "/author/2f8df8b7-db3c-49c3-b465-500f2af1423c",
+				"name": "\u0410\u043d\u0434\u0440\u0435\u0439 \u042e\u0433\u0430\u0439"
+			},
+			"cdate": "1788868244000",
+			"comment": "<p>\u0421\u043f\u0430\u0441\u0438\u0431\u043e \u0437\u0430 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0443 frontmatter \ud83d\ude4f</p>\n",
+			"id": 144169,
+			"plugin": {
+				"id": 33921,
+				"link": "/plugin/33921-markdown-lens--preview-and-diff",
+				"name": "Markdown Lens - Preview and Diff"
+			},
+			"rating": 5
+		}
+	],
 	"io.github.nerzhulart.webview": [],
-	"io.github.nerzhulart.webview.markdown.preview": [],
 	"io.github.newhoo.bean-invoker": [
 		{
 			"author": {
@@ -258888,7 +260804,6 @@
 	],
 	"io.github.nyub.selfieintellijplugin": [],
 	"io.github.nzlong.generator.generate-builder": [],
-	"io.github.obedz.gitlineblame": [],
 	"io.github.ohsoou.trans-md": [],
 	"io.github.olcayhan.petteringaround": [],
 	"io.github.oluckyo.safe-project-close": [],
@@ -259524,9 +261439,11 @@
 	"io.github.roystondwork-dev.portcheck": [],
 	"io.github.rpiu.copilot.creditusage": [],
 	"io.github.ruizhangcn.anyreader": [],
+	"io.github.saigyo.aslan": [],
 	"io.github.salatmaster.direnv": [],
 	"io.github.salatmaster.errorprone": [],
 	"io.github.salatmaster.goland-mcp-plus": [],
+	"io.github.sandritsch91.smarty": [],
 	"io.github.sangcomz.Barim": [],
 	"io.github.sangcomz.diffhawk": [],
 	"io.github.sanggiwjg.markdownthemestudio": [],
@@ -259538,7 +261455,24 @@
 	"io.github.seleniumboot.mcp": [],
 	"io.github.sergeystets.duowatchdog": [],
 	"io.github.setheclark.flocon_plugin": [],
-	"io.github.sfra6651.nordic": [],
+	"io.github.sfra6651.nordic": [
+		{
+			"author": {
+				"id": "44c3c2ea-21c0-47cb-958c-282ba7a78050",
+				"link": "/author/44c3c2ea-21c0-47cb-958c-282ba7a78050",
+				"name": "Ferhat Mla\u0107o"
+			},
+			"cdate": "1795073152000",
+			"comment": "<p>Beautiful classic Theme (v 1.1.0), with color scheme gentle to my eyes, that fitted perfectly with 'Nordic' theme on my Fedora 45 Workstation.\nI can recommend it at least to try it out.</p>\n",
+			"id": 145994,
+			"plugin": {
+				"id": 35047,
+				"link": "/plugin/35047-nordic",
+				"name": "Nordic"
+			},
+			"rating": 5
+		}
+	],
 	"io.github.shafthq.shaft": [],
 	"io.github.shangotek.glancebrackets": [],
 	"io.github.shangotek.glanceicons": [],
@@ -259552,6 +261486,7 @@
 	"io.github.soberw.vcsswitch": [],
 	"io.github.softreigns.consolelogprettify": [],
 	"io.github.somed1.kanagawa.nvim": [],
+	"io.github.soonsoonyy.processdiary": [],
 	"io.github.sorins.goose": [],
 	"io.github.spacewaiker.helix-jet": [],
 	"io.github.springconfigguard": [],
@@ -259718,6 +261653,7 @@
 	],
 	"io.github.svincio.gitflow": [],
 	"io.github.sweetpark.mybatis-sql-tuner-ai": [],
+	"io.github.syllr.vimimeswitch": [],
 	"io.github.takahirom.roborazzi": [],
 	"io.github.takc923.better-sticky-selection": [
 		{
@@ -260032,6 +261968,56 @@
 	"io.github.umutcansu.TraceFlow": [],
 	"io.github.unurgunite.crystal": [],
 	"io.github.urtaav.nightbrew": [],
+	"io.github.v0rest.skein": [
+		{
+			"author": {
+				"id": "b8617082-fa9f-4214-94f9-2b3361f50ff5",
+				"link": "/author/b8617082-fa9f-4214-94f9-2b3361f50ff5",
+				"name": "Slavchoo"
+			},
+			"cdate": "1795178152000",
+			"comment": "<p>Very useful! Nice job</p>\n",
+			"id": 146054,
+			"plugin": {
+				"id": 35966,
+				"link": "/plugin/35966-skein--claude-code-threads",
+				"name": "Skein - Claude Code Threads"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "48925521-16bf-45bc-8bb5-74ddddc7e046",
+				"link": "/author/48925521-16bf-45bc-8bb5-74ddddc7e046",
+				"name": "Yaroslav Ryzhan"
+			},
+			"cdate": "1794395830000",
+			"comment": "<p>Finally, a usable way to run several Claude Code sessions at once next to the code.</p>\n",
+			"id": 145737,
+			"plugin": {
+				"id": 35966,
+				"link": "/plugin/35966-skein--claude-code-threads",
+				"name": "Skein - Claude Code Threads"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "de2d1daf-2d02-4427-853b-2b655a81023c",
+				"link": "/author/de2d1daf-2d02-4427-853b-2b655a81023c",
+				"name": "Vacheslav Perfilyev"
+			},
+			"cdate": "1794392725000",
+			"comment": "<p>Top-notch! Thanks for this, bro! That's exactly what I was looking for!!</p>\n",
+			"id": 145734,
+			"plugin": {
+				"id": 35966,
+				"link": "/plugin/35966-skein--claude-code-threads",
+				"name": "Skein - Claude Code Threads"
+			},
+			"rating": 5
+		}
+	],
 	"io.github.v1rus-dev.stringmanager": [],
 	"io.github.vacxe.cliactions": [],
 	"io.github.vadimtoptunov.checksum-playground": [],
@@ -260140,6 +262126,7 @@
 			"rating": 0
 		}
 	],
+	"io.github.woodfishhhh.woodfishtheme": [],
 	"io.github.workbox.toolbox": [],
 	"io.github.wzs.code.gen": [
 		{
@@ -260350,6 +262337,7 @@
 	"io.github.yourname.read": [],
 	"io.github.ypfaff.adocfmt": [],
 	"io.github.yueryou.easydev": [],
+	"io.github.yungyu16.algostack": [],
 	"io.github.yungyu16.claude-code-terminal-tab": [],
 	"io.github.yungyu16.markdown-image-paster": [],
 	"io.github.yunkuilu.copy-reference": [],
@@ -263352,6 +265340,7 @@
 	"io.ritely.rite": [],
 	"io.ruudboon.phpstorm-phalcon-4-autocomplete": [],
 	"io.scheinecker.intellij.coco": [],
+	"io.sec1.security": [],
 	"io.securstack.jetbrains": [
 		{
 			"author": {
@@ -267910,7 +269899,24 @@
 			"rating": 4
 		}
 	],
-	"jp.titze.helix": [],
+	"jp.titze.helix": [
+		{
+			"author": {
+				"id": "13fd0da9-1796-4c0c-b9d2-761b69cd4ea5",
+				"link": "/author/13fd0da9-1796-4c0c-b9d2-761b69cd4ea5",
+				"name": "Antonis Kalou"
+			},
+			"cdate": "1795122361000",
+			"comment": "<p>Love this addon! Only issue I currently have is the ESC key sometimes doesn't respond, but otherwise works great and I love what you did with the context menus.</p>\n",
+			"id": 146028,
+			"plugin": {
+				"id": 34859,
+				"link": "/plugin/34859-helix-keymap-t68k-",
+				"name": "Helix Keymap (T68k)"
+			},
+			"rating": 5
+		}
+	],
 	"jplus.plugin": [],
 	"jr-mp-ide-idea": [
 		{
@@ -271278,6 +273284,7 @@
 		}
 	],
 	"life.irony.selection-bridge-for-codex": [],
+	"life.ivora.logviewer": [],
 	"light.flat.theme": [
 		{
 			"author": {
@@ -271532,6 +273539,8 @@
 		}
 	],
 	"live.codeshark.plugin.codesharkjetbrains": [],
+	"local.codex.commitmessage": [],
+	"local.codexusage.daily": [],
 	"local.errorindicator": [
 		{
 			"author": {
@@ -280171,6 +282180,7 @@
 			"rating": 5
 		}
 	],
+	"net.aschemann.sdk-keeper": [],
 	"net.ashald.envfile": [
 		{
 			"author": {
@@ -283448,7 +285458,24 @@
 		}
 	],
 	"net.sjrx.plugins.avecmoi": [],
-	"net.smart.refactor": [],
+	"net.smart.refactor": [
+		{
+			"author": {
+				"id": "10586176-5102-4790-ba4d-59a64d310446",
+				"link": "/author/10586176-5102-4790-ba4d-59a64d310446",
+				"name": "jaychen"
+			},
+			"cdate": "1795334468000",
+			"comment": "<p>Honestly, I expected another gimmick and it turned out fine. Explaining an old module now takes a minute instead of a long scroll, and the bug suggestions mostly point at real problems. Nothing flashy. I keep it installed and use it a few times a week.</p>\n",
+			"id": 146094,
+			"plugin": {
+				"id": 35788,
+				"link": "/plugin/35788-deepseek-assistx",
+				"name": "Deepseek AssistX"
+			},
+			"rating": 5
+		}
+	],
 	"net.splodgebox.configbuilder": [],
 	"net.starlighthosting.StarlightDark": [],
 	"net.stateful.jetbrains.ADNCode": [],
@@ -283479,7 +285506,24 @@
 	"net.tagpad.tasker": [],
 	"net.themassiveone.agent-up.jetbrains": [],
 	"net.thoughtmachine.please.plugin": [],
-	"net.toekit.blockbanner": [],
+	"net.toekit.blockbanner": [
+		{
+			"author": {
+				"id": "605e2845-5200-4284-889d-f87b55b5b229",
+				"link": "/author/605e2845-5200-4284-889d-f87b55b5b229",
+				"name": "\ud61c\uc790"
+			},
+			"cdate": "1791856956000",
+			"comment": "<p>This is Great for every developers!</p>\n",
+			"id": 144952,
+			"plugin": {
+				"id": 34664,
+				"link": "/plugin/34664-block-banner-generator",
+				"name": "Block Banner Generator"
+			},
+			"rating": 0
+		}
+	],
 	"net.tsingyun.plugin.metadata": [
 		{
 			"author": {
@@ -284975,6 +287019,7 @@
 	],
 	"nl.koenhendriks.claudecommit": [],
 	"nl.petertillema.tibasic": [],
+	"nl.rabobank.investments.cactus.commons.BbanIbanConverter": [],
 	"nl.rekaz.faaah": [],
 	"nl.rubensten.texifyidea": [
 		{
@@ -286157,11 +288202,27 @@
 			"rating": 4
 		}
 	],
-	"org.abbas.yamlgraph": [],
 	"org.adroitlogic.idea.plugin": [],
 	"org.ai.dev.tools.AIcons": [],
 	"org.aibrain.ai_constructor_plugin": [],
-	"org.aicommitmessage": [],
+	"org.aicommitmessage": [
+		{
+			"author": {
+				"id": "3a7b9701-065a-4869-b8f4-340cd28970cd",
+				"link": "/author/3a7b9701-065a-4869-b8f4-340cd28970cd",
+				"name": "majusimaho1"
+			},
+			"cdate": "1793682620000",
+			"comment": "<p>I tried several plugins, and this one suits my needs best. It\u2019s very lightweight.</p>\n",
+			"id": 145500,
+			"plugin": {
+				"id": 34183,
+				"link": "/plugin/34183-ai-commit-message--free",
+				"name": "AI Commit Message - Free"
+			},
+			"rating": 5
+		}
+	],
 	"org.aione.termgrid": [],
 	"org.aixsoft.stream-navigator": [],
 	"org.akazukin.editorBackgroundImage": [
@@ -289673,6 +291734,7 @@
 		}
 	],
 	"org.eightnineplugins.XMLExtractor": [],
+	"org.ejavdge.ejavdge": [],
 	"org.elasticsearch4idea": [
 		{
 			"author": {
@@ -291256,6 +293318,7 @@
 	"org.github.pojo2proto": [],
 	"org.giuantomcat": [],
 	"org.grillmycode.companion": [],
+	"org.gtdb.hexswatch": [],
 	"org.hai.work.deepseek-ai-test": [
 		{
 			"author": {
@@ -291350,7 +293413,6 @@
 	],
 	"org.hrithikvish.lite-compose-preview": [],
 	"org.hugopalma.domaintranslator": [],
-	"org.hugopalma.gitlabpipelinenotifier": [],
 	"org.hugopalma.pipelinenotifier": [],
 	"org.hunmr.emacsideas": [],
 	"org.hyhe.string_creator": [],
@@ -297789,6 +299851,7 @@
 			"rating": 5
 		}
 	],
+	"org.jetbrains.idea.eclipse": [],
 	"org.jetbrains.idea.grammar": [
 		{
 			"author": {
@@ -306940,6 +309003,7 @@
 	"org.logviewer": [],
 	"org.lr.tool": [],
 	"org.lukasj.idea.torquescript": [],
+	"org.m3w.intellij-m3": [],
 	"org.macrobit.auto-collapse-generics": [],
 	"org.mallowigi.focusmode": [
 		{
@@ -309379,6 +311443,7 @@
 	],
 	"org.product.catalog.service.Architect": [],
 	"org.product.catalog.service.DoneIt": [],
+	"org.project-sandstar.fantom-lang": [],
 	"org.psliwa.idea.givwenzen": [
 		{
 			"author": {
@@ -309756,7 +311821,25 @@
 	],
 	"org.showen.livecoverageplugin": [],
 	"org.simple.enc": [],
-	"org.simple.web.assist": [],
+	"org.simple.web.assist": [
+		{
+			"author": {
+				"id": "d0b9d909-eb5e-433c-ab8c-2fc5e83cc8c9",
+				"link": "/author/d0b9d909-eb5e-433c-ab8c-2fc5e83cc8c9",
+				"name": "dreammychaser"
+			},
+			"cdate": "1794631860000",
+			"comment": "<p>\uac00\ub054 \ub514\ubc84\uae45\ud558\ub2e4 \ub9c9\ud790 \ub54c \ucf2d\ub2c8\ub2e4. \uc6d0\uc778 \ud6c4\ubcf4\uc640 \ud655\uc778\ud560 \uc704\uce58\ub97c \uc54c\ub824 \uc918\uc11c \uc2dc\uc791\uc810 \uc7a1\uae30 \uc88b\uc544\uc694\u3002</p>\n",
+			"id": 145845,
+			"plugin": {
+				"id": 35583,
+				"link": "/plugin/35583-deepseek-coder-",
+				"name": "DeepSeek Coder."
+			},
+			"rating": 5
+		}
+	],
+	"org.skellig.plugin.language": [],
 	"org.sonarlint.idea": [
 		{
 			"author": {
@@ -310190,7 +312273,24 @@
 			"rating": 5
 		}
 	],
-	"org.stribor.fontpreview": [],
+	"org.stribor.fontpreview": [
+		{
+			"author": {
+				"id": "c3bab151-8a47-4259-8173-f9d468952852",
+				"link": "/author/c3bab151-8a47-4259-8173-f9d468952852",
+				"name": "Vladan Jocic"
+			},
+			"cdate": "1794236058000",
+			"comment": "<p>Great!</p>\n",
+			"id": 145664,
+			"plugin": {
+				"id": 34946,
+				"link": "/plugin/34946-font-viewer",
+				"name": "Font Viewer"
+			},
+			"rating": 5
+		}
+	],
 	"org.structureddataarchive.sda": [],
 	"org.stvnadore.plugin": [],
 	"org.sui.lang": [
@@ -312078,6 +314178,7 @@
 			"rating": 5
 		}
 	],
+	"org.vernac": [],
 	"org.vinhlt16.clean-archt-data-model": [],
 	"org.vito.classfinder": [],
 	"org.vito.mycodetour": [],
@@ -315150,7 +317251,40 @@
 			"rating": 5
 		}
 	],
-	"pl.solutiontabs": [],
+	"pl.solutiontabs": [
+		{
+			"author": {
+				"id": "3c1e457c-dd1a-4d1a-9545-debfd67b9180",
+				"link": "/author/3c1e457c-dd1a-4d1a-9545-debfd67b9180",
+				"name": "Vladim\u00edr \u010c\u00e1pka"
+			},
+			"cdate": "1794989506000",
+			"comment": "<p>This plugin is something I need and I wants, love the logic behind it and the color groupings. I was using Visual Studio before and this is something similar. But for me this plugin doesn't work at all. If I open files it doesn't add them there, like 90 % of time, and when it adds. Then I cant close it. Sometimes closing rider and reopen helps for a minute. But it is unusable. If it will be fixed I will gladly come back and change my review. I want it to work.</p>\n",
+			"id": 145950,
+			"plugin": {
+				"id": 34506,
+				"link": "/plugin/34506-vertical-tabs",
+				"name": "Vertical Tabs"
+			},
+			"rating": 1
+		},
+		{
+			"author": {
+				"id": "f45358a8-111d-4762-813e-72de487f6e07",
+				"link": "/author/f45358a8-111d-4762-813e-72de487f6e07",
+				"name": "Sieva K"
+			},
+			"cdate": "1794247378000",
+			"comment": "<p>Good extension. Would be nice to have an option for close buttons on the left.</p>\n",
+			"id": 145669,
+			"plugin": {
+				"id": 34506,
+				"link": "/plugin/34506-vertical-tabs",
+				"name": "Vertical Tabs"
+			},
+			"rating": 4
+		}
+	],
 	"pl.sudo.imageviewer.python": [
 		{
 			"author": {
@@ -321486,7 +323620,24 @@
 			"rating": 5
 		}
 	],
-	"slanglsp_r": [],
+	"slanglsp_r": [
+		{
+			"author": {
+				"id": "ff166aaa-a518-4c63-87b5-56c663c0e7be",
+				"link": "/author/ff166aaa-a518-4c63-87b5-56c663c0e7be",
+				"name": "machinemaslo"
+			},
+			"cdate": "1794068634000",
+			"comment": "<p>Works fine</p>\n",
+			"id": 145619,
+			"plugin": {
+				"id": 34360,
+				"link": "/plugin/34360-slang-unofficial-refined",
+				"name": "Slang [Unofficial] Refined"
+			},
+			"rating": 0
+		}
+	],
 	"slides-presenter": [],
 	"slinky.core.intellij": [],
 	"snake-eater": [],
@@ -323029,6 +325180,7 @@
 	"stlint": [],
 	"streamline.refactoring.plugin": [],
 	"studio.1step.transvoy": [],
+	"studio.freewinds.dockerizer": [],
 	"studio.illegal.nordlight": [],
 	"studio.isluxvillage.collection.islands.pro": [],
 	"studio.isluxvillage.terrapastel.islands.pro": [],
@@ -326559,7 +328711,24 @@
 	],
 	"ua.roslav.clipps": [],
 	"ua.zt.mezon.android.opencl.OpenCLCLGenerator": [],
-	"uatapatau.qwen_code_for_ide": [],
+	"uatapatau.qwen_code_for_ide": [
+		{
+			"author": {
+				"id": "c776674c-bb33-4594-86dd-a0e6fe06fccf",
+				"link": "/author/c776674c-bb33-4594-86dd-a0e6fe06fccf",
+				"name": "31770"
+			},
+			"cdate": "1792075543000",
+			"comment": "<p>This plugin is completely redundant. The logo's placement is random and nonsensical; users who are accustomed to Qwen Code CLI don't need it at all, and users who aren't used to CLI have no use for it.</p>\n",
+			"id": 145047,
+			"plugin": {
+				"id": 34493,
+				"link": "/plugin/34493-qwen-code-for-ides",
+				"name": "Qwen Code for IDEs"
+			},
+			"rating": 1
+		}
+	],
 	"uk.ac.manchester.beehive.TornadoInsight": [],
 	"uk.co.ben-gibson.remote.repository.mapper": [
 		{
