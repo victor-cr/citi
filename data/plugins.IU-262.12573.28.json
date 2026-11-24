@@ -56874,10 +56874,10 @@
 		"version": "2.0.0"
 	},
 	{
-		"id": 1225015,
+		"id": 1228040,
 		"pluginId": 35207,
 		"pluginXmlId": "com.lesstep.gitlab-mrs",
-		"version": "1.0.38"
+		"version": "1.0.39"
 	},
 	{
 		"id": 1223365,
@@ -56910,10 +56910,10 @@
 		"version": "1.0.0"
 	},
 	{
-		"id": 1226475,
+		"id": 1228043,
 		"pluginId": 35215,
 		"pluginXmlId": "com.lesstep.forgejo-prs",
-		"version": "1.0.41"
+		"version": "1.0.42"
 	},
 	{
 		"id": 1197205,
@@ -56982,10 +56982,10 @@
 		"version": "1.1.0"
 	},
 	{
-		"id": 1226476,
+		"id": 1228041,
 		"pluginId": 35232,
 		"pluginXmlId": "com.lesstep.gitlab-pipelines",
-		"version": "1.0.40"
+		"version": "1.0.41"
 	},
 	{
 		"id": 1196830,
@@ -57666,22 +57666,22 @@
 		"version": "1.2"
 	},
 	{
-		"id": 1225588,
+		"id": 1228046,
 		"pluginId": 35378,
 		"pluginXmlId": "com.lesstep.jenkins-pipelines",
-		"version": "1.0.29"
+		"version": "1.0.30"
 	},
 	{
-		"id": 1225949,
+		"id": 1228045,
 		"pluginId": 35379,
 		"pluginXmlId": "com.lesstep.workflow-runs",
-		"version": "1.0.32"
+		"version": "1.0.33"
 	},
 	{
-		"id": 1226477,
+		"id": 1228042,
 		"pluginId": 35381,
 		"pluginXmlId": "com.lesstep.github-prs",
-		"version": "1.0.63"
+		"version": "1.0.64"
 	},
 	{
 		"id": 1212991,
@@ -58458,10 +58458,10 @@
 		"version": "1.0.3"
 	},
 	{
-		"id": 1225948,
+		"id": 1228044,
 		"pluginId": 35556,
 		"pluginXmlId": "com.lesstep.forgejo-pipelines",
-		"version": "1.0.18"
+		"version": "1.0.19"
 	},
 	{
 		"id": 1210365,

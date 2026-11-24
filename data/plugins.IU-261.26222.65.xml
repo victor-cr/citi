@@ -154447,7 +154447,9 @@ remote = my-server:/httpdocs
   <li>Tiles with name, description and logo (emoji, image file, or an auto-detected <code>logo.png</code> / <code>icon.png</code>)</li>
   <li>Collections with colours; drag &amp; drop to reorder projects and collections</li>
   <li>Git branch, last commit, an ahead/behind badge and fetch / pull / push buttons per repository</li>
-  <li>Add several projects at once from the IDE's recent-projects list</li>
+  <li>Your own buttons on tiles: one click runs a command in the project's folder</li>
+  <li>Add many projects at once: from the recent-projects list, several folders, all subfolders of a folder, or by drag &amp; drop</li>
+  <li>Select several tiles to move, remove or edit them together</li>
   <li>Projects on a disconnected drive are greyed out; deleted folders are flagged</li>
   <li>Languages like on GitHub (weighted by bytes), with a manual override</li>
   <li>One project list shared with the Project Tiles extension for VS Code and its forks</li>
