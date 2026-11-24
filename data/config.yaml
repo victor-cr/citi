@@ -7,7 +7,7 @@ common:
     acceptEncoding: gzip, deflate, br
   hosts:
     source: plugins.jetbrains.com
-    target: downloads.marketplace.jetbrains.com
+    target: d3kdv2x2np28ys.cloudfront.net
   plugins:
     location: plugins.location.json
     comments: plugins.comments.json
