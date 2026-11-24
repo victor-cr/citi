@@ -138813,12 +138813,18 @@ the repository's own .git/kakapo/comments.jsonl so kakapo and the IDE read one r
         Use it in External Tools, Run Configurations, or anywhere IntelliJ macros are supported
         to launch the current IDE from the command line via its Toolbox-managed shell script.<br><br>
         Supports macOS, Linux, and Windows.]]></description><version>1.0.0</version><vendor email="ryanbower01@gmail.com" url="">Ryan Bower</vendor><rating>00</rating><change-notes><![CDATA[Initial version]]></change-notes><idea-version min="n/a" max="n/a" since-build="252.25557"/><depends>com.intellij.modules.platform</depends><tags>OS Integration</tags></idea-plugin><idea-plugin downloads="0" size="53504" date="1795494051000" updatedDate="1795494051000" url=""><name>Auto Evidence Activity</name><id>id.autoevidence.activity</id><description><![CDATA[
-        Tells the local Auto Evidence desktop application which project and file the editor shows, which project
-        frame is active, that a file changed (a count per minute, never what changed), and when a run, debug or test
-        session starts and ends. Metadata only: no file contents, no typed text, no selections, no clipboard, no
-        terminal input or output, no debugger values, no AI chat. Events go to 127.0.0.1 only, with the
-        per-installation token of the desktop application. When the application is not running, nothing is sent and
-        nothing fails.
+        <p>Links IDE activity to Auto Evidence screenshots: the project, file and run or test sessions you work on,
+        sent as metadata to the Auto Evidence desktop application on the same computer.</p>
+        <ul>
+          <li>Active project, project window and open file (path inside the project only)</li>
+          <li>File changes as a count per minute, never what changed</li>
+          <li>Start and end of run, debug and test sessions</li>
+          <li>No file contents, typed text, selections, clipboard, terminal output, debugger values or AI chat</li>
+          <li>Sent only to 127.0.0.1, with the per-installation token of the desktop application</li>
+          <li>When the application is not running, nothing is sent and nothing fails</li>
+        </ul>
+        <p>Requires the Auto Evidence desktop application for Windows, with Activity Monitoring and the IntelliJ
+        integration turned on.</p>
     ]]></description><version>0.2.1</version><vendor email="irsyadjpratamap@gmail.com" url="">DevDrop</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="243.0"/><depends>com.intellij.modules.platform</depends><tags>OS Integration</tags></idea-plugin></category><ff>"Maven"</ff><category name="Maven"><idea-plugin downloads="66411" size="13893" date="1477050776000" updatedDate="1477050776000" url=""><name>Intellij plugin development with Maven</name><id>com.guidewire.build.ijdevkitmvn</id><description><![CDATA[This plugin provides minimal support for developing IntelliJ plugins using IntelliJ Maven integration. 
 <p></p> First, this plugin imports Maven module as plugin modules (PLUGIN_MODULE) if one of the following is true: 
 <ul> 
