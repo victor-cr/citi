@@ -28118,7 +28118,7 @@ URL encoding/decoding and multipart-boundary conversion right inside IntelliJ ID
     <p>
       Veld is a contract-first API development tool that generates type-safe
       backends and frontends from simple schema files.
-    </p>]]></description><version>0.3.22</version><vendor email="mohalya3@gmail.com" url="">Veld</vendor><rating>00</rating><change-notes><![CDATA[<h3>0.6.0</h3>
+    </p>]]></description><version>0.3.22</version><vendor email="mohalya3@gmail.com" url="">Veld</vendor><rating>4.4</rating><change-notes><![CDATA[<h3>0.6.0</h3>
     <ul>
       <li>Compatibility update: now supports IntelliJ IDEA / GoLand / CLion 2026.1 (build 261)</li>
       <li>Raised minimum supported version to IntelliJ 2024.1 (build 241)</li>
@@ -236588,7 +236588,7 @@ and cheat-sheet export.</p>]]></change-notes><idea-version min="n/a" max="n/a" s
     fan-edit sound clips, confetti when you hit your goal, and easter eggs when you type words like
     <code>borahae</code>, <code>army</code> or <code>dynamite</code>.</p>
     <p>Everything lives in a small tool window on the right and a status bar counter. Calm mode turns off all
-    effects and sound while your counts keep going.</p>]]></description><version>0.1.0</version><vendor email="justthetipandtale@gmail.com" url="">tipandtale</vendor><rating>00</rating><change-notes><![CDATA[<ul><li>First release.</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="243.0"/><depends>com.intellij.modules.platform</depends><tags>Productivity</tags></idea-plugin><idea-plugin downloads="2" size="27355" date="1795448965000" updatedDate="1795448965000" url=""><name>MyDebug HotReload</name><id>com.optona.mydebug</id><description><![CDATA[<p>Save a file and see the change in the running Java application instantly — no restart,
+    effects and sound while your counts keep going.</p>]]></description><version>0.1.0</version><vendor email="justthetipandtale@gmail.com" url="">tipandtale</vendor><rating>00</rating><change-notes><![CDATA[<ul><li>First release.</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="243.0"/><depends>com.intellij.modules.platform</depends><tags>Productivity</tags></idea-plugin><idea-plugin downloads="2" size="67146" date="1795512658000" updatedDate="1795512658000" url=""><name>MyDebug HotReload</name><id>com.optona.mydebug</id><description><![CDATA[<p>Save a file and see the change in the running Java application instantly — no restart,
     with or without the debugger.</p>
     <p>MyDebug HotReload compiles what you saved and reloads it into the running JVM. A small bundled agent
     then refreshes Spring and MyBatis so new endpoints, injected fields and SQL changes are live right away.</p>
@@ -236606,7 +236606,16 @@ and cheat-sheet export.</p>]]></change-notes><idea-version min="n/a" max="n/a" s
           typical reloads in tens of milliseconds.</li>
     </ul>
     <p>Settings: <i>Settings | Tools | MyDebug HotReload</i>. Actions: <i>Run | MyDebug: Reload on Save</i>
-    and <i>Run | MyDebug: Compile and Reload Now</i> (Ctrl+Alt+F9).</p>]]></description><version>0.1.0</version><vendor email="info@optona.tr" url="">Optona</vendor><rating>00</rating><change-notes><![CDATA[<ul><li>Initial release: reload on save, automatic enhanced class redefinition on JetBrains Runtime, optional HotswapAgent support.</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="243.0"/><depends>com.intellij.modules.java</depends><depends>com.intellij.modules.platform</depends><tags>Debugging</tags><tags>Productivity</tags></idea-plugin></category><ff>"Static Analysis"</ff><category name="Static Analysis"><idea-plugin downloads="34326" size="6840128" date="1767110654000" updatedDate="1767110654000" url=""><name>OpenText Core Application Security</name><id>fortify.fod</id><description><![CDATA[The <a href="https://www.microfocus.com/cyberres/application-security/fortify-on-demand">OpenText Core Application Security</a>
+    and <i>Run | MyDebug: Compile and Reload Now</i> (Ctrl+Alt+F9).</p>]]></description><version>0.2.0</version><vendor email="info@optona.tr" url="">Optona</vendor><rating>00</rating><change-notes><![CDATA[<ul><li>Bundled agent: Spring endpoint mapping, re-injection of new @Autowired/@Value fields, registration of new @Component classes.</li><li>MyBatis mapper XML reload.</li><li>Reload in Run mode without the debugger.</li><li>External HotswapAgent jar no longer needed.</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="243.0"/><depends>com.intellij.modules.java</depends><depends>com.intellij.modules.platform</depends><tags>Debugging</tags><tags>Productivity</tags></idea-plugin><idea-plugin downloads="0" size="105493" date="1795484470000" updatedDate="1795484470000" url="https://jschelert1.github.io/resource-navigator/"><name>Resource Navigator</name><id>com.jschelert.resource-navigator</id><description><![CDATA[Makes local file paths and URLs in supported Python string expressions directly navigable.
+
+    Resource Navigator supports ordinary and adjacent string literals, constant
+    f-string interpolation, compile-time constant references and concatenation,
+    pathlib constructors, and bracketed resource citations.
+
+    Local resources can be resolved against the source-file directory or project
+    root. The plugin also provides missing-resource inspection, Quick Documentation,
+    configurable resource extensions, and actions for opening, revealing, and
+    copying resolved resources.]]></description><version>2.2.4</version><vendor email="jschelert1@gmail.com" url="https://github.com/jschelert1">James Schelert</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="252.0"/><depends>com.intellij.modules.python</depends><depends>Pythonid</depends><depends>com.intellij.modules.platform</depends><tags>Code Editing</tags><tags>Code Quality</tags><tags>Code Tools</tags><tags>Inspection</tags><tags>Navigation</tags><tags>Productivity</tags></idea-plugin></category><ff>"Static Analysis"</ff><category name="Static Analysis"><idea-plugin downloads="34326" size="6840128" date="1767110654000" updatedDate="1767110654000" url=""><name>OpenText Core Application Security</name><id>fortify.fod</id><description><![CDATA[The <a href="https://www.microfocus.com/cyberres/application-security/fortify-on-demand">OpenText Core Application Security</a>
       plugin for IntelliJ enables you to package and submit your projects for
       <a href="https://www.microfocus.com/cyberres/application-security/static-code-analyzer">static application security testing</a>
       (SAST) scans to OpenText Core Application Security directly from the IDE. The main features are:<br>
@@ -322112,7 +322121,36 @@ everything the IDE does for JSON keeps working. Settings: <i>Settings › Langua
   <li><b>Pretty JSON lines</b>: expand a JSON log entry into a readable popup (also copied to the clipboard).</li>
   <li>ANSI colors in files larger than 5 MB.</li>
 </ul>
-<p>Settings: <i>Settings &gt; Tools &gt; LogPilot</i>.</p>]]></description><version>1.0.0</version><vendor email="thedupfinder@gmail.com" url="">sdsoftware</vendor><rating>00</rating><change-notes><![CDATA[<p>1.0.0: First release.</p>]]></change-notes><idea-version min="n/a" max="n/a" since-build="242.0" until-build="263.*"/><depends>com.intellij.modules.platform</depends><tags>Debugging</tags><tags>Editor</tags><tags>Viewer</tags><tags>Freemium</tags><productCode>PLOGPILOT</productCode></idea-plugin><idea-plugin downloads="37" size="6550119" date="1795375075000" updatedDate="1795375075000" url=""><name>Markdone</name><id>ch.nmeylan.markdone</id><description><![CDATA[<p>Fast, virtual rendering, private Markdown editor: one tab with a <b>Source</b> mode (platform text editor)
+<p>Settings: <i>Settings &gt; Tools &gt; LogPilot</i>.</p>]]></description><version>1.0.0</version><vendor email="thedupfinder@gmail.com" url="">sdsoftware</vendor><rating>00</rating><change-notes><![CDATA[<p>1.0.0: First release.</p>]]></change-notes><idea-version min="n/a" max="n/a" since-build="242.0" until-build="263.*"/><depends>com.intellij.modules.platform</depends><tags>Debugging</tags><tags>Editor</tags><tags>Viewer</tags><tags>Freemium</tags><productCode>PLOGPILOT</productCode></idea-plugin><idea-plugin downloads="11" size="6975574" date="1795512604000" updatedDate="1795512604000" url="https://github.com/IljaGnezdilov/intellij-xls-viewer"><name>XLS Viewer</name><id>org.cprime.xlsviewer</id><description><![CDATA[<p>Read-only XLS viewer with workbook diff.</p>
+<p>Open legacy Excel 97-2003 workbooks (<code>.xls</code>) right in the IDE and see them the way
+Excel draws them: fonts, fills, borders, alignment, text wrapping, merged cells, frozen panes,
+row heights, column widths and number formats.</p>
+<ul>
+  <li>Sheet switching with Excel-like tabs, <code>Ctrl+PgUp</code> / <code>Ctrl+PgDn</code> and hidden sheets</li>
+  <li>Range selection and <code>Ctrl+C</code> as TSV, ready to paste into Excel</li>
+  <li>Zoom 50-300%, gridlines toggle, IDE theme aware colors</li>
+  <li>Formula results are shown, the formula itself is available in a tooltip</li>
+</ul>
+<p><b>Workbook diff</b> is picked up automatically for Show Diff, Compare with Local and Diff in Commit:</p>
+<ul>
+  <li>side-by-side before/after panes with synchronized scrolling</li>
+  <li>change markers on sheets, rows and columns; changed cells are outlined; added and deleted
+  rows and columns are shown as hatched placeholders</li>
+  <li>"Only changes" mode collapses unchanged rows and columns and marks skipped ranges with dashed gaps</li>
+  <li><code>Alt+Arrow</code> and <code>F7</code> / <code>Shift+F7</code> navigation between changes</li>
+</ul>
+<p>Requires IntelliJ IDEA 2025.2 or newer. The plugin only reads workbooks and never modifies them.
+Source code and issue tracker: <a href="https://github.com/IljaGnezdilov/intellij-xls-viewer">GitHub</a>.
+Licensed under MIT.</p>]]></description><version>0.5.1</version><vendor email="ilja_gnezdilov@mail.ru" url="">c-prime</vendor><rating>00</rating><change-notes><![CDATA[<ul>
+  <li>Empty differences are hidden by default: cells that are empty on both sides
+  (formatting-only cells, empty formula results, whitespace-only text) are no longer
+  marked, counted or kept visible in the <b>Only changes</b> mode. The status bar
+  shows how many empty differences were hidden.</li>
+  <li>New <b>Show empty changes</b> checkbox brings them back and is remembered
+  between sessions.</li>
+  <li>Added and deleted rows and columns are still shown even when they contain
+  no values.</li>
+</ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="252.0"/><depends>com.intellij.modules.platform</depends><tags>Tools Integration</tags><tags>VCS</tags><tags>Viewer</tags></idea-plugin><idea-plugin downloads="37" size="6550119" date="1795375075000" updatedDate="1795375075000" url=""><name>Markdone</name><id>ch.nmeylan.markdone</id><description><![CDATA[<p>Fast, virtual rendering, private Markdown editor: one tab with a <b>Source</b> mode (platform text editor)
     and an <b>Edit</b> mode (live preview that you can edit). No network access: all scripts are bundled.</p>
     <p><b>Editor</b></p>
     <ul>

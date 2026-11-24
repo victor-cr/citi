@@ -25614,10 +25614,10 @@
 		"version": "0.4.1"
 	},
 	{
-		"id": 1227851,
+		"id": 1227936,
 		"pluginId": 25067,
 		"pluginXmlId": "tech.ryansu.simpleadmin.SimpleAdmin-Extension",
-		"version": "0.6.2"
+		"version": "0.6.3"
 	},
 	{
 		"id": 1224852,
@@ -48756,7 +48756,7 @@
 		"version": "1.0.9"
 	},
 	{
-		"id": 1227931,
+		"id": 1227937,
 		"pluginId": 33412,
 		"pluginXmlId": "com.github.izerui.imux",
 		"version": "1.4.14"
@@ -61488,10 +61488,10 @@
 		"version": "1.0.0"
 	},
 	{
-		"id": 1223818,
+		"id": 1227934,
 		"pluginId": 36262,
 		"pluginXmlId": "org.cprime.xlsviewer",
-		"version": "0.4.0"
+		"version": "0.5.1"
 	},
 	{
 		"id": 1224238,
@@ -61926,10 +61926,16 @@
 		"version": "2026.1.0"
 	},
 	{
-		"id": 1227567,
+		"id": 1227935,
 		"pluginId": 36412,
 		"pluginXmlId": "com.optona.mydebug",
-		"version": "0.1.0"
+		"version": "0.2.0"
+	},
+	{
+		"id": 1227742,
+		"pluginId": 36417,
+		"pluginXmlId": "com.jschelert.resource-navigator",
+		"version": "2.2.4"
 	},
 	{
 		"id": 1227764,

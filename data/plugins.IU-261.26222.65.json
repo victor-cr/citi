@@ -60600,6 +60600,12 @@
 		"version": "1.0.0"
 	},
 	{
+		"id": 1227934,
+		"pluginId": 36262,
+		"pluginXmlId": "org.cprime.xlsviewer",
+		"version": "0.5.1"
+	},
+	{
 		"id": 1224238,
 		"pluginId": 36263,
 		"pluginXmlId": "dev.zefixed.expandcursor",
@@ -60972,10 +60978,16 @@
 		"version": "2026.1.0"
 	},
 	{
-		"id": 1227567,
+		"id": 1227935,
 		"pluginId": 36412,
 		"pluginXmlId": "com.optona.mydebug",
-		"version": "0.1.0"
+		"version": "0.2.0"
+	},
+	{
+		"id": 1227742,
+		"pluginId": 36417,
+		"pluginXmlId": "com.jschelert.resource-navigator",
+		"version": "2.2.4"
 	},
 	{
 		"id": 1227764,
