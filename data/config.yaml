@@ -34,7 +34,7 @@ common:
           enabled: true
           version: '2026.2.1'
         - build: 262.8665.337
-          enabled: false
+          enabled: true
           version: '2026.2.0.1'
         - build: 262.8665.258 # Current mainstream
           enabled: true
@@ -43,10 +43,10 @@ common:
           enabled: true
           version: '2026.1.4'
         - build: 261.24374.151
-          enabled: false
+          enabled: true
           version: '2026.1.2'
         - build: 261.22158.277
-          enabled: false
+          enabled: true
           version: '2026.1'
 loader:
   bucket: 50
