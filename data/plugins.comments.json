@@ -91516,6 +91516,7 @@
 		}
 	],
 	"com.gambikus.algojar": [],
+	"com.gandx.commit-files-exporter": [],
 	"com.ganshenml.unique.plugin.id": [
 		{
 			"author": {
@@ -118131,6 +118132,7 @@
 			"rating": 5
 		}
 	],
+	"com.github.senocak.prreview": [],
 	"com.github.serverfrog.bitburnerplugin": [
 		{
 			"author": {
@@ -236183,6 +236185,7 @@
 	"dev.jvmbeacon": [],
 	"dev.kaenguruudev.localcord": [],
 	"dev.kaioken.patchtalk": [],
+	"dev.kakapo.comments": [],
 	"dev.kambei.gitviz": [],
 	"dev.karpfen.mcl": [],
 	"dev.kdl": [],
@@ -249200,6 +249203,7 @@
 	],
 	"icu.windea.starboundText": [],
 	"id.andriawan.lacak-asset": [],
+	"id.autoevidence.activity": [],
 	"id.mustofa.breeze-dark": [],
 	"idea-mini-ibatis": [
 		{
@@ -250826,6 +250830,7 @@
 			"rating": 5
 		}
 	],
+	"im.ttalk.capstan": [],
 	"imagevisualizer": [],
 	"imiatselski.idea_find_in_files_ignoring_whitespaces_plugin": [],
 	"impog.vyra-theme": [],
@@ -275330,6 +275335,7 @@
 		}
 	],
 	"manuh.graphzeal": [],
+	"mappeek.idea": [],
 	"marcel2012.database.missingIndexPlugin": [],
 	"marcglasberg.HibernateInspectionsPlugin": [],
 	"marklogic-plugin": [

@@ -47490,10 +47490,10 @@
 		"version": "1.0.9"
 	},
 	{
-		"id": 1227469,
+		"id": 1227931,
 		"pluginId": 33412,
 		"pluginXmlId": "com.github.izerui.imux",
-		"version": "1.4.13"
+		"version": "1.4.14"
 	},
 	{
 		"id": 1129083,
@@ -58740,10 +58740,10 @@
 		"version": "0.2.0"
 	},
 	{
-		"id": 1227785,
+		"id": 1227926,
 		"pluginId": 35996,
 		"pluginXmlId": "com.hot.tools.hotupdate",
-		"version": "1.0.6"
+		"version": "1.0.7"
 	},
 	{
 		"id": 1225913,
@@ -59628,6 +59628,12 @@
 		"version": "1.1.0"
 	},
 	{
+		"id": 1227783,
+		"pluginId": 36234,
+		"pluginXmlId": "im.ttalk.capstan",
+		"version": "1.6.0"
+	},
+	{
 		"id": 1223169,
 		"pluginId": 36235,
 		"pluginXmlId": "com.sdsoftware.infrapilot",
@@ -59760,10 +59766,10 @@
 		"version": "0.9.2"
 	},
 	{
-		"id": 1223779,
+		"id": 1227924,
 		"pluginId": 36268,
 		"pluginXmlId": "com.tracenest",
-		"version": "1.0.0"
+		"version": "1.2.0"
 	},
 	{
 		"id": 1223786,
@@ -60174,10 +60180,10 @@
 		"version": "2026.1.0"
 	},
 	{
-		"id": 1227102,
+		"id": 1227887,
 		"pluginId": 36405,
 		"pluginXmlId": "dev.liveftl.preview",
-		"version": "1.0.1"
+		"version": "1.0.2"
 	},
 	{
 		"id": 1227141,
@@ -60208,5 +60214,35 @@
 		"pluginId": 36414,
 		"pluginXmlId": "com.aspid.previewscroll",
 		"version": "0.2.0"
+	},
+	{
+		"id": 1227764,
+		"pluginId": 36419,
+		"pluginXmlId": "com.gandx.commit-files-exporter",
+		"version": "1.2.0"
+	},
+	{
+		"id": 1227776,
+		"pluginId": 36420,
+		"pluginXmlId": "mappeek.idea",
+		"version": "0.1.1"
+	},
+	{
+		"id": 1227784,
+		"pluginId": 36421,
+		"pluginXmlId": "id.autoevidence.activity",
+		"version": "0.2.1"
+	},
+	{
+		"id": 1227922,
+		"pluginId": 36423,
+		"pluginXmlId": "com.github.senocak.prreview",
+		"version": "1.0.0"
+	},
+	{
+		"id": 1227928,
+		"pluginId": 36424,
+		"pluginXmlId": "dev.kakapo.comments",
+		"version": "0.0.1"
 	}
 ]

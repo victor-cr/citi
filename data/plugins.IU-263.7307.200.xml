@@ -55549,7 +55549,44 @@ It reads the <code>.vscode/sftp.json</code> your team already uses with the VS C
             <li>Initial release: collections, folders, environments, HTTP requests, response viewer, tests, history.</li>
             <li>Collection runner with data files, iterations, delays, and report export.</li>
             <li>Postman, OpenAPI 3.0, cURL, and native workspace import/export.</li>
-        </ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="242.0"/><depends>com.intellij.modules.platform</depends><tags>Tools Integration</tags></idea-plugin></category><ff>"BDD"</ff><category name="BDD"><idea-plugin downloads="212891" size="4312828" date="1785942288000" updatedDate="1785942288000" url="https://github.com/witspirit/IntelliJBehave"><name>JBehave Support</name><id>jbehave-support-plugin</id><description><![CDATA[<p>This plugin provides some support for JBehave. It is a fork of IntelliJBehave, originally created by Aman Kumar.</p>
+        </ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="242.0"/><depends>com.intellij.modules.platform</depends><tags>Tools Integration</tags></idea-plugin><idea-plugin downloads="0" size="3552763" date="1795490884000" updatedDate="1795490884000" url=""><name>MapPeek</name><id>mappeek.idea</id><description><![CDATA[
+        MapPeek detects the Map request and response fields of Java endpoints and turns them into API documentation your frontend can use right away.
+        <p>Standard documentation tools render <code>Map&lt;String, Object&gt;</code> as an empty object, so the frontend sees no fields at all.
+        MapPeek extracts the fields straight from source code, lets you confirm them inside the IDE, and exports in one click:</p>
+        <ul>
+            <li>Understands <code>map.put</code> literals, constant keys and <code>Map.of</code>, including nested Maps and <code>List&lt;Map&gt;</code></li>
+            <li>Expands entity / DTO / VO / record parameters and return types, reading <code>@Schema</code>, <code>@ApiModelProperty</code>, JavaDoc and validation annotations, with getter fallback</li>
+            <li>Resolves MyBatis column aliases from both <code>@Select</code> annotations and XML mappers</li>
+            <li>Reads <code>@Operation</code>, <code>@ApiOperation</code>, <code>@Tag</code> and custom annotations to fill endpoint titles and groups</li>
+            <li>Edit field descriptions directly in the tool window with live preview; saving regenerates the docs</li>
+            <li>Copy standard JSON Schema or OpenAPI 3.0 in one click and import it into Apifox / YApi / Postman</li>
+        </ul>
+        <p>Source code is only read: no compilation, no container startup, no changes to business files. The only write is the <code>.mappeek</code> directory in the project root.</p>
+
+        <p><b>中文</b></p>
+        <p><b>MapPeek</b> 自动识别 Java 接口里的 <code>Map</code> 入参与出参，生成可直接交付给前端的接口文档。</p>
+        <p>标准文档工具遇到 <code>Map&lt;String, Object&gt;</code> 只能渲染成空对象，前端看不到任何字段。
+        MapPeek 直接从源码提取字段，在 IDE 内确认后一键导出：</p>
+        <ul>
+            <li>识别 <code>map.put</code> 字面量、常量 key、<code>Map.of</code>，支持嵌套 Map 与 <code>List&lt;Map&gt;</code></li>
+            <li>参数或返回值是实体 / DTO / VO / record 时自动展开字段，读取 <code>@Schema</code>、<code>@ApiModelProperty</code>、JavaDoc 与校验注解，字段无注解时回退到 getter</li>
+            <li>解析 MyBatis 列别名，覆盖 <code>@Select</code> 注解与 XML mapper</li>
+            <li>识别 <code>@Operation</code>、<code>@ApiOperation</code>、<code>@Tag</code> 与自定义注解，自动填充接口标题与分组</li>
+            <li>工具窗口内直接编辑字段说明，实时预览，保存即重新生成文档</li>
+            <li>一键复制标准 JSON Schema 或 OpenAPI 3.0，可直接导入 Apifox / YApi / Postman</li>
+        </ul>
+        <p>只读取源码，不编译、不启动容器、不修改业务文件。唯一写入是项目根目录下的 <code>.mappeek</code>。</p>
+    ]]></description><version>0.1.1</version><vendor email="yangsf_app@163.com" url="">疯狂de程序员</vendor><rating>00</rating><change-notes><![CDATA[
+        MapPeek <b>0.1.1</b>
+        <ul>
+            <li>首次发布：Map 字段识别、工具窗口编辑与预览、OpenAPI 与 JSON Schema 导出</li>
+        </ul>
+        <p><b>English</b></p>
+        MapPeek <b>0.1.1</b>
+        <ul>
+            <li>First release: Map field detection, in-IDE editing and preview, OpenAPI and JSON Schema export</li>
+        </ul>
+    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="233.0"/><depends>com.intellij.modules.java</depends><depends>com.intellij.modules.platform</depends><tags>Tools Integration</tags></idea-plugin></category><ff>"BDD"</ff><category name="BDD"><idea-plugin downloads="212891" size="4312828" date="1785942288000" updatedDate="1785942288000" url="https://github.com/witspirit/IntelliJBehave"><name>JBehave Support</name><id>jbehave-support-plugin</id><description><![CDATA[<p>This plugin provides some support for JBehave. It is a fork of IntelliJBehave, originally created by Aman Kumar.</p>
 
 <p><strong>NOTE</strong>: This project is now looking for a maintainer. You can find contact information in the project's <code>plugin.xml</code> under vendor details.</p>
 
@@ -135512,7 +135549,14 @@ Custom plugin logo and file type icon based on the TaskJuggler logo.]]></change-
 <li>Checks: a DATA or PROC step without <code>run;</code> or <code>quit;</code> before the next step; a <code>%macro</code> without <code>%mend</code>; a <code>%mend</code> without a <code>%macro</code>, or one that names a different macro; a string or comment that is never closed.</li>
 </ul>
 <p>Macro calls are followed within one file only; the plugin does not run, parse or check the meaning of the code, and does not know the names of the language's functions or procedure options. It only reads your files; it contacts no address and sends nothing anywhere.</p>
-<p>IntelliJ IDEA, PyCharm and JetBrains are trademarks of JetBrains s.r.o. The plugin is not made by, or connected with, the maker of the language whose files it opens, and takes its grammar from public knowledge of the file format.</p>]]></description><version>1.0.0</version><vendor email="support@npcoding.com" url="https://npcoding.ca">NPCoding</vendor><rating>00</rating><change-notes><![CDATA[<p>1.0.0: First release.</p>]]></change-notes><idea-version min="n/a" max="n/a" since-build="251.0"/><depends>com.intellij.modules.platform</depends><tags>Code Editing</tags><tags>Programming Language</tags><tags>Paid</tags><productCode>PNPCSTATPROG</productCode></idea-plugin></category><ff>"OS Integration"</ff><category name="OS Integration"><idea-plugin downloads="3085" size="2145" date="1151586731000" updatedDate="1151586731000" url=""><name>OpenContainingFolder</name><id>OpenContainingFolder</id><description><![CDATA[Plugin for Viewing folders with Windows Explorer - Category: Editor.  Added key binding and more robust exception handling.]]></description><version>1.3</version><vendor email="mcaliskan@gmail.com" url="">Mert Caliskan (mcaliskan@stm.com.tr), Jayaram Veeraraghavan (jayaram13@yahoo.com)</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="40.2253"/><tags>OS Integration</tags></idea-plugin><idea-plugin downloads="5703" size="6765" date="1408285864000" updatedDate="1408285864000" url=""><name>Finder Info</name><id>com.kstenschke.finderinfo</id><description><![CDATA[Extends the project files popup menu with an option for showing file informations in the Mac OSX finder. Having the files component focussed, the keyboard shortcut [CMD] + [I] opens the finder file informations as well. Additionally, opening the file information brings all finder windows to the front. Please note: this plugin works on Mac OSX only.]]></description><version>1.0.2</version><vendor email="info@stenschke.com" url="">Kay Stenschke</vendor><rating>4.1</rating><change-notes><![CDATA[<ul> 
+<p>IntelliJ IDEA, PyCharm and JetBrains are trademarks of JetBrains s.r.o. The plugin is not made by, or connected with, the maker of the language whose files it opens, and takes its grammar from public knowledge of the file format.</p>]]></description><version>1.0.0</version><vendor email="support@npcoding.com" url="https://npcoding.ca">NPCoding</vendor><rating>00</rating><change-notes><![CDATA[<p>1.0.0: First release.</p>]]></change-notes><idea-version min="n/a" max="n/a" since-build="251.0"/><depends>com.intellij.modules.platform</depends><tags>Code Editing</tags><tags>Programming Language</tags><tags>Paid</tags><productCode>PNPCSTATPROG</productCode></idea-plugin><idea-plugin downloads="0" size="1678541" date="1795510961000" updatedDate="1795510961000" url=""><name>kakapo comments</name><id>dev.kakapo.comments</id><description><![CDATA[<p>Write a review comment where the caret is — in the editor or in the Diff window — and hand
+the whole review to a coding agent with one copy.</p>
+<p>Comments are kept in the repository's own <code>.git/kakapo/comments.jsonl</code>, the file
+the <a href="https://github.com/happy-nut/kakapo">kakapo</a> desktop reader uses, so a comment
+written in the IDE opens there and one written there is marked in the IDE's gutter.</p>
+<p>A comment stores the text of the line it was written on, so it still points at the right
+line after an agent has edited the file from outside the IDE.</p>]]></description><version>0.0.1</version><vendor email="hssongng@gmail.com" url="">kakapo</vendor><rating>00</rating><change-notes><![CDATA[First release: a review comment at the caret, in the editor and in the Diff window, kept in
+the repository's own .git/kakapo/comments.jsonl so kakapo and the IDE read one review.]]></change-notes><idea-version min="n/a" max="n/a" since-build="252.0"/><depends>com.intellij.modules.platform</depends><tags>Code Editing</tags></idea-plugin></category><ff>"OS Integration"</ff><category name="OS Integration"><idea-plugin downloads="3085" size="2145" date="1151586731000" updatedDate="1151586731000" url=""><name>OpenContainingFolder</name><id>OpenContainingFolder</id><description><![CDATA[Plugin for Viewing folders with Windows Explorer - Category: Editor.  Added key binding and more robust exception handling.]]></description><version>1.3</version><vendor email="mcaliskan@gmail.com" url="">Mert Caliskan (mcaliskan@stm.com.tr), Jayaram Veeraraghavan (jayaram13@yahoo.com)</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="40.2253"/><tags>OS Integration</tags></idea-plugin><idea-plugin downloads="5703" size="6765" date="1408285864000" updatedDate="1408285864000" url=""><name>Finder Info</name><id>com.kstenschke.finderinfo</id><description><![CDATA[Extends the project files popup menu with an option for showing file informations in the Mac OSX finder. Having the files component focussed, the keyboard shortcut [CMD] + [I] opens the finder file informations as well. Additionally, opening the file information brings all finder windows to the front. Please note: this plugin works on Mac OSX only.]]></description><version>1.0.2</version><vendor email="info@stenschke.com" url="">Kay Stenschke</vendor><rating>4.1</rating><change-notes><![CDATA[<ul> 
  <li>v1.0.2 Bugfix: Evocation via keyboard shortcut w/o any file selected caused null pointer exception</li> 
  <li>v1.0.1 Added: Keyboard shortcut - [CMD] + [I]</li> 
  <li>v1.0.0 Initial Release</li> 
@@ -135614,7 +135658,14 @@ PhpStorm, GoLand...) should work too. Something looks off or stays solid? Please
         JetBrains Toolbox shell script for the currently running IDE.<br><br>
         Use it in External Tools, Run Configurations, or anywhere IntelliJ macros are supported
         to launch the current IDE from the command line via its Toolbox-managed shell script.<br><br>
-        Supports macOS, Linux, and Windows.]]></description><version>1.0.0</version><vendor email="ryanbower01@gmail.com" url="">Ryan Bower</vendor><rating>00</rating><change-notes><![CDATA[Initial version]]></change-notes><idea-version min="n/a" max="n/a" since-build="252.25557"/><depends>com.intellij.modules.platform</depends><tags>OS Integration</tags></idea-plugin></category><ff>"Maven"</ff><category name="Maven"><idea-plugin downloads="66411" size="13893" date="1477050776000" updatedDate="1477050776000" url=""><name>Intellij plugin development with Maven</name><id>com.guidewire.build.ijdevkitmvn</id><description><![CDATA[This plugin provides minimal support for developing IntelliJ plugins using IntelliJ Maven integration. 
+        Supports macOS, Linux, and Windows.]]></description><version>1.0.0</version><vendor email="ryanbower01@gmail.com" url="">Ryan Bower</vendor><rating>00</rating><change-notes><![CDATA[Initial version]]></change-notes><idea-version min="n/a" max="n/a" since-build="252.25557"/><depends>com.intellij.modules.platform</depends><tags>OS Integration</tags></idea-plugin><idea-plugin downloads="0" size="53504" date="1795494051000" updatedDate="1795494051000" url=""><name>Auto Evidence Activity</name><id>id.autoevidence.activity</id><description><![CDATA[
+        Tells the local Auto Evidence desktop application which project and file the editor shows, which project
+        frame is active, that a file changed (a count per minute, never what changed), and when a run, debug or test
+        session starts and ends. Metadata only: no file contents, no typed text, no selections, no clipboard, no
+        terminal input or output, no debugger values, no AI chat. Events go to 127.0.0.1 only, with the
+        per-installation token of the desktop application. When the application is not running, nothing is sent and
+        nothing fails.
+    ]]></description><version>0.2.1</version><vendor email="irsyadjpratamap@gmail.com" url="">DevDrop</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="243.0"/><depends>com.intellij.modules.platform</depends><tags>OS Integration</tags></idea-plugin></category><ff>"Maven"</ff><category name="Maven"><idea-plugin downloads="66411" size="13893" date="1477050776000" updatedDate="1477050776000" url=""><name>Intellij plugin development with Maven</name><id>com.guidewire.build.ijdevkitmvn</id><description><![CDATA[This plugin provides minimal support for developing IntelliJ plugins using IntelliJ Maven integration. 
 <p></p> First, this plugin imports Maven module as plugin modules (PLUGIN_MODULE) if one of the following is true: 
 <ul> 
  <li>Packaging is set to 'ij-plugin'</li> 
@@ -176627,40 +176678,57 @@ debug zig code with them. You can still use those IDEs to develop code and use e
             <li>method parameters</li>
             <li>custom fields with generics</li>
         </ul>]]></description><version>1.4.3</version><vendor email="3293232930@qq.com" url="">ly-chn</vendor><rating>4.6</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="262.0" until-build="263.*"/><depends>com.intellij.javaee.el</depends><depends>com.intellij.modules.java</depends><depends>com.intellij.modules.json</depends><depends>com.intellij.modules.platform</depends><depends>intellij.spring</depends><depends>intellij.spring.el</depends><depends>org.intellij.intelliLang</depends><depends>org.jetbrains.kotlin</depends><tags>Completion</tags></idea-plugin><idea-plugin downloads="19843" size="588398" date="1793604951000" updatedDate="1793604951000" url=""><name>Flexible Freemarker</name><id>com.ilscipio.language</id><description><![CDATA[<p>Full FreeMarker IDE with deep language support, custom macros, smart autocomplete, documentation and collaboration features.</p>
-
-<p><em>Send us your feedback!</em>  Weâ€™d love to hear what you think. Bug reports, feature requests, and constructive criticism are incredibly valuable to us. Please reach out on <a href="https://github.com/ilscipio/flexible-freemarker-jetbrains-plugin/">GitHub</a> or via email â€” we actively listen and iterate.</p>
-
+<p><em>Send us your feedback!</em> We'd love to hear what you think. Bug reports, feature requests, and constructive criticism are incredibly valuable to us. Please reach out on <a href="https://github.com/ilscipio/flexible-freemarker-jetbrains-plugin/">GitHub</a> or via email” we actively listen and iterate.</p>
 <h2>Features:</h2>
-
-<ul><li>Complete Freemarker language implementation with full IDE support<ul><li>Dedicated Freemarker editor built from scratch (Change file association to "Flexible Freemarker" on ftl files to enable)</li><li>Define your own Freemarker macros &amp; functions with documentation &amp; autocomplete through our Project Editor (File -&gt; Settings -&gt; Tools &gt; Flexible Freemarker)</li><li>Import &amp; Export all customizations to share with your team</li><li>Full autocomplete, element documentation, syntax highlighting and error detection</li><li>Recognizes inline expressions, directives, expressions and user directives</li><li>Supports structure view for template navigation</li><li>Context-aware code completion for all Freemarker constructs</li><li>Real-time validation and error detection</li><li>Smart handling of mixed HTML/CSS/JS within templates</li><li>Gutter icons for macros, functions, includes and imports</li><li>Inlay hints for macro parameters (Settings &gt; Editor &gt; Inlay Hints &gt; FreeMarker)</li><li>"Surround With" (Ctrl+Alt+T) for quick directive wrapping</li><li>"Go to Symbol" (Ctrl+Alt+Shift+N) for macro and function navigation</li><li>File templates for new FreeMarker files (File &gt; New &gt; FreeMarker File)</li><li>Breadcrumbs navigation showing macro and directive hierarchy</li><li>Full support for FreeMarker square bracket (alternate) tag syntax (<code>[#if]</code>, <code>[/@macro]</code>, <code>[#-- comment --]</code>)</li></ul></li></ul>
-
-
-<ul><li>Load macro/function definitions from a shared URL for team collaboration (Settings &gt; Tools &gt; Flexible Freemarker)</li><li>Auto-detect <code>freemarkerexport.yaml</code> in project root for shared team definitions</li><li>Import Wizard: scan project FreeMarker files for macros/functions with documentation comment support</li></ul>
-
+<ul>
+<li><p>Complete Freemarker language implementation with full IDE support</p>
+<ul>
+<li>Dedicated Freemarker editor built from scratch (Change file association to "Flexible Freemarker" on ftl files to enable)</li>
+<li>Define your own Freemarker macros &amp; functions with documentation &amp; autocomplete through our Project Editor (File -&gt; Settings -&gt; Tools &gt; Flexible Freemarker)</li>
+<li>Import &amp; Export all customizations to share with your team</li>
+<li>Full autocomplete, element documentation, syntax highlighting and error detection</li>
+<li>Recognizes inline expressions, directives, expressions and user directives</li>
+<li>Supports structure view for template navigation</li>
+<li>Context-aware code completion for all Freemarker constructs</li>
+<li>Real-time validation and error detection</li>
+<li>Smart handling of mixed HTML/CSS/JS within templates</li>
+<li>Gutter icons for macros, functions, includes and imports</li>
+<li>Inlay hints for macro parameters (Settings &gt; Editor &gt; Inlay Hints &gt; FreeMarker)</li>
+<li>"Surround With" (Ctrl+Alt+T) for quick directive wrapping</li>
+<li>"Go to Symbol" (Ctrl+Alt+Shift+N) for macro and function navigation</li>
+<li>File templates for new FreeMarker files (File &gt; New &gt; FreeMarker File)</li>
+<li>Breadcrumbs navigation showing macro and directive hierarchy</li>
+<li>Full support for FreeMarker square bracket (alternate) tag syntax (<code>[#if]</code>, <code>[/@macro]</code>, <code>[#-- comment --]</code>)</li>
+</ul>
+</li>
+<li><p>Load macro/function definitions from a shared URL for team collaboration (Settings &gt; Tools &gt; Flexible Freemarker)</p>
+</li>
+<li><p>Auto-detect <code>freemarkerexport.yaml</code> in project root for shared team definitions</p>
+</li>
+<li><p>Import Wizard: scan project FreeMarker files for macros/functions with documentation comment support</p>
+</li>
+</ul>
 <h2>Hints</h2>
-
-<ul><li>Create your own functions and macros with our settings editor (File -&gt; Settings -&gt; Tools &gt; Flexible Freemarker)</li><li>Settings are stored per project</li><li>Configure inlay hints via Settings &gt; Editor &gt; Inlay Hints &gt; FreeMarker (uses your custom macro definitions)</li><li>For the Freemarker editor, we strongly recommend setting the severity level for html elements during code inspection to a lower level as HTML can sometimes be interrupted by templating code</li><li>"Help, my autocomplete seems broken in <em>.ftl files": Validate the file type association. A quick indicator is the file icon, which should display the scipio logo in the lower right corner. If missing, go to "Settings" &gt; "File Types" &gt; "Flexible Freemarker" &gt; List should include "</em>.ftl". Add if missing</li></ul>
-
-
+<ul>
+<li>Create your own functions and macros with our settings editor (File -&gt; Settings -&gt; Tools &gt; Flexible Freemarker)</li>
+<li>Settings are stored per project</li>
+<li>Configure inlay hints via Settings &gt; Editor &gt; Inlay Hints &gt; FreeMarker (uses your custom macro definitions)</li>
+<li>For the Freemarker editor, we strongly recommend setting the severity level for html elements during code inspection to a lower level as HTML can sometimes be interrupted by templating code</li>
+<li>"Help, my autocomplete seems broken in <em>.ftl files": Validate the file type association. A quick indicator is the file icon, which should display the scipio logo in the lower right corner. If missing, go to "Settings" &gt; "File Types" &gt; "Flexible Freemarker" &gt; List should include "</em>.ftl". Add if missing</li>
+</ul>
 <h2>Made by developers with a love for Freemarker</h2>
 <p>The integration is the work of <a href="https://www.ilscipio.com/">Ilscipio</a>:</p>
-
-<p>
-<img src="https://www.ilscipio.com//wp-content/uploads/2018/11/ilscipio_soldier2-2.svg" width="200" alt="The Ilscipio Logo - A roman soldier">
-</p>
-
-
+<p><img src="https://www.ilscipio.com//wp-content/uploads/2018/11/ilscipio_soldier2-2.svg" alt="The Ilscipio Logo - A roman soldier"></p>
 <p>We use Freemarker for many of our project frameworks (e.g.: <a href="https://www.scipioerp.com/">Scipio ERP</a>, <a href="https://plugins.jetbrains.com/plugin/23556-magnolia-cms-integration">Magnolia CMS</a>) and love the framework for the power it provides. We have had great interaction with the community in the past.</p>
-
 <p>This plugin is a complete reimplementation of Freemarker language support. We built it because we needed better IDE support for our extensive use of custom macros and functions. Rather than just adding basic highlighting, we created a full Freemarker development environment that understands the entire language and lets you extend it with your own definitions.</p>
-
 <p>We figured this could be a useful tool to have for all the other Freemarker developers out there, so here it is :)</p>
-
-<ul><li>Special discounts are available for individual developers &amp; of course for the whole Open Source community.</li><li><strong>Original Freemarker contributors can contact us for a 100% discount.</strong></li></ul>
-
+<ul>
+<li>Special discounts are available for individual developers &amp; of course for the whole Open Source community.</li>
+<li><strong>Original Freemarker contributors can contact us for a 100% discount.</strong></li>
+</ul>
 <h2>Bugs &amp; Feature Requests</h2>
-
-<p>If you have any questions, feature requests or stumble upon the occasional bug, come leave us a message at <a href="https://www.ilscipio.com/">Ilscipio</a></p>]]></description><version>2026.2.13</version><vendor email="info@ilscipio.com" url="https://www.ilscipio.com">ilscipio</vendor><rating>4.6</rating><change-notes><![CDATA[<h3>Added</h3>
+<p>If you have any questions, feature requests or stumble upon the occasional bug, come leave us a message at <a href="https://www.ilscipio.com/">Ilscipio</a></p>
+]]></description><version>2026.2.13</version><vendor email="info@ilscipio.com" url="https://www.ilscipio.com">ilscipio</vendor><rating>4.6</rating><change-notes><![CDATA[<h3>Added</h3>
 
 <ul><li>The IDE error dialog can now report a plugin error as a new GitHub issue. The issue opens in your browser, so you can check the text before you send it.</li></ul>
 
@@ -183676,7 +183744,104 @@ AND it injects GLSL syntax into KSML code blocks as well as injects KSML meta di
 
 <h3>Fixed</h3>
 
-<ul><li>Fix internal function visibility checks across overloads</li><li>Fix ordinary comments being treated as imports</li><li>Fix import completion and diagnostic ranges in injected GLSL comments</li><li>Fix release draft generation for manually maintained changelogs</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="241.0"/><depends>OpenGL-Plugin</depends><depends>com.intellij.modules.platform</depends><tags>Code Tools</tags><tags>Completion</tags><tags>Graphics</tags><tags>Inspection</tags><tags>Programming Language</tags></idea-plugin></category><ff>"Code Quality"</ff><category name="Code Quality"><idea-plugin downloads="37335" size="26307493" date="1794326381000" updatedDate="1794326381000" url=""><name>Teamscale Integration</name><id>com.teamscale.ide.intellij</id><description><![CDATA[<p>Allows for seamless browsing of quality defects found by the <a href="https://www.teamscale.com/">Teamscale software-quality analysis server</a>.
+<ul><li>Fix internal function visibility checks across overloads</li><li>Fix ordinary comments being treated as imports</li><li>Fix import completion and diagnostic ranges in injected GLSL comments</li><li>Fix release draft generation for manually maintained changelogs</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="241.0"/><depends>OpenGL-Plugin</depends><depends>com.intellij.modules.platform</depends><tags>Code Tools</tags><tags>Completion</tags><tags>Graphics</tags><tags>Inspection</tags><tags>Programming Language</tags></idea-plugin><idea-plugin downloads="1" size="8394995" date="1795493963000" updatedDate="1795493963000" url=""><name>Capstan</name><id>im.ttalk.capstan</id><description><![CDATA[<p>Clojure / ClojureScript support in the spirit of <a href="https://calva.io">Calva</a>, written in Clojure.</p>
+    <ul>
+      <li>Structural editing: Calva's paredit commands (all 435 Calva paredit test cases pass), strict mode,
+          cljfmt formatting, folding, <code>#_</code> highlighting, form-aware Extend Selection</li>
+      <li>clojure-lsp through Capstan's own LSP client (latest version downloaded automatically, or your own) with refactorings in the Refactor menu</li>
+      <li>nREPL: jack-in for deps.edn / Leiningen / shadow-cljs / babashka / nbb, inline results, REPL window
+          with completion and pretty printing, clickable stack traces, ClojureScript sessions</li>
+      <li>clojure.test results in the IDE test tree, with diffs and rerun failed</li>
+      <li>Debugger: cider-nrepl's debugger in the IDE debugger UI — line breakpoints, stepping, locals,
+          evaluate at breakpoint</li>
+    </ul>
+    <p>Keys live under two prefix chords so nothing collides with IDE defaults: press <code>Alt+N</code>
+       (REPL, tests, debugger) or <code>Alt+K</code> (paredit), then the key below.
+       An optional "Capstan (Calva)" keymap adds Calva's single-stroke keys.
+       The full list is always available in Settings → Keymap (search "Capstan").</p>
+    <p><b>Alt+N, then… (REPL / tests / debugger)</b></p>
+    <table>
+      <tbody><tr><td><code>Enter</code></td><td>Evaluate current form</td></tr>
+      <tr><td><code>Shift+Enter</code></td><td>Evaluate top-level form</td></tr>
+      <tr><td><code>T</code></td><td>Evaluate from start of top-level form to cursor</td></tr>
+      <tr><td><code>D</code></td><td>Instrument top-level form for debugging</td></tr>
+      <tr><td><code>F</code></td><td>Load current file</td></tr>
+      <tr><td><code>J</code></td><td>Jack-in: start a REPL and connect</td></tr>
+      <tr><td><code>C</code></td><td>Connect to a running nREPL</td></tr>
+      <tr><td><code>K</code></td><td>Connect a ClojureScript REPL</td></tr>
+      <tr><td><code>L</code></td><td>Toggle .cljc session (clj / cljs)</td></tr>
+      <tr><td><code>Shift+C</code></td><td>Disconnect</td></tr>
+      <tr><td><code>I</code></td><td>Interrupt running evaluations</td></tr>
+      <tr><td><code>S</code></td><td>Print last stacktrace</td></tr>
+      <tr><td><code>X</code></td><td>Run tests for current namespace</td></tr>
+      <tr><td><code>Shift+X</code></td><td>Run test at cursor</td></tr>
+      <tr><td><code>A</code></td><td>Run all tests in project</td></tr>
+      <tr><td><code>R</code></td><td>Show REPL window</td></tr>
+      <tr><td><code>Backspace</code></td><td>Clear inline results</td></tr>
+    </tbody></table>
+    <p><b>Alt+K, then… (paredit / structural editing)</b></p>
+    <table>
+      <tbody><tr><td><code>F</code> / <code>B</code></td><td>Move forward / backward over a sexp</td></tr>
+      <tr><td><code>D</code> / <code>Shift+D</code></td><td>Move forward-down / backward-down into a list</td></tr>
+      <tr><td><code>O</code> / <code>U</code></td><td>Move forward-up / backward-up out of a list</td></tr>
+      <tr><td><code>E</code> / <code>A</code></td><td>Move to list end / start</td></tr>
+      <tr><td><code>Space</code> / <code>Shift+Space</code></td><td>Select current form / top-level form</td></tr>
+      <tr><td><code>W</code> / <code>Shift+W</code></td><td>Expand / shrink selection</td></tr>
+      <tr><td><code>Shift+F</code> / <code>Shift+B</code></td><td>Select forward / backward sexp</td></tr>
+      <tr><td><code>Shift+O</code> / <code>Shift+U</code></td><td>Select forward-up / backward-up</td></tr>
+      <tr><td><code>Shift+E</code> / <code>Shift+A</code></td><td>Select to list end / start</td></tr>
+      <tr><td><code>Right</code> / <code>Left</code></td><td>Slurp / barf forward</td></tr>
+      <tr><td><code>Shift+Left</code> / <code>Shift+Right</code></td><td>Slurp / barf backward</td></tr>
+      <tr><td><code>R</code></td><td>Raise sexp</td></tr>
+      <tr><td><code>S</code> / <code>Shift+S</code></td><td>Splice / split sexp</td></tr>
+      <tr><td><code>J</code></td><td>Join sexps</td></tr>
+      <tr><td><code>T</code></td><td>Transpose sexps</td></tr>
+      <tr><td><code>C</code></td><td>Convolute sexp</td></tr>
+      <tr><td><code>Up</code> / <code>Down</code></td><td>Drag sexp backward / forward</td></tr>
+      <tr><td><code>Shift+Up</code> / <code>Shift+Down</code></td><td>Drag sexp backward-up / forward-down</td></tr>
+      <tr><td><code>K</code> / <code>Shift+K</code></td><td>Kill sexp forward / backward</td></tr>
+      <tr><td><code>L</code> / <code>Shift+L</code></td><td>Kill right / left</td></tr>
+      <tr><td><code>Delete</code> / <code>Backspace</code></td><td>Kill to list end / start</td></tr>
+      <tr><td><code>Shift+Delete</code> / <code>Shift+Backspace</code></td><td>Splice &amp; kill forward / backward</td></tr>
+      <tr><td><code>9</code> / <code>[</code> / <code>Shift+[</code></td><td>Wrap with () / [] / {}</td></tr>
+      <tr><td><code>3</code> / <code>'</code></td><td>Wrap with #{} / ""</td></tr>
+      <tr><td><code>Shift+9</code> / <code>]</code> / <code>Shift+]</code></td><td>Rewrap to () / [] / {}</td></tr>
+      <tr><td><code>Shift+3</code> / <code>Shift+'</code></td><td>Rewrap to #{} / ""</td></tr>
+      <tr><td><code>Tab</code></td><td>Format current form</td></tr>
+      <tr><td><code>M</code></td><td>Add rich comment</td></tr>
+      <tr><td><code>I</code> / <code>Shift+I</code></td><td>Toggle #_ on current / enclosing form</td></tr>
+      <tr><td><code>P</code></td><td>Toggle strict mode</td></tr>
+    </tbody></table>
+    <p>Supports the latest IntelliJ IDEA only. No other plugins required. Not compatible with Cursive or clojure-lsp-intellij.</p>]]></description><version>1.6.0</version><vendor email="support@ttalk.pro" url="https://ttalk.im">ttalk</vendor><rating>00</rating><change-notes><![CDATA[<p>1.6.0 — No longer depends on LSP4IJ: Capstan has its own LSP client for clojure-lsp. The latest clojure-lsp is
+       downloaded and kept up to date automatically (or pin a version / use PATH / a custom path); the previous version is kept and
+       used automatically if a new one fails to start. Status bar widget, log tool window, crash restarts. Diagnostics, completion,
+       navigation, find usages, rename, documentation, code actions, parameter info, highlighting of usages, structure view,
+       Go to Symbol, call hierarchy, reference counts and semantic highlighting.</p>
+    <p>1.5.0 — Version bump.</p>
+    <p>0.1.5 — Internal restructuring, no behavior change: Java classes grouped by feature
+       (language, editing, REPL, tests, debugger, clojure-lsp) with shared base classes; Clojure
+       code split into smaller namespaces with shared helpers.</p>
+    <p>0.1.4 — REPL output log: everything shown in the REPL window (inputs with their ns prompt,
+       stdout / stderr, results, connection markers) is also appended to
+       <code>.capstan/repl-output.log</code> in the project, ANSI-stripped, like Calva's file output
+       destination. Always on; rotates once past 10 MB (<code>.log.1</code>); the <code>.capstan</code>
+       folder ignores itself for git.</p>
+    <p>0.1.3 — Performance and robustness: evaluation, Extend Selection, typing, Enter and strict-mode
+       keys no longer rescan the whole file on the UI thread; structure scanning is ~4× faster, folding
+       and #_ highlighting share one model and fold in a single pass; typing updates the model
+       incrementally (~20× faster on large files). Reformat Code runs cljfmt in the background
+       (cancellable). nREPL messages are sent from a background writer (the UI never blocks on the
+       socket; the status bar shows "not responding" if the server stops reading), and evaluation
+       summaries are size-capped. Closing a project disconnects its REPL. Fixed an internal API use that
+       failed plugin verification.</p>
+    <p>0.1.2 — Localization: English (default) and Chinese UI, following the IDE language
+       (Chinese Language Pack). Keyboard shortcuts are now listed in the plugin description.</p>
+    <p>0.1.1 — REPL polish: evaluation results stand out in green italic (matching inline results),
+       friendlier disconnected tool window with connect / jack-in buttons. Windows jack-in fixes:
+       executable resolution via PATH + PATHEXT (no more error=2 / error=193 with scoop shims),
+       correct argument quoting for -Sdeps.</p>
+    <p>0.1.0 — first release: structural editing, clojure-lsp, nREPL and jack-in, test tree, debugger,
+       optional Calva keymap.</p>]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.0"/><depends>com.intellij.modules.platform</depends><depends>com.intellij.platform.testRunner</depends><tags>Code Editing</tags><tags>Completion</tags><tags>Programming Language</tags></idea-plugin></category><ff>"Code Quality"</ff><category name="Code Quality"><idea-plugin downloads="37335" size="26307493" date="1794326381000" updatedDate="1794326381000" url=""><name>Teamscale Integration</name><id>com.teamscale.ide.intellij</id><description><![CDATA[<p>Allows for seamless browsing of quality defects found by the <a href="https://www.teamscale.com/">Teamscale software-quality analysis server</a>.
             Teamscale analyzes source code incrementally with every commit, which means, it can provide feedback to your IDE in a matter of seconds. (<strong>Note: A running Teamscale server is necessary to use this plugin.</strong>)</p>
         <p>This plugin has the following features:</p>
         <ul>
@@ -230651,20 +230816,22 @@ IDE, with their own settings and plugins.</p>
 privately. A guest opens an empty folder as a project, clicks <i>Join with an
 invitation</i> and pastes it. Works with the free features of IntelliJ IDEA.</p>
 <p><a href="https://github.com/chomusuke-png/OpenCollab/blob/main/docs/USER_GUIDE.md">User guide</a> ·
-<a href="https://github.com/chomusuke-png/OpenCollab/blob/main/docs/PRIVACY.md">Privacy policy</a></p>]]></description><version>3.12.0</version><vendor email="owokenji@gmail.com" url="https://github.com/chomusuke-png">chomusuke-png &amp; hi444</vendor><rating>00</rating><change-notes><![CDATA[<h3>3.12.0</h3><p><b>Added</b></p><ul><li>A <a href="https://github.com/chomusuke-png/OpenCollab/blob/main/docs/PRIVACY.md">privacy policy</a>: what OpenCollab sends where (no telemetry, no servers of ours) and what it stores.</li><li>The plugin's page in <i>Settings | Plugins</i> describes what it does and how to start, and names the authors' email and website.</li></ul><h3>3.11.0</h3><p><b>Added</b></p><ul><li><b>The host learns who can use an invitation before sending it:</b> when all its addresses are private (or only this computer), the tool window says that only people on your network can join, with a link to the connection settings, and copying the invitation says it again.</li><li><b>Relay URL checks:</b> a listen address such as <code>wss://0.0.0.0:…</code> is refused (in the settings and when hosting starts), and <code>localhost</code> or a private address gets a warning, since guests could not reach it. A guest given such an invitation is told what the host must change.</li><li><b>One-command relay install:</b> <code>install.sh</code> (Linux, WSL, macOS) and <code>install.ps1</code> (Windows with Docker Desktop) check Docker, ask whether you have a domain or which port to use, create the host secret, start the relay and print what hosts enter in the plugin. Running it again updates the relay. See <a href="https://github.com/chomusuke-png/OpenCollab/blob/main/docs/RELAY_SERVER.md#quick-install">the relay guide</a>.</li></ul><p><b>Changed</b></p><ul><li>The plugin's author in <i>Settings | Plugins</i> is now <b>chomusuke-png &amp; hi444</b> instead of "OpenCollab contributors".</li></ul><h3>3.10.0</h3><p><b>Added</b></p><ul><li><b>A new icon</b> for OpenCollab, on the plugin's page in <i>Settings | Plugins</i> and, simplified, on the tool window button in the side bar.</li></ul><h3>3.9.0</h3><p><b>Added</b></p><ul><li><b>Relay image on GitHub:</b> each release publishes the relay server as <code>ghcr.io/chomusuke-png/opencollab-relay</code> (amd64 and arm64). The compose files use it, so a server needs only them, not the source code. See <a href="https://github.com/chomusuke-png/OpenCollab/blob/main/docs/RELAY_SERVER.md#docker">the relay guide</a>.</li><li><b>Welcome after installing:</b> a notice explains how to share a project and how to join one, with buttons for the <a href="https://github.com/chomusuke-png/OpenCollab/blob/main/docs/USER_GUIDE.md">user guide</a> and the tool window. The guide also opens from <i>Tools | OpenCollab | User Guide</i> and from the tool window.</li><li><b>Automatic port forwarding</b> (off by default): while you host, OpenCollab can ask your router (UPnP or NAT-PMP) to forward the listen port, so people on the internet can join without setting up the router. The <i>Router</i> line in the tool window shows what the router said; the mapping is removed when the session ends. If the router cannot do it, hosting goes on and manual forwarding or the relay still work. See the <a href="https://github.com/chomusuke-png/OpenCollab/blob/main/docs/USER_GUIDE.md#inviting-a-remote-participant-different-network">user guide</a>.</li></ul><p><a href="https://github.com/chomusuke-png/OpenCollab/blob/main/CHANGELOG.md">All changes</a></p>]]></change-notes><idea-version min="n/a" max="n/a" since-build="262.0"/><depends>com.intellij.modules.platform</depends><tags>Code Editing</tags><tags>Fun Stuff</tags><tags>Productivity</tags><tags>TeamWork</tags></idea-plugin><idea-plugin downloads="2" size="27355" date="1795448965000" updatedDate="1795448965000" url=""><name>MyDebug HotReload</name><id>com.optona.mydebug</id><description><![CDATA[<p>Save a file while debugging and see the change in the running JVM instantly — no restart.</p>
-    <p>MyDebug HotReload compiles what you saved and pushes the new bytecode into every active Java debug
-    session automatically. On a JVM that supports enhanced class redefinition (JetBrains Runtime, DCEVM)
-    it also enables structural changes such as adding or removing methods and fields.</p>
+<a href="https://github.com/chomusuke-png/OpenCollab/blob/main/docs/PRIVACY.md">Privacy policy</a></p>]]></description><version>3.12.0</version><vendor email="owokenji@gmail.com" url="https://github.com/chomusuke-png">chomusuke-png &amp; hi444</vendor><rating>00</rating><change-notes><![CDATA[<h3>3.12.0</h3><p><b>Added</b></p><ul><li>A <a href="https://github.com/chomusuke-png/OpenCollab/blob/main/docs/PRIVACY.md">privacy policy</a>: what OpenCollab sends where (no telemetry, no servers of ours) and what it stores.</li><li>The plugin's page in <i>Settings | Plugins</i> describes what it does and how to start, and names the authors' email and website.</li></ul><h3>3.11.0</h3><p><b>Added</b></p><ul><li><b>The host learns who can use an invitation before sending it:</b> when all its addresses are private (or only this computer), the tool window says that only people on your network can join, with a link to the connection settings, and copying the invitation says it again.</li><li><b>Relay URL checks:</b> a listen address such as <code>wss://0.0.0.0:…</code> is refused (in the settings and when hosting starts), and <code>localhost</code> or a private address gets a warning, since guests could not reach it. A guest given such an invitation is told what the host must change.</li><li><b>One-command relay install:</b> <code>install.sh</code> (Linux, WSL, macOS) and <code>install.ps1</code> (Windows with Docker Desktop) check Docker, ask whether you have a domain or which port to use, create the host secret, start the relay and print what hosts enter in the plugin. Running it again updates the relay. See <a href="https://github.com/chomusuke-png/OpenCollab/blob/main/docs/RELAY_SERVER.md#quick-install">the relay guide</a>.</li></ul><p><b>Changed</b></p><ul><li>The plugin's author in <i>Settings | Plugins</i> is now <b>chomusuke-png &amp; hi444</b> instead of "OpenCollab contributors".</li></ul><h3>3.10.0</h3><p><b>Added</b></p><ul><li><b>A new icon</b> for OpenCollab, on the plugin's page in <i>Settings | Plugins</i> and, simplified, on the tool window button in the side bar.</li></ul><h3>3.9.0</h3><p><b>Added</b></p><ul><li><b>Relay image on GitHub:</b> each release publishes the relay server as <code>ghcr.io/chomusuke-png/opencollab-relay</code> (amd64 and arm64). The compose files use it, so a server needs only them, not the source code. See <a href="https://github.com/chomusuke-png/OpenCollab/blob/main/docs/RELAY_SERVER.md#docker">the relay guide</a>.</li><li><b>Welcome after installing:</b> a notice explains how to share a project and how to join one, with buttons for the <a href="https://github.com/chomusuke-png/OpenCollab/blob/main/docs/USER_GUIDE.md">user guide</a> and the tool window. The guide also opens from <i>Tools | OpenCollab | User Guide</i> and from the tool window.</li><li><b>Automatic port forwarding</b> (off by default): while you host, OpenCollab can ask your router (UPnP or NAT-PMP) to forward the listen port, so people on the internet can join without setting up the router. The <i>Router</i> line in the tool window shows what the router said; the mapping is removed when the session ends. If the router cannot do it, hosting goes on and manual forwarding or the relay still work. See the <a href="https://github.com/chomusuke-png/OpenCollab/blob/main/docs/USER_GUIDE.md#inviting-a-remote-participant-different-network">user guide</a>.</li></ul><p><a href="https://github.com/chomusuke-png/OpenCollab/blob/main/CHANGELOG.md">All changes</a></p>]]></change-notes><idea-version min="n/a" max="n/a" since-build="262.0"/><depends>com.intellij.modules.platform</depends><tags>Code Editing</tags><tags>Fun Stuff</tags><tags>Productivity</tags><tags>TeamWork</tags></idea-plugin><idea-plugin downloads="2" size="27355" date="1795448965000" updatedDate="1795448965000" url=""><name>MyDebug HotReload</name><id>com.optona.mydebug</id><description><![CDATA[<p>Save a file and see the change in the running Java application instantly — no restart,
+    with or without the debugger.</p>
+    <p>MyDebug HotReload compiles what you saved and reloads it into the running JVM. A small bundled agent
+    then refreshes Spring and MyBatis so new endpoints, injected fields and SQL changes are live right away.</p>
     <ul>
-      <li><b>Reload on save</b> — Ctrl+S compiles incrementally and HotSwaps into the debuggee;
-          bursts of saves are batched into a single reload.</li>
-      <li><b>Enhanced redefinition, automatically</b> — when a debug run starts, the target JDK is probed once;
-          if it supports <code>-XX:+AllowEnhancedClassRedefinition</code> the flag is added. JDKs that do not
-          support it are left untouched, so the application always starts.</li>
-      <li><b>Framework reloads (optional)</b> — point the plugin to a HotswapAgent jar to reload Spring beans,
-          Hibernate mappings, resources and more.</li>
-      <li><b>Clear feedback</b> — reload time in the status bar, and a hint when a change needs
-          JetBrains Runtime.</li>
+      <li><b>Reload on save</b> — Ctrl+S compiles incrementally and reloads; bursts of saves are batched.
+          Works in <i>Run</i> mode too: the agent watches the build output and redefines changed classes itself.</li>
+      <li><b>Spring</b> — new or changed <code>@GetMapping</code>/<code>@PostMapping</code> endpoints are mapped,
+          new <code>@Autowired</code>/<code>@Value</code> fields are injected into the existing beans, and brand-new
+          <code>@Service</code>/<code>@RestController</code> classes are registered as beans.</li>
+      <li><b>MyBatis</b> — edited mapper XML files are re-parsed into the running configuration.</li>
+      <li><b>Structural changes</b> — on JetBrains Runtime / DCEVM, <code>-XX:+AllowEnhancedClassRedefinition</code>
+          is added automatically, so adding or removing methods and fields reloads too. The JDK is probed first;
+          unsupported JDKs are left untouched.</li>
+      <li><b>Fast</b> — native file notifications instead of polling, one batched redefinition per build,
+          typical reloads in tens of milliseconds.</li>
     </ul>
     <p>Settings: <i>Settings | Tools | MyDebug HotReload</i>. Actions: <i>Run | MyDebug: Reload on Save</i>
     and <i>Run | MyDebug: Compile and Reload Now</i> (Ctrl+Alt+F9).</p>]]></description><version>0.1.0</version><vendor email="info@optona.tr" url="">Optona</vendor><rating>00</rating><change-notes><![CDATA[<ul><li>Initial release: reload on save, automatic enhanced class redefinition on JetBrains Runtime, optional HotswapAgent support.</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="243.0"/><depends>com.intellij.modules.java</depends><depends>com.intellij.modules.platform</depends><tags>Debugging</tags><tags>Productivity</tags></idea-plugin><idea-plugin downloads="0" size="27833" date="1795464074000" updatedDate="1795464074000" url="https://github.com/VPDPersonal/Aspid.PreviewScroll"><name>Aspid.PreviewScroll</name><id>com.aspid.previewscroll</id><description><![CDATA[<p>Scroll the selected file while your keyboard focus stays in the project tree.</p>
@@ -267823,7 +267990,29 @@ Snapshots stay on this machine. Licences are checked by the IDE through JetBrain
   <li>Use a compact hash pill with unchanged text color, no hover underline and visible keyboard focus.</li>
   <li>Retain conservative edited-line mapping, cancellation and editor-owned scrolling.</li>
 </ul>
-    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.7307.200" until-build="263.*"/><depends>Git4Idea</depends><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.platform</depends><tags>VCS</tags></idea-plugin></category><ff>"Search and Replace"</ff><category name="Search and Replace"><idea-plugin downloads="2679" size="40914" date="1147283182000" updatedDate="1147283182000" url=""><name>SyncEdit</name><id>SyncEdit</id><description><![CDATA[Similar to 'SyncEdit' functionality already in Borland Delphi, and soon to be in Eclipse...
+    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.7307.200" until-build="263.*"/><depends>Git4Idea</depends><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.platform</depends><tags>VCS</tags></idea-plugin><idea-plugin downloads="0" size="119148" date="1795488331000" updatedDate="1795488331000" url=""><name>Commit and Project Files Exporter</name><id>com.gandx.commit-files-exporter</id><description><![CDATA[
+        <h2>Commit and Project Files Exporter</h2>
+        <p>Export files selected from Git/SVN pending changes, Local Changes, the Commit tool window,
+        or the Project view into a deployment-ready JAR while preserving directory structure.
+        Any export containing Java sources runs Make Project first. Java is exported as the latest class files by default, with an option to export source files instead.</p>
+        <ul>
+            <li><b>Mixed export:</b> Export JSP, static assets, JAR dependencies, and Java class or source files together.</li>
+            <li><b>Git + SVN:</b> Works with both Git and SVN through IntelliJ IDEA's unified VCS APIs.</li>
+            <li><b>Deployment layout:</b> Tomcat webapp mapping places classes under WEB-INF/classes and JARs under WEB-INF/lib.</li>
+            <li><b>Tree selection:</b> Check or uncheck an entire directory with one click.</li>
+            <li><b>Build guard:</b> Runs Make Project whenever Java is selected and exports only after a successful build.</li>
+        </ul>
+        <h2>提交与项目文件导出</h2>
+        <p>从 Git/SVN 待提交变更、Local Changes、Commit 窗口或项目视图选中文件中，
+        按目录结构导出可部署 JAR。Java 文件默认先构建项目，再导出最新 class；也可选择导出 Java 源码。</p>
+        <ul>
+            <li><b>混合导出：</b>一次同时导出 JSP、静态资源、JAR，以及 Java class 或 Java 源码。</li>
+            <li><b>Git + SVN：</b>统一使用 IntelliJ IDEA VCS 接口，同时支持 Git 和 SVN 工作流。</li>
+            <li><b>部署结构：</b>支持 Tomcat Web 应用结构，class 到 WEB-INF/classes，JAR 到 WEB-INF/lib。</li>
+            <li><b>目录树选择：</b>复选框目录树支持按目录批量选中或取消。</li>
+            <li><b>构建保护：</b>选中内容包含 Java 时自动 Make Project，仅构建成功后生成导出包。</li>
+        </ul>
+    ]]></description><version>1.2.0</version><vendor email="haowuzhenxuanpu@163.com" url="">G&amp;X</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="211.0"/><depends>com.intellij.java</depends><depends>com.intellij.modules.platform</depends><tags>Code Tools</tags><tags>Maven</tags><tags>Menu Components</tags><tags>Tools Integration</tags><tags>VCS</tags></idea-plugin></category><ff>"Search and Replace"</ff><category name="Search and Replace"><idea-plugin downloads="2679" size="40914" date="1147283182000" updatedDate="1147283182000" url=""><name>SyncEdit</name><id>SyncEdit</id><description><![CDATA[Similar to 'SyncEdit' functionality already in Borland Delphi, and soon to be in Eclipse...
     This plugin allows you to do an inplace synchronized edit of all instances of a string within a defined range.<br><br>
 
     A "SyncEdit Mode" menu item is added to the Search and Editor Popup menus.  Simply select a range to be edited,
@@ -278860,7 +279049,7 @@ No cumbersome searches; fast and easy.<br>]]></change-notes><idea-version min="n
 <li>Attach to the running firmware, remote probe-rs server, per-run-configuration settings</li>
 <li>Install or update probe-rs, udev rules helper, core dumps, diagnostics for bug reports</li>
 <li>Wokwi simulator: a Remote Debug configuration from <code>wokwi.toml</code></li>
-</ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.0"/><depends>com.intellij.modules.platform</depends><depends>com.intellij.nativeDebug</depends><depends>com.jetbrains.rust</depends><depends>intellij.libraries.jackson.dataformat.toml</depends><tags>Build</tags><tags>Debugging</tags><tags>Internet of Things</tags><tags>Robotics</tags></idea-plugin><idea-plugin downloads="4" size="4843379" date="1795021118000" updatedDate="1795021118000" url=""><name>Trace Nest</name><id>com.tracenest</id><description><![CDATA[See what your Spring Boot services did in the last hour, without leaving the IDE and without a server
+</ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.0"/><depends>com.intellij.modules.platform</depends><depends>com.intellij.nativeDebug</depends><depends>com.jetbrains.rust</depends><depends>intellij.libraries.jackson.dataformat.toml</depends><tags>Build</tags><tags>Debugging</tags><tags>Internet of Things</tags><tags>Robotics</tags></idea-plugin><idea-plugin downloads="4" size="4941102" date="1795510000000" updatedDate="1795510000000" url=""><name>Trace Nest</name><id>com.tracenest</id><description><![CDATA[See what your Spring Boot services did in the last hour, without leaving the IDE and without a server
     or database of your own. Recording needs a Trace Nest account.
     <ul>
       <li><b>Records runs started from the IDE, with nothing to install.</b> Application and Spring Boot run
@@ -278884,15 +279073,29 @@ No cumbersome searches; fast and easy.<br>]]></change-notes><idea-version min="n
     <i>Settings | Tools | Trace Nest</i>.<br>
     Recording needs a Trace Nest account: sign in from the tool window. Free for 30 days, then a subscription
     for you, your team or your organization, managed on trace-nest.com.<br>
-    Requires Spring Boot 3, Java 21, Spring MVC and Spring Data JPA (Maven or Gradle projects).]]></description><version>1.0.0</version><vendor email="support@trace-nest.com" url="https://trace-nest.com">Trace Nest</vendor><rating>00</rating><change-notes><![CDATA[<b>1.0.0</b>
+    Requires Spring Boot 3, Java 21, Spring MVC and Spring Data JPA (Maven or Gradle projects).]]></description><version>1.2.0</version><vendor email="support@trace-nest.com" url="https://trace-nest.com">Trace Nest</vendor><rating>00</rating><change-notes><![CDATA[<b>1.2.0</b>
     <ul>
-      <li>Paid plugin with a free 30-day trial (JetBrains Marketplace).</li>
+      <li>Updated recorder: per-function timings (which of your functions a request spent its time in) and a runtime
+          watchdog that raises alerts for slow or failing behaviour, each alert naming the instance it came from.</li>
+      <li>Browser timing: a page's own API calls can be timed in the browser and joined with the server's record of
+          the same request (connection, network, server and download time). Only the URL path is kept.</li>
+      <li>A normal shutdown is reported as a planned stop, so it is not mistaken for a crash.</li>
+    </ul>
+    <b>1.1.0</b>
+    <ul>
+      <li>Subscriptions move from JetBrains Marketplace to Trace Nest: sign in with your Trace Nest account
+          (tool window or Settings | Tools | Trace Nest). Personal, team and organization subscriptions are supported,
+          and new accounts can start a free 30-day trial from the tool window.</li>
+      <li>Keeps recording for up to 3 days when Trace Nest can't be reached, within the subscription period.</li>
+    </ul>
+    <b>1.0.0</b>
+    <ul>
       <li>The Trace Nest tool window opens by itself on the first request a service receives after it starts.</li>
       <li>First release: local recording of IDE runs (the recorder is attached to the run, no dependency needed) and the Trace Nest tool window.</li>
       <li>Open in browser: free API Pulse and DB Monitor pages on trace-nest.com, fed from your machine.</li>
       <li>Clear data: delete the recorded data of a project.</li>
       <li>Help &amp; feedback form, and an anonymous daily usage ping (Settings | Tools | Trace Nest to turn it off).</li>
-    </ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="251.0"/><depends>com.intellij.modules.java</depends><depends>com.intellij.modules.platform</depends><tags>Administration Tools</tags><tags>Build</tags><tags>Code Quality</tags><tags>Code Tools</tags><tags>Database</tags><tags>Debugging</tags><tags>J2ME</tags><tags>JEE</tags><tags>Time Management</tags><tags>Freemium</tags><productCode>PTRACENEST</productCode></idea-plugin></category><ff>"Notification and Visualizers"</ff><category name="Notification and Visualizers"><idea-plugin downloads="11540" size="6093903" date="1561413630000" updatedDate="1561413630000" url=""><name>Codealike</name><id>com.codealike.client.intellij.plugin</id><description><![CDATA[Automatically track everything you do when you code. See reports and metrics in real-time and never forget again what you did on the code.<br>]]></description><version>1.5.0.29</version><vendor email="info@codealike.com" url="https://www.codealike.com">Codealike</vendor><rating>3.2</rating><change-notes><![CDATA[
+    </ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="251.0"/><depends>com.intellij.modules.java</depends><depends>com.intellij.modules.platform</depends><tags>Administration Tools</tags><tags>Build</tags><tags>Code Quality</tags><tags>Code Tools</tags><tags>Database</tags><tags>Debugging</tags><tags>J2ME</tags><tags>JEE</tags><tags>Time Management</tags></idea-plugin></category><ff>"Notification and Visualizers"</ff><category name="Notification and Visualizers"><idea-plugin downloads="11540" size="6093903" date="1561413630000" updatedDate="1561413630000" url=""><name>Codealike</name><id>com.codealike.client.intellij.plugin</id><description><![CDATA[Automatically track everything you do when you code. See reports and metrics in real-time and never forget again what you did on the code.<br>]]></description><version>1.5.0.29</version><vendor email="info@codealike.com" url="https://www.codealike.com">Codealike</vendor><rating>3.2</rating><change-notes><![CDATA[
       Improved tracking with a lot of new features in order to have the required change-notes length.<br>
     
   ]]></change-notes><idea-version min="n/a" max="n/a" since-build="141.0"/><depends>com.intellij.modules.lang</depends><tags>Notification and Visualizers</tags></idea-plugin><idea-plugin downloads="40200" size="36352" date="1488957277000" updatedDate="1488957277000" url=""><name>Zh-Translate-En</name><id>zh-translate-en</id><description><![CDATA[Android Studio Plugin. Translate chinese to english.
@@ -312456,7 +312659,7 @@ row heights, column widths and number formats.</p>
   <li>"Only changes" mode collapses unchanged rows and columns and marks skipped ranges with dashed gaps</li>
   <li><code>Alt+Arrow</code> and <code>F7</code> / <code>Shift+F7</code> navigation between changes</li>
 </ul>
-<p>Requires IntelliJ IDEA 2026.2 or newer. The plugin only reads workbooks and never modifies them.
+<p>Requires IntelliJ IDEA 2025.2 or newer. The plugin only reads workbooks and never modifies them.
 Source code and issue tracker: <a href="https://github.com/IljaGnezdilov/intellij-xls-viewer">GitHub</a>.
 Licensed under MIT.</p>]]></description><version>0.4.0</version><vendor email="ilja_gnezdilov@mail.ru" url="">c-prime</vendor><rating>00</rating><change-notes><![CDATA[<ul>
   <li>Removed the internal platform API usage: the workbook diff tool is now registered
@@ -324906,7 +325109,7 @@ fetches the <code>frus</code> tool, and <code>frus</code> fetches what each plat
     <ul>
       <li>First release: the Branch Changes view, highlighting of new files, and choosing the base branch.</li>
     </ul>
-    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="242.0"/><depends>Git4Idea</depends><depends>com.intellij.modules.platform</depends><tags>Android Studio</tags><tags>Editor</tags></idea-plugin><idea-plugin downloads="40" size="2226693" date="1795494128000" updatedDate="1795494128000" url=""><name>hot-update</name><id>com.hot.tools.hotupdate</id><description><![CDATA[<h2>hot-update — Incremental Android Development</h2>
+    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="242.0"/><depends>Git4Idea</depends><depends>com.intellij.modules.platform</depends><tags>Android Studio</tags><tags>Editor</tags></idea-plugin><idea-plugin downloads="40" size="2226399" date="1795510500000" updatedDate="1795510500000" url=""><name>hot-update</name><id>com.hot.tools.hotupdate</id><description><![CDATA[<h2>hot-update — Incremental Android Development</h2>
 <p><b>Apply selected code and resource changes from Android Studio, without a full Gradle build for every ordinary patch.</b></p>
 <p>hot-update shortens the edit–build–run loop for debuggable Android apps. Start with a normal Run, select the files you want to update, and click <b>Apply Changes</b>. The plugin reuses the captured build environment to compile and deploy your changes, using in-process hot reload where possible and a cumulative patch restart when needed.</p>
 <p>Integration uses an external Gradle init script and generated build outputs. No manual changes to your project's source or Gradle build scripts are required. Free to use under the hot-update Free Use License.</p>
@@ -324955,7 +325158,7 @@ fetches the <code>frus</code> tool, and <code>frus</code> fetches what each plat
   <li><a href="https://plugins.jetbrains.com/plugin/35996-hot-update">JetBrains Marketplace</a></li>
   <li><a href="https://github.com/zhuangdapao/hot-update-license/blob/main/EULA.md">hot-update Free Use License</a></li>
   <li><a href="mailto:theodore100820@gmail.com">Support: theodore100820@gmail.com</a></li>
-</ul>]]></description><version>1.0.6</version><vendor email="theodore100820@gmail.com" url="">hot</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="243.0"/><depends>Git4Idea</depends><depends>com.intellij.modules.platform</depends><depends>org.jetbrains.android</depends><depends>org.jetbrains.kotlin</depends><depends>org.jetbrains.plugins.gradle</depends><tags>Android</tags><tags>Android Studio</tags></idea-plugin><idea-plugin downloads="37" size="246378" date="1795024326000" updatedDate="1795024326000" url=""><name>Flutter Preview</name><id>in.bleuphoenix.flutterpreview</id><description><![CDATA[<p>
+</ul>]]></description><version>1.0.7</version><vendor email="theodore100820@gmail.com" url="">hot</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="243.0"/><depends>Git4Idea</depends><depends>com.intellij.modules.platform</depends><depends>org.jetbrains.android</depends><depends>org.jetbrains.kotlin</depends><depends>org.jetbrains.plugins.gradle</depends><tags>Android</tags><tags>Android Studio</tags></idea-plugin><idea-plugin downloads="37" size="246378" date="1795024326000" updatedDate="1795024326000" url=""><name>Flutter Preview</name><id>in.bleuphoenix.flutterpreview</id><description><![CDATA[<p>
   <b>See your Flutter widgets while you write them, right inside Android Studio and IntelliJ IDEA, without a
   browser, an emulator or a running app.</b>
 </p>
@@ -327816,7 +328019,7 @@ on <a href="https://github.com/ilscipio/flexible-for-penpot-jetbrains-plugin/iss
 <h3>1.0.0</h3>
 <ul>
   <li>First version: a square before every hex colour in any file; click it for a colour picker.</li>
-</ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="233.0"/><depends>com.intellij.modules.platform</depends><tags>CSS</tags><tags>Code Editing</tags><tags>Editor</tags></idea-plugin><idea-plugin downloads="0" size="11081747" date="1795435059000" updatedDate="1795435059000" url=""><name>Live FTL Preview</name><id>dev.liveftl.preview</id><description><![CDATA[Previews FreeMarker templates as HTML or as rendered PDF pages.]]></description><version>1.0.1</version><vendor email="gkathir15@gmail.com" url="">Live FTL</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.0"/><depends>com.intellij.modules.jcef</depends><depends>com.intellij.modules.platform</depends><tags>CSS</tags><tags>Viewer</tags><tags>Web</tags></idea-plugin></category><ff>"AI"</ff><category name="AI"><idea-plugin downloads="16457546" size="274269481" date="1795167241000" updatedDate="1795167241000" url="https://docs.sonarsource.com/sonarqube-for-intellij/"><name>SonarQube for IDE</name><id>org.sonarlint.idea</id><description><![CDATA[
+</ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="233.0"/><depends>com.intellij.modules.platform</depends><tags>CSS</tags><tags>Code Editing</tags><tags>Editor</tags></idea-plugin><idea-plugin downloads="0" size="11081755" date="1795500726000" updatedDate="1795500726000" url=""><name>Live FTL Preview</name><id>dev.liveftl.preview</id><description><![CDATA[Previews FreeMarker templates as HTML or as rendered PDF pages.]]></description><version>1.0.2</version><vendor email="gkathir15@gmail.com" url="">Live FTL</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="233.0"/><depends>com.intellij.modules.jcef</depends><depends>com.intellij.modules.platform</depends><tags>CSS</tags><tags>Viewer</tags><tags>Web</tags></idea-plugin></category><ff>"AI"</ff><category name="AI"><idea-plugin downloads="16457546" size="274269481" date="1795167241000" updatedDate="1795167241000" url="https://docs.sonarsource.com/sonarqube-for-intellij/"><name>SonarQube for IDE</name><id>org.sonarlint.idea</id><description><![CDATA[
             <p>
                 SonarQube for IDE (formerly SonarLint) by <a href="https://www.sonarsource.com/">Sonar</a> is a free, sophisticated static analysis tool that
                 enhances both your code quality and security. Start analyzing your code early—as you write or generate it.
@@ -365400,7 +365603,7 @@ webstorm storybook-connect create-missing-stories ./src/Button.tsx
 ]]></description><version>263.7307.200</version><vendor email="support@jetbrains.com" url="https://www.jetbrains.com/">JetBrains</vendor><rating>3.0</rating><change-notes><![CDATA[<p>First release of Storybook Connect for web developers and design systems — Storybook Connect
         makes navigation and search of stories easy in the IDE. Jump between your Storybook preview and
         the IDE. Navigate the full story tree, sync selection and control Storybook’s local dev server.
-        Storybook Connect ships with a CLI and Skills so your Agents can benefit too.</p>]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.7307" until-build="263.*"/><depends>JavaScript</depends><depends>fleet.rpc</depends><depends>intellij.libraries.kotlinx.coroutines.core</depends><depends>intellij.libraries.kotlinx.serialization.core</depends><depends>intellij.libraries.kotlinx.serialization.json</depends><depends>intellij.platform.core</depends><depends>intellij.platform.ide.impl</depends><depends>intellij.platform.kernel</depends><depends>intellij.platform.project</depends><depends>intellij.platform.projectModel</depends><depends>intellij.platform.rpc</depends><tags>AI</tags><tags>Build</tags><tags>Testing</tags><tags>Web</tags></idea-plugin><idea-plugin downloads="1201" size="18454864" date="1795447568000" updatedDate="1795447568000" url=""><name>imux</name><id>com.github.izerui.imux</id><description><![CDATA[imux turns your JetBrains IDE into an AI coding cockpit: run Claude Code, Codex, and Pi sessions in editor tabs, and let them use your IDE through IDEA MCP.
+        Storybook Connect ships with a CLI and Skills so your Agents can benefit too.</p>]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.7307" until-build="263.*"/><depends>JavaScript</depends><depends>fleet.rpc</depends><depends>intellij.libraries.kotlinx.coroutines.core</depends><depends>intellij.libraries.kotlinx.serialization.core</depends><depends>intellij.libraries.kotlinx.serialization.json</depends><depends>intellij.platform.core</depends><depends>intellij.platform.ide.impl</depends><depends>intellij.platform.kernel</depends><depends>intellij.platform.project</depends><depends>intellij.platform.projectModel</depends><depends>intellij.platform.rpc</depends><tags>AI</tags><tags>Build</tags><tags>Testing</tags><tags>Web</tags></idea-plugin><idea-plugin downloads="1201" size="18458744" date="1795511910000" updatedDate="1795511910000" url=""><name>imux</name><id>com.github.izerui.imux</id><description><![CDATA[imux turns your JetBrains IDE into an AI coding cockpit: run Claude Code, Codex, and Pi sessions in editor tabs, and let them use your IDE through IDEA MCP.
 
       <p><b>Why imux instead of running AI agents in a plain terminal?</b><br>
       AI coding agents work like a programmer who only has a text editor and a terminal: they read and write files and run commands,
@@ -365461,8 +365664,10 @@ webstorm storybook-connect create-missing-stories ./src/Button.tsx
         <li><b>会话轨迹</b>：把长会话浓缩成进展时间线，标出需求变更、报错和放弃的方案</li>
         <li><b>手机桥接</b>：用飞书、企业微信、钉钉或微信机器人在手机上接着聊，截图和文件也能发到手机</li>
       </ul>
-      <p>imux 不托管你的对话：会话历史保存在各 CLI 自己的存储里，卸载插件后完整保留。运行要求：JetBrains IDE 2026.2 及以上，并至少安装 <code>claude</code>、<code>codex</code>、<code>pi</code> 其中一个。</p>]]></description><version>1.4.13</version><vendor email="liuyuhua69@gmail.com" url="">izerui</vendor><rating>00</rating><change-notes><![CDATA[<ul>
-  <li>更新了中英文默认回复风格，引导 AI 在最终回复中先把事情说清楚，遇到复杂之处再用比方辅助说明。</li>
+      <p>imux 不托管你的对话：会话历史保存在各 CLI 自己的存储里，卸载插件后完整保留。运行要求：JetBrains IDE 2026.2 及以上，并至少安装 <code>claude</code>、<code>codex</code>、<code>pi</code> 其中一个。</p>]]></description><version>1.4.14</version><vendor email="liuyuhua69@gmail.com" url="">izerui</vendor><rating>00</rating><change-notes><![CDATA[<ul>
+  <li>新增「新建 AI 会话」快捷键。在 IDE 中连按两下 ⌘（macOS）或 Alt（Windows/Linux），即可在窗口中央选择智能体并新建会话。快捷键在会话终端里也生效，可在 Keymap 中自定义。</li>
+  <li>更新中英文默认回复引导，要求 AI 先把事情本身讲清楚，遇到复杂内容时再用比方辅助说明。</li>
+  <li>Claude 图标改为镂空星芒样式。</li>
 </ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="262.0"/><depends>com.intellij.modules.platform</depends><depends>org.jetbrains.plugins.terminal</depends><tags>AI</tags></idea-plugin><idea-plugin downloads="76" size="187867" date="1786105203000" updatedDate="1786105203000" url=""><name>AI Commit Auto</name><id>com.chenke.ai-commit-message</id><description><![CDATA[<p>Generate editable, reviewable Git commit messages from the changes selected in the JetBrains IDE Commit tool window. Use your own OpenAI-compatible API, enterprise gateway, or local model service. Fast, Balanced, and Deep modes handle small and large diffs; tokens stay in JetBrains Password Safe, and the plugin never commits or pushes automatically.</p>
 ]]></description><version>1.0.0</version><vendor email="chenke19960405@gmail.com" url="https://github.com/CK-96/">chenke</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="243.0"/><depends>Git4Idea</depends><depends>com.intellij.modules.platform</depends><depends>com.intellij.modules.vcs</depends><tags>AI</tags></idea-plugin><idea-plugin downloads="96" size="1544466" date="1791226874000" updatedDate="1791226874000" url="https://github.com/timbrinded/jetbrains-prompt-templates"><name>Prompt Templates</name><id>dev.smoothbrains.prompttemplates</id><description><![CDATA[<p>Create, manage and render reusable typed Markdown prompt templates inside JetBrains IDEs.</p>
       <p>Templates remain ordinary Markdown files; typed variable metadata is stored separately.</p>
@@ -379464,7 +379669,10 @@ PhpStorm, PyCharm, GoLand, RubyMine, CLion, Rider, DataGrip, DataSpell, and Rust
   <li>PasswordSafe credentials, secret redaction, sensitive-path blocking, consent tracking,
       local-only mode, and payload preview.</li>
   <li>Tool window, settings page, status bar widget, and commit-panel action.</li>
-</ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="241.0" until-build="263.*"/><depends>Git4Idea</depends><depends>com.intellij.modules.platform</depends><depends>com.intellij.modules.vcs</depends><tags>AI</tags><tags>Completion</tags><tags>Editor</tags><tags>Plugin Development</tags><tags>Productivity</tags></idea-plugin></category><ff>"SAP"</ff><category name="SAP"><idea-plugin downloads="317893" size="31750210" date="1793892970000" updatedDate="1793892970000" url=""><name>Hybris Integration</name><id>ccom.intellij.idea.plugin.hybris.impex</id><description><![CDATA[<p>This is a plugin for SAP Hybris Commerce integration.</p>
+</ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="241.0" until-build="263.*"/><depends>Git4Idea</depends><depends>com.intellij.modules.platform</depends><depends>com.intellij.modules.vcs</depends><tags>AI</tags><tags>Completion</tags><tags>Editor</tags><tags>Plugin Development</tags><tags>Productivity</tags></idea-plugin><idea-plugin downloads="0" size="187765" date="1795509878000" updatedDate="1795509878000" url=""><name>LiteLLM PR Review</name><id>com.github.senocak.prreview</id><description><![CDATA[Reads the active project's Git remotes to work out which on-premise Bitbucket Server
+        repository you are standing in, lists that repository's open pull requests in a tool
+        window, and sends a pull request's unified diff to a LiteLLM proxy for a code review.
+        The review is rendered in place, next to the list it came from.]]></description><version>1.0.0</version><vendor email="senocakanil@gmail.com" url="http://github.com/senocak">LiteLLM PR Review</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="253.0"/><depends>Git4Idea</depends><depends>com.intellij.modules.platform</depends><depends>com.intellij.modules.vcs</depends><tags>AI</tags><tags>Code Editing</tags><tags>Code Quality</tags><tags>Debugging</tags><tags>Productivity</tags><tags>Refactoring</tags></idea-plugin></category><ff>"SAP"</ff><category name="SAP"><idea-plugin downloads="317893" size="31750210" date="1793892970000" updatedDate="1793892970000" url=""><name>Hybris Integration</name><id>ccom.intellij.idea.plugin.hybris.impex</id><description><![CDATA[<p>This is a plugin for SAP Hybris Commerce integration.</p>
     <br>
     <p><b>
       If you have any questions or issues, please email us at <a href="mailto:support@hybris-integration.atlassian.net">support@hybris-integration.atlassian.net</a>
