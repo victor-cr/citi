@@ -297942,6 +297942,40 @@
 			"rating": 1
 		}
 	],
+	"org.jetbrains.amper": [
+		{
+			"author": {
+				"id": "f5337385-e41e-4acd-8e75-36da58258988",
+				"link": "/author/f5337385-e41e-4acd-8e75-36da58258988",
+				"name": "jackhb1999"
+			},
+			"cdate": "1775015889000",
+			"comment": "<p>\u6211\u5f88\u559c\u6b22\u8fd9\u4e2a\u6784\u5efa\u5de5\u5177\uff0c\u5e0c\u671b\u4e0d\u8981\u548cide\u7ed1\u5b9a\u6b7b\u3002</p>\n",
+			"id": 137221,
+			"plugin": {
+				"id": 23076,
+				"link": "/plugin/23076-amper",
+				"name": "Amper"
+			},
+			"rating": 5
+		},
+		{
+			"author": {
+				"id": "20f519f2-ce24-4224-8a28-afc0cdb3ab31",
+				"link": "/author/20f519f2-ce24-4224-8a28-afc0cdb3ab31",
+				"name": "andy"
+			},
+			"cdate": "1736974206000",
+			"comment": "",
+			"id": 111212,
+			"plugin": {
+				"id": 23076,
+				"link": "/plugin/23076-amper",
+				"name": "Amper"
+			},
+			"rating": 1
+		}
+	],
 	"org.jetbrains.android": [
 		{
 			"author": {

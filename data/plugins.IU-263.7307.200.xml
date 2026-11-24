@@ -149652,19 +149652,24 @@ remote = my-server:/httpdocs
 
 <h3>Fixed</h3>
 
-<ul><li>Offer to remove unused labels while preserving comments and the boundaries between statements.</li><li>Correct negated comparisons such as <code>not x == y</code> while preserving surrounding logical expressions.</li><li>Offer to fix <code>pcall</code> and <code>xpcall</code> calls that pass an evaluated result, so the function runs inside the protected call.</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="252.0"/><depends>com.intellij.modules.platform</depends><depends>com.redhat.devtools.lsp4ij</depends><tags>Miscellaneous</tags><tags>Programming Language</tags><tags>Refactoring</tags><tags>Paid</tags><productCode>PLUAPRO</productCode></idea-plugin><idea-plugin downloads="106" size="274232" date="1794910334000" updatedDate="1794910334000" url=""><name>Project Tiles</name><id>dominikmech.projecttiles</id><description><![CDATA[A lightweight tile dashboard for your projects, in its own editor tab, in the Home window and on the welcome screen.
+<ul><li>Offer to remove unused labels while preserving comments and the boundaries between statements.</li><li>Correct negated comparisons such as <code>not x == y</code> while preserving surrounding logical expressions.</li><li>Offer to fix <code>pcall</code> and <code>xpcall</code> calls that pass an evaluated result, so the function runs inside the protected call.</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="252.0"/><depends>com.intellij.modules.platform</depends><depends>com.redhat.devtools.lsp4ij</depends><tags>Miscellaneous</tags><tags>Programming Language</tags><tags>Refactoring</tags><tags>Paid</tags><productCode>PLUAPRO</productCode></idea-plugin><idea-plugin downloads="106" size="326584" date="1795532587000" updatedDate="1795532587000" url=""><name>Project Tiles</name><id>dominikmech.projecttiles</id><description><![CDATA[A lightweight tile dashboard for your projects, in its own editor tab, in the Home window and on the welcome screen.
 <ul>
   <li>Tiles with name, description and logo (emoji, image file, or an auto-detected <code>logo.png</code> / <code>icon.png</code>)</li>
   <li>Collections with colours; drag &amp; drop to reorder projects and collections</li>
   <li>Git branch, last commit, an ahead/behind badge and fetch / pull / push buttons per repository</li>
-  <li>Add several projects at once from the IDE's recent-projects list</li>
+  <li>Your own buttons on tiles: one click runs a command in the project's folder</li>
+  <li>Add many projects at once: from the recent-projects list, several folders, all subfolders of a folder, or by drag &amp; drop</li>
+  <li>Select several tiles to move, remove or edit them together</li>
   <li>Projects on a disconnected drive are greyed out; deleted folders are flagged</li>
   <li>Languages like on GitHub (weighted by bytes), with a manual override</li>
   <li>One project list shared with the Project Tiles extension for VS Code and its forks</li>
 </ul>
 <p>No telemetry. The only network traffic is <code>git fetch</code> in your own repositories, which can be turned off.</p>
 <p>Free and open source: <a href="https://github.com/InvisibleF0x/project-tiles">source code</a>.
-If it saves you time, you can <a href="https://github.com/sponsors/InvisibleF0x">support it through GitHub Sponsors</a>.</p>]]></description><version>1.3.0</version><vendor email="dominik02.mech@gmail.com" url="">Dominik Mech</vendor><rating>00</rating><change-notes><![CDATA[<p>1.3.0: the dashboard opens in the Home window of 2026.3 IDEs (and the non-modal welcome screen of earlier
+If it saves you time, you can <a href="https://github.com/sponsors/InvisibleF0x">support it through GitHub Sponsors</a>.</p>]]></description><version>1.4.0</version><vendor email="dominik02.mech@gmail.com" url="">Dominik Mech</vendor><rating>00</rating><change-notes><![CDATA[<p>1.4.0: tile buttons that run your own commands in a terminal (for every tile, a collection or one project);
+add several folders at once, all subfolders of a folder, or by dragging folders onto the dashboard; bulk edit
+of selected tiles (collection, colour, logo, visibility, buttons).</p>
+<p>1.3.0: the dashboard opens in the Home window of 2026.3 IDEs (and the non-modal welcome screen of earlier
 ones) in place of the start page and agent prompt; it can be turned off in Settings | Tools | Project Tiles.</p>
 <p>1.2.0: per-project overrides for showing the path, description, languages and git status on its tile,
 on top of the global settings; a new global setting for the description.</p>
@@ -151424,7 +151429,7 @@ the <a href="https://docs.dynatrace.com/docs/platform-modules/applications-and-m
             <ul>
              <li>Feature: Support claude and gemini model, dify and es8 retriever, es8 indexer </li>
               <li>Feature: Add input and output type description for nodes</li>
-            </ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="231.*"/><depends>com.intellij.modules.platform</depends><depends>org.jetbrains.plugins.go</depends><tags>Code Editing</tags><tags>Debugging</tags></idea-plugin><idea-plugin downloads="5009" size="79522" date="1794241656000" updatedDate="1794241656000" url=""><name>RustOwl</name><id>jp.s6n.idea.rustowl</id><description><![CDATA[<p>Visualize ownership and lifetimes in Rust for debugging and optimization.</p>
+            </ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="231.*"/><depends>com.intellij.modules.platform</depends><depends>org.jetbrains.plugins.go</depends><tags>Code Editing</tags><tags>Debugging</tags></idea-plugin><idea-plugin downloads="5009" size="85246" date="1795532739000" updatedDate="1795532739000" url=""><name>RustOwl</name><id>jp.s6n.idea.rustowl</id><description><![CDATA[<p>Visualize ownership and lifetimes in Rust for debugging and optimization.</p>
     <p>
       NOTE: This plugin is still under development.
       If you found a bug, please <a href="https://github.com/siketyan/intellij-rustowl/issues/new">open an issue</a> on GitHub.
@@ -151434,13 +151439,13 @@ the <a href="https://docs.dynatrace.com/docs/platform-modules/applications-and-m
       <li>Make sure <a href="https://github.com/cordx56/rustowl">RustOwl</a> is installed and on the PATH.</li>
       <li>Install this plugin to your IDE.</li>
       <li>Open Rust files and move the cursor to the identifier.</li>
-    </ol>]]></description><version>0.6.0</version><vendor email="me@s6n.jp" url="https://github.com/siketyan">Naoki Ikeguchi</vendor><rating>3.0</rating><change-notes><![CDATA[<h3>⚠ BREAKING CHANGES</h3>
+    </ol>]]></description><version>0.6.1</version><vendor email="me@s6n.jp" url="https://github.com/siketyan">Naoki Ikeguchi</vendor><rating>3.0</rating><change-notes><![CDATA[<h3>Features</h3>
 
-<ul><li>migrate to LspClient API, require 2026.1.4 or later (<a href="https://github.com/siketyan/intellij-rustowl/issues/90">#90</a>)</li></ul>
+<ul><li>highlight the selected editors again when the analysis is finished (<a href="https://github.com/siketyan/intellij-rustowl/issues/101">#101</a>) (<a href="https://github.com/siketyan/intellij-rustowl/commit/75b86e258b75fae8f587411dee44d81a156ffe7b">75b86e2</a>)</li></ul>
 
-<h3>Features</h3>
+<h3>Bug Fixes</h3>
 
-<ul><li>migrate to LspClient API, require 2026.1.4 or later (<a href="https://github.com/siketyan/intellij-rustowl/issues/90">#90</a>) (<a href="https://github.com/siketyan/intellij-rustowl/commit/d70a87b462c0c8e5cb5b649e71e032c8e86ec925">d70a87b</a>)</li><li>support 2026.3 IDEs (<a href="https://github.com/siketyan/intellij-rustowl/issues/89">#89</a>) (<a href="https://github.com/siketyan/intellij-rustowl/commit/dc1f02449dc26b5d74fa1c612608f497dd2ef829">dc1f024</a>)</li><li>support RustOwl 0.4.0 (<a href="https://github.com/siketyan/intellij-rustowl/issues/87">#87</a>) (<a href="https://github.com/siketyan/intellij-rustowl/commit/542b08ca64d2cfebca5f09fc796cce2b4cbf6a1a">542b08c</a>)</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="261.26222" until-build="263.*"/><depends>com.intellij.modules.lsp</depends><depends>com.intellij.modules.platform</depends><tags>Code Editing</tags><tags>Debugging</tags></idea-plugin><idea-plugin downloads="429" size="13778" date="1739441107000" updatedDate="1739441107000" url=""><name>Remove All But This Breakpoint</name><id>de.rakhman.removeallbutthisbreakpoint</id><description><![CDATA[<p>Adds a context menu item to the editor gutter to remove all but this breakpoint.</p>
+<ul><li>switch the progress indicator to determinate on the first report (<a href="https://github.com/siketyan/intellij-rustowl/issues/100">#100</a>) (<a href="https://github.com/siketyan/intellij-rustowl/commit/5a64960979d6686f9b52baf1613bb7c36706b729">5a64960</a>)</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="261.26222" until-build="263.*"/><depends>com.intellij.modules.lsp</depends><depends>com.intellij.modules.platform</depends><tags>Code Editing</tags><tags>Debugging</tags></idea-plugin><idea-plugin downloads="429" size="13778" date="1739441107000" updatedDate="1739441107000" url=""><name>Remove All But This Breakpoint</name><id>de.rakhman.removeallbutthisbreakpoint</id><description><![CDATA[<p>Adds a context menu item to the editor gutter to remove all but this breakpoint.</p>
 
 <p>Can also be invoked from <code>Find Action</code>. In this case, the current caret position(s) are used.</p>]]></description><version>0.0.4</version><vendor email="kirill.rakhman@gmail.com" url="https://github.com/cypressious/">Kirill Rakhman</vendor><rating>00</rating><change-notes><![CDATA[<h3>Added</h3>
 
@@ -378153,7 +378158,7 @@ language server and no network connection, sends nothing anywhere, and has no te
       <li><b>2.0.1</b> — 修复播放器空格 / ←→ / ↑↓ 偶尔没反应。<br>Fixed player keyboard shortcuts occasionally not responding.</li>
       <li><b>1.6.0</b> — 新增点赞 / 投币 / 收藏与关注 UP 主。<br>Added like, coin, favourite and follow.</li>
       <li><b>1.5.0</b> — 新增点播弹幕与「N 人正在看」。<br>Added recorded danmaku and the "N watching now" counter.</li>
-    </ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="232.0"/><depends>com.intellij.modules.platform</depends><tags>AI</tags><tags>Navigation</tags><tags>Tools Integration</tags><tags>Viewer</tags></idea-plugin><idea-plugin downloads="85" size="44411" date="1795297825000" updatedDate="1795297825000" url="https://github.com/vshulcz/deja-vu/tree/main/extensions/jetbrains"><name>deja-vu: Cross-Agent AI Session Memory</name><id>com.github.vshulcz.deja-vu</id><description><![CDATA[<p>Local cross-agent session recall, AI line blame, and handoff for IntelliJ IDEA, GoLand, PyCharm, WebStorm, RustRover, CLion, PhpStorm, and Rider.</p>
+    </ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="232.0"/><depends>com.intellij.modules.platform</depends><tags>AI</tags><tags>Navigation</tags><tags>Tools Integration</tags><tags>Viewer</tags></idea-plugin><idea-plugin downloads="85" size="44410" date="1795532514000" updatedDate="1795532514000" url="https://github.com/vshulcz/deja-vu/tree/main/extensions/jetbrains"><name>deja-vu: Cross-Agent AI Session Memory</name><id>com.github.vshulcz.deja-vu</id><description><![CDATA[<p>Local cross-agent session recall, AI line blame, and handoff for IntelliJ IDEA, GoLand, PyCharm, WebStorm, RustRover, CLion, PhpStorm, and Rider.</p>
         <p>Reads the local <code>deja</code> BM25 index across 52 coding agents (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, Junie, GitHub Copilot, Aider, Windsurf, and more) with secrets redacted before output and zero cloud dependencies.</p>
         <ul>
             <li><b>Status Bar Widget</b>: Live recall status for the open project; click to open the deja-vu action menu.</li>
@@ -378162,7 +378167,7 @@ language server and no network connection, sends nothing anywhere, and has no te
             <li><b>AI Blame Current Line</b>: Find which AI coding session wrote or touched the file and line under the caret.</li>
             <li><b>Copy Cross-Agent Handoff</b>: Generate a compact handoff digest for the current project and copy it to the clipboard.</li>
         </ul>
-        <p>Requires the <a href="https://github.com/vshulcz/deja-vu">deja</a> binary on your machine (<code>brew install deja-vu</code> or <code>curl -fsSL https://raw.githubusercontent.com/vshulcz/deja-vu/main/install.sh | sh</code>).</p>]]></description><version>0.25.0</version><vendor email="vshulcz@gmail.com" url="">vshulcz</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="242.0"/><depends>com.intellij.modules.platform</depends><tags>AI</tags><tags>Productivity</tags><tags>Tools Integration</tags></idea-plugin><idea-plugin downloads="19" size="1941198" date="1794417992000" updatedDate="1794417992000" url=""><name>OpenCode Forge</name><id>io.github.dlfinis.opencode.forge</id><description><![CDATA[<b>OpenCode Forge — the OpenCode AI coding agent, native to your JetBrains IDE.</b><br><br>
+        <p>Requires the <a href="https://github.com/vshulcz/deja-vu">deja</a> binary on your machine (<code>brew install deja-vu</code> or <code>curl -fsSL https://raw.githubusercontent.com/vshulcz/deja-vu/main/install.sh | sh</code>).</p>]]></description><version>0.25.1</version><vendor email="vshulcz@gmail.com" url="">vshulcz</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="242.0"/><depends>com.intellij.modules.platform</depends><tags>AI</tags><tags>Productivity</tags><tags>Tools Integration</tags></idea-plugin><idea-plugin downloads="19" size="1941198" date="1794417992000" updatedDate="1794417992000" url=""><name>OpenCode Forge</name><id>io.github.dlfinis.opencode.forge</id><description><![CDATA[<b>OpenCode Forge — the OpenCode AI coding agent, native to your JetBrains IDE.</b><br><br>
 
     No context switching, no copy-paste: connect to an OpenCode v2 server and drive
     an autonomous coding agent without leaving the IDE you already live in.<br><br>
