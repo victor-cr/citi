@@ -19704,10 +19704,10 @@
 		"version": "2.1.0"
 	},
 	{
-		"id": 1228006,
+		"id": 1228035,
 		"pluginId": 20500,
 		"pluginXmlId": "community.flock.wirespec.lsp.intellij_plugin",
-		"version": "0.23.13"
+		"version": "0.23.14"
 	},
 	{
 		"id": 308626,
@@ -53706,10 +53706,10 @@
 		"version": "1.1.1"
 	},
 	{
-		"id": 1226219,
+		"id": 1228036,
 		"pluginId": 34843,
 		"pluginXmlId": "com.lesstep.azure-devops-prs",
-		"version": "1.0.103"
+		"version": "1.0.103.1"
 	},
 	{
 		"id": 1219240,
@@ -54378,10 +54378,10 @@
 		"version": "1.0.1"
 	},
 	{
-		"id": 1226478,
+		"id": 1228037,
 		"pluginId": 34993,
 		"pluginXmlId": "com.lesstep.bitbucket-prs",
-		"version": "1.0.85"
+		"version": "1.0.85.1"
 	},
 	{
 		"id": 1222246,
@@ -56874,10 +56874,10 @@
 		"version": "1.0.3"
 	},
 	{
-		"id": 1225005,
+		"id": 1228038,
 		"pluginId": 35558,
 		"pluginXmlId": "com.lesstep.bitbucket-pipelines",
-		"version": "1.0.17"
+		"version": "1.0.17.1"
 	},
 	{
 		"id": 1215389,
