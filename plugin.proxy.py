@@ -90,45 +90,46 @@ class ProxyHandler(BaseHTTPRequestHandler):
     def log_request(self, code):
         pass
 
-    def load(self, conn):
-        headers = {}
-        for h, v in self.headers.items():
-            if h.lower() == 'host':
-                headers[h] = marketplaceHost
-            else:
-                headers[h] = v
-        conn.request("GET", self.path, headers=headers, encode_chunked=True)
-        response = conn.getresponse()
-        self.send_response(response.status)
-        for header, value in response.getheaders():
-            if header.lower() == 'location':
-                print('UNKN', 'Location', ':', value)
-            self.send_header(header, value)
-        self.end_headers()
-
-        if not response.chunked:
-            print('UNKN', 'Not chunked')
-            while chunk := response.read(chunkSize):
-                self.wfile.write(chunk)
-        else:
-            print('UNKN', 'Chunked')
-            while not response.isclosed():
-                if chunk := response.read(chunkSize):
-                    self.wfile.write('{:x}\r\n'.format(len(chunk)).encode(charset))
-                    self.wfile.write(chunk)
-                    self.wfile.write('\r\n'.encode(charset))
-                    self.wfile.flush()
-                else:
-                    break
-            self.wfile.write('0\r\n\r\n'.encode(charset))
-
-        print('UNKN', 'Done')
+    # def load(self, conn):
+    #     headers = {}
+    #     for h, v in self.headers.items():
+    #         if h.lower() == 'host':
+    #             headers[h] = marketplaceHost
+    #         else:
+    #             headers[h] = v
+    #     conn.request("GET", self.path, headers=headers, encode_chunked=True)
+    #     response = conn.getresponse()
+    #     self.send_response(response.status)
+    #     for header, value in response.getheaders():
+    #         if header.lower() == 'location':
+    #             print('UNKN', 'Location', ':', value)
+    #         self.send_header(header, value)
+    #     self.end_headers()
+    #
+    #     if not response.chunked:
+    #         print('UNKN', 'Not chunked')
+    #         while chunk := response.read(chunkSize):
+    #             self.wfile.write(chunk)
+    #     else:
+    #         print('UNKN', 'Chunked')
+    #         while not response.isclosed():
+    #             if chunk := response.read(chunkSize):
+    #                 self.wfile.write('{:x}\r\n'.format(len(chunk)).encode(charset))
+    #                 self.wfile.write(chunk)
+    #                 self.wfile.write('\r\n'.encode(charset))
+    #                 self.wfile.flush()
+    #             else:
+    #                 break
+    #         self.wfile.write('0\r\n\r\n'.encode(charset))
+    #
+    #     print('UNKN', 'Done')
 
     def forward(self, prefix, path):
         location = f"https://{marketplaceHost}{path}"
 
         self.send_response(301)
         self.send_header('Location', location)
+        self.send_header('Connection', 'close')
         self.end_headers()
 
         print(prefix, 'Forward to', location)
@@ -174,7 +175,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
                 content = json.dumps(results).encode(charset)
 
                 self.send_response(200)
-                self.send_header('Content-Type', f"application/json; charset={charset}")
+                self.send_header('Content-Type', 'application/graphql+json')
                 self.send_header('Content-Length', len(content))
                 self.end_headers()
                 self.wfile.write(content)
@@ -205,7 +206,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
                     content = json.dumps(results).encode(charset)
 
                     self.send_response(200)
-                    self.send_header('Content-Type', f"application/json; charset={charset}")
+                    self.send_header('Content-Type', 'application/graphql+json')
                     self.send_header('Content-Length', len(content))
                     self.end_headers()
                     self.wfile.write(content)
@@ -228,7 +229,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
                     content = json.dumps(items).encode(charset)
 
                     self.send_response(200)
-                    self.send_header('Content-Type', f"application/json; charset={charset}")
+                    self.send_header('Content-Type', 'application/graphql+json')
                     self.send_header('Content-Length', len(content))
                     self.end_headers()
                     self.wfile.write(content)
@@ -285,7 +286,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
                     print('IMPL', 'Not found', self.path)
             else:
                 print('UKWN', self.path)
-                self.load(connection)
+                self.send_error(404)
         except ConnectionAbortedError:
             print('@ERR', 'Connection aborted', self.path)
 
