@@ -199,8 +199,8 @@ class ProxyHandler(BaseHTTPRequestHandler):
                         results = aggregate(paramBuild, lambda x: ensure_list(x.vendor.name))
                         print('AGGR', f"Total organizations: {results['total']}")
                     else:
-                        results = {'total': total, 'aggregations': {}}
-                        print('AGGR', f"Not mapped aggregation for {url.path}")
+                        results = {'total': 0, 'aggregations': {}}
+                        print('AGGR', f"Not mapped {url.path}")
 
                     content = json.dumps(results).encode(charset)
 
