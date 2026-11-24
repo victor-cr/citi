@@ -180,6 +180,35 @@ class ProxyHandler(BaseHTTPRequestHandler):
                 self.wfile.write(content)
 
                 print('SRCH', f"Found {len(results)} plugins")
+            elif self.path.startswith('/api/search/aggregation'):
+                url = urlparse(self.path)
+                params = parse_qs(url.query)
+
+                paramBuild = params.get('build', [''])[0]
+
+                if paramBuild is None or paramBuild == '':
+                    self.send_response(204)
+                    self.end_headers()
+
+                    print('AGGR', f"No aggregation content for {url.path}")
+                else:
+                    if url.path.endswith('/tags'):
+                        results = aggregate(paramBuild, lambda x: ensure_list(x.tags))
+                        print('AGGR', f"Total tags: {results['total']}")
+                    elif url.path.endswith('/organizations'):
+                        results = aggregate(paramBuild, lambda x: ensure_list(x.vendor.name))
+                        print('AGGR', f"Total organizations: {results['total']}")
+                    else:
+                        results = {'total': total, 'aggregations': {}}
+                        print('AGGR', f"Not mapped aggregation for {url.path}")
+
+                    content = json.dumps(results).encode(charset)
+
+                    self.send_response(200)
+                    self.send_header('Content-Type', f"application/json; charset={charset}")
+                    self.send_header('Content-Length', len(content))
+                    self.end_headers()
+                    self.wfile.write(content)
             elif self.path.startswith('/api/search/updates/compatible'):
                 print('UPDT', 'Searching', self.path)
                 url = urlparse(self.path)
@@ -260,6 +289,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
         except ConnectionAbortedError:
             print('@ERR', 'Connection aborted', self.path)
 
+
 def init(version):
     result = {}
     dict = {}
@@ -339,6 +369,31 @@ def lookup(version, plugin_ids):
             })
 
     return results
+
+
+def aggregate(version, field_fn):
+    aggregations = {}
+    total = 0
+    for value in safe_plugins(version).values():
+        items = field_fn(value)
+        if items is not None:
+            total += 1
+            for item in items:
+                if item not in aggregations:
+                    aggregations[item] = 1
+                else:
+                    aggregations[item] = aggregations[item] + 1
+    results = {'total': total, 'aggregations': dict(sorted(aggregations.items(), key=lambda x: (-x[1], x[0])))}
+
+    return results
+
+
+def ensure_list(val):
+    if val is None:
+        return None
+    if isinstance(val, list):
+        return val
+    return [val]
 
 
 def random(version, cnt):
