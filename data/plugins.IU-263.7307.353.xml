@@ -44501,7 +44501,7 @@ any personal data.</p>]]></description><version>2025.1.315</version><vendor emai
 <h3>Resources</h3>
 <ul>
     <li><a href="https://github.com/manifold-systems/manifold">https://github.com/manifold-systems/manifold</a></li>
-</ul>]]></description><version>2026.3.0</version><vendor email="admin@manifold.systems" url="http://manifold.systems/">Manifold</vendor><rating>4.5</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.0" until-build="263.*"/><depends>com.intellij.modules.java</depends><depends>com.intellij.modules.json</depends><tags>Tools Integration</tags></idea-plugin><idea-plugin downloads="1083" size="65126" date="1507555505000" updatedDate="1507555505000" url=""><name>Clone Artifact</name><id>pl.com.andriejsoft.CloneArtifact</id><description><![CDATA[This is plugin to clone artifact.]]></description><version>1.1</version><vendor email="an.melnyk@plus.pl" url="">AndriejSoft</vendor><rating>00</rating><change-notes><![CDATA[1.0 Initial version. 1.1 Minor bugfix.]]></change-notes><idea-version min="n/a" max="n/a" since-build="145.0"/><tags>Tools Integration</tags></idea-plugin><idea-plugin downloads="18528" size="46156" date="1510062425000" updatedDate="1510062425000" url=""><name>Maven Wrapper IntelliJ IDEA plugin</name><id>maven-wrapper-plugin</id><description><![CDATA[Maven Wrapper support for IntelliJ IDEA. https://github.com/takari/maven-wrapper]]></description><version>0.0.1</version><vendor email="libing.chen@gmail.com" url="https://github.com/linux-china">jenv</vendor><rating>00</rating><change-notes><![CDATA[<ul>
+</ul>]]></description><version>2026.3.0</version><vendor email="admin@manifold.systems" url="http://manifold.systems/">Manifold</vendor><rating>4.5</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.0" until-build="263.*"/><depends>com.intellij.modules.java</depends><depends>com.intellij.modules.json</depends><tags>Tools Integration</tags></idea-plugin><idea-plugin downloads="18528" size="46156" date="1510062425000" updatedDate="1510062425000" url=""><name>Maven Wrapper IntelliJ IDEA plugin</name><id>maven-wrapper-plugin</id><description><![CDATA[Maven Wrapper support for IntelliJ IDEA. https://github.com/takari/maven-wrapper]]></description><version>0.0.1</version><vendor email="libing.chen@gmail.com" url="https://github.com/linux-china">jenv</vendor><rating>00</rating><change-notes><![CDATA[<ul>
   0.0.1: 
  <li>Auto detect Maven Wrapper</li> 
  <li>No download for wrapper, please use "./mvnw compile" download Maven first.</li> 
@@ -50303,13 +50303,13 @@ DEBUG_MODE=true
       <li>Added full support for @NotUsed &amp; @NotDone annotation highlighting.</li>
       <li>Added support for @ExtendedEnum internal getValue*() methods.</li>
       <li>Added IDAReference support for Java.</li>
-    </ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="252.23892"/><depends>com.intellij.java</depends><depends>com.intellij.modules.platform</depends><tags>Tools Integration</tags></idea-plugin><idea-plugin downloads="291300" size="33104196" date="1794387680000" updatedDate="1794387680000" url=""><name>OpenTelemetry</name><id>com.jetbrains.opentelemetry</id><description><![CDATA[<p>The OpenTelemetry plugin brings application logs, metrics, and traces into JetBrains IDEs. Inspect runtime data next to your code without setting up a separate observability backend! See the <a href="https://www.jetbrains.com/help/rider/OpenTelemetry.html">documentation</a> for more details.</p>
+    </ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="252.23892"/><depends>com.intellij.java</depends><depends>com.intellij.modules.platform</depends><tags>Tools Integration</tags></idea-plugin><idea-plugin downloads="291300" size="33132293" date="1795602214000" updatedDate="1795602214000" url=""><name>OpenTelemetry</name><id>com.jetbrains.opentelemetry</id><description><![CDATA[<p>The OpenTelemetry plugin brings application logs, metrics, and traces into JetBrains IDEs. Inspect runtime data next to your code without setting up a separate observability backend! See the <a href="https://www.jetbrains.com/help/rider/OpenTelemetry.html">documentation</a> for more details.</p>
 
 <p><strong>Features</strong></p>
 
-<ul><li><strong>Logs</strong>: Search and filter log records, then open any record to inspect its attributes.</li><li><strong>Metrics</strong>: Browse the metric tree and select a metric to visualize it.</li><li><strong>Traces</strong>: Open a trace in the built-in viewer to follow its span hierarchy across services and inspect the timing and attributes of each span.</li><li><strong>Service Map</strong>: Open the Service Map to see how services, endpoints, databases, and message queues connect based on collected traces.</li><li><strong>MCP</strong>: Use the <a href="https://plugins.jetbrains.com/plugin/26071-mcp-server">MCP Server</a> integration to let AI agents query logs, services, the Service Map, and spans.</li><li><strong>Run Configurations</strong>: Run your <strong>already instrumented</strong> Java, Python, Go, Node.js, or .NET application using an IDE run configuration, and its telemetry will appear in the plugin automatically.</li><li><strong>Integrated Terminal</strong>: Run an instrumented application in a new IDE terminal session, and its telemetry will appear in the plugin automatically.</li></ul>]]></description><version>2.3.7</version><vendor email="support@jetbrains.com" url="https://www.jetbrains.com/">JetBrains</vendor><rating>4.4</rating><change-notes><![CDATA[<h3>Changed</h3>
+<ul><li><strong>Logs</strong>: Search and filter log records, then open any record to inspect its attributes.</li><li><strong>Metrics</strong>: Browse the metric tree and select a metric to visualize it.</li><li><strong>Traces</strong>: Open a trace in the built-in viewer to follow its span hierarchy across services and inspect the timing and attributes of each span.</li><li><strong>Service Map</strong>: Open the Service Map to see how services, endpoints, databases, and message queues connect based on collected traces.</li><li><strong>MCP</strong>: Use the <a href="https://plugins.jetbrains.com/plugin/26071-mcp-server">MCP Server</a> integration to let AI agents query logs, services, the Service Map, and spans.</li><li><strong>Run Configurations</strong>: Run your <strong>already instrumented</strong> Java, Python, Go, Node.js, or .NET application using an IDE run configuration, and its telemetry will appear in the plugin automatically.</li><li><strong>Integrated Terminal</strong>: Run an instrumented application in a new IDE terminal session, and its telemetry will appear in the plugin automatically.</li></ul>]]></description><version>2.3.8</version><vendor email="support@jetbrains.com" url="https://www.jetbrains.com/">JetBrains</vendor><rating>4.4</rating><change-notes><![CDATA[<h3>Fixed</h3>
 
-<ul><li>IntelliJ platform and Rider updated to stable 2026.3 releases</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.0"/><depends>com.intellij.modules.json</depends><depends>com.intellij.modules.platform</depends><depends>intellij.libraries.grpc</depends><depends>intellij.libraries.grpc.netty.shaded</depends><depends>intellij.libraries.protobuf</depends><depends>intellij.libraries.protobuf.kotlin</depends><tags>Tools Integration</tags></idea-plugin><idea-plugin downloads="425" size="2416680" date="1772281125000" updatedDate="1772281125000" url=""><name>Main Menu Craft</name><id>com.mska3i.mainmenucraft</id><description><![CDATA[<h2>Overview:</h2>
+<ul><li>Telemetry stops updating when multiple projects are open</li><li>Launch satellite only locally and forward ports to other environments</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.0"/><depends>com.intellij.modules.json</depends><depends>com.intellij.modules.platform</depends><depends>intellij.libraries.grpc</depends><depends>intellij.libraries.grpc.netty.shaded</depends><depends>intellij.libraries.protobuf</depends><depends>intellij.libraries.protobuf.kotlin</depends><tags>Tools Integration</tags></idea-plugin><idea-plugin downloads="425" size="2416680" date="1772281125000" updatedDate="1772281125000" url=""><name>Main Menu Craft</name><id>com.mska3i.mainmenucraft</id><description><![CDATA[<h2>Overview:</h2>
 <p>This plugin allows you to add customizable menu items to the "Tools" section of the main menu.</p>
 
 
@@ -55088,8 +55088,11 @@ Works in every IntelliJ-based IDE and every file type.]]></description><version>
       <code>a-b/s</code>, and comma lists. 100% offline.</li>
     </ul>
     <p>Open it from <b>View ▸ Tool Windows ▸ Cron</b>.</p>
-    <p><i>Free core. A future Pro tier adds Quartz 6/7-field cron, time-zone-aware next-runs and batch
-    checking.</i></p>
+    <p><b>Pro</b> adds the <b>Quartz 6/7-field</b> dialect — a leading <code>second</code> field and an
+    optional trailing <code>year</code> (e.g. <code>0 15 10 ? * MON-FRI</code>, <code>30 * * * * ?</code>),
+    with Quartz's own day-of-week numbering (1 = Sunday) and the <code>?</code> "no specific value" marker.
+    The free core handles the full Unix 5-field cron. A free trial is available; later Pro additions:
+    time-zone-aware next-runs and batch checking.</p>
     <p><b>More from the Kassi QA &amp; fintech toolkit:</b></p>
     <p><b>Fintech &amp; validators:</b> <a href="https://plugins.jetbrains.com/plugin/33419">ISO 8583 Inspector</a> · <a href="https://plugins.jetbrains.com/plugin/33836">SWIFT MT &amp; ISO 20022 Validator</a> · <a href="https://plugins.jetbrains.com/plugin/34673">ACH / NACHA Toolkit</a> · <a href="https://plugins.jetbrains.com/plugin/33227">Checksum &amp; Regex Playground</a> · <a href="https://plugins.jetbrains.com/plugin/35290">Crypto Codec Toolkit</a></p>
     <p><b>Spec-valid test data:</b> <a href="https://plugins.jetbrains.com/plugin/33149">Kassi Test Data</a> · <a href="https://plugins.jetbrains.com/plugin/33967">HTTP Data Injector</a> · <a href="https://plugins.jetbrains.com/plugin/35316">SQL Synthetic Seeder</a> · <a href="https://plugins.jetbrains.com/plugin/33488">UUID / ULID / NanoID Toolkit</a></p>]]></description><version>1.2.0</version><vendor email="vtoptunov88@gmail.com" url="">Vadim Toptunov</vendor><rating>00</rating><change-notes><![CDATA[<h3>1.2.0</h3>
@@ -93841,7 +93844,168 @@ The following features are available: <ul>
 
     <h2>Getting started</h2>
     <p>For information on getting started, head over to the <a href="https://www.jetbrains.com/help/">documentation</a> for your IDE.
-      For WebStorm, you can check out this section in the <a href="https://www.jetbrains.com/help/webstorm/jade.html">documentation</a>.</p>]]></description><version>263.7307.101</version><vendor email="support@jetbrains.com" url="https://www.jetbrains.com/">JetBrains</vendor><rating>3.5</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.7307" until-build="263.*"/><depends>JavaScript</depends><depends>com.intellij.modules.ultimate</depends><depends>com.intellij.modules.xml</depends><depends>intellij.javascript.analysis.impl</depends><depends>intellij.javascript.backend</depends><depends>intellij.javascript.codeinsight</depends><depends>intellij.javascript.common</depends><depends>intellij.javascript.parser</depends><depends>intellij.javascript.psi.impl</depends><depends>intellij.javascript.web</depends><depends>intellij.libraries.kotlinx.collections.immutable</depends><depends>intellij.platform.analysis</depends><depends>intellij.platform.codeStyle</depends><depends>intellij.platform.codeStyle.impl</depends><depends>intellij.platform.core</depends><depends>intellij.platform.core.impl</depends><depends>intellij.platform.core.ui</depends><depends>intellij.platform.editor.ex</depends><depends>intellij.platform.editor.ui</depends><depends>intellij.platform.execution.impl</depends><depends>intellij.platform.ide</depends><depends>intellij.platform.ide.core</depends><depends>intellij.platform.ide.core.impl</depends><depends>intellij.platform.ide.impl</depends><depends>intellij.platform.indexing</depends><depends>intellij.platform.indexing.impl</depends><depends>intellij.platform.lang</depends><depends>intellij.platform.lang.impl</depends><depends>intellij.platform.macro</depends><depends>intellij.platform.util.ex</depends><depends>intellij.regexp</depends><depends>intellij.spellchecker</depends><depends>intellij.xml.impl</depends><depends>intellij.xml.parser</depends><depends>intellij.xml.psi</depends><tags>Programming Language</tags></idea-plugin><idea-plugin downloads="435437" size="35528" date="1793353157000" updatedDate="1793353157000" url=""><name>GNU GetText Files Support (*.po)</name><id>org.jetbrains.plugins.localization</id><description><![CDATA[This plugin enables support for GNU GetText files (*.po)]]></description><version>263.7307.108</version><vendor email="support@jetbrains.com" url="https://www.jetbrains.com/">JetBrains</vendor><rating>3.7</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.7307" until-build="263.*"/><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.spellchecker</depends><depends>intellij.libraries.guava</depends><depends>intellij.libraries.kotlinx.collections.immutable</depends><depends>intellij.platform.analysis</depends><depends>intellij.platform.core</depends><depends>intellij.platform.core.impl</depends><depends>intellij.platform.editor.ui</depends><depends>intellij.platform.ide.impl</depends><depends>intellij.platform.indexing</depends><depends>intellij.platform.lang</depends><depends>intellij.platform.lang.impl</depends><depends>intellij.platform.util.ui</depends><tags>Programming Language</tags></idea-plugin><idea-plugin downloads="1713680" size="139875" date="1793353163000" updatedDate="1793353163000" url=""><name>ReStructuredText</name><id>org.jetbrains.plugins.rest</id><description><![CDATA[This plugin enables support for reStructuredText files (*.rst)]]></description><version>263.7307.108</version><vendor email="support@jetbrains.com" url="https://www.jetbrains.com/">JetBrains</vendor><rating>1.9</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.7307" until-build="263.*"/><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.spellchecker</depends><depends>intellij.libraries.guava</depends><depends>intellij.libraries.jcef</depends><depends>intellij.libraries.jsoup</depends><depends>intellij.libraries.kotlinx.collections.immutable</depends><depends>intellij.platform.analysis</depends><depends>intellij.platform.codeStyle</depends><depends>intellij.platform.core</depends><depends>intellij.platform.core.impl</depends><depends>intellij.platform.editor.ex</depends><depends>intellij.platform.editor.ui</depends><depends>intellij.platform.ide.core</depends><depends>intellij.platform.ide.impl</depends><depends>intellij.platform.indexing</depends><depends>intellij.platform.indexing.impl</depends><depends>intellij.platform.projectModel</depends><depends>intellij.platform.structureView</depends><depends>intellij.platform.util.ui</depends><tags>Programming Language</tags></idea-plugin><idea-plugin downloads="218128" size="92660" date="1793350268000" updatedDate="1793350268000" url=""><name>Slim</name><id>org.jetbrains.plugins.slim</id><description><![CDATA[Supports <a href="https://slim-lang.com/">Slim</a>, a lightweight templating engine for Ruby and Rails]]></description><version>263.7307.101</version><vendor email="support@jetbrains.com" url="https://www.jetbrains.com/">JetBrains</vendor><rating>3.8</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.7307" until-build="263.*"/><depends>com.intellij.css</depends><depends>intellij.css.backend</depends><depends>intellij.libraries.guava</depends><depends>intellij.libraries.kotlinx.collections.immutable</depends><depends>intellij.platform.analysis</depends><depends>intellij.platform.codeStyle</depends><depends>intellij.platform.codeStyle.impl</depends><depends>intellij.platform.core</depends><depends>intellij.platform.core.impl</depends><depends>intellij.platform.core.ui</depends><depends>intellij.platform.editor.ex</depends><depends>intellij.platform.editor.ui</depends><depends>intellij.platform.ide.core</depends><depends>intellij.platform.ide.impl</depends><depends>intellij.platform.lang</depends><depends>intellij.platform.lang.impl</depends><depends>intellij.platform.structureView</depends><depends>intellij.regexp</depends><depends>intellij.spellchecker</depends><depends>intellij.xml.impl</depends><depends>intellij.xml.parser</depends><depends>intellij.xml.psi</depends><depends>intellij.xml.structureView.impl</depends><tags>Programming Language</tags></idea-plugin><idea-plugin downloads="59107" size="298366" date="1426909162000" updatedDate="1426909162000" url=""><name>Pig</name><id>org.apache.pig.plugin.idea</id><description><![CDATA[Apache Pig Language Plugin]]></description><version>1.7</version><vendor email="brandon.kearby at gmail com" url="">Brandon Kearby &amp; Russell Melick</vendor><rating>4.4</rating><change-notes><![CDATA[IntelliJ - Pig Plugin 
+      For WebStorm, you can check out this section in the <a href="https://www.jetbrains.com/help/webstorm/jade.html">documentation</a>.</p>]]></description><version>263.7307.101</version><vendor email="support@jetbrains.com" url="https://www.jetbrains.com/">JetBrains</vendor><rating>3.5</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.7307" until-build="263.*"/><depends>JavaScript</depends><depends>com.intellij.modules.ultimate</depends><depends>com.intellij.modules.xml</depends><depends>intellij.javascript.analysis.impl</depends><depends>intellij.javascript.backend</depends><depends>intellij.javascript.codeinsight</depends><depends>intellij.javascript.common</depends><depends>intellij.javascript.parser</depends><depends>intellij.javascript.psi.impl</depends><depends>intellij.javascript.web</depends><depends>intellij.libraries.kotlinx.collections.immutable</depends><depends>intellij.platform.analysis</depends><depends>intellij.platform.codeStyle</depends><depends>intellij.platform.codeStyle.impl</depends><depends>intellij.platform.core</depends><depends>intellij.platform.core.impl</depends><depends>intellij.platform.core.ui</depends><depends>intellij.platform.editor.ex</depends><depends>intellij.platform.editor.ui</depends><depends>intellij.platform.execution.impl</depends><depends>intellij.platform.ide</depends><depends>intellij.platform.ide.core</depends><depends>intellij.platform.ide.core.impl</depends><depends>intellij.platform.ide.impl</depends><depends>intellij.platform.indexing</depends><depends>intellij.platform.indexing.impl</depends><depends>intellij.platform.lang</depends><depends>intellij.platform.lang.impl</depends><depends>intellij.platform.macro</depends><depends>intellij.platform.util.ex</depends><depends>intellij.regexp</depends><depends>intellij.spellchecker</depends><depends>intellij.xml.impl</depends><depends>intellij.xml.parser</depends><depends>intellij.xml.psi</depends><tags>Programming Language</tags></idea-plugin><idea-plugin downloads="25449" size="59483" date="1795606683000" updatedDate="1795606683000" url=""><name>JSFL Support</name><id>JSFL Support</id><description><![CDATA[
+        
+        Support of Adobe Animate JavaScript API.
+        
+    ]]></description><version>4.5.8</version><vendor email="evgeniy.s.polyakov@gmail.com" url="">Evgeniy Polyakov</vendor><rating>4.4</rating><change-notes><![CDATA[
+        
+        <h3>4.5.8</h3>
+        Compatible with IntelliJ IDEA 2026.3.
+        <h3>4.5.7</h3>
+        Compatible with IntelliJ IDEA 2026.2.
+        <h3>4.5.6</h3>
+        Compatible with IntelliJ IDEA 2026.1.
+        <h3>4.5.5</h3>
+        Compatible with IntelliJ IDEA 2025.3.
+        <h3>4.5.4</h3>
+        Compatible with IntelliJ IDEA 2025.2.
+        <h3>4.5.3</h3>
+        Compatible with IntelliJ IDEA 2025.1.
+        <h3>4.5.2</h3>
+        Fixed usage of deprecated API.
+        <h3>4.5.1</h3>
+        Compatible with IntelliJ IDEA 2024.3.
+        <h3>4.5.0</h3>
+        Compatible with IntelliJ IDEA 2024.2.<br>
+        Removed custom language dialect <i>Javascript 1.6</i> since it's no longer supported by IntelliJ platform.
+        Language level is now 1.5 that means <i>for each</i> is marked as error in jsfl files.
+        <h3>4.4.2</h3>
+        Fixed deprecation warning in RunJSFLFileAction.
+        <h3>4.4.1</h3>
+        Compatible with IntelliJ IDEA 2024.1.
+        <h3>4.4.0</h3>
+        Experimental UI icons. Compatible with IntelliJ IDEA 2023.3.
+        <h3>4.3.3</h3>
+        Compatible with IntelliJ IDEA 2023.2.
+        <h3>4.3.2</h3>
+        Compatible with IntelliJ IDEA 2022.3.
+        <h3>4.3.1</h3>
+        Update of icons color.
+        <h3>4.3.0</h3>
+        Compatible with IntelliJ IDEA 2022.2. Documentation pointing directly to the source github repository since Adobe documentation services are often unavailable.
+        <h3>4.2.0</h3>
+        Compatible with IntelliJ IDEA 2022.1. Fixed documentation links.
+        <h3>4.1.0</h3>
+        <ul>
+        <li>Links to external documentation in quick info.</li>
+        <li>New icons with color code close to modern Adobe Animate brand colors.</li>
+        </ul>
+        <h3>4.0.4</h3>
+        Compatible with IntelliJ IDEA 2021.3.
+        <h3>4.0.3</h3>
+        Compatible with IntelliJ IDEA 2021.2.
+        <h3>4.0.2</h3>
+        Compatible with IntelliJ IDEA 2021.1.
+        <h3>4.0.1</h3>
+        Compatible with IntelliJ IDEA 2020.3.
+        <h3>4.0.0</h3>
+        <ul>
+            <li>Definitions of new API objects and methods added in Animate 2019, 2020.</li>
+            <li>Integrated new <a href="https://www.adobe.io/apis/creativecloud/animate/docs.html">API reference</a>.</li>
+            <li>Language of JSFL files is changed Javascript 1.6 since that is the version of Adobe Animate JS interpreter:<br><i>for each</i> is supported but no <i>let</i>, <i>const</i> and newer features.</li>
+            <li>JSFL files recognise only definitions from basic JS libraries and other JSFL files:<br>Document, Element and other objects do not conflict with HTML DOM definitions.</li>
+        </ul>
+        <h3>3.5.5</h3>
+        Added fl.copyLibraryItem. Update of fl.createDocument.<br>
+        Contributors: <a href="https://github.com/mcdonaldjc">James McDonald</a>
+        <h3>3.5.4</h3>
+        Compatible with IntelliJ IDEA 2020.2.
+        <h3>3.5.3</h3>
+        Compatible with IntelliJ IDEA 2020.1.
+        <h3>3.5.2</h3>
+        Compatible with IntelliJ IDEA 2019.3.
+        <h3>3.5.1</h3>
+        Compatible with IntelliJ IDEA 2019.2.
+        <h3>3.5.0</h3>
+        <ul>
+            <li>External documentation in pdf file.</li>
+            <li>Annotations for strings with limited number of values.</li>
+            <li>Various fixes in the API.</li>
+        </ul>
+        <h3>3.4.3</h3>
+        Compatible with IntelliJ IDEA 2019.1.
+        <h3>3.4.2</h3>
+        Compatible with IntelliJ IDEA 2018.3. Removing links to online help since it's no longer supported by Adobe.
+        <h3>3.4.1</h3>
+        Compatible with IntelliJ IDEA 2018.2.
+        <h3>3.4.0</h3>
+        Compatible with IntelliJ IDEA 2018.1. Support of new style of external documentation.
+        <h3>3.3.3</h3>
+        Compatible with IntelliJ IDEA 2017.3.
+        <h3>3.3.2</h3>
+        Compatible with IntelliJ IDEA 2017.2.
+        <h3>3.3.1</h3>
+        Compatible with IntelliJ IDEA 2017.1.
+        <h3>3.3.0</h3>
+        Compatible with IntelliJ IDEA 2016.3. New icons for jsfl file type.
+        <h3>3.2.1</h3>
+        Compatible with IntelliJ IDEA 2016.2.
+        <h3>3.2.0</h3>
+        Compatible with IntelliJ IDEA 2016. Updating help url in external documentation provider.
+        <h3>3.1.3</h3>
+        Compatible with IntelliJ IDEA 15.
+        <h3>3.1.2</h3>
+        Compatible with IntelliJ IDEA 14.1.
+        <h3>3.1.1</h3>
+        Reworked annotations in JSFL API:
+        <ul>
+            <li>Added braces in @type and @return annotations.</li>
+            <li>Added missing array element types.</li>
+            <li>Added ElementFindAndSelect type.</li>
+            <li>Added @class and @extends annotations.</li>
+            <li>Changed {String} to {*} in trace methods.</li>
+            <li>Added annotations for duck-typing objects like points, rectangles etc.</li>
+            <li>Added annotations for alternative argument type, mostly for color values {String|Number}.</li>
+            <li>Various fixes in API description.</li>
+        </ul>
+        <h3>3.1.0</h3>
+        <ul>
+            <li>Language dialect of *.jsfl files has been set to JavaScript 1.8 since Flash environment supports it starting Flash CC. For the complete list of new language features see https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/1.8.</li>
+            <li>Added link to external documentation for most of API elements. The documentation is available via Shift+F1 or Quick Documentation Lookup. For more details see https://www.jetbrains.com/idea/help/viewing-external-documentation.html.</li>
+            <li>Reworked description of JSFL API. All methods and fields are now defined in the prototype that allows to display more info in code completion and hints. Cache invalidation might be required to get updated JSFL libraries!</li>
+            <li>Fixed description of some API elements (SpriteSheetExporter, SymbolInstance.useBackgroundColor, FontItem, etc)</li>
+            <li>Added element type of all arrays.</li>
+        </ul>
+        <h3>3.0.2</h3>
+        Compatible with IntelliJ IDEA 14.
+        <h3>3.0.1</h3>
+        Compatible with IntelliJ IDEA 13.1.
+        <h3>3.0.0</h3>
+        Compatible with IntelliJ IDEA 13.
+        JSFL library has been updated for Flash CC http://help.adobe.com/en_US/flash/cs/extend/WS5b3ccc516d4fbf351e63e3d118a9024f3f-7fe7CS5.html
+        <h3>2.1.1</h3>
+        Compatible with IntelliJ IDEA 12.1.6.
+        <h3>2.1.0</h3>
+        Compatible with IntelliJ IDEA 12.1.
+        <h3>2.0.2</h3>
+        Language dialect of *.jsfl files is set to JavaScript 1.6 because Flash environment uses this version of the language.
+        Earlier language dialect depended on JavaScript settings. Now it is strictly defined.
+        For more information see https://developer.mozilla.org/en-US/docs/JavaScript/New_in_JavaScript/1.6.
+        <h3>2.0.1</h3>
+        Decreased JDK version. Now the plugin can be run on 1.6 JDK.
+        <h3>2.0.0</h3>
+        Compatible with IntelliJ IDEA 12.
+        <h3>1.1.1</h3>
+        Changed icons. Now they are more compatible with IntelliJ IDEA design.
+        <h3>1.1</h3>
+        JSFL library has been verified according to an official documentation http://help.adobe.com/en_US/flash/cs/extend/index.html
+        <ul>
+            <li>Added Flash CS5, CS5.5, CS6 API</li>
+            <li>Added version information of each of API elements</li>
+            <li>Removed API elements that are not available since Flash CS5: Screen, ScreenOutline, document versioning</li>
+            <li>Added marking of optional method parameters</li>
+            <li>Added marking of read-only properties</li>
+        </ul>
+        <h3>1.0</h3>
+        <ul>
+            <li>JSFL files based on JavaScript files</li>
+            <li>Core library for Flash CS5 and earlier versions</li>
+            <li>Running JSFL files in associated application</li>
+            <li>Templates for JSFL commands and tools</li>
+        </ul>
+        
+    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.0" until-build="263.*"/><depends>JavaScript</depends><depends>com.intellij.modules.lang</depends><tags>Programming Language</tags></idea-plugin><idea-plugin downloads="435437" size="35528" date="1793353157000" updatedDate="1793353157000" url=""><name>GNU GetText Files Support (*.po)</name><id>org.jetbrains.plugins.localization</id><description><![CDATA[This plugin enables support for GNU GetText files (*.po)]]></description><version>263.7307.108</version><vendor email="support@jetbrains.com" url="https://www.jetbrains.com/">JetBrains</vendor><rating>3.7</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.7307" until-build="263.*"/><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.spellchecker</depends><depends>intellij.libraries.guava</depends><depends>intellij.libraries.kotlinx.collections.immutable</depends><depends>intellij.platform.analysis</depends><depends>intellij.platform.core</depends><depends>intellij.platform.core.impl</depends><depends>intellij.platform.editor.ui</depends><depends>intellij.platform.ide.impl</depends><depends>intellij.platform.indexing</depends><depends>intellij.platform.lang</depends><depends>intellij.platform.lang.impl</depends><depends>intellij.platform.util.ui</depends><tags>Programming Language</tags></idea-plugin><idea-plugin downloads="1713680" size="139875" date="1793353163000" updatedDate="1793353163000" url=""><name>ReStructuredText</name><id>org.jetbrains.plugins.rest</id><description><![CDATA[This plugin enables support for reStructuredText files (*.rst)]]></description><version>263.7307.108</version><vendor email="support@jetbrains.com" url="https://www.jetbrains.com/">JetBrains</vendor><rating>1.9</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.7307" until-build="263.*"/><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.spellchecker</depends><depends>intellij.libraries.guava</depends><depends>intellij.libraries.jcef</depends><depends>intellij.libraries.jsoup</depends><depends>intellij.libraries.kotlinx.collections.immutable</depends><depends>intellij.platform.analysis</depends><depends>intellij.platform.codeStyle</depends><depends>intellij.platform.core</depends><depends>intellij.platform.core.impl</depends><depends>intellij.platform.editor.ex</depends><depends>intellij.platform.editor.ui</depends><depends>intellij.platform.ide.core</depends><depends>intellij.platform.ide.impl</depends><depends>intellij.platform.indexing</depends><depends>intellij.platform.indexing.impl</depends><depends>intellij.platform.projectModel</depends><depends>intellij.platform.structureView</depends><depends>intellij.platform.util.ui</depends><tags>Programming Language</tags></idea-plugin><idea-plugin downloads="218128" size="92660" date="1793350268000" updatedDate="1793350268000" url=""><name>Slim</name><id>org.jetbrains.plugins.slim</id><description><![CDATA[Supports <a href="https://slim-lang.com/">Slim</a>, a lightweight templating engine for Ruby and Rails]]></description><version>263.7307.101</version><vendor email="support@jetbrains.com" url="https://www.jetbrains.com/">JetBrains</vendor><rating>3.8</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.7307" until-build="263.*"/><depends>com.intellij.css</depends><depends>intellij.css.backend</depends><depends>intellij.libraries.guava</depends><depends>intellij.libraries.kotlinx.collections.immutable</depends><depends>intellij.platform.analysis</depends><depends>intellij.platform.codeStyle</depends><depends>intellij.platform.codeStyle.impl</depends><depends>intellij.platform.core</depends><depends>intellij.platform.core.impl</depends><depends>intellij.platform.core.ui</depends><depends>intellij.platform.editor.ex</depends><depends>intellij.platform.editor.ui</depends><depends>intellij.platform.ide.core</depends><depends>intellij.platform.ide.impl</depends><depends>intellij.platform.lang</depends><depends>intellij.platform.lang.impl</depends><depends>intellij.platform.structureView</depends><depends>intellij.regexp</depends><depends>intellij.spellchecker</depends><depends>intellij.xml.impl</depends><depends>intellij.xml.parser</depends><depends>intellij.xml.psi</depends><depends>intellij.xml.structureView.impl</depends><tags>Programming Language</tags></idea-plugin><idea-plugin downloads="59107" size="298366" date="1426909162000" updatedDate="1426909162000" url=""><name>Pig</name><id>org.apache.pig.plugin.idea</id><description><![CDATA[Apache Pig Language Plugin]]></description><version>1.7</version><vendor email="brandon.kearby at gmail com" url="">Brandon Kearby &amp; Russell Melick</vendor><rating>4.4</rating><change-notes><![CDATA[IntelliJ - Pig Plugin 
 <p> Pig Plugin adds <a href="http://pig.apache.org" rel="nofollow">Apache Pig</a> Language support to <a href="http://www.jetbrains.com/idea" rel="nofollow">IntelliJ</a> Note: you may already have .pig files associated with the text editor. Go to IDE Settings -&gt; File Types to assign them to the pig plugin if nothing happens after you install it. </p> Features 
 <ul> 
  <li>Find Usages and refactoring support for UDFs and pig variables</li> 
@@ -106780,7 +106944,7 @@ diagnostics, hover documentation, navigation, formatting, parameter information,
 and inlay hints, according to the capabilities of the selected server.</p>
 
 <p>Requires an IntelliJ-based IDE with JetBrains LSP support, version <strong>2026.3 or
-newer</strong>, and the bundled <strong>TextMate Bundles</strong> plugin.</p>]]></description><version>0.5.0</version><vendor email="mark_nefedov@icloud.com" url="">mark_nefedov</vendor><rating>00</rating><change-notes><![CDATA[<ul><li>Build, test, and verify against IntelliJ IDEA 2026.3 stable; require build 263.7307.200 or newer.</li><li>Keep automatic EAP tests and verification, falling back to stable between EAP cycles.</li><li>Check the latest JetBrains stable release and run compatibility CI weekly to flag platform updates.</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.7307.200"/><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.lsp</depends><depends>org.jetbrains.plugins.textmate</depends><tags>Programming Language</tags></idea-plugin><idea-plugin downloads="83" size="2368992" date="1789973258000" updatedDate="1789973258000" url=""><name>Templ Hero</name><id>com.langheroes.templ</id><description><![CDATA[<p><strong>Templ Hero</strong> provides language support for Templ (<code>.templ</code>) Go HTML components.</p>
+newer</strong>, and the bundled <strong>TextMate Bundles</strong> plugin.</p>]]></description><version>0.5.0</version><vendor email="mark_nefedov@icloud.com" url="">mark_nefedov</vendor><rating>4.4</rating><change-notes><![CDATA[<ul><li>Build, test, and verify against IntelliJ IDEA 2026.3 stable; require build 263.7307.200 or newer.</li><li>Keep automatic EAP tests and verification, falling back to stable between EAP cycles.</li><li>Check the latest JetBrains stable release and run compatibility CI weekly to flag platform updates.</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.7307.200"/><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.lsp</depends><depends>org.jetbrains.plugins.textmate</depends><tags>Programming Language</tags></idea-plugin><idea-plugin downloads="83" size="2368992" date="1789973258000" updatedDate="1789973258000" url=""><name>Templ Hero</name><id>com.langheroes.templ</id><description><![CDATA[<p><strong>Templ Hero</strong> provides language support for Templ (<code>.templ</code>) Go HTML components.</p>
 
 <p>The plugin provides syntax highlighting, navigation, references, diagnostics, templates.</p>]]></description><version>2026.2.0</version><vendor email="support@hublhero.com" url="https://langheroes.com/">Lang Heroes</vendor><rating>4.4</rating><change-notes><![CDATA[<h3>Added</h3>
 
@@ -115444,7 +115608,7 @@ Assign your own shortcut in <i>Settings | Keymap</i>. Style options live in <i>S
 <h3>2026.1.0</h3>
 <ul>
   <li>First release: Format SQL, SQL inside string literals, Compact SQL to One Line and custom style.</li>
-</ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="253.0"/><depends>com.intellij.modules.platform</depends><tags>Code Tools</tags><tags>Database</tags><tags>Formatting</tags></idea-plugin><idea-plugin downloads="10" size="49862" date="1795157349000" updatedDate="1795157349000" url=""><name>OxBreeze</name><id>dev.oxbreeze</id><description><![CDATA[Oxfmt and Vite+ formatting on save using persistent formatting-only servers. No linting or IDE analysis integration.]]></description><version>0.1.0</version><vendor email="xubarashi.dev@gmail.com" url="">OxBreeze</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.0"/><depends>com.intellij.modules.platform</depends><tags>Code Tools</tags><tags>Formatting</tags></idea-plugin><idea-plugin downloads="26" size="73323" date="1795486156000" updatedDate="1795486156000" url=""><name>Oracle PL/SQL Formatter</name><id>cn.inovance.sqlfmt</id><description><![CDATA[
+</ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="253.0"/><depends>com.intellij.modules.platform</depends><tags>Code Tools</tags><tags>Database</tags><tags>Formatting</tags></idea-plugin><idea-plugin downloads="10" size="49862" date="1795157349000" updatedDate="1795157349000" url=""><name>OxBreeze</name><id>dev.oxbreeze</id><description><![CDATA[Oxfmt formatting on save and live Oxlint diagnostics and quick fixes, including Vite+ support. Persistent language services with status-bar restart controls.]]></description><version>0.1.0</version><vendor email="xubarashi.dev@gmail.com" url="">OxBreeze</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.0"/><depends>com.intellij.modules.platform</depends><tags>Code Tools</tags><tags>Formatting</tags></idea-plugin><idea-plugin downloads="26" size="73323" date="1795486156000" updatedDate="1795486156000" url=""><name>Oracle PL/SQL Formatter</name><id>cn.inovance.sqlfmt</id><description><![CDATA[
       Formats Oracle SQL / PL-SQL files (.sql, .pck, .pks, .pls, .trg, ...) according to
       the CUX formatting rulebook: keyword upper-case (R1), leading commas (R10),
       block indentation with 2 spaces per level (R3/R24), WHERE/AND alignment (R17/R18),
@@ -147816,7 +147980,7 @@ To work with notebooks, please install one of the following plugins (they will b
   <li><a href="https://plugins.jetbrains.com/plugin/16340-kotlin-notebook">Kotlin Notebook</a></li>
   <li><a href="https://plugins.jetbrains.com/plugin/10561-r">R Plugin</a></li>
 </ul>
-<a href="https://youtrack.jetbrains.com/issues/PY?q=Subsystem:%20%7BJupyter:%20*%7D">Issue tracker</a><br>]]></description><version>263.7307.200</version><vendor email="support@jetbrains.com" url="https://www.jetbrains.com/">JetBrains</vendor><rating>2.1</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.7307" until-build="263.*"/><depends>com.intellij.notebooks.core</depends><tags>Miscellaneous</tags></idea-plugin><idea-plugin downloads="1567283" size="12345102" date="1793354355000" updatedDate="1793354355000" url=""><name>Plugin DevKit</name><id>DevKit</id><description><![CDATA[<p>Provides a powerful foundation for developing plugins for JetBrains IDEs and other products based on the
+<a href="https://youtrack.jetbrains.com/issues/PY?q=Subsystem:%20%7BJupyter:%20*%7D">Issue tracker</a><br>]]></description><version>263.7307.200</version><vendor email="support@jetbrains.com" url="https://www.jetbrains.com/">JetBrains</vendor><rating>2.1</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.7307" until-build="263.*"/><depends>com.intellij.notebooks.core</depends><tags>Miscellaneous</tags></idea-plugin><idea-plugin downloads="1567283" size="12360088" date="1795610681000" updatedDate="1795610681000" url=""><name>Plugin DevKit</name><id>DevKit</id><description><![CDATA[<p>Provides a powerful foundation for developing plugins for JetBrains IDEs and other products based on the
       <a href="https://www.jetbrains.com/opensource/idea?from=DevKit&amp;utm_source=product&amp;utm_campaign=devkit">IntelliJ Platform.</a></p>
 
     <b>Features:</b>
@@ -147829,7 +147993,7 @@ To work with notebooks, please install one of the following plugins (they will b
     </ul>
 
     <br>
-    <a href="https://plugins.jetbrains.com/docs/intellij/welcome.html?from=DevKit&amp;utm_source=product&amp;utm_campaign=devkit">Learn More!</a><p></p>]]></description><version>263.7307.112</version><vendor email="support@jetbrains.com" url="https://www.jetbrains.com/">JetBrains</vendor><rating>4.3</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.7307" until-build="263.*"/><depends>intellij.java.backend</depends><depends>intellij.platform.ide.impl</depends><tags>Miscellaneous</tags></idea-plugin><idea-plugin downloads="634744" size="53922389" date="1793353796000" updatedDate="1793353796000" url=""><name>Android Design Tools</name><id>com.android.tools.design</id><description><![CDATA[Provides a suite of design tools for Android Studio]]></description><version>263.7307.112</version><vendor email="support@jetbrains.com" url="https://www.jetbrains.com/">JetBrains, Google</vendor><rating>2.6</rating><change-notes><![CDATA[This release contains updates from Android Studio Quail 2.
+    <a href="https://plugins.jetbrains.com/docs/intellij/welcome.html?from=DevKit&amp;utm_source=product&amp;utm_campaign=devkit">Learn More!</a><p></p>]]></description><version>263.7307.363</version><vendor email="support@jetbrains.com" url="https://www.jetbrains.com/">JetBrains</vendor><rating>4.3</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.7307" until-build="263.*"/><depends>intellij.java.backend</depends><depends>intellij.platform.ide.impl</depends><tags>Miscellaneous</tags></idea-plugin><idea-plugin downloads="634744" size="53922389" date="1793353796000" updatedDate="1793353796000" url=""><name>Android Design Tools</name><id>com.android.tools.design</id><description><![CDATA[Provides a suite of design tools for Android Studio]]></description><version>263.7307.112</version><vendor email="support@jetbrains.com" url="https://www.jetbrains.com/">JetBrains, Google</vendor><rating>2.6</rating><change-notes><![CDATA[This release contains updates from Android Studio Quail 2.
 
     For detailed information, please refer to the release notes available at:
     <a href="https://androidstudio.googleblog.com/2026/07/android-studio-quail-2-now-available.html">Android Studio Quail 2</a>.]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.7307" until-build="263.*"/><depends>com.intellij.java</depends><depends>com.intellij.platform.images</depends><depends>com.intellij.problemsView</depends><depends>intellij.java</depends><depends>intellij.java.analysis</depends><depends>intellij.java.analysis.impl</depends><depends>intellij.java.execution</depends><depends>intellij.java.execution.impl</depends><depends>intellij.java.impl</depends><depends>intellij.java.indexing</depends><depends>intellij.java.indexing.impl</depends><depends>intellij.libraries.grpc</depends><depends>intellij.platform.ide.colorPicker</depends><depends>intellij.platform.ide.impl</depends><depends>intellij.platform.problemView.ui</depends><depends>intellij.platform.uast</depends><depends>intellij.spellchecker</depends><depends>intellij.uiDesigner</depends><depends>org.jetbrains.android</depends><depends>org.jetbrains.kotlin</depends><tags>Miscellaneous</tags></idea-plugin><idea-plugin downloads="470945" size="5209711" date="1793354126000" updatedDate="1793354126000" url=""><name>Ant</name><id>AntSupport</id><description><![CDATA[Provides integration with the <a href="https://ant.apache.org/">Ant</a> build tool.
@@ -192248,14 +192412,14 @@ The same rules run in CI with the free command-line tool
   <li>First release: batch language support, inspections, run configuration and debugger, encoding guard, formatter, Convert to PowerShell, Blinter integration.</li>
 </ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="251.0"/><depends>com.intellij.modules.platform</depends><depends>com.intellij.modules.xdebugger</depends><tags>Code Quality</tags><tags>Completion</tags><tags>Debugging</tags><tags>Formatting</tags><tags>Inspection</tags><tags>Programming Language</tags><tags>Freemium</tags><productCode>PLDBATCHCMD</productCode></idea-plugin><idea-plugin downloads="13" size="333927" date="1795100641000" updatedDate="1795100641000" url=""><name>BABj</name><id>rs.co.bora5.plugins.BABjInteliJ</id><description><![CDATA[Development support for the <b>BABj</b> library (rs.co.bora5.programs.bab).<br>
         <ul>
-          <li><b>Generator</b> — creates a DTO / Home / View / EditWindow quartet from a JPA entity
+          <li><b>Generator</b> — creates a DTO, Home, service, View, and EditWindow from a JPA entity
               following BABj conventions (Alt+Insert → <i>BABj CRUD</i>).</li>
           <li><b>Live templates</b> — <code>bview</code>, <code>bwin</code>, <code>bhome</code>,
-              <code>bdto</code>.</li>
+              <code>bdto</code>, <code>bservice</code>.</li>
           <li><b>Inspections</b> — validate BABj view, service, DTO, and edit-window conventions,
               with a quick fix for generating a missing Edit&lt;Entity&gt;Window.</li>
           <li><b>Navigator</b> — gutter links and a visual tool window connect each Entity, DTO,
-              Home, View, and EditWindow module.</li>
+              Home, service, View, and EditWindow module.</li>
           <li><b>Lifecycle Navigator</b> — diagrams BAB event execution, branches, inherited hooks,
               concrete overrides, and framework side effects with direct code navigation and PNG
               export.</li>
@@ -204951,7 +205115,7 @@ using multi-cursor, and managing tool windows.</p>
 
 <p>Simply hold the Ctrl key, move your mouse over any tool window, and scroll to resize it. The tool window will be highlighted to indicate it's active for resizing.</p>]]></description><version>0.0.1</version><vendor email="jakub@chrzanowski.info" url="https://github.com/hsz/">hsz</vendor><rating>4.1</rating><change-notes><![CDATA[<h3>Added</h3>
 
-<ul><li>Initial scaffold created from <a href="https://github.com/JetBrains/intellij-platform-plugin-template">IntelliJ Platform Plugin Template</a></li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="242.0"/><depends>com.intellij.modules.platform</depends><tags>Productivity</tags><tags>User Interface</tags></idea-plugin><idea-plugin downloads="144240" size="1324092" date="1795527154000" updatedDate="1795527154000" url=""><name>Kotlin Compiler DevKit</name><id>org.jetbrains.kotlin.compiler.devkit</id><description><![CDATA[<p>This plugin enhances the development experience when working with compiler tests in
+<ul><li>Initial scaffold created from <a href="https://github.com/JetBrains/intellij-platform-plugin-template">IntelliJ Platform Plugin Template</a></li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="242.0"/><depends>com.intellij.modules.platform</depends><tags>Productivity</tags><tags>User Interface</tags></idea-plugin><idea-plugin downloads="144240" size="1296459" date="1795612996000" updatedDate="1795612996000" url=""><name>Kotlin Compiler DevKit</name><id>org.jetbrains.kotlin.compiler.devkit</id><description><![CDATA[<p>This plugin enhances the development experience when working with compiler tests in
 the <a href="https://github.com/JetBrains/kotlin">Kotlin</a> project or Kotlin compiler plugins.</p>
 
 <h2>Setup</h2>
@@ -205094,7 +205258,7 @@ smoke or contract schedule before merging. Suppress them with <code>@Suppress("T
   line under the tree explains the outcome. Any branch can also be fetched on demand from its context menu
   ("Refresh Branch").</li><li>Branches can be searched; their icon shows the latest run status.</li><li>Running builds can be stopped; a new launch offers to stop unfinished runs on the same branch.</li></ul>
 
-<p>See <a>docs/remote-run.md</a> for details.</p>]]></description><version>1.0.148</version><vendor email="support@jetbrains.com" url="https://www.jetbrains.com/">JetBrains</vendor><rating>4.6</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="262.0"/><depends>DevKit</depends><depends>com.intellij.gradle</depends><depends>com.intellij.java</depends><depends>com.intellij.modules.platform</depends><depends>org.jetbrains.kotlin</depends><depends>org.jetbrains.plugins.gradle</depends><tags>Code Tools</tags><tags>Editor</tags><tags>Productivity</tags><tags>Programming Language</tags></idea-plugin><idea-plugin downloads="1312" size="56741" date="1793115696000" updatedDate="1793115696000" url=""><name>Secrets Masker</name><id>com.secretsmasker</id><description><![CDATA[<h2>Protect Your Secrets During Live Coding Sessions🛡</h2>
+<p>See <a>docs/remote-run.md</a> for details.</p>]]></description><version>1.0.150</version><vendor email="support@jetbrains.com" url="https://www.jetbrains.com/">JetBrains</vendor><rating>4.6</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="262.0"/><depends>DevKit</depends><depends>com.intellij.gradle</depends><depends>com.intellij.java</depends><depends>com.intellij.modules.platform</depends><depends>org.jetbrains.kotlin</depends><depends>org.jetbrains.plugins.gradle</depends><tags>Code Tools</tags><tags>Editor</tags><tags>Productivity</tags><tags>Programming Language</tags></idea-plugin><idea-plugin downloads="1312" size="56741" date="1793115696000" updatedDate="1793115696000" url=""><name>Secrets Masker</name><id>com.secretsmasker</id><description><![CDATA[<h2>Protect Your Secrets During Live Coding Sessions🛡</h2>
 
         <h3>⚙️ Usage </h3>
         <p><img src="https://raw.githubusercontent.com/heisen273/Secrets-Masker-JetBrains-IntelliJ-plugin/refs/heads/master/assets/usage_icon.gif" alt="Usage via icon"></p>
@@ -207030,6 +207194,12 @@ paste-and-restore, and advanced filtering.]]></description><version>1.0.2</versi
         <p>
             ⚡ <b>One-Click Full-Stack Backend Generation:</b> Automatically creates Controllers, Services, Repositories,
             DTOs, Mappers, Entities and Exception Handling — with multi-entity support and relationship-aware code.
+        </p>
+
+        <p>
+            🧾 <b>Local Prompt Mode:</b> Describe an entity and the backend layers you need in plain structured text.
+            AutoSpring parses it deterministically inside the IDE, shows an editable plan and file preview, and reuses
+            the same generators — no AI service, account or API key required.
         </p>
 
         <p>
@@ -235379,7 +235549,7 @@ private final Map!&lt;String!, List?&lt;Token!&gt;&gt; cache;
 <li><strong>Copy the pull request description.</strong> Copy PR Description copies what breaks for other services, the deploy order, who to ask, and what the change added in its own files.</li>
 <li><strong>Review a teammate's branch.</strong> In Check → Review a Branch, select the branch and keep the suggested target or choose your own. ArchVerity reads the committed files without a checkout and drafts a comment for each place to look at.</li>
 </ol>
-<p><strong>November 21, 2026 update.</strong> In 6.9.2 each interaction of a consumer's pact is checked on its own, as Pact verification replays it; <code>openapi-fetch</code> calls read their response types from the generated declarations; exception statuses follow Spring's advice scopes, also in Kotlin controllers; and Settings | Tools | ArchVerity can remember capture fingerprints for 30 days. Since 6.9 the map shows each service from the inside: its controllers with their routes, HTTP clients, listeners and producers, in columns that follow the direction of the calls. Each action has one verb: Check for your changes and Scan Project for the whole project, and a result that needs review offers See Why. The commit check stops a commit that breaks another service or the Kafka deployment policy; a commit ArchVerity couldn't check all of goes on with a warning that says what is missing, and Settings | Tools | ArchVerity holds the strict mode. Since 6.8 error statuses follow Spring (<code>@ExceptionHandler</code>, <code>@ControllerAdvice</code>, <code>@ResponseStatus</code>, also through <code>orElseThrow</code>), and Kotlin services record status codes as Java ones do. Since 6.7 a change that moves a service to Spring Boot 4 is reviewed with what its JSON does on the wire: <code>getURL()</code> is <code>url</code> on Jackson 2 and <code>URL</code> on Jackson 3, so the renamed property is a break with <code>@JsonProperty</code> as the fix, and the review lists what to check by hand. Consumer pact files count as consumers, outside systems in <code>.archflow.yml</code> can name route patterns and Kafka topics, and <code>@JsonView</code> and status codes are part of the contract. Review a Branch reads one branch name across several repositories. Since 6.6 the tool window says what ArchVerity does on its first screen and keeps four tabs in one row: Check, Problems, Map and Agents. The modern package exposes 22 MCP tools, including <code>archverity_boot_upgrade_check</code>, <code>archverity_review_pr</code> and <code>archverity_pr_description</code>. <strong>Paid-only</strong> contract analysis uses a <strong>14-day Trial</strong> or Pro entitlement.</p>
+<p><strong>November 24, 2026 update.</strong> In 6.9.3 a search moved from POST to <code>QUERY</code> (Spring Framework 7.1) is a break for its POST callers: <code>QUERY</code> mappings, client calls, traces, pacts and OpenAPI 3.2 operations keep their method. In 6.9.2 each interaction of a consumer's pact is checked on its own, as Pact verification replays it; <code>openapi-fetch</code> calls read their response types from the generated declarations; exception statuses follow Spring's advice scopes, also in Kotlin controllers; and Settings | Tools | ArchVerity can remember capture fingerprints for 30 days. Since 6.9 the map shows each service from the inside: its controllers with their routes, HTTP clients, listeners and producers, in columns that follow the direction of the calls. Each action has one verb: Check for your changes and Scan Project for the whole project, and a result that needs review offers See Why. The commit check stops a commit that breaks another service or the Kafka deployment policy; a commit ArchVerity couldn't check all of goes on with a warning that says what is missing, and Settings | Tools | ArchVerity holds the strict mode. Since 6.8 error statuses follow Spring (<code>@ExceptionHandler</code>, <code>@ControllerAdvice</code>, <code>@ResponseStatus</code>, also through <code>orElseThrow</code>), and Kotlin services record status codes as Java ones do. Since 6.7 a change that moves a service to Spring Boot 4 is reviewed with what its JSON does on the wire: <code>getURL()</code> is <code>url</code> on Jackson 2 and <code>URL</code> on Jackson 3, so the renamed property is a break with <code>@JsonProperty</code> as the fix, and the review lists what to check by hand. Consumer pact files count as consumers, outside systems in <code>.archflow.yml</code> can name route patterns and Kafka topics, and <code>@JsonView</code> and status codes are part of the contract. Review a Branch reads one branch name across several repositories. Since 6.6 the tool window says what ArchVerity does on its first screen and keeps four tabs in one row: Check, Problems, Map and Agents. The modern package exposes 22 MCP tools, including <code>archverity_boot_upgrade_check</code>, <code>archverity_review_pr</code> and <code>archverity_pr_description</code>. <strong>Paid-only</strong> contract analysis uses a <strong>14-day Trial</strong> or Pro entitlement.</p>
 <p><strong>IDE compatibility.</strong> The modern package supports IntelliJ builds <code>253.33813.55–263.*</code>. The manual IDEA 2024.3 profile omits ArchVerity MCP tools and the modern IDE commit check.</p>
 <p>Local analysis, Git comparisons and ArchVerity MCP computations work locally once the required plugins, SDKs and entitlement are available. Installation, activation, help pages and an external AI client can still need network access.</p>
 <h2>What it catches</h2>
@@ -240469,11 +240639,11 @@ Le Pro (essai de 30 jours via JetBrains Marketplace) vérifie ce que votre hébe
   <li><b>Partials, layouts and sections</b>: Cmd/Ctrl-click <code>partial="Some/Partial"</code>, <code>&lt;f:layout name="…"/&gt;</code>
       or <code>section="…"</code> (tag and inline syntax). Root paths from TypoScript (<code>partialRootPaths</code> …) are included.
       Partials and layouts that cannot be found are marked as errors.</li>
-  <li><b>Fluid Components</b> (<code>fluid_components</code>): completion of component tags (prefixes as you type, <code>&lt;my:</code> lists all components
+  <li><b>Fluid Components</b> (<code>fluid_components</code> and Fluid 4 components of TYPO3 v14): completion of component tags (prefixes as you type, <code>&lt;my:</code> lists all components
       of the namespace and inserts the required parameters), Cmd/Ctrl-click a component tag like <code>&lt;my:molecule.teaser&gt;</code>,
-      parameter completion from <code>&lt;fc:param&gt;</code> with type and required/optional, warning for missing required parameters.
+      parameter completion from <code>&lt;fc:param&gt;</code> / <code>&lt;f:argument&gt;</code> with type and required/optional, warning for missing required parameters.
       Unknown components are marked as errors. Gutter icon and <i>Navigate | Related Symbol</i> lead to the
-      component files (<code>.fixture.json</code>, <code>Styles</code>, <code>Scripts</code> …). Namespaces registered in <code>ext_localconf.php</code> are resolved.</li>
+      component files (<code>.fixture.json</code>, <code>Styles</code>, <code>Scripts</code> …). Namespaces registered in <code>ext_localconf.php</code> and <code>ComponentCollection</code> classes are resolved, own component folders can be added in the settings.</li>
   <li><b>Usages in the gutter</b>: partials, layouts, templates and components show where they are used - in other
       templates, partials and TypoScript (<code>EXT:</code> paths, <code>templateName</code>).</li>
   <li><b>ViewHelpers</b>: Cmd/Ctrl-click <code>&lt;f:format.html&gt;</code>, <code>{f:count()}</code> or <code>{x -&gt; my:thing()}</code> to open the
@@ -242603,7 +242773,7 @@ Open any folder of <code>.arb</code> files and manage all language translations 
             <li>Resolve simple template strings such as <code>`${BASE_KEY}.title`</code>.</li>
             <li>Configure locales, namespace file mappings, and JSON path templates per project.</li>
         </ul>
-    ]]></description><version>0.1.0</version><vendor email="cthegost@gmail.com" url="">Paprikaapps</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="242.0"/><depends>JavaScript</depends><depends>com.intellij.modules.json</depends><depends>com.intellij.modules.platform</depends><tags>JavaScript</tags><tags>Localization</tags><tags>Web</tags></idea-plugin><idea-plugin downloads="2276" size="2900750" date="1795001404000" updatedDate="1795001404000" url=""><name>German Language Pack</name><id>org.pc-software.idea-deu</id><description><![CDATA[German (Deutsch) language pack for IntelliJ IDEA 2026.3. Translates the IDE user interface, inspection and intention descriptions, tips, and file and postfix templates into German. Deutsches Sprachpaket für IntelliJ IDEA 2026.3.]]></description><version>2026.3.0.1</version><vendor email="cornelis@pcornelissen.de" url="https://github.com/pcornelissen">PC-Software</vendor><rating>00</rating><change-notes><![CDATA[<ul><li>Kompatibel mit IntelliJ IDEA 2026.3</li><li>9411 neue und geänderte Oberflächentexte ins Deutsche übersetzt</li><li>Neue KI-Agenten-Oberfläche (Sitzungen, Workflows, Worktrees, MCP-Einstellungen) vollständig auf Deutsch</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.0" until-build="263.*"/><depends>com.intellij.modules.platform</depends><tags>Localization</tags></idea-plugin><idea-plugin downloads="139" size="92740" date="1784070079000" updatedDate="1784070079000" url="https://github.com/nawinds/poeditor"><name>PO Editor</name><id>ru.aksenov.poeditor</id><description><![CDATA[<p>
+    ]]></description><version>0.1.0</version><vendor email="cthegost@gmail.com" url="">Paprikaapps</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="242.0"/><depends>JavaScript</depends><depends>com.intellij.modules.json</depends><depends>com.intellij.modules.platform</depends><tags>JavaScript</tags><tags>Localization</tags><tags>Web</tags></idea-plugin><idea-plugin downloads="2276" size="2912393" date="1795552305000" updatedDate="1795552305000" url=""><name>German Language Pack</name><id>org.pc-software.idea-deu</id><description><![CDATA[German (Deutsch) language pack for IntelliJ IDEA 2026.3. Translates the IDE user interface, inspection and intention descriptions, tips, and file and postfix templates into German. Deutsches Sprachpaket für IntelliJ IDEA 2026.3.]]></description><version>2026.3.0.1.1</version><vendor email="cornelis@pcornelissen.de" url="https://github.com/pcornelissen">PC-Software</vendor><rating>00</rating><change-notes><![CDATA[<ul><li>Kompatibel mit IntelliJ IDEA 2026.3.0.1</li><li>1335 neue und geänderte Oberflächentexte ins Deutsche übersetzt, vor allem in der KI-Agenten-Oberfläche (Sitzungen, Prompts, Worktrees, Mobile-Steuerung, Bildvorschau)</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.0" until-build="263.*"/><depends>com.intellij.modules.platform</depends><tags>Localization</tags></idea-plugin><idea-plugin downloads="139" size="92740" date="1784070079000" updatedDate="1784070079000" url="https://github.com/nawinds/poeditor"><name>PO Editor</name><id>ru.aksenov.poeditor</id><description><![CDATA[<p>
         A focused table editor for GNU gettext <code>.po</code> translations and
         <code>.pot</code> templates, built directly into JetBrains IDEs.
     </p>
@@ -279295,7 +279465,16 @@ No cumbersome searches; fast and easy.<br>]]></change-notes><idea-version min="n
     syntax highlighting, brace matching, commenting and snippets from the Goose TextMate grammar, and
     the Goose compiler's language server (<code>goose lsp</code>) for diagnostics as you type, completion,
     hover, go to definition, find usages, rename, structure view, semantic highlighting, signature help,
-    inlay hints, folding, code lenses and formatting. Run configurations run, check and build Goose programs.]]></description><version>0.1.3</version><vendor email="ssuciu@gmail.com" url="">Goose</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="262.0"/><depends>com.intellij.modules.lsp</depends><depends>com.intellij.modules.platform</depends><depends>org.jetbrains.plugins.textmate</depends><tags>Build</tags><tags>Code Tools</tags><tags>Programming Language</tags></idea-plugin><idea-plugin downloads="8" size="456068" date="1794868513000" updatedDate="1794868513000" url=""><name>probe-rs Debugging</name><id>dev.markusmayer.proberover</id><description><![CDATA[Debug embedded Rust firmware in RustRover with probe-rs. Click Debug on a Cargo run configuration in a project
+    inlay hints, folding, code lenses and formatting. Run configurations run, check and build Goose programs,
+    and debug them: line breakpoints in .goose files, stepping, the call stack, variables and watches,
+    through lldb-dap (or the goose-dap proxy) and the platform's Debug Adapter Protocol client.
+    <p>For debugging, install the goose-debug package for your platform from
+    <a href="https://github.com/SorinS/goose-debugger/releases">goose-debugger's releases</a>
+    (a Goose compiler with <code>-g</code>, its standard library and the native <code>goose-dap</code> adapter),
+    set its <code>bin/goose-debug</code> as the compiler in Settings | Languages &amp; Frameworks | Goose,
+    and have LLVM's <code>lldb-dap</code> installed (on macOS, the Xcode Command Line Tools);
+    building a program for debugging also needs the platform's C compiler.
+    Plugin 0.3.x goes with goose-debugger 0.3.x.</p>]]></description><version>0.1.3</version><vendor email="ssuciu@gmail.com" url="">Goose</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="262.0"/><depends>com.intellij.modules.lsp</depends><depends>com.intellij.modules.platform</depends><depends>org.jetbrains.plugins.textmate</depends><tags>Build</tags><tags>Code Tools</tags><tags>Programming Language</tags></idea-plugin><idea-plugin downloads="8" size="456068" date="1794868513000" updatedDate="1794868513000" url=""><name>probe-rs Debugging</name><id>dev.markusmayer.proberover</id><description><![CDATA[Debug embedded Rust firmware in RustRover with probe-rs. Click Debug on a Cargo run configuration in a project
     whose <code>.cargo/config.toml</code> uses <code>probe-rs run --chip …</code> as its runner: the firmware is
     flashed, RTT/defmt logs get their own tab with colored levels and clickable locations, and probe-rs errors come
     with a suggested fix. Settings are under Build, Execution, Deployment | probe-rs.]]></description><version>0.1.0</version><vendor email="widemeadows@gmail.cm" url="https://markusmayer.dev">Markus Mayer</vendor><rating>00</rating><change-notes><![CDATA[<ul>
@@ -325360,7 +325539,8 @@ fetches the <code>frus</code> tool, and <code>frus</code> fetches what each plat
       <li>Gradle and Maven projects are found automatically; private Maven repositories reuse the credentials of your
           <code>~/.m2/settings.xml</code>.</li>
       <li>Before you upgrade a dependency: lists the places in your code that its new version breaks, from
-          <code>pom.xml</code>, Gradle build files and version catalogs.</li>
+          <code>pom.xml</code>, Gradle build files and version catalogs. This includes the Android libraries on Google
+          Maven (AndroidX, Compose, Firebase).</li>
       <li>Adds two tools to the IDE's built-in MCP server: <code>check_api_compatibility</code>, so AI agents can ask
           whether their change breaks the API, and <code>check_dependency_upgrade</code>, so they can ask what a
           version bump breaks before they make it.</li>
@@ -362260,7 +362440,8 @@ Fix OpenCode 2 commit-message command mode.]]></change-notes><idea-version min="
     <li>Generate optional scripts and assets, plus Codex interface metadata.</li>
     <li>Validate Codex skills before committing them.</li>
     <li>Review local Codex, Claude, and Gemini run history, token usage, cache behavior, efficiency, and sessions without skills.</li>
-    <li>Search and resume previous project Codex or Claude sessions in a new IntelliJ terminal.</li>
+    <li>Open, resume, or fork scanned local Codex and Claude sessions from provider-specific Sessions menus.</li>
+    <li>Explore saved Codex and Claude Code memories, inspect native agent settings, and review provider-specific safety rules.</li>
 </ul>
 <p><strong>Private by design:</strong> generation, validation, and session analysis run locally. SkillOps does not upload project files, prompts, session logs, credentials, or analytics.</p>]]></description><version>0.9.0</version><vendor email="spmisha134@gmail.com" url="https://softpiers.com/">Sollymanul Islam</vendor><rating>00</rating><change-notes><![CDATA[<ul>
     <li>Reworks Run Insights into a structured metrics table with plain-language explanations.</li>
@@ -372454,69 +372635,7 @@ This is a paid plugin, and it is kept working: bug fixes and updates for new IDE
 
 <h3>Fixed</h3>
 
-<ul><li>A playbook run from the gutter or the Run Playbook dialog no longer changes a saved run configuration. The same settings run it as it is; other settings go to a temporary configuration; "Save as run configuration" (now off by default) adds a new one under a name of its own. Change a saved configuration in its own editor.</li><li>The Ansible Playbook run configuration editor completes environments, limits (the environment's groups and hosts) and tags, like the Run Playbook dialog.</li><li>Changing the golden root's git repository now always deletes the old mirror from the IDE's cache; it could stay on disk until the weekly clean-up when the golden state was read right after the change.</li><li>Rekey…, Change Vault Id… and Encrypt value write a <code>!vault</code> value inside a flow mapping or sequence as one double-quoted line. Before, they wrote a <code>!vault |</code> block there, which YAML does not allow.</li><li>A quoted <code>!vault</code> value with an anchor (<code>&amp;pw !vault "…"</code>) is read correctly by Reveal, the vault actions and the vault index.</li><li>Variable in All Repos no longer reports IDE errors in 2026.3 while it draws its list.</li><li>Deleting a role folder while one of its templates is open no longer reports an IDE error.</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="262.0"/><depends>com.intellij.modules.json</depends><depends>com.intellij.modules.platform</depends><depends>org.jetbrains.plugins.yaml</depends><tags>AI</tags><tags>Code Editing</tags><tags>Code Quality</tags><tags>Code Tools</tags><tags>Inspection</tags></idea-plugin><idea-plugin downloads="114" size="1443547" date="1792193005000" updatedDate="1792193005000" url=""><name>MadeCoders</name><id>dev.madecoders.jetbrains</id><description><![CDATA[<p>Turns <b>your own commits</b> into evidence in My Career on <a href="https://madecoders.com">MadeCoders</a>.</p>
-    <ul>
-      <li><b>&gt;_ MadeCoders</b> tool window on the right with two tabs: <b>Evidence</b> (your knowledge in this project as a tree, with the level calculated by MadeCoders over all your evidence and the commits that support it) and <b>History</b> (a timeline by the original commit date, with search and status filter).</li>
-      <li><b>Smart Commit</b> in the native Commit tool window: the commit message written by the AI you already use, straight into the IDE field.</li>
-      <li>After every commit (Commit, Commit and Push, or any other tool), the commit is analyzed in the background and synced as structured data.</li>
-    </ul>
-    <p>AI is optional and never included: the plugin can run an AI tool you installed and signed in to yourself — OpenAI Codex CLI, Claude Code,
-    Gemini CLI, Ollama, Junie or GitHub Copilot CLI — as a local process, and only after you allow it. Without one, analysis is deterministic.
-    No API keys are requested and the plugin never reads those tools' credentials. MadeCoders never receives your code — only counts, technology,
-    concept and knowledge names, a title and a summary. What an AI tool sends to its own vendor is controlled by that tool, under your account and the vendor's policies.</p>
-    <p>MadeCoders is an independent product, not affiliated with, endorsed or sponsored by Anthropic, OpenAI, Google, GitHub, JetBrains or Ollama.
-    Product names are trademarks of their respective owners.</p>
-    <p>Not a project manager: no boards, tasks, sprints, issues or pull requests.</p>
-    <p>Requires a free <a href="https://madecoders.com">MadeCoders</a> account. Terms: <a href="https://madecoders.com/terms">madecoders.com/terms</a>.
-    Privacy: <a href="https://madecoders.com/privacy">madecoders.com/privacy</a>.</p>]]></description><version>1.2.2</version><vendor email="williamjosefernandes@gmail.com" url="https://wjfdeveloper.com.br/">WJF Developer</vendor><rating>00</rating><change-notes><![CDATA[<h3>1.2.2</h3>
-    <ul>
-      <li>feat(cadastro): cadastro simplificado com username nos tres clientes (ADR-096)</li>
-    </ul>
-    <h3>1.2.1</h3>
-    <ul>
-      <li>Fixed <b>Evidence</b> and <b>History</b> flickering endlessly between loading and error when a read failed: a failed read now retries only with <b>Try again</b>.</li>
-      <li>A repository the server no longer knows is shown as not registered again, with <b>Sync</b> to register it, instead of failing on every read.</li>
-    </ul>
-    <h3>1.2.0</h3>
-    <ul>
-      <li>New window: <b>Evidence</b> is organized by knowledge (Backend → Java → Data validation) with the level from My Career in words, real evidence and contribution counts, and the evidence that supports it; switch to a <b>Commits</b> view anytime.</li>
-      <li><b>History</b> is a timeline by the original commit date with five states — Waiting, Analyzing, Done, No technical evidence and Failed — a real summary, and Try again for failures (it updates the same commit, never duplicates).</li>
-      <li>The current project is the default scope and each IDE window keeps its own; <b>All my projects</b> groups everything by repository.</li>
-      <li>Sign in with the browser: your password never goes through the IDE (e-mail and password remain as an alternative).</li>
-      <li>Open the commit diff and the changed snippets at the commit revision; dispute evidence that doesn't represent your work (reversible).</li>
-      <li>Analyze earlier history with a period, the eligible commits, the Git identities considered and where the processing goes, before starting.</li>
-      <li>The footer only states what the data confirms: publishing control and the real sync state.</li>
-      <li>Fix: on Windows, the history analysis progress card no longer closes before the analysis starts.</li>
-    </ul>
-    <h3>1.1.0</h3>
-    <ul>
-      <li><b>Evidence</b> and <b>History</b> tabs replace Summary/Records: granular knowledge per contribution (path, ordinal level bar, never a percentage), what was demonstrated, your current level and the evidence status (plugin analysis, validated PR or automated review), with links to My Career.</li>
-      <li>Analysis reservation: two IDEs open on the same repository no longer spend AI twice on the same commit; offline, the server still deduplicates on publication.</li>
-      <li>The analysis sends structured knowledge names (competency, concept, feature), through the same privacy rule as technologies and concepts.</li>
-      <li>Smart Commit never replaces a message you already typed: the suggestion comes in a notification with Replace and Copy.</li>
-      <li>History limits are stated: read limit reached and shallow clones are shown on the history card.</li>
-      <li>Signing in with another account clears the previous account's queue, index and caches.</li>
-    </ul>
-    <h3>1.0.2</h3>
-    <ul>
-      <li>Repository and filter lists use the platform's default rendering: no API scheduled for removal is left.</li>
-    </ul>
-    <h3>1.0.1</h3>
-    <ul>
-      <li>Works on 2025.1 and 2025.2 again: the plugin no longer depends on platform classes that only exist in newer IDEs.</li>
-      <li>No internal or scheduled-for-removal platform API is used.</li>
-      <li>The server address is no longer shown in Settings: the plugin always talks to madecoders.com.</li>
-    </ul>
-    <h3>1.0.0</h3>
-    <ul>
-      <li><b>MadeCoders tool window</b>: sign in, today's summary, records, IDE activity history, AI and sync status.</li>
-      <li><b>Smart Commit</b>: writes the commit message with the AI tool you chose, into the native Commit field.</li>
-      <li><b>IDE records</b>: your own commits are analyzed in the background and synced as structured data — never your code.</li>
-      <li><b>Commit history</b>: analyzed on request, in batches, incremental and resumable.</li>
-      <li><b>Privacy</b>: secrets and personal data are removed before any text leaves the machine; repository, branch and commit message names are protected by default.</li>
-      <li><b>AI is optional and yours</b>: Claude Code, OpenAI Codex CLI, Gemini CLI, GitHub Copilot CLI, Junie or Ollama, run as a local process and only after you allow each one. No API keys requested, no tool credentials read.</li>
-      <li><b>Settings</b>: six pages under Settings → Tools → MadeCoders (General, AI, Git, Privacy, Sync, Advanced).</li>
-    </ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="251.0"/><depends>Git4Idea</depends><depends>com.intellij.modules.platform</depends><depends>com.intellij.modules.vcs</depends><tags>AI</tags><tags>Productivity</tags><tags>Tools Integration</tags><tags>VCS</tags></idea-plugin><idea-plugin downloads="145" size="20406" date="1793492302000" updatedDate="1793492302000" url=""><name>Velo Terminal</name><id>dev.velo.terminal</id><description><![CDATA[
+<ul><li>A playbook run from the gutter or the Run Playbook dialog no longer changes a saved run configuration. The same settings run it as it is; other settings go to a temporary configuration; "Save as run configuration" (now off by default) adds a new one under a name of its own. Change a saved configuration in its own editor.</li><li>The Ansible Playbook run configuration editor completes environments, limits (the environment's groups and hosts) and tags, like the Run Playbook dialog.</li><li>Changing the golden root's git repository now always deletes the old mirror from the IDE's cache; it could stay on disk until the weekly clean-up when the golden state was read right after the change.</li><li>Rekey…, Change Vault Id… and Encrypt value write a <code>!vault</code> value inside a flow mapping or sequence as one double-quoted line. Before, they wrote a <code>!vault |</code> block there, which YAML does not allow.</li><li>A quoted <code>!vault</code> value with an anchor (<code>&amp;pw !vault "…"</code>) is read correctly by Reveal, the vault actions and the vault index.</li><li>Variable in All Repos no longer reports IDE errors in 2026.3 while it draws its list.</li><li>Deleting a role folder while one of its templates is open no longer reports an IDE error.</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="262.0"/><depends>com.intellij.modules.json</depends><depends>com.intellij.modules.platform</depends><depends>org.jetbrains.plugins.yaml</depends><tags>AI</tags><tags>Code Editing</tags><tags>Code Quality</tags><tags>Code Tools</tags><tags>Inspection</tags></idea-plugin><idea-plugin downloads="145" size="20406" date="1793492302000" updatedDate="1793492302000" url=""><name>Velo Terminal</name><id>dev.velo.terminal</id><description><![CDATA[
     <p><a href="https://github.com/s-chathuranga-j/terminal-velo">Velo</a> in a tool window: a fast terminal with
     blocks, autosuggestions and just enough AI.</p>
     <ul>
@@ -376449,7 +376568,7 @@ The plugin itself collects no data.</p>
     2.1.10 - Flat redesign with new logo and theme-following accent color, English/Turkish interface switch, model strengths tags, colored image-generation animation, SVG-only icons, plugin descriptor fixes.<br>
     2.1.8 - Project map and code search tools, edit/regenerate/undo controls, English listing text.<br>
     2.1.0 - Stop button, image support, automatic model fallback, checkpoints and undo.<br>
-    2.0.0 - Hosted service with access code.]]></change-notes><idea-version min="n/a" max="n/a" since-build="231.0"/><depends>com.intellij.modules.platform</depends><tags>AI</tags><tags>Code Editing</tags><tags>Code Tools</tags></idea-plugin><idea-plugin downloads="326" size="15414319" date="1794532050000" updatedDate="1794532050000" url=""><name>Explyt AI Agent</name><id>com.explyt.neo</id><description><![CDATA[<p>
+    2.0.0 - Hosted service with access code.]]></change-notes><idea-version min="n/a" max="n/a" since-build="231.0"/><depends>com.intellij.modules.platform</depends><tags>AI</tags><tags>Code Editing</tags><tags>Code Tools</tags></idea-plugin><idea-plugin downloads="326" size="16018018" date="1795547457000" updatedDate="1795547457000" url=""><name>Explyt AI Agent</name><id>com.explyt.neo</id><description><![CDATA[<p>
 Explyt AI Agent is an AI coding agent inside your JetBrains IDE. Describe a task in the chat, and the agent
 reads your project, edits the code and runs the commands it needs, while you stay in control: every edit
 shows up as a diff, you decide what the agent may do, and you can roll back anything you do not want.
@@ -376499,17 +376618,15 @@ as Claude Code, Codex or Cursor. All of them run in a single chat window.
 
 <p>
 If Explyt AI Agent helps your work, please rate the plugin on JetBrains Marketplace.
-</p>]]></description><version>0.5.3-263</version><vendor email="support@explyt.com" url="https://explyt.ai">Explyt</vendor><rating>3.8</rating><change-notes><![CDATA[<h1>What's New in Explyt AI Agent</h1>
+</p>]]></description><version>0.5.4-263</version><vendor email="support@explyt.com" url="https://explyt.ai">Explyt</vendor><rating>3.4</rating><change-notes><![CDATA[<h1>What's New in Explyt AI Agent</h1>
 
 <ul>
-    <li><strong>Translated the plugin into Russian:</strong> every window and panel of the plugin is now available in Russian. Change the language in the plugin settings: <strong>Settings → Tools → Explyt AI Agent → Language</strong>.</li>
-    <li><strong>Made agent context changes take effect immediately:</strong> in the <strong>Agent context</strong> panel, opened from the chat title, turn each MCP server, rule and skill of the Explyt agent on or off with its switch, remove it, or add a new one for the current project or for all projects; the change applies immediately, with no <strong>Apply</strong> step. In the model selector you can now also add your own provider with <strong>Add provider…</strong>.</li>
-    <li><strong>Simplified onboarding:</strong> the first run of the plugin now takes three steps: sign in, pick a plan and connect. The Explyt agent installs in the background when the IDE starts, so it is ready by the last step.</li>
-    <li><strong>Brought back asking about selected text:</strong> select part of a chat message, such as a line of the agent's answer, and choose <strong>Ask</strong> in its context menu or press <strong>Ctrl+Alt+C</strong> (<strong>⌥⌘C</strong> on macOS). The fragment goes into the prompt as a quote, ready for your question.</li>
-    <li><strong>Added a chat history popup:</strong> click <strong>History</strong> in the chat title, find a chat by its name and open it; the popup closes by itself.</li>
-    <li><strong>Made the agent's questions easier to answer:</strong> when the agent needs your decision, each question opens on its own tab with a suitable answer already picked. Optional questions can stay unanswered, and <strong>Skip questions</strong> lets the agent go on without your answers. All of it works from the keyboard.</li>
-    <li><strong>Taught search to find by first letters:</strong> in the slash-command list, the model selector, the <strong>Agents</strong> panel and the chat history search, type the start of a name or the first letters of its words: <strong>cs</strong> finds <strong>claude-sonnet</strong>. In the slash-command list, letters in order work too: <strong>/rvw</strong> finds <strong>/review</strong>. The matched letters are highlighted.</li>
-    <li><strong>Improved the agent's diffs and panels:</strong> the agent's changes now show the surrounding lines of code and open in the IDE diff viewer; the <strong>Account</strong>, <strong>Agents</strong> and <strong>Agent context</strong> panels close when you click outside them.</li>
+    <li><strong>Draft chats:</strong> leaving a chat with unsent text no longer loses it. The unfinished prompt is kept as a draft, shown in <strong>History</strong> with an <strong>Unsent</strong> badge; open it and the text and choices are back, ready to send. Closing a tab keeps the unsent text too.</li>
+    <li><strong>Message queue:</strong> edit a queued message in place, drag the queue rows to reorder them, or press <strong>Send all</strong> to merge the whole queue into one message and send it when the current turn ends.</li>
+    <li><strong>Reconnect a failed agent without restarting the IDE:</strong> when an agent's process stops, the chat says so and turns read-only. Press <strong>Reconnect</strong> in the <strong>Agents</strong> panel and the chat on screen comes back live with its history; the agent selector now shows each agent's real status.</li>
+    <li><strong>Attach chats and terminals:</strong> mention another chat with <strong>@/chat/</strong> or a terminal with <strong>@/terminal/</strong> in the prompt, or drag a chat from <strong>History</strong>.</li>
+    <li><strong>UI fixes:</strong> the session-expired notice is a proper warning banner with its buttons, placed above the prompt's tabs; the Explyt agent's questions show the <strong>Other</strong> free-text answer row; the <strong>Account</strong> settings page shows the account panel again.</li>
+    <li><strong>Reliability fixes:</strong> a manual <strong>Stop</strong> stays final when message edits and automatic retry interact; tool paths under the obsolete Docker mount prefix no longer flood the IDE with internal errors.</li>
 </ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="263.0" until-build="263.*"/><depends>com.intellij.modules.compose</depends><depends>com.intellij.modules.platform</depends><tags>AI</tags><tags>Code Quality</tags><tags>Static Analysis</tags></idea-plugin><idea-plugin downloads="108" size="3984701" date="1795236571000" updatedDate="1795236571000" url=""><name>Tandem</name><id>dev.daarkolabs.tandem</id><description><![CDATA[A fast, native chat inside JetBrains IDEs that works with Claude Code.<br>
     Uses your own installed <code>claude</code> CLI and the sign-in it already has, subscription or API key; nothing to
     configure, and Tandem never reads your credentials. No webview, no Node, no bundled SDK: new models and commands work

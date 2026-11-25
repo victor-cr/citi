@@ -45816,7 +45816,7 @@ any personal data.</p>]]></description><version>2025.1.315</version><vendor emai
 <h3>Resources</h3>
 <ul>
     <li><a href="https://github.com/manifold-systems/manifold">https://github.com/manifold-systems/manifold</a></li>
-</ul>]]></description><version>2026.2.6</version><vendor email="admin@manifold.systems" url="http://manifold.systems/">Manifold</vendor><rating>4.5</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="262.0" until-build="262.*"/><depends>com.intellij.modules.java</depends><depends>com.intellij.modules.json</depends><tags>Tools Integration</tags></idea-plugin><idea-plugin downloads="1083" size="65126" date="1507555505000" updatedDate="1507555505000" url=""><name>Clone Artifact</name><id>pl.com.andriejsoft.CloneArtifact</id><description><![CDATA[This is plugin to clone artifact.]]></description><version>1.1</version><vendor email="an.melnyk@plus.pl" url="">AndriejSoft</vendor><rating>00</rating><change-notes><![CDATA[1.0 Initial version. 1.1 Minor bugfix.]]></change-notes><idea-version min="n/a" max="n/a" since-build="145.0"/><tags>Tools Integration</tags></idea-plugin><idea-plugin downloads="18528" size="46156" date="1510062425000" updatedDate="1510062425000" url=""><name>Maven Wrapper IntelliJ IDEA plugin</name><id>maven-wrapper-plugin</id><description><![CDATA[Maven Wrapper support for IntelliJ IDEA. https://github.com/takari/maven-wrapper]]></description><version>0.0.1</version><vendor email="libing.chen@gmail.com" url="https://github.com/linux-china">jenv</vendor><rating>00</rating><change-notes><![CDATA[<ul>
+</ul>]]></description><version>2026.2.6</version><vendor email="admin@manifold.systems" url="http://manifold.systems/">Manifold</vendor><rating>4.5</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="262.0" until-build="262.*"/><depends>com.intellij.modules.java</depends><depends>com.intellij.modules.json</depends><tags>Tools Integration</tags></idea-plugin><idea-plugin downloads="18528" size="46156" date="1510062425000" updatedDate="1510062425000" url=""><name>Maven Wrapper IntelliJ IDEA plugin</name><id>maven-wrapper-plugin</id><description><![CDATA[Maven Wrapper support for IntelliJ IDEA. https://github.com/takari/maven-wrapper]]></description><version>0.0.1</version><vendor email="libing.chen@gmail.com" url="https://github.com/linux-china">jenv</vendor><rating>00</rating><change-notes><![CDATA[<ul>
   0.0.1: 
  <li>Auto detect Maven Wrapper</li> 
  <li>No download for wrapper, please use "./mvnw compile" download Maven first.</li> 
@@ -56948,8 +56948,11 @@ Works in every IntelliJ-based IDE and every file type.]]></description><version>
       <code>a-b/s</code>, and comma lists. 100% offline.</li>
     </ul>
     <p>Open it from <b>View ▸ Tool Windows ▸ Cron</b>.</p>
-    <p><i>Free core. A future Pro tier adds Quartz 6/7-field cron, time-zone-aware next-runs and batch
-    checking.</i></p>
+    <p><b>Pro</b> adds the <b>Quartz 6/7-field</b> dialect — a leading <code>second</code> field and an
+    optional trailing <code>year</code> (e.g. <code>0 15 10 ? * MON-FRI</code>, <code>30 * * * * ?</code>),
+    with Quartz's own day-of-week numbering (1 = Sunday) and the <code>?</code> "no specific value" marker.
+    The free core handles the full Unix 5-field cron. A free trial is available; later Pro additions:
+    time-zone-aware next-runs and batch checking.</p>
     <p><b>More from the Kassi QA &amp; fintech toolkit:</b></p>
     <p><b>Fintech &amp; validators:</b> <a href="https://plugins.jetbrains.com/plugin/33419">ISO 8583 Inspector</a> · <a href="https://plugins.jetbrains.com/plugin/33836">SWIFT MT &amp; ISO 20022 Validator</a> · <a href="https://plugins.jetbrains.com/plugin/34673">ACH / NACHA Toolkit</a> · <a href="https://plugins.jetbrains.com/plugin/33227">Checksum &amp; Regex Playground</a> · <a href="https://plugins.jetbrains.com/plugin/35290">Crypto Codec Toolkit</a></p>
     <p><b>Spec-valid test data:</b> <a href="https://plugins.jetbrains.com/plugin/33149">Kassi Test Data</a> · <a href="https://plugins.jetbrains.com/plugin/33967">HTTP Data Injector</a> · <a href="https://plugins.jetbrains.com/plugin/35316">SQL Synthetic Seeder</a> · <a href="https://plugins.jetbrains.com/plugin/33488">UUID / ULID / NanoID Toolkit</a></p>]]></description><version>1.2.0</version><vendor email="vtoptunov88@gmail.com" url="">Vadim Toptunov</vendor><rating>00</rating><change-notes><![CDATA[<h3>1.2.0</h3>
@@ -110309,7 +110312,7 @@ diagnostics, hover documentation, navigation, formatting, parameter information,
 and inlay hints, according to the capabilities of the selected server.</p>
 
 <p>Requires an IntelliJ-based IDE with JetBrains LSP support, version <strong>2026.3 or
-newer</strong>, and the bundled <strong>TextMate Bundles</strong> plugin.</p>]]></description><version>0.4.1</version><vendor email="mark_nefedov@icloud.com" url="">mark_nefedov</vendor><rating>00</rating><change-notes><![CDATA[<ul><li>Fix the managed server failing to start on Linux x64 distributions that use glibc: use the glibc build, and keep the musl build only for musl-based systems such as Alpine.</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="262.10315.125"/><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.lsp</depends><depends>org.jetbrains.plugins.textmate</depends><tags>Programming Language</tags></idea-plugin><idea-plugin downloads="83" size="2368992" date="1789973258000" updatedDate="1789973258000" url=""><name>Templ Hero</name><id>com.langheroes.templ</id><description><![CDATA[<p><strong>Templ Hero</strong> provides language support for Templ (<code>.templ</code>) Go HTML components.</p>
+newer</strong>, and the bundled <strong>TextMate Bundles</strong> plugin.</p>]]></description><version>0.4.1</version><vendor email="mark_nefedov@icloud.com" url="">mark_nefedov</vendor><rating>4.4</rating><change-notes><![CDATA[<ul><li>Fix the managed server failing to start on Linux x64 distributions that use glibc: use the glibc build, and keep the musl build only for musl-based systems such as Alpine.</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="262.10315.125"/><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.lsp</depends><depends>org.jetbrains.plugins.textmate</depends><tags>Programming Language</tags></idea-plugin><idea-plugin downloads="83" size="2368992" date="1789973258000" updatedDate="1789973258000" url=""><name>Templ Hero</name><id>com.langheroes.templ</id><description><![CDATA[<p><strong>Templ Hero</strong> provides language support for Templ (<code>.templ</code>) Go HTML components.</p>
 
 <p>The plugin provides syntax highlighting, navigation, references, diagnostics, templates.</p>]]></description><version>2026.2.0</version><vendor email="support@hublhero.com" url="https://langheroes.com/">Lang Heroes</vendor><rating>4.4</rating><change-notes><![CDATA[<h3>Added</h3>
 
@@ -198496,14 +198499,14 @@ The same rules run in CI with the free command-line tool
   <li>First release: batch language support, inspections, run configuration and debugger, encoding guard, formatter, Convert to PowerShell, Blinter integration.</li>
 </ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="251.0"/><depends>com.intellij.modules.platform</depends><depends>com.intellij.modules.xdebugger</depends><tags>Code Quality</tags><tags>Completion</tags><tags>Debugging</tags><tags>Formatting</tags><tags>Inspection</tags><tags>Programming Language</tags><tags>Freemium</tags><productCode>PLDBATCHCMD</productCode></idea-plugin><idea-plugin downloads="13" size="333927" date="1795100641000" updatedDate="1795100641000" url=""><name>BABj</name><id>rs.co.bora5.plugins.BABjInteliJ</id><description><![CDATA[Development support for the <b>BABj</b> library (rs.co.bora5.programs.bab).<br>
         <ul>
-          <li><b>Generator</b> — creates a DTO / Home / View / EditWindow quartet from a JPA entity
+          <li><b>Generator</b> — creates a DTO, Home, service, View, and EditWindow from a JPA entity
               following BABj conventions (Alt+Insert → <i>BABj CRUD</i>).</li>
           <li><b>Live templates</b> — <code>bview</code>, <code>bwin</code>, <code>bhome</code>,
-              <code>bdto</code>.</li>
+              <code>bdto</code>, <code>bservice</code>.</li>
           <li><b>Inspections</b> — validate BABj view, service, DTO, and edit-window conventions,
               with a quick fix for generating a missing Edit&lt;Entity&gt;Window.</li>
           <li><b>Navigator</b> — gutter links and a visual tool window connect each Entity, DTO,
-              Home, View, and EditWindow module.</li>
+              Home, service, View, and EditWindow module.</li>
           <li><b>Lifecycle Navigator</b> — diagrams BAB event execution, branches, inherited hooks,
               concrete overrides, and framework side effects with direct code navigation and PNG
               export.</li>
@@ -211437,7 +211440,7 @@ using multi-cursor, and managing tool windows.</p>
 
 <p>Simply hold the Ctrl key, move your mouse over any tool window, and scroll to resize it. The tool window will be highlighted to indicate it's active for resizing.</p>]]></description><version>0.0.1</version><vendor email="jakub@chrzanowski.info" url="https://github.com/hsz/">hsz</vendor><rating>4.1</rating><change-notes><![CDATA[<h3>Added</h3>
 
-<ul><li>Initial scaffold created from <a href="https://github.com/JetBrains/intellij-platform-plugin-template">IntelliJ Platform Plugin Template</a></li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="242.0"/><depends>com.intellij.modules.platform</depends><tags>Productivity</tags><tags>User Interface</tags></idea-plugin><idea-plugin downloads="144240" size="1324092" date="1795527154000" updatedDate="1795527154000" url=""><name>Kotlin Compiler DevKit</name><id>org.jetbrains.kotlin.compiler.devkit</id><description><![CDATA[<p>This plugin enhances the development experience when working with compiler tests in
+<ul><li>Initial scaffold created from <a href="https://github.com/JetBrains/intellij-platform-plugin-template">IntelliJ Platform Plugin Template</a></li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="242.0"/><depends>com.intellij.modules.platform</depends><tags>Productivity</tags><tags>User Interface</tags></idea-plugin><idea-plugin downloads="144240" size="1296459" date="1795612996000" updatedDate="1795612996000" url=""><name>Kotlin Compiler DevKit</name><id>org.jetbrains.kotlin.compiler.devkit</id><description><![CDATA[<p>This plugin enhances the development experience when working with compiler tests in
 the <a href="https://github.com/JetBrains/kotlin">Kotlin</a> project or Kotlin compiler plugins.</p>
 
 <h2>Setup</h2>
@@ -211580,7 +211583,7 @@ smoke or contract schedule before merging. Suppress them with <code>@Suppress("T
   line under the tree explains the outcome. Any branch can also be fetched on demand from its context menu
   ("Refresh Branch").</li><li>Branches can be searched; their icon shows the latest run status.</li><li>Running builds can be stopped; a new launch offers to stop unfinished runs on the same branch.</li></ul>
 
-<p>See <a>docs/remote-run.md</a> for details.</p>]]></description><version>1.0.148</version><vendor email="support@jetbrains.com" url="https://www.jetbrains.com/">JetBrains</vendor><rating>4.6</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="262.0"/><depends>DevKit</depends><depends>com.intellij.gradle</depends><depends>com.intellij.java</depends><depends>com.intellij.modules.platform</depends><depends>org.jetbrains.kotlin</depends><depends>org.jetbrains.plugins.gradle</depends><tags>Code Tools</tags><tags>Editor</tags><tags>Productivity</tags><tags>Programming Language</tags></idea-plugin><idea-plugin downloads="1312" size="56741" date="1793115696000" updatedDate="1793115696000" url=""><name>Secrets Masker</name><id>com.secretsmasker</id><description><![CDATA[<h2>Protect Your Secrets During Live Coding Sessions🛡</h2>
+<p>See <a>docs/remote-run.md</a> for details.</p>]]></description><version>1.0.150</version><vendor email="support@jetbrains.com" url="https://www.jetbrains.com/">JetBrains</vendor><rating>4.6</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="262.0"/><depends>DevKit</depends><depends>com.intellij.gradle</depends><depends>com.intellij.java</depends><depends>com.intellij.modules.platform</depends><depends>org.jetbrains.kotlin</depends><depends>org.jetbrains.plugins.gradle</depends><tags>Code Tools</tags><tags>Editor</tags><tags>Productivity</tags><tags>Programming Language</tags></idea-plugin><idea-plugin downloads="1312" size="56741" date="1793115696000" updatedDate="1793115696000" url=""><name>Secrets Masker</name><id>com.secretsmasker</id><description><![CDATA[<h2>Protect Your Secrets During Live Coding Sessions🛡</h2>
 
         <h3>⚙️ Usage </h3>
         <p><img src="https://raw.githubusercontent.com/heisen273/Secrets-Masker-JetBrains-IntelliJ-plugin/refs/heads/master/assets/usage_icon.gif" alt="Usage via icon"></p>
@@ -213516,6 +213519,12 @@ paste-and-restore, and advanced filtering.]]></description><version>1.0.2</versi
         <p>
             ⚡ <b>One-Click Full-Stack Backend Generation:</b> Automatically creates Controllers, Services, Repositories,
             DTOs, Mappers, Entities and Exception Handling — with multi-entity support and relationship-aware code.
+        </p>
+
+        <p>
+            🧾 <b>Local Prompt Mode:</b> Describe an entity and the backend layers you need in plain structured text.
+            AutoSpring parses it deterministically inside the IDE, shows an editable plan and file preview, and reuses
+            the same generators — no AI service, account or API key required.
         </p>
 
         <p>
@@ -242491,7 +242500,7 @@ private final Map!&lt;String!, List?&lt;Token!&gt;&gt; cache;
 <li><strong>Copy the pull request description.</strong> Copy PR Description copies what breaks for other services, the deploy order, who to ask, and what the change added in its own files.</li>
 <li><strong>Review a teammate's branch.</strong> In Check → Review a Branch, select the branch and keep the suggested target or choose your own. ArchVerity reads the committed files without a checkout and drafts a comment for each place to look at.</li>
 </ol>
-<p><strong>November 21, 2026 update.</strong> In 6.9.2 each interaction of a consumer's pact is checked on its own, as Pact verification replays it; <code>openapi-fetch</code> calls read their response types from the generated declarations; exception statuses follow Spring's advice scopes, also in Kotlin controllers; and Settings | Tools | ArchVerity can remember capture fingerprints for 30 days. Since 6.9 the map shows each service from the inside: its controllers with their routes, HTTP clients, listeners and producers, in columns that follow the direction of the calls. Each action has one verb: Check for your changes and Scan Project for the whole project, and a result that needs review offers See Why. The commit check stops a commit that breaks another service or the Kafka deployment policy; a commit ArchVerity couldn't check all of goes on with a warning that says what is missing, and Settings | Tools | ArchVerity holds the strict mode. Since 6.8 error statuses follow Spring (<code>@ExceptionHandler</code>, <code>@ControllerAdvice</code>, <code>@ResponseStatus</code>, also through <code>orElseThrow</code>), and Kotlin services record status codes as Java ones do. Since 6.7 a change that moves a service to Spring Boot 4 is reviewed with what its JSON does on the wire: <code>getURL()</code> is <code>url</code> on Jackson 2 and <code>URL</code> on Jackson 3, so the renamed property is a break with <code>@JsonProperty</code> as the fix, and the review lists what to check by hand. Consumer pact files count as consumers, outside systems in <code>.archflow.yml</code> can name route patterns and Kafka topics, and <code>@JsonView</code> and status codes are part of the contract. Review a Branch reads one branch name across several repositories. Since 6.6 the tool window says what ArchVerity does on its first screen and keeps four tabs in one row: Check, Problems, Map and Agents. The modern package exposes 22 MCP tools, including <code>archverity_boot_upgrade_check</code>, <code>archverity_review_pr</code> and <code>archverity_pr_description</code>. <strong>Paid-only</strong> contract analysis uses a <strong>14-day Trial</strong> or Pro entitlement.</p>
+<p><strong>November 24, 2026 update.</strong> In 6.9.3 a search moved from POST to <code>QUERY</code> (Spring Framework 7.1) is a break for its POST callers: <code>QUERY</code> mappings, client calls, traces, pacts and OpenAPI 3.2 operations keep their method. In 6.9.2 each interaction of a consumer's pact is checked on its own, as Pact verification replays it; <code>openapi-fetch</code> calls read their response types from the generated declarations; exception statuses follow Spring's advice scopes, also in Kotlin controllers; and Settings | Tools | ArchVerity can remember capture fingerprints for 30 days. Since 6.9 the map shows each service from the inside: its controllers with their routes, HTTP clients, listeners and producers, in columns that follow the direction of the calls. Each action has one verb: Check for your changes and Scan Project for the whole project, and a result that needs review offers See Why. The commit check stops a commit that breaks another service or the Kafka deployment policy; a commit ArchVerity couldn't check all of goes on with a warning that says what is missing, and Settings | Tools | ArchVerity holds the strict mode. Since 6.8 error statuses follow Spring (<code>@ExceptionHandler</code>, <code>@ControllerAdvice</code>, <code>@ResponseStatus</code>, also through <code>orElseThrow</code>), and Kotlin services record status codes as Java ones do. Since 6.7 a change that moves a service to Spring Boot 4 is reviewed with what its JSON does on the wire: <code>getURL()</code> is <code>url</code> on Jackson 2 and <code>URL</code> on Jackson 3, so the renamed property is a break with <code>@JsonProperty</code> as the fix, and the review lists what to check by hand. Consumer pact files count as consumers, outside systems in <code>.archflow.yml</code> can name route patterns and Kafka topics, and <code>@JsonView</code> and status codes are part of the contract. Review a Branch reads one branch name across several repositories. Since 6.6 the tool window says what ArchVerity does on its first screen and keeps four tabs in one row: Check, Problems, Map and Agents. The modern package exposes 22 MCP tools, including <code>archverity_boot_upgrade_check</code>, <code>archverity_review_pr</code> and <code>archverity_pr_description</code>. <strong>Paid-only</strong> contract analysis uses a <strong>14-day Trial</strong> or Pro entitlement.</p>
 <p><strong>IDE compatibility.</strong> The modern package supports IntelliJ builds <code>253.33813.55–263.*</code>. The manual IDEA 2024.3 profile omits ArchVerity MCP tools and the modern IDE commit check.</p>
 <p>Local analysis, Git comparisons and ArchVerity MCP computations work locally once the required plugins, SDKs and entitlement are available. Installation, activation, help pages and an external AI client can still need network access.</p>
 <h2>What it catches</h2>
@@ -247615,11 +247624,11 @@ Le Pro (essai de 30 jours via JetBrains Marketplace) vérifie ce que votre hébe
   <li><b>Partials, layouts and sections</b>: Cmd/Ctrl-click <code>partial="Some/Partial"</code>, <code>&lt;f:layout name="…"/&gt;</code>
       or <code>section="…"</code> (tag and inline syntax). Root paths from TypoScript (<code>partialRootPaths</code> …) are included.
       Partials and layouts that cannot be found are marked as errors.</li>
-  <li><b>Fluid Components</b> (<code>fluid_components</code>): completion of component tags (prefixes as you type, <code>&lt;my:</code> lists all components
+  <li><b>Fluid Components</b> (<code>fluid_components</code> and Fluid 4 components of TYPO3 v14): completion of component tags (prefixes as you type, <code>&lt;my:</code> lists all components
       of the namespace and inserts the required parameters), Cmd/Ctrl-click a component tag like <code>&lt;my:molecule.teaser&gt;</code>,
-      parameter completion from <code>&lt;fc:param&gt;</code> with type and required/optional, warning for missing required parameters.
+      parameter completion from <code>&lt;fc:param&gt;</code> / <code>&lt;f:argument&gt;</code> with type and required/optional, warning for missing required parameters.
       Unknown components are marked as errors. Gutter icon and <i>Navigate | Related Symbol</i> lead to the
-      component files (<code>.fixture.json</code>, <code>Styles</code>, <code>Scripts</code> …). Namespaces registered in <code>ext_localconf.php</code> are resolved.</li>
+      component files (<code>.fixture.json</code>, <code>Styles</code>, <code>Scripts</code> …). Namespaces registered in <code>ext_localconf.php</code> and <code>ComponentCollection</code> classes are resolved, own component folders can be added in the settings.</li>
   <li><b>Usages in the gutter</b>: partials, layouts, templates and components show where they are used - in other
       templates, partials and TypoScript (<code>EXT:</code> paths, <code>templateName</code>).</li>
   <li><b>ViewHelpers</b>: Cmd/Ctrl-click <code>&lt;f:format.html&gt;</code>, <code>{f:count()}</code> or <code>{x -&gt; my:thing()}</code> to open the
@@ -287157,7 +287166,16 @@ No cumbersome searches; fast and easy.<br>]]></change-notes><idea-version min="n
     syntax highlighting, brace matching, commenting and snippets from the Goose TextMate grammar, and
     the Goose compiler's language server (<code>goose lsp</code>) for diagnostics as you type, completion,
     hover, go to definition, find usages, rename, structure view, semantic highlighting, signature help,
-    inlay hints, folding, code lenses and formatting. Run configurations run, check and build Goose programs.]]></description><version>0.1.3</version><vendor email="ssuciu@gmail.com" url="">Goose</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="262.0"/><depends>com.intellij.modules.lsp</depends><depends>com.intellij.modules.platform</depends><depends>org.jetbrains.plugins.textmate</depends><tags>Build</tags><tags>Code Tools</tags><tags>Programming Language</tags></idea-plugin><idea-plugin downloads="15" size="4941102" date="1795510000000" updatedDate="1795510000000" url=""><name>Trace Nest</name><id>com.tracenest</id><description><![CDATA[See what your Spring Boot services did in the last hour, without leaving the IDE and without a server
+    inlay hints, folding, code lenses and formatting. Run configurations run, check and build Goose programs,
+    and debug them: line breakpoints in .goose files, stepping, the call stack, variables and watches,
+    through lldb-dap (or the goose-dap proxy) and the platform's Debug Adapter Protocol client.
+    <p>For debugging, install the goose-debug package for your platform from
+    <a href="https://github.com/SorinS/goose-debugger/releases">goose-debugger's releases</a>
+    (a Goose compiler with <code>-g</code>, its standard library and the native <code>goose-dap</code> adapter),
+    set its <code>bin/goose-debug</code> as the compiler in Settings | Languages &amp; Frameworks | Goose,
+    and have LLVM's <code>lldb-dap</code> installed (on macOS, the Xcode Command Line Tools);
+    building a program for debugging also needs the platform's C compiler.
+    Plugin 0.3.x goes with goose-debugger 0.3.x.</p>]]></description><version>0.1.3</version><vendor email="ssuciu@gmail.com" url="">Goose</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="262.0"/><depends>com.intellij.modules.lsp</depends><depends>com.intellij.modules.platform</depends><depends>org.jetbrains.plugins.textmate</depends><tags>Build</tags><tags>Code Tools</tags><tags>Programming Language</tags></idea-plugin><idea-plugin downloads="15" size="4941102" date="1795510000000" updatedDate="1795510000000" url=""><name>Trace Nest</name><id>com.tracenest</id><description><![CDATA[See what your Spring Boot services did in the last hour, without leaving the IDE and without a server
     or database of your own. Recording needs a Trace Nest account.
     <ul>
       <li><b>Records runs started from the IDE, with nothing to install.</b> Application and Spring Boot run
@@ -334882,7 +334900,8 @@ fetches the <code>frus</code> tool, and <code>frus</code> fetches what each plat
       <li>Gradle and Maven projects are found automatically; private Maven repositories reuse the credentials of your
           <code>~/.m2/settings.xml</code>.</li>
       <li>Before you upgrade a dependency: lists the places in your code that its new version breaks, from
-          <code>pom.xml</code>, Gradle build files and version catalogs.</li>
+          <code>pom.xml</code>, Gradle build files and version catalogs. This includes the Android libraries on Google
+          Maven (AndroidX, Compose, Firebase).</li>
       <li>Adds two tools to the IDE's built-in MCP server: <code>check_api_compatibility</code>, so AI agents can ask
           whether their change breaks the API, and <code>check_dependency_upgrade</code>, so they can ask what a
           version bump breaks before they make it.</li>
@@ -375752,7 +375771,8 @@ Fix OpenCode 2 commit-message command mode.]]></change-notes><idea-version min="
     <li>Generate optional scripts and assets, plus Codex interface metadata.</li>
     <li>Validate Codex skills before committing them.</li>
     <li>Review local Codex, Claude, and Gemini run history, token usage, cache behavior, efficiency, and sessions without skills.</li>
-    <li>Search and resume previous project Codex or Claude sessions in a new IntelliJ terminal.</li>
+    <li>Open, resume, or fork scanned local Codex and Claude sessions from provider-specific Sessions menus.</li>
+    <li>Explore saved Codex and Claude Code memories, inspect native agent settings, and review provider-specific safety rules.</li>
 </ul>
 <p><strong>Private by design:</strong> generation, validation, and session analysis run locally. SkillOps does not upload project files, prompts, session logs, credentials, or analytics.</p>]]></description><version>0.9.0</version><vendor email="spmisha134@gmail.com" url="https://softpiers.com/">Sollymanul Islam</vendor><rating>00</rating><change-notes><![CDATA[<ul>
     <li>Reworks Run Insights into a structured metrics table with plain-language explanations.</li>
@@ -387227,69 +387247,7 @@ full attribution notice ships with the plugin.</p>]]></description><version>2.0.
 
 <h3>Fixed</h3>
 
-<ul><li>A playbook run from the gutter or the Run Playbook dialog no longer changes a saved run configuration. The same settings run it as it is; other settings go to a temporary configuration; "Save as run configuration" (now off by default) adds a new one under a name of its own. Change a saved configuration in its own editor.</li><li>The Ansible Playbook run configuration editor completes environments, limits (the environment's groups and hosts) and tags, like the Run Playbook dialog.</li><li>Changing the golden root's git repository now always deletes the old mirror from the IDE's cache; it could stay on disk until the weekly clean-up when the golden state was read right after the change.</li><li>Rekey…, Change Vault Id… and Encrypt value write a <code>!vault</code> value inside a flow mapping or sequence as one double-quoted line. Before, they wrote a <code>!vault |</code> block there, which YAML does not allow.</li><li>A quoted <code>!vault</code> value with an anchor (<code>&amp;pw !vault "…"</code>) is read correctly by Reveal, the vault actions and the vault index.</li><li>Variable in All Repos no longer reports IDE errors in 2026.3 while it draws its list.</li><li>Deleting a role folder while one of its templates is open no longer reports an IDE error.</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="262.0"/><depends>com.intellij.modules.json</depends><depends>com.intellij.modules.platform</depends><depends>org.jetbrains.plugins.yaml</depends><tags>AI</tags><tags>Code Editing</tags><tags>Code Quality</tags><tags>Code Tools</tags><tags>Inspection</tags></idea-plugin><idea-plugin downloads="114" size="1443547" date="1792193005000" updatedDate="1792193005000" url=""><name>MadeCoders</name><id>dev.madecoders.jetbrains</id><description><![CDATA[<p>Turns <b>your own commits</b> into evidence in My Career on <a href="https://madecoders.com">MadeCoders</a>.</p>
-    <ul>
-      <li><b>&gt;_ MadeCoders</b> tool window on the right with two tabs: <b>Evidence</b> (your knowledge in this project as a tree, with the level calculated by MadeCoders over all your evidence and the commits that support it) and <b>History</b> (a timeline by the original commit date, with search and status filter).</li>
-      <li><b>Smart Commit</b> in the native Commit tool window: the commit message written by the AI you already use, straight into the IDE field.</li>
-      <li>After every commit (Commit, Commit and Push, or any other tool), the commit is analyzed in the background and synced as structured data.</li>
-    </ul>
-    <p>AI is optional and never included: the plugin can run an AI tool you installed and signed in to yourself — OpenAI Codex CLI, Claude Code,
-    Gemini CLI, Ollama, Junie or GitHub Copilot CLI — as a local process, and only after you allow it. Without one, analysis is deterministic.
-    No API keys are requested and the plugin never reads those tools' credentials. MadeCoders never receives your code — only counts, technology,
-    concept and knowledge names, a title and a summary. What an AI tool sends to its own vendor is controlled by that tool, under your account and the vendor's policies.</p>
-    <p>MadeCoders is an independent product, not affiliated with, endorsed or sponsored by Anthropic, OpenAI, Google, GitHub, JetBrains or Ollama.
-    Product names are trademarks of their respective owners.</p>
-    <p>Not a project manager: no boards, tasks, sprints, issues or pull requests.</p>
-    <p>Requires a free <a href="https://madecoders.com">MadeCoders</a> account. Terms: <a href="https://madecoders.com/terms">madecoders.com/terms</a>.
-    Privacy: <a href="https://madecoders.com/privacy">madecoders.com/privacy</a>.</p>]]></description><version>1.2.2</version><vendor email="williamjosefernandes@gmail.com" url="https://wjfdeveloper.com.br/">WJF Developer</vendor><rating>00</rating><change-notes><![CDATA[<h3>1.2.2</h3>
-    <ul>
-      <li>feat(cadastro): cadastro simplificado com username nos tres clientes (ADR-096)</li>
-    </ul>
-    <h3>1.2.1</h3>
-    <ul>
-      <li>Fixed <b>Evidence</b> and <b>History</b> flickering endlessly between loading and error when a read failed: a failed read now retries only with <b>Try again</b>.</li>
-      <li>A repository the server no longer knows is shown as not registered again, with <b>Sync</b> to register it, instead of failing on every read.</li>
-    </ul>
-    <h3>1.2.0</h3>
-    <ul>
-      <li>New window: <b>Evidence</b> is organized by knowledge (Backend → Java → Data validation) with the level from My Career in words, real evidence and contribution counts, and the evidence that supports it; switch to a <b>Commits</b> view anytime.</li>
-      <li><b>History</b> is a timeline by the original commit date with five states — Waiting, Analyzing, Done, No technical evidence and Failed — a real summary, and Try again for failures (it updates the same commit, never duplicates).</li>
-      <li>The current project is the default scope and each IDE window keeps its own; <b>All my projects</b> groups everything by repository.</li>
-      <li>Sign in with the browser: your password never goes through the IDE (e-mail and password remain as an alternative).</li>
-      <li>Open the commit diff and the changed snippets at the commit revision; dispute evidence that doesn't represent your work (reversible).</li>
-      <li>Analyze earlier history with a period, the eligible commits, the Git identities considered and where the processing goes, before starting.</li>
-      <li>The footer only states what the data confirms: publishing control and the real sync state.</li>
-      <li>Fix: on Windows, the history analysis progress card no longer closes before the analysis starts.</li>
-    </ul>
-    <h3>1.1.0</h3>
-    <ul>
-      <li><b>Evidence</b> and <b>History</b> tabs replace Summary/Records: granular knowledge per contribution (path, ordinal level bar, never a percentage), what was demonstrated, your current level and the evidence status (plugin analysis, validated PR or automated review), with links to My Career.</li>
-      <li>Analysis reservation: two IDEs open on the same repository no longer spend AI twice on the same commit; offline, the server still deduplicates on publication.</li>
-      <li>The analysis sends structured knowledge names (competency, concept, feature), through the same privacy rule as technologies and concepts.</li>
-      <li>Smart Commit never replaces a message you already typed: the suggestion comes in a notification with Replace and Copy.</li>
-      <li>History limits are stated: read limit reached and shallow clones are shown on the history card.</li>
-      <li>Signing in with another account clears the previous account's queue, index and caches.</li>
-    </ul>
-    <h3>1.0.2</h3>
-    <ul>
-      <li>Repository and filter lists use the platform's default rendering: no API scheduled for removal is left.</li>
-    </ul>
-    <h3>1.0.1</h3>
-    <ul>
-      <li>Works on 2025.1 and 2025.2 again: the plugin no longer depends on platform classes that only exist in newer IDEs.</li>
-      <li>No internal or scheduled-for-removal platform API is used.</li>
-      <li>The server address is no longer shown in Settings: the plugin always talks to madecoders.com.</li>
-    </ul>
-    <h3>1.0.0</h3>
-    <ul>
-      <li><b>MadeCoders tool window</b>: sign in, today's summary, records, IDE activity history, AI and sync status.</li>
-      <li><b>Smart Commit</b>: writes the commit message with the AI tool you chose, into the native Commit field.</li>
-      <li><b>IDE records</b>: your own commits are analyzed in the background and synced as structured data — never your code.</li>
-      <li><b>Commit history</b>: analyzed on request, in batches, incremental and resumable.</li>
-      <li><b>Privacy</b>: secrets and personal data are removed before any text leaves the machine; repository, branch and commit message names are protected by default.</li>
-      <li><b>AI is optional and yours</b>: Claude Code, OpenAI Codex CLI, Gemini CLI, GitHub Copilot CLI, Junie or Ollama, run as a local process and only after you allow each one. No API keys requested, no tool credentials read.</li>
-      <li><b>Settings</b>: six pages under Settings → Tools → MadeCoders (General, AI, Git, Privacy, Sync, Advanced).</li>
-    </ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="251.0"/><depends>Git4Idea</depends><depends>com.intellij.modules.platform</depends><depends>com.intellij.modules.vcs</depends><tags>AI</tags><tags>Productivity</tags><tags>Tools Integration</tags><tags>VCS</tags></idea-plugin><idea-plugin downloads="145" size="20406" date="1793492302000" updatedDate="1793492302000" url=""><name>Velo Terminal</name><id>dev.velo.terminal</id><description><![CDATA[
+<ul><li>A playbook run from the gutter or the Run Playbook dialog no longer changes a saved run configuration. The same settings run it as it is; other settings go to a temporary configuration; "Save as run configuration" (now off by default) adds a new one under a name of its own. Change a saved configuration in its own editor.</li><li>The Ansible Playbook run configuration editor completes environments, limits (the environment's groups and hosts) and tags, like the Run Playbook dialog.</li><li>Changing the golden root's git repository now always deletes the old mirror from the IDE's cache; it could stay on disk until the weekly clean-up when the golden state was read right after the change.</li><li>Rekey…, Change Vault Id… and Encrypt value write a <code>!vault</code> value inside a flow mapping or sequence as one double-quoted line. Before, they wrote a <code>!vault |</code> block there, which YAML does not allow.</li><li>A quoted <code>!vault</code> value with an anchor (<code>&amp;pw !vault "…"</code>) is read correctly by Reveal, the vault actions and the vault index.</li><li>Variable in All Repos no longer reports IDE errors in 2026.3 while it draws its list.</li><li>Deleting a role folder while one of its templates is open no longer reports an IDE error.</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="262.0"/><depends>com.intellij.modules.json</depends><depends>com.intellij.modules.platform</depends><depends>org.jetbrains.plugins.yaml</depends><tags>AI</tags><tags>Code Editing</tags><tags>Code Quality</tags><tags>Code Tools</tags><tags>Inspection</tags></idea-plugin><idea-plugin downloads="145" size="20406" date="1793492302000" updatedDate="1793492302000" url=""><name>Velo Terminal</name><id>dev.velo.terminal</id><description><![CDATA[
     <p><a href="https://github.com/s-chathuranga-j/terminal-velo">Velo</a> in a tool window: a fast terminal with
     blocks, autosuggestions and just enough AI.</p>
     <ul>
@@ -391286,7 +391244,7 @@ as Claude Code, Codex or Cursor. All of them run in a single chat window.
 
 <p>
 If Explyt AI Agent helps your work, please rate the plugin on JetBrains Marketplace.
-</p>]]></description><version>0.5.3-262</version><vendor email="support@explyt.com" url="https://explyt.ai">Explyt</vendor><rating>3.8</rating><change-notes><![CDATA[<h1>What's New in Explyt AI Agent</h1>
+</p>]]></description><version>0.5.3-262</version><vendor email="support@explyt.com" url="https://explyt.ai">Explyt</vendor><rating>3.4</rating><change-notes><![CDATA[<h1>What's New in Explyt AI Agent</h1>
 
 <ul>
     <li><strong>Translated the plugin into Russian:</strong> every window and panel of the plugin is now available in Russian. Change the language in the plugin settings: <strong>Settings → Tools → Explyt AI Agent → Language</strong>.</li>
@@ -391922,6 +391880,8 @@ OpenSCAD itself is only needed for the preview, export and conversion.</p>
             <li>今日签到与成长中心接口非官方公开接口，路径与字段可能随版本变化，失败只提示且可在设置页改路径或关闭。</li>
             <li>模型限额只做统计与预警，不会拦截 CodeBuddy 客户端的模型调用。</li>
             <li>快捷短语与中断自动继续都依赖 JCEF 注入读写聊天面板，CodeBuddy 页面改版后可能找不到输入框 / 按钮；失败只提示，不影响 IDE。</li>
+            <li>桌宠弹窗确认需要往 CodeBuddy 的 settings.json 增加一条 PreToolUse hook：只有主人在弹窗里点「写入并备份」后才会写，写入前自动备份为 settings.json.pet-bak，可在看板「撤销写入」撤回；不点同意则一个字都不写。</li>
+            <li>插件只访问 CodeBuddy 官方接口与本机配置文件，不上传账号、凭据或项目内容到任何第三方服务器。</li>
         </ul>
         <h3>源码与反馈</h3>
         <p>源码仓库：<a href="https://github.com/qiXiaoFanTomato/codebuddy-account-manager">github.com/qiXiaoFanTomato/codebuddy-account-manager</a>。</p>

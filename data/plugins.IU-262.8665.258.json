@@ -4416,12 +4416,6 @@
 		"version": "1.1"
 	},
 	{
-		"id": 39433,
-		"pluginId": 10087,
-		"pluginXmlId": "pl.com.andriejsoft.CloneArtifact",
-		"version": "1.1"
-	},
-	{
 		"id": 39473,
 		"pluginId": 10088,
 		"pluginXmlId": "com.huangmb.idea.fineI18N",
@@ -29664,10 +29658,10 @@
 		"version": "2.2"
 	},
 	{
-		"id": 1228022,
+		"id": 1228455,
 		"pluginId": 27616,
 		"pluginXmlId": "org.jetbrains.kotlin.compiler.devkit",
-		"version": "1.0.148"
+		"version": "1.0.150"
 	},
 	{
 		"id": 1153317,
@@ -54454,12 +54448,6 @@
 		"pluginId": 34721,
 		"pluginXmlId": "com.factodus.logline",
 		"version": "1.0.3"
-	},
-	{
-		"id": 1196169,
-		"pluginId": 34723,
-		"pluginXmlId": "dev.madecoders.jetbrains",
-		"version": "1.2.2"
 	},
 	{
 		"id": 1209055,

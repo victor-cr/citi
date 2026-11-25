@@ -864,6 +864,12 @@
 		"version": "263.7307.101"
 	},
 	{
+		"id": 1228423,
+		"pluginId": 7096,
+		"pluginXmlId": "JSFL Support",
+		"version": "4.5.8"
+	},
+	{
 		"id": 121961,
 		"pluginId": 7100,
 		"pluginXmlId": "jd-intellij",
@@ -4365,12 +4371,6 @@
 		"id": 39398,
 		"pluginId": 10084,
 		"pluginXmlId": "com.mikyou.plugin.which_activity",
-		"version": "1.1"
-	},
-	{
-		"id": 39433,
-		"pluginId": 10087,
-		"pluginXmlId": "pl.com.andriejsoft.CloneArtifact",
 		"version": "1.1"
 	},
 	{
@@ -22452,10 +22452,10 @@
 		"version": "0.1.4"
 	},
 	{
-		"id": 1207464,
+		"id": 1228439,
 		"pluginId": 22851,
 		"pluginXmlId": "DevKit",
-		"version": "263.7307.112"
+		"version": "263.7307.363"
 	},
 	{
 		"id": 1212307,
@@ -29016,10 +29016,10 @@
 		"version": "2.0.3"
 	},
 	{
-		"id": 1217650,
+		"id": 1228402,
 		"pluginId": 27488,
 		"pluginXmlId": "com.jetbrains.opentelemetry",
-		"version": "2.3.7"
+		"version": "2.3.8"
 	},
 	{
 		"id": 1110291,
@@ -29196,10 +29196,10 @@
 		"version": "2.2"
 	},
 	{
-		"id": 1228022,
+		"id": 1228455,
 		"pluginId": 27616,
 		"pluginXmlId": "org.jetbrains.kotlin.compiler.devkit",
-		"version": "1.0.148"
+		"version": "1.0.150"
 	},
 	{
 		"id": 1153317,
@@ -45156,10 +45156,10 @@
 		"version": "2.1.10"
 	},
 	{
-		"id": 1223532,
+		"id": 1228168,
 		"pluginId": 32785,
 		"pluginXmlId": "org.pc-software.idea-deu",
-		"version": "2026.3.0.1"
+		"version": "2026.3.0.1.1"
 	},
 	{
 		"id": 1105772,
@@ -53112,12 +53112,6 @@
 		"version": "1.0.3"
 	},
 	{
-		"id": 1196169,
-		"pluginId": 34723,
-		"pluginXmlId": "dev.madecoders.jetbrains",
-		"version": "1.2.2"
-	},
-	{
 		"id": 1209055,
 		"pluginId": 34724,
 		"pluginXmlId": "dev.velo.terminal",
@@ -57162,10 +57156,10 @@
 		"version": "1.0.3"
 	},
 	{
-		"id": 1219214,
+		"id": 1228152,
 		"pluginId": 35626,
 		"pluginXmlId": "com.explyt.neo",
-		"version": "0.5.3-263"
+		"version": "0.5.4-263"
 	},
 	{
 		"id": 1215403,
