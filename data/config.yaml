@@ -24,30 +24,26 @@ common:
       family: INTELLIJ
       name: IntelliJ IDEA
       builds:
-        - build: 263.7307.200 # Cutting edge
+        # Latest 2026.3 with security fix
+        - build: 263.7307.353
           enabled: true
-          version: '2026.3'
-        - build: 262.12573.28 # Latest 2026.2
+          version: '2026.3.0.1'
+        # Latest 2026.2 with security fix
+        - build: 262.12573.58
           enabled: true
-          version: '2026.2.5'
-        - build: 262.9437.185 # Supported fallback
+          version: '2026.2.5.1'
+        # Supported fallback without security fix
+        - build: 262.9437.185
           enabled: true
           version: '2026.2.1'
-        - build: 262.8665.337
-          enabled: true
-          version: '2026.2.0.1'
-        - build: 262.8665.258 # Current mainstream
+        # Current mainstream without security fix
+        - build: 262.8665.258
           enabled: true
           version: '2026.2'
-        - build: 261.26222.65 # Latest 2026.1
+        # Latest 2026.1 with security fix
+        - build: 261.27258.169
           enabled: true
-          version: '2026.1.4'
-        - build: 261.24374.151
-          enabled: true
-          version: '2026.1.2'
-        - build: 261.22158.277
-          enabled: true
-          version: '2026.1'
+          version: '2026.1.5.2'
 loader:
   bucket: 50
 proxy:

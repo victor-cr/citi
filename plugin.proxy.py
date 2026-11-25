@@ -87,6 +87,10 @@ class PluginData(NamedTuple):
 class ProxyHandler(BaseHTTPRequestHandler):
     protocol_version = config['proxy']['version']
 
+    def version_string(self):
+        """Return the server software version string."""
+        return self.server_version + ' ' + self.sys_version
+
     def log_request(self, code):
         pass
 
