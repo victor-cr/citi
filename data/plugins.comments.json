@@ -59502,6 +59502,7 @@
 			"rating": 4
 		}
 	],
+	"com.aquilax.appsec": [],
 	"com.aradiors.ftccompanion": [],
 	"com.arampetrosyann.eplangSyntax": [],
 	"com.arangodb.intellij.aql": [
@@ -177245,6 +177246,7 @@
 			"rating": 5
 		}
 	],
+	"com.metaor.json-plugin": [],
 	"com.metepg": [],
 	"com.metepg.intellij-visual-studio-code-dark-plus": [],
 	"com.meterian.heidi-plugin-intellij": [
