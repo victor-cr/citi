@@ -5,6 +5,9 @@ common:
   http:
     userAgent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36
     acceptEncoding: gzip, deflate, br
+  download:
+    source: download.jetbrains.com
+    target: d1do0znm134sif.cloudfront.net
   hosts:
     source: plugins.jetbrains.com
     target: d3kdv2x2np28ys.cloudfront.net
@@ -23,6 +26,9 @@ common:
     - code: IU
       family: INTELLIJ
       name: IntelliJ IDEA
+      api:
+        - https://data.services.jetbrains.com/products/releases?code=IIU&latest=true&type=release&build=
+        - https://data.services.jetbrains.com/products?code=IIU&release.type=eap%2Crc%2Crelease&fields=distributions%2Clink%2Cname%2Creleases
       builds:
         # Latest 2026.3 with security fix
         - build: 263.7307.353
@@ -42,7 +48,7 @@ common:
           version: '2026.2'
         # Latest 2026.1 with security fix
         - build: 261.27258.169
-          enabled: true
+          enabled: false
           version: '2026.1.5.2'
 loader:
   bucket: 50
