@@ -43,6 +43,9 @@ common:
           enabled: true
           version: '2026.2.1'
         # Current mainstream without security fix
+        - build: 262.8665.337
+          enabled: true
+          version: '2026.2.0.1'
         - build: 262.8665.258
           enabled: true
           version: '2026.2'
