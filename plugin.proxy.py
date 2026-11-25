@@ -138,6 +138,34 @@ class ProxyHandler(BaseHTTPRequestHandler):
 
         print(prefix, 'Forward to', location)
 
+    def do_POST(self):
+        try:
+            print('UKWN', 'POST', self.path)
+            self.send_error(404)
+        except ConnectionAbortedError:
+            print('@ERR', 'POST aborted', self.path)
+
+    def do_PUT(self):
+        try:
+            print('UKWN', 'PUT', self.path)
+            self.send_error(404)
+        except ConnectionAbortedError:
+            print('@ERR', 'PUT aborted', self.path)
+
+    def do_DELETE(self):
+        try:
+            print('UKWN', 'DELETE', self.path)
+            self.send_error(404)
+        except ConnectionAbortedError:
+            print('@ERR', 'DELETE aborted', self.path)
+
+    def do_HEAD(self):
+        try:
+            print('UKWN', 'HEAD', self.path)
+            self.send_error(404)
+        except ConnectionAbortedError:
+            print('@ERR', 'HEAD aborted', self.path)
+
     def do_GET(self):
         try:
             for pattern in replacements:
@@ -292,7 +320,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
                 print('UKWN', self.path)
                 self.send_error(404)
         except ConnectionAbortedError:
-            print('@ERR', 'Connection aborted', self.path)
+            print('@ERR', 'GET aborted', self.path)
 
 
 def init(version):
